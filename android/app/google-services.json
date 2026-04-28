@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "370353571625",
+    "project_id": "chatbot-app-443a0",
+    "storage_bucket": "chatbot-app-443a0.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:370353571625:android:4d5c079ceec427e0f4d938",
+        "android_client_info": {
+          "package_name": "com.example.chatbot_app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD3UvTGuKHKsQvERTf9dSNcT0_teOsevlQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
