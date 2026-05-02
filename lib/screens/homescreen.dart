@@ -115,7 +115,7 @@ class _StateHomescreen extends State<Homescreen> {
 
     return Drawer(
       width: MediaQuery.widthOf(context),
-      backgroundColor: ColorConstant.color_darkblueshade200,
+      backgroundColor: ColorConstant.color_darkblueshade500,
       child: SafeArea(
         child: Column(
           children: [
@@ -445,7 +445,6 @@ class _StateHomescreen extends State<Homescreen> {
                         shape: RoundedRectangleBorder(
                           borderRadius: BorderRadius.circular(10.0),
                         ),
-
                         duration: Duration(seconds: 1),
                       ),
                     );
@@ -517,7 +516,7 @@ class _StateHomescreen extends State<Homescreen> {
             decoration: BoxDecoration(
               borderRadius: BorderRadius.circular(20),
               color: isUser
-                  ? ColorConstant.color_darkblueshade200
+                  ? ColorConstant.color_darkblueshade500
                   : ColorConstant.color_darkblueshade150,
             ),
             padding: EdgeInsets.all(14),
