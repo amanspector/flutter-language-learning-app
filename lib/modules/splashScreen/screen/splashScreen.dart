@@ -1,8 +1,8 @@
-import 'package:chatbot_app/core/appconstants/color_constant.dart';
-import 'package:chatbot_app/core/appconstants/text_constant.dart';
+import 'package:chatbot_app/core/extensions/localization_extension.dart';
+import 'package:chatbot_app/core/extensions/theme_extension.dart';
+import 'package:chatbot_app/core/widgets/app_animaation.dart';
+import 'package:chatbot_app/core/widgets/app_screen.dart';
 import 'package:chatbot_app/generated/l10n.dart';
-import 'package:chatbot_app/modules/splashScreen/screen/ambient_background.dart';
-import 'package:flutter/services.dart';
 import '../service/sessionManage.dart';
 import 'package:chatbot_app/modules/homepage/screen/homescreen.dart';
 import '../../onboarding/screen/getStarted.dart';
@@ -19,42 +19,10 @@ class Splashscreen extends StatefulWidget {
 
 class _SplashscreenState extends State<Splashscreen>
     with TickerProviderStateMixin {
-  late final AnimationController _progressController;
-  late final AnimationController _entryController;
-  late final Animation<double> _logoScale;
-  late final Animation<double> _fadeIn;
-
   @override
   void initState() {
     super.initState();
     _initializeAppData();
-    _entryController = AnimationController(
-      vsync: this,
-      duration: const Duration(milliseconds: 700),
-    );
-    _logoScale = CurvedAnimation(
-      parent: _entryController,
-      curve: Curves.easeOutBack,
-    );
-    _fadeIn = CurvedAnimation(
-      parent: _entryController,
-      curve: const Interval(0.3, 1.0, curve: Curves.easeOut),
-    );
-    _progressController = AnimationController(
-      vsync: this,
-      duration: const Duration(
-        milliseconds: 3000,
-      ), // Matched to your initialization delay
-    );
-    _entryController.forward();
-    _progressController.forward();
-  }
-
-  @override
-  void dispose() {
-    _entryController.dispose();
-    _progressController.dispose();
-    super.dispose();
   }
 
   Future<void> _initializeAppData() async {
@@ -92,96 +60,38 @@ class _SplashscreenState extends State<Splashscreen>
 
   @override
   Widget build(BuildContext context) {
-    return AnnotatedRegion<SystemUiOverlayStyle>(
-      value: SystemUiOverlayStyle(
-        statusBarColor: ColorConstant.colorTransparent,
-        statusBarIconBrightness: Brightness.dark,
-      ),
-      child: Scaffold(
-        body: AmbientBackground(
-          child: SafeArea(
-            child: Center(
-              child: Column(
-                mainAxisAlignment: MainAxisAlignment.center,
-                crossAxisAlignment: CrossAxisAlignment.center,
-                children: [
-                  const Spacer(flex: 3),
-                  ScaleTransition(
-                    scale: Tween<double>(
-                      begin: 0.85,
-                      end: 1.0,
-                    ).animate(_logoScale),
-                    child: const _LogoCard(
-                      imagePath: 'assets/icon/appicon_1.png',
-                    ),
-                  ),
-
-                  FadeTransition(
-                    opacity: _fadeIn,
-                    child: Text(
-                      S.of(context).appName,
-                      style: Theme.of(context).textTheme.displayLarge,
-                    ),
-                  ),
-
-                  FadeTransition(
-                    opacity: _fadeIn,
-                    child: Text(
-                      S.of(context).appNameSubtitle,
-                      style: Theme.of(context).textTheme.headlineSmall
-                          ?.copyWith(
-                            color: Theme.of(
-                              context,
-                            ).colorScheme.onPrimaryContainer,
-                          ),
-                    ),
-                  ),
-                  const SizedBox(height: 30),
-
-                  FadeTransition(
-                    opacity: _fadeIn,
-                    child: Column(
-                      children: [
-                        Padding(
-                          padding: const EdgeInsets.symmetric(horizontal: 64),
-                          child: AnimatedBuilder(
-                            animation: _progressController,
-                            builder: (context, _) {
-                              return Padding(
-                                padding: const EdgeInsets.symmetric(
-                                  horizontal: 15.0,
-                                ),
-                                child: LinearProgressIndicator(
-                                  borderRadius: BorderRadius.circular(20),
-                                  minHeight: 8,
-                                  value: _progressController.value,
-                                  backgroundColor: ColorConstant.lightgreen,
-                                  valueColor: AlwaysStoppedAnimation<Color>(
-                                    Theme.of(context).colorScheme.primary,
-                                  ),
-                                ),
-                              );
-                            },
-                          ),
-                        ),
-                        const SizedBox(height: 20),
-                        Text(
-                          Textconstant.syncingProgress,
-                          style: Theme.of(context).textTheme.labelMedium
-                              ?.copyWith(
-                                color: Theme.of(context).colorScheme.primary,
-                              ),
-                        ),
-                      ],
-                    ),
-                  ),
-                  SizedBox(height: 320),
-                ],
+    return AppScreen(
+      body: Center(
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          crossAxisAlignment: CrossAxisAlignment.center,
+          children: [
+            _LogoCard(imagePath: 'assets/icon/appicon_1.png').blurIn,
+            Text(
+              S.of(context).appName,
+              style: context.text.displayLarge,
+              textAlign: TextAlign.center,
+            ).fadeInScale,
+            Text(
+              context.l10n.appNameSubtitle,
+              textAlign: TextAlign.center,
+              style: context.text.headlineSmall?.copyWith(
+                color: context.theme.colorScheme.onPrimaryContainer,
               ),
-            ),
-          ),
+            ).fadeInScale,
+            SizedBox(height: 20),
+            Text(
+              context.l10n.syncingProgress,
+              // Textconstant.syncingProgress,
+              style: Theme.of(context).textTheme.labelMedium?.copyWith(
+                color: Theme.of(context).colorScheme.primary,
+              ),
+            ).fadeInScale,
+          ],
         ),
       ),
+      // ),
+      // ),
     );
   }
 }
@@ -196,10 +106,10 @@ class _LogoCard extends StatelessWidget {
       height: 132,
       width: 130,
       decoration: BoxDecoration(
-        color: ColorConstant.colorWhite.withValues(alpha: 0.04),
+        color: context.theme.colorScheme.surface.withValues(alpha: 0.04),
         borderRadius: BorderRadius.circular(28),
         border: Border.all(
-          color: ColorConstant.colorWhite.withValues(alpha: 0.08),
+          color: context.theme.colorScheme.surface.withValues(alpha: 0.08),
           width: 1,
         ),
       ),

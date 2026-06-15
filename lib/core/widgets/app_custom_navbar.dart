@@ -33,21 +33,24 @@ class CustomNavBar extends StatelessWidget {
         mainAxisAlignment: MainAxisAlignment.spaceAround,
         children: [
           _NavItem(
-            icon: Icons.home_rounded,
+            iconSelected: Icons.home,
+            iconDisabled: Icons.home_outlined,
             label: context.l10n.home,
             index: 0,
             selectedIndex: selectedIndex,
             onTap: onTap,
           ),
           _NavItem(
-            icon: Icons.chat_bubble_rounded,
+            iconSelected: Icons.chat_bubble,
+            iconDisabled: Icons.chat_bubble_outline_outlined,
             label: context.l10n.chat,
             index: 1,
             selectedIndex: selectedIndex,
             onTap: onTap,
           ),
           _NavItem(
-            icon: Icons.person_rounded,
+            iconSelected: Icons.person,
+            iconDisabled: Icons.person_outline,
             label: context.l10n.profile,
             index: 2,
             selectedIndex: selectedIndex,
@@ -60,14 +63,16 @@ class CustomNavBar extends StatelessWidget {
 }
 
 class _NavItem extends StatelessWidget {
-  final IconData icon;
+  final IconData iconSelected;
+  final IconData iconDisabled;
   final String label;
   final int index;
   final int selectedIndex;
   final ValueChanged<int> onTap;
 
   const _NavItem({
-    required this.icon,
+    required this.iconSelected,
+    required this.iconDisabled,
     required this.label,
     required this.index,
     required this.selectedIndex,
@@ -94,9 +99,9 @@ class _NavItem extends StatelessWidget {
           child: Row(
             children: [
               Icon(
-                icon,
+                isSelected ? iconSelected : iconDisabled,
                 color: isSelected
-                    ? context.theme.colorScheme.onSurface
+                    ? context.theme.colorScheme.onSecondaryContainer
                     : context.theme.colorScheme.outline,
                 // size: 30.sp,
               ),
@@ -108,7 +113,12 @@ class _NavItem extends StatelessWidget {
                         padding: EdgeInsets.only(left: 6.r),
                         child: Text(
                           label,
-                          style: context.theme.textTheme.titleMedium,
+                          style: context.theme.textTheme.titleMedium?.copyWith(
+                            color: isSelected
+                                ? context.theme.colorScheme.onSecondaryContainer
+                                : null,
+                            fontWeight: FontWeight.w600,
+                          ),
                         ),
                       )
                     : SizedBox.shrink(),

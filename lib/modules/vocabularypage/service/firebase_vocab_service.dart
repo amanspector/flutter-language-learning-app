@@ -32,7 +32,10 @@ class FirebaseVocabService {
           .doc('learned_words');
 
       batch.set(learnedWordsRef, {
-        'word_ids': FieldValue.arrayUnion(masteredWords),
+        'word_ids': FieldValue.arrayUnion([
+          ...masteredWords,
+          ...needReviewWords,
+        ]),
         'last_updated': timestamp,
       }, SetOptions(merge: true));
 

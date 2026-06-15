@@ -12,6 +12,8 @@ class HomescreenProvider extends ChangeNotifier {
   int seletectedIndex = 0;
   bool isInitLoading = false;
   bool isLoadUserState = false;
+  final PageController pageController = PageController();
+
   final FocusNode focus = FocusNode();
   Future<void> loadUserStats(String uid) async {
     if (isLoadUserState) return;
@@ -107,6 +109,7 @@ class HomescreenProvider extends ChangeNotifier {
 
   void bottomNavBarIndex(int index) {
     seletectedIndex = index;
+    pageController.jumpToPage(index);
     notifyListeners();
   }
 
@@ -118,5 +121,11 @@ class HomescreenProvider extends ChangeNotifier {
   void keyboardfocus() {
     focus.requestFocus();
     notifyListeners();
+  }
+
+  @override
+  void dispose() {
+    pageController.dispose();
+    super.dispose();
   }
 }

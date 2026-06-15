@@ -5,12 +5,14 @@ import 'package:flutter/material.dart';
 class AppScreen extends StatelessWidget {
   final Widget body;
   final AppBar? appBar;
+  final Widget? bottomNavigation;
   final DrawerCallback? onDrawerChanged;
   const AppScreen({
     super.key,
     required this.body,
     this.appBar,
     this.onDrawerChanged,
+    this.bottomNavigation,
   });
 
   @override
@@ -33,6 +35,7 @@ class AppScreen extends StatelessWidget {
           onDrawerChanged: onDrawerChanged,
           appBar: appBar,
           body: body,
+          bottomNavigationBar: bottomNavigation,
           backgroundColor: ColorConstant.colorTransparent,
         ),
       ),

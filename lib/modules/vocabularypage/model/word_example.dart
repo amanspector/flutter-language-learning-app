@@ -1,13 +1,13 @@
 class WordExample {
   final String sentence;
-  final String translationEnglish;
+  String? translationEnglish;
   final String translationNative;
   final String level; // easy, medium, hard
   final List<String> sentenceParts;
 
   WordExample({
     required this.sentence,
-    required this.translationEnglish,
+    this.translationEnglish,
     required this.translationNative,
     required this.level,
     required this.sentenceParts,
@@ -27,7 +27,7 @@ class WordExample {
 
   Map<String, dynamic> toJson() => {
     'sentence': sentence,
-    'translation_english': translationEnglish,
+    'translation_english': translationEnglish ?? " ",
     'translation_native': translationNative,
     'level': level,
     'sentence_parts': sentenceParts,

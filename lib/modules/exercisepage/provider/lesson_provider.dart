@@ -1,6 +1,6 @@
 import 'dart:math';
 import 'dart:developer' as dev;
-import 'package:chatbot_app/core/widgets/app_showLoading.dart';
+import 'package:chatbot_app/core/widgets/app_loading_screen.dart';
 import 'package:chatbot_app/generated/l10n.dart';
 import 'package:chatbot_app/modules/exercisepage/model/exercise_model.dart';
 import 'package:chatbot_app/modules/vocabularypage/provider/vocab_provider.dart';
@@ -112,11 +112,9 @@ class LessonProvider extends ChangeNotifier {
       dev.log("SRS card updated............");
       _updateSrsCard(testedWord, isCorrect);
     }
-
-    // _updateSrsCard(
-    //   lessonWords.firstWhere((w) => w.word == currentExercise!.correctAnswer),
-    //   isCorrect,
-    // );
+    dev.log("✅ isCorrect: $isCorrect");
+    dev.log("📊 score: $score");
+    dev.log("📝 testedWord: ${currentExercise!.questionWithoutBlank}");
     notifyListeners();
   }
 
@@ -427,10 +425,9 @@ class LessonProvider extends ChangeNotifier {
     isAnswered = true;
     final universalRegex = RegExp(r'[¿¡!?,.\-\s\u064B-\u0652]');
     String sanitize(String input) {
-      return input
-          .characters // Breaks string into safe character clusters (fixes accent/matra bugs)
-          .toString() // Converts back to a normalized string
-          .toLowerCase() // Case-insensitivity
+      return input.characters
+          .toString()
+          .toLowerCase()
           .replaceAll(universalRegex, '') // Removes trailing/leading symbols
           .trim(); // Extra space protection
     }
@@ -468,7 +465,11 @@ class LessonProvider extends ChangeNotifier {
     }
 
     _updateSrsCard(testword, isCorrect);
-
+    dev.log("✅ isCorrect: $isCorrect");
+    dev.log("📊 score: $score");
+    dev.log("🏆 masteredWords: $masteredWords");
+    dev.log("🔄 needReviewWords: $needReviewWords");
+    dev.log("📝 testedWord: ${testword.word}");
     notifyListeners();
   }
 
@@ -488,7 +489,11 @@ class LessonProvider extends ChangeNotifier {
             w.word == exercise.correctAnswer ||
             w.correctAnswer == exercise.correctAnswer ||
             w.translation == exercise.correctAnswer ||
-            w.options.contains(exercise.correctAnswer),
+            w.options.contains(exercise.correctAnswer) ||
+            w.translationNative == exercise.correctAnswer || // ✅ add
+            w.examples.any(
+              (e) => e.translationNative == exercise.correctAnswer,
+            ), // ✅ add
       );
       return word;
     } catch (_) {
@@ -555,7 +560,7 @@ class LessonProvider extends ChangeNotifier {
       _initializeArrangement();
       notifyListeners();
     } else {
-      AppShowloading.show(context, CircularProgressIndicator());
+      AppLoadingScreen();
       try {
         await saveLessonResults();
 

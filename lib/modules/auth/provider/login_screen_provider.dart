@@ -1,4 +1,4 @@
-import 'package:chatbot_app/core/widgets/app_showLoading.dart';
+import 'package:chatbot_app/core/widgets/app_loading_screen.dart';
 import 'package:chatbot_app/modules/auth/service/firebase_auth_service.dart';
 import 'package:chatbot_app/modules/homepage/screen/homescreen.dart';
 import 'package:chatbot_app/modules/onboarding/provider/onboard_provider.dart';
@@ -32,6 +32,52 @@ class LoginscreenProvider extends ChangeNotifier {
     notifyListeners();
   }
 
+  // Future<void> login(
+  //   BuildContext context,
+  //   String email,
+  //   String password,
+  // ) async {
+  //   if (isloading) return;
+  //   isloading = true;
+  //   notifyListeners();
+  //   Navigator.pushReplacement(
+  //     context,
+  //     MaterialPageRoute(
+  //       builder: (_) =>
+  //           AppShowloading(message: S.of(context).generatingYourVocabulary),
+  //     ),
+  //   );
+
+  //   final isReady = await Sessionmanage.loadAndInitializeUser(context, uid);
+
+  //   if (!context.mounted) return;
+  //   _navigateAfterLogin(context, isReady);
+  //   try {
+  //     String? error = await authobj.login(context, email, password);
+
+  //     if (!context.mounted) return;
+
+  //     if (error != null) {
+  //       AppShowloading.hide(context);
+  //       setErrorMsg(error);
+  //     } else {
+  //       User? currentUser = FirebaseAuth.instance.currentUser;
+  //       if (currentUser != null) {
+  //         bool isReady = await Sessionmanage.loadAndInitializeUser(
+  //           context,
+  //           currentUser.uid,
+  //         );
+  //         if (!context.mounted) return;
+  //         clearloginData();
+  //         _navigateAfterLogin(context, isReady);
+  //       }
+  //     }
+  //   } finally {
+  //     isloading = false;
+  //     notifyListeners();
+  //   }
+  // }
+
   Future<void> login(
     BuildContext context,
     String email,
@@ -41,27 +87,33 @@ class LoginscreenProvider extends ChangeNotifier {
     isloading = true;
     notifyListeners();
 
-    AppShowloading.show(context, CircularProgressIndicator());
     try {
       String? error = await authobj.login(context, email, password);
+      if (!context.mounted) return;
+      if (error != null) {
+        setErrorMsg(error);
+        return;
+      }
+      User? currentUser = FirebaseAuth.instance.currentUser;
+      if (currentUser == null) return;
+      if (!context.mounted) return;
+      Navigator.pushReplacement(
+        context,
+        MaterialPageRoute(
+          builder: (_) => AppLoadingScreen(),
+          // AppShowloading(message: S.of(context).generatingYourVocabulary),
+        ),
+      );
+
+      final isReady = await Sessionmanage.loadAndInitializeUser(
+        context,
+        currentUser.uid,
+      );
 
       if (!context.mounted) return;
+      clearloginData();
 
-      if (error != null) {
-        AppShowloading.hide(context);
-        setErrorMsg(error);
-      } else {
-        User? currentUser = FirebaseAuth.instance.currentUser;
-        if (currentUser != null) {
-          bool isReady = await Sessionmanage.loadAndInitializeUser(
-            context,
-            currentUser.uid,
-          );
-          if (!context.mounted) return;
-          clearloginData();
-          _navigateAfterLogin(context, isReady);
-        }
-      }
+      _navigateAfterLogin(context, isReady);
     } finally {
       isloading = false;
       notifyListeners();

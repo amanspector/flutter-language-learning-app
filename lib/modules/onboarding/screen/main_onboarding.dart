@@ -3,6 +3,8 @@ import 'package:chatbot_app/core/appconstants/color_constant.dart';
 import 'package:chatbot_app/core/extensions/localization_extension.dart';
 import 'package:chatbot_app/core/widgets/app_button.dart';
 import 'package:chatbot_app/core/widgets/app_container.dart';
+import 'package:chatbot_app/core/widgets/app_loading_screen.dart';
+import 'package:chatbot_app/core/widgets/app_navigator.dart';
 import 'package:chatbot_app/generated/l10n.dart';
 import 'package:chatbot_app/modules/homepage/provider/homescreen_provider.dart';
 import 'package:chatbot_app/modules/onboarding/provider/onboard_provider.dart';
@@ -137,102 +139,63 @@ class MainOnboarding extends StatelessWidget {
                 onboardProvider.currentPage == onbordingpages.length - 1;
 
             if (isLastPage) {
-              log(onboardProvider.selectedNativeLanguage.toString());
-              log(onboardProvider.selectedlanguage.toString());
-              log(onboardProvider.selectedExperienceLevel.toString());
-              log(onboardProvider.selectedgoal.toString());
-              log(onboardProvider.selectedDailyGoal.toString());
+              // ✅ capture everything BEFORE any navigation
+              final vocabProvider = context.read<VocabProvider>();
+              final homeProvider = context.read<HomescreenProvider>();
+              final selectedLang = onboardProvider.selectedlanguage;
+              final selectedNative = onboardProvider.selectedNativeLanguage;
+              final selectedLevel = onboardProvider.selectedExperienceLevel;
+              final selectedGoal = onboardProvider.selectedgoal;
+              final selectedDailyGoal = onboardProvider.selectedDailyGoal;
+              final loadingMessage = context.l10n.generatingYourVocabulary;
 
-              onboardProvider.updateNativeLanguage(
-                onboardProvider.selectedNativeLanguage!,
-              );
+              if (selectedLang == null) return;
 
-              final uilangauage = onboardProvider.selectedlanguage;
-              if (uilangauage == null) {
-                return log(
-                  "language not found from onboardprovider in main onboarding",
-                );
-              }
+              onboardProvider.updateNativeLanguage(selectedNative!);
 
-              showDialog(
-                context: context,
-                barrierDismissible: false,
-                builder: (_) => ChangeNotifierProvider.value(
-                  value: context.read<VocabProvider>(),
-                  child: Consumer<VocabProvider>(
-                    builder: (context, vocabProvider, _) {
-                      if (vocabProvider.generationFailed) {
-                        return Center(
-                          child: Container(
-                            margin: EdgeInsets.symmetric(horizontal: 30),
-                            padding: EdgeInsets.all(20.r),
-                            decoration: BoxDecoration(
-                              borderRadius: BorderRadius.circular(16.r),
-                            ),
-                            child: Column(
-                              mainAxisSize: MainAxisSize.min,
-                              children: [
-                                Text(
-                                  S.of(context).generationFailedPleaseRetry,
-                                  style: Theme.of(context).textTheme.bodyMedium,
-                                ),
-                                SizedBox(height: 20.h),
-                                AppButton(
-                                  buttonFunc: () async {
-                                    await vocabProvider.generateWordsFromAI(
-                                      onboardProvider,
-                                    );
-                                  },
-                                  childWidget: Text(S.of(context).retry),
-                                ),
-                              ],
-                            ),
-                          ),
-                        );
-                      } else {
-                        return Column(
-                          mainAxisAlignment: MainAxisAlignment.center,
-                          children: [
-                            CircularProgressIndicator(),
-                            SizedBox(height: 20.h),
-                            Text(
-                              S.of(context).generatingYourVocabulary,
-                              style: Theme.of(context).textTheme.bodyMedium,
-                            ),
-                          ],
-                        );
-                      }
-                    },
+              // ✅ navigate first
+              Navigator.pushReplacement(
+                context,
+                MaterialPageRoute(
+                  builder: (_) => AppLoadingScreen(
+                    message: loadingMessage,
+                    generationFailed: vocabProvider.generationFailed,
+                    onRetry: () =>
+                        vocabProvider.generateWordsFromAI(onboardProvider),
                   ),
                 ),
               );
 
-              await FirebaseOnboardingService.setprovider(
-                true,
-                onboardProvider.selectedlanguage!,
-                onboardProvider.selectedNativeLanguage!,
-                onboardProvider.selectedExperienceLevel!,
-                onboardProvider.selectedgoal!,
-                onboardProvider.selectedDailyGoal!,
-              );
+              // ✅ now do async work — no context used below this line
+              try {
+                await FirebaseOnboardingService.setprovider(
+                  true,
+                  selectedLang,
+                  selectedNative,
+                  selectedLevel!,
+                  selectedGoal!,
+                  selectedDailyGoal!,
+                );
+                log("setprovider done");
 
-              if (!context.mounted) return;
-              final vocabProvider = context.read<VocabProvider>();
-              final homeProvider = context.read<HomescreenProvider>();
+                await homeProvider.initializeOnce(
+                  onboardprovider: onboardProvider,
+                  vocabprovider: vocabProvider,
+                );
+                log("initializeOnce done");
 
-              await homeProvider.initializeOnce(
-                onboardprovider: onboardProvider,
-                vocabprovider: vocabProvider,
-              );
-
-              log("navigating to home...");
-              if (!context.mounted) return;
-
-              Navigator.pushAndRemoveUntil(
-                context,
-                MaterialPageRoute(builder: (_) => Homescreen()),
-                (route) => false,
-              );
+                // ✅ use navigatorKey instead of context
+                navigatorKey.currentState?.pushAndRemoveUntil(
+                  MaterialPageRoute(builder: (_) => Homescreen()),
+                  (route) => false,
+                );
+              } catch (e) {
+                log("onboarding error: $e");
+                navigatorKey.currentState?.pushAndRemoveUntil(
+                  MaterialPageRoute(builder: (_) => MainOnboarding()),
+                  (route) => false,
+                );
+              }
             } else {
               pagecontroller.nextPage(
                 duration: Duration(milliseconds: 300),

@@ -9,7 +9,8 @@ class VocabularyPrompts {
     required int dailyGoalMinutes,
     required List<String> learnedWords,
   }) {
-    final wordCount = _calculateWordCount(dailyGoalMinutes, experienceLevel);
+    // final wordCount = _calculateWordCount(dailyGoalMinutes, experienceLevel);
+    final wordCount = dailyGoalMinutes;
     final nativeLang = Textconstant.languageNames[nativeLanguage];
 
     return """
@@ -28,39 +29,28 @@ ${_getLanguageSpecificInstructions(language)}
 
 SIBLING SETS: vehicles/colors/animals/fruits/clothes/furniture/emotions/family/food/body parts/professions/places/appliances/sports/office items
 
-INVALID SENTENCE PATTERNS (never use these structures):
-❌ "यह मेरा ___ है" / "આ મારો ___ છે"  → any object fits
-❌ "હું ___ માં બેઠો છું" → any vehicle fits  
-❌ "मुझे ___ के पास जाना है"  → any profession fits
-❌ "હું દરરોજ ___ જાઉં છું"  → any place fits
-❌ "मुझे ___ पसंद है" / "मुझे ___ चाहिए" → any object fits
-❌ "मैं ___ हूं" / "હું ___ છું"  → any emotion/adjective fits
-❌ "वह एक ___ है" / "તે એક ___ છે"  → any noun fits
-❌ "मैंने ___ खाया" / "મેં ___ ખાધું"  → any food fits
-❌ "मैं ___ पहनता हूं" / "હું ___ પહેરું છું" → any clothing fits
-❌ "मैं ___ देख रहा हूं"  → any object/animal fits
-❌ ANY sentence where blank is the only noun
-❌ ANY sentence under 4 words total
-❌ question and correct_answer must not be identical
-❌ correct_answer must exactly match word field including diacritics/mātrās
+INVALID PATTERNS (never use):
+- Generic: "यह मेरा ___ है" / "આ મારો ___ છે" / "वह एक ___ है" / "મેં ___ ખાધું"
+- Any sentence where ANY sibling word fits the blank naturally
+- Any sentence under 5 words total
 
 OPTIONS RULES:
-❌ options must not contain synonyms of correct_answer
-❌ all 4 options must be same part of speech
-❌ no option should be a substring of another option
-❌ options must not repeat
+- 4 options, same part of speech, no synonyms, no repeats
+- correct_answer must exactly match word field including all diacritics/mātrās
 
-VALID ANCHOR PATTERNS (use one of these):
-✅ Reason/purpose:  "कंप्यूटर पर रिपोर्ट टाइप करने के लिए ___" (purpose locks answer)
-✅ Location noun:   "बस स्टैंड पर ___ का इंतजार" (location locks answer)
-✅ Unique action:   "बीमार होने पर ___ के पास गया" (action locks answer)
-✅ Specific task:   "शाकभाजी खरीदने ___ गया"  (task locks answer)
-✅ Who/what combo:  "बॉस ने मुझे ___ में बुलाया" (who+where locks answer)
+VALID ANCHOR PATTERNS:
+- Purpose: "कंप्यूटर पर रिपोर्ट टाइप करने के लिए ___"
+- Location: "બસ સ્ટેન્ડ પર ___ ની રાહ જોઈ"
+- Unique action: "બીમાર હોવાથી ___ પાસે ગયો"
 
-ANCHOR TEST: remove target word → insert each wrong option → if any fits naturally → REWRITE
+ANCHOR TEST (mandatory for every word):
+After writing a sentence, mentally replace the blank with each wrong option.
+If even ONE wrong option fits naturally → rewrite the sentence.
+The sentence must have enough context that ONLY the correct word fits logically.
+
 BEGINNER (4-5 words): anchor must be a specific location noun or unique action verb
-INTERMEDIATE (8-9 words): anchor via purpose clause or specific context  
-ADVANCED (14-16 words): multiple context details that together eliminate all siblings
+INTERMEDIATE (6-8 words): anchor via purpose clause or specific context  
+ADVANCED (9-12 words): multiple context details that together eliminate all siblings
 
 === FIELD RULES ===
 - All "sentence" fields: MUST be in $language script only
@@ -69,27 +59,19 @@ ADVANCED (14-16 words): multiple context details that together eliminate all sib
 - "options": [correct_answer, wrong1, wrong2, wrong3] (same part of speech)
 - Top-level "sentence_parts" = examples[0].sentence_parts
 
-${learnedWords.isNotEmpty ? "EXCLUDE: ${learnedWords.join(', ')}\n" : ""}
-OUTPUT: Valid JSON only. No markdown.
-
+OUTPUT:
+${learnedWords.isNotEmpty ? "EXCLUDE these already learned words: ${learnedWords.join(', ')}\n" : ""}
+Valid JSON only. No markdown.
 {
   "metadata": {"language":"$language","native_language":"$nativeLang","level":"$experienceLevel","category":"$learningGoal","total_words":$wordCount},
   "words": [{
     "word": "target word in $language",
     "translation_english": "...",
     "translation_native": "...",
-    "part_of_speech": "noun|verb|adjective|adverb|phrase",
     "pronunciation": "phonetic guide",
-    "theme": "semantic category",
-    "examples": [
-      {"sentence":"$language only (A1/A2)","translation_english":"...","translation_native":"...","sentence_parts":["..."],"level":"easy"},
-      {"sentence":"$language only (B1/B2)","translation_english":"...","translation_native":"...","sentence_parts":["..."],"level":"medium"},
-      {"sentence":"$language only (C1/C2)","translation_english":"...","translation_native":"...","sentence_parts":["..."],"level":"hard"}
-    ],
-    "question": "examples[0].sentence with target word → ___",
+    ${_outputJsonExamplePart(language)},
     "options": ["correct_answer","wrong1","wrong2","wrong3"],
-    "correct_answer": "identical to word field",
-    "sentence_parts": ["copy of examples[0].sentence_parts"]
+    "correct_answer": "identical to word field"
   }]
 }
 Generate exactly $wordCount words now.
@@ -97,7 +79,7 @@ Generate exactly $wordCount words now.
   }
 
   static int _calculateWordCount(int minutes, String level) {
-    final baseCount = {5: 30, 10: 40, 15: 50, 20: 60};
+    final baseCount = {5: 20, 10: 30, 15: 40, 20: 50};
     return baseCount[minutes] ?? 40;
   }
 
@@ -164,5 +146,21 @@ Generate exactly $wordCount words now.
       default:
         return """LANGUAGE: Standard form, phonetic pronunciation, preserve ALL special characters/accents exactly. word/correct_answer/option must be identical.""";
     }
+  }
+
+  static String _outputJsonExamplePart(String language) {
+    return language.toLowerCase() == "english"
+        ? """
+    "examples": [
+      {"sentence":"English sentence (A1/A2)","translation_native":"...","sentence_parts":["..."],"level":"easy"},
+      {"sentence":"English sentence (B1/B2)","translation_native":"...","sentence_parts":["..."],"level":"medium"},
+      {"sentence":"English sentence (C1/C2)","translation_native":"...","sentence_parts":["..."],"level":"hard"}
+    ]"""
+        : """
+    "examples": [
+      {"sentence":"$language sentence (A1/A2)","translation_english":"...","translation_native":"...","sentence_parts":["..."],"level":"easy"},
+      {"sentence":"$language sentence (B1/B2)","translation_english":"...","translation_native":"...","sentence_parts":["..."],"level":"medium"},
+      {"sentence":"$language sentence (C1/C2)","translation_english":"...","translation_native":"...","sentence_parts":["..."],"level":"hard"}
+    ]""";
   }
 }

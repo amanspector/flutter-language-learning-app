@@ -1,8 +1,12 @@
 import 'dart:developer';
+import 'package:chatbot_app/core/extensions/localization_extension.dart';
+import 'package:chatbot_app/core/extensions/theme_extension.dart';
+import 'package:chatbot_app/core/widgets/app_animaation.dart';
 import 'package:chatbot_app/core/widgets/app_button.dart';
 import 'package:chatbot_app/generated/l10n.dart';
 import 'package:chatbot_app/modules/exercisepage/provider/lesson_provider.dart';
 import 'package:chatbot_app/modules/vocabularypage/provider/vocab_provider.dart';
+import 'package:flutter_animate/flutter_animate.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:lottie/lottie.dart';
 import '../../exercisepage/screen/excerisescreen.dart';
@@ -39,8 +43,8 @@ class Vocabcompletedscreen extends StatelessWidget {
                 Padding(
                   padding: EdgeInsets.only(top: 20.r, right: 5.r),
                   child: Text(
-                    S.of(context).greatJob,
-                    style: Theme.of(context).textTheme.displayMedium,
+                    context.l10n.greatJob,
+                    style: context.text.displayMedium,
                   ),
                 ),
 
@@ -48,16 +52,16 @@ class Vocabcompletedscreen extends StatelessWidget {
                   fit: BoxFit.contain,
                   'assets/lottie/celebration.json',
                   height: 80.h,
-                ),
+                ).fadeInScale,
               ],
-            ),
+            ).fadeInSlideUp,
             Text(
-              S.of(context).youveCompletedYourVocabularySession,
+              context.l10n.youveCompletedYourVocabularySession,
               textAlign: TextAlign.center,
-              style: Theme.of(context).textTheme.titleMedium?.copyWith(
-                color: Theme.of(context).colorScheme.outline,
+              style: context.text.titleMedium?.copyWith(
+                color: context.theme.colorScheme.outline,
               ),
-            ),
+            ).fadeInSlideUpDelayed(150),
             SizedBox(height: 20.h),
             CircularPercentIndicator(
               percent: 1,
@@ -66,33 +70,33 @@ class Vocabcompletedscreen extends StatelessWidget {
               radius: 60.r,
               lineWidth: 10.w,
               center: Text(
-                S.of(context).oneHundredPercent,
-                style: Theme.of(context).textTheme.titleMedium,
+                context.l10n.oneHundredPercent,
+                style: context.text.titleMedium,
               ),
-              progressColor: Theme.of(
-                context,
-              ).colorScheme.primary.withValues(alpha: 0.75),
-            ),
+              progressColor: context.theme.colorScheme.primary.withValues(
+                alpha: 0.75,
+              ),
+            ).fadeInScaleDelayed(300),
             SizedBox(height: 20.h),
 
             Text(
-              S.of(context).readyForExercise,
-              style: Theme.of(context).textTheme.headlineLarge,
-            ),
+              context.l10n.readyForExercise,
+              style: context.text.headlineLarge,
+            ).fadeInSlideUpDelayed(450),
             SizedBox(height: 20.h),
             Row(
               children: [
                 Expanded(
                   child: AppButton(
-                    backgroundColor: Theme.of(context).colorScheme.surface,
+                    backgroundColor: context.theme.colorScheme.surface,
                     buttonFunc: () {
                       context.read<VocabProvider>().restartLearning();
                       Navigator.pop(context);
                     },
                     childWidget: Text(
-                      S.of(context).reviewWords,
-                      style: Theme.of(context).textTheme.labelMedium?.copyWith(
-                        color: Theme.of(context).primaryColor,
+                      context.l10n.reviewWords,
+                      style: context.text.labelMedium?.copyWith(
+                        color: context.theme.colorScheme.primary,
                       ),
                     ),
                   ),
@@ -104,22 +108,25 @@ class Vocabcompletedscreen extends StatelessWidget {
                       log("Button clicked");
                       final lessonProvider = context.read<LessonProvider>();
                       lessonProvider.startPractice(context);
-                      Navigator.push(
-                        context,
-                        MaterialPageRoute(
-                          builder: (context) => ExerciseScreen(),
-                        ),
-                      );
+                      Future.delayed(200.ms, () {
+                        if (!context.mounted) return;
+                        Navigator.push(
+                          context,
+                          MaterialPageRoute(
+                            builder: (context) => ExerciseScreen(),
+                          ),
+                        );
+                      });
                       log("Function finished");
                     },
                     childWidget: Text(
-                      S.of(context).startExercise,
-                      style: Theme.of(context).textTheme.labelMedium,
+                      context.l10n.startExercise,
+                      style: context.text.labelMedium,
                     ),
                   ),
                 ),
               ],
-            ),
+            ).fadeInScaleDelayed(600),
             SizedBox(height: 20.h),
           ],
         ),

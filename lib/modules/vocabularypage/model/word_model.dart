@@ -9,7 +9,7 @@ class WordModel {
   final String partOfSpeech;
   final String pronunciation;
   final List<WordExample> examples;
-  final String difficulty;
+  // final String difficulty;
   final String theme;
   final String question;
   final String correctAnswer;
@@ -26,7 +26,7 @@ class WordModel {
     required this.partOfSpeech,
     required this.pronunciation,
     required this.examples,
-    required this.difficulty,
+    // required this.difficulty,
     required this.theme,
     required this.question,
     required this.correctAnswer,
@@ -49,7 +49,7 @@ class WordModel {
               ?.map((e) => WordExample.fromJson(e as Map<String, dynamic>))
               .toList() ??
           [],
-      difficulty: json['difficulty']?.toString() ?? '',
+      // difficulty: json['difficulty']?.toString() ?? '',
       theme: json['theme']?.toString() ?? '',
       question: json['question']?.toString() ?? '',
       options:
@@ -80,7 +80,7 @@ class WordModel {
       'part_of_speech': partOfSpeech,
       'pronunciation': pronunciation,
       'examples': examples.map((e) => e.toJson()).toList(),
-      'difficulty': difficulty,
+      // 'difficulty': difficulty,
       'theme': theme,
       'srs_interval': srsInterval,
       'srs_repetitions': srsRepetitions,

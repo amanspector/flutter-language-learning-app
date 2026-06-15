@@ -2,6 +2,7 @@ import 'package:chatbot_app/core/appconstants/color_constant.dart';
 import 'package:chatbot_app/core/extensions/daily_goal_extension.dart';
 import 'package:chatbot_app/core/extensions/localization_extension.dart';
 import 'package:chatbot_app/core/extensions/theme_extension.dart';
+import 'package:chatbot_app/core/widgets/app_animaation.dart';
 import 'package:chatbot_app/core/widgets/app_button.dart';
 import 'package:chatbot_app/core/widgets/app_container.dart';
 import 'package:chatbot_app/core/widgets/app_customContainer.dart';
@@ -45,8 +46,10 @@ class Homescreen extends StatelessWidget {
 
           barDecoration: BoxDecoration(color: ColorConstant.colorTransparent),
         ),
-        body: IndexedStack(
-          index: selectedindex,
+        body: PageView(
+          physics: NeverScrollableScrollPhysics(),
+          controller: context.watch<HomescreenProvider>().pageController,
+          // index: selectedindex,
           children: [homeScreenPage(context), Chathistory(), Userprofile()],
         ),
         child: CustomNavBar(
@@ -54,7 +57,7 @@ class Homescreen extends StatelessWidget {
           onTap: (value) {
             context.read<HomescreenProvider>().bottomNavBarIndex(value);
           },
-        ),
+        ).slideInFromBottom,
       ),
     );
   }
@@ -89,7 +92,7 @@ class Homescreen extends StatelessWidget {
                 SizedBox(
                   height: 80.h,
                   child: Image.asset('assets/icon/appicon_1.png'),
-                ),
+                ).fadeInScale,
 
                 Expanded(
                   flex: 2,
@@ -108,7 +111,7 @@ class Homescreen extends StatelessWidget {
                         style: context.text.bodySmall,
                       ),
                     ],
-                  ),
+                  ).fadeInSlideUp,
                 ),
 
                 AppContainer(
@@ -137,7 +140,7 @@ class Homescreen extends StatelessWidget {
                       ],
                     ),
                   ),
-                ),
+                ).staggerPopIn(1),
               ],
             ),
           ),
@@ -156,7 +159,7 @@ class Homescreen extends StatelessWidget {
                 currentStreak == 0
                     ? defaultvalue.toString()
                     : context.l10n.streakDays(currentStreak),
-              ),
+              ).staggerPopIn(0),
 
               SizedBox(width: 18.w),
               customContainer(
@@ -166,7 +169,7 @@ class Homescreen extends StatelessWidget {
                 xpPoints == 0
                     ? defaultvalue.toString()
                     : context.l10n.xpPointsValue(xpPoints),
-              ),
+              ).staggerPopIn(1),
             ],
           ),
         ),
@@ -194,7 +197,7 @@ class Homescreen extends StatelessWidget {
                         .withValues(alpha: 0.25),
                     height: 64.h,
                     width: 64.w,
-                    widget: Icon(Icons.school_outlined, size: 33),
+                    widget: Icon(Icons.school_outlined, size: 33).fadeInScale,
                   ),
                   SizedBox(height: 10.h),
 
@@ -211,7 +214,7 @@ class Homescreen extends StatelessWidget {
                     ),
                     style: context.text.bodyLarge,
                     textAlign: TextAlign.center,
-                  ),
+                  ).fadeInSlideUpDelayed(200),
                   Padding(
                     padding: EdgeInsets.symmetric(vertical: 15.r),
                     child: AppButton(
@@ -228,13 +231,13 @@ class Homescreen extends StatelessWidget {
                         context.l10n.startLesson,
                         style: context.theme.textTheme.labelLarge,
                       ),
-                    ),
+                    ).fadeInScaleDelayed(400),
                   ),
                 ],
               ),
             ),
           ),
-        ),
+        ).softFocusIn,
       ],
     );
   }

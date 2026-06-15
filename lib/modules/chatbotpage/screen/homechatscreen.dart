@@ -4,6 +4,7 @@ import 'package:chatbot_app/core/appconstants/color_constant.dart';
 import 'package:chatbot_app/core/extensions/localization_extension.dart';
 import 'package:chatbot_app/core/extensions/theme_extension.dart';
 import 'package:chatbot_app/core/widgets/app_container.dart';
+import 'package:chatbot_app/core/widgets/app_loading_screen.dart';
 import 'package:chatbot_app/core/widgets/app_screen.dart';
 import 'package:chatbot_app/modules/chatbotpage/provider/message_provider.dart';
 import 'package:chatbot_app/modules/homepage/provider/homescreen_provider.dart';
@@ -90,7 +91,8 @@ class _StateHomescreen extends State<Homechatscreen> {
       stream: stream,
       builder: (context, snapshot) {
         if (!snapshot.hasData) {
-          return Center(child: CircularProgressIndicator());
+          return AppLoadingScreen();
+          // Center(child: CircularProgressIndicator());
         }
         final docs = snapshot.data!.docs;
         WidgetsBinding.instance.addPostFrameCallback((_) {

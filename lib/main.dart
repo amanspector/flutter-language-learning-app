@@ -1,25 +1,25 @@
-import 'package:chatbot_app/core/widgets/app_theme_data.dart';
-import 'package:chatbot_app/generated/l10n.dart';
+import 'package:chatbot_app/modules/chatbotpage/service/firebase_chat_service.dart';
+import 'package:chatbot_app/modules/onboarding/provider/getStarted_provider.dart';
+import 'package:chatbot_app/modules/vocabularypage/provider/vocab_provider.dart';
+import 'package:chatbot_app/modules/auth/provider/register_screen_provider.dart';
+import 'package:chatbot_app/modules/exercisepage/provider/lesson_provider.dart';
 import 'package:chatbot_app/modules/chatbotpage/provider/message_provider.dart';
 import 'package:chatbot_app/modules/homepage/provider/homescreen_provider.dart';
-import 'package:chatbot_app/modules/exercisepage/provider/lesson_provider.dart';
-import 'package:chatbot_app/modules/auth/provider/login_screen_provider.dart';
-import 'package:chatbot_app/modules/onboarding/provider/getStarted_provider.dart';
 import 'package:chatbot_app/modules/onboarding/provider/onboard_provider.dart';
-import 'package:chatbot_app/modules/auth/provider/register_screen_provider.dart';
-import 'package:chatbot_app/modules/onboarding/screen/getStarted.dart';
+import 'package:chatbot_app/modules/auth/provider/login_screen_provider.dart';
 import 'package:chatbot_app/modules/splashScreen/screen/splashScreen.dart';
-import 'package:chatbot_app/modules/vocabularypage/provider/vocab_provider.dart';
 import 'package:chatbot_app/modules/chatbotpage/repo/gemini_repo.dart';
-import 'package:chatbot_app/modules/chatbotpage/service/firebase_chat_service.dart';
+import 'package:flutter_localizations/flutter_localizations.dart';
+import 'package:chatbot_app/core/widgets/app_theme_data.dart';
+import 'package:chatbot_app/core/widgets/app_navigator.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:flutter_dotenv/flutter_dotenv.dart';
+import 'package:firebase_core/firebase_core.dart';
+import 'package:chatbot_app/generated/l10n.dart';
+import 'package:provider/provider.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:flutter_dotenv/flutter_dotenv.dart';
-import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'firebase_options.dart';
-import 'package:provider/provider.dart';
-import 'package:firebase_core/firebase_core.dart';
-import 'package:flutter_localizations/flutter_localizations.dart';
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -36,6 +36,7 @@ void main() async {
 class MyApp extends StatelessWidget {
   final GeminiRepo repo;
   final service = FirebaseChatService();
+  // final GlobalKey<NavigatorState> navigatorKey = GlobalKey<NavigatorState>();
   MyApp({super.key, required this.repo});
 
   @override
@@ -62,6 +63,7 @@ class MyApp extends StatelessWidget {
           return Consumer<OnboardProvider>(
             builder: (context, onboard, child) {
               return MaterialApp(
+                navigatorKey: navigatorKey,
                 debugShowCheckedModeBanner: false,
                 locale: Locale(onboard.selectedNativeLanguage.toString()),
                 onGenerateTitle: (BuildContext context) =>

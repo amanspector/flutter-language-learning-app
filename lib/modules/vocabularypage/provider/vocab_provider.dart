@@ -116,9 +116,7 @@ class VocabProvider extends ChangeNotifier {
         experienceLevel,
         category,
       );
-
       currentlanguage = ttslangauage;
-
       allWords.clear();
       todaywords.clear();
       if (snapshot.exists && snapshot.data() != null) {
@@ -133,7 +131,6 @@ class VocabProvider extends ChangeNotifier {
         }
         log("maxWordsForLevel: $maxWordsForLevel");
         log("dailygoalString: $dailygoalString");
-        // length1 = maxWordsForLevel;
 
         final wordsList = data?['words'];
 
@@ -194,7 +191,6 @@ class VocabProvider extends ChangeNotifier {
             todaywords.shuffle();
           }
         }
-        log("✅ Using existing unlearned words: ${todaywords.length}");
       }
 
       currentIndex = 0;
@@ -313,20 +309,23 @@ class VocabProvider extends ChangeNotifier {
             nativeLanguage: onboard.selectedNativeLanguage!,
             experienceLevel: onboard.selectedExperienceLevel!,
             learningGoal: onboard.selectedgoal!,
-            dailyGoalMinutes: maxWordsForLevel + 20,
+            dailyGoalMinutes: maxWordsForLevel + 5,
             learnedWords: learnedIds,
           );
 
           log("prompt : $prompt");
 
+          final stopwatch = Stopwatch()..start();
           final words = await repo
               .generateVocabulary(prompt)
               .timeout(Duration(seconds: 120));
+          stopwatch.stop();
 
           if (words.isEmpty) {
             throw Exception("Generated word list is empty");
           }
 
+          log("AI generation completed in ${stopwatch.elapsed.inSeconds} s");
           log("api called and stored to words variable");
 
           if (allWords.isNotEmpty) {
@@ -398,7 +397,7 @@ class VocabProvider extends ChangeNotifier {
         );
 
         // todaywords = newUnlearnedWords.take(maxWordsForLevel).toList();
-        todaywords = await _mixSrsAndNewWords(unlearnedWords);
+        todaywords = await _mixSrsAndNewWords(newUnlearnedWords);
         todaywords.shuffle();
         log(
           "✅ New today words after newUnlearnedWords: ${newUnlearnedWords.length}",

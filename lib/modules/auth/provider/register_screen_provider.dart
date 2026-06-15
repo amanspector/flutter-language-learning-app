@@ -1,5 +1,5 @@
 import 'package:chatbot_app/core/appconstants/text_constant.dart';
-import 'package:chatbot_app/core/widgets/app_showLoading.dart';
+import 'package:chatbot_app/core/widgets/app_loading_screen.dart';
 import 'package:chatbot_app/modules/auth/service/firebase_auth_service.dart';
 import 'package:chatbot_app/modules/homepage/provider/homescreen_provider.dart';
 import 'package:chatbot_app/modules/onboarding/provider/onboard_provider.dart';
@@ -40,7 +40,8 @@ class RegisterscreenProvider extends ChangeNotifier {
     _isLoading = true;
     notifyListeners();
 
-    AppShowloading.show(context, CircularProgressIndicator());
+    AppLoadingScreen();
+    // AppShowloading.show(context, CircularProgressIndicator());
 
     try {
       String? error = await authobj.registration(
@@ -52,7 +53,7 @@ class RegisterscreenProvider extends ChangeNotifier {
       );
       if (!context.mounted) return;
       if (error != null) {
-        AppShowloading.hide(context);
+        Navigator.pop(context);
         setErrorMsg(error);
       } else {
         context.read<OnboardProvider>().reset();

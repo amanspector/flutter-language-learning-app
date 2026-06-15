@@ -1,11 +1,11 @@
 import 'package:chatbot_app/core/extensions/localization_extension.dart';
 import 'package:chatbot_app/core/extensions/theme_extension.dart';
 import 'package:chatbot_app/core/widgets/app_button.dart';
+import 'package:chatbot_app/core/widgets/app_screen.dart';
 import 'package:chatbot_app/modules/auth/screen/loginscreen.dart';
 import 'package:chatbot_app/modules/onboarding/model/get_started_model.dart';
 import 'package:chatbot_app/modules/onboarding/provider/getStarted_provider.dart';
 import 'package:chatbot_app/modules/splashScreen/screen/ambient_background.dart';
-
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:provider/provider.dart';
 import 'package:smooth_page_indicator/smooth_page_indicator.dart';
@@ -22,9 +22,8 @@ class _GetstartedState extends State<Getstarted> {
   @override
   Widget build(BuildContext context) {
     final provider = context.watch<GetstartedProvider>();
-    return Scaffold(
-      backgroundColor: context.theme.colorScheme.surface,
-      bottomNavigationBar: Padding(
+    return AppScreen(
+      bottomNavigation: Padding(
         padding: EdgeInsets.only(bottom: 20.r, left: 10.r, right: 10.r),
         child: Column(
           mainAxisSize: MainAxisSize.min,
@@ -59,23 +58,6 @@ class _GetstartedState extends State<Getstarted> {
           ],
         ),
       ),
-      // appBar:
-
-      // AppBar(
-      //   backgroundColor: ColorConstant.color_blueDark_shade,
-      //   surfaceTintColor: ColorConstant.color_transparent,
-      //   leading: Padding(
-      //     padding: const EdgeInsets.only(left: 20),
-      //     child: Image.asset('assets/icon/appicon.png'),
-      //   ),
-      //   title: Text(
-      //     context.l10n.appName,
-      //     style: TextStyle(
-      //       color: ColorConstant.color_white,
-      //       fontWeight: FontWeight.bold,
-      //     ),
-      //   ),
-      // ),
       body: AmbientBackground(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.start,

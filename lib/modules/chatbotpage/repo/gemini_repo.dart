@@ -126,9 +126,24 @@ class GeminiRepo {
 
       log("decoded text : $decoded");
       // final List wordsJson = decoded['words'] as List;
-      final List wordsJson =
-          (decoded['words'] ?? decoded['vocabulary']) as List;
+      final List? wordsJson =
+          (decoded['words'] ?? decoded['vocabulary'] ?? decoded['word_list'])
+              as List?;
+
+      if (wordsJson == null || wordsJson.isEmpty) {
+        log(
+          "decoded keys: ${decoded.keys.toList()}",
+        ); // ✅ see what AI actually returned
+        log("status: ${decoded['status']}"); // ✅ add this
+        log("message: ${decoded['message']}");
+        throw Exception(
+          "No words found in response. Keys: ${decoded.keys.toList()}",
+        );
+      }
+
       return wordsJson.map((e) => WordModel.fromJson(e)).toList();
+
+      // return wordsJson.map((e) => WordModel.fromJson(e)).toList();
     } on DioException catch (e) {
       if (CancelToken.isCancel(e)) throw Exception("CANCELLED");
 
