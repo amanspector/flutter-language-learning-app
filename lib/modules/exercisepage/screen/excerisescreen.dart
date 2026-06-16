@@ -1,16 +1,18 @@
-import 'package:chatbot_app/core/extensions/localization_extension.dart';
-import 'package:chatbot_app/core/extensions/theme_extension.dart';
-import 'package:chatbot_app/core/widgets/app_customContainer.dart';
+import 'package:chatbot_app/modules/onboarding/provider/onboard_provider.dart';
 import 'package:chatbot_app/modules/splashScreen/screen/ambient_background.dart';
-import 'package:chatbot_app/modules/vocabularypage/provider/vocab_provider.dart';
 import 'package:chatbot_app/modules/exercisepage/provider/lesson_provider.dart';
 import 'package:chatbot_app/modules/exercisepage/model/exercise_model.dart';
+import 'package:chatbot_app/core/extensions/localization_extension.dart';
 import 'package:chatbot_app/core/appconstants/color_constant.dart';
+import 'package:chatbot_app/core/widgets/app_customContainer.dart';
+import 'package:chatbot_app/core/extensions/theme_extension.dart';
 import 'package:chatbot_app/core/widgets/app_alertDialog.dart';
+import 'package:chatbot_app/core/extensions/app_animation_extension.dart';
 import 'package:chatbot_app/core/widgets/app_container.dart';
+import 'package:chatbot_app/modules/vocabularypage/provider/vocab_provider.dart';
+import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:chatbot_app/core/widgets/app_button.dart';
 import 'package:chatbot_app/generated/l10n.dart';
-import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:vibration/vibration.dart';
 import 'package:provider/provider.dart';
 import 'package:flutter/material.dart';
@@ -90,8 +92,7 @@ class ExerciseScreen extends StatelessWidget {
                                       provider,
                                     )
                                   : exercise?.type ==
-                                        ExerciseType
-                                            .translationMCQ // ← ADD
+                                        ExerciseType.translationMCQ
                                   ? _buildTranslationMCQ(
                                       context,
                                       exercise!,
@@ -116,13 +117,17 @@ class ExerciseScreen extends StatelessWidget {
                                 alignment: WrapAlignment.center,
                                 spacing: 16,
                                 runSpacing: 16,
-                                children: exercise!.options.map((option) {
-                                  return _buildDraggableWord(
-                                    context,
-                                    option,
-                                    provider,
-                                  );
-                                }).toList(),
+                                children: exercise!.options.asMap().entries.map(
+                                  (entry) {
+                                    int index = entry.key;
+                                    String option = entry.value;
+                                    return _buildDraggableWord(
+                                      context,
+                                      option,
+                                      provider,
+                                    ).fadeInSlideUpDelayed(100 + index * 50);
+                                  },
+                                ).toList(),
                               )
                             : exercise?.type == ExerciseType.sentenceArrangement
                             ? _buildDraggableWordChips(context, provider)
@@ -220,6 +225,9 @@ class ExerciseScreen extends StatelessWidget {
             Text(
               exercise.explanation!,
               style: Theme.of(context).textTheme.bodyMedium,
+              textDirection: context
+                  .read<OnboardProvider>()
+                  .learningTextDirection,
             ),
           ],
         ],
@@ -242,7 +250,7 @@ class ExerciseScreen extends StatelessWidget {
           style: Theme.of(
             context,
           ).textTheme.displayMedium?.copyWith(fontSize: 24.sp, height: 1.5),
-        ),
+        ).fadeInSlideUp,
       );
 
       if (i < parts.length - 1) {
@@ -255,12 +263,15 @@ class ExerciseScreen extends StatelessWidget {
       widgets.add(_buildDragTarget(context, provider));
     }
 
-    return Wrap(
-      alignment: WrapAlignment.center,
-      crossAxisAlignment: WrapCrossAlignment.center,
-      spacing: 8,
-      runSpacing: 12,
-      children: widgets,
+    return Directionality(
+      textDirection: context.read<OnboardProvider>().learningTextDirection,
+      child: Wrap(
+        alignment: WrapAlignment.center,
+        crossAxisAlignment: WrapCrossAlignment.center,
+        spacing: 8,
+        runSpacing: 12,
+        children: widgets,
+      ),
     );
   }
 
@@ -334,113 +345,6 @@ class ExerciseScreen extends StatelessWidget {
     );
   }
 
-  // Widget
-  //
-  //(BuildContext context, LessonProvider provider) {
-  //   final selectedAnswer = provider.selectedAnswer;
-  //   final isAnswered = provider.isAnswered;
-  //   final isCorrect = provider.isCorrect;
-
-  //   final correctanswer = provider.currentExercise!.correctAnswer;
-
-  //   return DragTarget<String>(
-  //     builder: (context, candidateData, rejectedData) {
-  //       final isHovering = candidateData.isNotEmpty;
-
-  //       Color bgColor = Theme.of(
-  //         context,
-  //       ).colorScheme.outline.withValues(alpha: 0.25);
-  //       Color borderColor = Theme.of(
-  //         context,
-  //       ).colorScheme.surface.withValues(alpha: 0.25);
-
-  //       if (isAnswered) {
-  //         bgColor = isCorrect
-  //             ? Theme.of(context).colorScheme.primary.withValues(alpha: 0.40)
-  //             // ColorConstant.color_green700
-  //             : Theme.of(context).colorScheme.error.withValues(alpha: 0.20);
-  //         borderColor = isCorrect
-  //             ? Theme.of(context).colorScheme.secondary
-  //             : Theme.of(context).colorScheme.error.withRed(225);
-  //       } else if (isHovering) {
-  //         bgColor = Theme.of(
-  //           context,
-  //         ).colorScheme.primary.withValues(alpha: 0.20);
-  //         borderColor = Theme.of(context).colorScheme.secondaryContainer;
-  //       } else if (selectedAnswer != null) {
-  //         bgColor = Theme.of(context).colorScheme.onPrimaryContainer;
-  //         borderColor = Theme.of(context).colorScheme.onPrimaryContainer;
-  //       }
-
-  //       return GestureDetector(
-  //         onTap: () {
-  //           if (!isAnswered && selectedAnswer != null) {}
-  //         },
-  //         child: Container(
-  //           margin: EdgeInsets.symmetric(horizontal: 4),
-  //           padding: EdgeInsets.symmetric(horizontal: 20, vertical: 14),
-  //           decoration: BoxDecoration(
-  //             color: bgColor,
-  //             border: Border.all(color: borderColor, width: 2),
-  //             borderRadius: BorderRadius.circular(12),
-  //           ),
-  //           child: Text(
-  //             selectedAnswer ?? "       ",
-  //             style: TextStyle(
-  //               fontSize: 24,
-  //               fontWeight: FontWeight.bold,
-  //               color: selectedAnswer == null
-  //                   ? Theme.of(context).colorScheme.outline
-  //                   : Theme.of(context).colorScheme.onSurface,
-  //             ),
-  //           ),
-  //         ),
-  //       );
-  //     },
-  //     onWillAcceptWithDetails: (details) => !isAnswered,
-  //     onAcceptWithDetails: (details) {
-  //         provider.selectAnswer(details.data);
-  //         provider.checkAnswer();
-  //       // final droppedData = details.data;
-  //       // if (droppedData == null) {
-  //       //   return;
-  //       // }
-
-  //       if (details.data == correctanswer) {
-
-  //         if (provider.isCorrect) {
-  //           log(provider.currentExercise!.questionWithoutBlank);
-  //           log(provider.currentExercise!.explanation);
-  //           log(context.read<VocabProvider>().currentlanguage!);
-  //           // context.read<VocabProvider>().speak(
-  //           //   text: provider.currentExercise!.questionWithoutBlank,
-  //           //   language: context.read<VocabProvider>().currentlanguage!,
-  //           //   speaker: context.read<VocabProvider>().currentspeaker,
-  //           // );
-  //         }
-  //       } else
-
-  //       if(!provider.isCorrect)
-  //       {
-  //         Vibration.vibrate(pattern: [0, 100, 50, 100]);
-  //         ScaffoldMessenger.of(context).showSnackBar(
-  //           SnackBar(
-  //             content: Text(
-  //               S.of(context).oopsWrongAnswerTryAgain,
-  //               style: TextStyle(
-  //                 fontSize: 16,
-  //                 color: ColorConstant.color_white,
-  //               ),
-  //             ),
-  //             backgroundColor: Theme.of(context).colorScheme.error.withRed(225),
-  //             duration: const Duration(milliseconds: 1500),
-  //           ),
-  //         );
-  //       }
-  //     },
-  //   );
-  // }
-
   Widget _buildDragTarget(BuildContext context, LessonProvider provider) {
     final selectedAnswer = provider.selectedAnswer;
     final isAnswered = provider.isAnswered;
@@ -475,7 +379,6 @@ class ExerciseScreen extends StatelessWidget {
         }
 
         return Container(
-          margin: EdgeInsets.symmetric(horizontal: 4.r),
           padding: EdgeInsets.symmetric(horizontal: 20.r, vertical: 14.r),
           decoration: BoxDecoration(
             color: bgColor,
@@ -496,28 +399,16 @@ class ExerciseScreen extends StatelessWidget {
                           ) // Keeps their text red if wrong
                         : context.theme.colorScheme.onSurface),
             ),
-          ),
+          ).fadeInSlideUp,
         );
       },
       onWillAcceptWithDetails: (details) => !isAnswered,
       onAcceptWithDetails: (details) {
         provider.selectAnswer(details.data);
-        provider.checkAnswer();
-        if (provider.isAnswered) {
-          log("isanswered condition");
-          // log(
-          //   "speak text: " +
-          //       provider.currentExercise!.questionWithoutBlank.toString(),
-          // );
-          context.read<VocabProvider>().speak(
-            text: provider.currentExercise!.questionWithoutBlank,
-            language: context.read<VocabProvider>().currentlanguage!,
-            speaker: context.read<VocabProvider>().currentspeaker,
-          );
-        }
+        final vocabpro = context.read<VocabProvider>();
+        provider.checkAnswer(vocabpro);
         log("outside condition");
 
-        // Trigger the warning vibration pulse if the choice was wrong
         if (!provider.isCorrect) {
           Vibration.vibrate(pattern: [0, 100, 50, 100]);
         }
@@ -580,16 +471,19 @@ class ExerciseScreen extends StatelessWidget {
 
     return Column(
       children: [
-        Wrap(
-          spacing: 8,
-          runSpacing: 8,
-          children: List.generate(
-            currentExercise.options.length,
-            (index) => _buildWordDropZone(
-              context,
-              provider,
-              index,
-              index < arrangedWords.length ? arrangedWords[index] : null,
+        Directionality(
+          textDirection: context.read<OnboardProvider>().learningTextDirection,
+          child: Wrap(
+            spacing: 8,
+            runSpacing: 8,
+            children: List.generate(
+              currentExercise.options.length,
+              (index) => _buildWordDropZone(
+                context,
+                provider,
+                index,
+                index < arrangedWords.length ? arrangedWords[index] : null,
+              ),
             ),
           ),
         ),
@@ -691,9 +585,22 @@ class ExerciseScreen extends StatelessWidget {
 
       final word = currentExercise.options[index];
       log("✅ Adding chip for index $index: '$word'");
-      availableWidgets.add(
-        _buildDraggableChipWithIndex(context, word, index, isAnswered),
+
+      // final shouldAnimate = provider.shouldAnimateIndex(index);
+      final shouldAnimate = provider.shouldAnimateWord(word);
+
+      Widget chip = _buildDraggableChipWithIndex(
+        context,
+        word,
+        index,
+        isAnswered,
       );
+
+      if (shouldAnimate) {
+        chip = chip.fadeInSlideUpDelayed(80 + index * 40);
+      }
+
+      availableWidgets.add(chip);
     }
 
     log("📦 Total chips to show: ${availableWidgets.length}");
@@ -730,7 +637,7 @@ class ExerciseScreen extends StatelessWidget {
                 ),
               ],
             ),
-            child: Text(word, style: Theme.of(context).textTheme.labelMedium),
+            child: Text(word, style: context.text.labelMedium),
           ),
         ),
       ),
@@ -784,7 +691,7 @@ class ExerciseScreen extends StatelessWidget {
             context,
           ).textTheme.displaySmall?.copyWith(fontWeight: FontWeight.w500),
           textAlign: TextAlign.center,
-        ),
+        ).fadeInSlideUp,
 
         SizedBox(height: 30),
 
@@ -808,10 +715,13 @@ class ExerciseScreen extends StatelessWidget {
           style: TextStyle(fontSize: 16.sp),
         ),
         SizedBox(height: 16),
-        Text(
-          exercise.question, // native sentence
-          style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
-          textAlign: TextAlign.center,
+        Directionality(
+          textDirection: context.read<OnboardProvider>().learningTextDirection,
+          child: Text(
+            exercise.question, // native sentence
+            style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
+            textAlign: TextAlign.center,
+          ).fadeInSlideUp,
         ),
       ],
     );
@@ -822,13 +732,24 @@ class ExerciseScreen extends StatelessWidget {
     ExerciseModel exercise,
     LessonProvider provider,
   ) {
+    final bool checkIntroAnimation = provider.shouldAnimateQuestion(
+      provider.currentExerciseIndex,
+    );
+
+    if (checkIntroAnimation) {
+      WidgetsBinding.instance.addPostFrameCallback((_) {
+        provider.markQuestionAnimated(provider.currentExerciseIndex);
+      });
+    }
     return Column(
       mainAxisSize: MainAxisSize.min,
-      children: exercise.options.map((option) {
+      children: exercise.options.asMap().entries.map((entry) {
+        final option = entry.value;
+
         final isSelected = provider.selectedAnswer == option;
         final isAnswered = provider.isAnswered;
         final isCorrect = option == exercise.correctAnswer;
-
+        Color textColor = context.theme.colorScheme.onSurface;
         Color bgColor = ColorConstant.colorTransparent;
         Color borderColor = context.theme.colorScheme.outline.withValues(
           alpha: 0.30,
@@ -847,20 +768,16 @@ class ExerciseScreen extends StatelessWidget {
           borderColor = context.theme.colorScheme.onPrimaryContainer;
         }
 
-        return GestureDetector(
+        // final shouldAnimate = provider.shouldAnimateWord(option);
+
+        Widget optionWidget = GestureDetector(
+          key: ValueKey(
+            "${provider.currentExerciseIndex}_${exercise.id}_$option",
+          ),
           onTap: () {
             if (!isAnswered) {
-              provider.selectAnswer(option);
-              provider.checkAnswer();
-            }
-
-            if (provider.isAnswered) {
-              log("isanswered condition");
-              context.read<VocabProvider>().speak(
-                text: exercise.question,
-                language: context.read<VocabProvider>().currentlanguage!,
-                speaker: context.read<VocabProvider>().currentspeaker,
-              );
+              final vocabpro = context.read<VocabProvider>();
+              provider.submitAnswer(option, vocabpro);
             }
           },
           child: Container(
@@ -872,9 +789,24 @@ class ExerciseScreen extends StatelessWidget {
               borderRadius: BorderRadius.circular(12.r),
               border: Border.all(color: borderColor, width: 2),
             ),
-            child: Text(option, style: context.text.bodyLarge),
+            child: Text(
+              option,
+              style: context.text.bodyLarge?.copyWith(color: textColor),
+            ),
           ),
         );
+
+        if (isAnswered) {
+          if (isCorrect) {
+            optionWidget = optionWidget.successFlash;
+          } else if (isSelected) {
+            optionWidget = optionWidget.errorShake;
+          }
+        } else if (checkIntroAnimation) {
+          optionWidget = optionWidget.fadeInScale;
+        }
+
+        return optionWidget;
       }).toList(),
     );
   }

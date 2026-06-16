@@ -11,6 +11,7 @@ class VocabularyPrompts {
   }) {
     // final wordCount = _calculateWordCount(dailyGoalMinutes, experienceLevel);
     final wordCount = dailyGoalMinutes;
+
     final nativeLang = Textconstant.languageNames[nativeLanguage];
 
     return """
@@ -33,20 +34,28 @@ INVALID PATTERNS (never use):
 - Generic: "यह मेरा ___ है" / "આ મારો ___ છે" / "वह एक ___ है" / "મેં ___ ખાધું"
 - Any sentence where ANY sibling word fits the blank naturally
 - Any sentence under 5 words total
+- Any sentence using only generic adjectives before blank: "good/local/nearby/big/nice + ___"
+- Any sentence where the verb is generic: "went to/visited/saw/found + ___"
 
 OPTIONS RULES:
 - 4 options, same part of speech, no synonyms, no repeats
 - correct_answer must exactly match word field including all diacritics/mātrās
 
-VALID ANCHOR PATTERNS:
-- Purpose: "कंप्यूटर पर रिपोर्ट टाइप करने के लिए ___"
-- Location: "બસ સ્ટેન્ડ પર ___ ની રાહ જોઈ"
-- Unique action: "બીમાર હોવાથી ___ પાસે ગયો"
-
-ANCHOR TEST (mandatory for every word):
-After writing a sentence, mentally replace the blank with each wrong option.
+ANCHOR TEST (mandatory for every word, every language):
+After writing the sentence, mentally replace the blank with each wrong option.
 If even ONE wrong option fits naturally → rewrite the sentence.
-The sentence must have enough context that ONLY the correct word fits logically.
+
+WEAK ANCHORS (never use in any language):
+- "good/local/nearby + [blank]" → siblings fit
+- "I went to the ___" → anything fits
+- "The ___ was crowded/big/nice" → anything fits
+- Any sentence where the blank is only modified by a generic adjective
+
+STRONG ANCHORS (required patterns):
+- Unique action only that word performs: "The surgeon operated in the ___"
+- Specific purpose tied to word: "Bought fresh bread from the ___"
+- Outcome tied to word: "Got stitches at the ___ after cutting my hand"
+- Multiple context details: "Checked in at the ___ after the flight and dropped luggage"
 
 BEGINNER (4-5 words): anchor must be a specific location noun or unique action verb
 INTERMEDIATE (6-8 words): anchor via purpose clause or specific context  
@@ -78,10 +87,10 @@ Generate exactly $wordCount words now.
 """;
   }
 
-  static int _calculateWordCount(int minutes, String level) {
-    final baseCount = {5: 20, 10: 30, 15: 40, 20: 50};
-    return baseCount[minutes] ?? 40;
-  }
+  // static int _calculateWordCount(int minutes, String level) {
+  //   final baseCount = {5: 20, 10: 30, 15: 40, 20: 50};
+  //   return baseCount[minutes] ?? 40;
+  // }
 
   static String _getLevelInstructions(String level) {
     switch (level.toLowerCase()) {

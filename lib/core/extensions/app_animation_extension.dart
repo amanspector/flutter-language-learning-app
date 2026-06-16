@@ -1,3 +1,4 @@
+import 'package:chatbot_app/core/appconstants/color_constant.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_animate/flutter_animate.dart';
 
@@ -200,7 +201,8 @@ extension WidgetExtensions on Widget {
 
   /// Success green pulse
   Widget get successFlash => animate()
-      .tint(color: Colors.greenAccent, duration: 250.ms)
+      .scaleXY(begin: 1.0, end: 1.04, duration: 180.ms)
+      .tint(color: ColorConstant.colorGreen, duration: 250.ms)
       .tint(color: Colors.transparent, duration: 300.ms, delay: 250.ms);
 
   /// Error red shake-and-flash combo

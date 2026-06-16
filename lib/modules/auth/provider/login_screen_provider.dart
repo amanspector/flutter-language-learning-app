@@ -12,13 +12,13 @@ import 'package:provider/provider.dart';
 class LoginscreenProvider extends ChangeNotifier {
   final TextEditingController emailcontroller = TextEditingController();
   final TextEditingController passwordcontroller = TextEditingController();
+  final FirebaseAuthService authobj = FirebaseAuthService();
   final formkey = GlobalKey<FormState>();
   bool isPasswordVisible = false;
-  String? msg;
-  String? gmail;
-  final FirebaseAuthService authobj = FirebaseAuthService();
   bool isloading = false;
   bool islogout = false;
+  String? gmail;
+  String? msg;
 
   LoginscreenProvider() {
     FirebaseAuth.instance.authStateChanges().listen((user) {
@@ -31,52 +31,6 @@ class LoginscreenProvider extends ChangeNotifier {
     gmail = user?.email;
     notifyListeners();
   }
-
-  // Future<void> login(
-  //   BuildContext context,
-  //   String email,
-  //   String password,
-  // ) async {
-  //   if (isloading) return;
-  //   isloading = true;
-  //   notifyListeners();
-  //   Navigator.pushReplacement(
-  //     context,
-  //     MaterialPageRoute(
-  //       builder: (_) =>
-  //           AppShowloading(message: S.of(context).generatingYourVocabulary),
-  //     ),
-  //   );
-
-  //   final isReady = await Sessionmanage.loadAndInitializeUser(context, uid);
-
-  //   if (!context.mounted) return;
-  //   _navigateAfterLogin(context, isReady);
-  //   try {
-  //     String? error = await authobj.login(context, email, password);
-
-  //     if (!context.mounted) return;
-
-  //     if (error != null) {
-  //       AppShowloading.hide(context);
-  //       setErrorMsg(error);
-  //     } else {
-  //       User? currentUser = FirebaseAuth.instance.currentUser;
-  //       if (currentUser != null) {
-  //         bool isReady = await Sessionmanage.loadAndInitializeUser(
-  //           context,
-  //           currentUser.uid,
-  //         );
-  //         if (!context.mounted) return;
-  //         clearloginData();
-  //         _navigateAfterLogin(context, isReady);
-  //       }
-  //     }
-  //   } finally {
-  //     isloading = false;
-  //     notifyListeners();
-  //   }
-  // }
 
   Future<void> login(
     BuildContext context,

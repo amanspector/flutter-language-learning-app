@@ -1,9 +1,8 @@
 import 'dart:developer';
 import 'package:chatbot_app/core/extensions/localization_extension.dart';
 import 'package:chatbot_app/core/extensions/theme_extension.dart';
-import 'package:chatbot_app/core/widgets/app_animaation.dart';
+import 'package:chatbot_app/core/extensions/app_animation_extension.dart';
 import 'package:chatbot_app/core/widgets/app_button.dart';
-import 'package:chatbot_app/generated/l10n.dart';
 import 'package:chatbot_app/modules/exercisepage/provider/lesson_provider.dart';
 import 'package:chatbot_app/modules/vocabularypage/provider/vocab_provider.dart';
 import 'package:flutter_animate/flutter_animate.dart';

@@ -2,7 +2,7 @@ import 'package:chatbot_app/core/appconstants/color_constant.dart';
 import 'package:chatbot_app/core/extensions/daily_goal_extension.dart';
 import 'package:chatbot_app/core/extensions/localization_extension.dart';
 import 'package:chatbot_app/core/extensions/theme_extension.dart';
-import 'package:chatbot_app/core/widgets/app_animaation.dart';
+import 'package:chatbot_app/core/extensions/app_animation_extension.dart';
 import 'package:chatbot_app/core/widgets/app_button.dart';
 import 'package:chatbot_app/core/widgets/app_container.dart';
 import 'package:chatbot_app/core/widgets/app_customContainer.dart';

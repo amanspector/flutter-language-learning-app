@@ -280,13 +280,14 @@ class Registerscreen extends StatelessWidget {
                         style: Theme.of(context).textTheme.titleMedium,
                       ),
                       TextButton(
-                        onPressed: () => {
+                        onPressed: () {
+                          registerProvider.clearData();
                           Navigator.pushReplacement(
                             context,
                             MaterialPageRoute(
                               builder: (context) => Loginscreen(),
                             ),
-                          ),
+                          );
                         },
                         child: Text(
                           S.of(context).login,

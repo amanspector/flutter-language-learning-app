@@ -1,6 +1,6 @@
 import 'package:chatbot_app/core/extensions/localization_extension.dart';
 import 'package:chatbot_app/core/extensions/theme_extension.dart';
-import 'package:chatbot_app/core/widgets/app_animaation.dart';
+import 'package:chatbot_app/core/extensions/app_animation_extension.dart';
 import 'package:chatbot_app/core/widgets/app_screen.dart';
 import 'package:chatbot_app/generated/l10n.dart';
 import '../service/sessionManage.dart';

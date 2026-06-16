@@ -158,6 +158,8 @@ class VocabProvider extends ChangeNotifier {
       if (unlearnedWords.length < maxWordsForLevel) {
         log(" Unlearned words length : ${unlearnedWords.length}");
         log("No unlearned words, generating new batch...");
+        log("Maxwordforlvel : ${maxWordsForLevel.toString()}");
+        log("dailygoalString : $dailygoalString");
         await generateWordsFromAI(onboard);
         if (generationFailed) {
           log("Generation failed, stopping loadWords");
@@ -237,8 +239,18 @@ class VocabProvider extends ChangeNotifier {
         .where((w) => !dueIds.contains(w.word))
         .take(newCount)
         .toList();
-
     final mixed = [...srsSlice, ...newSlice];
+
+    // 🔥 FILL REMAINING if less than required
+    if (mixed.length < total) {
+      final remaining = unlearnedWords
+          .where((w) => !mixed.contains(w))
+          .take(total - mixed.length)
+          .toList();
+
+      mixed.addAll(remaining);
+    }
+
     log(
       "SRS mix → ${srsSlice.length} review + ${newSlice.length} new = ${mixed.length} total",
     );
@@ -304,15 +316,23 @@ class VocabProvider extends ChangeNotifier {
             "Generating words from AI (attempt ${retryCount + 1}/$maxRetries)",
           );
 
+          // final prompt = VocabularyPrompts.buildVocabularyPrompt(
+          //   language: onboard.selectedlanguage!,
+          //   nativeLanguage: onboard.selectedNativeLanguage!,
+          //   experienceLevel: onboard.selectedExperienceLevel!,
+          //   learningGoal: onboard.selectedgoal!,
+          //   dailyGoalMinutes: maxWordsForLevel + 5,
+          //   learnedWords: learnedIds,
+          // );
+
           final prompt = VocabularyPrompts.buildVocabularyPrompt(
-            language: onboard.selectedlanguage!,
-            nativeLanguage: onboard.selectedNativeLanguage!,
-            experienceLevel: onboard.selectedExperienceLevel!,
-            learningGoal: onboard.selectedgoal!,
+            language: onboard.selectedlanguage ?? 'English',
+            nativeLanguage: onboard.selectedNativeLanguage ?? 'en',
+            experienceLevel: onboard.selectedExperienceLevel ?? 'Beginner',
+            learningGoal: onboard.selectedgoal ?? 'travel',
             dailyGoalMinutes: maxWordsForLevel + 5,
             learnedWords: learnedIds,
           );
-
           log("prompt : $prompt");
 
           final stopwatch = Stopwatch()..start();

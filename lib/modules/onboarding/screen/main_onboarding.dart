@@ -166,7 +166,6 @@ class MainOnboarding extends StatelessWidget {
                 ),
               );
 
-              // ✅ now do async work — no context used below this line
               try {
                 await FirebaseOnboardingService.setprovider(
                   true,

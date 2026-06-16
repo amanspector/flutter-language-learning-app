@@ -1,6 +1,7 @@
 import 'dart:developer';
 import 'package:chatbot_app/core/appconstants/color_constant.dart';
 import 'package:chatbot_app/core/appconstants/text_constant.dart';
+import 'package:chatbot_app/core/extensions/app_animation_extension.dart';
 import 'package:chatbot_app/core/extensions/daily_goal_extension.dart';
 import 'package:chatbot_app/core/widgets/app_alertDialog.dart';
 import 'package:chatbot_app/core/widgets/app_container.dart';
@@ -28,9 +29,23 @@ class Userprofile extends StatelessWidget {
     String gmail = context.select<LoginscreenProvider, String>(
       (provider) => provider.gmail ?? S.of(context).notFound,
     );
+
     String selectedLanguage = context.select<OnboardProvider, String>(
       (provider) => provider.selectedlanguage ?? S.of(context).notFound,
     );
+
+    String learninglanguage = context.select<OnboardProvider, String>(
+      (provider) => provider.selectedlanguage ?? S.of(context).notFound,
+    );
+
+    final learningLanguageCode = Textconstant.learningLanguages.firstWhere(
+      (element) => element['label'] == learninglanguage,
+      orElse: () => {'code': ''},
+    )['code'];
+
+    final languages = Textconstant.languages
+        .where((lang) => lang['code'] != learningLanguageCode)
+        .toList();
     String selectedDailyGoal = context.select<OnboardProvider, String>(
       (provider) => provider.selectedDailyGoal ?? S.of(context).notFound,
     );
@@ -66,7 +81,7 @@ class Userprofile extends StatelessWidget {
                               gmail.toUpperCase()[0],
                               style: Theme.of(context).textTheme.bodyLarge,
                             ),
-                          ),
+                          ).popIn,
                           SizedBox(width: 16.w),
                           Column(
                             crossAxisAlignment: CrossAxisAlignment.start,
@@ -84,11 +99,14 @@ class Userprofile extends StatelessWidget {
                     ),
                   ),
                 ),
-              ),
+              ).staggerFadeUp(0),
 
               SizedBox(height: 20.h),
 
-              _buildSectionHeader(context, S.of(context).preferences),
+              _buildSectionHeader(
+                context,
+                S.of(context).preferences,
+              ).staggerFadeUp(1),
               SizedBox(height: 8.h),
 
               AppContainer(
@@ -130,17 +148,24 @@ class Userprofile extends StatelessWidget {
                             'English',
                         textColor: Theme.of(context).colorScheme.onSurface,
                         showArrow: true,
-                        onTap: () => _showLanguagePicker(context, appLanguage),
+                        onTap: () => _showLanguagePicker(
+                          context,
+                          appLanguage,
+                          languages,
+                        ),
                       ),
                     ],
                   ),
                 ),
-              ),
+              ).staggerFadeUp(2),
 
               SizedBox(height: 20.h),
 
               // ACCOUNT Section
-              _buildSectionHeader(context, S.of(context).account),
+              _buildSectionHeader(
+                context,
+                S.of(context).account,
+              ).staggerFadeUp(3),
               SizedBox(height: 8.h),
 
               AppContainer(
@@ -183,7 +208,7 @@ class Userprofile extends StatelessWidget {
                     ],
                   ),
                 ),
-              ),
+              ).staggerFadeUp(4),
             ],
           ),
         ),
@@ -259,6 +284,8 @@ class Userprofile extends StatelessWidget {
   void _showDailyGoalPicker(BuildContext context, String currentGoal) {
     final goals = DailyGoal.all;
 
+    int index = 0;
+
     showModalBottomSheet(
       backgroundColor: Theme.of(context).colorScheme.surface,
       context: context,
@@ -278,6 +305,7 @@ class Userprofile extends StatelessWidget {
 
               Divider(),
               ...goals.map((goal) {
+                final currentIdx = index++;
                 final isSelected = goal.code == currentGoal;
                 log("Current goal : $currentGoal");
                 log("goal code : ${goal.code}");
@@ -333,7 +361,7 @@ class Userprofile extends StatelessWidget {
                       context.read<LessonProvider>().resetLesson();
                     }
                   },
-                );
+                ).staggerFadeLeft(currentIdx, baseDelayMs: 50);
               }),
               SizedBox(height: 16.h),
             ],
@@ -343,8 +371,12 @@ class Userprofile extends StatelessWidget {
     );
   }
 
-  void _showLanguagePicker(BuildContext context, String currentLang) {
-    final languages = Textconstant.languages;
+  void _showLanguagePicker(
+    BuildContext context,
+    String currentLang,
+    List<Map<String, String>> languages,
+  ) {
+    int index = 0;
 
     showModalBottomSheet(
       context: context,
@@ -365,6 +397,7 @@ class Userprofile extends StatelessWidget {
               SizedBox(height: 12.h),
               Divider(),
               ...languages.map((lang) {
+                final currentIdx = index++;
                 final isSelected = lang['code'] == currentLang;
                 return ListTile(
                   title: Text(
@@ -405,6 +438,8 @@ class Userprofile extends StatelessWidget {
                           .read<VocabProvider>()
                           .clearVocabDataOnLanguageChange();
                       if (!context.mounted) return;
+
+                      context.read<LessonProvider>().resetLesson();
                       context.read<OnboardProvider>().setSelectedNativeLanguage(
                         lang['code']!,
                       );
@@ -421,7 +456,7 @@ class Userprofile extends StatelessWidget {
                       );
                     }
                   },
-                );
+                ).staggerFadeLeft(currentIdx, baseDelayMs: 50);
               }),
               SizedBox(height: 16.h),
             ],

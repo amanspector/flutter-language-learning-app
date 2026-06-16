@@ -6,7 +6,7 @@ import 'package:flutter/material.dart';
 
 class OnboardProvider extends ChangeNotifier {
   String? selectedNativeLanguage = Textconstant.languages.first['code'];
-  String? selectedNativeLanguageLabel = 'English';
+  String selectedNativeLanguageLabel = 'English';
   String? selectedlanguage;
   String? selectedgoal;
   String? error_message;
@@ -16,6 +16,10 @@ class OnboardProvider extends ChangeNotifier {
   String? uid;
   int currentPage = 0;
   bool isCompleted = false;
+  TextDirection get learningTextDirection =>
+      isRtl(selectedNativeLanguage ?? 'en')
+      ? TextDirection.rtl
+      : TextDirection.ltr;
 
   void setSelectedNativeLanguage(String value) {
     selectedNativeLanguage = value;
@@ -26,7 +30,7 @@ class OnboardProvider extends ChangeNotifier {
 
   void setSelectedNativeLanguageLabel(String value) {
     selectedNativeLanguageLabel = value;
-    log(selectedNativeLanguageLabel!);
+    log(selectedNativeLanguageLabel);
     error_message = null;
     notifyListeners();
   }
@@ -129,6 +133,9 @@ class OnboardProvider extends ChangeNotifier {
     uid = userid;
     notifyListeners();
   }
+
+  static bool isRtl(String langCode) =>
+      ['ar', 'he', 'ur', 'fa'].contains(langCode);
 
   void reset() {
     error_message = null;

@@ -22,7 +22,7 @@ class LessonProvider extends ChangeNotifier {
   int currentExerciseIndex = 0;
   int score = 0;
   bool isAnswered = false;
-  bool isnextword = false;
+  // bool isnextword = false;
   String? selectedAnswer;
   bool isCorrect = false;
 
@@ -34,12 +34,24 @@ class LessonProvider extends ChangeNotifier {
   String? errorMessage;
 
   int dailyGoalMinutes = 10;
-  bool get isIntroductionComplete => currentWordIndex >= lessonWords.length;
-  bool get isLessonComplete => currentExerciseIndex >= exercises.length;
-  int get totalWords => lessonWords.length;
+  // bool get isIntroductionComplete => currentWordIndex >= lessonWords.length;
+  // bool get isLessonComplete => currentExerciseIndex >= exercises.length;
+  // int get totalWords => lessonWords.length;
   int get totalExercises => exercises.length;
   int get xpEarned => score * 10;
   List<String?> arrangedSentence = [];
+  bool hasAnimatedResult = false;
+
+  List<String> animatedWords = [];
+  int? _lastAnimatedExerciseIndex;
+
+  bool shouldAnimateQuestion(int exerciseIndex) {
+    return _lastAnimatedExerciseIndex != exerciseIndex;
+  }
+
+  void markQuestionAnimated(int exerciseIndex) {
+    _lastAnimatedExerciseIndex = exerciseIndex;
+  }
 
   WordModel? get currentWord {
     if (lessonWords.isEmpty || currentWordIndex >= lessonWords.length) {
@@ -184,9 +196,11 @@ class LessonProvider extends ChangeNotifier {
   }
 
   void nextWord() {
+    animatedWords.clear();
     if (currentWordIndex < lessonWords.length - 1) {
       currentWordIndex++;
       showMeaning = false;
+      hasAnimatedResult = false;
       notifyListeners();
     }
   }
@@ -291,30 +305,6 @@ class LessonProvider extends ChangeNotifier {
     dev.log("✅ ${totalWords} words → ${exercises.length} exercises");
   }
 
-  // ExerciseModel _createSentenceArrangement(WordModel word, int index) {
-  //   try {
-  //     // Create shuffled copy of sentence parts
-  //     _initializeArrangement();
-  //     final shuffledParts = List<String>.from(word.sentenceParts);
-  //     shuffledParts.shuffle(Random());
-
-  //     // Join the correct order for answer checking
-  //     final correctSentence = word.sentenceParts.join(' ');
-
-  //     return ExerciseModel(
-  //       id: 'ex_${index}_arrange',
-  //       type: ExerciseType.sentenceArrangement, // ← Add this to your enum
-  //       question: "Arrange the words to form: ${word.exampleTranslation}",
-  //       questionWithoutBlank: correctSentence,
-  //       options: shuffledParts, // Shuffled words to drag
-  //       correctAnswer: correctSentence, // Complete correct sentence
-  //       explanation: "Correct order: ${word.example}",
-  //     );
-  //   } catch (e) {
-  //     throw Error();
-  //   }
-  // }
-
   ExerciseModel _createSentenceArrangement(
     WordModel word,
     int index,
@@ -355,20 +345,25 @@ class LessonProvider extends ChangeNotifier {
     try {
       final currentExample = word.exampleForRep(word.srsRepetitions);
       final sentence = currentExample?.sentence ?? word.example;
-
-      // final currentExample =
-      //     word.exampleForRep(word.srsRepetitions)?.sentence ?? word.example;
-
       String question;
       String questionWithoutBlank;
-      if (sentence.contains(word.word)) {
-        question = sentence.replaceFirst(word.word, "_____");
+      dev.log("sentence : $sentence");
+      dev.log("Word : ${word.word}");
+
+      if (sentence.toLowerCase().contains(word.word.toLowerCase())) {
+        question = sentence.replaceFirst(
+          RegExp(RegExp.escape(word.word), caseSensitive: false),
+          "_____",
+        );
         questionWithoutBlank = sentence;
-      } else {
-        // question = "Fill in the blank for: '${word.translation}' → _____";
+      }
+      // if (sentence.contains(word.word)) {
+      //   question = sentence.replaceFirst(word.word, "_____");
+      //   questionWithoutBlank = sentence;
+      // }
+      else {
         question = S.of(con).fillInTheBlank(word.translation);
         questionWithoutBlank = word.word;
-        // question = "Fill in the blank with the correct word: _____";
       }
 
       final allOptions = List<String>.from(word.options)..shuffle(Random());
@@ -383,8 +378,7 @@ class LessonProvider extends ChangeNotifier {
         if (allOptions.any(
           (option) => option.toLowerCase().trim() == part.toLowerCase().trim(),
         )) {
-          exactMatchingOption =
-              part; // Overrides "la nota" with "nota" perfectly
+          exactMatchingOption = part;
           break;
         }
       }
@@ -419,7 +413,7 @@ class LessonProvider extends ChangeNotifier {
     }
   }
 
-  void checkAnswer() {
+  void checkAnswer(VocabProvider vocabprovider) {
     if (selectedAnswer == null || isAnswered) return;
 
     isAnswered = true;
@@ -465,11 +459,25 @@ class LessonProvider extends ChangeNotifier {
     }
 
     _updateSrsCard(testword, isCorrect);
+
+    dev.log("🎯 correctAnswer: ${currentExercise?.correctAnswer}");
+    dev.log("👆 selectedAnswer: $selectedAnswer");
+    dev.log(
+      "🔤 sanitized correct: ${sanitize(currentExercise!.correctAnswer)}",
+    );
+    dev.log("🔤 sanitized selected: ${sanitize(selectedAnswer!)}");
     dev.log("✅ isCorrect: $isCorrect");
     dev.log("📊 score: $score");
     dev.log("🏆 masteredWords: $masteredWords");
     dev.log("🔄 needReviewWords: $needReviewWords");
     dev.log("📝 testedWord: ${testword.word}");
+    hasAnimatedResult = true;
+
+    vocabprovider.speak(
+      text: currentExercise!.questionWithoutBlank,
+      language: vocabprovider.currentlanguage!,
+      speaker: vocabprovider.currentspeaker,
+    );
     notifyListeners();
   }
 
@@ -633,7 +641,31 @@ class LessonProvider extends ChangeNotifier {
     masteredWords.clear();
     needReviewWords.clear();
     _resetExerciseState();
+    _lastAnimatedExerciseIndex = null;
     currentPhase = LessonPhase.exercise;
+    notifyListeners();
+  }
+
+  bool shouldAnimateWord(String word) {
+    if (animatedWords.contains(word)) return false;
+    animatedWords.add(word);
+    return true;
+  }
+
+  void submitAnswer(String option, VocabProvider vocabprovider) {
+    selectedAnswer = option;
+
+    isCorrect = option == currentExercise!.correctAnswer;
+    isAnswered = true;
+
+    hasAnimatedResult = true;
+
+    vocabprovider.speak(
+      text: currentExercise!.question,
+      language: vocabprovider.currentlanguage!,
+      speaker: vocabprovider.currentspeaker,
+    );
+
     notifyListeners();
   }
 }

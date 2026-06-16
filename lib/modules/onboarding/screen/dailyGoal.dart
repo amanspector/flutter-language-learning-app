@@ -1,5 +1,4 @@
 import 'package:animated_text_kit/animated_text_kit.dart';
-import 'package:chatbot_app/core/appconstants/color_constant.dart';
 import 'package:chatbot_app/core/extensions/daily_goal_extension.dart';
 import 'package:chatbot_app/core/extensions/localization_extension.dart';
 import 'package:chatbot_app/core/extensions/theme_extension.dart';

@@ -1,4 +1,5 @@
 import 'package:animated_text_kit/animated_text_kit.dart';
+import 'package:chatbot_app/core/appconstants/text_constant.dart';
 import 'package:chatbot_app/core/widgets/app_button.dart';
 import 'package:chatbot_app/core/widgets/app_customContainer.dart';
 import 'package:chatbot_app/generated/l10n.dart';
@@ -12,28 +13,8 @@ class Languageselection extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final learningLanguages = [
-      {'code': 'en', 'label': 'English', 'img': 'assets/icon/icon_uk_flag.png'},
-      {
-        'code': 'hi',
-        'label': 'Hindi',
-        'img': 'assets/icon/icon_india_flag.png',
-      },
-      {
-        'code': 'gu',
-        'label': 'Gujarati',
-        'img': 'assets/icon/icon_india_flag.png',
-      },
-      {'code': 'ar', 'label': 'Arabic', 'img': 'assets/icon/icon_ar_flag.png'},
-      {
-        'code': 'es',
-        'label': 'Spanish',
-        'img': 'assets/icon/icon_spain_flag.png',
-      },
-    ];
-
     final onboardProvider = context.watch<OnboardProvider>();
-    final languages = learningLanguages
+    final languages = Textconstant.learningLanguages
         .where((lang) => lang['code'] != onboardProvider.selectedNativeLanguage)
         .toList();
     return SingleChildScrollView(

@@ -11,6 +11,22 @@ class Textconstant {
 
   static const String syncingProgress = "SYNCING PROGRESS...";
 
+  static const learningLanguages = [
+    {'code': 'en', 'label': 'English', 'img': 'assets/icon/icon_uk_flag.png'},
+    {'code': 'hi', 'label': 'Hindi', 'img': 'assets/icon/icon_india_flag.png'},
+    {
+      'code': 'gu',
+      'label': 'Gujarati',
+      'img': 'assets/icon/icon_india_flag.png',
+    },
+    {'code': 'ar', 'label': 'Arabic', 'img': 'assets/icon/icon_ar_flag.png'},
+    {
+      'code': 'es',
+      'label': 'Spanish',
+      'img': 'assets/icon/icon_spain_flag.png',
+    },
+  ];
+
   static const List<Map<String, String>> languages = [
     {'code': 'en', 'label': 'English'},
     {'code': 'hi', 'label': 'हिंदी - Hindi'},

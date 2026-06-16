@@ -1,7 +1,7 @@
 import 'dart:developer';
 import 'package:chatbot_app/core/extensions/localization_extension.dart';
 import 'package:chatbot_app/core/extensions/theme_extension.dart';
-import 'package:chatbot_app/core/widgets/app_animaation.dart';
+import 'package:chatbot_app/core/extensions/app_animation_extension.dart';
 import 'package:chatbot_app/core/widgets/app_button.dart';
 import 'package:chatbot_app/core/widgets/app_container.dart';
 import 'package:chatbot_app/core/widgets/app_customContainer.dart';
@@ -219,103 +219,112 @@ class VocabScreen extends StatelessWidget {
                                           ).textTheme.headlineSmall,
                                         ).fadeInSlideUp,
                                         SizedBox(height: 10.h),
-                                        Row(
-                                          mainAxisAlignment:
-                                              MainAxisAlignment.center,
-                                          crossAxisAlignment:
-                                              CrossAxisAlignment.center,
-                                          children: [
-                                            Flexible(
-                                              flex: 4,
-                                              child: Text(
-                                                word
-                                                        .exampleForRep(
-                                                          word.srsRepetitions,
-                                                        )
-                                                        ?.sentence ??
-                                                    word.example,
-                                                style: Theme.of(
-                                                  context,
-                                                ).textTheme.headlineSmall,
-                                              ).fadeInSlideUp,
-                                            ),
-                                            SizedBox(width: 10.w),
-                                            Flexible(
-                                              flex: 1,
-                                              child: GestureDetector(
-                                                onTap: () {
-                                                  provider.speak(
-                                                    speaker: speaker,
-                                                    text:
-                                                        word
-                                                            .exampleForRep(
-                                                              word.srsRepetitions,
-                                                            )
-                                                            ?.sentence ??
-                                                        word.example,
-                                                    language: language,
-                                                    type: "example",
-                                                  );
-                                                },
-                                                child: AppContainer(
-                                                  backgroundColor: context
-                                                      .theme
-                                                      .colorScheme
-                                                      .primary
-                                                      .withValues(alpha: 0.15),
-                                                  height: 50.h,
-                                                  width: 50.w,
-                                                  widget: AnimatedSwitcher(
-                                                    duration: const Duration(
-                                                      milliseconds: 150,
-                                                    ),
-                                                    transitionBuilder:
-                                                        (child, animation) {
-                                                          return FadeTransition(
-                                                            opacity: animation,
-                                                            child:
-                                                                ScaleTransition(
-                                                                  scale:
-                                                                      animation,
-                                                                  child: child,
-                                                                ),
-                                                          );
-                                                        },
-                                                    child:
-                                                        provider.speakingKey ==
-                                                            keyExample
-                                                        ? Center(
-                                                            key: ValueKey(
-                                                              "loading_${provider.currentIndex}_$keyWord",
-                                                            ),
-                                                            child: SizedBox(
-                                                              width: 24
-                                                                  .w, // Standardized sizing to match your container
-                                                              height: 24.h,
-                                                              child:
-                                                                  CircularProgressIndicator(
-                                                                    strokeWidth:
-                                                                        2.w,
-                                                                  ),
-                                                            ),
+                                        Directionality(
+                                          textDirection: context
+                                              .read<OnboardProvider>()
+                                              .learningTextDirection,
+                                          child: Row(
+                                            mainAxisAlignment:
+                                                MainAxisAlignment.center,
+                                            crossAxisAlignment:
+                                                CrossAxisAlignment.center,
+                                            children: [
+                                              Flexible(
+                                                flex: 4,
+                                                child: Text(
+                                                  word
+                                                          .exampleForRep(
+                                                            word.srsRepetitions,
                                                           )
-                                                        : Padding(
-                                                            key: ValueKey(
-                                                              "icon_${provider.currentIndex}_$keyWord",
+                                                          ?.sentence ??
+                                                      word.example,
+                                                  style: Theme.of(
+                                                    context,
+                                                  ).textTheme.headlineSmall,
+                                                ).fadeInSlideUp,
+                                              ),
+                                              SizedBox(width: 10.w),
+                                              Flexible(
+                                                flex: 1,
+                                                child: GestureDetector(
+                                                  onTap: () {
+                                                    provider.speak(
+                                                      speaker: speaker,
+                                                      text:
+                                                          word
+                                                              .exampleForRep(
+                                                                word.srsRepetitions,
+                                                              )
+                                                              ?.sentence ??
+                                                          word.example,
+                                                      language: language,
+                                                      type: "example",
+                                                    );
+                                                  },
+                                                  child: AppContainer(
+                                                    backgroundColor: context
+                                                        .theme
+                                                        .colorScheme
+                                                        .primary
+                                                        .withValues(
+                                                          alpha: 0.15,
+                                                        ),
+                                                    height: 50.h,
+                                                    width: 50.w,
+                                                    widget: AnimatedSwitcher(
+                                                      duration: const Duration(
+                                                        milliseconds: 150,
+                                                      ),
+                                                      transitionBuilder:
+                                                          (child, animation) {
+                                                            return FadeTransition(
+                                                              opacity:
+                                                                  animation,
+                                                              child:
+                                                                  ScaleTransition(
+                                                                    scale:
+                                                                        animation,
+                                                                    child:
+                                                                        child,
+                                                                  ),
+                                                            );
+                                                          },
+                                                      child:
+                                                          provider.speakingKey ==
+                                                              keyExample
+                                                          ? Center(
+                                                              key: ValueKey(
+                                                                "loading_${provider.currentIndex}_$keyWord",
+                                                              ),
+                                                              child: SizedBox(
+                                                                width: 24
+                                                                    .w, // Standardized sizing to match your container
+                                                                height: 24.h,
+                                                                child:
+                                                                    CircularProgressIndicator(
+                                                                      strokeWidth:
+                                                                          2.w,
+                                                                    ),
+                                                              ),
+                                                            )
+                                                          : Padding(
+                                                              key: ValueKey(
+                                                                "icon_${provider.currentIndex}_$keyWord",
+                                                              ),
+                                                              padding:
+                                                                  EdgeInsets.all(
+                                                                    15.r,
+                                                                  ),
+                                                              child: SvgPicture.asset(
+                                                                'assets/icon/svg/speaker.svg',
+                                                              ),
                                                             ),
-                                                            padding:
-                                                                EdgeInsets.all(
-                                                                  15.r,
-                                                                ),
-                                                            child: SvgPicture.asset(
-                                                              'assets/icon/svg/speaker.svg',
-                                                            ),
-                                                          ),
+                                                    ),
                                                   ),
                                                 ),
                                               ),
-                                            ),
-                                          ],
+                                            ],
+                                          ),
                                         ),
                                       ],
                                     )
