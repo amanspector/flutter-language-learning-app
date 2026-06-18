@@ -16,9 +16,11 @@ class CustomNavBar extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      margin: EdgeInsets.symmetric(horizontal: 5.r, vertical: 16.r),
       padding: EdgeInsets.symmetric(horizontal: 10.r, vertical: 10.r),
       decoration: BoxDecoration(
+        border: Border.all(
+          color: context.theme.colorScheme.outline.withValues(alpha: 0.1),
+        ),
         color: context.theme.colorScheme.surface,
         boxShadow: [
           BoxShadow(
@@ -41,10 +43,18 @@ class CustomNavBar extends StatelessWidget {
             onTap: onTap,
           ),
           _NavItem(
+            iconSelected: Icons.my_library_books_rounded,
+            iconDisabled: Icons.my_library_books_outlined,
+            label: context.l10n.history,
+            index: 1,
+            selectedIndex: selectedIndex,
+            onTap: onTap,
+          ),
+          _NavItem(
             iconSelected: Icons.chat_bubble,
             iconDisabled: Icons.chat_bubble_outline_outlined,
             label: context.l10n.chat,
-            index: 1,
+            index: 2,
             selectedIndex: selectedIndex,
             onTap: onTap,
           ),
@@ -52,7 +62,7 @@ class CustomNavBar extends StatelessWidget {
             iconSelected: Icons.person,
             iconDisabled: Icons.person_outline,
             label: context.l10n.profile,
-            index: 2,
+            index: 3,
             selectedIndex: selectedIndex,
             onTap: onTap,
           ),
@@ -113,7 +123,7 @@ class _NavItem extends StatelessWidget {
                         padding: EdgeInsets.only(left: 6.r),
                         child: Text(
                           label,
-                          style: context.theme.textTheme.titleMedium?.copyWith(
+                          style: context.text.titleMedium?.copyWith(
                             color: isSelected
                                 ? context.theme.colorScheme.onSecondaryContainer
                                 : null,

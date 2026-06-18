@@ -1,8 +1,10 @@
 import 'dart:developer';
+import 'package:chatbot_app/modules/homepage/service/homescreen_service.dart';
 import 'package:chatbot_app/modules/onboarding/provider/onboard_provider.dart';
 import 'package:chatbot_app/modules/vocabularypage/provider/vocab_provider.dart';
 import 'package:chatbot_app/modules/auth/service/firebase_auth_service.dart';
 import 'package:chatbot_app/modules/vocabularypage/service/tts_service.dart';
+import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
 
 class HomescreenProvider extends ChangeNotifier {
@@ -12,7 +14,10 @@ class HomescreenProvider extends ChangeNotifier {
   int seletectedIndex = 0;
   bool isInitLoading = false;
   bool isLoadUserState = false;
+  bool _hasInitializedSession = false;
   final PageController pageController = PageController();
+  List<Map<String, dynamic>> lastLessonExercises = [];
+  List<Map<String, dynamic>> lessonHistory = [];
 
   final FocusNode focus = FocusNode();
   Future<void> loadUserStats(String uid) async {
@@ -29,6 +34,9 @@ class HomescreenProvider extends ChangeNotifier {
       totalXP = data?['total_xp'] ?? 0;
       langauge = data?['language'] ?? "Not Found";
 
+      await loadLessonHistory();
+      await loadLastLesson();
+
       log("✅ Current Streak : $currentStreak days");
       log("✅ Stats Loaded: XP $totalXP");
       notifyListeners();
@@ -39,8 +47,6 @@ class HomescreenProvider extends ChangeNotifier {
       notifyListeners();
     }
   }
-
-  bool _hasInitializedSession = false;
 
   Future<void> initializeOnce({
     required OnboardProvider onboardprovider,
@@ -53,6 +59,39 @@ class HomescreenProvider extends ChangeNotifier {
       onboardprovider: onboardprovider,
       vocabprovider: vocabprovider,
     );
+    await loadLessonHistory();
+    await loadLastLesson();
+  }
+
+  int lastLessonScore = 0;
+  int lastLessonTotal = 0;
+  DateTime? lastLessonDate;
+
+  Future<void> loadLastLesson() async {
+    try {
+      final data = await HomescreenService().getLastLesson();
+      if (data == null) return;
+
+      lastLessonScore = data['score'] ?? 0;
+      lastLessonTotal = data['total_questions'] ?? 0;
+      lastLessonDate = (data['completed_at'] as Timestamp).toDate();
+      lastLessonExercises = List<Map<String, dynamic>>.from(
+        data['exercises'] ?? [],
+      );
+      log("✅ Last lesson: $lastLessonScore/$lastLessonTotal");
+      log("✅ Exercises count: ${lastLessonExercises.length}");
+    } catch (e) {
+      log("❌ Error loading last lesson: $e");
+    }
+  }
+
+  Future<void> loadLessonHistory() async {
+    try {
+      lessonHistory = await HomescreenService().getLessonHistory();
+      notifyListeners();
+    } catch (e) {
+      log("❌ Error loading lesson history: $e");
+    }
   }
 
   void resetUserState() {
@@ -110,6 +149,11 @@ class HomescreenProvider extends ChangeNotifier {
   void bottomNavBarIndex(int index) {
     seletectedIndex = index;
     pageController.jumpToPage(index);
+    // pageController.animateToPage(
+    //   index,
+    //   duration: Duration(seconds: 1),
+    //   curve: Curves.easeInOut,
+    // );
     notifyListeners();
   }
 

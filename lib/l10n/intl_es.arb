@@ -109,7 +109,7 @@
   "xpPointsValue": "{points} XP",
   "generatingYourVocabulary": "Generando tu vocabulario...",
   "languageNotSelected": "Idioma no seleccionado",
-  "tapToRevealMeaning": "Toca para revelar el significado",
+  "meaning": "significado",
   "questionProgress": "Pregunta {currentIndex} de {totalCount}",
   "lessonComplete": "¡Lección completada!",
   "scorePercentageValue": "{percentage}%",
@@ -190,5 +190,10 @@
   "loginFailed": "Error al iniciar sesión",
   "registrationFailed": "Error al registrarse",
   "next": "التالي",
-  "skip": "تخطي"
+  "skip": "تخطي",
+  "logoutConfirmationTitle": "¿Estás seguro de que quieres cerrar sesión?",
+  "lesson": "Lección",
+  "lastLesson": "Última lección",
+  "noLessonsAttempted": "Aún no se han intentado lecciones",
+  "completeLessonToSeeHistory": "Completa una lección para ver tu historial aquí"
 }

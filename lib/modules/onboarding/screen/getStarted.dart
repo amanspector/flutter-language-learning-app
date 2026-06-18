@@ -49,7 +49,7 @@ class _GetstartedState extends State<Getstarted> {
                 provider.currentindex != 2
                     ? context.l10n.next
                     : context.l10n.getStarted,
-                style: context.theme.textTheme.headlineSmall?.copyWith(
+                style: context.text.headlineSmall?.copyWith(
                   fontWeight: FontWeight.w700,
                 ),
               ),

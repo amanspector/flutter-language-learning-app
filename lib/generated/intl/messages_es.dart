@@ -111,6 +111,9 @@ class MessageLookup extends MessageLookupByLibrary {
         MessageLookupByLibrary.simpleMessage(
           "Cómodo con lo básico, buscando un dominio más profundo.",
         ),
+    "completeLessonToSeeHistory": MessageLookupByLibrary.simpleMessage(
+      "Completa una lección para ver tu historial aquí",
+    ),
     "confirmPassword": MessageLookupByLibrary.simpleMessage(
       "Confirmar contraseña",
     ),
@@ -228,12 +231,14 @@ class MessageLookup extends MessageLookupByLibrary {
     "languageNotSelected": MessageLookupByLibrary.simpleMessage(
       "Idioma no seleccionado",
     ),
+    "lastLesson": MessageLookupByLibrary.simpleMessage("Última lección"),
     "learnAnytime": MessageLookupByLibrary.simpleMessage(
       "Aprende en cualquier momento y en cualquier lugar",
     ),
     "learningLanguage": MessageLookupByLibrary.simpleMessage(
       "Idioma de aprendizaje:",
     ),
+    "lesson": MessageLookupByLibrary.simpleMessage("Lección"),
     "lessonComplete": MessageLookupByLibrary.simpleMessage(
       "¡Lección completada!",
     ),
@@ -246,6 +251,9 @@ class MessageLookup extends MessageLookupByLibrary {
       "Error al iniciar sesión",
     ),
     "logout": MessageLookupByLibrary.simpleMessage("Cerrar sesión"),
+    "logoutConfirmationTitle": MessageLookupByLibrary.simpleMessage(
+      "¿Estás seguro de que quieres cerrar sesión?",
+    ),
     "male": MessageLookupByLibrary.simpleMessage("Masculino"),
     "masterAnyLang": MessageLookupByLibrary.simpleMessage(
       "Domina cualquier idioma",
@@ -257,6 +265,7 @@ class MessageLookup extends MessageLookupByLibrary {
     "masteredWords": MessageLookupByLibrary.simpleMessage(
       "✅ Palabras dominadas",
     ),
+    "meaning": MessageLookupByLibrary.simpleMessage("significado"),
     "minimalistUiDesignedForZeroDistractionStudy":
         MessageLookupByLibrary.simpleMessage(
           "Interfaz de usuario minimalista diseñada para estudiar sin distracciones.",
@@ -292,6 +301,9 @@ class MessageLookup extends MessageLookupByLibrary {
     "nextWord": MessageLookupByLibrary.simpleMessage("Siguiente palabra"),
     "noChatHistory": MessageLookupByLibrary.simpleMessage(
       "Sin historial de chat",
+    ),
+    "noLessonsAttempted": MessageLookupByLibrary.simpleMessage(
+      "Aún no se han intentado lecciones",
     ),
     "notFound": MessageLookupByLibrary.simpleMessage("No encontrado"),
     "onboardSubtitle1": MessageLookupByLibrary.simpleMessage(
@@ -383,9 +395,6 @@ class MessageLookup extends MessageLookupByLibrary {
     "streakDays": m9,
     "syncingProgress": MessageLookupByLibrary.simpleMessage(
       "Sincronizando progreso...",
-    ),
-    "tapToRevealMeaning": MessageLookupByLibrary.simpleMessage(
-      "Toca para revelar el significado",
     ),
     "tenMinPerDay": MessageLookupByLibrary.simpleMessage(
       "10 min/día | Mantén la constancia",

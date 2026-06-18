@@ -1,4 +1,5 @@
 import 'dart:developer';
+import 'package:chatbot_app/modules/exercisepage/model/exercise_model.dart';
 import 'package:chatbot_app/modules/vocabularypage/model/word_model.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
@@ -13,6 +14,7 @@ class FirebaseVocabService {
     required int score,
     required int totalQuestions,
     required int xpEarned,
+    required List<ExerciseModel> exercises,
   }) async {
     try {
       final uid = _auth.currentUser?.uid;
@@ -47,6 +49,20 @@ class FirebaseVocabService {
           .collection('lessons')
           .doc();
 
+      final exerciseData = exercises
+          .map(
+            (e) => {
+              'id': e.id,
+              'type': e.type.name,
+              'question': e.question,
+              'correct_answer': e.correctAnswer,
+              'user_answer': e.userAnswer ?? '',
+              'is_correct': e.isCorrect ?? false,
+              'options': e.options,
+            },
+          )
+          .toList();
+
       batch.set(lessonHistoryRef, {
         'score': score,
         'total_questions': totalQuestions,
@@ -55,6 +71,7 @@ class FirebaseVocabService {
         'mastered_words': masteredWords,
         'review_words': needReviewWords,
         'completed_at': timestamp,
+        'exercises': exerciseData,
       });
 
       final statsRef = _firestore.collection('users').doc(uid);

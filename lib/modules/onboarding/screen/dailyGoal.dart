@@ -213,10 +213,10 @@ class DailygoalScreen extends StatelessWidget {
               ),
               SizedBox(height: 20),
 
-              Text(goal, style: context.theme.textTheme.displayMedium),
+              Text(goal, style: context.text.displayMedium),
               SizedBox(height: 10),
 
-              Text(subtitle, style: context.theme.textTheme.headlineMedium),
+              Text(subtitle, style: context.text.headlineMedium),
             ],
           ),
         ),

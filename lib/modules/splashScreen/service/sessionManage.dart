@@ -35,6 +35,8 @@ class Sessionmanage {
             level: data['level'],
             category: data['category'],
             dailygoal: data['dailygoal'],
+            userGender: data['gender'] as String?,
+            userAge: data['age'] as int?,
           );
 
           await home.initializeOnce(

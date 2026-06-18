@@ -92,12 +92,6 @@ class WordModel {
     };
   }
 
-  // WordExample? exampleForRep(int rep) {
-  //   if (examples.isEmpty) return null;
-  //   if (rep <= 1) return examples[0]; // easy
-  //   if (rep <= 4) return examples[1]; // medium
-  //   return examples.last; // hard
-  // }
   WordExample? exampleForRep(int rep) {
     if (examples.isEmpty) return null;
     if (rep <= 1) {

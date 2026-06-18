@@ -1,6 +1,6 @@
 import 'dart:developer';
 import 'package:animated_text_kit/animated_text_kit.dart';
-import 'package:chatbot_app/core/appconstants/color_constant.dart';
+import 'package:chatbot_app/core/extensions/app_animation_extension.dart';
 import 'package:chatbot_app/core/extensions/localization_extension.dart';
 import 'package:chatbot_app/core/extensions/theme_extension.dart';
 import 'package:chatbot_app/core/widgets/app_container.dart';
@@ -107,7 +107,7 @@ class _StateHomescreen extends State<Homechatscreen> {
             itemCount: docs.length + (provider.isStreaming ? 1 : 0),
             itemBuilder: (context, index) {
               if (provider.isStreaming && index == docs.length) {
-                return _buildStreamingBubble(provider);
+                return _buildStreamingBubble(provider).fadeInSlideUp;
               }
 
               final data = docs[index].data() as Map<String, dynamic>;
@@ -122,7 +122,10 @@ class _StateHomescreen extends State<Homechatscreen> {
                 }
               }
 
-              return _buildMessageBubble(isUser, content);
+              return _buildMessageBubble(
+                isUser,
+                content,
+              ).fadeInSlideUpDelayed(80 + index * 40);
             },
           ),
         );
@@ -195,7 +198,7 @@ class _StateHomescreen extends State<Homechatscreen> {
 
                     styleSheet: MarkdownStyleSheet.fromTheme(context.theme)
                         .copyWith(
-                          p: context.theme.textTheme.labelMedium,
+                          p: context.text.labelMedium,
 
                           //  TextStyle(fontSize: 15.sp)
                         ),
@@ -260,21 +263,21 @@ class _StateHomescreen extends State<Homechatscreen> {
             child: MarkdownBody(
               data: content,
               selectable: false,
-              styleSheet: MarkdownStyleSheet.fromTheme(Theme.of(context))
-                  .copyWith(
-                    h3: Theme.of(context).textTheme.headlineSmall?.copyWith(
-                      fontWeight: FontWeight.bold,
-                    ),
-                    p: Theme.of(context).textTheme.bodyLarge?.copyWith(
-                      fontWeight: FontWeight.w400,
-                    ),
-                    strong: Theme.of(context).textTheme.headlineMedium
-                        ?.copyWith(fontWeight: FontWeight.bold),
-                    em: Theme.of(context).textTheme.bodyLarge?.copyWith(
-                      fontWeight: FontWeight.w400,
-                      fontStyle: FontStyle.italic,
-                    ),
-                  ),
+              styleSheet: MarkdownStyleSheet.fromTheme(context.theme).copyWith(
+                h3: context.text.headlineSmall?.copyWith(
+                  fontWeight: FontWeight.bold,
+                ),
+                p: context.text.bodyLarge?.copyWith(
+                  fontWeight: FontWeight.w400,
+                ),
+                strong: context.text.headlineMedium?.copyWith(
+                  fontWeight: FontWeight.bold,
+                ),
+                em: context.text.bodyLarge?.copyWith(
+                  fontWeight: FontWeight.w400,
+                  fontStyle: FontStyle.italic,
+                ),
+              ),
             ),
           ),
         ),
@@ -285,7 +288,7 @@ class _StateHomescreen extends State<Homechatscreen> {
   Widget _buildTypingIndicator() {
     return ColorFiltered(
       colorFilter: ColorFilter.mode(
-        Theme.of(context).colorScheme.primary,
+        context.theme.colorScheme.primary,
         BlendMode.srcIn,
       ),
       child: SizedBox(
@@ -308,7 +311,7 @@ class _StateHomescreen extends State<Homechatscreen> {
         padding: EdgeInsets.all(12.r),
         height: 100.sp,
         decoration: BoxDecoration(
-          // color: Theme.of(context).colorScheme.secondaryContainer,
+          // color: context.theme.colorScheme.secondaryContainer,
           borderRadius: BorderRadius.circular(20.r),
         ),
         child: Row(

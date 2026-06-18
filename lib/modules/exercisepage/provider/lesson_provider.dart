@@ -1,6 +1,5 @@
 import 'dart:math';
 import 'dart:developer' as dev;
-import 'package:chatbot_app/core/widgets/app_loading_screen.dart';
 import 'package:chatbot_app/generated/l10n.dart';
 import 'package:chatbot_app/modules/exercisepage/model/exercise_model.dart';
 import 'package:chatbot_app/modules/vocabularypage/provider/vocab_provider.dart';
@@ -22,7 +21,6 @@ class LessonProvider extends ChangeNotifier {
   int currentExerciseIndex = 0;
   int score = 0;
   bool isAnswered = false;
-  // bool isnextword = false;
   String? selectedAnswer;
   bool isCorrect = false;
 
@@ -70,13 +68,24 @@ class LessonProvider extends ChangeNotifier {
   Map<int, String> placedWords = {}; // index -> word mapping
 
   void placeWordInSlot(int slotIndex, int wordIndex) {
-    if (placedWords.containsKey(wordIndex)) {
-      dev.log("⚠️ Word at index $wordIndex is already placed");
-      return; // Don't allow placing same word instance twice
+    final existingWord = arrangedSentence[slotIndex];
+    if (existingWord != null) {
+      final existingIndex = placedWords.entries
+          .firstWhere(
+            (e) => e.value == existingWord,
+            orElse: () => MapEntry(-1, ''),
+          )
+          .key;
+      if (existingIndex != -1) {
+        placedWords.remove(
+          existingIndex,
+        ); // 👈 free existing word back to chips
+      }
     }
+
     final word = currentExercise!.options[wordIndex];
     arrangedSentence[slotIndex] = word;
-    placedWords[wordIndex] = word; // Track which word index is used
+    placedWords[wordIndex] = word;
     notifyListeners();
   }
 
@@ -96,6 +105,35 @@ class LessonProvider extends ChangeNotifier {
     notifyListeners();
   }
 
+  int? getWordIndexAtSlot(int slotIndex) {
+    final word = arrangedSentence[slotIndex];
+    if (word == null) return null;
+    try {
+      return placedWords.entries.firstWhere((entry) => entry.value == word).key;
+    } catch (_) {
+      return null;
+    }
+  }
+
+  void moveWordToSlot(int destinationSlot, int? sourceSlot, int wordIndex) {
+    if (sourceSlot == null || sourceSlot == -1) {
+      placeWordInSlot(destinationSlot, wordIndex);
+      return;
+    }
+
+    if (sourceSlot == destinationSlot) return;
+
+    final sourceWord = arrangedSentence[sourceSlot];
+    if (sourceWord == null) return;
+
+    final destinationWord = arrangedSentence[destinationSlot];
+
+    arrangedSentence[sourceSlot] = destinationWord;
+    arrangedSentence[destinationSlot] = sourceWord;
+
+    notifyListeners();
+  }
+
   void checkSentenceArrangement(BuildContext context) {
     final userSentence = arrangedSentence.join(' ');
     isAnswered = true;
@@ -103,6 +141,10 @@ class LessonProvider extends ChangeNotifier {
     String text = currentExercise!.questionWithoutBlank;
     String lang = context.read<VocabProvider>().currentlanguage!;
     String speaker = context.read<VocabProvider>().currentspeaker;
+
+    currentExercise!.userAnswer = userSentence;
+    currentExercise!.isCorrect = isCorrect;
+    final testedWord = _getTestedWord(currentExercise!);
 
     if (isCorrect) {
       dev.log("Text : $text");
@@ -118,7 +160,6 @@ class LessonProvider extends ChangeNotifier {
       speaker: speaker,
     );
 
-    final testedWord = _getTestedWord(currentExercise!);
     dev.log(testedWord.toString());
     if (testedWord != null) {
       dev.log("SRS card updated............");
@@ -255,7 +296,7 @@ class LessonProvider extends ChangeNotifier {
   //   exercises.shuffle(Random());
   //   notifyListeners();
   //   dev.log("✅ Generated ${exercises.length} exercises");
-  // }
+  //
 
   void generateExercises(BuildContext con) {
     exercises.clear();
@@ -430,6 +471,9 @@ class LessonProvider extends ChangeNotifier {
         sanitize(selectedAnswer!) == sanitize(currentExercise!.correctAnswer);
     // selectedAnswer?.trim().toLowerCase() ==
     //     currentExercise?.correctAnswer.trim().toLowerCase();
+
+    currentExercise!.userAnswer = selectedAnswer;
+    currentExercise!.isCorrect = isCorrect;
     dev.log(selectedAnswer ?? "selectedAnswer is null");
     dev.log(
       currentExercise?.correctAnswer.toLowerCase() ??
@@ -568,11 +612,13 @@ class LessonProvider extends ChangeNotifier {
       _initializeArrangement();
       notifyListeners();
     } else {
-      AppLoadingScreen();
+      isLoading = true;
+      notifyListeners();
       try {
         await saveLessonResults();
 
         currentPhase = LessonPhase.result;
+        isLoading = false;
         notifyListeners();
 
         if (!context.mounted) return;
@@ -582,6 +628,8 @@ class LessonProvider extends ChangeNotifier {
           MaterialPageRoute(builder: (_) => ResultScreen()),
         );
       } catch (e) {
+        isLoading = false;
+        notifyListeners();
         if (context.mounted) Navigator.pop(context);
         dev.log("Error saving results: $e");
       }
@@ -598,6 +646,7 @@ class LessonProvider extends ChangeNotifier {
         score: score,
         totalQuestions: totalQuestions,
         xpEarned: xpEarned,
+        exercises: exercises,
       );
       dev.log("✅ Lesson results saved to Firestore");
       dev.log("xpEarned : $xpEarned");
@@ -658,6 +707,10 @@ class LessonProvider extends ChangeNotifier {
     isCorrect = option == currentExercise!.correctAnswer;
     isAnswered = true;
 
+    currentExercise!.userAnswer = option;
+    currentExercise!.isCorrect = isCorrect;
+
+    if (isCorrect) score += 1;
     hasAnimatedResult = true;
 
     vocabprovider.speak(

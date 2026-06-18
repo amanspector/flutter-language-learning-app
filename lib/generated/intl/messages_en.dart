@@ -110,6 +110,9 @@ class MessageLookup extends MessageLookupByLibrary {
         MessageLookupByLibrary.simpleMessage(
           "Comfortable with basics, seeking deeper mastery.",
         ),
+    "completeLessonToSeeHistory": MessageLookupByLibrary.simpleMessage(
+      "Complete a lesson to see your history here",
+    ),
     "confirmPassword": MessageLookupByLibrary.simpleMessage("Confirm password"),
     "confirmPasswordIsRequired": MessageLookupByLibrary.simpleMessage(
       "Confirm password is required",
@@ -215,12 +218,14 @@ class MessageLookup extends MessageLookupByLibrary {
     "languageNotSelected": MessageLookupByLibrary.simpleMessage(
       "Language not selected",
     ),
+    "lastLesson": MessageLookupByLibrary.simpleMessage("Last lesson"),
     "learnAnytime": MessageLookupByLibrary.simpleMessage(
       "Learn anytime, anywhere",
     ),
     "learningLanguage": MessageLookupByLibrary.simpleMessage(
       "Learning Language :",
     ),
+    "lesson": MessageLookupByLibrary.simpleMessage("Lesson"),
     "lessonComplete": MessageLookupByLibrary.simpleMessage("Lesson Complete!"),
     "lessonsBuiltByLinguistsForRealWorldApplication":
         MessageLookupByLibrary.simpleMessage(
@@ -229,6 +234,9 @@ class MessageLookup extends MessageLookupByLibrary {
     "login": MessageLookupByLibrary.simpleMessage("Login"),
     "loginFailed": MessageLookupByLibrary.simpleMessage("Login failed"),
     "logout": MessageLookupByLibrary.simpleMessage("Log out"),
+    "logoutConfirmationTitle": MessageLookupByLibrary.simpleMessage(
+      "Are you sure you want to log out?",
+    ),
     "male": MessageLookupByLibrary.simpleMessage("Male"),
     "masterAnyLang": MessageLookupByLibrary.simpleMessage(
       "Master any language",
@@ -238,6 +246,7 @@ class MessageLookup extends MessageLookupByLibrary {
       "Master new skills with an immersive, game-like experience.",
     ),
     "masteredWords": MessageLookupByLibrary.simpleMessage("✅ Mastered Words"),
+    "meaning": MessageLookupByLibrary.simpleMessage("Meaning"),
     "minimalistUiDesignedForZeroDistractionStudy":
         MessageLookupByLibrary.simpleMessage(
           "Minimalist UI designed for zero-distraction study.",
@@ -272,6 +281,9 @@ class MessageLookup extends MessageLookupByLibrary {
     "nextQuestion": MessageLookupByLibrary.simpleMessage("Next Question"),
     "nextWord": MessageLookupByLibrary.simpleMessage("Next Word"),
     "noChatHistory": MessageLookupByLibrary.simpleMessage("No chat history"),
+    "noLessonsAttempted": MessageLookupByLibrary.simpleMessage(
+      "No lessons attempted yet",
+    ),
     "notFound": MessageLookupByLibrary.simpleMessage("Not found"),
     "onboardSubtitle1": MessageLookupByLibrary.simpleMessage(
       "Join millions of learners and master new skills through bite-sized, gamified lessons that feel like a game.",
@@ -358,9 +370,6 @@ class MessageLookup extends MessageLookupByLibrary {
     "streakDays": m9,
     "syncingProgress": MessageLookupByLibrary.simpleMessage(
       "Syncing progress...",
-    ),
-    "tapToRevealMeaning": MessageLookupByLibrary.simpleMessage(
-      "Tap to reveal meaning",
     ),
     "tenMinPerDay": MessageLookupByLibrary.simpleMessage(
       "10 min/day | Stay consistent",

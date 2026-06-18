@@ -109,7 +109,7 @@
   "xpPointsValue": "{points} XP",
   "generatingYourVocabulary": "Generating your vocabulary...",
   "languageNotSelected": "Language not selected",
-  "tapToRevealMeaning": "Tap to reveal meaning",
+  "meaning": "Meaning",
   "questionProgress": "Question {currentIndex} of {totalCount}",
   "lessonComplete": "Lesson Complete!",
   "scorePercentageValue": "{percentage}%",
@@ -190,5 +190,10 @@
   "loginFailed": "Login failed",
   "registrationFailed": "Registration failed",
   "next": "Next",
-  "skip": "Skip"
+  "skip": "Skip",
+  "logoutConfirmationTitle": "Are you sure you want to log out?",
+  "lesson": "Lesson",
+  "lastLesson": "Last lesson",
+  "noLessonsAttempted": "No lessons attempted yet",
+  "completeLessonToSeeHistory": "Complete a lesson to see your history here"
 }

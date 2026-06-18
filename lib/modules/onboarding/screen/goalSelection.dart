@@ -71,7 +71,7 @@ class Goalselection extends StatelessWidget {
                     context
                         .l10n
                         .wellTailorYourExperienceToHelpYouReachYourGoalsFaster,
-                    style: context.theme.textTheme.bodyLarge,
+                    style: context.text.bodyLarge,
                   ),
                 ),
 

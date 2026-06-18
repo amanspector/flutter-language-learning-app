@@ -59,13 +59,13 @@ class Registerscreen extends StatelessWidget {
                     S.of(context).joinTheJourney,
 
                     textAlign: TextAlign.center,
-                    style: Theme.of(context).textTheme.displaySmall,
+                    style: context.text.displaySmall,
                   ),
                   SizedBox(height: 10.h),
                   Text(
                     textAlign: TextAlign.center,
                     context.l10n.masterNewSkills,
-                    style: context.theme.textTheme.titleMedium?.copyWith(
+                    style: context.text.titleMedium?.copyWith(
                       color: context.theme.colorScheme.outline,
                     ),
                   ),
@@ -99,7 +99,7 @@ class Registerscreen extends StatelessWidget {
                   TextFormField(
                     controller: registerProvider.passwordcontroller,
                     keyboardType: TextInputType.visiblePassword,
-                    style: Theme.of(context).textTheme.bodyMedium,
+                    style: context.text.bodyMedium,
                     obscureText: !ispasswordvisible,
                     validator: (value) {
                       if (value == null || value.isEmpty) {
@@ -153,7 +153,7 @@ class Registerscreen extends StatelessWidget {
 
                   TextFormField(
                     obscureText: !isConfirmPasswordVisible,
-                    style: context.theme.textTheme.bodyMedium,
+                    style: context.text.bodyMedium,
                     keyboardType: TextInputType.visiblePassword,
                     controller: registerProvider.confirmpasswordcontroller,
                     validator: (value) {
@@ -239,7 +239,7 @@ class Registerscreen extends StatelessWidget {
                     child: Text(
                       context.l10n.age,
                       textAlign: TextAlign.left,
-                      style: context.theme.textTheme.titleMedium,
+                      style: context.text.titleMedium,
                     ),
                   ),
 
@@ -262,7 +262,7 @@ class Registerscreen extends StatelessWidget {
                     childWidget: Text(
                       context.l10n.register,
                       style: context.text.headlineMedium?.copyWith(
-                        color: Theme.of(context).colorScheme.onPrimary,
+                        color: context.theme.colorScheme.onPrimary,
                       ),
                     ),
                   ),
@@ -277,7 +277,7 @@ class Registerscreen extends StatelessWidget {
                     children: [
                       Text(
                         S.of(context).alreadyHaveAnAccount,
-                        style: Theme.of(context).textTheme.titleMedium,
+                        style: context.text.titleMedium,
                       ),
                       TextButton(
                         onPressed: () {
@@ -291,8 +291,9 @@ class Registerscreen extends StatelessWidget {
                         },
                         child: Text(
                           S.of(context).login,
-                          style: Theme.of(context).textTheme.titleMedium
-                              ?.copyWith(decoration: TextDecoration.underline),
+                          style: context.text.titleMedium?.copyWith(
+                            decoration: TextDecoration.underline,
+                          ),
                         ),
                       ),
                     ],

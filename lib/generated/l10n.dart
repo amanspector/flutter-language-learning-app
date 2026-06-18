@@ -941,14 +941,9 @@ class S {
     );
   }
 
-  /// `Tap to reveal meaning`
-  String get tapToRevealMeaning {
-    return Intl.message(
-      'Tap to reveal meaning',
-      name: 'tapToRevealMeaning',
-      desc: '',
-      args: [],
-    );
+  /// `Meaning`
+  String get meaning {
+    return Intl.message('Meaning', name: 'meaning', desc: '', args: []);
   }
 
   /// `Question {currentIndex} of {totalCount}`
@@ -1668,6 +1663,46 @@ class S {
   /// `Skip`
   String get skip {
     return Intl.message('Skip', name: 'skip', desc: '', args: []);
+  }
+
+  /// `Are you sure you want to log out?`
+  String get logoutConfirmationTitle {
+    return Intl.message(
+      'Are you sure you want to log out?',
+      name: 'logoutConfirmationTitle',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Lesson`
+  String get lesson {
+    return Intl.message('Lesson', name: 'lesson', desc: '', args: []);
+  }
+
+  /// `Last lesson`
+  String get lastLesson {
+    return Intl.message('Last lesson', name: 'lastLesson', desc: '', args: []);
+  }
+
+  /// `No lessons attempted yet`
+  String get noLessonsAttempted {
+    return Intl.message(
+      'No lessons attempted yet',
+      name: 'noLessonsAttempted',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Complete a lesson to see your history here`
+  String get completeLessonToSeeHistory {
+    return Intl.message(
+      'Complete a lesson to see your history here',
+      name: 'completeLessonToSeeHistory',
+      desc: '',
+      args: [],
+    );
   }
 }
 

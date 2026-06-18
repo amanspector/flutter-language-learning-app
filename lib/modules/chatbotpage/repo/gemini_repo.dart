@@ -105,16 +105,14 @@ class GeminiRepo {
 
       if (parts != null && parts.isNotEmpty) {
         final firstPart = parts[0];
-
         final content = firstPart['text'];
 
         if (content is String) {
           final cleaned = content
-              .replaceAll('```json', '')
-              .replaceAll('```', '')
+              .replaceAll(RegExp(r'```(?:json)?'), '')
               .trim();
 
-          decoded = jsonDecode(cleaned);
+          decoded = _parseJsonFromText(cleaned);
         } else if (content is Map<String, dynamic>) {
           decoded = content;
         } else {
@@ -165,6 +163,41 @@ class GeminiRepo {
       if (e.toString().contains("CANCELLED")) rethrow;
       log("generateVocabulary error: $e");
       throw Exception("Failed to parse vocabulary: $e");
+    }
+  }
+
+  dynamic _parseJsonFromText(String text) {
+    try {
+      return jsonDecode(text);
+    } catch (firstError) {
+      log("Initial JSON decode failed: $firstError");
+      log("Raw Gemini output: $text");
+      final startIndex = text.indexOf('{');
+      if (startIndex == -1) {
+        throw Exception("No JSON object start found in Gemini output.");
+      }
+
+      int depth = 0;
+      for (var i = startIndex; i < text.length; i++) {
+        final char = text[i];
+        if (char == '{') {
+          depth++;
+        } else if (char == '}') {
+          depth--;
+          if (depth == 0) {
+            final candidate = text.substring(startIndex, i + 1).trim();
+            try {
+              return jsonDecode(candidate);
+            } catch (secondError) {
+              log("JSON extraction failed for candidate: $secondError");
+            }
+          }
+        }
+      }
+
+      throw Exception(
+        "Unable to extract JSON from Gemini output. Raw output begins: ${text.length > 300 ? text.substring(0, 300) + '...' : text}",
+      );
     }
   }
 

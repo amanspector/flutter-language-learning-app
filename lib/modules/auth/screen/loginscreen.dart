@@ -60,7 +60,7 @@ class Loginscreen extends StatelessWidget {
                       Text(
                         context.l10n.welcomeBack,
                         // Textconstant.txt_welcomeback,
-                        style: context.theme.textTheme.displaySmall,
+                        style: context.text.displaySmall,
                       ),
                       SizedBox(height: 10.h),
 
@@ -70,14 +70,14 @@ class Loginscreen extends StatelessWidget {
                             .visualizeYourJourneyWithTonalProgressTracking,
                         textAlign: TextAlign.center,
                         // yourJourneyToFluencyContinuesHere,
-                        style: context.theme.textTheme.titleMedium?.copyWith(
+                        style: context.text.titleMedium?.copyWith(
                           color: context.theme.colorScheme.outline,
                         ),
                       ),
                       SizedBox(height: 15.h),
                       TextFormField(
                         keyboardType: TextInputType.emailAddress,
-                        style: context.theme.textTheme.bodyMedium,
+                        style: context.text.bodyMedium,
                         validator: (value) {
                           if (value == null || value.isEmpty) {
                             return context.l10n.emailIsRequired;
@@ -103,7 +103,7 @@ class Loginscreen extends StatelessWidget {
                       SizedBox(height: 10),
 
                       TextFormField(
-                        style: Theme.of(context).textTheme.bodyMedium,
+                        style: context.text.bodyMedium,
                         validator: (value) {
                           if (value == null || value.isEmpty) {
                             return context.l10n.passwordIsRequired;
@@ -141,41 +141,43 @@ class Loginscreen extends StatelessWidget {
                         decoration: BoxDecoration(
                           borderRadius: BorderRadius.all(Radius.circular(30)),
                         ),
-                        child: AppButton(
-                          buttonFunc: () async {
-                            if (formkey.currentState!.validate()) {
-                              loginProvider.login(
-                                context,
-                                emailController.text.trim().toLowerCase(),
-                                passwordController.text,
-                              );
-                            }
-                          },
-                          childWidget: loginProvider.isloading == true
-                              ? CircularProgressIndicator(
-                                  color: context.theme.colorScheme.onSurface,
-                                )
-                              : Text(
-                                  context.l10n.login,
-                                  // Textconstant.txt_login,
-                                  style: context.text.headlineMedium?.copyWith(
-                                    color: context.theme.colorScheme.onPrimary,
-                                  ),
-                                  // TextStyle(
-                                  //   color: ColorConstant.color_black,
-                                  //   fontSize: 20,
-                                  // ),
+                        child: Consumer<LoginscreenProvider>(
+                          builder: (context, value, child) {
+                            return AppButton(
+                              isLoading: loginProvider.isloading,
+                              buttonFunc: () async {
+                                if (formkey.currentState!.validate()) {
+                                  loginProvider.login(
+                                    context,
+                                    emailController.text.trim().toLowerCase(),
+                                    passwordController.text,
+                                  );
+                                }
+                              },
+                              childWidget: Text(
+                                context.l10n.login,
+                                // Textconstant.txt_login,
+                                style: context.text.headlineMedium?.copyWith(
+                                  color: context.theme.colorScheme.onPrimary,
                                 ),
+                                // TextStyle(
+                                //   color: ColorConstant.color_black,
+                                //   fontSize: 20,
+                                // ),
+                              ),
+                            );
+                          },
                         ),
                       ),
+
                       Row(
                         mainAxisAlignment: MainAxisAlignment.center,
                         crossAxisAlignment: CrossAxisAlignment.center,
                         children: [
                           Text(
                             context.l10n.dontHaveAnAccount,
-                            style: context.theme.textTheme.titleMedium,
-                            // Theme.of(context).textTheme.titleMedium,
+                            style: context.text.titleMedium,
+                            // context.text.titleMedium,
                             // TextStyle(
                             //   color: ColorConstant.color_black,
                             //   fontSize: 15,
@@ -195,10 +197,9 @@ class Loginscreen extends StatelessWidget {
                             child: Text(
                               context.l10n.register,
                               // S.of(context).register,
-                              style: Theme.of(context).textTheme.titleMedium
-                                  ?.copyWith(
-                                    decoration: TextDecoration.underline,
-                                  ),
+                              style: context.text.titleMedium?.copyWith(
+                                decoration: TextDecoration.underline,
+                              ),
                             ),
                           ),
                         ],

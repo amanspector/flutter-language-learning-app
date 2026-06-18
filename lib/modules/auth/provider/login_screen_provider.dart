@@ -1,4 +1,3 @@
-import 'package:chatbot_app/core/widgets/app_loading_screen.dart';
 import 'package:chatbot_app/modules/auth/service/firebase_auth_service.dart';
 import 'package:chatbot_app/modules/homepage/screen/homescreen.dart';
 import 'package:chatbot_app/modules/onboarding/provider/onboard_provider.dart';
@@ -51,13 +50,13 @@ class LoginscreenProvider extends ChangeNotifier {
       User? currentUser = FirebaseAuth.instance.currentUser;
       if (currentUser == null) return;
       if (!context.mounted) return;
-      Navigator.pushReplacement(
-        context,
-        MaterialPageRoute(
-          builder: (_) => AppLoadingScreen(),
-          // AppShowloading(message: S.of(context).generatingYourVocabulary),
-        ),
-      );
+      // Navigator.pushReplacement(
+      //   context,
+      //   MaterialPageRoute(
+      //     builder: (_) => AppLoadingScreen(),
+      //     // AppShowloading(message: S.of(context).generatingYourVocabulary),
+      //   ),
+      // );
 
       final isReady = await Sessionmanage.loadAndInitializeUser(
         context,

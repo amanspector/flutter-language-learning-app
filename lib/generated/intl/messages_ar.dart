@@ -107,6 +107,9 @@ class MessageLookup extends MessageLookupByLibrary {
         MessageLookupByLibrary.simpleMessage(
           "مستريح مع الأساسيات، وأبحث عن إتقان أعمق.",
         ),
+    "completeLessonToSeeHistory": MessageLookupByLibrary.simpleMessage(
+      "أكمل درساً لترى سجل تاريخك هنا",
+    ),
     "confirmPassword": MessageLookupByLibrary.simpleMessage(
       "تأكيد كلمة المرور",
     ),
@@ -216,12 +219,14 @@ class MessageLookup extends MessageLookupByLibrary {
     "languageNotSelected": MessageLookupByLibrary.simpleMessage(
       "ولم يتم تحديد لغة",
     ),
+    "lastLesson": MessageLookupByLibrary.simpleMessage("الدرس الأخير"),
     "learnAnytime": MessageLookupByLibrary.simpleMessage(
       "تعلم في أي وقت وفي أي مكان",
     ),
     "learningLanguage": MessageLookupByLibrary.simpleMessage(
       "اللغة الجاري تعلمها:",
     ),
+    "lesson": MessageLookupByLibrary.simpleMessage("درس"),
     "lessonComplete": MessageLookupByLibrary.simpleMessage("اكتمل الدرس!"),
     "lessonsBuiltByLinguistsForRealWorldApplication":
         MessageLookupByLibrary.simpleMessage(
@@ -230,6 +235,9 @@ class MessageLookup extends MessageLookupByLibrary {
     "login": MessageLookupByLibrary.simpleMessage("تسجيل الدخول"),
     "loginFailed": MessageLookupByLibrary.simpleMessage("فشل تسجيل الدخول"),
     "logout": MessageLookupByLibrary.simpleMessage("تسجيل الخروج"),
+    "logoutConfirmationTitle": MessageLookupByLibrary.simpleMessage(
+      "هل أنت متأكد أنك تريد تسجيل الخروج؟",
+    ),
     "male": MessageLookupByLibrary.simpleMessage("ذكر"),
     "masterAnyLang": MessageLookupByLibrary.simpleMessage("أتقن أي لغة"),
     "masterNewPhrases": m4,
@@ -237,6 +245,7 @@ class MessageLookup extends MessageLookupByLibrary {
       "أتقن مهارات جديدة بتجربة غامرة تشبه الألعاب.",
     ),
     "masteredWords": MessageLookupByLibrary.simpleMessage("✅ الكلمات المتقنة"),
+    "meaning": MessageLookupByLibrary.simpleMessage("معنى"),
     "minimalistUiDesignedForZeroDistractionStudy":
         MessageLookupByLibrary.simpleMessage(
           "واجهة مستخدم بسيطة مصممة للدراسة بدون أي تشتيت.",
@@ -272,6 +281,9 @@ class MessageLookup extends MessageLookupByLibrary {
     "nextWord": MessageLookupByLibrary.simpleMessage("الكلمة التالية"),
     "noChatHistory": MessageLookupByLibrary.simpleMessage(
       "لا يوجد سجل محادثات",
+    ),
+    "noLessonsAttempted": MessageLookupByLibrary.simpleMessage(
+      "لم يتم محاولة أي دروس بعد",
     ),
     "notFound": MessageLookupByLibrary.simpleMessage("غير موجود"),
     "onboardSubtitle1": MessageLookupByLibrary.simpleMessage(
@@ -353,9 +365,6 @@ class MessageLookup extends MessageLookupByLibrary {
     "streakDays": m9,
     "syncingProgress": MessageLookupByLibrary.simpleMessage(
       "جاري مزامنة التقدم...",
-    ),
-    "tapToRevealMeaning": MessageLookupByLibrary.simpleMessage(
-      "اضغط لإظهار المعنى",
     ),
     "tenMinPerDay": MessageLookupByLibrary.simpleMessage(
       "10 دقائق/يوميًا | حافظ على الاستمرارية",

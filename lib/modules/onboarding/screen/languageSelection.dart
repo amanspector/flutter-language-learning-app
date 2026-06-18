@@ -1,5 +1,6 @@
 import 'package:animated_text_kit/animated_text_kit.dart';
 import 'package:chatbot_app/core/appconstants/text_constant.dart';
+import 'package:chatbot_app/core/extensions/theme_extension.dart';
 import 'package:chatbot_app/core/widgets/app_button.dart';
 import 'package:chatbot_app/core/widgets/app_customContainer.dart';
 import 'package:chatbot_app/generated/l10n.dart';
@@ -54,7 +55,7 @@ class Languageselection extends StatelessWidget {
                     S
                         .of(context)
                         .chooseALanguageToStartYourJourneyIntoQuietProductivityAndFocusedGrowth,
-                    style: Theme.of(context).textTheme.bodyLarge,
+                    style: context.text.bodyLarge,
                   ),
                 ),
                 SizedBox(height: 10.h),
@@ -71,10 +72,9 @@ class Languageselection extends StatelessWidget {
                       ),
                       child: Text(
                         onboardProvider.error_message!,
-                        style: Theme.of(context).textTheme.headlineSmall
-                            ?.copyWith(
-                              color: Theme.of(context).colorScheme.error,
-                            ),
+                        style: context.text.headlineSmall?.copyWith(
+                          color: context.theme.colorScheme.error,
+                        ),
                       ),
                     ),
                   ),
@@ -89,12 +89,12 @@ class Languageselection extends StatelessWidget {
                           onboardProvider.setSelectedLanguage(lang['label']!),
                       borderColor:
                           onboardProvider.selectedlanguage == lang['label']
-                          ? Theme.of(context).colorScheme.onPrimaryContainer
-                          : Theme.of(context).colorScheme.outline,
+                          ? context.theme.colorScheme.onPrimaryContainer
+                          : context.theme.colorScheme.outline,
                       buttonColor:
                           onboardProvider.selectedlanguage == lang['label']
-                          ? Theme.of(context).colorScheme.onPrimaryContainer
-                          : Theme.of(context).colorScheme.onSecondary,
+                          ? context.theme.colorScheme.onPrimaryContainer
+                          : context.theme.colorScheme.onSecondary,
                       backgroundColor: Theme.of(
                         context,
                       ).colorScheme.onSecondary,
@@ -113,8 +113,8 @@ class Languageselection extends StatelessWidget {
                               color:
                                   onboardProvider.selectedlanguage ==
                                       lang['label']
-                                  ? Theme.of(context).colorScheme.onSurface
-                                  : Theme.of(context).colorScheme.outline,
+                                  ? context.theme.colorScheme.onSurface
+                                  : context.theme.colorScheme.outline,
                             ),
                           ),
                         ],

@@ -55,8 +55,9 @@ class Experiencelevel extends StatelessWidget {
                         TyperAnimatedText(
                           S.of(context).yourExperienceLevel,
                           speed: Duration(milliseconds: 40),
-                          textStyle: context.theme.textTheme.displayMedium
-                              ?.copyWith(fontSize: 30.sp),
+                          textStyle: context.text.displayMedium?.copyWith(
+                            fontSize: 30.sp,
+                          ),
                         ),
                       ],
                     ),
@@ -69,7 +70,7 @@ class Experiencelevel extends StatelessWidget {
                     S
                         .of(context)
                         .thisHelpsUsTailorTheLessonsToYourCurrentKnowledgeAndLearningPace,
-                    style: context.theme.textTheme.bodyLarge,
+                    style: context.text.bodyLarge,
                   ),
                 ),
 
@@ -88,7 +89,7 @@ class Experiencelevel extends StatelessWidget {
                       ),
                       child: Text(
                         onboardProvider.error_message!,
-                        style: context.theme.textTheme.headlineSmall?.copyWith(
+                        style: context.text.headlineSmall?.copyWith(
                           color: context.theme.colorScheme.error,
                         ),
                       ),
@@ -164,15 +165,11 @@ class Experiencelevel extends StatelessWidget {
                                 ),
                                 Text(
                                   level['subtitle'] as String,
-                                  style: context.theme.textTheme.labelMedium
-                                      ?.copyWith(
-                                        color: isSelected
-                                            ? context
-                                                  .theme
-                                                  .colorScheme
-                                                  .onSurface
-                                            : context.theme.colorScheme.outline,
-                                      ),
+                                  style: context.text.labelMedium?.copyWith(
+                                    color: isSelected
+                                        ? context.theme.colorScheme.onSurface
+                                        : context.theme.colorScheme.outline,
+                                  ),
                                 ),
                               ],
                             ),

@@ -1,6 +1,7 @@
 import 'dart:developer';
 import 'package:animated_text_kit/animated_text_kit.dart';
 import 'package:chatbot_app/core/appconstants/text_constant.dart';
+import 'package:chatbot_app/core/extensions/theme_extension.dart';
 import 'package:chatbot_app/core/widgets/app_button.dart';
 import 'package:chatbot_app/core/widgets/app_customContainer.dart';
 import 'package:chatbot_app/modules/onboarding/provider/onboard_provider.dart';
@@ -63,7 +64,7 @@ class Applanguageselection extends StatelessWidget {
                   padding: EdgeInsetsGeometry.symmetric(horizontal: 15.r),
                   child: Text(
                     Textconstant.nativeLanguageSubtitle,
-                    style: Theme.of(context).textTheme.bodyLarge,
+                    style: context.text.bodyLarge,
                   ),
                 ),
                 SizedBox(height: 10.h),
@@ -82,12 +83,12 @@ class Applanguageselection extends StatelessWidget {
                         );
                       },
                       borderColor: selectedNativeLang == lang['code']
-                          ? Theme.of(context).colorScheme.onPrimaryContainer
-                          : Theme.of(context).colorScheme.outline,
+                          ? context.theme.colorScheme.onPrimaryContainer
+                          : context.theme.colorScheme.outline,
                       buttonColor: selectedNativeLang == lang['code']
-                          ? Theme.of(context).colorScheme.onPrimaryContainer
-                          : Theme.of(context).colorScheme.onSecondary,
-                      backgroundColor: Theme.of(context).colorScheme.surface,
+                          ? context.theme.colorScheme.onPrimaryContainer
+                          : context.theme.colorScheme.onSecondary,
+                      backgroundColor: context.theme.colorScheme.surface,
                       childWidget: Row(
                         children: [
                           SizedBox(width: 20.w),
@@ -97,8 +98,8 @@ class Applanguageselection extends StatelessWidget {
                               style: TextStyle(
                                 fontSize: 20.sp,
                                 color: selectedNativeLang == lang['code']
-                                    ? Theme.of(context).colorScheme.onSurface
-                                    : Theme.of(context).colorScheme.outline,
+                                    ? context.theme.colorScheme.onSurface
+                                    : context.theme.colorScheme.outline,
                               ),
                             ),
                           ),
@@ -112,10 +113,9 @@ class Applanguageselection extends StatelessWidget {
                     padding: EdgeInsetsDirectional.symmetric(vertical: 5.r),
                     child: Text(
                       provider.error_message!,
-                      style: Theme.of(context).textTheme.headlineSmall
-                          ?.copyWith(
-                            color: Theme.of(context).colorScheme.error,
-                          ),
+                      style: context.text.headlineSmall?.copyWith(
+                        color: context.theme.colorScheme.error,
+                      ),
                     ),
                   ),
               ],

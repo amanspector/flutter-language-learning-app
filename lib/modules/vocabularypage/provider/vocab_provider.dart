@@ -53,8 +53,10 @@ class VocabProvider extends ChangeNotifier {
     try {
       isspeaking = true;
       notifyListeners();
-      await _tts.stop();
-      await _player.stop();
+      if (isspeaking) {
+        await _tts.stop();
+        await _player.stop();
+      }
       final isIndianLang = _ttsService.isIndian(language);
       if (!isIndianLang) {
         await _ttsService.speakWithFlutterTts(text, language);
@@ -255,6 +257,23 @@ class VocabProvider extends ChangeNotifier {
       "SRS mix → ${srsSlice.length} review + ${newSlice.length} new = ${mixed.length} total",
     );
     return mixed;
+  }
+
+  Future<void> preloadText(
+    String text,
+    String language,
+    String? speaker,
+  ) async {
+    try {
+      if (speaker == null) return;
+      final key = "$text-$language";
+      if (!cache.containsKey(key)) {
+        final audio = await _ttsService.getAudioUrl(text, language, speaker);
+        if (audio != null) cache[key] = audio;
+      }
+    } catch (e) {
+      log("Preload failed for text: $e");
+    }
   }
 
   Future<void> preloadWordByIndex(

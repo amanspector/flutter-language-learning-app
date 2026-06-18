@@ -109,7 +109,7 @@
   "xpPointsValue": "{points} نقطة خبرة",
   "generatingYourVocabulary": "جاري إنشاء مفرداتك...",
   "languageNotSelected": "ولم يتم تحديد لغة",
-  "tapToRevealMeaning": "اضغط لإظهار المعنى",
+  "meaning": "معنى",
   "questionProgress": "السؤال {currentIndex} من {totalCount}",
   "lessonComplete": "اكتمل الدرس!",
   "scorePercentageValue": "{percentage}%",
@@ -190,5 +190,10 @@
   "loginFailed": "فشل تسجيل الدخول",
   "registrationFailed": "فشل التسجيل",
   "next": "التالي",
-  "skip": "تخطي"
+  "skip": "تخطي",
+  "logoutConfirmationTitle": "هل أنت متأكد أنك تريد تسجيل الخروج؟",
+  "lesson": "درس",
+  "lastLesson": "الدرس الأخير",
+  "noLessonsAttempted": "لم يتم محاولة أي دروس بعد",
+  "completeLessonToSeeHistory": "أكمل درساً لترى سجل تاريخك هنا"
 }

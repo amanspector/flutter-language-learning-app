@@ -1,3 +1,4 @@
+import 'package:chatbot_app/core/extensions/app_animation_extension.dart';
 import 'package:chatbot_app/core/extensions/localization_extension.dart';
 import 'package:chatbot_app/core/extensions/theme_extension.dart';
 import 'package:chatbot_app/core/widgets/app_container.dart';
@@ -46,7 +47,7 @@ class Chathistory extends StatelessWidget {
             ),
           ),
 
-          Divider(),
+          // Divider(),
           Expanded(
             child: StreamBuilder(
               stream: provider.getChatList(uid),
@@ -62,166 +63,194 @@ class Chathistory extends StatelessWidget {
                 }
 
                 return Padding(
-                  padding: EdgeInsets.all(10.r),
-                  child: ListView.builder(
-                    physics: ScrollPhysics(),
-                    itemCount: chats.length,
-                    itemBuilder: (context, index) {
-                      final chat = chats[index];
-                      final chatId = chat.id;
-                      final data = chat.data() as Map<String, dynamic>;
-                      final timestamp = data['timestamp'] as Timestamp?;
+                  padding: EdgeInsets.symmetric(horizontal: 10.r),
+                  child: Column(
+                    children: [
+                      chats.isNotEmpty ? Divider() : SizedBox.shrink(),
+                      Expanded(
+                        child: ListView.builder(
+                          physics: ScrollPhysics(),
+                          itemCount: chats.length,
+                          itemBuilder: (context, index) {
+                            final chat = chats[index];
+                            final chatId = chat.id;
+                            final data = chat.data() as Map<String, dynamic>;
+                            final timestamp = data['timestamp'] as Timestamp?;
 
-                      final title =
-                          data['title'] ?? 'Chat ${chats.length - index}';
+                            final title =
+                                data['title'] ?? 'Chat ${chats.length - index}';
 
-                      return Padding(
-                        padding: EdgeInsets.symmetric(vertical: 5.0),
-                        child: AppContainer(
-                          backgroundColor: context
-                              .theme
-                              .colorScheme
-                              .secondaryContainer
-                              .withValues(alpha: 0.6),
-                          borderColor: context
-                              .theme
-                              .colorScheme
-                              .onPrimaryContainer
-                              .withValues(alpha: 0.3),
-                          widget: ListTile(
-                            selected: provider.currentChatId == chatId,
-                            leading: Icon(Icons.chat_bubble_outline),
-                            title: provider.editChatId == chatId
-                                ? Row(
-                                    children: [
-                                      Flexible(
-                                        flex: 6,
-                                        child: Padding(
-                                          padding: EdgeInsets.symmetric(
-                                            vertical: 5.r,
-                                          ),
-                                          child: TextFormField(
-                                            focusNode: provider.editfocusnode,
-                                            autofocus: true,
-                                            controller:
-                                                provider.editChatNameController,
-                                            style: Theme.of(
-                                              context,
-                                            ).textTheme.bodyMedium,
-
-                                            onFieldSubmitted: (value) {
-                                              provider.saveEditChat(
-                                                uid,
-                                                chatId,
-                                              );
-                                            },
-                                            decoration: InputDecoration(
-                                              isDense: true,
-                                            ),
-                                          ),
-                                        ),
-                                      ),
-                                      Flexible(
-                                        child: IconButton(
-                                          icon: Icon(Icons.check, size: 20),
-                                          onPressed: () => provider
-                                              .saveEditChat(uid, chatId),
-                                        ),
-                                      ),
-                                      Flexible(
-                                        child: IconButton(
-                                          icon: Icon(Icons.close, size: 20),
-                                          onPressed: () =>
-                                              provider.cancelEditChat(),
-                                        ),
-                                      ),
-                                    ],
-                                  )
-                                : Text(
-                                    title,
-                                    style: provider.currentChatId == chatId
-                                        ? Theme.of(context).textTheme.bodySmall
-                                        : Theme.of(
-                                            context,
-                                          ).textTheme.labelSmall,
-                                  ),
-                            subtitle: timestamp != null
-                                ? Text(
-                                    _formatTimestamp(context, timestamp),
-                                    style: TextStyle(fontSize: 12),
-                                  )
-                                : null,
-                            trailing: provider.deletingChatId == chatId
-                                ? CircularProgressIndicator()
-                                : PopupMenuButton(
-                                    itemBuilder: (context) => [
-                                      PopupMenuItem(
-                                        value: "edit",
-                                        child: Row(
-                                          mainAxisAlignment:
-                                              MainAxisAlignment.spaceBetween,
-                                          crossAxisAlignment:
-                                              CrossAxisAlignment.center,
+                            return Padding(
+                              padding: EdgeInsets.symmetric(
+                                vertical: index == 0 ? 10.r : 0.r,
+                              ),
+                              child: AppContainer(
+                                backgroundColor: context
+                                    .theme
+                                    .colorScheme
+                                    .secondaryContainer
+                                    .withValues(alpha: 0.6),
+                                borderColor: context
+                                    .theme
+                                    .colorScheme
+                                    .onPrimaryContainer
+                                    .withValues(alpha: 0.3),
+                                widget: ListTile(
+                                  selected: provider.currentChatId == chatId,
+                                  leading: Icon(Icons.chat_bubble_outline),
+                                  title: provider.editChatId == chatId
+                                      ? Row(
                                           children: [
-                                            Text(
-                                              context.l10n.edit,
-                                              style: TextStyle(fontSize: 15),
-                                            ),
-                                            Icon(Icons.edit, size: 20),
-                                          ],
-                                        ),
-                                      ),
-                                      PopupMenuItem(
-                                        // onTap: () {
-                                        // },
-                                        value: "delete",
-                                        child: Row(
-                                          mainAxisAlignment:
-                                              MainAxisAlignment.spaceBetween,
-                                          crossAxisAlignment:
-                                              CrossAxisAlignment.center,
-                                          children: [
-                                            Text(
-                                              context.l10n.delete,
-                                              style: TextStyle(fontSize: 15),
-                                            ),
-                                            Icon(Icons.delete, size: 20),
-                                          ],
-                                        ),
-                                      ),
-                                    ],
-                                    onSelected: (val) {
-                                      if (val == "delete") {
-                                        provider.deleteChat(uid, chatId);
-                                      } else if (val == "edit") {
-                                        Future.microtask(() {
-                                          provider.startEditChat(chatId, title);
-                                        });
-                                        // provider.startEditChat(chatId, title);
-                                      }
-                                    },
-                                  ),
-                            onTap: () {
-                              if (provider.deletingChatId == chatId) {
-                                return;
-                              }
-                              provider.loadChat(uid, chatId);
-                              // focus.unfocus();
+                                            Flexible(
+                                              flex: 6,
+                                              child: Padding(
+                                                padding: EdgeInsets.symmetric(
+                                                  vertical: 5.r,
+                                                ),
+                                                child: TextFormField(
+                                                  focusNode:
+                                                      provider.editfocusnode,
+                                                  autofocus: true,
+                                                  controller: provider
+                                                      .editChatNameController,
+                                                  style: Theme.of(
+                                                    context,
+                                                  ).textTheme.bodyMedium,
 
-                              context
-                                  .read<HomescreenProvider>()
-                                  .keyboardUnfocus();
-                              Navigator.push(
-                                context,
-                                MaterialPageRoute(
-                                  builder: (context) => Homechatscreen(),
+                                                  onFieldSubmitted: (value) {
+                                                    provider.saveEditChat(
+                                                      uid,
+                                                      chatId,
+                                                    );
+                                                  },
+                                                  decoration: InputDecoration(
+                                                    isDense: true,
+                                                  ),
+                                                ),
+                                              ),
+                                            ),
+                                            Flexible(
+                                              child: IconButton(
+                                                icon: Icon(
+                                                  Icons.check,
+                                                  size: 20,
+                                                ),
+                                                onPressed: () => provider
+                                                    .saveEditChat(uid, chatId),
+                                              ),
+                                            ),
+                                            Flexible(
+                                              child: IconButton(
+                                                icon: Icon(
+                                                  Icons.close,
+                                                  size: 20,
+                                                ),
+                                                onPressed: () =>
+                                                    provider.cancelEditChat(),
+                                              ),
+                                            ),
+                                          ],
+                                        )
+                                      : Text(
+                                          title,
+                                          style:
+                                              provider.currentChatId == chatId
+                                              ? Theme.of(
+                                                  context,
+                                                ).textTheme.bodySmall
+                                              : Theme.of(
+                                                  context,
+                                                ).textTheme.labelSmall,
+                                        ),
+                                  subtitle: timestamp != null
+                                      ? Text(
+                                          _formatTimestamp(context, timestamp),
+                                          style: TextStyle(fontSize: 12),
+                                        )
+                                      : null,
+                                  trailing: provider.deletingChatId == chatId
+                                      ? CircularProgressIndicator()
+                                      : PopupMenuButton(
+                                          itemBuilder: (context) => [
+                                            PopupMenuItem(
+                                              value: "edit",
+                                              child: Row(
+                                                mainAxisAlignment:
+                                                    MainAxisAlignment
+                                                        .spaceBetween,
+                                                crossAxisAlignment:
+                                                    CrossAxisAlignment.center,
+                                                children: [
+                                                  Text(
+                                                    context.l10n.edit,
+                                                    style: TextStyle(
+                                                      fontSize: 15,
+                                                    ),
+                                                  ),
+                                                  Icon(Icons.edit, size: 20),
+                                                ],
+                                              ),
+                                            ),
+                                            PopupMenuItem(
+                                              // onTap: () {
+                                              // },
+                                              value: "delete",
+                                              child: Row(
+                                                mainAxisAlignment:
+                                                    MainAxisAlignment
+                                                        .spaceBetween,
+                                                crossAxisAlignment:
+                                                    CrossAxisAlignment.center,
+                                                children: [
+                                                  Text(
+                                                    context.l10n.delete,
+                                                    style: TextStyle(
+                                                      fontSize: 15,
+                                                    ),
+                                                  ),
+                                                  Icon(Icons.delete, size: 20),
+                                                ],
+                                              ),
+                                            ),
+                                          ],
+                                          onSelected: (val) {
+                                            if (val == "delete") {
+                                              provider.deleteChat(uid, chatId);
+                                            } else if (val == "edit") {
+                                              Future.microtask(() {
+                                                provider.startEditChat(
+                                                  chatId,
+                                                  title,
+                                                );
+                                              });
+                                              // provider.startEditChat(chatId, title);
+                                            }
+                                          },
+                                        ),
+                                  onTap: () {
+                                    if (provider.deletingChatId == chatId) {
+                                      return;
+                                    }
+                                    provider.loadChat(uid, chatId);
+                                    // focus.unfocus();
+
+                                    context
+                                        .read<HomescreenProvider>()
+                                        .keyboardUnfocus();
+                                    Navigator.push(
+                                      context,
+                                      MaterialPageRoute(
+                                        builder: (context) => Homechatscreen(),
+                                      ),
+                                    );
+                                  },
                                 ),
-                              );
-                            },
-                          ),
+                              ),
+                            ).fadeInSlideLeftDelayed(80 + index * 40);
+                          },
                         ),
-                      );
-                    },
+                      ),
+                    ],
                   ),
                 );
               },

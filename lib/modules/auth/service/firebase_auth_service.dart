@@ -73,9 +73,40 @@ class FirebaseAuthService {
     return _firestore.collection('users').doc(uid).get();
   }
 
-  //  static Future<DocumentSnapshot<Map<String, dynamic>>> getUser(String uid) {
-  //   return FirebaseFirestore.instance.collection('users').doc(uid).get();
-  // }
+  Future<void> updateUserData(String uid, Map<String, dynamic> data) async {
+    await _firestore
+        .collection('users')
+        .doc(uid)
+        .set(data, SetOptions(merge: true));
+  }
+
+  Future<String?> updateEmail(String email) async {
+    final user = _auth.currentUser;
+    if (user == null) {
+      return 'No authenticated user';
+    }
+
+    try {
+      // await user.u(email);
+      await updateUserData(user.uid, {'email': email});
+      return null;
+    } on FirebaseAuthException catch (e) {
+      log('Update email error: ${e.code}');
+      switch (e.code) {
+        case 'email-already-in-use':
+          return 'This email address is already in use.';
+        case 'invalid-email':
+          return 'Please enter a valid email address.';
+        case 'requires-recent-login':
+          return 'Please sign in again before changing your email.';
+        default:
+          return e.message ?? 'Failed to update email.';
+      }
+    } catch (e) {
+      log('Update email unknown error: $e');
+      return 'Failed to update email.';
+    }
+  }
 
   static String getuid() {
     return FirebaseAuth.instance.currentUser!.uid;

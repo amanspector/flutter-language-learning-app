@@ -29,11 +29,11 @@
 //     return ChicletOutlinedAnimatedButton(
 //       height: height ?? 50,
 //       width: width ?? MediaQuery.widthOf(context),
-//       borderColor: borderColor ?? Theme.of(context).colorScheme.primary,
+//       borderColor: borderColor ?? context.theme.colorScheme.primary,
 //       borderWidth: 2,
 //       buttonColor:
-//           buttoncolor ?? Theme.of(context).colorScheme.onPrimaryContainer,
-//       backgroundColor: backgroundColor ?? Theme.of(context).colorScheme.primary,
+//           buttoncolor ?? context.theme.colorScheme.onPrimaryContainer,
+//       backgroundColor: backgroundColor ?? context.theme.colorScheme.primary,
 //       onPressed: buttonFunc,
 //       buttonType: ChicletButtonTypes.roundedRectangle,
 //       child: childWidget,

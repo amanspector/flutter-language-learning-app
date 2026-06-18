@@ -1,3 +1,5 @@
+import 'dart:developer';
+
 import 'package:chatbot_app/core/extensions/localization_extension.dart';
 import 'package:chatbot_app/core/extensions/theme_extension.dart';
 import 'package:chatbot_app/core/extensions/app_animation_extension.dart';
@@ -38,16 +40,23 @@ class _SplashscreenState extends State<Splashscreen>
       if (!mounted) return;
 
       if (isReadyForHome) {
+        log("going to homescreen");
         Navigator.pushReplacement(
           context,
           MaterialPageRoute(builder: (_) => Homescreen()),
         );
+        log("reached to homescreen");
       } else {
+        log("going to mainonboarding");
+
         Navigator.pushReplacement(
           context,
           MaterialPageRoute(builder: (_) => MainOnboarding()),
         );
+        log("reached to mainonboarding");
       }
+      log("returned....");
+
       return;
     }
 
@@ -83,8 +92,8 @@ class _SplashscreenState extends State<Splashscreen>
             Text(
               context.l10n.syncingProgress,
               // Textconstant.syncingProgress,
-              style: Theme.of(context).textTheme.labelMedium?.copyWith(
-                color: Theme.of(context).colorScheme.primary,
+              style: context.text.labelMedium?.copyWith(
+                color: context.theme.colorScheme.primary,
               ),
             ).fadeInScale,
           ],

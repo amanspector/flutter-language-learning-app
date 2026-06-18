@@ -109,7 +109,7 @@
   "xpPointsValue": "{points} XP",
   "generatingYourVocabulary": "તમારું શબ્દભંડોળ તૈયાર થઈ રહ્યું છે...",
   "languageNotSelected": "ભાષા પસંદ નથી કરી",
-  "tapToRevealMeaning": "અર્થ જોવા માટે ટેપ કરો",
+  "meaning": "અર્થ",
   "questionProgress": "{totalCount} માંથી પ્રશ્ન {currentIndex}",
   "lessonComplete": "પાઠ પૂર્ણ થયો!",
   "scorePercentageValue": "{percentage}%",
@@ -190,5 +190,10 @@
   "loginFailed": "લોગિન નિષ્ફળ ગયું",
   "registrationFailed": "રજીસ્ટ્રેશન નિષ્ફળ ગયું",
   "next": "આગળ",
-  "skip": "સ્કીપ કરો"
+  "skip": "સ્કીપ કરો",
+  "logoutConfirmationTitle": "શું તમે ખરેખર લોગ આઉટ કરવા માંગો છો?",
+  "lesson": "પાઠ",
+  "lastLesson": "છેલ્લો પાઠ",
+  "noLessonsAttempted": "હજી સુધી એકપણ પાઠનો પ્રયાસ કર્યો નથી",
+  "completeLessonToSeeHistory": "તમારો ઇતિહાસ અહીં જોવા માટે એક પાઠ પૂર્ણ કરો"
 }

@@ -1,5 +1,6 @@
 import 'dart:async';
 import 'package:chatbot_app/core/extensions/localization_extension.dart';
+import 'package:chatbot_app/core/extensions/theme_extension.dart';
 import 'package:chatbot_app/core/widgets/app_button.dart';
 import 'package:chatbot_app/core/widgets/app_screen.dart';
 import 'package:flutter/material.dart';
@@ -85,7 +86,7 @@ class _AppLoadingScreenState extends State<AppLoadingScreen> {
               if (widget.generationFailed) ...[
                 Text(
                   context.l10n.generationFailedPleaseRetry,
-                  style: Theme.of(context).textTheme.bodyMedium,
+                  style: context.text.bodyMedium,
                   textAlign: TextAlign.center,
                 ),
                 SizedBox(height: 20),

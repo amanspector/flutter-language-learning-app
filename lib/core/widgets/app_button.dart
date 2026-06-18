@@ -1,11 +1,12 @@
-import 'package:chatbot_app/core/appconstants/color_constant.dart';
+import 'dart:async';
+
 import 'package:chatbot_app/core/extensions/theme_extension.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:loading_animation_widget/loading_animation_widget.dart';
 
 class AppButton extends StatefulWidget {
-  final VoidCallback buttonFunc;
+  final FutureOr<void> Function() buttonFunc;
   final Widget childWidget;
   final Color? buttonColor;
   final Color? backgroundColor;
@@ -66,7 +67,12 @@ class _AppButtonState extends State<AppButton> {
       onTapDown: _onTapDown,
       onTapUp: _onTapUp,
       onTapCancel: _onTapCancel,
-      onTap: (!widget.isEnabled || widget.isLoading) ? null : widget.buttonFunc,
+      onTap: (!widget.isEnabled || widget.isLoading)
+          ? null
+          : () async {
+              await widget.buttonFunc(); // 👈 await it
+            },
+      // (!widget.isEnabled || widget.isLoading) ? null : await widget.buttonFunc,
       child: AnimatedContainer(
         duration: const Duration(milliseconds: 100),
         transform: Matrix4.translationValues(0, _isPressed ? 4 : 0, 0),
@@ -102,7 +108,7 @@ class _AppButtonState extends State<AppButton> {
                   SizedBox(width: 12.w),
                   Text(
                     'Please wait...',
-                    style: context.theme.textTheme.labelMedium,
+                    style: context.text.labelMedium,
                     overflow: TextOverflow.ellipsis,
                   ),
                 ],

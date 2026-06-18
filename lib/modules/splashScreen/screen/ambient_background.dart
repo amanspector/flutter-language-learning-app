@@ -1,3 +1,4 @@
+import 'package:chatbot_app/core/extensions/theme_extension.dart';
 import 'package:flutter/material.dart';
 
 class AmbientBackground extends StatelessWidget {
@@ -11,8 +12,8 @@ class AmbientBackground extends StatelessWidget {
       decoration: BoxDecoration(
         gradient: LinearGradient(
           colors: [
-            Theme.of(context).colorScheme.secondaryContainer,
-            Theme.of(context).colorScheme.onPrimary,
+            context.theme.colorScheme.secondaryContainer,
+            context.theme.colorScheme.onPrimary,
           ], // Sharp split exactly in the middle
           stops: [0.1, 0.7],
           begin: Alignment.topCenter,

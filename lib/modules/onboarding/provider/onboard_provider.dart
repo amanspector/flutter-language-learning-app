@@ -13,13 +13,19 @@ class OnboardProvider extends ChangeNotifier {
   String? selectedDailyGoal;
   String? selectedDailyGoalDuration;
   String? selectedExperienceLevel;
+  String? gender;
+  int? age;
   String? uid;
   int currentPage = 0;
   bool isCompleted = false;
+
+  String get learningLanguageCode => Textconstant.learningLanguages.firstWhere(
+        (element) => element['label'] == selectedlanguage,
+        orElse: () => {'code': 'en'},
+      )['code']!;
+
   TextDirection get learningTextDirection =>
-      isRtl(selectedNativeLanguage ?? 'en')
-      ? TextDirection.rtl
-      : TextDirection.ltr;
+      isRtl(learningLanguageCode) ? TextDirection.rtl : TextDirection.ltr;
 
   void setSelectedNativeLanguage(String value) {
     selectedNativeLanguage = value;
@@ -71,6 +77,8 @@ class OnboardProvider extends ChangeNotifier {
     required String category,
     required String dailygoal,
     required String nativeLanguage,
+    String? userGender,
+    int? userAge,
   }) {
     selectedlanguage = language;
     selectedExperienceLevel = level;
@@ -78,6 +86,8 @@ class OnboardProvider extends ChangeNotifier {
     selectedDailyGoal = dailygoal;
     isCompleted = true;
     selectedNativeLanguage = nativeLanguage;
+    gender = userGender;
+    age = userAge;
     notifyListeners();
   }
 
@@ -90,6 +100,16 @@ class OnboardProvider extends ChangeNotifier {
   Future<void> updateDailygoal(String dailygoal) async {
     selectedDailyGoal = dailygoal;
     await FirebaseOnboardingService.setDailyGoal(dailygoal);
+    notifyListeners();
+  }
+
+  void setGender(String value) {
+    gender = value;
+    notifyListeners();
+  }
+
+  void setAge(int value) {
+    age = value;
     notifyListeners();
   }
 
@@ -144,6 +164,8 @@ class OnboardProvider extends ChangeNotifier {
     selectedExperienceLevel = null;
     selectedDailyGoal = null;
     selectedNativeLanguage = 'en';
+    gender = null;
+    age = null;
     isCompleted = false;
     currentPage = 0;
     notifyListeners();

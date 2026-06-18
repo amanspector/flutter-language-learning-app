@@ -9,6 +9,8 @@ class ExerciseModel {
   final String correctAnswer;
   final String explanation;
   String? nativeTranslation;
+  String? userAnswer; // 👈
+  bool? isCorrect;
 
   ExerciseModel({
     required this.id,
@@ -19,5 +21,7 @@ class ExerciseModel {
     required this.correctAnswer,
     required this.explanation,
     this.nativeTranslation,
+    this.userAnswer,
+    this.isCorrect,
   });
 }

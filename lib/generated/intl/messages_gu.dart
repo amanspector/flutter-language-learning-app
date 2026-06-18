@@ -110,6 +110,9 @@ class MessageLookup extends MessageLookupByLibrary {
         MessageLookupByLibrary.simpleMessage(
           "મૂળભૂત બાબતોથી પરિચિત, વધુ ઊંડી માસ્ટરી મેળવવા માંગો છો.",
         ),
+    "completeLessonToSeeHistory": MessageLookupByLibrary.simpleMessage(
+      "તમારો ઇતિહાસ અહીં જોવા માટે એક પાઠ પૂર્ણ કરો",
+    ),
     "confirmPassword": MessageLookupByLibrary.simpleMessage(
       "પાસવર્ડ કન્ફર્મ કરો",
     ),
@@ -215,10 +218,12 @@ class MessageLookup extends MessageLookupByLibrary {
     "languageNotSelected": MessageLookupByLibrary.simpleMessage(
       "ભાષા પસંદ નથી કરી",
     ),
+    "lastLesson": MessageLookupByLibrary.simpleMessage("છેલ્લો પાઠ"),
     "learnAnytime": MessageLookupByLibrary.simpleMessage(
       "ગમે ત્યારે, ગમે ત્યાં શીખો",
     ),
     "learningLanguage": MessageLookupByLibrary.simpleMessage("શીખવાની ભાષા :"),
+    "lesson": MessageLookupByLibrary.simpleMessage("પાઠ"),
     "lessonComplete": MessageLookupByLibrary.simpleMessage("પાઠ પૂર્ણ થયો!"),
     "lessonsBuiltByLinguistsForRealWorldApplication":
         MessageLookupByLibrary.simpleMessage(
@@ -227,6 +232,9 @@ class MessageLookup extends MessageLookupByLibrary {
     "login": MessageLookupByLibrary.simpleMessage("લોગિન"),
     "loginFailed": MessageLookupByLibrary.simpleMessage("લોગિન નિષ્ફળ ગયું"),
     "logout": MessageLookupByLibrary.simpleMessage("લોગ આઉટ"),
+    "logoutConfirmationTitle": MessageLookupByLibrary.simpleMessage(
+      "શું તમે ખરેખર લોગ આઉટ કરવા માંગો છો?",
+    ),
     "male": MessageLookupByLibrary.simpleMessage("પુરુષ"),
     "masterAnyLang": MessageLookupByLibrary.simpleMessage(
       "કોઈપણ ભાષા પર નિપુણતા મેળવો",
@@ -236,6 +244,7 @@ class MessageLookup extends MessageLookupByLibrary {
       "ગેમ જેવા ઇમર્સિવ અનુભવ સાથે નવી કુશળતા મેળવો.",
     ),
     "masteredWords": MessageLookupByLibrary.simpleMessage("✅ શીખેલા શબ્દો"),
+    "meaning": MessageLookupByLibrary.simpleMessage("અર્થ"),
     "minimalistUiDesignedForZeroDistractionStudy":
         MessageLookupByLibrary.simpleMessage(
           "ધ્યાન ભંગ ન થાય તે રીતે અભ્યાસ કરવા માટે ડિઝાઇન કરાયેલ મિનિમલિસ્ટ UI.",
@@ -270,6 +279,9 @@ class MessageLookup extends MessageLookupByLibrary {
     "nextQuestion": MessageLookupByLibrary.simpleMessage("આગલો પ્રશ્ન"),
     "nextWord": MessageLookupByLibrary.simpleMessage("આગલો શબ્દ"),
     "noChatHistory": MessageLookupByLibrary.simpleMessage("કોઈ ચેટ ઇતિહાસ નથી"),
+    "noLessonsAttempted": MessageLookupByLibrary.simpleMessage(
+      "હજી સુધી એકપણ પાઠનો પ્રયાસ કર્યો નથી",
+    ),
     "notFound": MessageLookupByLibrary.simpleMessage("મળ્યું નથી"),
     "onboardSubtitle1": MessageLookupByLibrary.simpleMessage(
       "લાખો શીખનારાઓ સાથે જોડાઓ અને ગેમિફાઇડ પાઠો દ્વારા નવી કુશળતા મેળવો જે એક રમત જેવા લાગે છે.",
@@ -358,9 +370,6 @@ class MessageLookup extends MessageLookupByLibrary {
     "streakDays": m9,
     "syncingProgress": MessageLookupByLibrary.simpleMessage(
       "પ્રગતિ સિંક (Sync) થઈ રહી છે...",
-    ),
-    "tapToRevealMeaning": MessageLookupByLibrary.simpleMessage(
-      "અર્થ જોવા માટે ટેપ કરો",
     ),
     "tenMinPerDay": MessageLookupByLibrary.simpleMessage(
       "10 મિનિટ/દિવસ | સાતત્ય જાળવી રાખો",

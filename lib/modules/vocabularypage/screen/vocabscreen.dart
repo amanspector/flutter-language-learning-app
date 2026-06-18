@@ -14,6 +14,7 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:flutter_svg/svg.dart';
 import 'package:chatbot_app/modules/vocabularypage/service/tts_service.dart';
 import 'package:flutter/material.dart';
+import 'package:lottie/lottie.dart';
 import 'package:provider/provider.dart';
 
 class VocabScreen extends StatelessWidget {
@@ -330,12 +331,17 @@ class VocabScreen extends StatelessWidget {
                                     )
                                   : Padding(
                                       padding: EdgeInsets.all(20.r),
-                                      child: Text(
-                                        context.l10n.tapToRevealMeaning,
-                                        style: Theme.of(
-                                          context,
-                                        ).textTheme.headlineSmall,
+                                      child: Lottie.asset(
+                                        height: 60,
+                                        'assets/lottie/tap.json',
                                       ),
+
+                                      // Text(
+                                      //   context.l10n.meaning,
+                                      //   style: Theme.of(
+                                      //     context,
+                                      //   ).textTheme.headlineSmall,
+                                      // ),
                                     ),
                             ),
                           ],

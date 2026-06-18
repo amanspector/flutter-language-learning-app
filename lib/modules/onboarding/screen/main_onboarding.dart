@@ -1,6 +1,7 @@
 import 'dart:developer';
 import 'package:chatbot_app/core/appconstants/color_constant.dart';
 import 'package:chatbot_app/core/extensions/localization_extension.dart';
+import 'package:chatbot_app/core/extensions/theme_extension.dart';
 import 'package:chatbot_app/core/widgets/app_button.dart';
 import 'package:chatbot_app/core/widgets/app_container.dart';
 import 'package:chatbot_app/core/widgets/app_loading_screen.dart';
@@ -88,7 +89,7 @@ class MainOnboarding extends StatelessWidget {
                           onbordingpages.length,
                         ),
                         // "STEPS ${onboardProvider.currentPage + 1} OF 5",
-                        style: Theme.of(context).textTheme.titleMedium,
+                        style: context.text.titleMedium,
                       ),
                       SizedBox(height: 10.h),
                       TweenAnimationBuilder(
@@ -204,7 +205,7 @@ class MainOnboarding extends StatelessWidget {
           },
           childWidget: Text(
             S.of(context).continueText,
-            style: Theme.of(context).textTheme.labelMedium,
+            style: context.text.labelMedium,
           ),
         ),
       ),

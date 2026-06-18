@@ -2,6 +2,7 @@ import 'package:chatbot_app/core/appconstants/color_constant.dart';
 import 'package:chatbot_app/core/extensions/localization_extension.dart';
 import 'package:chatbot_app/core/extensions/theme_extension.dart';
 import 'package:chatbot_app/core/widgets/app_button.dart';
+import 'package:chatbot_app/core/widgets/app_circular_progress.dart';
 import 'package:chatbot_app/core/widgets/app_customContainer.dart';
 import 'package:chatbot_app/generated/l10n.dart';
 import 'package:chatbot_app/modules/homepage/provider/homescreen_provider.dart';
@@ -12,7 +13,6 @@ import 'package:chatbot_app/modules/splashScreen/screen/ambient_background.dart'
 import 'package:chatbot_app/modules/vocabularypage/provider/vocab_provider.dart';
 import 'package:confetti/confetti.dart';
 import 'package:firebase_auth/firebase_auth.dart';
-import 'package:fl_chart/fl_chart.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
@@ -24,19 +24,11 @@ class ResultScreen extends HookWidget {
 
   @override
   Widget build(BuildContext context) {
+    final isLoading = useState(false);
     final provider = context.read<LessonProvider>();
-
     final scorePercentage = provider.exercises.isEmpty
         ? 0.0
         : (provider.score / provider.totalExercises) * 100;
-
-    Color scoreColor() {
-      final percentage = scorePercentage;
-      if (percentage >= 90) return ColorConstant.green400;
-      if (percentage >= 75) return ColorConstant.blue400;
-      if (percentage >= 60) return ColorConstant.orange400;
-      return ColorConstant.red400;
-    }
 
     String performanceMessage() {
       final percentage = scorePercentage;
@@ -150,7 +142,7 @@ class ResultScreen extends HookWidget {
                         child: CustomPaint(
                           painter: TicketPainter(
                             concaveDepth: 20,
-                            glowColor: Theme.of(context).colorScheme.primary,
+                            glowColor: context.theme.colorScheme.primary,
                           ),
                           child: Padding(
                             padding: EdgeInsets.symmetric(
@@ -161,11 +153,12 @@ class ResultScreen extends HookWidget {
                               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                               children: [
                                 // Score ring
-                                _AnimatedScoreRing(
-                                  percentage: scorePercentage,
-                                  color: scoreColor(),
+                                AppCircularProgress(
+                                  showPercentage: true,
                                   score: provider.score,
                                   total: provider.totalExercises,
+                                  size: 160,
+                                  strokeWidth: 16,
                                 ),
 
                                 // Divider
@@ -200,30 +193,36 @@ class ResultScreen extends HookWidget {
 
                       // Continue button
                       AppButton(
+                        isLoading: isLoading.value,
                         buttonFunc: () async {
-                          final vocab = context.read<VocabProvider>();
-                          final lesson = context.read<LessonProvider>();
-                          final onboard = context.read<OnboardProvider>();
-                          final homeProvider = context
-                              .read<HomescreenProvider>();
-                          final uid = FirebaseAuth.instance.currentUser!.uid;
-                          await vocab.loadNextBatch(onboard);
-                          lesson.initWordsFromVocab(vocab.todaywords);
-                          if (!context.mounted) return;
-                          await lesson.startLesson(
-                            con: context,
-                            userDailyGoalMinutes: vocab.maxWordsForLevel,
-                            words: vocab.todaywords,
-                          );
-                          if (!context.mounted) return;
-                          lesson.generateExercises(context);
-                          await homeProvider.loadUserStats(uid);
-                          if (!context.mounted) return;
-                          Navigator.pushAndRemoveUntil(
-                            context,
-                            MaterialPageRoute(builder: (_) => Homescreen()),
-                            (route) => false, // removes all previous routes
-                          );
+                          isLoading.value = true;
+                          try {
+                            final vocab = context.read<VocabProvider>();
+                            final lesson = context.read<LessonProvider>();
+                            final onboard = context.read<OnboardProvider>();
+                            final homeProvider = context
+                                .read<HomescreenProvider>();
+                            final uid = FirebaseAuth.instance.currentUser!.uid;
+                            await vocab.loadNextBatch(onboard);
+                            lesson.initWordsFromVocab(vocab.todaywords);
+                            if (!context.mounted) return;
+                            await lesson.startLesson(
+                              con: context,
+                              userDailyGoalMinutes: vocab.maxWordsForLevel,
+                              words: vocab.todaywords,
+                            );
+                            if (!context.mounted) return;
+                            lesson.generateExercises(context);
+                            await homeProvider.loadUserStats(uid);
+                            if (!context.mounted) return;
+                            Navigator.pushAndRemoveUntil(
+                              context,
+                              MaterialPageRoute(builder: (_) => Homescreen()),
+                              (route) => false, // removes all previous routes
+                            );
+                          } finally {
+                            isLoading.value = false;
+                          }
                         },
                         childWidget: Text(
                           context.l10n.continueText,
@@ -257,84 +256,6 @@ class ResultScreen extends HookWidget {
           ),
         ],
       ),
-    );
-  }
-}
-
-class _AnimatedScoreRing extends StatelessWidget {
-  final double percentage;
-  final Color color;
-  final int score;
-  final int total;
-
-  const _AnimatedScoreRing({
-    required this.percentage,
-    required this.color,
-    required this.score,
-    required this.total,
-  });
-
-  @override
-  @override
-  Widget build(BuildContext context) {
-    return TweenAnimationBuilder<double>(
-      tween: Tween(begin: 0, end: percentage),
-      duration: Duration(milliseconds: 1200),
-      curve: Curves.easeOutCubic,
-      builder: (context, animated, _) {
-        final animateValue = animated.clamp(0.0, 100.0);
-        return SizedBox(
-          width: 160.w,
-          height: 160.w,
-          child: Stack(
-            alignment: Alignment.center,
-            children: [
-              PieChart(
-                PieChartData(
-                  startDegreeOffset: -90,
-                  sectionsSpace: 0,
-                  centerSpaceRadius: 55.w,
-                  sections: [
-                    PieChartSectionData(
-                      cornerRadius: 4,
-                      value: animateValue,
-                      color: color,
-                      radius: 15,
-                      showTitle: false,
-                    ),
-                    PieChartSectionData(
-                      value: 100 - animateValue,
-                      color: context.theme.colorScheme.outline.withValues(
-                        alpha: 0.15,
-                      ),
-                      radius: 15,
-                      showTitle: false,
-                    ),
-                  ],
-                ),
-              ),
-              Column(
-                mainAxisAlignment: MainAxisAlignment.center,
-                children: [
-                  Text(
-                    '${animated.toStringAsFixed(0)}%',
-                    style: context.text.displaySmall?.copyWith(
-                      fontWeight: FontWeight.bold,
-                      color: color,
-                    ),
-                  ),
-                  Text(
-                    '$score/$total',
-                    style: context.text.bodyMedium?.copyWith(
-                      color: context.theme.colorScheme.outline,
-                    ),
-                  ),
-                ],
-              ),
-            ],
-          ),
-        );
-      },
     );
   }
 }

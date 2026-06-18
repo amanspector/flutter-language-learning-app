@@ -12,6 +12,9 @@ class AppAlertdialog {
     required String message,
     required String cancelText,
     required String confirmText,
+    Color? confirmBgColor,
+    Color? confirmButtonColor,
+    Color? confirmBorderColor,
     double iconSize = 36,
   }) {
     return showDialog<bool>(
@@ -63,7 +66,7 @@ class AppAlertdialog {
                 Text(
                   title,
                   textAlign: TextAlign.center,
-                  style: context.theme.textTheme.headlineMedium,
+                  style: context.text.headlineMedium,
                 ),
                 SizedBox(height: 8.h),
 
@@ -71,7 +74,7 @@ class AppAlertdialog {
                 Text(
                   message,
                   textAlign: TextAlign.center,
-                  style: context.theme.textTheme.titleMedium?.copyWith(
+                  style: context.text.titleMedium?.copyWith(
                     color: context.theme.colorScheme.outline,
                   ),
                 ),
@@ -93,7 +96,7 @@ class AppAlertdialog {
                           backgroundColor: context.theme.colorScheme.surface,
                           childWidget: Text(
                             cancelText,
-                            style: context.theme.textTheme.titleMedium
+                            style: context.text.titleMedium
                                 ?.copyWith(
                                   color: context
                                       .theme
@@ -110,12 +113,14 @@ class AppAlertdialog {
                         padding: EdgeInsets.symmetric(vertical: 14.h),
                         child: AppButton(
                           buttonFunc: () => Navigator.pop(context, true),
-
-                          backgroundColor: context.theme.colorScheme.primary,
+                          // borderColor: ,
+                          backgroundColor: confirmBgColor ?? null,
+                          buttonColor: confirmButtonColor ?? null,
+                          borderColor: confirmBorderColor ?? null,
 
                           childWidget: Text(
                             confirmText,
-                            style: context.theme.textTheme.titleMedium
+                            style: context.text.titleMedium
                                 ?.copyWith(
                                   color: context.theme.colorScheme.onPrimary,
                                 ),

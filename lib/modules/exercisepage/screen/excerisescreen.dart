@@ -18,6 +18,18 @@ import 'package:provider/provider.dart';
 import 'package:flutter/material.dart';
 import 'dart:developer';
 
+class _DragWordData {
+  final int wordIndex;
+  final int? sourceSlot;
+  final String word;
+
+  const _DragWordData({
+    required this.wordIndex,
+    required this.word,
+    this.sourceSlot,
+  });
+}
+
 class ExerciseScreen extends StatelessWidget {
   const ExerciseScreen({super.key});
 
@@ -57,7 +69,7 @@ class ExerciseScreen extends StatelessWidget {
                         provider.currentExerciseIndex + 1,
                         provider.totalExercises,
                       ),
-                      style: context.theme.textTheme.displaySmall,
+                      style: context.text.displaySmall,
                     ),
                   ],
                 ),
@@ -68,45 +80,11 @@ class ExerciseScreen extends StatelessWidget {
                   child: Column(
                     crossAxisAlignment: CrossAxisAlignment.stretch,
                     children: [
-                      Padding(
-                        padding: EdgeInsets.all(20.r),
-                        child: AppContainer(
-                          backgroundColor: Colors.transparent,
-                          widget: CustomPaint(
-                            painter: TicketPainter(
-                              cornerRadius: 32,
-                              concaveDepth: 8,
-                            ),
-                            child: Container(
-                              padding: EdgeInsets.all(24.r),
-                              child: exercise?.type == ExerciseType.fillInBlank
-                                  ? _buildQuestionWithBlank(
-                                      context,
-                                      exercise!.question,
-                                      provider,
-                                    )
-                                  : exercise?.type ==
-                                        ExerciseType.sentenceArrangement
-                                  ? _buildSentenceArrangementExercise(
-                                      context,
-                                      provider,
-                                    )
-                                  : exercise?.type ==
-                                        ExerciseType.translationMCQ
-                                  ? _buildTranslationMCQ(
-                                      context,
-                                      exercise!,
-                                      provider,
-                                    )
-                                  : SizedBox(),
-                            ),
-                          ),
-                        ),
-                      ),
+                      _buildQuestionCard(context, exercise, provider),
                       if (!provider.isAnswered)
                         Text(
                           context.l10n.dragTheCorrectWordToTheBlankSpace,
-                          style: context.theme.textTheme.bodyMedium,
+                          style: context.text.bodyMedium,
                           textAlign: TextAlign.center,
                         ),
 
@@ -174,13 +152,13 @@ class ExerciseScreen extends StatelessWidget {
       padding: EdgeInsets.all(20.r),
       decoration: BoxDecoration(
         color: provider.isCorrect
-            ? Theme.of(context).colorScheme.primary.withValues(alpha: 0.40)
-            : Theme.of(context).colorScheme.error.withValues(alpha: 0.20),
+            ? context.theme.colorScheme.primary.withValues(alpha: 0.40)
+            : context.theme.colorScheme.error.withValues(alpha: 0.20),
         borderRadius: BorderRadius.circular(16.r),
         border: Border.all(
           color: provider.isCorrect
-              ? Theme.of(context).colorScheme.primary.withGreen(180)
-              : Theme.of(context).colorScheme.error.withRed(225),
+              ? context.theme.colorScheme.primary.withGreen(180)
+              : context.theme.colorScheme.error.withRed(225),
           width: 2.r,
         ),
       ),
@@ -192,8 +170,8 @@ class ExerciseScreen extends StatelessWidget {
               Icon(
                 provider.isCorrect ? Icons.check_circle : Icons.cancel,
                 color: provider.isCorrect
-                    ? Theme.of(context).colorScheme.primary.withGreen(180)
-                    : Theme.of(context).colorScheme.error.withRed(225),
+                    ? context.theme.colorScheme.primary.withGreen(180)
+                    : context.theme.colorScheme.error.withRed(225),
                 size: 32,
               ),
               SizedBox(width: 12.w),
@@ -201,10 +179,10 @@ class ExerciseScreen extends StatelessWidget {
                 provider.isCorrect
                     ? S.of(context).correct
                     : S.of(context).incorrect,
-                style: Theme.of(context).textTheme.displayMedium?.copyWith(
+                style: context.text.displayMedium?.copyWith(
                   color: provider.isCorrect
-                      ? Theme.of(context).colorScheme.primary.withGreen(180)
-                      : Theme.of(context).colorScheme.error.withRed(225),
+                      ? context.theme.colorScheme.primary.withGreen(180)
+                      : context.theme.colorScheme.error.withRed(225),
                   fontSize: 22.sp,
                   fontWeight: FontWeight.bold,
                 ),
@@ -218,13 +196,13 @@ class ExerciseScreen extends StatelessWidget {
               // final feedback = exercise.explanation!.toString().split(":");
               Text(
                 "${S.of(context).translation} : ${exercise.nativeTranslation}",
-                style: Theme.of(context).textTheme.bodyMedium,
+                style: context.text.bodyMedium,
               ),
             ],
             SizedBox(height: 12.h),
             Text(
               exercise.explanation!,
-              style: Theme.of(context).textTheme.bodyMedium,
+              style: context.text.bodyMedium,
               textDirection: context
                   .read<OnboardProvider>()
                   .learningTextDirection,
@@ -290,7 +268,7 @@ class ExerciseScreen extends StatelessWidget {
             border: Border.all(color: context.theme.colorScheme.primary),
             borderRadius: BorderRadius.circular(16.r),
           ),
-          child: Text(word, style: context.theme.textTheme.bodySmall),
+          child: Text(word, style: context.text.bodySmall),
         ),
       );
     }
@@ -315,8 +293,8 @@ class ExerciseScreen extends StatelessWidget {
           ),
           child: Text(
             word,
-            style: Theme.of(context).textTheme.headlineSmall?.copyWith(
-              color: Theme.of(context).colorScheme.surface,
+            style: context.text.headlineSmall?.copyWith(
+              color: context.theme.colorScheme.surface,
             ),
           ),
         ),
@@ -329,7 +307,7 @@ class ExerciseScreen extends StatelessWidget {
         ),
         child: Text(
           word,
-          style: context.theme.textTheme.headlineSmall?.copyWith(
+          style: context.text.headlineSmall?.copyWith(
             color: context.theme.colorScheme.outline,
           ),
         ),
@@ -340,7 +318,7 @@ class ExerciseScreen extends StatelessWidget {
           borderRadius: BorderRadius.circular(16.r),
           border: Border.all(color: context.theme.colorScheme.onSurface),
         ),
-        child: Text(word, style: context.theme.textTheme.headlineSmall),
+        child: Text(word, style: context.text.headlineSmall),
       ),
     );
   }
@@ -421,7 +399,23 @@ class ExerciseScreen extends StatelessWidget {
         provider.currentExerciseIndex >= provider.totalExercises - 1;
 
     return AppButton(
+      isLoading: isLastQuestion && provider.isLoading,
       buttonFunc: () {
+        final nextIndex = provider.currentExerciseIndex + 1;
+        if (nextIndex < provider.exercises.length) {
+          final nextExercise = provider.exercises[nextIndex];
+          final vocab = context.read<VocabProvider>();
+
+          final textSentence = nextExercise.type == ExerciseType.translationMCQ
+              ? nextExercise.question
+              : nextExercise
+                    .questionWithoutBlank; // covers both fillInBlank and sentenceArrangement
+          vocab.preloadText(
+            textSentence,
+            vocab.currentlanguage!,
+            vocab.currentspeaker,
+          );
+        }
         provider.nextExercise(context);
       },
       childWidget: Text(
@@ -500,7 +494,7 @@ class ExerciseScreen extends StatelessWidget {
     final isAnswered = provider.isAnswered;
     final isCorrect = provider.isCorrect;
 
-    return DragTarget<MapEntry<int, String>>(
+    return DragTarget<_DragWordData>(
       builder: (context, candidateData, rejectedData) {
         final isHovering = candidateData.isNotEmpty;
 
@@ -512,9 +506,7 @@ class ExerciseScreen extends StatelessWidget {
         if (isAnswered) {
           bgColor = isCorrect
               ? context.theme.colorScheme.primary.withGreen(180)
-              // ColorConstant.color_green700
               : context.theme.colorScheme.error.withRed(225);
-          // ColorConstant.color_red700;
           borderColor = isCorrect
               ? context.theme.colorScheme.secondary
               : context.theme.colorScheme.error.withRed(225);
@@ -526,14 +518,14 @@ class ExerciseScreen extends StatelessWidget {
           borderColor = context.theme.colorScheme.onPrimaryContainer;
         }
 
-        return GestureDetector(
+        Widget targetChild = GestureDetector(
           onTap: () {
             if (!isAnswered && currentWord != null) {
               provider.removeWordFromSlot(index);
             }
           },
           child: Container(
-            constraints: BoxConstraints(minWidth: 80.w),
+            // width: 94.w,
             padding: EdgeInsets.symmetric(horizontal: 16.r, vertical: 12.r),
             decoration: BoxDecoration(
               color: bgColor,
@@ -542,9 +534,11 @@ class ExerciseScreen extends StatelessWidget {
             ),
             child: Text(
               currentWord ?? "       ",
+              maxLines: 1,
+              overflow: TextOverflow.ellipsis,
               textAlign: TextAlign.center,
               style: TextStyle(
-                fontSize: 18.sp,
+                fontSize: 16.sp,
                 fontWeight: FontWeight.bold,
                 color: currentWord == null
                     ? context.theme.colorScheme.outline
@@ -553,10 +547,77 @@ class ExerciseScreen extends StatelessWidget {
             ),
           ),
         );
+
+        if (!isAnswered && currentWord != null) {
+          final sourceWordIndex = provider.getWordIndexAtSlot(index);
+          if (sourceWordIndex != null) {
+            targetChild = Draggable<_DragWordData>(
+              data: _DragWordData(
+                wordIndex: sourceWordIndex,
+                word: currentWord,
+                sourceSlot: index,
+              ),
+              feedback: Material(
+                color: Colors.transparent,
+                child: Container(
+                  padding: EdgeInsets.symmetric(
+                    horizontal: 20.r,
+                    vertical: 12.r,
+                  ),
+                  decoration: BoxDecoration(
+                    color: context.theme.colorScheme.onPrimaryContainer,
+                    borderRadius: BorderRadius.circular(12.r),
+                    boxShadow: [
+                      BoxShadow(
+                        color: context.theme.colorScheme.shadow,
+                        blurRadius: 8.r,
+                        offset: Offset(0, 4),
+                      ),
+                    ],
+                  ),
+                  child: Text(
+                    currentWord,
+                    maxLines: 1,
+                    overflow: TextOverflow.ellipsis,
+                    style: context.text.headlineSmall?.copyWith(
+                      color: context.theme.colorScheme.surface,
+                      fontSize: 16.sp,
+                    ),
+                  ),
+                ),
+              ),
+              childWhenDragging: Container(
+                width: 90.w,
+                padding: EdgeInsets.symmetric(horizontal: 16.r, vertical: 12.r),
+                decoration: BoxDecoration(
+                  borderRadius: BorderRadius.circular(12.r),
+                  border: Border.all(color: context.theme.colorScheme.outline),
+                ),
+                child: Text(
+                  "       ",
+                  textAlign: TextAlign.center,
+                  style: TextStyle(
+                    fontSize: 16.sp,
+                    fontWeight: FontWeight.bold,
+                    color: context.theme.colorScheme.outline,
+                  ),
+                ),
+              ),
+              child: targetChild,
+            );
+          }
+        }
+
+        return targetChild;
       },
-      onWillAcceptWithDetails: (details) => !isAnswered && currentWord == null,
+      onWillAcceptWithDetails: (details) =>
+          !isAnswered && details.data.sourceSlot != index,
       onAcceptWithDetails: (details) {
-        provider.placeWordInSlot(index, details.data.key);
+        provider.moveWordToSlot(
+          index,
+          details.data.sourceSlot,
+          details.data.wordIndex,
+        );
       },
     );
   }
@@ -619,8 +680,8 @@ class ExerciseScreen extends StatelessWidget {
     int wordIndex,
     bool isAnswered,
   ) {
-    return Draggable<MapEntry<int, String>>(
-      data: MapEntry(wordIndex, word),
+    return Draggable<_DragWordData>(
+      data: _DragWordData(wordIndex: wordIndex, word: word, sourceSlot: null),
       feedback: Material(
         color: ColorConstant.colorTransparent,
         child: AppContainer(
@@ -674,6 +735,34 @@ class ExerciseScreen extends StatelessWidget {
           color: isAnswered
               ? context.theme.colorScheme.primary
               : context.theme.colorScheme.outline,
+        ),
+      ),
+    );
+  }
+
+  Widget _buildQuestionCard(
+    BuildContext context,
+    ExerciseModel? exercise,
+    LessonProvider provider,
+  ) {
+    return Padding(
+      padding: EdgeInsets.symmetric(vertical: 20.r),
+      child: AppContainer(
+        borderColor: Colors.transparent,
+        backgroundColor: Colors.transparent,
+        widget: CustomPaint(
+          painter: TicketPainter(cornerRadius: 32, concaveDepth: 8),
+          child: Container(
+            width: double.infinity,
+            padding: EdgeInsets.all(24.r),
+            child: exercise?.type == ExerciseType.fillInBlank
+                ? _buildQuestionWithBlank(context, exercise!.question, provider)
+                : exercise?.type == ExerciseType.sentenceArrangement
+                ? _buildSentenceArrangementExercise(context, provider)
+                : exercise?.type == ExerciseType.translationMCQ
+                ? _buildTranslationMCQ(context, exercise!, provider)
+                : SizedBox(),
+          ),
         ),
       ),
     );
