@@ -1,3 +1,4 @@
+import 'dart:ui' show PathMetric;
 import 'package:chatbot_app/modules/onboarding/provider/onboard_provider.dart';
 import 'package:chatbot_app/modules/splashScreen/screen/ambient_background.dart';
 import 'package:chatbot_app/modules/exercisepage/provider/lesson_provider.dart';
@@ -10,13 +11,12 @@ import 'package:chatbot_app/core/widgets/app_alertDialog.dart';
 import 'package:chatbot_app/core/extensions/app_animation_extension.dart';
 import 'package:chatbot_app/core/widgets/app_container.dart';
 import 'package:chatbot_app/modules/vocabularypage/provider/vocab_provider.dart';
+import 'package:chatbot_app/core/services/sound_effect_service.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:chatbot_app/core/widgets/app_button.dart';
-import 'package:chatbot_app/generated/l10n.dart';
 import 'package:vibration/vibration.dart';
 import 'package:provider/provider.dart';
 import 'package:flutter/material.dart';
-import 'dart:developer';
 
 class _DragWordData {
   final int wordIndex;
@@ -177,8 +177,8 @@ class ExerciseScreen extends StatelessWidget {
               SizedBox(width: 12.w),
               Text(
                 provider.isCorrect
-                    ? S.of(context).correct
-                    : S.of(context).incorrect,
+                    ? context.l10n.correct
+                    : context.l10n.incorrect,
                 style: context.text.displayMedium?.copyWith(
                   color: provider.isCorrect
                       ? context.theme.colorScheme.primary.withGreen(180)
@@ -195,7 +195,7 @@ class ExerciseScreen extends StatelessWidget {
               SizedBox(height: 12.h),
               // final feedback = exercise.explanation!.toString().split(":");
               Text(
-                "${S.of(context).translation} : ${exercise.nativeTranslation}",
+                "${context.l10n.translation} : ${exercise.nativeTranslation}",
                 style: context.text.bodyMedium,
               ),
             ],
@@ -261,64 +261,98 @@ class ExerciseScreen extends StatelessWidget {
     final isSelected = provider.selectedAnswer == word;
 
     if (isSelected) {
-      return AppContainer(
-        widget: Container(
+      return CustomPaint(
+        painter: _DashedBorderPainter(
+          color: context.theme.colorScheme.outline.withValues(alpha: 0.25),
+          borderRadius: 16.r,
+        ),
+        child: Container(
           padding: EdgeInsets.symmetric(horizontal: 24.r, vertical: 14.r),
-          decoration: BoxDecoration(
-            border: Border.all(color: context.theme.colorScheme.primary),
-            borderRadius: BorderRadius.circular(16.r),
+          child: Text(
+            word,
+            style: context.text.headlineSmall?.copyWith(
+              color: Colors.transparent, // Preserves layout size
+            ),
           ),
-          child: Text(word, style: context.text.bodySmall),
         ),
       );
     }
 
-    return Draggable<String>(
-      data: word,
-      maxSimultaneousDrags: 1,
-      feedback: Material(
-        color: Colors.transparent,
+    return GestureDetector(
+      onTap: () {
+        if (!provider.isAnswered) {
+          _onWordSelected(context, word, provider);
+        }
+      },
+      child: Draggable<String>(
+        data: word,
+        maxSimultaneousDrags: provider.isAnswered ? 0 : 1,
+        feedback: Material(
+          color: Colors.transparent,
+          child: Container(
+            padding: EdgeInsets.symmetric(horizontal: 24.r, vertical: 14.r),
+            decoration: BoxDecoration(
+              color: context.theme.colorScheme.primaryContainer,
+              borderRadius: BorderRadius.circular(16.r),
+              boxShadow: [
+                BoxShadow(
+                  color: context.theme.colorScheme.shadow.withValues(
+                    alpha: 0.2,
+                  ),
+                  blurRadius: 8.r,
+                  offset: Offset(0, 4),
+                ),
+              ],
+            ),
+            child: Text(
+              word,
+              style: context.text.headlineSmall?.copyWith(
+                fontWeight: FontWeight.bold,
+              ),
+            ),
+          ),
+        ),
+        childWhenDragging: CustomPaint(
+          painter: _DashedBorderPainter(
+            color: context.theme.colorScheme.outline.withValues(alpha: 0.3),
+            borderRadius: 16.r,
+          ),
+          child: Container(
+            padding: EdgeInsets.symmetric(horizontal: 24.r, vertical: 14.r),
+            child: Text(
+              word,
+              style: context.text.headlineSmall?.copyWith(
+                color: Colors.transparent,
+              ),
+            ),
+          ),
+        ),
         child: Container(
           padding: EdgeInsets.symmetric(horizontal: 24.r, vertical: 14.r),
           decoration: BoxDecoration(
-            color: context.theme.colorScheme.onPrimaryContainer,
+            color: context.theme.colorScheme.surface,
             borderRadius: BorderRadius.circular(16.r),
+            border: Border.all(
+              color: context.theme.colorScheme.outline.withValues(alpha: 0.2),
+              width: 1.5,
+            ),
             boxShadow: [
               BoxShadow(
-                color: context.theme.colorScheme.shadow,
-                blurRadius: 10.r,
-                offset: Offset(0, 5),
+                color: context.theme.colorScheme.outline.withValues(
+                  alpha: 0.15,
+                ),
+                offset: const Offset(0, 4),
+                blurRadius: 0,
               ),
             ],
           ),
           child: Text(
             word,
             style: context.text.headlineSmall?.copyWith(
-              color: context.theme.colorScheme.surface,
+              fontWeight: FontWeight.bold,
             ),
           ),
         ),
-      ),
-      childWhenDragging: Container(
-        padding: EdgeInsets.symmetric(horizontal: 24.r, vertical: 14.r),
-        decoration: BoxDecoration(
-          borderRadius: BorderRadius.circular(16.r),
-          border: Border.all(color: context.theme.colorScheme.outline),
-        ),
-        child: Text(
-          word,
-          style: context.text.headlineSmall?.copyWith(
-            color: context.theme.colorScheme.outline,
-          ),
-        ),
-      ),
-      child: Container(
-        padding: EdgeInsets.symmetric(horizontal: 24.r, vertical: 14.r),
-        decoration: BoxDecoration(
-          borderRadius: BorderRadius.circular(16.r),
-          border: Border.all(color: context.theme.colorScheme.onSurface),
-        ),
-        child: Text(word, style: context.text.headlineSmall),
       ),
     );
   }
@@ -332,64 +366,88 @@ class ExerciseScreen extends StatelessWidget {
       builder: (context, candidateData, rejectedData) {
         final isHovering = candidateData.isNotEmpty;
 
-        // 1. Default fallback colors
-        Color bgColor = context.theme.colorScheme.outline.withValues(
-          alpha: 0.25,
-        );
-        Color borderColor = context.theme.colorScheme.surface.withValues(
-          alpha: 0.25,
-        );
-
-        // 2. Change color properties dynamically based on state
-        if (isAnswered) {
-          bgColor = isCorrect
-              ? context.theme.colorScheme.primary.withValues(alpha: 0.40)
-              : context.theme.colorScheme.error.withValues(alpha: 0.20);
-          borderColor = isCorrect
-              ? context.theme.colorScheme.secondary
-              : context.theme.colorScheme.error.withRed(225);
-        } else if (isHovering) {
-          bgColor = context.theme.colorScheme.primary.withValues(alpha: 0.20);
-          borderColor = context.theme.colorScheme.secondaryContainer;
-        } else if (selectedAnswer != null) {
-          bgColor = context.theme.colorScheme.onPrimaryContainer;
-          borderColor = context.theme.colorScheme.onPrimaryContainer;
+        if (selectedAnswer == null) {
+          return CustomPaint(
+            painter: _DashedBorderPainter(
+              color: isHovering
+                  ? context.theme.colorScheme.primary
+                  : context.theme.colorScheme.outline.withValues(alpha: 0.4),
+              borderRadius: 12.r,
+              strokeWidth: 2.w,
+            ),
+            child: Container(
+              padding: EdgeInsets.symmetric(horizontal: 24.r, vertical: 12.r),
+              color: isHovering
+                  ? context.theme.colorScheme.primary.withValues(alpha: 0.1)
+                  : Colors.transparent,
+              child: Text(
+                "       ",
+                style: TextStyle(fontSize: 24.sp, fontWeight: FontWeight.bold),
+              ),
+            ),
+          );
         }
 
-        return Container(
-          padding: EdgeInsets.symmetric(horizontal: 20.r, vertical: 14.r),
+        final Color textCol = isAnswered
+            ? (isCorrect
+                  ? context.theme.colorScheme.primary.withGreen(180)
+                  : context.theme.colorScheme.error.withRed(225))
+            : context.theme.colorScheme.onSurface;
+
+        final Color bgCol = isAnswered
+            ? (isCorrect
+                  ? context.theme.colorScheme.primary.withValues(alpha: 0.40)
+                  : context.theme.colorScheme.error.withValues(alpha: 0.20))
+            : context.theme.colorScheme.primaryContainer;
+
+        final Color borderCol = isAnswered
+            ? (isCorrect
+                  ? context.theme.colorScheme.primary.withGreen(180)
+                  : context.theme.colorScheme.error.withRed(225))
+            : context.theme.colorScheme.primary;
+
+        final IconData? icon = isAnswered
+            ? (isCorrect ? Icons.check_circle_rounded : Icons.cancel_rounded)
+            : null;
+
+        return AnimatedContainer(
+          duration: const Duration(milliseconds: 250),
+          curve: Curves.easeOutBack,
+          padding: EdgeInsets.symmetric(horizontal: 16.r, vertical: 12.r),
           decoration: BoxDecoration(
-            color: bgColor,
-            border: Border.all(color: borderColor, width: 2.w),
+            color: bgCol,
+            border: Border.all(color: borderCol, width: 2.w),
             borderRadius: BorderRadius.circular(12.r),
+            boxShadow: [
+              BoxShadow(
+                color: borderCol.withValues(alpha: 0.15),
+                blurRadius: 4.r,
+                offset: const Offset(0, 2),
+              ),
+            ],
           ),
-          child: Text(
-            // Always displays what the user dropped in the box
-            selectedAnswer ?? "       ",
-            style: TextStyle(
-              fontSize: 24.sp,
-              fontWeight: FontWeight.bold,
-              color: selectedAnswer == null
-                  ? context.theme.colorScheme.outline
-                  : (isAnswered && !isCorrect
-                        ? context.theme.colorScheme.error.withRed(
-                            225,
-                          ) // Keeps their text red if wrong
-                        : context.theme.colorScheme.onSurface),
-            ),
-          ).fadeInSlideUp,
-        );
+          child: Row(
+            mainAxisSize: MainAxisSize.min,
+            children: [
+              if (icon != null) ...[
+                Icon(icon, color: textCol, size: 20.r),
+                SizedBox(width: 6.w),
+              ],
+              Text(
+                selectedAnswer,
+                style: TextStyle(
+                  fontSize: 22.sp,
+                  fontWeight: FontWeight.bold,
+                  color: textCol,
+                ),
+              ),
+            ],
+          ),
+        ).fadeInSlideUp;
       },
       onWillAcceptWithDetails: (details) => !isAnswered,
       onAcceptWithDetails: (details) {
-        provider.selectAnswer(details.data);
-        final vocabpro = context.read<VocabProvider>();
-        provider.checkAnswer(vocabpro);
-        log("outside condition");
-
-        if (!provider.isCorrect) {
-          Vibration.vibrate(pattern: [0, 100, 50, 100]);
-        }
+        _onWordSelected(context, details.data, provider);
       },
     );
   }
@@ -416,7 +474,9 @@ class ExerciseScreen extends StatelessWidget {
             vocab.currentspeaker,
           );
         }
-        provider.nextExercise(context);
+        final onboard = context.read<OnboardProvider>();
+        provider.nextExercise(context, onboard.learningLanguageCode);
+        // provider.nextExercise(context);
       },
       childWidget: Text(
         isLastQuestion ? context.l10n.seeResults : context.l10n.nextQuestion,
@@ -438,13 +498,42 @@ class ExerciseScreen extends StatelessWidget {
     if (isexit != null) {
       if (!context.mounted) return;
       if (isexit) {
-        context.read<LessonProvider>().resetProgress();
+        context.read<LessonProvider>().resetLesson();
         Navigator.pop(context);
         Navigator.pop(context);
       }
       if (!isexit) {
         return;
       }
+    }
+  }
+
+  void _onWordSelected(
+    BuildContext context,
+    String word,
+    LessonProvider provider,
+  ) {
+    SoundEffectService.playPlace();
+    provider.selectAnswer(word);
+    final vocabpro = context.read<VocabProvider>();
+    final onboard = context.read<OnboardProvider>();
+    provider.checkAnswer(vocabpro, onboard.learningLanguageCode);
+
+    if (!provider.isCorrect) {
+      Vibration.vibrate(pattern: [0, 100, 50, 100]);
+    }
+  }
+
+  void _onSentenceWordTap(
+    BuildContext context,
+    int wordIndex,
+    LessonProvider provider,
+  ) {
+    final arrangedWords = provider.arrangedSentence;
+    final emptyIndex = arrangedWords.indexOf(null);
+    if (emptyIndex != -1) {
+      provider.placeWordInSlot(emptyIndex, wordIndex);
+      SoundEffectService.playPlace();
     }
   }
 
@@ -498,57 +587,118 @@ class ExerciseScreen extends StatelessWidget {
       builder: (context, candidateData, rejectedData) {
         final isHovering = candidateData.isNotEmpty;
 
-        Color bgColor = context.theme.colorScheme.outline.withValues(
-          alpha: 0.10,
-        );
-        Color borderColor = context.theme.colorScheme.outline;
+        final Widget slotContent;
 
-        if (isAnswered) {
-          bgColor = isCorrect
+        if (currentWord == null) {
+          slotContent = CustomPaint(
+            key: ValueKey("empty_$index"),
+            painter: _DashedBorderPainter(
+              color: isHovering
+                  ? context.theme.colorScheme.primary
+                  : context.theme.colorScheme.outline.withValues(alpha: 0.4),
+              borderRadius: 12.r,
+              strokeWidth: 2.w,
+            ),
+            child: Container(
+              padding: EdgeInsets.symmetric(horizontal: 20.r, vertical: 12.r),
+              color: isHovering
+                  ? context.theme.colorScheme.primary.withValues(alpha: 0.1)
+                  : Colors.transparent,
+              child: Text(
+                "       ",
+                style: TextStyle(
+                  fontSize: 16.sp,
+                  fontWeight: FontWeight.bold,
+                  color: Colors.transparent,
+                ),
+              ),
+            ),
+          );
+        } else if (isAnswered) {
+          final Color textCol = isCorrect
               ? context.theme.colorScheme.primary.withGreen(180)
               : context.theme.colorScheme.error.withRed(225);
-          borderColor = isCorrect
-              ? context.theme.colorScheme.secondary
+          final Color bgCol = isCorrect
+              ? context.theme.colorScheme.primary.withValues(alpha: 0.40)
+              : context.theme.colorScheme.error.withValues(alpha: 0.20);
+          final Color borderCol = isCorrect
+              ? context.theme.colorScheme.primary.withGreen(180)
               : context.theme.colorScheme.error.withRed(225);
-        } else if (isHovering) {
-          bgColor = context.theme.colorScheme.primary.withValues(alpha: 0.20);
-          borderColor = context.theme.colorScheme.secondaryContainer;
-        } else if (currentWord != null) {
-          bgColor = context.theme.colorScheme.onPrimaryContainer;
-          borderColor = context.theme.colorScheme.onPrimaryContainer;
-        }
+          // final IconData icon = isCorrect
+          //     ? Icons.check_circle_rounded
+          //     : Icons.cancel_rounded;
 
-        Widget targetChild = GestureDetector(
-          onTap: () {
-            if (!isAnswered && currentWord != null) {
-              provider.removeWordFromSlot(index);
-            }
-          },
-          child: Container(
-            // width: 94.w,
+          slotContent = Container(
+            key: ValueKey("answered_${currentWord}_$index"),
             padding: EdgeInsets.symmetric(horizontal: 16.r, vertical: 12.r),
             decoration: BoxDecoration(
-              color: bgColor,
-              border: Border.all(color: borderColor, width: 2),
+              color: bgCol,
+              border: Border.all(color: borderCol, width: 2.w),
               borderRadius: BorderRadius.circular(12.r),
+              boxShadow: [
+                BoxShadow(
+                  color: borderCol.withValues(alpha: 0.15),
+                  blurRadius: 4.r,
+                  offset: const Offset(0, 2),
+                ),
+              ],
+            ),
+            child: Row(
+              mainAxisSize: MainAxisSize.min,
+              children: [
+                // Icon(icon, color: textCol, size: 18.r),
+                // SizedBox(width: 6.w),
+                Text(
+                  currentWord,
+                  maxLines: 1,
+                  overflow: TextOverflow.ellipsis,
+                  style: TextStyle(
+                    fontSize: 16.sp,
+                    fontWeight: FontWeight.bold,
+                    color: textCol,
+                  ),
+                ),
+              ],
+            ),
+          );
+        } else {
+          final Color borderCol = isHovering
+              ? context.theme.colorScheme.primary
+              : context.theme.colorScheme.outline.withValues(alpha: 0.2);
+
+          final Color bgCol = isHovering
+              ? context.theme.colorScheme.primary.withValues(alpha: 0.1)
+              : context.theme.colorScheme.surface;
+
+          Widget targetChild = Container(
+            padding: EdgeInsets.symmetric(horizontal: 16.r, vertical: 12.r),
+            decoration: BoxDecoration(
+              color: bgCol,
+              borderRadius: BorderRadius.circular(12.r),
+              border: Border.all(color: borderCol, width: 1.5),
+              boxShadow: [
+                BoxShadow(
+                  color: context.theme.colorScheme.outline.withValues(
+                    alpha: 0.15,
+                  ),
+                  offset: const Offset(0, 4),
+                  blurRadius: 0,
+                ),
+              ],
             ),
             child: Text(
-              currentWord ?? "       ",
+              currentWord,
               maxLines: 1,
               overflow: TextOverflow.ellipsis,
               textAlign: TextAlign.center,
               style: TextStyle(
                 fontSize: 16.sp,
                 fontWeight: FontWeight.bold,
-                color: currentWord == null
-                    ? context.theme.colorScheme.outline
-                    : context.theme.colorScheme.surface,
+                color: context.theme.colorScheme.onSurface,
               ),
             ),
-          ),
-        );
+          );
 
-        if (!isAnswered && currentWord != null) {
           final sourceWordIndex = provider.getWordIndexAtSlot(index);
           if (sourceWordIndex != null) {
             targetChild = Draggable<_DragWordData>(
@@ -557,6 +707,7 @@ class ExerciseScreen extends StatelessWidget {
                 word: currentWord,
                 sourceSlot: index,
               ),
+              maxSimultaneousDrags: isAnswered ? 0 : 1,
               feedback: Material(
                 color: Colors.transparent,
                 child: Container(
@@ -565,13 +716,15 @@ class ExerciseScreen extends StatelessWidget {
                     vertical: 12.r,
                   ),
                   decoration: BoxDecoration(
-                    color: context.theme.colorScheme.onPrimaryContainer,
+                    color: context.theme.colorScheme.primaryContainer,
                     borderRadius: BorderRadius.circular(12.r),
                     boxShadow: [
                       BoxShadow(
-                        color: context.theme.colorScheme.shadow,
+                        color: context.theme.colorScheme.shadow.withValues(
+                          alpha: 0.2,
+                        ),
                         blurRadius: 8.r,
-                        offset: Offset(0, 4),
+                        offset: const Offset(0, 4),
                       ),
                     ],
                   ),
@@ -579,36 +732,64 @@ class ExerciseScreen extends StatelessWidget {
                     currentWord,
                     maxLines: 1,
                     overflow: TextOverflow.ellipsis,
-                    style: context.text.headlineSmall?.copyWith(
-                      color: context.theme.colorScheme.surface,
+                    style: TextStyle(
                       fontSize: 16.sp,
+                      fontWeight: FontWeight.bold,
+                      color: context.theme.colorScheme.onPrimaryContainer,
                     ),
                   ),
                 ),
               ),
-              childWhenDragging: Container(
-                width: 90.w,
-                padding: EdgeInsets.symmetric(horizontal: 16.r, vertical: 12.r),
-                decoration: BoxDecoration(
-                  borderRadius: BorderRadius.circular(12.r),
-                  border: Border.all(color: context.theme.colorScheme.outline),
+              childWhenDragging: CustomPaint(
+                painter: _DashedBorderPainter(
+                  color: context.theme.colorScheme.outline.withValues(
+                    alpha: 0.3,
+                  ),
+                  borderRadius: 12.r,
                 ),
-                child: Text(
-                  "       ",
-                  textAlign: TextAlign.center,
-                  style: TextStyle(
-                    fontSize: 16.sp,
-                    fontWeight: FontWeight.bold,
-                    color: context.theme.colorScheme.outline,
+                child: Container(
+                  padding: EdgeInsets.symmetric(
+                    horizontal: 16.r,
+                    vertical: 12.r,
+                  ),
+                  child: Text(
+                    "       ",
+                    style: TextStyle(
+                      fontSize: 16.sp,
+                      fontWeight: FontWeight.bold,
+                      color: Colors.transparent,
+                    ),
                   ),
                 ),
               ),
               child: targetChild,
             );
           }
+
+          slotContent = GestureDetector(
+            key: ValueKey("filled_${currentWord}_$index"),
+            onTap: () {
+              if (!isAnswered) {
+                provider.removeWordFromSlot(index);
+                SoundEffectService.playRemove();
+              }
+            },
+            child: targetChild,
+          );
         }
 
-        return targetChild;
+        return AnimatedSwitcher(
+          duration: const Duration(milliseconds: 200),
+          switchInCurve: Curves.easeOut,
+          switchOutCurve: Curves.easeIn,
+          transitionBuilder: (Widget child, Animation<double> animation) {
+            return ScaleTransition(
+              scale: animation,
+              child: FadeTransition(opacity: animation, child: child),
+            );
+          },
+          child: slotContent,
+        );
       },
       onWillAcceptWithDetails: (details) =>
           !isAnswered && details.data.sourceSlot != index,
@@ -618,6 +799,7 @@ class ExerciseScreen extends StatelessWidget {
           details.data.sourceSlot,
           details.data.wordIndex,
         );
+        SoundEffectService.playPlace();
       },
     );
   }
@@ -630,24 +812,11 @@ class ExerciseScreen extends StatelessWidget {
     final isAnswered = provider.isAnswered;
     final placedWords = provider.placedWords;
 
-    log("🔍 Total options: ${currentExercise.options.length}");
-    log("🔍 Placed words: ${placedWords.length}");
-    log(
-      "🔍 Available words: ${currentExercise.options.length - placedWords.length}",
-    );
-
     final availableWidgets = <Widget>[];
 
     for (int index = 0; index < currentExercise.options.length; index++) {
-      if (placedWords.containsKey(index)) {
-        log("⏭️ Skipping index $index (already placed)");
-        continue;
-      }
-
       final word = currentExercise.options[index];
-      log("✅ Adding chip for index $index: '$word'");
-
-      // final shouldAnimate = provider.shouldAnimateIndex(index);
+      final isPlaced = placedWords.containsKey(index);
       final shouldAnimate = provider.shouldAnimateWord(word);
 
       Widget chip = _buildDraggableChipWithIndex(
@@ -655,16 +824,15 @@ class ExerciseScreen extends StatelessWidget {
         word,
         index,
         isAnswered,
+        isPlaced,
       );
 
-      if (shouldAnimate) {
+      if (shouldAnimate && !isPlaced) {
         chip = chip.fadeInSlideUpDelayed(80 + index * 40);
       }
 
       availableWidgets.add(chip);
     }
-
-    log("📦 Total chips to show: ${availableWidgets.length}");
 
     return Wrap(
       spacing: 12,
@@ -679,34 +847,109 @@ class ExerciseScreen extends StatelessWidget {
     String word,
     int wordIndex,
     bool isAnswered,
+    bool isPlaced,
   ) {
-    return Draggable<_DragWordData>(
-      data: _DragWordData(wordIndex: wordIndex, word: word, sourceSlot: null),
-      feedback: Material(
-        color: ColorConstant.colorTransparent,
-        child: AppContainer(
-          widget: Container(
-            padding: EdgeInsets.symmetric(horizontal: 20.r, vertical: 12.r),
-            decoration: BoxDecoration(
-              color: context.theme.colorScheme.onPrimaryContainer,
-              borderRadius: BorderRadius.circular(12.r),
-              boxShadow: [
-                BoxShadow(
-                  color: ColorConstant.colorBlack26,
-                  blurRadius: 8,
-                  offset: Offset(0, 4),
-                ),
-              ],
+    final Widget chipContent = isPlaced
+        ? CustomPaint(
+            key: ValueKey("placed_${word}_$wordIndex"),
+            painter: _DashedBorderPainter(
+              color: context.theme.colorScheme.outline.withValues(alpha: 0.25),
+              borderRadius: 12.r,
             ),
-            child: Text(word, style: context.text.labelMedium),
-          ),
-        ),
-      ),
-      childWhenDragging: Opacity(
-        opacity: 0.3,
-        child: _buildChipContainer(word, isAnswered, context),
-      ),
-      child: _buildChipContainer(word, isAnswered, context),
+            child: Container(
+              padding: EdgeInsets.symmetric(horizontal: 20.r, vertical: 12.r),
+              child: Text(
+                word,
+                style: TextStyle(
+                  fontSize: 18.sp,
+                  fontWeight: FontWeight.w600,
+                  color: Colors.transparent,
+                ),
+              ),
+            ),
+          )
+        : GestureDetector(
+            key: ValueKey("active_${word}_$wordIndex"),
+            onTap: () {
+              if (!isAnswered) {
+                final provider = context.read<LessonProvider>();
+                _onSentenceWordTap(context, wordIndex, provider);
+              }
+            },
+            child: Draggable<_DragWordData>(
+              data: _DragWordData(
+                wordIndex: wordIndex,
+                word: word,
+                sourceSlot: null,
+              ),
+              maxSimultaneousDrags: isAnswered ? 0 : 1,
+              feedback: Material(
+                color: Colors.transparent,
+                child: Container(
+                  padding: EdgeInsets.symmetric(
+                    horizontal: 20.r,
+                    vertical: 12.r,
+                  ),
+                  decoration: BoxDecoration(
+                    color: context.theme.colorScheme.primaryContainer,
+                    borderRadius: BorderRadius.circular(12.r),
+                    boxShadow: [
+                      BoxShadow(
+                        color: context.theme.colorScheme.shadow.withValues(
+                          alpha: 0.2,
+                        ),
+                        blurRadius: 8.r,
+                        offset: const Offset(0, 4),
+                      ),
+                    ],
+                  ),
+                  child: Text(
+                    word,
+                    style: TextStyle(
+                      fontSize: 18.sp,
+                      fontWeight: FontWeight.w600,
+                      color: context.theme.colorScheme.onPrimaryContainer,
+                    ),
+                  ),
+                ),
+              ),
+              childWhenDragging: CustomPaint(
+                painter: _DashedBorderPainter(
+                  color: context.theme.colorScheme.outline.withValues(
+                    alpha: 0.3,
+                  ),
+                  borderRadius: 12.r,
+                ),
+                child: Container(
+                  padding: EdgeInsets.symmetric(
+                    horizontal: 20.r,
+                    vertical: 12.r,
+                  ),
+                  child: Text(
+                    word,
+                    style: TextStyle(
+                      fontSize: 18.sp,
+                      fontWeight: FontWeight.w600,
+                      color: Colors.transparent,
+                    ),
+                  ),
+                ),
+              ),
+              child: _buildChipContainer(word, isAnswered, context),
+            ),
+          );
+
+    return AnimatedSwitcher(
+      duration: const Duration(milliseconds: 200),
+      switchInCurve: Curves.easeOut,
+      switchOutCurve: Curves.easeIn,
+      transitionBuilder: (Widget child, Animation<double> animation) {
+        return ScaleTransition(
+          scale: animation,
+          child: FadeTransition(opacity: animation, child: child),
+        );
+      },
+      child: chipContent,
     );
   }
 
@@ -719,13 +962,24 @@ class ExerciseScreen extends StatelessWidget {
       padding: EdgeInsets.symmetric(horizontal: 20.r, vertical: 12.r),
       decoration: BoxDecoration(
         color: isAnswered
-            ? context.theme.colorScheme.outline.withValues(alpha: 30)
-            : context.theme.colorScheme.surface.withValues(alpha: 30),
+            ? context.theme.colorScheme.outline.withValues(alpha: 0.12)
+            : context.theme.colorScheme.surface,
         borderRadius: BorderRadius.circular(12.r),
         border: Border.all(
-          color: context.theme.colorScheme.outline,
+          color: context.theme.colorScheme.outline.withValues(alpha: 0.2),
           width: 1.5,
         ),
+        boxShadow: isAnswered
+            ? null
+            : [
+                BoxShadow(
+                  color: context.theme.colorScheme.outline.withValues(
+                    alpha: 0.15,
+                  ),
+                  offset: const Offset(0, 4),
+                  blurRadius: 0,
+                ),
+              ],
       ),
       child: Text(
         word,
@@ -734,7 +988,7 @@ class ExerciseScreen extends StatelessWidget {
           fontWeight: FontWeight.w600,
           color: isAnswered
               ? context.theme.colorScheme.primary
-              : context.theme.colorScheme.outline,
+              : context.theme.colorScheme.onSurface,
         ),
       ),
     );
@@ -866,7 +1120,12 @@ class ExerciseScreen extends StatelessWidget {
           onTap: () {
             if (!isAnswered) {
               final vocabpro = context.read<VocabProvider>();
-              provider.submitAnswer(option, vocabpro);
+              final onboard = context.read<OnboardProvider>();
+              provider.submitAnswer(
+                option,
+                vocabpro,
+                onboard.learningLanguageCode,
+              );
             }
           },
           child: Container(
@@ -899,4 +1158,59 @@ class ExerciseScreen extends StatelessWidget {
       }).toList(),
     );
   }
+}
+
+class _DashedBorderPainter extends CustomPainter {
+  final Color color;
+  final double strokeWidth;
+  final double borderRadius;
+
+  static const double gap = 4.0;
+  static const double dashLength = 6.0;
+
+  _DashedBorderPainter({
+    required this.color,
+    this.strokeWidth = 1.5,
+    this.borderRadius = 16.0,
+  });
+
+  @override
+  void paint(Canvas canvas, Size size) {
+    final Paint paint = Paint()
+      ..color = color
+      ..strokeWidth = strokeWidth
+      ..style = PaintingStyle.stroke;
+
+    final RRect rrect = RRect.fromRectAndRadius(
+      Rect.fromLTWH(
+        strokeWidth / 2,
+        strokeWidth / 2,
+        size.width - strokeWidth,
+        size.height - strokeWidth,
+      ),
+      Radius.circular(borderRadius),
+    );
+
+    final Path path = Path()..addRRect(rrect);
+
+    final Path dashPath = Path();
+    double distance = 0.0;
+    for (final PathMetric metric in path.computeMetrics()) {
+      while (distance < metric.length) {
+        dashPath.addPath(
+          metric.extractPath(
+            distance,
+            (distance + dashLength).clamp(0.0, metric.length),
+          ),
+          Offset.zero,
+        );
+        distance += dashLength + gap;
+      }
+      distance = 0.0; // Reset distance for next metric (sub-paths)
+    }
+    canvas.drawPath(dashPath, paint);
+  }
+
+  @override
+  bool shouldRepaint(covariant CustomPainter oldDelegate) => false;
 }

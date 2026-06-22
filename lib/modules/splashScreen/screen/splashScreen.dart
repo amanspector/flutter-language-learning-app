@@ -1,10 +1,8 @@
 import 'dart:developer';
-
 import 'package:chatbot_app/core/extensions/localization_extension.dart';
 import 'package:chatbot_app/core/extensions/theme_extension.dart';
 import 'package:chatbot_app/core/extensions/app_animation_extension.dart';
 import 'package:chatbot_app/core/widgets/app_screen.dart';
-import 'package:chatbot_app/generated/l10n.dart';
 import '../service/sessionManage.dart';
 import 'package:chatbot_app/modules/homepage/screen/homescreen.dart';
 import '../../onboarding/screen/getStarted.dart';
@@ -77,7 +75,7 @@ class _SplashscreenState extends State<Splashscreen>
           children: [
             _LogoCard(imagePath: 'assets/icon/appicon_1.png').blurIn,
             Text(
-              S.of(context).appName,
+              context.l10n.appName,
               style: context.text.displayLarge,
               textAlign: TextAlign.center,
             ).fadeInScale,

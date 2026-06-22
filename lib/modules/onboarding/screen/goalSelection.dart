@@ -3,7 +3,6 @@ import 'package:chatbot_app/core/extensions/localization_extension.dart';
 import 'package:chatbot_app/core/extensions/theme_extension.dart';
 import 'package:chatbot_app/core/widgets/app_button.dart';
 import 'package:chatbot_app/core/widgets/app_customContainer.dart';
-import 'package:chatbot_app/generated/l10n.dart';
 import 'package:chatbot_app/modules/onboarding/provider/onboard_provider.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
@@ -17,18 +16,18 @@ class Goalselection extends StatelessWidget {
     final learningGoals = [
       {
         'code': 'travel',
-        'label': S.of(context).travel,
-        'subtitle': S.of(context).navigateNewCitiesAndConnectWithLocals,
+        'label': context.l10n.travel,
+        'subtitle': context.l10n.navigateNewCitiesAndConnectWithLocals,
       },
       {
         'code': 'career',
-        'label': S.of(context).career,
-        'subtitle': S.of(context).boostYourResumeAndUnlockGlobalOpportunities,
+        'label': context.l10n.career,
+        'subtitle': context.l10n.boostYourResumeAndUnlockGlobalOpportunities,
       },
       {
         'code': 'school',
-        'label': S.of(context).school,
-        'subtitle': S.of(context).excelInYourStudiesAndMasterExams,
+        'label': context.l10n.school,
+        'subtitle': context.l10n.excelInYourStudiesAndMasterExams,
       },
     ];
 

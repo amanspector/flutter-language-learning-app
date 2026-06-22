@@ -195,5 +195,9 @@
   "lesson": "Lección",
   "lastLesson": "Última lección",
   "noLessonsAttempted": "Aún no se han intentado lecciones",
-  "completeLessonToSeeHistory": "Completa una lección para ver tu historial aquí"
+  "completeLessonToSeeHistory": "Completa una lección para ver tu historial aquí",
+  "yourAnswer": "Tu respuesta",
+  "correctAnswerText": "Respuesta correcta",
+  "lessonReview": "Revisión de la lección",
+  "tapToRevealMeaning": "Toca para revelar el significado"
 }

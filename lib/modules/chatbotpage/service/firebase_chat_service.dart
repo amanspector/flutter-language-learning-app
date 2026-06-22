@@ -141,16 +141,27 @@ class FirebaseChatService {
           .collection('messages')
           .get();
 
+      var batch = _firestore.batch();
+      var count = 0;
+
       for (var doc in messages.docs) {
-        await doc.reference.delete();
+        batch.delete(doc.reference);
+        count++;
+        if (count >= 500) {
+          await batch.commit();
+          batch = _firestore.batch();
+          count = 0;
+        }
       }
 
-      await _firestore
+      final chatRef = _firestore
           .collection('users')
           .doc(uid)
           .collection('chats')
-          .doc(chatId)
-          .delete();
+          .doc(chatId);
+      
+      batch.delete(chatRef);
+      await batch.commit();
     } catch (e) {
       throw Exception('Failed to delete chat: $e');
     }
@@ -164,8 +175,39 @@ class FirebaseChatService {
           .collection('chats')
           .get();
 
+      var batch = _firestore.batch();
+      var count = 0;
+
       for (var chat in chats.docs) {
-        await deleteChat(uid, chat.id);
+        final messages = await _firestore
+            .collection('users')
+            .doc(uid)
+            .collection('chats')
+            .doc(chat.id)
+            .collection('messages')
+            .get();
+
+        for (var doc in messages.docs) {
+          batch.delete(doc.reference);
+          count++;
+          if (count >= 500) {
+            await batch.commit();
+            batch = _firestore.batch();
+            count = 0;
+          }
+        }
+
+        batch.delete(chat.reference);
+        count++;
+        if (count >= 500) {
+          await batch.commit();
+          batch = _firestore.batch();
+          count = 0;
+        }
+      }
+
+      if (count > 0) {
+        await batch.commit();
       }
     } catch (e) {
       throw Exception('Failed to delete all chats: $e');

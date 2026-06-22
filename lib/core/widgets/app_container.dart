@@ -8,6 +8,8 @@ class AppContainer extends StatelessWidget {
   Widget widget;
   Color? backgroundColor;
   double? borderRadius;
+  EdgeInsetsGeometry? margin;
+  EdgeInsetsGeometry? padding;
   Color? borderColor;
   AppContainer({
     super.key,
@@ -17,12 +19,16 @@ class AppContainer extends StatelessWidget {
     this.backgroundColor,
     this.borderColor,
     this.borderRadius,
+    this.margin,
+    this.padding,
   });
 
   @override
   Widget build(BuildContext context) {
     return Container(
       height: height,
+      margin: margin,
+      padding: padding,
       decoration: BoxDecoration(
         border: Border.all(
           color:

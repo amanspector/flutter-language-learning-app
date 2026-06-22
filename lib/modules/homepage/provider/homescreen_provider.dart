@@ -34,8 +34,11 @@ class HomescreenProvider extends ChangeNotifier {
       totalXP = data?['total_xp'] ?? 0;
       langauge = data?['language'] ?? "Not Found";
 
-      await loadLessonHistory();
-      await loadLastLesson();
+      final activeLanguageCode = data?['active_language'] as String?;
+      if (activeLanguageCode != null) {
+        await loadLessonHistory(activeLanguageCode);
+        await loadLastLesson(activeLanguageCode);
+      }
 
       log("✅ Current Streak : $currentStreak days");
       log("✅ Stats Loaded: XP $totalXP");
@@ -59,17 +62,17 @@ class HomescreenProvider extends ChangeNotifier {
       onboardprovider: onboardprovider,
       vocabprovider: vocabprovider,
     );
-    await loadLessonHistory();
-    await loadLastLesson();
+    await loadLessonHistory(onboardprovider.learningLanguageCode);
+    await loadLastLesson(onboardprovider.learningLanguageCode);
   }
 
   int lastLessonScore = 0;
   int lastLessonTotal = 0;
   DateTime? lastLessonDate;
 
-  Future<void> loadLastLesson() async {
+  Future<void> loadLastLesson(String languageCode) async {
     try {
-      final data = await HomescreenService().getLastLesson();
+      final data = await HomescreenService().getLastLesson(languageCode);
       if (data == null) return;
 
       lastLessonScore = data['score'] ?? 0;
@@ -85,9 +88,9 @@ class HomescreenProvider extends ChangeNotifier {
     }
   }
 
-  Future<void> loadLessonHistory() async {
+  Future<void> loadLessonHistory(String languageCode) async {
     try {
-      lessonHistory = await HomescreenService().getLessonHistory();
+      lessonHistory = await HomescreenService().getLessonHistory(languageCode);
       notifyListeners();
     } catch (e) {
       log("❌ Error loading lesson history: $e");
@@ -128,7 +131,6 @@ class HomescreenProvider extends ChangeNotifier {
       final ttslanguage = TTSService.getCode(uilangauage);
       if (vocabprovider.todaywords.isEmpty && !vocabprovider.isloadingAidata) {
         await vocabprovider.loadWords(
-          uilangauage: uilangauage,
           ttslangauage: ttslanguage,
           experienceLevel: onboardprovider.selectedExperienceLevel!,
           category: onboardprovider.selectedgoal!,
@@ -149,11 +151,6 @@ class HomescreenProvider extends ChangeNotifier {
   void bottomNavBarIndex(int index) {
     seletectedIndex = index;
     pageController.jumpToPage(index);
-    // pageController.animateToPage(
-    //   index,
-    //   duration: Duration(seconds: 1),
-    //   curve: Curves.easeInOut,
-    // );
     notifyListeners();
   }
 

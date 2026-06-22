@@ -1,5 +1,4 @@
 import 'package:chatbot_app/core/appconstants/text_constant.dart';
-import 'package:chatbot_app/core/widgets/app_loading_screen.dart';
 import 'package:chatbot_app/modules/auth/service/firebase_auth_service.dart';
 import 'package:chatbot_app/modules/homepage/provider/homescreen_provider.dart';
 import 'package:chatbot_app/modules/onboarding/provider/onboard_provider.dart';
@@ -21,6 +20,16 @@ class RegisterscreenProvider extends ChangeNotifier {
   final formkey = GlobalKey<FormState>();
   final FirebaseAuthService authobj = FirebaseAuthService();
   bool _isLoading = false;
+  bool get isLoading => _isLoading;
+
+  PageController? agePageController;
+
+  PageController getAgePageController(int initialAge) {
+    return agePageController ??= PageController(
+      initialPage: initialAge - 10,
+      viewportFraction: 0.22,
+    );
+  }
 
   void clearData() {
     _isLoading = false;
@@ -40,8 +49,6 @@ class RegisterscreenProvider extends ChangeNotifier {
     _isLoading = true;
     notifyListeners();
 
-    AppLoadingScreen();
-    // AppShowloading.show(context, CircularProgressIndicator());
 
     try {
       String? error = await authobj.registration(
@@ -53,7 +60,6 @@ class RegisterscreenProvider extends ChangeNotifier {
       );
       if (!context.mounted) return;
       if (error != null) {
-        Navigator.pop(context);
         setErrorMsg(error);
       } else {
         context.read<OnboardProvider>().reset();
@@ -101,5 +107,14 @@ class RegisterscreenProvider extends ChangeNotifier {
   void setErrorMsg(String? error) {
     msg = error;
     notifyListeners();
+  }
+
+  @override
+  void dispose() {
+    mailcontroller.dispose();
+    passwordcontroller.dispose();
+    confirmpasswordcontroller.dispose();
+    agePageController?.dispose();
+    super.dispose();
   }
 }

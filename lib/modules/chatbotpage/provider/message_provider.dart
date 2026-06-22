@@ -113,23 +113,20 @@ class MessageProvider extends ChangeNotifier {
       }
 
       if (!isStopped) {
+        // CHECK: If chat was deleted, don't save
+        if (deletingChatId != chatIdForThisMessage) {
+          await service.sendMessage(
+            uid: uid,
+            chatid: chatIdForThisMessage,
+            content: current,
+            isUser: false,
+          );
+        }
         streamingText = "";
         streamingMessageId = null;
         isTyping = false;
         isStreaming = false;
         notifyListeners();
-
-        // CHECK: If chat was deleted, don't save
-        if (deletingChatId == chatIdForThisMessage) {
-          return; // Exit, chat is being deleted
-        }
-        await service.sendMessage(
-          uid: uid,
-          chatid: chatIdForThisMessage,
-          content: current,
-          isUser: false,
-        );
-        streamingText = "";
       }
     } catch (e) {
       log("Error in sendMessage: $e");

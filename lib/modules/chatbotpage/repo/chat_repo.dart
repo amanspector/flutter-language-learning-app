@@ -8,6 +8,7 @@ class ChatRepo {
   CancelToken? _cancelToken;
   Future<String> sendMessage(String message) async {
     try {
+      _cancelToken = CancelToken();
       final res = await client.post(
         '/openai/v1/chat/completions',
         cancelToken: _cancelToken,
@@ -22,6 +23,11 @@ class ChatRepo {
       log("API SUCESS : ${res.data}");
 
       return res.data['choices'][0]['message']['content'];
+    } on DioException catch (e) {
+      if (CancelToken.isCancel(e)) {
+        throw ("CANCELLED");
+      }
+      log("Error : $e");
     } catch (e) {
       log("Error : $e");
     }

@@ -14,15 +14,17 @@ class OnboardProvider extends ChangeNotifier {
   String? selectedDailyGoalDuration;
   String? selectedExperienceLevel;
   String? gender;
+  List<Map<String, dynamic>> myLanguages = [];
+  String? activeLanguageCode;
   int? age;
   String? uid;
   int currentPage = 0;
   bool isCompleted = false;
 
   String get learningLanguageCode => Textconstant.learningLanguages.firstWhere(
-        (element) => element['label'] == selectedlanguage,
-        orElse: () => {'code': 'en'},
-      )['code']!;
+    (element) => element['label'] == selectedlanguage,
+    orElse: () => ({'code': 'en'}),
+  )['code']!;
 
   TextDirection get learningTextDirection =>
       isRtl(learningLanguageCode) ? TextDirection.rtl : TextDirection.ltr;
@@ -91,6 +93,48 @@ class OnboardProvider extends ChangeNotifier {
     notifyListeners();
   }
 
+  Future<void> loadLanguages() async {
+    myLanguages = await FirebaseOnboardingService.getLanguages();
+    activeLanguageCode = await FirebaseOnboardingService.getActiveLanguage();
+    notifyListeners();
+  }
+
+  Future<void> switchLanguage(String languageCode) async {
+    await FirebaseOnboardingService.switchActiveLanguage(languageCode);
+    activeLanguageCode = languageCode;
+
+    // update local state from the switched language's config
+    final lang = myLanguages.firstWhere(
+      (l) => l['code'] == languageCode,
+      orElse: () => {},
+    );
+    if (lang.isNotEmpty) {
+      selectedlanguage = lang['languageLabel'];
+      selectedExperienceLevel = lang['level'];
+      selectedgoal = lang['category'];
+      selectedDailyGoal = lang['dailygoal'];
+    }
+
+    notifyListeners();
+  }
+
+  Future<void> addNewLanguage({
+    required String languageCode,
+    required String languageLabel,
+    required String level,
+    required String category,
+    required String dailygoal,
+  }) async {
+    await FirebaseOnboardingService.addLanguage(
+      languageCode: languageCode,
+      languageLabel: languageLabel,
+      level: level,
+      category: category,
+      dailygoal: dailygoal,
+    );
+    await loadLanguages(); // refresh list
+  }
+
   Future<void> updateNativeLanguage(String language) async {
     selectedNativeLanguage = language;
     await FirebaseOnboardingService.setAppLanguage(language);
@@ -99,7 +143,15 @@ class OnboardProvider extends ChangeNotifier {
 
   Future<void> updateDailygoal(String dailygoal) async {
     selectedDailyGoal = dailygoal;
-    await FirebaseOnboardingService.setDailyGoal(dailygoal);
+    if (activeLanguageCode != null) {
+      await FirebaseOnboardingService.setDailyGoal(dailygoal, languageCode: activeLanguageCode!);
+      final index = myLanguages.indexWhere((l) => l['code'] == activeLanguageCode);
+      if (index != -1) {
+        myLanguages[index]['dailygoal'] = dailygoal;
+      }
+    } else {
+      await FirebaseOnboardingService.setDailyGoal(dailygoal);
+    }
     notifyListeners();
   }
 
@@ -113,8 +165,11 @@ class OnboardProvider extends ChangeNotifier {
     notifyListeners();
   }
 
-  void validate(int pageIndex) {
-    switch (pageIndex) {
+  void validate(int pageIndex, {bool isAddingLanguage = false}) {
+    // When adding a language, the AppLanguageSelection page is skipped,
+    // so all page indices are shifted down by 1.
+    final adjustedIndex = isAddingLanguage ? pageIndex + 1 : pageIndex;
+    switch (adjustedIndex) {
       case 0:
         if (selectedNativeLanguage == null) {
           error_message = "Select Native language to continue";
@@ -156,6 +211,16 @@ class OnboardProvider extends ChangeNotifier {
 
   static bool isRtl(String langCode) =>
       ['ar', 'he', 'ur', 'fa'].contains(langCode);
+
+  void prepareForAddingLanguage() {
+    selectedlanguage = null;
+    selectedgoal = null;
+    selectedExperienceLevel = null;
+    selectedDailyGoal = null;
+    currentPage = 0;
+    error_message = null;
+    notifyListeners();
+  }
 
   void reset() {
     error_message = null;

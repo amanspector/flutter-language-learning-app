@@ -126,6 +126,7 @@ class MessageLookup extends MessageLookupByLibrary {
     "continueText": MessageLookupByLibrary.simpleMessage("जारी रखें"),
     "copied": MessageLookupByLibrary.simpleMessage("कॉपी किया गया"),
     "correct": MessageLookupByLibrary.simpleMessage("सही"),
+    "correctAnswerText": MessageLookupByLibrary.simpleMessage("सही जवाब"),
     "correctOrder": m2,
     "curatedContent": MessageLookupByLibrary.simpleMessage("क्यूरेटेड कंटेंट"),
     "currentPoints": MessageLookupByLibrary.simpleMessage("वर्तमान अंक"),
@@ -231,6 +232,7 @@ class MessageLookup extends MessageLookupByLibrary {
     ),
     "lesson": MessageLookupByLibrary.simpleMessage("पाठ"),
     "lessonComplete": MessageLookupByLibrary.simpleMessage("पाठ पूरा हुआ!"),
+    "lessonReview": MessageLookupByLibrary.simpleMessage("पाठ की समीक्षा"),
     "lessonsBuiltByLinguistsForRealWorldApplication":
         MessageLookupByLibrary.simpleMessage(
           "वास्तविक दुनिया में उपयोग के लिए भाषाविदों द्वारा बनाए गए पाठ।",
@@ -381,6 +383,9 @@ class MessageLookup extends MessageLookupByLibrary {
     "syncingProgress": MessageLookupByLibrary.simpleMessage(
       "प्रगति सिंक (Sync) हो रही है...",
     ),
+    "tapToRevealMeaning": MessageLookupByLibrary.simpleMessage(
+      "अर्थ देखने के लिए टैप करें",
+    ),
     "tenMinPerDay": MessageLookupByLibrary.simpleMessage(
       "10 मिनट/दिन | निरंतरता बनाए रखें",
     ),
@@ -429,6 +434,7 @@ class MessageLookup extends MessageLookupByLibrary {
     "xpEarned": MessageLookupByLibrary.simpleMessage("अर्जित XP"),
     "xpPointsValue": m13,
     "yearsOld": MessageLookupByLibrary.simpleMessage("वर्ष"),
+    "yourAnswer": MessageLookupByLibrary.simpleMessage("आपका जवाब"),
     "yourExperienceLevel": MessageLookupByLibrary.simpleMessage(
       "आपका अनुभव स्तर?",
     ),

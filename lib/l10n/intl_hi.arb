@@ -195,5 +195,9 @@
   "lesson": "पाठ",
   "lastLesson": "आखरी पाठ",
   "noLessonsAttempted": "अभी तक कोई पाठ का प्रयास नहीं किया गया है",
-  "completeLessonToSeeHistory": "अपना इतिहास यहाँ देखने के लिए एक पाठ पूरा करें"
+  "completeLessonToSeeHistory": "अपना इतिहास यहाँ देखने के लिए एक पाठ पूरा करें",
+  "yourAnswer": "आपका जवाब",
+  "correctAnswerText": "सही जवाब",
+  "lessonReview": "पाठ की समीक्षा",
+  "tapToRevealMeaning": "अर्थ देखने के लिए टैप करें"
 }

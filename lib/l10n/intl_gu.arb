@@ -195,5 +195,9 @@
   "lesson": "પાઠ",
   "lastLesson": "છેલ્લો પાઠ",
   "noLessonsAttempted": "હજી સુધી એકપણ પાઠનો પ્રયાસ કર્યો નથી",
-  "completeLessonToSeeHistory": "તમારો ઇતિહાસ અહીં જોવા માટે એક પાઠ પૂર્ણ કરો"
+  "completeLessonToSeeHistory": "તમારો ઇતિહાસ અહીં જોવા માટે એક પાઠ પૂર્ણ કરો",
+  "yourAnswer": "તમારો જવાબ",
+  "correctAnswerText": "સાચો જવાબ",
+  "lessonReview": "પાઠની સમીક્ષા",
+  "tapToRevealMeaning": "અર્થ જોવા માટે ટેપ કરો"
 }

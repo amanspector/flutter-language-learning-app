@@ -1,6 +1,6 @@
 import 'dart:math';
 import 'dart:developer' as dev;
-import 'package:chatbot_app/generated/l10n.dart';
+import 'package:chatbot_app/core/extensions/localization_extension.dart';
 import 'package:chatbot_app/modules/exercisepage/model/exercise_model.dart';
 import 'package:chatbot_app/modules/vocabularypage/provider/vocab_provider.dart';
 import 'package:provider/provider.dart';
@@ -9,6 +9,7 @@ import 'package:chatbot_app/modules/vocabularypage/service/firebase_vocab_servic
 import 'package:flutter/material.dart';
 import 'package:vibration/vibration.dart';
 import '../../vocabularypage/model/word_model.dart';
+import 'package:chatbot_app/core/services/sound_effect_service.dart';
 
 class LessonProvider extends ChangeNotifier {
   List<WordModel> lessonWords = [];
@@ -39,6 +40,7 @@ class LessonProvider extends ChangeNotifier {
   int get xpEarned => score * 10;
   List<String?> arrangedSentence = [];
   bool hasAnimatedResult = false;
+  Map<WordModel, bool> pendingSrsUpdates = {};
 
   List<String> animatedWords = [];
   int? _lastAnimatedExerciseIndex;
@@ -135,9 +137,12 @@ class LessonProvider extends ChangeNotifier {
   }
 
   void checkSentenceArrangement(BuildContext context) {
-    final userSentence = arrangedSentence.join(' ');
+    final userSentence = arrangedSentence.map((w) => w?.trim() ?? '').join(' ').trim();
+    final correctAnswer = currentExercise!.correctAnswer.trim();
     isAnswered = true;
-    isCorrect = userSentence == currentExercise!.correctAnswer;
+    isCorrect = userSentence == correctAnswer;
+    dev.log("🟦 userSentence   : '$userSentence'");
+    dev.log("🟩 correctAnswer  : '$correctAnswer'");
     String text = currentExercise!.questionWithoutBlank;
     String lang = context.read<VocabProvider>().currentlanguage!;
     String speaker = context.read<VocabProvider>().currentspeaker;
@@ -150,20 +155,21 @@ class LessonProvider extends ChangeNotifier {
       dev.log("Text : $text");
       dev.log("Language : $lang");
       score++;
+      SoundEffectService.playCorrect();
     } else {
+      SoundEffectService.playWrong();
       Vibration.vibrate(pattern: [0, 100, 50, 100]);
     }
 
-    context.read<VocabProvider>().speak(
-      text: text,
-      language: lang,
-      speaker: speaker,
-    );
+    final vocab = context.read<VocabProvider>();
+    vocab.setSpeaking(true);
+    Future.delayed(const Duration(milliseconds: 1200), () {
+      vocab.speak(text: text, language: lang, speaker: speaker);
+    });
 
     dev.log(testedWord.toString());
     if (testedWord != null) {
-      dev.log("SRS card updated............");
-      _updateSrsCard(testedWord, isCorrect);
+      pendingSrsUpdates[testedWord] = isCorrect;
     }
     dev.log("✅ isCorrect: $isCorrect");
     dev.log("📊 score: $score");
@@ -214,7 +220,7 @@ class LessonProvider extends ChangeNotifier {
     }
   }
 
-  void _updateSrsCard(WordModel word, bool isEasy) {
+  void _updateSrsCard(WordModel word, bool isEasy, String languageCode) {
     if (isEasy) {
       word.srsInterval = switch (word.srsRepetitions) {
         0 => 1,
@@ -227,7 +233,7 @@ class LessonProvider extends ChangeNotifier {
       word.srsRepetitions = 0;
     }
     word.srsNextReview = DateTime.now().add(Duration(days: word.srsInterval));
-    FirebaseVocabService().updateSrsCard(word);
+    FirebaseVocabService().updateSrsCard(word, languageCode);
   }
 
   void initWordsFromVocab(List<WordModel> words) {
@@ -343,7 +349,7 @@ class LessonProvider extends ChangeNotifier {
     }
 
     notifyListeners();
-    dev.log("✅ ${totalWords} words → ${exercises.length} exercises");
+    dev.log("✅ $totalWords words → ${exercises.length} exercises");
   }
 
   ExerciseModel _createSentenceArrangement(
@@ -359,19 +365,28 @@ class LessonProvider extends ChangeNotifier {
       final currentTranslation =
           currentExample?.translationNative ?? word.exampleTranslation;
 
-      final sentenceParts = (currentExample?.sentenceParts.isNotEmpty == true)
+      // Sanitize parts: trim each token and remove any empty strings from the AI output
+      final rawParts = (currentExample?.sentenceParts.isNotEmpty == true)
           ? currentExample!.sentenceParts
           : currentSentence.split(' ');
+      final sentenceParts = rawParts.map((p) => p.trim()).where((p) => p.isNotEmpty).toList();
       final shuffledParts = List<String>.from(sentenceParts)..shuffle(Random());
+
+      // Rebuild the canonical correct answer from the cleaned parts (not the raw sentence)
+      // so join(' ') on the user's arranged slots will always match this exactly
+      final canonicalAnswer = sentenceParts.join(' ');
+
+      dev.log("🔧 sentenceParts  : $sentenceParts");
+      dev.log("🔧 canonicalAnswer: '$canonicalAnswer'");
 
       return ExerciseModel(
         id: 'ex_${index}_arrange',
         type: ExerciseType.sentenceArrangement,
-        question: S.of(con).arrangeWordsToForm(currentTranslation), // ← updated
-        questionWithoutBlank: currentSentence, // ← updated
+        question: con.l10n.arrangeWordsToForm(currentTranslation),
+        questionWithoutBlank: currentSentence,
         options: shuffledParts,
-        correctAnswer: currentSentence, // ← updated
-        explanation: "Correct order: $currentSentence", // ← updated
+        correctAnswer: canonicalAnswer,
+        explanation: con.l10n.correctOrder(currentSentence),
       );
     } catch (e) {
       throw Error();
@@ -403,7 +418,7 @@ class LessonProvider extends ChangeNotifier {
       //   questionWithoutBlank = sentence;
       // }
       else {
-        question = S.of(con).fillInTheBlank(word.translation);
+        question = con.l10n.fillInTheBlank(word.translation);
         questionWithoutBlank = word.word;
       }
 
@@ -454,7 +469,7 @@ class LessonProvider extends ChangeNotifier {
     }
   }
 
-  void checkAnswer(VocabProvider vocabprovider) {
+  void checkAnswer(VocabProvider vocabprovider, String languageCode) {
     if (selectedAnswer == null || isAnswered) return;
 
     isAnswered = true;
@@ -490,19 +505,21 @@ class LessonProvider extends ChangeNotifier {
 
     if (isCorrect) {
       score += 1;
+      SoundEffectService.playCorrect();
 
       if (!masteredWords.contains(testword.word)) {
         masteredWords.add(testword.word);
       }
       needReviewWords.remove(testword.word);
     } else {
+      SoundEffectService.playWrong();
       if (!needReviewWords.contains(testword.word)) {
         needReviewWords.add(testword.word);
       }
       masteredWords.remove(testword.word);
     }
 
-    _updateSrsCard(testword, isCorrect);
+    pendingSrsUpdates[testword] = isCorrect;
 
     dev.log("🎯 correctAnswer: ${currentExercise?.correctAnswer}");
     dev.log("👆 selectedAnswer: $selectedAnswer");
@@ -517,11 +534,14 @@ class LessonProvider extends ChangeNotifier {
     dev.log("📝 testedWord: ${testword.word}");
     hasAnimatedResult = true;
 
-    vocabprovider.speak(
-      text: currentExercise!.questionWithoutBlank,
-      language: vocabprovider.currentlanguage!,
-      speaker: vocabprovider.currentspeaker,
-    );
+    vocabprovider.setSpeaking(true);
+    Future.delayed(const Duration(milliseconds: 1200), () {
+      vocabprovider.speak(
+        text: currentExercise!.questionWithoutBlank,
+        language: vocabprovider.currentlanguage!,
+        speaker: vocabprovider.currentspeaker,
+      );
+    });
     notifyListeners();
   }
 
@@ -605,7 +625,7 @@ class LessonProvider extends ChangeNotifier {
     }
   }
 
-  Future<void> nextExercise(BuildContext context) async {
+  Future<void> nextExercise(BuildContext context, String languageCode) async {
     if (currentExerciseIndex < exercises.length - 1) {
       currentExerciseIndex++;
       _resetExerciseState();
@@ -615,7 +635,7 @@ class LessonProvider extends ChangeNotifier {
       isLoading = true;
       notifyListeners();
       try {
-        await saveLessonResults();
+        await saveLessonResults(languageCode);
 
         currentPhase = LessonPhase.result;
         isLoading = false;
@@ -636,11 +656,18 @@ class LessonProvider extends ChangeNotifier {
     }
   }
 
-  Future<void> saveLessonResults() async {
+  Future<void> saveLessonResults(String languageCode) async {
     try {
+      // Commit pending SRS updates to Firestore
+      for (final entry in pendingSrsUpdates.entries) {
+        _updateSrsCard(entry.key, entry.value, languageCode);
+      }
+      pendingSrsUpdates.clear();
+
       final totalQuestions = exercises.length;
       dev.log("📊 Lesson Results:");
       await FirebaseVocabService().saveLessonResults(
+        language: languageCode,
         masteredWords: masteredWords.toList(),
         needReviewWords: needReviewWords.toList(),
         score: score,
@@ -680,6 +707,7 @@ class LessonProvider extends ChangeNotifier {
     showMeaning = false;
     masteredWords.clear();
     needReviewWords.clear();
+    pendingSrsUpdates.clear();
     _resetExerciseState();
     currentPhase = LessonPhase.introduction;
   }
@@ -689,6 +717,7 @@ class LessonProvider extends ChangeNotifier {
     score = 0;
     masteredWords.clear();
     needReviewWords.clear();
+    pendingSrsUpdates.clear();
     _resetExerciseState();
     _lastAnimatedExerciseIndex = null;
     currentPhase = LessonPhase.exercise;
@@ -701,7 +730,11 @@ class LessonProvider extends ChangeNotifier {
     return true;
   }
 
-  void submitAnswer(String option, VocabProvider vocabprovider) {
+  void submitAnswer(
+    String option,
+    VocabProvider vocabprovider,
+    String languageCode,
+  ) {
     selectedAnswer = option;
 
     isCorrect = option == currentExercise!.correctAnswer;
@@ -710,17 +743,64 @@ class LessonProvider extends ChangeNotifier {
     currentExercise!.userAnswer = option;
     currentExercise!.isCorrect = isCorrect;
 
-    if (isCorrect) score += 1;
+    if (isCorrect) {
+      score += 1;
+      SoundEffectService.playCorrect();
+    } else {
+      SoundEffectService.playWrong();
+    }
+
+    final testword = _getTestedWord(currentExercise!);
+    if (testword != null) {
+      if (isCorrect) {
+        if (!masteredWords.contains(testword.word)) {
+          masteredWords.add(testword.word);
+          needReviewWords.remove(testword.word);
+        }
+      } else {
+        if (!needReviewWords.contains(testword.word)) {
+          needReviewWords.add(testword.word);
+          masteredWords.remove(testword.word);
+        }
+      }
+      pendingSrsUpdates[testword] = isCorrect;
+    }
+
     hasAnimatedResult = true;
 
-    vocabprovider.speak(
-      text: currentExercise!.question,
-      language: vocabprovider.currentlanguage!,
-      speaker: vocabprovider.currentspeaker,
-    );
+    vocabprovider.setSpeaking(true);
+    Future.delayed(const Duration(milliseconds: 1200), () {
+      vocabprovider.speak(
+        text: currentExercise!.question,
+        language: vocabprovider.currentlanguage!,
+        speaker: vocabprovider.currentspeaker,
+      );
+    });
 
     notifyListeners();
   }
+
+  //   void submitAnswer(String option, VocabProvider vocabprovider) {
+  //     selectedAnswer = option;
+
+  //     isCorrect = option == currentExercise!.correctAnswer;
+  //     isAnswered = true;
+
+  //     currentExercise!.userAnswer = option;
+  //     currentExercise!.isCorrect = isCorrect;
+
+  //     if (isCorrect) score += 1;
+  //     hasAnimatedResult = true;
+
+  //     vocabprovider.speak(
+  //       text: currentExercise!.question,
+  //       language: vocabprovider.currentlanguage!,
+  //       speaker: vocabprovider.currentspeaker,
+  //     );
+
+  //     notifyListeners();
+  //   }
+  // }
 }
 
 enum LessonPhase { introduction, exercise, result }

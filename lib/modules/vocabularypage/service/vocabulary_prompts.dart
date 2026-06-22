@@ -6,12 +6,9 @@ class VocabularyPrompts {
     required String nativeLanguage,
     required String experienceLevel,
     required String learningGoal,
-    required int dailyGoalMinutes,
+    required int wordCount,
     required List<String> learnedWords,
   }) {
-    // final wordCount = _calculateWordCount(dailyGoalMinutes, experienceLevel);
-    final wordCount = dailyGoalMinutes;
-
     final nativeLang = Textconstant.languageNames[nativeLanguage];
 
     return """

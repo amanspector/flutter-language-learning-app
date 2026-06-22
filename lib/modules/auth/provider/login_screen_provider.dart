@@ -21,8 +21,10 @@ class LoginscreenProvider extends ChangeNotifier {
 
   LoginscreenProvider() {
     FirebaseAuth.instance.authStateChanges().listen((user) {
-      gmail = user?.email;
-      notifyListeners();
+      if (user != null) {
+        gmail = user.email;
+        notifyListeners();
+      }
     });
   }
 
@@ -54,7 +56,7 @@ class LoginscreenProvider extends ChangeNotifier {
       //   context,
       //   MaterialPageRoute(
       //     builder: (_) => AppLoadingScreen(),
-      //     // AppShowloading(message: S.of(context).generatingYourVocabulary),
+      //     // AppShowloading(message: context.l10n.generatingYourVocabulary),
       //   ),
       // );
 

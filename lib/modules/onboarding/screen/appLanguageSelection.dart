@@ -41,9 +41,9 @@ class Applanguageselection extends StatelessWidget {
                         TyperAnimatedText(
                           Textconstant.whatsYourNativeLanguage,
                           speed: Duration(milliseconds: 40),
-                          textStyle: Theme.of(
-                            context,
-                          ).textTheme.displayMedium?.copyWith(fontSize: 30.sp),
+                          textStyle: context.text.displayMedium?.copyWith(
+                            fontSize: 30.sp,
+                          ),
                         ),
                       ],
                     ),

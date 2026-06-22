@@ -4,7 +4,6 @@ import 'package:chatbot_app/core/extensions/localization_extension.dart';
 import 'package:chatbot_app/core/extensions/theme_extension.dart';
 import 'package:chatbot_app/core/widgets/app_button.dart';
 import 'package:chatbot_app/core/widgets/app_customContainer.dart';
-import 'package:chatbot_app/generated/l10n.dart';
 import 'package:chatbot_app/modules/onboarding/provider/onboard_provider.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
@@ -148,13 +147,13 @@ class DailygoalScreen extends StatelessWidget {
   String _getGoalDescription(String code, BuildContext context) {
     switch (code) {
       case 'Casual':
-        return S.of(context).fiveMinsPerDay;
+        return context.l10n.fiveMinsPerDay;
       case 'Regular':
-        return S.of(context).tenMinsPerDay;
+        return context.l10n.tenMinsPerDay;
       case 'Serious':
-        return S.of(context).fifteenMinsPerDay;
+        return context.l10n.fifteenMinsPerDay;
       case 'Intense':
-        return S.of(context).twentyMinsPerDay;
+        return context.l10n.twentyMinsPerDay;
       default:
         return '';
     }

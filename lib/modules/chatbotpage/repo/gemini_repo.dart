@@ -9,16 +9,17 @@ import 'package:flutter_dotenv/flutter_dotenv.dart';
 
 class GeminiRepo {
   final geminiapiclient = Dioclient.getGeminiApiDio();
-  CancelToken? _cancelToken;
+  CancelToken? _chatCancelToken;
+  CancelToken? _vocabCancelToken;
 
   Future<String> sendMessage(String message) async {
     try {
-      _cancelToken = CancelToken();
+      _chatCancelToken = CancelToken();
       final apikey = dotenv.env['API_KEY'];
       final res = await geminiapiclient.post(
         '/models/gemini-3.1-flash-lite:generateContent',
         queryParameters: {"key": apikey},
-        cancelToken: _cancelToken,
+        cancelToken: _chatCancelToken,
         data: {
           "contents": [
             {
@@ -27,6 +28,14 @@ class GeminiRepo {
               ],
             },
           ],
+          "systemInstruction": {
+            "parts": [
+              {
+                "text":
+                    "You are a helpful language learning tutor chatbot. Your sole purpose is to solve user doubts, translations, vocabulary, grammar rules, and language learning queries. If the user asks you about anything else unrelated to language learning, you must politely decline and direct them to ask you questions about language learning instead.",
+              },
+            ],
+          },
         },
       );
 
@@ -69,10 +78,11 @@ class GeminiRepo {
 
   Future<List<WordModel>> generateVocabulary(String prompt) async {
     try {
+      _vocabCancelToken = CancelToken();
       final res = await geminiapiclient.post(
         '/models/gemini-3.1-flash-lite:generateContent',
         queryParameters: {"key": dotenv.env['API_KEY']},
-        cancelToken: _cancelToken,
+        cancelToken: _vocabCancelToken,
         options: Options(
           headers: {
             'Content-Type': 'application/json',
@@ -202,6 +212,7 @@ class GeminiRepo {
   }
 
   void stopSending() {
-    _cancelToken?.cancel('Task stopped');
+    _chatCancelToken?.cancel('Task stopped');
+    _vocabCancelToken?.cancel('Task stopped');
   }
 }

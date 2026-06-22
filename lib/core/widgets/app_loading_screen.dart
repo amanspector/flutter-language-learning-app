@@ -24,23 +24,12 @@ class AppLoadingScreen extends StatefulWidget {
 
 class _AppLoadingScreenState extends State<AppLoadingScreen> {
   late Timer _timer;
-  int _tipIndex = 0;
-
-  // Duolingo-style encouraging loading tips
-  final List<String> _loadingTips = [
-    "Fun fact: 15 minutes a day can teach you a new language!",
-    "Making mistakes is part of the journey. Keep going!",
-    "Your brain cells are hard at work right now...",
-    "Perfecting your accent... please wait.",
-    "Fun fact: Estimating box sizes is easier than mastering grammar!",
-  ];
-
   @override
   void initState() {
     super.initState();
     _timer = Timer.periodic(const Duration(seconds: 3), (timer) {
       setState(() {
-        _tipIndex = (_tipIndex + 1) % _loadingTips.length;
+        //   _tipIndex = (_tipIndex + 1) % _loadingTips.length;
       });
     });
   }
@@ -69,20 +58,14 @@ class _AppLoadingScreenState extends State<AppLoadingScreen> {
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
               const Spacer(),
-
-              // Your Duolingo-inspired Lottie Animation
               Center(
                 child: Container(
                   color: Colors.transparent,
-                  child: Lottie.asset('assets/lottie/Loading.json'),
+                  child: Lottie.asset('assets/lottie/cat.json'),
                 ),
               ),
 
               const Spacer(),
-
-              // Loading Text & Animated Tips
-
-              // replace LOADING... text and tips with this:
               if (widget.generationFailed) ...[
                 Text(
                   context.l10n.generationFailedPleaseRetry,
@@ -101,33 +84,27 @@ class _AppLoadingScreenState extends State<AppLoadingScreen> {
                   style: TextStyle(
                     fontSize: 16,
                     fontWeight: FontWeight.bold,
-                    color: Color.fromARGB(
-                      255,
-                      138,
-                      151,
-                      138,
-                    ), // Classic Duolingo Green color
                     letterSpacing: 2.0,
                   ),
                 ),
 
                 // Smooth switching for tips
-                SizedBox(
-                  height: 80,
-                  child: AnimatedSwitcher(
-                    duration: const Duration(milliseconds: 500),
-                    child: Text(
-                      _loadingTips[_tipIndex],
-                      key: ValueKey<int>(_tipIndex),
-                      textAlign: TextAlign.center,
-                      style: const TextStyle(
-                        fontSize: 16,
-                        fontWeight: FontWeight.w500,
-                        color: Colors.grey,
-                      ),
-                    ),
-                  ),
-                ),
+                // SizedBox(
+                //   height: 80,
+                //   child: AnimatedSwitcher(
+                //     duration: const Duration(milliseconds: 500),
+                //     child: Text(
+                //       _loadingTips[_tipIndex],
+                //       key: ValueKey<int>(_tipIndex),
+                //       textAlign: TextAlign.center,
+                //       style: const TextStyle(
+                //         fontSize: 16,
+                //         fontWeight: FontWeight.w500,
+                //         color: Colors.grey,
+                //       ),
+                //     ),
+                //   ),
+                // ),
               ],
               SizedBox(height: 40),
             ],

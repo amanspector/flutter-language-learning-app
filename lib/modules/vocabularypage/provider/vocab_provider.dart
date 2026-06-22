@@ -1,6 +1,7 @@
 import 'dart:async';
 import 'dart:developer';
 import 'dart:typed_data';
+import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:chatbot_app/core/extensions/daily_goal_extension.dart';
 import 'package:chatbot_app/core/widgets/app_customContainer.dart';
 import 'package:chatbot_app/modules/onboarding/provider/onboard_provider.dart';
@@ -17,6 +18,9 @@ import 'package:just_audio/just_audio.dart';
 class VocabProvider extends ChangeNotifier {
   List<WordModel> allWords = [];
   List<WordModel> todaywords = [];
+  DocumentSnapshot? lastFetchedDoc;
+  String? currentExperienceLevel;
+  String? currentCategory;
   final Map<String, Uint8List> cache = {};
   int currentIndex = 0;
   bool showMeaning = false;
@@ -90,17 +94,66 @@ class VocabProvider extends ChangeNotifier {
     }
   }
 
+  void setSpeaking(bool value) {
+    isspeaking = value;
+    notifyListeners();
+  }
+
   Future<void> initTTS() async {
     await _tts.setLanguage("es-ES");
     await _tts.setSpeechRate(0.4);
   }
 
+  Future<List<WordModel>> _fetchUntilUnlearnedTarget(
+    int target,
+    OnboardProvider onboard,
+    String experienceLevel,
+    String category,
+  ) async {
+    List<WordModel> unlearnedWords = [];
+    List<String> learnedIds = await FirebaseVocabService().getLearnedWords(
+      onboard.learningLanguageCode,
+    );
+
+    // Check cached words first
+    final cachedUnlearned = allWords
+        .where((w) => !learnedIds.contains(w.word))
+        .toList();
+    unlearnedWords.addAll(cachedUnlearned);
+
+    // Fetch from Firebase until we have enough
+    while (unlearnedWords.length < target) {
+      final result = await FirebaseVocabService.fetchVocabfromai(
+        onboard.learningLanguageCode,
+        experienceLevel,
+        category,
+        startAfterDoc: lastFetchedDoc,
+      );
+
+      if (result.words.isEmpty) break;
+
+      lastFetchedDoc = result.lastDoc;
+      final newWords = result.words.map((e) => WordModel.fromJson(e)).toList();
+
+      for (var w in newWords) {
+        if (!allWords.any((existing) => existing.word == w.word)) {
+          allWords.add(w);
+        }
+      }
+
+      final filtered = newWords
+          .where((w) => !learnedIds.contains(w.word))
+          .toList();
+      unlearnedWords.addAll(filtered);
+    }
+
+    return unlearnedWords;
+  }
+
   Future<void> loadWords({
-    required String uilangauage,
     required String ttslangauage,
     required String experienceLevel,
     required String category,
-    // required String dailygoal,
     required OnboardProvider onboard,
     String? speaker,
   }) async {
@@ -113,49 +166,28 @@ class VocabProvider extends ChangeNotifier {
       isloadingAidata = true;
       notifyListeners();
       log("LOAD WORDS CALLED");
-      final snapshot = await FirebaseVocabService.fetchVocabfromai(
-        uilangauage,
+
+      currentlanguage = ttslangauage;
+      currentExperienceLevel = experienceLevel;
+      currentCategory = category;
+
+      allWords.clear();
+      todaywords.clear();
+      lastFetchedDoc = null;
+
+      // Always update from the current language's goal (not stale from a previous language)
+      dailygoalString = onboard.selectedDailyGoal;
+      maxWordsForLevel = DailyGoal.getMaxWordsForGoal(dailygoalString);
+
+      log("maxWordsForLevel: $maxWordsForLevel");
+      log("dailygoalString: $dailygoalString");
+
+      final unlearnedWords = await _fetchUntilUnlearnedTarget(
+        maxWordsForLevel,
+        onboard,
         experienceLevel,
         category,
       );
-      currentlanguage = ttslangauage;
-      allWords.clear();
-      todaywords.clear();
-      if (snapshot.exists && snapshot.data() != null) {
-        final data = snapshot.data();
-        log(data.toString());
-        if (snapshot.exists) {
-          final data = snapshot.data();
-          if (data?['words'] != null && data?['words'] is List) {
-            log("Words array length: ${(data?['words'] as List).length}");
-            log("First word: ${(data?['words'] as List).first}");
-          }
-        }
-        log("maxWordsForLevel: $maxWordsForLevel");
-        log("dailygoalString: $dailygoalString");
-
-        final wordsList = data?['words'];
-
-        if (wordsList == null) {
-          log("⚠️ 'words' field is NULL in Firebase document");
-        } else if (wordsList is! List) {
-          log("⚠️ 'words' field is not a List, it's: ${wordsList.runtimeType}");
-        } else {
-          allWords = wordsList
-              .map((e) => WordModel.fromJson(e as Map<String, dynamic>))
-              .toList();
-          log("✅ Loaded ${allWords.length} words from Firebase");
-        }
-      } else {
-        log("📭 No document exists in Firebase");
-      }
-
-      final unlearnedWords = await FirebaseVocabService().getUnlearnedWords(
-        allWords: allWords,
-      );
-
-      dailygoalString ??= onboard.selectedDailyGoal;
-      maxWordsForLevel = DailyGoal.getMaxWordsForGoal(dailygoalString);
 
       if (unlearnedWords.length < maxWordsForLevel) {
         log(" Unlearned words length : ${unlearnedWords.length}");
@@ -175,23 +207,38 @@ class VocabProvider extends ChangeNotifier {
         }
 
         final newUnlearnedWords = await FirebaseVocabService()
-            .getUnlearnedWords(allWords: allWords);
+            .getUnlearnedWords(
+              allWords: allWords,
+              language: onboard.learningLanguageCode,
+            );
         log(
           "✅ New unlearn words after generation: ${newUnlearnedWords.length}",
         );
-        todaywords = await _mixSrsAndNewWords(newUnlearnedWords);
+        todaywords = await _mixSrsAndNewWords(
+          newUnlearnedWords,
+          onboard.learningLanguageCode,
+        );
         todaywords.shuffle();
         log("✅ Today's words after generation: ${todaywords.length}");
       } else {
-        todaywords = await _mixSrsAndNewWords(unlearnedWords);
+        todaywords = await _mixSrsAndNewWords(
+          unlearnedWords,
+          onboard.learningLanguageCode,
+        );
         todaywords.shuffle();
         if (todaywords.length < maxWordsForLevel) {
           log("Mixed words still less than goal, generating more...");
           await generateWordsFromAI(onboard);
           if (!generationFailed && allWords.isNotEmpty) {
             final newUnlearnedWords = await FirebaseVocabService()
-                .getUnlearnedWords(allWords: allWords);
-            todaywords = await _mixSrsAndNewWords(newUnlearnedWords);
+                .getUnlearnedWords(
+                  allWords: allWords,
+                  language: onboard.learningLanguageCode,
+                );
+            todaywords = await _mixSrsAndNewWords(
+              newUnlearnedWords,
+              onboard.learningLanguageCode,
+            );
             todaywords.shuffle();
           }
         }
@@ -219,10 +266,11 @@ class VocabProvider extends ChangeNotifier {
 
   Future<List<WordModel>> _mixSrsAndNewWords(
     List<WordModel> unlearnedWords,
+    String langaugeCode,
   ) async {
     final total = maxWordsForLevel;
 
-    final dueIds = await FirebaseVocabService().getDueSrsWordIds();
+    final dueIds = await FirebaseVocabService().getDueSrsWordIds(langaugeCode);
 
     final dueWords =
         unlearnedWords.where((w) => dueIds.contains(w.word)).toList()
@@ -243,10 +291,9 @@ class VocabProvider extends ChangeNotifier {
         .toList();
     final mixed = [...srsSlice, ...newSlice];
 
-    // 🔥 FILL REMAINING if less than required
     if (mixed.length < total) {
       final remaining = unlearnedWords
-          .where((w) => !mixed.contains(w))
+          .where((w) => !mixed.any((m) => m.word == w.word))
           .take(total - mixed.length)
           .toList();
 
@@ -325,7 +372,9 @@ class VocabProvider extends ChangeNotifier {
     notifyListeners();
 
     const maxRetries = 3;
-    List<String> learnedIds = await FirebaseVocabService().getLearnedWords();
+    List<String> learnedIds = await FirebaseVocabService().getLearnedWords(
+      onboard.learningLanguageCode,
+    );
 
     try {
       while (retryCount < maxRetries) {
@@ -335,21 +384,12 @@ class VocabProvider extends ChangeNotifier {
             "Generating words from AI (attempt ${retryCount + 1}/$maxRetries)",
           );
 
-          // final prompt = VocabularyPrompts.buildVocabularyPrompt(
-          //   language: onboard.selectedlanguage!,
-          //   nativeLanguage: onboard.selectedNativeLanguage!,
-          //   experienceLevel: onboard.selectedExperienceLevel!,
-          //   learningGoal: onboard.selectedgoal!,
-          //   dailyGoalMinutes: maxWordsForLevel + 5,
-          //   learnedWords: learnedIds,
-          // );
-
           final prompt = VocabularyPrompts.buildVocabularyPrompt(
             language: onboard.selectedlanguage ?? 'English',
             nativeLanguage: onboard.selectedNativeLanguage ?? 'en',
             experienceLevel: onboard.selectedExperienceLevel ?? 'Beginner',
             learningGoal: onboard.selectedgoal ?? 'travel',
-            dailyGoalMinutes: maxWordsForLevel + 5,
+            wordCount: maxWordsForLevel + 10,
             learnedWords: learnedIds,
           );
           log("prompt : $prompt");
@@ -379,13 +419,16 @@ class VocabProvider extends ChangeNotifier {
           iscompleted = false;
 
           await FirebaseVocabService.saveVocab(
-            language: onboard.selectedlanguage!,
+            languageCode: onboard.learningLanguageCode,
             level: onboard.selectedExperienceLevel!,
             category: onboard.selectedgoal!,
             words: words,
           );
 
-          await FirebaseVocabService().seedSrsCards(words);
+          await FirebaseVocabService().seedSrsCards(
+            words,
+            onboard.learningLanguageCode,
+          );
 
           notifyListeners();
           return; // success — exit
@@ -418,32 +461,42 @@ class VocabProvider extends ChangeNotifier {
 
   Future<void> loadNextBatch(OnboardProvider onboard) async {
     try {
-      if (allWords.isEmpty) return;
-      final unlearnedWords = await FirebaseVocabService().getUnlearnedWords(
-        allWords: allWords,
+      if (currentExperienceLevel == null || currentCategory == null) return;
+
+      final unlearnedWords = await _fetchUntilUnlearnedTarget(
+        maxWordsForLevel,
+        onboard,
+        currentExperienceLevel!,
+        currentCategory!,
       );
 
       if (unlearnedWords.isEmpty || unlearnedWords.length < maxWordsForLevel) {
-        allWords.clear();
         todaywords.clear();
 
         await generateWordsFromAI(onboard);
 
         final newUnlearnedWords = await FirebaseVocabService()
-            .getUnlearnedWords(allWords: allWords);
+            .getUnlearnedWords(
+              allWords: allWords,
+              language: onboard.learningLanguageCode,
+            );
         log(
           "✅ New unlearn words after generation: ${newUnlearnedWords.length}",
         );
 
-        // todaywords = newUnlearnedWords.take(maxWordsForLevel).toList();
-        todaywords = await _mixSrsAndNewWords(newUnlearnedWords);
+        todaywords = await _mixSrsAndNewWords(
+          newUnlearnedWords,
+          onboard.learningLanguageCode,
+        );
         todaywords.shuffle();
         log(
           "✅ New today words after newUnlearnedWords: ${newUnlearnedWords.length}",
         );
       } else {
-        // todaywords = unlearnedWords.take(maxWordsForLevel).toList();
-        todaywords = await _mixSrsAndNewWords(unlearnedWords);
+        todaywords = await _mixSrsAndNewWords(
+          unlearnedWords,
+          onboard.learningLanguageCode,
+        );
         todaywords.shuffle();
         log("✅ today words without generating: ${todaywords.length}");
       }
@@ -524,12 +577,6 @@ class VocabProvider extends ChangeNotifier {
     notifyListeners();
   }
 
-  Future<void> clearVocabDataOnLanguageChange() async {
-    await FirebaseVocabService().clearVocabDataOnLanguageChange();
-    reset(); // clears local state
-    log("✅ Vocab data cleared on language change");
-  }
-
   void reset() {
     allWords.clear();
     todaywords.clear();
@@ -540,6 +587,7 @@ class VocabProvider extends ChangeNotifier {
     isloadingAidata = false;
     iscompleted = false;
     generationFailed = false;
+    dailygoalString = null; // reset so next language's goal is used
     notifyListeners();
   }
 

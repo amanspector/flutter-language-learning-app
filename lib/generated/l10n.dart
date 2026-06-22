@@ -1704,6 +1704,41 @@ class S {
       args: [],
     );
   }
+
+  /// `Your Answer`
+  String get yourAnswer {
+    return Intl.message('Your Answer', name: 'yourAnswer', desc: '', args: []);
+  }
+
+  /// `Correct Answer`
+  String get correctAnswerText {
+    return Intl.message(
+      'Correct Answer',
+      name: 'correctAnswerText',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Lesson Review`
+  String get lessonReview {
+    return Intl.message(
+      'Lesson Review',
+      name: 'lessonReview',
+      desc: '',
+      args: [],
+    );
+  }
+
+  /// `Tap to reveal meaning`
+  String get tapToRevealMeaning {
+    return Intl.message(
+      'Tap to reveal meaning',
+      name: 'tapToRevealMeaning',
+      desc: '',
+      args: [],
+    );
+  }
 }
 
 class AppLocalizationDelegate extends LocalizationsDelegate<S> {

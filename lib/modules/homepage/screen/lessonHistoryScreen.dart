@@ -25,33 +25,31 @@ class Lessonhistoryscreen extends StatelessWidget {
       body: SafeArea(
         child: Column(
           children: [
-            Flexible(
-              child: Row(
-                mainAxisAlignment: MainAxisAlignment.start,
-                children: [
-                  SizedBox(width: 20.w),
-                  AppContainer(
-                    borderRadius: 30.r,
-                    backgroundColor: Theme.of(
-                      context,
-                    ).colorScheme.surface.withValues(alpha: 0.60),
-                    widget: IconButton(
-                      onPressed: () {
-                        context.read<HomescreenProvider>().bottomNavBarIndex(0);
-                      },
-                      icon: Icon(Icons.arrow_back_outlined),
-                    ),
-                  ).softFocusIn,
-                  SizedBox(width: 20.w),
-
-                  Expanded(
-                    child: Text(
-                      context.l10n.history,
-                      style: context.text.displaySmall,
-                    ).fadeInSlideDown,
+            Row(
+              mainAxisAlignment: MainAxisAlignment.start,
+              children: [
+                SizedBox(width: 20.w),
+                AppContainer(
+                  borderRadius: 30.r,
+                  backgroundColor: Theme.of(
+                    context,
+                  ).colorScheme.surface.withValues(alpha: 0.60),
+                  widget: IconButton(
+                    onPressed: () {
+                      context.read<HomescreenProvider>().bottomNavBarIndex(0);
+                    },
+                    icon: Icon(Icons.arrow_back_outlined),
                   ),
-                ],
-              ),
+                ).softFocusIn,
+                SizedBox(width: 20.w),
+
+                Expanded(
+                  child: Text(
+                    context.l10n.history,
+                    style: context.text.displaySmall,
+                  ).fadeInSlideDown,
+                ),
+              ],
             ),
 
             lessonHistory.isEmpty
@@ -71,7 +69,6 @@ class Lessonhistoryscreen extends StatelessWidget {
                         SizedBox(height: 16.h),
                         Text(
                           context.l10n.noLessonsAttempted,
-                          // "No lessons attempted yet",
                           style: context.text.headlineSmall?.copyWith(
                             color: context.theme.colorScheme.outline,
                           ),
@@ -79,7 +76,6 @@ class Lessonhistoryscreen extends StatelessWidget {
                         SizedBox(height: 8.h),
                         Text(
                           context.l10n.completeLessonToSeeHistory,
-                          // "Complete a lesson to see your history here",
                           style: context.text.bodySmall?.copyWith(
                             color: context.theme.colorScheme.outline.withValues(
                               alpha: 0.60,
@@ -88,92 +84,88 @@ class Lessonhistoryscreen extends StatelessWidget {
                           textAlign: TextAlign.center,
                         ),
                       ],
-                    ),
+                    ).fadeInSlideUp,
                   )
-                : ListView.builder(
-                    shrinkWrap: true,
-                    padding: EdgeInsets.all(20.r),
-                    itemCount: lessonHistory.length,
-                    itemBuilder: (context, index) {
-                      final session = lessonHistory[index];
-                      final score = session['score'] ?? 0;
-                      final total = session['total_questions'] ?? 0;
-                      final date = (session['completed_at'] as Timestamp)
-                          .toDate();
-                      final exercises = List<Map<String, dynamic>>.from(
-                        session['exercises'] ?? [],
-                      );
+                : Expanded(
+                    child: ListView.builder(
+                      padding: EdgeInsets.fromLTRB(20.r, 20.r, 20.r, 100.r),
+                      itemCount: lessonHistory.length,
+                      itemBuilder: (context, index) {
+                        final session = lessonHistory[index];
+                        final score = session['score'] ?? 0;
+                        final total = session['total_questions'] ?? 0;
+                        final date = (session['completed_at'] as Timestamp)
+                            .toDate();
+                        final exercises = List<Map<String, dynamic>>.from(
+                          session['exercises'] ?? [],
+                        );
 
-                      return Padding(
-                        padding: EdgeInsets.only(top: index == 0 ? 0.r : 10.r),
-                        child: GestureDetector(
-                          onTap: () {
-                            Navigator.push(
-                              context,
-                              MaterialPageRoute(
-                                builder: (_) => LessonReviewScreen(
-                                  exercises: exercises,
-                                  score: score,
-                                  total: total,
+                        return Padding(
+                          padding: EdgeInsets.only(
+                            top: index == 0 ? 0.r : 10.r,
+                          ),
+                          child: GestureDetector(
+                            onTap: () {
+                              Navigator.of(context, rootNavigator: true).push(
+                                MaterialPageRoute(
+                                  builder: (_) => LessonReviewScreen(
+                                    exercises: exercises,
+                                    score: score,
+                                    total: total,
+                                  ),
                                 ),
+                              );
+                            },
+                            child: CustomPaint(
+                              painter: TicketPainter(
+                                borderColor: context.theme.colorScheme.outline
+                                    .withValues(alpha: 0.20),
+                                glowColor: context.theme.colorScheme.primary,
+                                concaveDepth: 5,
                               ),
-                            );
-                          },
-                          child: CustomPaint(
-                            painter: TicketPainter(
-                              borderColor: context.theme.colorScheme.outline
-                                  .withValues(alpha: 0.20),
-                              glowColor: context.theme.colorScheme.primary,
-                              concaveDepth: 5,
-                            ),
-                            child: AppContainer(
-                              borderColor: ColorConstant.colorTransparent,
-                              backgroundColor: ColorConstant.colorTransparent,
-                              widget: Padding(
-                                padding: EdgeInsets.symmetric(
-                                  horizontal: 20.r,
-                                  vertical: 18.r,
-                                ),
-                                child: Row(
-                                  children: [
-                                    Expanded(
-                                      child: Column(
-                                        crossAxisAlignment:
-                                            CrossAxisAlignment.start,
-                                        children: [
-                                          Text(
-                                            "${context.l10n.lesson} ${lessonHistory.length - index}",
-                                            style: context.text.headlineSmall,
-                                          ),
-                                          SizedBox(height: 4.h),
-                                          Text(
-                                            DateFormat(
-                                              'dd MMM yyyy • hh:mm a',
-                                            ).format(date),
-                                            style: context.text.bodySmall,
-                                          ),
-                                        ],
+                              child: AppContainer(
+                                borderColor: ColorConstant.colorTransparent,
+                                backgroundColor: ColorConstant.colorTransparent,
+                                widget: Padding(
+                                  padding: EdgeInsets.symmetric(
+                                    horizontal: 20.r,
+                                    vertical: 18.r,
+                                  ),
+                                  child: Row(
+                                    children: [
+                                      Expanded(
+                                        child: Column(
+                                          crossAxisAlignment:
+                                              CrossAxisAlignment.start,
+                                          children: [
+                                            Text(
+                                              "${context.l10n.lesson} ${lessonHistory.length - index}",
+                                              style: context.text.headlineSmall,
+                                            ),
+                                            SizedBox(height: 4.h),
+                                            Text(
+                                              DateFormat(
+                                                'dd MMM yyyy • hh:mm a',
+                                              ).format(date),
+                                              style: context.text.bodySmall,
+                                            ),
+                                          ],
+                                        ),
                                       ),
-                                    ),
 
-                                    AppCircularProgress(
-                                      score: score,
-                                      total: total,
-                                    ),
-                                    // Text(
-
-                                    //   style: context.text.headlineMedium?.copyWith(
-                                    //     color: context.theme.colorScheme.primary,
-                                    //   ),
-                                    // ),
-                                  ],
+                                      AppCircularProgress(
+                                        score: score,
+                                        total: total,
+                                      ),
+                                    ],
+                                  ),
                                 ),
                               ),
                             ),
                           ),
-                        ),
-                      ).fadeInSlideUpDelayed(40 + index * 20);
-                    },
+                        ).fadeInSlideUpDelayed(40 + index * 20);
+                      },
+                    ),
                   ),
           ],
         ),

@@ -4,7 +4,7 @@ import 'package:chatbot_app/core/extensions/theme_extension.dart';
 import 'package:chatbot_app/core/widgets/app_button.dart';
 import 'package:chatbot_app/core/widgets/app_circular_progress.dart';
 import 'package:chatbot_app/core/widgets/app_customContainer.dart';
-import 'package:chatbot_app/generated/l10n.dart';
+
 import 'package:chatbot_app/modules/homepage/provider/homescreen_provider.dart';
 import 'package:chatbot_app/modules/exercisepage/provider/lesson_provider.dart';
 import 'package:chatbot_app/modules/homepage/screen/homescreen.dart';
@@ -36,7 +36,7 @@ class ResultScreen extends HookWidget {
       if (percentage >= 75) return context.l10n.greatJob;
       if (percentage >= 60) return context.l10n.perfGoodWork;
       if (percentage >= 50) return context.l10n.perfKeepPracticing;
-      return S.of(context).perfReviewAndTryAgain;
+      return context.l10n.perfReviewAndTryAgain;
     }
 
     Widget buildStatItem({

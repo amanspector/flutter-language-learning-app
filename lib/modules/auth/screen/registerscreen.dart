@@ -1,11 +1,13 @@
+import 'package:chatbot_app/core/appconstants/color_constant.dart';
 import 'package:chatbot_app/core/appconstants/text_constant.dart';
+import 'package:chatbot_app/core/extensions/app_animation_extension.dart';
 import 'package:chatbot_app/core/extensions/localization_extension.dart';
 import 'package:chatbot_app/core/extensions/theme_extension.dart';
 import 'package:chatbot_app/core/widgets/app_button.dart';
+import 'package:chatbot_app/core/widgets/app_container.dart';
 import 'package:chatbot_app/core/widgets/app_customContainer.dart';
 import 'package:chatbot_app/core/widgets/app_error_widget.dart';
 import 'package:chatbot_app/core/widgets/app_screen.dart';
-import 'package:chatbot_app/generated/l10n.dart';
 import 'package:chatbot_app/modules/auth/provider/register_screen_provider.dart';
 import 'package:chatbot_app/modules/auth/screen/loginscreen.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
@@ -31,274 +33,407 @@ class Registerscreen extends StatelessWidget {
           (p) => p.isConfirmPasswordVisible,
         );
     final formkey = context.read<RegisterscreenProvider>().formkey;
+
     return AppScreen(
       body: SingleChildScrollView(
+        physics: const BouncingScrollPhysics(),
         padding: EdgeInsets.symmetric(
-          horizontal: 10.r,
-          vertical: kToolbarHeight,
+          horizontal: 16.w,
+          vertical: kToolbarHeight + 10.h,
         ),
-        child: CustomShapeContainter(
-          child: Container(
-            width: double.infinity,
-            padding: EdgeInsets.symmetric(vertical: 30.r, horizontal: 20.r),
-            child: Form(
-              key: formkey,
-              child: Column(
-                mainAxisAlignment: MainAxisAlignment.center,
-                crossAxisAlignment: CrossAxisAlignment.stretch,
-                children: [
-                  SizedBox(
-                    height: 105.h,
-                    width: 105.w,
-                    child: Image.asset(
-                      'assets/icon/appicon_1.png',
-                      fit: BoxFit.contain,
-                    ),
-                  ),
-                  Text(
-                    S.of(context).joinTheJourney,
-
-                    textAlign: TextAlign.center,
-                    style: context.text.displaySmall,
-                  ),
-                  SizedBox(height: 10.h),
-                  Text(
-                    textAlign: TextAlign.center,
-                    context.l10n.masterNewSkills,
-                    style: context.text.titleMedium?.copyWith(
-                      color: context.theme.colorScheme.outline,
-                    ),
-                  ),
-                  SizedBox(height: 15.h),
-                  TextFormField(
-                    controller: registerProvider.mailcontroller,
-                    style: context.text.bodyMedium,
-                    keyboardType: TextInputType.emailAddress,
-                    validator: (value) {
-                      if (value == null || value.isEmpty) {
-                        return context.l10n.emailIsRequired;
-                      }
-                      if (!RegExp(
-                        r'^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$',
-                      ).hasMatch(value)) {
-                        return context.l10n.enterValidEmail;
-                      }
-                      return null;
-                    },
-                    decoration: InputDecoration(
-                      border: OutlineInputBorder(
-                        borderRadius: BorderRadius.circular(10.r),
-                        borderSide: BorderSide(width: 2.r),
-                      ),
-                      label: Text(context.l10n.email),
-                      hintText: context.l10n.enterYourEmail,
-                    ),
-                  ),
-                  SizedBox(height: 10.h),
-
-                  TextFormField(
-                    controller: registerProvider.passwordcontroller,
-                    keyboardType: TextInputType.visiblePassword,
-                    style: context.text.bodyMedium,
-                    obscureText: !ispasswordvisible,
-                    validator: (value) {
-                      if (value == null || value.isEmpty) {
-                        return context.l10n.passwordIsRequired;
-                      }
-
-                      if (value.length < 8) {
-                        return context.l10n.minimumEightCharactersRequired;
-                      }
-
-                      if (!RegExp(r'[A-Z]').hasMatch(value)) {
-                        return context
-                            .l10n
-                            .mustContainAtLeastOneUppercaseLetter;
-                      }
-
-                      if (!RegExp(r'[a-z]').hasMatch(value)) {
-                        return context
-                            .l10n
-                            .mustContainAtLeastOneLowercaseLetter;
-                      }
-
-                      if (!RegExp(r'[0-9]').hasMatch(value)) {
-                        return context.l10n.mustContainAtLeastOneNumber;
-                      }
-
-                      if (!RegExp(r'[!@#\$&*~]').hasMatch(value)) {
-                        return context.l10n.mustContainOneSpecialCharacter;
-                      }
-
-                      return null;
-                    },
-                    decoration: InputDecoration(
-                      suffixIcon: IconButton(
-                        onPressed: () {
-                          registerProvider.isPassword();
-                        },
-                        icon: ispasswordvisible
-                            ? Icon(Icons.visibility_off)
-                            : Icon(Icons.visibility),
-                      ),
-                      border: OutlineInputBorder(
-                        borderRadius: BorderRadius.circular(10.r),
-                        borderSide: BorderSide(width: 2.r),
-                      ),
-                      label: Text(context.l10n.password),
-                      hintText: context.l10n.enterYourPassword,
-                    ),
-                  ),
-                  SizedBox(height: 10.h),
-
-                  TextFormField(
-                    obscureText: !isConfirmPasswordVisible,
-                    style: context.text.bodyMedium,
-                    keyboardType: TextInputType.visiblePassword,
-                    controller: registerProvider.confirmpasswordcontroller,
-                    validator: (value) {
-                      if (value == null || value.isEmpty) {
-                        return context.l10n.confirmPasswordIsRequired;
-                      }
-                      if (value != registerProvider.passwordcontroller.text) {
-                        return context.l10n.passwordDoesntMatch;
-                      }
-                      return null;
-                    },
-                    decoration: InputDecoration(
-                      suffixIcon: IconButton(
-                        onPressed: () {
-                          context
-                              .read<RegisterscreenProvider>()
-                              .isConfirmPassword();
-                        },
-                        icon: isConfirmPasswordVisible
-                            ? Icon(Icons.visibility_off)
-                            : Icon(Icons.visibility),
-                      ),
-                      border: OutlineInputBorder(
-                        borderRadius: BorderRadius.circular(10.r),
-                        borderSide: BorderSide(width: 2.r),
-                      ),
-                      label: Text(context.l10n.confirmPassword),
-                      hintText: context.l10n.enterYourConfirmPassword,
-                    ),
-                  ),
-                  SizedBox(height: 10.h),
-                  DropdownButtonFormField<String>(
-                    style: context.text.bodyMedium,
-                    initialValue: context
-                        .read<RegisterscreenProvider>()
-                        .selectedGender,
-                    decoration: InputDecoration(
-                      label: Text(context.l10n.gender),
-                      hintText: context.l10n.selectYourGender,
-                      border: OutlineInputBorder(
-                        borderRadius: BorderRadius.circular(10.r),
-                        borderSide: BorderSide(width: 2.r),
-                      ),
-                    ),
-                    items: Textconstant.genders.map((g) {
-                      return DropdownMenuItem<String>(
-                        value: g['label'] as String,
-                        child: Row(
-                          children: [
-                            Icon(
-                              g['icon'] as IconData,
-                              size: 20.r,
-                              color: context
-                                  .theme
-                                  .colorScheme
-                                  .onSecondaryContainer,
-                            ),
-                            SizedBox(width: 10.w),
-                            Text(
-                              g['label'] as String,
-                              style: TextStyle(fontSize: 14.sp),
-                            ),
-                          ],
+        child: CustomPaint(
+          painter: TicketPainter(
+            concaveDepth: 12,
+            cornerRadius: 32,
+            color: context.colors.surface.withValues(alpha: 0.72),
+            borderColor: context.colors.outline.withValues(alpha: 0.18),
+            glowColor: context.colors.primary,
+          ),
+          child: AppContainer(
+            backgroundColor: ColorConstant.colorTransparent,
+            borderColor: ColorConstant.colorTransparent,
+            widget: Padding(
+              padding: EdgeInsets.symmetric(vertical: 35.h, horizontal: 20.w),
+              child: Form(
+                key: formkey,
+                child: Column(
+                  mainAxisAlignment: MainAxisAlignment.center,
+                  crossAxisAlignment: CrossAxisAlignment.stretch,
+                  children: [
+                    Center(
+                      child: Container(
+                        height: 90.h,
+                        width: 90.w,
+                        padding: EdgeInsets.all(8.r),
+                        decoration: BoxDecoration(
+                          color: context.colors.primary.withValues(alpha: 0.08),
+                          shape: BoxShape.circle,
                         ),
-                      );
-                    }).toList(),
-                    onChanged: (value) {
-                      if (value != null) {
-                        context.read<RegisterscreenProvider>().setGender(value);
-                      }
-                    },
-                    validator: (value) {
-                      if (value == null || value.isEmpty) {
-                        return context.l10n.pleaseSelectYourGender;
-                      }
-                      return null;
-                    },
-                  ),
-                  SizedBox(height: 10.h),
-
-                  Padding(
-                    padding: EdgeInsets.only(left: 8.r),
-                    child: Text(
-                      context.l10n.age,
-                      textAlign: TextAlign.left,
-                      style: context.text.titleMedium,
+                        child: Image.asset(
+                          'assets/icon/appicon_1.png',
+                          fit: BoxFit.contain,
+                        ),
+                      ).popIn,
                     ),
-                  ),
-
-                  // Age selector
-                  AgeSelector(),
-
-                  SizedBox(height: 10.h),
-                  AppButton(
-                    buttonFunc: () async {
-                      if (formkey.currentState!.validate()) {
-                        await context.read<RegisterscreenProvider>().register(
-                          context,
-                          registerProvider.mailcontroller.text
-                              .trim()
-                              .toLowerCase(),
-                          registerProvider.passwordcontroller.text,
-                        );
-                      }
-                    },
-                    childWidget: Text(
-                      context.l10n.register,
-                      style: context.text.headlineMedium?.copyWith(
-                        color: context.theme.colorScheme.onPrimary,
+                    SizedBox(height: 16.h),
+                    Text(
+                      context.l10n.joinTheJourney,
+                      textAlign: TextAlign.center,
+                      style: context.text.displaySmall?.copyWith(
+                        fontWeight: FontWeight.bold,
+                        color: context.colors.onSurface,
                       ),
                     ),
-                  ),
-                  if (msg != null) ...[
-                    SizedBox(height: 5.h),
-                    AppErrorwidget().showError(msg, context),
-                  ],
-
-                  Row(
-                    mainAxisAlignment: MainAxisAlignment.center,
-                    crossAxisAlignment: CrossAxisAlignment.center,
-                    children: [
-                      Text(
-                        S.of(context).alreadyHaveAnAccount,
-                        style: context.text.titleMedium,
+                    SizedBox(height: 8.h),
+                    Text(
+                      context.l10n.masterNewSkills,
+                      textAlign: TextAlign.center,
+                      style: context.text.titleMedium?.copyWith(
+                        color: context.colors.onSurfaceVariant.withValues(
+                          alpha: 0.7,
+                        ),
                       ),
-                      TextButton(
-                        onPressed: () {
-                          registerProvider.clearData();
-                          Navigator.pushReplacement(
-                            context,
-                            MaterialPageRoute(
-                              builder: (context) => Loginscreen(),
+                    ),
+                    SizedBox(height: 24.h),
+                    TextFormField(
+                      controller: registerProvider.mailcontroller,
+                      style: context.text.bodyMedium,
+                      keyboardType: TextInputType.emailAddress,
+                      validator: (value) {
+                        if (value == null || value.isEmpty) {
+                          return context.l10n.emailIsRequired;
+                        }
+                        if (!RegExp(
+                          r'^[\w-\.]+@([\w-]+\.)+[\w-]{2,4}$',
+                        ).hasMatch(value)) {
+                          return context.l10n.enterValidEmail;
+                        }
+                        return null;
+                      },
+                      decoration: InputDecoration(
+                        isDense: true,
+                        contentPadding: EdgeInsets.symmetric(
+                          horizontal: 16.w,
+                          vertical: 14.h,
+                        ),
+                        border: OutlineInputBorder(
+                          borderRadius: BorderRadius.circular(12.r),
+                          borderSide: BorderSide(
+                            color: context.colors.outline.withValues(
+                              alpha: 0.3,
                             ),
-                          );
-                        },
-                        child: Text(
-                          S.of(context).login,
-                          style: context.text.titleMedium?.copyWith(
-                            decoration: TextDecoration.underline,
+                          ),
+                        ),
+                        enabledBorder: OutlineInputBorder(
+                          borderRadius: BorderRadius.circular(12.r),
+                          borderSide: BorderSide(
+                            color: context.colors.outline.withValues(
+                              alpha: 0.3,
+                            ),
+                          ),
+                        ),
+                        focusedBorder: OutlineInputBorder(
+                          borderRadius: BorderRadius.circular(12.r),
+                          borderSide: BorderSide(
+                            color: context.colors.primary,
+                            width: 2,
+                          ),
+                        ),
+                        label: Text(context.l10n.email),
+                        hintText: context.l10n.enterYourEmail,
+                      ),
+                    ),
+                    SizedBox(height: 12.h),
+
+                    TextFormField(
+                      controller: registerProvider.passwordcontroller,
+                      keyboardType: TextInputType.visiblePassword,
+                      style: context.text.bodyMedium,
+                      obscureText: !ispasswordvisible,
+                      validator: (value) {
+                        if (value == null || value.isEmpty) {
+                          return context.l10n.passwordIsRequired;
+                        }
+                        if (value.length < 8) {
+                          return context.l10n.minimumEightCharactersRequired;
+                        }
+                        if (!RegExp(r'[A-Z]').hasMatch(value)) {
+                          return context
+                              .l10n
+                              .mustContainAtLeastOneUppercaseLetter;
+                        }
+                        if (!RegExp(r'[a-z]').hasMatch(value)) {
+                          return context
+                              .l10n
+                              .mustContainAtLeastOneLowercaseLetter;
+                        }
+                        if (!RegExp(r'[0-9]').hasMatch(value)) {
+                          return context.l10n.mustContainAtLeastOneNumber;
+                        }
+                        if (!RegExp(r'[!@#\$&*~]').hasMatch(value)) {
+                          return context.l10n.mustContainOneSpecialCharacter;
+                        }
+                        return null;
+                      },
+                      decoration: InputDecoration(
+                        isDense: true,
+                        contentPadding: EdgeInsets.symmetric(
+                          horizontal: 16.w,
+                          vertical: 14.h,
+                        ),
+                        suffixIcon: IconButton(
+                          onPressed: () {
+                            registerProvider.isPassword();
+                          },
+                          icon: Icon(
+                            ispasswordvisible
+                                ? Icons.visibility_off_rounded
+                                : Icons.visibility_rounded,
+                            size: 20.r,
+                          ),
+                        ),
+                        border: OutlineInputBorder(
+                          borderRadius: BorderRadius.circular(12.r),
+                          borderSide: BorderSide(
+                            color: context.colors.outline.withValues(
+                              alpha: 0.3,
+                            ),
+                          ),
+                        ),
+                        enabledBorder: OutlineInputBorder(
+                          borderRadius: BorderRadius.circular(12.r),
+                          borderSide: BorderSide(
+                            color: context.colors.outline.withValues(
+                              alpha: 0.3,
+                            ),
+                          ),
+                        ),
+                        focusedBorder: OutlineInputBorder(
+                          borderRadius: BorderRadius.circular(12.r),
+                          borderSide: BorderSide(
+                            color: context.colors.primary,
+                            width: 2,
+                          ),
+                        ),
+                        label: Text(context.l10n.password),
+                        hintText: context.l10n.enterYourPassword,
+                      ),
+                    ),
+                    SizedBox(height: 12.h),
+
+                    TextFormField(
+                      obscureText: !isConfirmPasswordVisible,
+                      style: context.text.bodyMedium,
+                      keyboardType: TextInputType.visiblePassword,
+                      controller: registerProvider.confirmpasswordcontroller,
+                      validator: (value) {
+                        if (value == null || value.isEmpty) {
+                          return context.l10n.confirmPasswordIsRequired;
+                        }
+                        if (value != registerProvider.passwordcontroller.text) {
+                          return context.l10n.passwordDoesntMatch;
+                        }
+                        return null;
+                      },
+                      decoration: InputDecoration(
+                        isDense: true,
+                        contentPadding: EdgeInsets.symmetric(
+                          horizontal: 16.w,
+                          vertical: 14.h,
+                        ),
+                        suffixIcon: IconButton(
+                          onPressed: () {
+                            context
+                                .read<RegisterscreenProvider>()
+                                .isConfirmPassword();
+                          },
+                          icon: Icon(
+                            isConfirmPasswordVisible
+                                ? Icons.visibility_off_rounded
+                                : Icons.visibility_rounded,
+                            size: 20.r,
+                          ),
+                        ),
+                        border: OutlineInputBorder(
+                          borderRadius: BorderRadius.circular(12.r),
+                          borderSide: BorderSide(
+                            color: context.colors.outline.withValues(
+                              alpha: 0.3,
+                            ),
+                          ),
+                        ),
+                        enabledBorder: OutlineInputBorder(
+                          borderRadius: BorderRadius.circular(12.r),
+                          borderSide: BorderSide(
+                            color: context.colors.outline.withValues(
+                              alpha: 0.3,
+                            ),
+                          ),
+                        ),
+                        focusedBorder: OutlineInputBorder(
+                          borderRadius: BorderRadius.circular(12.r),
+                          borderSide: BorderSide(
+                            color: context.colors.primary,
+                            width: 2,
+                          ),
+                        ),
+                        label: Text(context.l10n.confirmPassword),
+                        hintText: context.l10n.enterYourConfirmPassword,
+                      ),
+                    ),
+                    SizedBox(height: 12.h),
+                    DropdownButtonFormField<String>(
+                      style: context.text.bodyMedium?.copyWith(
+                        color: context.colors.onSurface,
+                      ),
+                      initialValue: context
+                          .read<RegisterscreenProvider>()
+                          .selectedGender,
+                      decoration: InputDecoration(
+                        contentPadding: EdgeInsets.symmetric(
+                          horizontal: 16.w,
+                          vertical: 12.h,
+                        ),
+                        label: Text(context.l10n.gender),
+                        hintText: context.l10n.selectYourGender,
+                        border: OutlineInputBorder(
+                          borderRadius: BorderRadius.circular(12.r),
+                          borderSide: BorderSide(
+                            color: context.colors.outline.withValues(
+                              alpha: 0.3,
+                            ),
+                          ),
+                        ),
+                        enabledBorder: OutlineInputBorder(
+                          borderRadius: BorderRadius.circular(12.r),
+                          borderSide: BorderSide(
+                            color: context.colors.outline.withValues(
+                              alpha: 0.3,
+                            ),
+                          ),
+                        ),
+                        focusedBorder: OutlineInputBorder(
+                          borderRadius: BorderRadius.circular(12.r),
+                          borderSide: BorderSide(
+                            color: context.colors.primary,
+                            width: 2,
                           ),
                         ),
                       ),
+                      items: Textconstant.genders.map((g) {
+                        return DropdownMenuItem<String>(
+                          value: g['label'] as String,
+                          child: Row(
+                            children: [
+                              Icon(
+                                g['icon'] as IconData,
+                                size: 20.r,
+                                color: context.colors.primary,
+                              ),
+                              SizedBox(width: 10.w),
+                              Text(
+                                g['label'] as String,
+                                style: context.text.bodyMedium,
+                              ),
+                            ],
+                          ),
+                        );
+                      }).toList(),
+                      onChanged: (value) {
+                        if (value != null) {
+                          context.read<RegisterscreenProvider>().setGender(
+                            value,
+                          );
+                        }
+                      },
+                      validator: (value) {
+                        if (value == null || value.isEmpty) {
+                          return context.l10n.pleaseSelectYourGender;
+                        }
+                        return null;
+                      },
+                    ),
+                    SizedBox(height: 16.h),
+
+                    Padding(
+                      padding: EdgeInsets.only(left: 4.w, bottom: 8.h),
+                      child: Text(
+                        context.l10n.age,
+                        textAlign: TextAlign.left,
+                        style: context.text.titleMedium?.copyWith(
+                          fontWeight: FontWeight.bold,
+                        ),
+                      ),
+                    ),
+
+                    // Age selector
+                    const AgeSelector(),
+
+                    SizedBox(height: 24.h),
+                    AppButton(
+                      isLoading: context
+                          .watch<RegisterscreenProvider>()
+                          .isLoading,
+                      buttonFunc: () async {
+                        if (formkey.currentState!.validate()) {
+                          await context.read<RegisterscreenProvider>().register(
+                            context,
+                            registerProvider.mailcontroller.text
+                                .trim()
+                                .toLowerCase(),
+                            registerProvider.passwordcontroller.text,
+                          );
+                        }
+                      },
+                      childWidget: Text(
+                        context.l10n.register,
+                        style: context.text.labelLarge?.copyWith(
+                          fontWeight: FontWeight.bold,
+                        ),
+                      ),
+                    ),
+                    if (msg != null) ...[
+                      SizedBox(height: 12.h),
+                      AppErrorwidget().showError(msg, context),
                     ],
-                  ),
-                ],
+
+                    SizedBox(height: 12.h),
+                    Row(
+                      mainAxisAlignment: MainAxisAlignment.center,
+                      crossAxisAlignment: CrossAxisAlignment.center,
+                      children: [
+                        Text(
+                          context.l10n.alreadyHaveAnAccount,
+                          style: context.text.titleMedium?.copyWith(
+                            color: context.colors.onSurfaceVariant.withValues(
+                              alpha: 0.8,
+                            ),
+                          ),
+                        ),
+                        TextButton(
+                          onPressed: () {
+                            registerProvider.clearData();
+                            Navigator.pushReplacement(
+                              context,
+                              MaterialPageRoute(
+                                builder: (context) => const Loginscreen(),
+                              ),
+                            );
+                          },
+                          child: Text(
+                            context.l10n.login,
+                            style: context.text.titleMedium?.copyWith(
+                              color: context.colors.primary,
+                              fontWeight: FontWeight.bold,
+                              decoration: TextDecoration.underline,
+                              decorationColor: context.colors.primary,
+                            ),
+                          ),
+                        ),
+                      ],
+                    ),
+                  ],
+                ),
               ),
             ),
           ),
@@ -313,113 +448,184 @@ class AgeSelector extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final registerProvider = context.read<RegisterscreenProvider>();
     final selectedAge = context.select<RegisterscreenProvider, int?>(
       (p) => p.selectedAge,
     );
-    final age = selectedAge ?? 24;
+    final currentAge = selectedAge ?? 24;
 
-    return Column(
-      children: [
-        Padding(
-          padding: EdgeInsets.symmetric(horizontal: 8.r),
-          child: Row(
+    final pageController = registerProvider.getAgePageController(currentAge);
+
+    // Sync PageController with provider age (e.g. when +/- buttons are clicked)
+    if (pageController.hasClients) {
+      final currentControllerPage = pageController.page?.round();
+      if (currentControllerPage != null &&
+          currentControllerPage != (currentAge - 10)) {
+        WidgetsBinding.instance.addPostFrameCallback((_) {
+          if (pageController.hasClients) {
+            pageController.animateToPage(
+              currentAge - 10,
+              duration: const Duration(milliseconds: 300),
+              curve: Curves.easeOutCubic,
+            );
+          }
+        });
+      }
+    }
+
+    return Container(
+      padding: EdgeInsets.symmetric(vertical: 12.h, horizontal: 8.w),
+      decoration: BoxDecoration(
+        color: context.colors.surface.withValues(alpha: 0.35),
+        borderRadius: BorderRadius.circular(20.r),
+        border: Border.all(
+          color: context.colors.outline.withValues(alpha: 0.15),
+          width: 1.5,
+        ),
+      ),
+      child: Column(
+        children: [
+          Row(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
-              Column(
-                crossAxisAlignment: CrossAxisAlignment.start,
-                children: [
-                  Text(
-                    '$age',
-                    style: TextStyle(
-                      fontSize: 36.sp,
-                      fontWeight: FontWeight.w600,
-                      color: context.theme.colorScheme.onSecondaryContainer,
-                      height: 1,
-                    ),
-                  ),
-                  SizedBox(height: 2.h),
-                  Text(
-                    S.of(context).yearsOld,
-                    style: TextStyle(
-                      fontSize: 12.sp,
-                      color: context.theme.colorScheme.outline,
-                    ),
-                  ),
-                ],
+              _AgeButton(
+                icon: Icons.remove_rounded,
+                onTap: () {
+                  final newAge = (currentAge - 1).clamp(10, 60);
+                  registerProvider.setAge(newAge);
+                },
               ),
+              Expanded(
+                child: SizedBox(
+                  height: 60.h,
+                  child: PageView.builder(
+                    controller: pageController,
+                    onPageChanged: (pageIndex) {
+                      final targetAge = 10 + pageIndex;
+                      if (registerProvider.selectedAge != targetAge) {
+                        registerProvider.setAge(targetAge);
+                      }
+                    },
+                    physics: const BouncingScrollPhysics(),
+                    itemCount: 51, // ages 10 to 60
+                    itemBuilder: (context, index) {
+                      final age = 10 + index;
+                      return AnimatedBuilder(
+                        animation: pageController,
+                        builder: (context, child) {
+                          double value = 0.0;
+                          if (pageController.position.haveDimensions) {
+                            value = pageController.page! - index;
+                          } else {
+                            value = (currentAge - 10 - index).toDouble();
+                          }
 
-              // +/- buttons
-              Row(
-                children: [
-                  _AgeButton(
-                    icon: Icons.remove,
-                    onTap: () {
-                      final newAge = (age - 1).clamp(10, 60);
-                      context.read<RegisterscreenProvider>().setAge(newAge);
+                          final double distance = value.abs();
+                          final double scale = (1.0 - (distance * 0.25)).clamp(
+                            0.72,
+                            1.0,
+                          );
+                          final double opacity = (1.0 - (distance * 0.45))
+                              .clamp(0.4, 1.0);
+                          final isSelected = distance < 0.5;
+
+                          return Center(
+                            child: Opacity(
+                              opacity: opacity,
+                              child: Transform.scale(
+                                scale: scale,
+                                child: Container(
+                                  width: 48.r,
+                                  height: 48.r,
+                                  alignment: Alignment.center,
+                                  decoration: BoxDecoration(
+                                    color: isSelected
+                                        ? context.colors.primary
+                                        : Colors.transparent,
+                                    shape: BoxShape.circle,
+                                    boxShadow: isSelected
+                                        ? [
+                                            BoxShadow(
+                                              color: context.colors.primary
+                                                  .withValues(alpha: 0.35),
+                                              blurRadius: 8,
+                                              offset: const Offset(0, 3),
+                                            ),
+                                          ]
+                                        : [],
+                                    border: Border.all(
+                                      color: isSelected
+                                          ? context.colors.primary
+                                          : context.colors.outline.withValues(
+                                              alpha: 0.08,
+                                            ),
+                                      width: 1.5,
+                                    ),
+                                  ),
+                                  child: Text(
+                                    '$age',
+                                    style: TextStyle(
+                                      fontSize: 18.sp,
+                                      fontWeight: isSelected
+                                          ? FontWeight.bold
+                                          : FontWeight.w500,
+                                      color: isSelected
+                                          ? context.colors.onPrimary
+                                          : context.colors.onSurfaceVariant
+                                                .withValues(alpha: 0.7),
+                                    ),
+                                  ),
+                                ),
+                              ),
+                            ),
+                          );
+                        },
+                      );
                     },
                   ),
-                  SizedBox(width: 8.w),
-                  _AgeButton(
-                    icon: Icons.add,
-                    onTap: () {
-                      final newAge = (age + 1).clamp(10, 60);
-                      context.read<RegisterscreenProvider>().setAge(newAge);
-                    },
-                  ),
-                ],
+                ),
+              ),
+              _AgeButton(
+                icon: Icons.add_rounded,
+                onTap: () {
+                  final newAge = (currentAge + 1).clamp(10, 60);
+                  registerProvider.setAge(newAge);
+                },
               ),
             ],
           ),
-        ),
-
-        SliderTheme(
-          data: SliderTheme.of(context).copyWith(
-            activeTrackColor: context.theme.colorScheme.primary,
-            inactiveTrackColor: Theme.of(
-              context,
-            ).colorScheme.outline.withValues(alpha: 0.3),
-            // ColorConstant.grey.withOpacity(0.2),
-            thumbColor: context.theme.colorScheme.primary,
-            overlayColor: context.theme.colorScheme.primary.withValues(
-              alpha: 0.15,
+          // SizedBox(height: 12.h),
+          // Ruler style tick lines
+          // Padding(
+          //   padding: EdgeInsets.symmetric(horizontal: 24.w),
+          //   child: Row(
+          //     mainAxisAlignment: MainAxisAlignment.spaceBetween,
+          //     children: List.generate(21, (index) {
+          //       final isMajor = index % 5 == 0;
+          //       return Container(
+          //         width: 2.w,
+          //         height: isMajor ? 12.h : 6.h,
+          //         decoration: BoxDecoration(
+          //           color: isMajor
+          //               ? context.colors.primary.withValues(alpha: 0.4)
+          //               : context.colors.outline.withValues(alpha: 0.15),
+          //           borderRadius: BorderRadius.circular(1.r),
+          //         ),
+          //       );
+          //     }),
+          //   ),
+          // ),
+          SizedBox(height: 8.h),
+          Text(
+            context.l10n.yearsOld,
+            style: TextStyle(
+              fontSize: 12.sp,
+              color: context.colors.onSurfaceVariant.withValues(alpha: 0.6),
+              fontWeight: FontWeight.w600,
             ),
-            trackHeight: 4,
-            thumbShape: RoundSliderThumbShape(enabledThumbRadius: 8.r),
           ),
-          child: Slider(
-            value: age.toDouble(),
-            min: 10,
-            max: 60,
-            divisions: 50,
-            onChanged: (val) =>
-                context.read<RegisterscreenProvider>().setAge(val.round()),
-          ),
-        ),
-
-        // Range labels
-        Padding(
-          padding: EdgeInsets.symmetric(horizontal: 10.w),
-          child: Row(
-            mainAxisAlignment: MainAxisAlignment.spaceBetween,
-            children: [
-              Text(
-                '10',
-                style: TextStyle(
-                  fontSize: 11.sp,
-                  color: context.theme.colorScheme.outline,
-                ),
-              ),
-              Text(
-                '60',
-                style: TextStyle(
-                  fontSize: 11.sp,
-                  color: context.theme.colorScheme.outline,
-                ),
-              ),
-            ],
-          ),
-        ),
-      ],
+        ],
+      ),
     );
   }
 }
@@ -434,19 +640,24 @@ class _AgeButton extends StatelessWidget {
     return GestureDetector(
       onTap: onTap,
       child: Container(
-        width: 40.r,
-        height: 40.r,
+        width: 38.r,
+        height: 38.r,
         decoration: BoxDecoration(
+          color: context.colors.surface.withValues(alpha: 0.85),
           shape: BoxShape.circle,
           border: Border.all(
-            color: context.theme.colorScheme.outline.withValues(alpha: 0.4),
+            color: context.colors.outline.withValues(alpha: 0.25),
+            width: 1.5,
           ),
+          boxShadow: [
+            BoxShadow(
+              color: context.colors.shadow.withValues(alpha: 0.05),
+              blurRadius: 4,
+              offset: const Offset(0, 2),
+            ),
+          ],
         ),
-        child: Icon(
-          icon,
-          size: 18.sp,
-          color: context.theme.colorScheme.onSurface,
-        ),
+        child: Icon(icon, size: 18.r, color: context.colors.onSurface),
       ),
     );
   }

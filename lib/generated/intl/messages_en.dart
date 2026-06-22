@@ -124,6 +124,7 @@ class MessageLookup extends MessageLookupByLibrary {
     "continueText": MessageLookupByLibrary.simpleMessage("Continue"),
     "copied": MessageLookupByLibrary.simpleMessage("Copied"),
     "correct": MessageLookupByLibrary.simpleMessage("Correct"),
+    "correctAnswerText": MessageLookupByLibrary.simpleMessage("Correct Answer"),
     "correctOrder": m2,
     "curatedContent": MessageLookupByLibrary.simpleMessage("Curated Content"),
     "currentPoints": MessageLookupByLibrary.simpleMessage("Current points"),
@@ -227,6 +228,7 @@ class MessageLookup extends MessageLookupByLibrary {
     ),
     "lesson": MessageLookupByLibrary.simpleMessage("Lesson"),
     "lessonComplete": MessageLookupByLibrary.simpleMessage("Lesson Complete!"),
+    "lessonReview": MessageLookupByLibrary.simpleMessage("Lesson Review"),
     "lessonsBuiltByLinguistsForRealWorldApplication":
         MessageLookupByLibrary.simpleMessage(
           "Lessons built by linguists for real-world application.",
@@ -371,6 +373,9 @@ class MessageLookup extends MessageLookupByLibrary {
     "syncingProgress": MessageLookupByLibrary.simpleMessage(
       "Syncing progress...",
     ),
+    "tapToRevealMeaning": MessageLookupByLibrary.simpleMessage(
+      "Tap to reveal meaning",
+    ),
     "tenMinPerDay": MessageLookupByLibrary.simpleMessage(
       "10 min/day | Stay consistent",
     ),
@@ -417,6 +422,7 @@ class MessageLookup extends MessageLookupByLibrary {
     "xpEarned": MessageLookupByLibrary.simpleMessage("XP Earned"),
     "xpPointsValue": m13,
     "yearsOld": MessageLookupByLibrary.simpleMessage("years old"),
+    "yourAnswer": MessageLookupByLibrary.simpleMessage("Your Answer"),
     "yourExperienceLevel": MessageLookupByLibrary.simpleMessage(
       "Your experience level?",
     ),

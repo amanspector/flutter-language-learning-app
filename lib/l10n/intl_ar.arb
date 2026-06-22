@@ -195,5 +195,9 @@
   "lesson": "درس",
   "lastLesson": "الدرس الأخير",
   "noLessonsAttempted": "لم يتم محاولة أي دروس بعد",
-  "completeLessonToSeeHistory": "أكمل درساً لترى سجل تاريخك هنا"
+  "completeLessonToSeeHistory": "أكمل درساً لترى سجل تاريخك هنا",
+  "yourAnswer": "إجابتك",
+  "correctAnswerText": "الإجابة الصحيحة",
+  "lessonReview": "مراجعة الدرس",
+  "tapToRevealMeaning": "اضغط لإظهار المعنى"
 }

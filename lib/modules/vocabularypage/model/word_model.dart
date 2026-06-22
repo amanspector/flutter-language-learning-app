@@ -100,7 +100,7 @@ class WordModel {
     }
     if (rep <= 4) {
       log("SRS: medium example, rep=$rep");
-      return examples[1];
+      return examples.length > 1 ? examples[1] : examples[0];
     }
     log("SRS: hard example, rep=$rep");
     return examples.last;

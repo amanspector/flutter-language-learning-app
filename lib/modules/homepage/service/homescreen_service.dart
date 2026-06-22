@@ -4,34 +4,38 @@ import 'package:firebase_auth/firebase_auth.dart';
 class HomescreenService {
   final FirebaseFirestore _firestore = FirebaseFirestore.instance;
   final FirebaseAuth _auth = FirebaseAuth.instance;
-  Future<Map<String, dynamic>?> getLastLesson() async {
+  Future<Map<String, dynamic>?> getLastLesson(String languageCode) async {
     final uid = _auth.currentUser?.uid;
     if (uid == null) throw Exception("User not logged in");
 
     final snapshot = await _firestore
         .collection('users')
         .doc(uid)
-        .collection('progress')
-        .doc('lesson_history')
-        .collection('lessons')
+        .collection('languages')
+        .doc(languageCode)
+        .collection('lesson_history')
         .orderBy('completed_at', descending: true)
         .limit(1)
         .get();
 
     if (snapshot.docs.isEmpty) return null;
-    return snapshot.docs.first.data();
+    final data = snapshot.docs.first.data();
+    data['doc_id'] = snapshot.docs.first.id;
+    return data;
   }
 
-  Future<List<Map<String, dynamic>>> getLessonHistory() async {
+  Future<List<Map<String, dynamic>>> getLessonHistory(
+    String languageCode,
+  ) async {
     final uid = _auth.currentUser?.uid;
     if (uid == null) throw Exception("User not logged in");
 
     final snapshot = await _firestore
         .collection('users')
         .doc(uid)
-        .collection('progress')
-        .doc('lesson_history')
-        .collection('lessons')
+        .collection('languages')
+        .doc(languageCode)
+        .collection('lesson_history')
         .orderBy('completed_at', descending: true)
         .get();
 

@@ -1,9 +1,9 @@
 import 'package:animated_text_kit/animated_text_kit.dart';
 import 'package:chatbot_app/core/appconstants/text_constant.dart';
+import 'package:chatbot_app/core/extensions/localization_extension.dart';
 import 'package:chatbot_app/core/extensions/theme_extension.dart';
 import 'package:chatbot_app/core/widgets/app_button.dart';
 import 'package:chatbot_app/core/widgets/app_customContainer.dart';
-import 'package:chatbot_app/generated/l10n.dart';
 import 'package:chatbot_app/modules/onboarding/provider/onboard_provider.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
@@ -15,8 +15,17 @@ class Languageselection extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final onboardProvider = context.watch<OnboardProvider>();
+    final addedLanguageLabels = onboardProvider.myLanguages
+        .map((lang) => lang['languageLabel'] as String?)
+        .whereType<String>()
+        .toSet();
+
     final languages = Textconstant.learningLanguages
-        .where((lang) => lang['code'] != onboardProvider.selectedNativeLanguage)
+        .where(
+          (lang) =>
+              lang['code'] != onboardProvider.selectedNativeLanguage &&
+              !addedLanguageLabels.contains(lang['label']),
+        )
         .toList();
     return SingleChildScrollView(
       child: Padding(
@@ -38,11 +47,11 @@ class Languageselection extends StatelessWidget {
                       totalRepeatCount: 1,
                       animatedTexts: [
                         TyperAnimatedText(
-                          S.of(context).whatDoYouWantToLearn,
+                          context.l10n.whatDoYouWantToLearn,
                           speed: Duration(milliseconds: 40),
-                          textStyle: Theme.of(
-                            context,
-                          ).textTheme.displayMedium?.copyWith(fontSize: 30.sp),
+                          textStyle: context.text.displayMedium?.copyWith(
+                            fontSize: 30.sp,
+                          ),
                         ),
                       ],
                     ),
@@ -52,8 +61,8 @@ class Languageselection extends StatelessWidget {
                 Padding(
                   padding: EdgeInsetsGeometry.symmetric(horizontal: 15.r),
                   child: Text(
-                    S
-                        .of(context)
+                    context
+                        .l10n
                         .chooseALanguageToStartYourJourneyIntoQuietProductivityAndFocusedGrowth,
                     style: context.text.bodyLarge,
                   ),

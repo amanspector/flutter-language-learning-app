@@ -141,11 +141,11 @@
   "correctOrder": "Correct order: {currentSentence}",
   "fillInTheBlank": "Fill in the blank for: '{wordTranslation}' → _____",
   "pickTheCorrectTranslation": "Pick the correct translation",
-  "joinTheJourney" : "Join the Journey",
-  "masterNewSkills":"Master new skills with an immersive, game-like experience.",
-  "email" : "Email",
-  "password" : "Password",
-  "confirmPassword" : "Confirm password",
+  "joinTheJourney": "Join the Journey",
+  "masterNewSkills": "Master new skills with an immersive, game-like experience.",
+  "email": "Email",
+  "password": "Password",
+  "confirmPassword": "Confirm password",
   "confirmPasswordIsRequired": "Confirm password is required",
   "passwordDoesntMatch": "password doesnt match!",
   "pleaseSelectYourGender": "Please select your gender",
@@ -195,5 +195,9 @@
   "lesson": "Lesson",
   "lastLesson": "Last lesson",
   "noLessonsAttempted": "No lessons attempted yet",
-  "completeLessonToSeeHistory": "Complete a lesson to see your history here"
+  "completeLessonToSeeHistory": "Complete a lesson to see your history here",
+  "yourAnswer": "Your Answer",
+  "correctAnswerText": "Correct Answer",
+  "lessonReview": "Lesson Review",
+  "tapToRevealMeaning": "Tap to reveal meaning"
 }

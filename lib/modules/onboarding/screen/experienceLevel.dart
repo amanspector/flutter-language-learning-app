@@ -1,8 +1,8 @@
 import 'package:animated_text_kit/animated_text_kit.dart';
+import 'package:chatbot_app/core/extensions/localization_extension.dart';
 import 'package:chatbot_app/core/extensions/theme_extension.dart';
 import 'package:chatbot_app/core/widgets/app_button.dart';
 import 'package:chatbot_app/core/widgets/app_customContainer.dart';
-import 'package:chatbot_app/generated/l10n.dart';
 import 'package:chatbot_app/modules/onboarding/provider/onboard_provider.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
@@ -15,19 +15,19 @@ class Experiencelevel extends StatelessWidget {
   Widget build(BuildContext context) {
     final experienceLevels = [
       {
-        'label': S.of(context).beginner,
+        'label': context.l10n.beginner,
         'code': 'Beginner',
-        'subtitle': S.of(context).newToThisTopicStartingFromScratch,
+        'subtitle': context.l10n.newToThisTopicStartingFromScratch,
       },
       {
-        'label': S.of(context).intermediate,
+        'label': context.l10n.intermediate,
         'code': 'Intermediate',
-        'subtitle': S.of(context).comfortableWithBasicsSeekingDeeperMastery,
+        'subtitle': context.l10n.comfortableWithBasicsSeekingDeeperMastery,
       },
       {
-        'label': S.of(context).advanced,
+        'label': context.l10n.advanced,
         'code': 'Advanced',
-        'subtitle': S.of(context).expertKnowledgeLookingForAdvancedNuances,
+        'subtitle': context.l10n.expertKnowledgeLookingForAdvancedNuances,
       },
     ];
     final onboardProvider = context.watch<OnboardProvider>();
@@ -53,7 +53,7 @@ class Experiencelevel extends StatelessWidget {
                       totalRepeatCount: 1,
                       animatedTexts: [
                         TyperAnimatedText(
-                          S.of(context).yourExperienceLevel,
+                          context.l10n.yourExperienceLevel,
                           speed: Duration(milliseconds: 40),
                           textStyle: context.text.displayMedium?.copyWith(
                             fontSize: 30.sp,
@@ -67,8 +67,8 @@ class Experiencelevel extends StatelessWidget {
                 Padding(
                   padding: EdgeInsetsGeometry.symmetric(horizontal: 15.r),
                   child: Text(
-                    S
-                        .of(context)
+                    context
+                        .l10n
                         .thisHelpsUsTailorTheLessonsToYourCurrentKnowledgeAndLearningPace,
                     style: context.text.bodyLarge,
                   ),

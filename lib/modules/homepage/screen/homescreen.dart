@@ -1,28 +1,27 @@
-import 'package:chatbot_app/core/appconstants/color_constant.dart';
-import 'package:chatbot_app/core/extensions/daily_goal_extension.dart';
-import 'package:chatbot_app/core/extensions/localization_extension.dart';
-import 'package:chatbot_app/core/extensions/theme_extension.dart';
-import 'package:chatbot_app/core/extensions/app_animation_extension.dart';
-import 'package:chatbot_app/core/widgets/app_button.dart';
-import 'package:chatbot_app/core/widgets/app_circular_progress.dart';
-import 'package:chatbot_app/core/widgets/app_container.dart';
-import 'package:chatbot_app/core/widgets/app_customContainer.dart';
-import 'package:chatbot_app/core/widgets/app_custom_navbar.dart';
-import 'package:chatbot_app/core/widgets/app_screen.dart';
-import 'package:chatbot_app/generated/l10n.dart';
 import 'package:chatbot_app/modules/homepage/provider/homescreen_provider.dart';
-import 'package:chatbot_app/modules/chatbotpage/screen/chathistory.dart';
-import 'package:chatbot_app/modules/homepage/screen/lessonHistoryScreen.dart';
-import 'package:chatbot_app/modules/homepage/screen/lessonReviewScreen.dart';
 import 'package:chatbot_app/modules/onboarding/provider/onboard_provider.dart';
-import 'package:chatbot_app/modules/profilepage/screen/userProfile.dart';
+import 'package:chatbot_app/modules/homepage/screen/lessonHistoryScreen.dart';
 import 'package:chatbot_app/modules/vocabularypage/screen/vocabscreen.dart';
-import 'package:flutter/material.dart';
 import 'package:flutter_floating_bottom_bar/flutter_floating_bottom_bar.dart';
+import 'package:chatbot_app/modules/homepage/screen/lessonReviewScreen.dart';
+import 'package:chatbot_app/core/extensions/app_animation_extension.dart';
+import 'package:chatbot_app/core/extensions/localization_extension.dart';
+import 'package:chatbot_app/modules/profilepage/screen/userProfile.dart';
+import 'package:chatbot_app/modules/chatbotpage/screen/chathistory.dart';
+import 'package:chatbot_app/core/extensions/daily_goal_extension.dart';
+import 'package:chatbot_app/core/widgets/app_circular_progress.dart';
+import 'package:chatbot_app/core/widgets/app_customContainer.dart';
+import 'package:chatbot_app/core/appconstants/color_constant.dart';
+import 'package:chatbot_app/core/extensions/theme_extension.dart';
+import 'package:chatbot_app/core/widgets/app_custom_navbar.dart';
+import 'package:chatbot_app/core/widgets/app_container.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:chatbot_app/core/widgets/app_button.dart';
+import 'package:chatbot_app/core/widgets/app_screen.dart';
 import 'package:flutter_svg/flutter_svg.dart';
-import 'package:intl/intl.dart';
 import 'package:provider/provider.dart';
+import 'package:flutter/material.dart';
+import 'package:intl/intl.dart';
 
 // ignore: must_be_immutable
 class Homescreen extends StatelessWidget {
@@ -37,19 +36,10 @@ class Homescreen extends StatelessWidget {
 
     return AppScreen(
       body: BottomBar(
+        showIcon: false,
+        scrollBehavior: BottomBarScrollBehavior(hideOnScroll: false),
         theme: BottomBarThemeData(
           layout: BottomBarLayout(width: MediaQuery.widthOf(context)),
-          iconHeight: 50,
-          iconWidth: 50,
-
-          iconDecoration: BoxDecoration(
-            shape: BoxShape.circle,
-            color: context.theme.colorScheme.onPrimaryContainer.withValues(
-              alpha: 30,
-            ),
-          ),
-
-          barDecoration: BoxDecoration(color: ColorConstant.colorTransparent),
         ),
         body: PageView(
           physics: NeverScrollableScrollPhysics(),
@@ -69,7 +59,7 @@ class Homescreen extends StatelessWidget {
           onTap: (value) {
             context.read<HomescreenProvider>().bottomNavBarIndex(value);
           },
-        ).slideInFromBottom,
+        ),
       ),
     );
   }
@@ -88,7 +78,7 @@ class Homescreen extends StatelessWidget {
       (provider) => DailyGoal.getMaxWordsForGoal(provider.selectedDailyGoal),
     );
     String selectedLanguage = context.select<OnboardProvider, String>(
-      (provider) => provider.selectedlanguage ?? S.of(context).notFound,
+      (provider) => provider.selectedlanguage ?? context.l10n.notFound,
     );
     return Column(
       mainAxisAlignment: MainAxisAlignment.start,
@@ -276,26 +266,15 @@ class Homescreen extends StatelessWidget {
                             ).fadeInSlideUp,
                             AppContainer(
                               borderRadius: 30.r,
-                              backgroundColor: Theme.of(
-                                context,
-                              ).colorScheme.surface.withValues(alpha: 0.10),
+                              backgroundColor: context.theme.colorScheme.outline
+                                  .withValues(alpha: 0.10),
                               widget: IconButton(
                                 onPressed: () async {
                                   context
                                       .read<HomescreenProvider>()
                                       .bottomNavBarIndex(1);
-                                  // Navigator.push(
-                                  //   context,
-                                  //   MaterialPageRoute(
-                                  //     builder: (context) => Lessonhistoryscreen(
-                                  //       lessonHistory: context
-                                  //           .read<HomescreenProvider>()
-                                  //           .lessonHistory,
-                                  //     ),
-                                  //   ),
-                                  // );
                                 },
-                                icon: Icon(Icons.arrow_forward_outlined),
+                                icon: Icon(Icons.arrow_forward_rounded),
                               ),
                             ).softFocusIn,
                           ],
@@ -322,7 +301,10 @@ class Homescreen extends StatelessWidget {
                               );
                             },
                             child: Padding(
-                              padding: EdgeInsets.symmetric(horizontal: 20.r),
+                              padding: EdgeInsets.symmetric(
+                                horizontal: 20.r,
+                                vertical: 10,
+                              ),
                               child: CustomPaint(
                                 painter: TicketPainter(
                                   borderColor: context.theme.colorScheme.outline
@@ -391,31 +373,6 @@ class Homescreen extends StatelessWidget {
             ),
           ),
         ),
-
-        // Padding(
-        //   padding: EdgeInsets.all(10.0),
-        //   child: CustomPaint(
-        //     painter: TicketPainter(
-        //       borderColor: context.theme.colorScheme.outline.withValues(
-        //         alpha: 0.20,
-        //       ),
-        //       glowColor: context.theme.colorScheme.primary,
-        //       concaveDepth: 12,
-        //     ),
-        //     child: AppContainer(
-        //       width: 400,
-        //       height: 100,
-        //       widget: Padding(
-        //         padding: EdgeInsets.all(10.0),
-        //         child: Column(
-        //           mainAxisAlignment: MainAxisAlignment.center,
-        //           crossAxisAlignment: CrossAxisAlignment.stretch,
-        //           children: [Text("data"), Text("data"), Text("data")],
-        //         ),
-        //       ),
-        //     ),
-        //   ),
-        // ),
       ],
     );
   }

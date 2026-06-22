@@ -2,6 +2,7 @@ import 'dart:developer';
 
 import 'package:chatbot_app/modules/homepage/provider/homescreen_provider.dart';
 import 'package:chatbot_app/modules/onboarding/provider/onboard_provider.dart';
+import 'package:chatbot_app/modules/onboarding/service/firebase_onboarding_service.dart';
 import 'package:chatbot_app/modules/vocabularypage/provider/vocab_provider.dart';
 import 'package:chatbot_app/modules/auth/service/firebase_auth_service.dart';
 import 'package:flutter/material.dart';
@@ -25,19 +26,40 @@ class Sessionmanage {
 
           if (!context.mounted) return false;
 
+          final activeLanguageCode = data['active_language'] as String?;
+          if (activeLanguageCode == null) {
+            log("SessionManager: No active_language found.");
+            return false;
+          }
+
+          final languages = await FirebaseOnboardingService.getLanguages();
+          final activeLangData = languages.firstWhere(
+            (l) => l['code'] == activeLanguageCode,
+            orElse: () => {},
+          );
+
+          if (activeLangData.isEmpty) {
+            log("SessionManager: No config found for active language.");
+            return false;
+          }
+
+          if (!context.mounted) return false;
+
           final onboard = context.read<OnboardProvider>();
           final vocab = context.read<VocabProvider>();
           final home = context.read<HomescreenProvider>();
 
           onboard.setData(
-            language: data['language'],
+            language: activeLangData['languageLabel'],
             nativeLanguage: data['nativeLanguage'],
-            level: data['level'],
-            category: data['category'],
-            dailygoal: data['dailygoal'],
+            level: activeLangData['level'],       // per-language: from language doc
+            category: activeLangData['category'], // per-language: from language doc
+            dailygoal: activeLangData['dailygoal'], // per-language: from language doc
             userGender: data['gender'] as String?,
             userAge: data['age'] as int?,
           );
+
+          await onboard.loadLanguages();
 
           await home.initializeOnce(
             onboardprovider: onboard,

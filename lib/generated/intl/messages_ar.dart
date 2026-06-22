@@ -123,6 +123,9 @@ class MessageLookup extends MessageLookupByLibrary {
     "continueText": MessageLookupByLibrary.simpleMessage("متابعة"),
     "copied": MessageLookupByLibrary.simpleMessage("تم النسخ"),
     "correct": MessageLookupByLibrary.simpleMessage("صحيح"),
+    "correctAnswerText": MessageLookupByLibrary.simpleMessage(
+      "الإجابة الصحيحة",
+    ),
     "correctOrder": m2,
     "curatedContent": MessageLookupByLibrary.simpleMessage("محتوى مخصص"),
     "currentPoints": MessageLookupByLibrary.simpleMessage("النقاط الحالية"),
@@ -228,6 +231,7 @@ class MessageLookup extends MessageLookupByLibrary {
     ),
     "lesson": MessageLookupByLibrary.simpleMessage("درس"),
     "lessonComplete": MessageLookupByLibrary.simpleMessage("اكتمل الدرس!"),
+    "lessonReview": MessageLookupByLibrary.simpleMessage("مراجعة الدرس"),
     "lessonsBuiltByLinguistsForRealWorldApplication":
         MessageLookupByLibrary.simpleMessage(
           "دروس صممها خبراء لغويون للتطبيق في العالم الحقيقي.",
@@ -366,6 +370,9 @@ class MessageLookup extends MessageLookupByLibrary {
     "syncingProgress": MessageLookupByLibrary.simpleMessage(
       "جاري مزامنة التقدم...",
     ),
+    "tapToRevealMeaning": MessageLookupByLibrary.simpleMessage(
+      "اضغط لإظهار المعنى",
+    ),
     "tenMinPerDay": MessageLookupByLibrary.simpleMessage(
       "10 دقائق/يوميًا | حافظ على الاستمرارية",
     ),
@@ -414,6 +421,7 @@ class MessageLookup extends MessageLookupByLibrary {
     "xpEarned": MessageLookupByLibrary.simpleMessage("نقاط الخبرة المكتسبة"),
     "xpPointsValue": m13,
     "yearsOld": MessageLookupByLibrary.simpleMessage("سنة"),
+    "yourAnswer": MessageLookupByLibrary.simpleMessage("إجابتك"),
     "yourExperienceLevel": MessageLookupByLibrary.simpleMessage(
       "ما هو مستوى خبرتك؟",
     ),

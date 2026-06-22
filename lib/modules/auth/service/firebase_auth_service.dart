@@ -31,12 +31,14 @@ class FirebaseAuthService {
       return null;
     } on FirebaseAuthException catch (e) {
       log('Register error: ${e.code}');
+      if (!context.mounted) return null;
       if (e.code == "email-already-in-use") {
         return context.l10n.emailAddressAlreadyExistsTryToLogin;
       }
       return e.message ?? context.l10n.registrationFailed;
     } catch (e) {
       log('Register unknown error: $e');
+      if (!context.mounted) return null;
       return context.l10n.somethingWentWrong;
     }
   }
@@ -54,6 +56,7 @@ class FirebaseAuthService {
       return null;
     } on FirebaseAuthException catch (e) {
       log(e.toString());
+      if (!context.mounted) return null;
 
       if (e.code == 'invalid-credential') {
         return context.l10n.invalidCredential;
@@ -65,6 +68,7 @@ class FirebaseAuthService {
       return e.message ?? context.l10n.loginFailed;
     } catch (e) {
       log(e.toString());
+      if (!context.mounted) return null;
       return context.l10n.somethingWentWrong;
     }
   }
@@ -97,8 +101,6 @@ class FirebaseAuthService {
           return 'This email address is already in use.';
         case 'invalid-email':
           return 'Please enter a valid email address.';
-        case 'requires-recent-login':
-          return 'Please sign in again before changing your email.';
         default:
           return e.message ?? 'Failed to update email.';
       }

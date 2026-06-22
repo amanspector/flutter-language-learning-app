@@ -1,3 +1,4 @@
+import 'package:chatbot_app/core/extensions/localization_extension.dart';
 import 'package:chatbot_app/modules/chatbotpage/service/firebase_chat_service.dart';
 import 'package:chatbot_app/modules/onboarding/provider/getStarted_provider.dart';
 import 'package:chatbot_app/modules/vocabularypage/provider/vocab_provider.dart';
@@ -36,7 +37,6 @@ void main() async {
 class MyApp extends StatelessWidget {
   final GeminiRepo repo;
   final service = FirebaseChatService();
-  // final GlobalKey<NavigatorState> navigatorKey = GlobalKey<NavigatorState>();
   MyApp({super.key, required this.repo});
 
   @override
@@ -66,8 +66,7 @@ class MyApp extends StatelessWidget {
                 navigatorKey: navigatorKey,
                 debugShowCheckedModeBanner: false,
                 locale: Locale(onboard.selectedNativeLanguage.toString()),
-                onGenerateTitle: (BuildContext context) =>
-                    S.of(context).appName,
+                onGenerateTitle: (BuildContext context) => context.l10n.appName,
                 localizationsDelegates: [
                   S.delegate,
                   GlobalMaterialLocalizations.delegate,

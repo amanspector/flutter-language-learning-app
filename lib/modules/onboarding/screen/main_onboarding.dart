@@ -6,7 +6,6 @@ import 'package:chatbot_app/core/widgets/app_button.dart';
 import 'package:chatbot_app/core/widgets/app_container.dart';
 import 'package:chatbot_app/core/widgets/app_loading_screen.dart';
 import 'package:chatbot_app/core/widgets/app_navigator.dart';
-import 'package:chatbot_app/generated/l10n.dart';
 import 'package:chatbot_app/modules/homepage/provider/homescreen_provider.dart';
 import 'package:chatbot_app/modules/onboarding/provider/onboard_provider.dart';
 import 'package:chatbot_app/modules/onboarding/screen/appLanguageSelection.dart';
@@ -24,19 +23,27 @@ import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
 class MainOnboarding extends StatelessWidget {
-  const MainOnboarding({super.key});
+  final bool isAddingLanguage;
+  const MainOnboarding({super.key, this.isAddingLanguage = false});
   @override
   Widget build(BuildContext context) {
     final onboardProvider = context.watch<OnboardProvider>();
     final PageController pagecontroller = PageController();
 
-    final onbordingpages = [
-      Applanguageselection(),
-      Languageselection(),
-      Goalselection(),
-      DailygoalScreen(),
-      Experiencelevel(),
-    ];
+    final onbordingpages = isAddingLanguage
+        ? [
+            Languageselection(),
+            Goalselection(),
+            DailygoalScreen(),
+            Experiencelevel(),
+          ]
+        : [
+            Applanguageselection(),
+            Languageselection(),
+            Goalselection(),
+            DailygoalScreen(),
+            Experiencelevel(),
+          ];
 
     return Scaffold(
       body: AmbientBackground(
@@ -63,12 +70,16 @@ class MainOnboarding extends StatelessWidget {
                                 curve: Curves.easeInOut,
                               );
                             } else {
-                              Navigator.pushReplacement(
-                                context,
-                                MaterialPageRoute(
-                                  builder: (context) => Getstarted(),
-                                ),
-                              );
+                              if (isAddingLanguage) {
+                                Navigator.pop(context);
+                              } else {
+                                Navigator.pushReplacement(
+                                  context,
+                                  MaterialPageRoute(
+                                    builder: (context) => Getstarted(),
+                                  ),
+                                );
+                              }
                             }
                           },
                           icon: Icon(Icons.arrow_back_rounded),
@@ -133,14 +144,16 @@ class MainOnboarding extends StatelessWidget {
         padding: EdgeInsets.symmetric(horizontal: 15.r, vertical: 15.r),
         child: AppButton(
           buttonFunc: () async {
-            onboardProvider.validate(onboardProvider.currentPage);
+            onboardProvider.validate(
+              onboardProvider.currentPage,
+              isAddingLanguage: isAddingLanguage,
+            );
             if (onboardProvider.error_message != null) return;
 
             final isLastPage =
                 onboardProvider.currentPage == onbordingpages.length - 1;
 
             if (isLastPage) {
-              // ✅ capture everything BEFORE any navigation
               final vocabProvider = context.read<VocabProvider>();
               final homeProvider = context.read<HomescreenProvider>();
               final selectedLang = onboardProvider.selectedlanguage;
@@ -152,49 +165,98 @@ class MainOnboarding extends StatelessWidget {
 
               if (selectedLang == null) return;
 
-              onboardProvider.updateNativeLanguage(selectedNative!);
-
-              // ✅ navigate first
-              Navigator.pushReplacement(
-                context,
-                MaterialPageRoute(
-                  builder: (_) => AppLoadingScreen(
-                    message: loadingMessage,
-                    generationFailed: vocabProvider.generationFailed,
-                    onRetry: () =>
-                        vocabProvider.generateWordsFromAI(onboardProvider),
+              if (isAddingLanguage) {
+                Navigator.pushReplacement(
+                  context,
+                  MaterialPageRoute(
+                    builder: (_) => AppLoadingScreen(
+                      message: loadingMessage,
+                      generationFailed: vocabProvider.generationFailed,
+                      onRetry: () =>
+                          vocabProvider.generateWordsFromAI(onboardProvider),
+                    ),
                   ),
-                ),
-              );
+                );
 
-              try {
-                await FirebaseOnboardingService.setprovider(
-                  true,
-                  selectedLang,
-                  selectedNative,
-                  selectedLevel!,
-                  selectedGoal!,
-                  selectedDailyGoal!,
-                );
-                log("setprovider done");
+                try {
+                  await onboardProvider.addNewLanguage(
+                    languageCode: onboardProvider.learningLanguageCode,
+                    languageLabel: selectedLang,
+                    level: selectedLevel!,
+                    category: selectedGoal!,
+                    dailygoal: selectedDailyGoal!,
+                  );
+                  log("addNewLanguage done");
 
-                await homeProvider.initializeOnce(
-                  onboardprovider: onboardProvider,
-                  vocabprovider: vocabProvider,
-                );
-                log("initializeOnce done");
+                  await onboardProvider.switchLanguage(
+                    onboardProvider.learningLanguageCode,
+                  );
+                  log("switchLanguage done");
 
-                // ✅ use navigatorKey instead of context
-                navigatorKey.currentState?.pushAndRemoveUntil(
-                  MaterialPageRoute(builder: (_) => Homescreen()),
-                  (route) => false,
+                  vocabProvider.reset();
+
+                  await homeProvider.initSession(
+                    onboardprovider: onboardProvider,
+                    vocabprovider: vocabProvider,
+                  );
+                  log("initializeOnce done");
+
+                  navigatorKey.currentState?.pushAndRemoveUntil(
+                    MaterialPageRoute(builder: (_) => Homescreen()),
+                    (route) => false,
+                  );
+                } catch (e) {
+                  log("add language error: $e");
+                  navigatorKey.currentState?.pushAndRemoveUntil(
+                    MaterialPageRoute(builder: (_) => Homescreen()),
+                    (route) => false,
+                  );
+                }
+              } else {
+                onboardProvider.updateNativeLanguage(selectedNative!);
+
+                Navigator.pushReplacement(
+                  context,
+                  MaterialPageRoute(
+                    builder: (_) => AppLoadingScreen(
+                      message: loadingMessage,
+                      generationFailed: vocabProvider.generationFailed,
+                      onRetry: () =>
+                          vocabProvider.generateWordsFromAI(onboardProvider),
+                    ),
+                  ),
                 );
-              } catch (e) {
-                log("onboarding error: $e");
-                navigatorKey.currentState?.pushAndRemoveUntil(
-                  MaterialPageRoute(builder: (_) => MainOnboarding()),
-                  (route) => false,
-                );
+
+                try {
+                  await FirebaseOnboardingService.setprovider(
+                    true,
+                    selectedLang,                           // languageLabel (display name, e.g. "Spanish")
+                    onboardProvider.learningLanguageCode,  // languageCode (stable code, e.g. "es")
+                    selectedNative,
+                    selectedLevel!,
+                    selectedGoal!,
+                    selectedDailyGoal!,
+                  );
+                  log("setprovider done");
+
+                  await homeProvider.initializeOnce(
+                    onboardprovider: onboardProvider,
+                    vocabprovider: vocabProvider,
+                  );
+                  log("initializeOnce done");
+
+                  // ✅ use navigatorKey instead of context
+                  navigatorKey.currentState?.pushAndRemoveUntil(
+                    MaterialPageRoute(builder: (_) => Homescreen()),
+                    (route) => false,
+                  );
+                } catch (e) {
+                  log("onboarding error: $e");
+                  navigatorKey.currentState?.pushAndRemoveUntil(
+                    MaterialPageRoute(builder: (_) => MainOnboarding()),
+                    (route) => false,
+                  );
+                }
               }
             } else {
               pagecontroller.nextPage(
@@ -204,7 +266,7 @@ class MainOnboarding extends StatelessWidget {
             }
           },
           childWidget: Text(
-            S.of(context).continueText,
+            context.l10n.continueText,
             style: context.text.labelMedium,
           ),
         ),

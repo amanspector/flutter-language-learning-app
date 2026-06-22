@@ -32,7 +32,6 @@ class VocabScreen extends StatelessWidget {
     if (!provider.isloadingAidata && provider.todaywords.isEmpty) {
       WidgetsBinding.instance.addPostFrameCallback((_) {
         provider.loadWords(
-          uilangauage: onboardProvider.selectedlanguage!,
           ttslangauage: TTSService.getCode(onboardProvider.selectedlanguage!),
           experienceLevel: onboardProvider.selectedExperienceLevel!,
           category: onboardProvider.selectedgoal!,
@@ -239,9 +238,9 @@ class VocabScreen extends StatelessWidget {
                                                           )
                                                           ?.sentence ??
                                                       word.example,
-                                                  style: Theme.of(
-                                                    context,
-                                                  ).textTheme.headlineSmall,
+                                                  style: context
+                                                      .text
+                                                      .headlineSmall,
                                                 ).fadeInSlideUp,
                                               ),
                                               SizedBox(width: 10.w),
@@ -329,19 +328,17 @@ class VocabScreen extends StatelessWidget {
                                         ),
                                       ],
                                     )
-                                  : Padding(
-                                      padding: EdgeInsets.all(20.r),
-                                      child: Lottie.asset(
-                                        height: 60,
-                                        'assets/lottie/tap.json',
-                                      ),
-
-                                      // Text(
-                                      //   context.l10n.meaning,
-                                      //   style: Theme.of(
-                                      //     context,
-                                      //   ).textTheme.headlineSmall,
-                                      // ),
+                                  : Column(
+                                      children: [
+                                        Lottie.asset(
+                                          height: 70,
+                                          'assets/lottie/tap1.json',
+                                        ),
+                                        Text(
+                                          context.l10n.tapToRevealMeaning,
+                                          style: context.text.bodyMedium,
+                                        ),
+                                      ],
                                     ),
                             ),
                           ],
