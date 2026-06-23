@@ -199,5 +199,6 @@
   "yourAnswer": "إجابتك",
   "correctAnswerText": "الإجابة الصحيحة",
   "lessonReview": "مراجعة الدرس",
-  "tapToRevealMeaning": "اضغط لإظهار المعنى"
+  "tapToRevealMeaning": "اضغط لإظهار المعنى",
+  "timeTaken": "الوقت المستغرق"
 }

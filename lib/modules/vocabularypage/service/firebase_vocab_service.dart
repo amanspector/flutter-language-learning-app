@@ -3,6 +3,7 @@ import 'package:chatbot_app/modules/exercisepage/model/exercise_model.dart';
 import 'package:chatbot_app/modules/vocabularypage/model/word_model.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
+import 'package:intl/intl.dart';
 
 class VocabFetchResult {
   final List<Map<String, dynamic>> words;
@@ -97,7 +98,7 @@ class FirebaseVocabService {
         'last_lesson_date': timestamp,
       }, SetOptions(merge: true));
 
-      await _updateStreak(uid);
+      await onSessionCompleted(uid);
       await batch.commit();
 
       log("✅ Lesson results saved successfully");
@@ -143,8 +144,9 @@ class FirebaseVocabService {
           'interval': 1,
           'repetitions': 0,
           'next_review': DateTime.now()
-              .add(Duration(days: 1))
+              .add(const Duration(days: 1))
               .toIso8601String(),
+          'word_data': w.toJson(),
         });
       }
     }
@@ -165,7 +167,66 @@ class FirebaseVocabService {
           'interval': word.srsInterval,
           'repetitions': word.srsRepetitions,
           'next_review': word.srsNextReview.toIso8601String(),
+          'word_data': word.toJson(),
         });
+  }
+
+  Future<List<WordModel>> getDueSrsWords(
+    String language, {
+    String? level,
+    String? category,
+  }) async {
+    final uid = _auth.currentUser!.uid;
+    final now = DateTime.now().toIso8601String();
+    final snap = await _firestore
+        .collection('users')
+        .doc(uid)
+        .collection('languages')
+        .doc(language)
+        .collection('srs_cards')
+        .where('next_review', isLessThanOrEqualTo: now)
+        .get();
+
+    final List<WordModel> list = [];
+    for (final doc in snap.docs) {
+      final data = doc.data();
+      if (data['word_data'] != null) {
+        final wordData = Map<String, dynamic>.from(data['word_data'] as Map);
+        wordData['srs_interval'] = data['interval'] ?? 1;
+        wordData['srs_repetitions'] = data['repetitions'] ?? 0;
+        wordData['srs_next_review'] = data['next_review'];
+        list.add(WordModel.fromJson(wordData));
+      } else if (level != null && category != null) {
+        try {
+          final docId =
+              "${language.toLowerCase()}_${level.toLowerCase()}_${category.toLowerCase()}";
+          final wordDoc = await _firestore
+              .collection('users')
+              .doc(uid)
+              .collection('languages')
+              .doc(language)
+              .collection('vocabulary')
+              .doc(docId)
+              .collection('words')
+              .doc(doc.id)
+              .get();
+          if (wordDoc.exists && wordDoc.data() != null) {
+            final wordData = Map<String, dynamic>.from(wordDoc.data()!);
+            wordData['srs_interval'] = data['interval'] ?? 1;
+            wordData['srs_repetitions'] = data['repetitions'] ?? 0;
+            wordData['srs_next_review'] = data['next_review'];
+            final model = WordModel.fromJson(wordData);
+            list.add(model);
+
+            // Auto-upgrade legacy card to include word_data
+            await updateSrsCard(model, language);
+          }
+        } catch (e) {
+          log("Fallback fetch failed for legacy card ${doc.id}: $e");
+        }
+      }
+    }
+    return list;
   }
 
   Future<List<String>> getDueSrsWordIds(String langauge) async {
@@ -182,53 +243,123 @@ class FirebaseVocabService {
     return snap.docs.map((d) => d['word_id'] as String).toList();
   }
 
-  Future<void> _updateStreak(String uid) async {
+  Future<void> checkAndUpdateStreak(String uid) async {
     try {
       final docRef = _firestore.collection('users').doc(uid);
-      final userDoc = await docRef.get();
-      final data = userDoc.data();
-      if (data == null) return;
-      final lastLessonTimestamp = data['last_lesson_date'] as Timestamp?;
-      final currentStreak = (data['current_streak'] ?? 0) as int;
+      final snapshot = await docRef.get();
+      if (!snapshot.exists) return;
+      final data = snapshot.data() ?? {};
 
-      final now = DateTime.now();
-      final today = DateTime(now.year, now.month, now.day);
-      int newStreak;
+      final today = DateTime.now();
+      final todayStr = DateFormat('yyyy-MM-dd').format(today);
+      final lastSessionDateStr = data['lastSessionDate'] as String?;
+      final lastCheckedDateStr = data['lastCheckedDate'] as String?;
 
-      log("Last lesson: $lastLessonTimestamp");
-      log("Current streak: $currentStreak");
-      log("Today: $today");
-      if (lastLessonTimestamp == null) {
-        newStreak = 1;
-      } else {
-        final lastLessonDate = lastLessonTimestamp.toDate();
-        final lastLessonDay = DateTime(
-          lastLessonDate.year,
-          lastLessonDate.month,
-          lastLessonDate.day,
-        );
-        final daysDifference = today.difference(lastLessonDay).inDays;
-        log("Diff: $daysDifference");
-
-        if (daysDifference == 0) {
-          newStreak = currentStreak == 0 ? 1 : currentStreak;
-        } else if (daysDifference == 1) {
-          newStreak = currentStreak + 1;
-        } else {
-          newStreak = 1;
-        }
+      if (lastCheckedDateStr == todayStr) {
+        log("Streak check already completed today. Skipping.");
+        return;
       }
 
-      final longestStreak = (data['longest_streak'] ?? 0) as int;
-      log("new streak: $newStreak");
-      log("longest streak : $longestStreak");
-      await docRef.set({
-        'current_streak': newStreak,
-        'longest_streak': newStreak > longestStreak ? newStreak : longestStreak,
-        'last_lesson_date': Timestamp.now(),
-      }, SetOptions(merge: true));
+      final updates = <String, dynamic>{
+        'lastCheckedDate': todayStr,
+      };
+
+      if (lastSessionDateStr != null) {
+        final lastSessionDate = DateTime.parse(lastSessionDateStr);
+        final todayMidnight = DateTime(today.year, today.month, today.day);
+        final lastSessionMidnight = DateTime(
+          lastSessionDate.year,
+          lastSessionDate.month,
+          lastSessionDate.day,
+        );
+        final daysDiff = todayMidnight.difference(lastSessionMidnight).inDays;
+
+        if (daysDiff > 1) {
+          final missedDays = daysDiff - 1;
+          final freezesOwned = (data['freezesOwned'] ?? 0) as int;
+
+          if (freezesOwned >= missedDays) {
+            updates['freezesOwned'] = freezesOwned - missedDays;
+            updates['consecutiveSessionDays'] = 0;
+            final yesterday = todayMidnight.subtract(const Duration(days: 1));
+            updates['lastSessionDate'] = DateFormat('yyyy-MM-dd').format(yesterday);
+            log("❄️ Consumed $missedDays streak freeze(s) for user $uid. Streak continues!");
+          } else {
+            updates['currentStreak'] = 0;
+            updates['current_streak'] = 0;
+            updates['consecutiveSessionDays'] = 0;
+            updates['freezesOwned'] = 0;
+            log("💔 Streak broke for user $uid. Streak reset to 0.");
+          }
+        }
+      } else {
+        // Initialize fields if not set
+        updates['currentStreak'] = data['currentStreak'] ?? data['current_streak'] ?? 0;
+        updates['consecutiveSessionDays'] = data['consecutiveSessionDays'] ?? 0;
+        updates['freezesOwned'] = data['freezesOwned'] ?? 0;
+      }
+
+      await docRef.update(updates);
+      log("✅ checkAndUpdateStreak completed for $uid.");
     } catch (e) {
-      log("Error updating streak: $e");
+      log("❌ Error in checkAndUpdateStreak: $e");
+    }
+  }
+
+  Future<void> onSessionCompleted(String uid) async {
+    try {
+      final docRef = _firestore.collection('users').doc(uid);
+      await _firestore.runTransaction((transaction) async {
+        final snapshot = await transaction.get(docRef);
+        if (!snapshot.exists) return;
+        final data = snapshot.data() ?? {};
+
+        final todayStr = DateFormat('yyyy-MM-dd').format(DateTime.now());
+        final lastSessionDateStr = data['lastSessionDate'] as String?;
+        int currentStreak = (data['currentStreak'] ?? data['current_streak'] ?? 0) as int;
+        int consecutiveSessionDays = (data['consecutiveSessionDays'] ?? 0) as int;
+        int freezesOwned = (data['freezesOwned'] ?? 0) as int;
+        final isPremium = (data['isPremium'] ?? data['is_premium'] ?? false) as bool;
+
+        if (lastSessionDateStr == todayStr) {
+          log("Session already completed today. Skipping streak increment.");
+          return;
+        }
+
+        currentStreak += 1;
+        consecutiveSessionDays += 1;
+
+        if (consecutiveSessionDays >= 7) {
+          consecutiveSessionDays = 0;
+          if (isPremium) {
+            freezesOwned += 1;
+            log("🌟 Premium user earned a freeze! Total freezes: $freezesOwned");
+          } else {
+            if (freezesOwned < 1) {
+              freezesOwned = 1;
+              log("🌟 Free user earned a freeze!");
+            } else {
+              log("🌟 Free user already owns max freezes (1).");
+            }
+          }
+        }
+
+        final longestStreak = (data['longest_streak'] ?? 0) as int;
+        final newLongest = currentStreak > longestStreak ? currentStreak : longestStreak;
+
+        transaction.update(docRef, {
+          'currentStreak': currentStreak,
+          'current_streak': currentStreak,
+          'consecutiveSessionDays': consecutiveSessionDays,
+          'freezesOwned': freezesOwned,
+          'lastSessionDate': todayStr,
+          'longest_streak': newLongest,
+          'last_lesson_date': FieldValue.serverTimestamp(),
+        });
+      });
+      log("✅ onSessionCompleted executed for $uid.");
+    } catch (e) {
+      log("❌ Error in onSessionCompleted: $e");
     }
   }
 
@@ -240,7 +371,7 @@ class FirebaseVocabService {
       final doc = await _firestore.collection('users').doc(uid).get();
       final data = doc.data() ?? {};
 
-      return (data['current_streak'] ?? 0) as int;
+      return (data['currentStreak'] ?? data['current_streak'] ?? 0) as int;
     } catch (e) {
       return 0;
     }

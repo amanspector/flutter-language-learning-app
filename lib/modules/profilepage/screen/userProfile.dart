@@ -3,6 +3,7 @@ import 'package:chatbot_app/modules/homepage/provider/homescreen_provider.dart';
 import 'package:chatbot_app/modules/exercisepage/provider/lesson_provider.dart';
 import 'package:chatbot_app/modules/onboarding/provider/onboard_provider.dart';
 import 'package:chatbot_app/modules/auth/provider/login_screen_provider.dart';
+import 'package:chatbot_app/modules/chatbotpage/provider/message_provider.dart';
 import 'package:chatbot_app/modules/auth/service/firebase_auth_service.dart';
 import 'package:chatbot_app/modules/onboarding/screen/main_onboarding.dart';
 import 'package:chatbot_app/modules/profilepage/provider/user_profile_provider.dart';
@@ -398,6 +399,7 @@ class Userprofile extends StatelessWidget {
         context.read<OnboardProvider>().reset();
         context.read<LessonProvider>().resetLesson();
         context.read<HomescreenProvider>().resetUserState();
+        context.read<MessageProvider>().resetChat();
         await context.read<LoginscreenProvider>().logout(context);
       }
     }

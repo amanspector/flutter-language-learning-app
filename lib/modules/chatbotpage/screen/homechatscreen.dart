@@ -206,8 +206,8 @@ class _StateHomescreen extends State<Homechatscreen> {
 
         return ListView.builder(
           padding: EdgeInsets.only(
-            top: MediaQuery.paddingOf(context).top + 80.h,
-            bottom: MediaQuery.paddingOf(context).bottom + 110.h,
+            top: MediaQuery.paddingOf(context).top + 70.h,
+            bottom: MediaQuery.paddingOf(context).bottom + 70.h,
           ),
           controller: _scrollController,
           physics: const BouncingScrollPhysics(),

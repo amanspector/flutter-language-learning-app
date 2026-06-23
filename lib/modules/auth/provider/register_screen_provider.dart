@@ -1,5 +1,6 @@
 import 'package:chatbot_app/core/appconstants/text_constant.dart';
 import 'package:chatbot_app/modules/auth/service/firebase_auth_service.dart';
+import 'package:chatbot_app/modules/chatbotpage/provider/message_provider.dart';
 import 'package:chatbot_app/modules/homepage/provider/homescreen_provider.dart';
 import 'package:chatbot_app/modules/onboarding/provider/onboard_provider.dart';
 import 'package:chatbot_app/modules/onboarding/screen/main_onboarding.dart';
@@ -36,6 +37,8 @@ class RegisterscreenProvider extends ChangeNotifier {
     mailcontroller.clear();
     passwordcontroller.clear();
     confirmpasswordcontroller.clear();
+    selectedAge = null;
+    selectedGender = null;
     msg = null;
     notifyListeners();
   }
@@ -48,7 +51,6 @@ class RegisterscreenProvider extends ChangeNotifier {
     if (_isLoading) return;
     _isLoading = true;
     notifyListeners();
-
 
     try {
       String? error = await authobj.registration(
@@ -65,6 +67,7 @@ class RegisterscreenProvider extends ChangeNotifier {
         context.read<OnboardProvider>().reset();
         context.read<VocabProvider>().reset();
         context.read<HomescreenProvider>().resetUserState();
+        context.read<MessageProvider>().resetChat();
         ScaffoldMessenger.of(context).showSnackBar(
           const SnackBar(content: Text(Textconstant.txtRegistersucess)),
         );

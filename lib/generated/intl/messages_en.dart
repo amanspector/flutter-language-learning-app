@@ -385,6 +385,7 @@ class MessageLookup extends MessageLookupByLibrary {
           "This helps us tailor the lessons to your current knowledge and learning pace.",
         ),
     "timeDaysAgo": m10,
+    "timeTaken": MessageLookupByLibrary.simpleMessage("Time Taken"),
     "timeToday": MessageLookupByLibrary.simpleMessage("Today"),
     "timeYesterday": MessageLookupByLibrary.simpleMessage("Yesterday"),
     "tooManyAttemptsTryAgainLater": MessageLookupByLibrary.simpleMessage(

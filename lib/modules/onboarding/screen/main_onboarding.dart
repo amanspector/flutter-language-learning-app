@@ -239,6 +239,9 @@ class MainOnboarding extends StatelessWidget {
                   );
                   log("setprovider done");
 
+                  await onboardProvider.loadLanguages();
+                  log("loadLanguages done");
+
                   await homeProvider.initializeOnce(
                     onboardprovider: onboardProvider,
                     vocabprovider: vocabProvider,

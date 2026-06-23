@@ -1,4 +1,5 @@
 import 'dart:math';
+import 'dart:async';
 import 'dart:developer' as dev;
 import 'package:chatbot_app/core/extensions/localization_extension.dart';
 import 'package:chatbot_app/modules/exercisepage/model/exercise_model.dart';
@@ -14,6 +15,8 @@ import 'package:chatbot_app/core/services/sound_effect_service.dart';
 class LessonProvider extends ChangeNotifier {
   List<WordModel> lessonWords = [];
   List<ExerciseModel> exercises = [];
+  Timer? _exerciseTimer;
+  int elapsedSeconds = 0;
 
   int currentWordIndex = 0;
   bool showMeaning = false;
@@ -41,6 +44,22 @@ class LessonProvider extends ChangeNotifier {
   List<String?> arrangedSentence = [];
   bool hasAnimatedResult = false;
   Map<WordModel, bool> pendingSrsUpdates = {};
+
+  String get formattedTime {
+    final minutes = elapsedSeconds ~/ 60;
+    final seconds = elapsedSeconds % 60;
+    return '${minutes.toString().padLeft(2, '0')}:${seconds.toString().padLeft(2, '0')}';
+  }
+
+  String get formattedTimeTaken {
+    final minutes = elapsedSeconds ~/ 60;
+    final seconds = elapsedSeconds % 60;
+    if (minutes > 0) {
+      return '${minutes}m ${seconds}s';
+    } else {
+      return '${seconds}s';
+    }
+  }
 
   List<String> animatedWords = [];
   int? _lastAnimatedExerciseIndex;
@@ -137,7 +156,10 @@ class LessonProvider extends ChangeNotifier {
   }
 
   void checkSentenceArrangement(BuildContext context) {
-    final userSentence = arrangedSentence.map((w) => w?.trim() ?? '').join(' ').trim();
+    final userSentence = arrangedSentence
+        .map((w) => w?.trim() ?? '')
+        .join(' ')
+        .trim();
     final correctAnswer = currentExercise!.correctAnswer.trim();
     isAnswered = true;
     isCorrect = userSentence == correctAnswer;
@@ -266,6 +288,16 @@ class LessonProvider extends ChangeNotifier {
   }
 
   void startPractice(BuildContext con) {
+    elapsedSeconds = 0;
+    _exerciseTimer?.cancel();
+    _exerciseTimer = Timer.periodic(const Duration(seconds: 1), (timer) {
+      if (currentPhase == LessonPhase.exercise) {
+        elapsedSeconds++;
+        notifyListeners();
+      } else {
+        timer.cancel();
+      }
+    });
     generateExercises(con);
     currentPhase = LessonPhase.exercise;
     currentExerciseIndex = 0;
@@ -369,7 +401,10 @@ class LessonProvider extends ChangeNotifier {
       final rawParts = (currentExample?.sentenceParts.isNotEmpty == true)
           ? currentExample!.sentenceParts
           : currentSentence.split(' ');
-      final sentenceParts = rawParts.map((p) => p.trim()).where((p) => p.isNotEmpty).toList();
+      final sentenceParts = rawParts
+          .map((p) => p.trim())
+          .where((p) => p.isNotEmpty)
+          .toList();
       final shuffledParts = List<String>.from(sentenceParts)..shuffle(Random());
 
       // Rebuild the canonical correct answer from the cleaned parts (not the raw sentence)
@@ -605,9 +640,9 @@ class LessonProvider extends ChangeNotifier {
           .take(3)
           .toList();
       dev.log("wrong options : $wrongOptions");
-      while (wrongOptions.length < 3) {
-        wrongOptions.add("None of the above");
-      }
+      // while (wrongOptions.length < 3) {
+      //   wrongOptions.add("None of the above");
+      // }
 
       final allOptions = [correctAnswer, ...wrongOptions]..shuffle(Random());
 
@@ -632,6 +667,8 @@ class LessonProvider extends ChangeNotifier {
       _initializeArrangement();
       notifyListeners();
     } else {
+      _exerciseTimer?.cancel();
+      _exerciseTimer = null;
       isLoading = true;
       notifyListeners();
       try {
@@ -699,6 +736,9 @@ class LessonProvider extends ChangeNotifier {
   }
 
   void resetLesson() {
+    _exerciseTimer?.cancel();
+    _exerciseTimer = null;
+    elapsedSeconds = 0;
     lessonWords.clear();
     exercises.clear();
     currentWordIndex = 0;
@@ -720,8 +760,24 @@ class LessonProvider extends ChangeNotifier {
     pendingSrsUpdates.clear();
     _resetExerciseState();
     _lastAnimatedExerciseIndex = null;
+    elapsedSeconds = 0;
+    _exerciseTimer?.cancel();
+    _exerciseTimer = Timer.periodic(const Duration(seconds: 1), (timer) {
+      if (currentPhase == LessonPhase.exercise) {
+        elapsedSeconds++;
+        notifyListeners();
+      } else {
+        timer.cancel();
+      }
+    });
     currentPhase = LessonPhase.exercise;
     notifyListeners();
+  }
+
+  @override
+  void dispose() {
+    _exerciseTimer?.cancel();
+    super.dispose();
   }
 
   bool shouldAnimateWord(String word) {

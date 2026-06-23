@@ -12,6 +12,7 @@ class AppCircularProgress extends StatelessWidget {
   final Color? progressColor;
   final bool showPercentage;
   final TextStyle? labelStyle;
+  final bool isStatic;
 
   const AppCircularProgress({
     super.key,
@@ -22,6 +23,7 @@ class AppCircularProgress extends StatelessWidget {
     this.progressColor,
     this.showPercentage = false,
     this.labelStyle,
+    this.isStatic = false,
   });
 
   Color _scoreColor() {
@@ -38,69 +40,77 @@ class AppCircularProgress extends StatelessWidget {
     final color = progressColor ?? _scoreColor();
     final double stroke = strokeWidth ?? (size ?? 56.r) * 0.15;
 
+    Widget buildRing(double animatedPercentage) {
+      final animateValue = animatedPercentage.clamp(0.0, 100.0);
+      return SizedBox(
+        width: size ?? 56.r,
+        height: size ?? 56.r,
+        child: Stack(
+          alignment: Alignment.center,
+          children: [
+            PieChart(
+              PieChartData(
+                startDegreeOffset: -90,
+                sectionsSpace: 0,
+                centerSpaceRadius: (size ?? 56.r) * 0.34,
+                sections: [
+                  PieChartSectionData(
+                    cornerRadius: 4,
+                    value: animateValue,
+                    color: color,
+                    radius: stroke,
+                    showTitle: false,
+                  ),
+                  PieChartSectionData(
+                    value: 100 - animateValue,
+                    color: context.theme.colorScheme.outline.withValues(
+                      alpha: 0.15,
+                    ),
+                    radius: stroke,
+                    showTitle: false,
+                  ),
+                ],
+              ),
+            ),
+            Column(
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+                if (showPercentage)
+                  Text(
+                    '${animatedPercentage.toStringAsFixed(0)}%',
+                    style:
+                        labelStyle ??
+                        context.text.displaySmall?.copyWith(
+                          fontWeight: FontWeight.bold,
+                          color: color,
+                        ),
+                  ),
+                Text(
+                  '$score/$total',
+                  style: context.text.bodySmall?.copyWith(
+                    fontWeight: FontWeight.bold,
+                    color: showPercentage
+                        ? context.theme.colorScheme.outline
+                        : color,
+                  ),
+                ),
+              ],
+            ),
+          ],
+        ),
+      );
+    }
+
+    if (isStatic) {
+      return buildRing(percentage);
+    }
+
     return TweenAnimationBuilder<double>(
       tween: Tween(begin: 0, end: percentage),
       duration: Duration(milliseconds: 1200),
       curve: Curves.easeOutCubic,
       builder: (context, animated, _) {
-        final animateValue = animated.clamp(0.0, 100.0);
-        return SizedBox(
-          width: size ?? 56.r,
-          height: size ?? 56.r,
-          child: Stack(
-            alignment: Alignment.center,
-            children: [
-              PieChart(
-                PieChartData(
-                  startDegreeOffset: -90,
-                  sectionsSpace: 0,
-                  centerSpaceRadius: (size ?? 56.r) * 0.34,
-                  sections: [
-                    PieChartSectionData(
-                      cornerRadius: 4,
-                      value: animateValue,
-                      color: color,
-                      radius: stroke,
-                      showTitle: false,
-                    ),
-                    PieChartSectionData(
-                      value: 100 - animateValue,
-                      color: context.theme.colorScheme.outline.withValues(
-                        alpha: 0.15,
-                      ),
-                      radius: stroke,
-                      showTitle: false,
-                    ),
-                  ],
-                ),
-              ),
-              Column(
-                mainAxisAlignment: MainAxisAlignment.center,
-                children: [
-                  if (showPercentage)
-                    Text(
-                      '${animated.toStringAsFixed(0)}%',
-                      style:
-                          labelStyle ??
-                          context.text.displaySmall?.copyWith(
-                            fontWeight: FontWeight.bold,
-                            color: color,
-                          ),
-                    ),
-                  Text(
-                    '$score/$total',
-                    style: context.text.bodySmall?.copyWith(
-                      fontWeight: FontWeight.bold,
-                      color: showPercentage
-                          ? context.theme.colorScheme.outline
-                          : color,
-                    ),
-                  ),
-                ],
-              ),
-            ],
-          ),
-        );
+        return buildRing(animated);
       },
     );
   }

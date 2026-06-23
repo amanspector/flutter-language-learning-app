@@ -5,7 +5,7 @@ import 'package:chatbot_app/core/services/dioclient.dart';
 import 'package:dio/dio.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:just_audio/just_audio.dart';
-import 'dart:typed_data'; // Add
+import 'dart:typed_data';
 
 class TTSService {
   final FlutterTts _flutterTts = FlutterTts();
@@ -16,6 +16,7 @@ class TTSService {
   static const Map<String, String> languageMap = {
     "Hindi": "hi-IN",
     "Spanish": "es-ES",
+    "Arabic": "ar-AE",
     "English": "en-IN",
     "Tamil": "ta-IN",
     "Telugu": "te-IN",

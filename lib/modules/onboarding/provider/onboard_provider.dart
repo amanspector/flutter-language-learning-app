@@ -228,11 +228,16 @@ class OnboardProvider extends ChangeNotifier {
     selectedgoal = null;
     selectedExperienceLevel = null;
     selectedDailyGoal = null;
+    selectedDailyGoalDuration = null;
     selectedNativeLanguage = 'en';
+    selectedNativeLanguageLabel = 'English';
     gender = null;
     age = null;
     isCompleted = false;
     currentPage = 0;
+    myLanguages = [];
+    activeLanguageCode = null;
+    uid = null;
     notifyListeners();
   }
 }

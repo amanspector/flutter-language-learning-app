@@ -30,6 +30,7 @@ void main() async {
     DeviceOrientation.portraitUp,
     DeviceOrientation.portraitDown,
   ]);
+  SystemChrome.setEnabledSystemUIMode(SystemUiMode.edgeToEdge);
   final repo = GeminiRepo();
   runApp(MyApp(repo: repo));
 }

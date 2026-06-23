@@ -4,7 +4,7 @@ import 'package:chatbot_app/core/extensions/theme_extension.dart';
 import 'package:chatbot_app/core/widgets/app_button.dart';
 import 'package:chatbot_app/core/widgets/app_circular_progress.dart';
 import 'package:chatbot_app/core/widgets/app_customContainer.dart';
-
+import 'package:chatbot_app/core/widgets/app_haptic_counter.dart';
 import 'package:chatbot_app/modules/homepage/provider/homescreen_provider.dart';
 import 'package:chatbot_app/modules/exercisepage/provider/lesson_provider.dart';
 import 'package:chatbot_app/modules/homepage/screen/homescreen.dart';
@@ -14,7 +14,6 @@ import 'package:chatbot_app/modules/vocabularypage/provider/vocab_provider.dart'
 import 'package:confetti/confetti.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:provider/provider.dart';
 import 'package:flutter_hooks/flutter_hooks.dart';
@@ -26,6 +25,7 @@ class ResultScreen extends HookWidget {
   Widget build(BuildContext context) {
     final isLoading = useState(false);
     final provider = context.read<LessonProvider>();
+    final activeStep = useState(0); // 0 = circular progress, 1 = XP, 2 = Timer
     final scorePercentage = provider.exercises.isEmpty
         ? 0.0
         : (provider.score / provider.totalExercises) * 100;
@@ -39,33 +39,14 @@ class ResultScreen extends HookWidget {
       return context.l10n.perfReviewAndTryAgain;
     }
 
-    Widget buildStatItem({
-      required String emoji,
-      required String label,
-      required String value,
-    }) {
-      return Expanded(
-        child: Column(
-          children: [
-            Text(emoji, style: TextStyle(fontSize: 28.sp)),
-            SizedBox(height: 6.h),
-            Text(
-              value,
-              style: context.text.headlineMedium?.copyWith(
-                fontWeight: FontWeight.bold,
-              ),
-            ),
-            SizedBox(height: 4.h),
-            Text(
-              label,
-              style: context.text.bodySmall?.copyWith(
-                color: context.theme.colorScheme.outline,
-              ),
-              textAlign: TextAlign.center,
-            ),
-          ],
-        ),
-      );
+    String formatSeconds(int totalSecs) {
+      final minutes = totalSecs ~/ 60;
+      final seconds = totalSecs % 60;
+      if (minutes > 0) {
+        return '${minutes}m ${seconds}s';
+      } else {
+        return '${seconds}s';
+      }
     }
 
     Widget buildStatDivider() {
@@ -107,7 +88,6 @@ class ResultScreen extends HookWidget {
       );
       if (scorePercentage >= 70) {
         confettiController.play();
-        HapticFeedback.heavyImpact();
       }
       return null;
     }, []);
@@ -123,7 +103,23 @@ class ResultScreen extends HookWidget {
                   padding: EdgeInsets.symmetric(horizontal: 24.w),
                   child: Column(
                     children: [
-                      SizedBox(height: 80.h),
+                      Row(
+                        mainAxisAlignment: MainAxisAlignment.end,
+                        children: [
+                          IconButton(
+                            icon: Icon(
+                              Icons.refresh_rounded,
+                              color: context.theme.colorScheme.onSurface
+                                  .withValues(alpha: 0.60),
+                              size: 26.r,
+                            ),
+                            onPressed: () {
+                              activeStep.value = 0;
+                            },
+                          ),
+                        ],
+                      ),
+                      SizedBox(height: 20.h),
                       ScaleTransition(
                         scale: scaleAnimation,
                         child: Text(
@@ -153,12 +149,31 @@ class ResultScreen extends HookWidget {
                               mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                               children: [
                                 // Score ring
-                                AppCircularProgress(
-                                  showPercentage: true,
-                                  score: provider.score,
-                                  total: provider.totalExercises,
-                                  size: 160,
-                                  strokeWidth: 16,
+                                AppHapticCounter(
+                                  begin: 0,
+                                  end: provider.score,
+                                  currentStep: activeStep.value,
+                                  myStep: 0,
+                                  onComplete: () {
+                                    Future.delayed(
+                                      const Duration(milliseconds: 500),
+                                      () {
+                                        if (context.mounted) {
+                                          activeStep.value = 1;
+                                        }
+                                      },
+                                    );
+                                  },
+                                  builder: (context, animatedScore) {
+                                    return AppCircularProgress(
+                                      showPercentage: true,
+                                      score: animatedScore,
+                                      total: provider.totalExercises,
+                                      size: 160,
+                                      strokeWidth: 16,
+                                      isStatic: true,
+                                    );
+                                  },
                                 ),
 
                                 // Divider
@@ -170,16 +185,48 @@ class ResultScreen extends HookWidget {
                                   mainAxisAlignment:
                                       MainAxisAlignment.spaceEvenly,
                                   children: [
-                                    buildStatItem(
-                                      emoji: '⭐',
-                                      label: context.l10n.xpEarned,
-                                      value: '+${provider.xpEarned}',
+                                    AppHapticCounter(
+                                      begin: 0,
+                                      end: provider.xpEarned,
+                                      currentStep: activeStep.value,
+                                      myStep: 1,
+                                      onComplete: () {
+                                        Future.delayed(
+                                          const Duration(milliseconds: 500),
+                                          () {
+                                            if (context.mounted) {
+                                              activeStep.value = 2;
+                                            }
+                                          },
+                                        );
+                                      },
+                                      builder: (context, animatedXp) {
+                                        return ResultStatItem(
+                                          emoji: '⭐',
+                                          label: context.l10n.xpEarned,
+                                          value: '+$animatedXp',
+                                        );
+                                      },
                                     ),
                                     buildStatDivider(),
-                                    buildStatItem(
+                                    ResultStatItem(
                                       emoji: '✅',
                                       label: context.l10n.correct,
                                       value: '${provider.score}',
+                                    ),
+                                    buildStatDivider(),
+                                    AppHapticCounter(
+                                      begin: 0,
+                                      end: provider.elapsedSeconds,
+                                      currentStep: activeStep.value,
+                                      myStep: 2,
+                                      builder: (context, animatedSeconds) {
+                                        return ResultStatItem(
+                                          emoji: '⏱️',
+                                          label: context.l10n.timeTaken,
+                                          value: formatSeconds(animatedSeconds),
+                                        );
+                                      },
                                     ),
                                   ],
                                 ),
@@ -253,6 +300,45 @@ class ResultScreen extends HookWidget {
                 ColorConstant.colorPurple,
               ],
             ),
+          ),
+        ],
+      ),
+    );
+  }
+}
+
+class ResultStatItem extends StatelessWidget {
+  final String emoji;
+  final String label;
+  final String value;
+
+  const ResultStatItem({
+    super.key,
+    required this.emoji,
+    required this.label,
+    required this.value,
+  });
+
+  @override
+  Widget build(BuildContext context) {
+    return Expanded(
+      child: Column(
+        children: [
+          Text(emoji, style: TextStyle(fontSize: 28.sp)),
+          SizedBox(height: 6.h),
+          Text(
+            value,
+            style: context.text.headlineMedium?.copyWith(
+              fontWeight: FontWeight.bold,
+            ),
+          ),
+          SizedBox(height: 4.h),
+          Text(
+            label,
+            style: context.text.bodySmall?.copyWith(
+              color: context.theme.colorScheme.outline,
+            ),
+            textAlign: TextAlign.center,
           ),
         ],
       ),

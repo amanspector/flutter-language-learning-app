@@ -21,10 +21,8 @@ class LoginscreenProvider extends ChangeNotifier {
 
   LoginscreenProvider() {
     FirebaseAuth.instance.authStateChanges().listen((user) {
-      if (user != null) {
-        gmail = user.email;
-        notifyListeners();
-      }
+      gmail = user?.email;
+      notifyListeners();
     });
   }
 
@@ -89,6 +87,7 @@ class LoginscreenProvider extends ChangeNotifier {
     islogout = true;
     notifyListeners();
     await FirebaseAuth.instance.signOut();
+    gmail = null;
     if (!con.mounted) return;
     con.read<OnboardProvider>().setSelectedNativeLanguage('en');
     Navigator.pushAndRemoveUntil(

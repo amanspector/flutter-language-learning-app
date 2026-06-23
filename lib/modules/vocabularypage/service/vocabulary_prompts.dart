@@ -9,7 +9,15 @@ class VocabularyPrompts {
     required int wordCount,
     required List<String> learnedWords,
   }) {
-    final nativeLang = Textconstant.languageNames[nativeLanguage];
+    final nativeLang = Textconstant.languageNames[nativeLanguage] ?? 'English';
+    final isNativeEnglish =
+        nativeLanguage.toLowerCase() == "en" ||
+        nativeLanguage.toLowerCase() == "english" ||
+        nativeLang.toLowerCase() == "english";
+    final translationNativePlaceholder = isNativeEnglish
+        ? "English translation"
+        : "translation in $nativeLang";
+    final translationEnglishPlaceholder = "English translation";
 
     return """
 You are a language curriculum expert. Generate exactly $wordCount vocabulary words.
@@ -64,18 +72,21 @@ ADVANCED (9-12 words): multiple context details that together eliminate all sibl
 - "question": examples[0].sentence with target word → ___
 - "options": [correct_answer, wrong1, wrong2, wrong3] (same part of speech)
 - Top-level "sentence_parts" = examples[0].sentence_parts
+- "translation_english": English translation of the target word/sentence. If the target language is English, this should be the English word/sentence itself.
+- "translation_native": Translation of the target word/sentence in the NATIVE LANGUAGE ($nativeLang).
+- CRITICAL: Under no circumstances should "translation_english" or "translation_native" contain the target language ($language) unless that field is explicitly requested to be in that language.
+${isNativeEnglish ? "- CRITICAL: Since the native language is English, BOTH translation_english and translation_native MUST be in English. Do NOT put the target language ($language) in any translation fields." : ""}
 
 OUTPUT:
-${learnedWords.isNotEmpty ? "EXCLUDE these already learned words: ${learnedWords.join(', ')}\n" : ""}
 Valid JSON only. No markdown.
 {
   "metadata": {"language":"$language","native_language":"$nativeLang","level":"$experienceLevel","category":"$learningGoal","total_words":$wordCount},
   "words": [{
     "word": "target word in $language",
-    "translation_english": "...",
-    "translation_native": "...",
-    "pronunciation": "phonetic guide",
-    ${_outputJsonExamplePart(language)},
+    "translation_english": "$translationEnglishPlaceholder",
+    "translation_native": "$translationNativePlaceholder",
+    "pronunciation": "phonetic guide (how to pronounce the target word)",
+    ${_outputJsonExamplePart(language, nativeLanguage)},
     "options": ["correct_answer","wrong1","wrong2","wrong3"],
     "correct_answer": "identical to word field"
   }]
@@ -83,11 +94,7 @@ Valid JSON only. No markdown.
 Generate exactly $wordCount words now.
 """;
   }
-
-  // static int _calculateWordCount(int minutes, String level) {
-  //   final baseCount = {5: 20, 10: 30, 15: 40, 20: 50};
-  //   return baseCount[minutes] ?? 40;
-  // }
+  // ${learnedWords.isNotEmpty ? "EXCLUDE these already learned words: ${learnedWords.join(', ')}\n" : ""}
 
   static String _getLevelInstructions(String level) {
     switch (level.toLowerCase()) {
@@ -154,19 +161,35 @@ Generate exactly $wordCount words now.
     }
   }
 
-  static String _outputJsonExamplePart(String language) {
-    return language.toLowerCase() == "english"
-        ? """
+  static String _outputJsonExamplePart(String language, String nativeLanguage) {
+    final isTargetEnglish = language.toLowerCase() == "english";
+    final isNativeEnglish =
+        nativeLanguage.toLowerCase() == "en" ||
+        nativeLanguage.toLowerCase() == "english";
+    final nativeLangName =
+        Textconstant.languageNames[nativeLanguage] ?? 'English';
+
+    if (isTargetEnglish) {
+      return """
     "examples": [
-      {"sentence":"English sentence (A1/A2)","translation_native":"...","sentence_parts":["..."],"level":"easy"},
-      {"sentence":"English sentence (B1/B2)","translation_native":"...","sentence_parts":["..."],"level":"medium"},
-      {"sentence":"English sentence (C1/C2)","translation_native":"...","sentence_parts":["..."],"level":"hard"}
-    ]"""
-        : """
-    "examples": [
-      {"sentence":"$language sentence (A1/A2)","translation_english":"...","translation_native":"...","sentence_parts":["..."],"level":"easy"},
-      {"sentence":"$language sentence (B1/B2)","translation_english":"...","translation_native":"...","sentence_parts":["..."],"level":"medium"},
-      {"sentence":"$language sentence (C1/C2)","translation_english":"...","translation_native":"...","sentence_parts":["..."],"level":"hard"}
+      {"sentence":"English sentence (A1/A2)","translation_native":"translation in $nativeLangName","sentence_parts":["..."],"level":"easy"},
+      {"sentence":"English sentence (B1/B2)","translation_native":"translation in $nativeLangName","sentence_parts":["..."],"level":"medium"},
+      {"sentence":"English sentence (C1/C2)","translation_native":"translation in $nativeLangName","sentence_parts":["..."],"level":"hard"}
     ]""";
+    } else if (isNativeEnglish) {
+      return """
+    "examples": [
+      {"sentence":"$language sentence (A1/A2)","translation_english":"English translation","translation_native":"English translation","sentence_parts":["..."],"level":"easy"},
+      {"sentence":"$language sentence (B1/B2)","translation_english":"English translation","translation_native":"English translation","sentence_parts":["..."],"level":"medium"},
+      {"sentence":"$language sentence (C1/C2)","translation_english":"English translation","translation_native":"English translation","sentence_parts":["..."],"level":"hard"}
+    ]""";
+    } else {
+      return """
+    "examples": [
+      {"sentence":"$language sentence (A1/A2)","translation_english":"English translation","translation_native":"translation in $nativeLangName","sentence_parts":["..."],"level":"easy"},
+      {"sentence":"$language sentence (B1/B2)","translation_english":"English translation","translation_native":"translation in $nativeLangName","sentence_parts":["..."],"level":"medium"},
+      {"sentence":"$language sentence (C1/C2)","translation_english":"English translation","translation_native":"translation in $nativeLangName","sentence_parts":["..."],"level":"hard"}
+    ]""";
+    }
   }
 }

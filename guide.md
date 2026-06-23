@@ -16,6 +16,10 @@ Welcome! This guide is designed to walk you through the code changes made today 
 9. [Deferring Database Updates: Preventing Partial State Saves on Abort](#9-deferring-database-updates-preventing-partial-state-saves-on-abort)
 10. [Fixing RenderFlex Errors in Layouts: Correcting Flex and Expanded](#10-fixing-renderflex-errors-in-layouts-correcting-flex-and-expanded)
 11. [Preventing Data Overwrites in Firestore: Merging and ArrayUnion](#11-preventing-data-overwrites-in-firestore-merging-and-arrayunion)
+12. [State Management: Clearing Language Cache and Chat Session on Logout/Register](#21-state-management-clearing-language-cache-and-chat-session-on-logoutregister)
+13. [Vocabulary Generation: Prompt Engineering for Native English Translations](#22-vocabulary-generation-prompt-engineering-for-native-english-translations)
+14. [Onboarding Flow: Loading Language Config After Onboarding Completion](#23-onboarding-flow-loading-language-config-after-onboarding-completion)
+15. [Results Screen: Adding Stopwatch Timer & Satisfying Count-Up Haptics](#24-results-screen-adding-stopwatch-timer--satisfying-count-up-haptics)
 
 ---
 
@@ -773,3 +777,104 @@ try {
 ```
 
 This method securely sends a verification link to the user's **new** email address. Once the user clicks the link and verifies the address, Firebase Authentication completes the update automatically. This keeps the credentials secure and synchronized with Firestore!
+
+---
+
+## 21. State Management: Clearing Language Cache and Chat Session on Logout/Register
+
+### 📂 Files Updated:
+* [onboard_provider.dart](file:///d:/folder/Flutter/chatbot_app/lib/modules/onboarding/provider/onboard_provider.dart)
+* [userProfile.dart](file:///d:/folder/Flutter/chatbot_app/lib/modules/profilepage/screen/userProfile.dart)
+* [login_screen_provider.dart](file:///d:/folder/Flutter/chatbot_app/lib/modules/auth/provider/login_screen_provider.dart)
+* [register_screen_provider.dart](file:///d:/folder/Flutter/chatbot_app/lib/modules/auth/provider/register_screen_provider.dart)
+
+### ❓ The Problem (The "Why")
+When multiple users share the same device, logging out should completely clear the local state. If the state is not properly wiped, the next user who logs in or registers might inherit cached values from the previous user.
+In our application, we faced three state leakage bugs:
+1. **Cached onboarding languages**: `myLanguages` was not cleared in `OnboardProvider.reset()`, causing the new user's language selection page to hide/filter out languages already chosen by the previous user.
+2. **Chatbot session leak**: `MessageProvider.currentChatId` was not reset, so the new user's chat screen started with the chat session of the logged-out user, causing security rule violations and incorrect database writes.
+3. **Leaked login credentials/profile fields**: The user's `gmail` address, registration `selectedAge`, and `selectedGender` were not cleared on logout or registration reset, showing incorrect information.
+
+### 💡 The Solution (The "How")
+We updated all state providers to actively reset user-specific properties upon logout/account reset:
+* **OnboardProvider**: Added `myLanguages = []`, `activeLanguageCode = null`, `uid = null`, and `selectedDailyGoalDuration = null` to the `reset()` sequence.
+* **MessageProvider**: Called `resetChat()` on logout/registration to clear active chat IDs and streaming variables.
+* **LoginscreenProvider / RegisterscreenProvider**: Cleared the cached `gmail` field, as well as `selectedAge` and `selectedGender` inputs when performing sign-outs or clearing form data.
+
+---
+
+## 22. Vocabulary Generation: Prompt Engineering for Native English Translations
+
+### 📂 Files Updated:
+* [vocabulary_prompts.dart](file:///d:/folder/Flutter/chatbot_app/lib/modules/vocabularypage/service/vocabulary_prompts.dart)
+
+### ❓ The Problem (The "Why")
+When a native English speaker wanted to learn Gujarati, they would trigger vocabulary generation and receive "Gujarati to Gujarati" translation exercises (e.g. correct answer in Gujarati, translation field in Gujarati).
+This happened because the prompt sent to the LLM requested both `translation_english` and `translation_native` fields. Since the user's native language is English, both translations were technically English. Without explicit instructions, the LLM got confused by the redundancy and outputted Gujarati (the target language) for the `translation_native` field. Since the UI displays the `translation_native` field for cards, the exercises became target-to-target.
+
+### 💡 The Solution (The "How")
+We refactored prompt generation to pass `nativeLanguage` to the JSON shape definition and customized constraints for native English speakers:
+1. Under `=== FIELD RULES ===`, we added explicit guidelines for `translation_english` and `translation_native` to state they must never contain the target language.
+2. If the user's native language is English, we dynamically append a critical rule:
+   > *"- CRITICAL: Since the native language is English, BOTH translation_english and translation_native MUST be in English. Do NOT put the target language ($language) in any translation fields."*
+3. We adjusted the example JSON schema dynamically to use "English translation" placeholders for both fields when `nativeLanguage` is English.
+
+---
+
+## 23. Onboarding Flow: Loading Language Config After Onboarding Completion
+
+### 📂 Files Updated:
+* [main_onboarding.dart](file:///d:/folder/Flutter/chatbot_app/lib/modules/onboarding/screen/main_onboarding.dart)
+
+### ❓ The Problem (The "Why")
+When a user completed onboarding for the first time, the settings card on the Profile page would display `Not Found` for their active language, and the language switcher sheet would show `0 languages added` and remain empty.
+This occurred because the onboarding submission path called the Firestore setup service (`FirebaseOnboardingService.setprovider(...)`) but did not refresh the local `OnboardProvider` list. Only restarting the app triggered the initialization checks that read the Firestore languages collection.
+
+### 💡 The Solution (The "How")
+We resolved this by invoking `await onboardProvider.loadLanguages();` immediately after onboarding details are committed to Firestore. This populates `myLanguages` and `activeLanguageCode` in memory, making sure the profile screen displays the chosen language correctly and immediately without requiring an app restart.
+
+---
+
+## 24. Results Screen: Adding Stopwatch Timer & Satisfying Count-Up Haptics
+
+### 📂 Files Updated:
+* [lesson_provider.dart](file:///d:/folder/Flutter/chatbot_app/lib/modules/exercisepage/provider/lesson_provider.dart)
+* [excerisescreen.dart](file:///d:/folder/Flutter/chatbot_app/lib/modules/exercisepage/screen/excerisescreen.dart)
+* [resultscreen.dart](file:///d:/folder/Flutter/chatbot_app/lib/modules/exercisepage/screen/resultscreen.dart)
+* [intl_en.arb](file:///d:/folder/Flutter/chatbot_app/lib/l10n/intl_en.arb) (and other locale arb files)
+
+### ❓ The Problem (The "Why")
+Users want to know how much time they took to complete practice exercises, displayed in the final results card using a satisfying count-up animation and haptic feedback (like Duolingo).
+
+However, introducing this presents two unique mobile engineering problems:
+1. **Physical Motor Limitations**: Standard ERM (Eccentric Rotating Mass) vibration motors in most mobile phones need about `20-30ms` to physically spin up. Short vibration pulses like `10ms` are too brief to activate the motor, resulting in a silent/dead haptic feel.
+2. **Haptic Motor Flooding**: If a user takes a long time (e.g. 1 minute and 19 seconds = 79 seconds), the numbers count up very rapidly from `0` to `79` in just `1.5 seconds`. If the code attempts to trigger a vibration on every single number increment, the motor is bombarded with requests every `15-20ms`. This overloads the physical hardware, causing the motor to vibrate continuously, stall, or fail to click.
+
+### 💡 The Solution (The "How")
+
+We solved these problems by implementing a custom widget with hardware-friendly haptic throttling, modular layouts, and debug logging:
+
+#### A. The Stopwatch Tracker:
+We added a periodic `Timer` inside `LessonProvider` that starts when a practice session begins and increments `elapsedSeconds` once per second. This timer stops when the lesson ends, caching the total seconds taken.
+
+#### B. Throttled Haptic Ticks (`_TimerStatItem`):
+We refactored the animated timer stat into a custom private widget `_TimerStatItem`. Inside its hook-based animation listener, we restrict haptic trigger requests using a time difference check:
+```dart
+final now = DateTime.now();
+if (now.difference(lastVibrationTime.value).inMilliseconds >= 120) {
+  lastVibrationTime.value = now;
+  dev.log("⏱️ Timer animation tick: value = $value. Triggering vibration.");
+  Vibration.vibrate(duration: 35); // 35ms gives the physical motor time to spin up
+}
+```
+By enforcing a **120ms gap** between vibrations, the haptic clicks feel clean, rhythmic, and physically distinct, regardless of how fast the numbers tick.
+
+#### C. Duolingo Double-Pulse completion pop:
+When the animation finishes (i.e. `controller.isCompleted` is true), we trigger a custom vibration pattern `[0, 50, 80, 50]` (vibrate for 50ms, wait 80ms, vibrate for 50ms) to produce a satisfying physical double-tap `da-dum` pop.
+
+#### D. Debug Logging:
+We added `dev.log` print statements during haptic clicks and completion pops. Developers can inspect the debug console to confirm that haptic pulses are firing at the correct times and rates during testing.
+```dart
+dev.log("⏱️ Timer animation completed. Triggering Duolingo double-pulse completion pop!");
+```
+

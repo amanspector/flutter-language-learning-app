@@ -4,11 +4,14 @@ import 'package:chatbot_app/modules/onboarding/provider/onboard_provider.dart';
 import 'package:chatbot_app/modules/vocabularypage/provider/vocab_provider.dart';
 import 'package:chatbot_app/modules/auth/service/firebase_auth_service.dart';
 import 'package:chatbot_app/modules/vocabularypage/service/tts_service.dart';
+import 'package:chatbot_app/modules/vocabularypage/service/firebase_vocab_service.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
 
 class HomescreenProvider extends ChangeNotifier {
   int currentStreak = 0;
+  int consecutiveSessionDays = 0;
+  int freezesOwned = 0;
   int totalXP = 0;
   String? langauge;
   int seletectedIndex = 0;
@@ -25,12 +28,17 @@ class HomescreenProvider extends ChangeNotifier {
     isLoadUserState = true;
     notifyListeners();
     try {
+      // Run daily app-open streak checks first
+      await FirebaseVocabService().checkAndUpdateStreak(uid);
+
       final snapshot = await FirebaseAuthService().getUserData(uid);
       log("Users data snapshot fetched successfully.");
 
       final data = snapshot.data() as Map<String, dynamic>?;
       log("Users data : $data");
-      currentStreak = data?['current_streak'] ?? 0;
+      currentStreak = data?['currentStreak'] ?? data?['current_streak'] ?? 0;
+      consecutiveSessionDays = data?['consecutiveSessionDays'] ?? 0;
+      freezesOwned = data?['freezesOwned'] ?? 0;
       totalXP = data?['total_xp'] ?? 0;
       langauge = data?['language'] ?? "Not Found";
 
@@ -41,6 +49,8 @@ class HomescreenProvider extends ChangeNotifier {
       }
 
       log("✅ Current Streak : $currentStreak days");
+      log("✅ Consecutive Session Days: $consecutiveSessionDays");
+      log("✅ Freezes Owned: $freezesOwned");
       log("✅ Stats Loaded: XP $totalXP");
       notifyListeners();
     } catch (e) {

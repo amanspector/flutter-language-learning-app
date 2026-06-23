@@ -48,30 +48,82 @@ class ExerciseScreen extends StatelessWidget {
           child: Column(
             children: [
               SafeArea(
-                child: Row(
-                  mainAxisAlignment: MainAxisAlignment.start,
-                  children: [
-                    SizedBox(width: 20.w),
-                    AppContainer(
-                      borderRadius: 30.r,
-                      backgroundColor: context.theme.colorScheme.surface
-                          .withValues(alpha: 0.60),
-                      widget: IconButton(
-                        icon: Icon(Icons.arrow_back),
-                        onPressed: () {
-                          _showExitDialog(context);
-                        },
+                child: Padding(
+                  padding: EdgeInsets.symmetric(vertical: 10.h),
+                  child: Row(
+                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                    children: [
+                      Expanded(
+                        child: Row(
+                          children: [
+                            SizedBox(width: 20.w),
+                            AppContainer(
+                              height: 40.r,
+                              width: 40.r,
+                              borderRadius: 20.r,
+                              backgroundColor: context.theme.colorScheme.surface
+                                  .withValues(alpha: 0.60),
+                              widget: Center(
+                                child: IconButton(
+                                  padding: EdgeInsets.zero,
+                                  constraints: const BoxConstraints(),
+                                  icon: Icon(Icons.arrow_back, size: 20.r),
+                                  onPressed: () {
+                                    _showExitDialog(context);
+                                  },
+                                ),
+                              ),
+                            ),
+                            SizedBox(width: 16.w),
+                            Expanded(
+                              child: Text(
+                                context.l10n.questionProgress(
+                                  provider.currentExerciseIndex + 1,
+                                  provider.totalExercises,
+                                ),
+                                style: context.text.titleLarge?.copyWith(
+                                  fontWeight: FontWeight.bold,
+                                  fontSize: 18.sp,
+                                ),
+                                overflow: TextOverflow.ellipsis,
+                              ),
+                            ),
+                          ],
+                        ),
                       ),
-                    ),
-                    SizedBox(width: 20.w),
-                    Text(
-                      context.l10n.questionProgress(
-                        provider.currentExerciseIndex + 1,
-                        provider.totalExercises,
+                      Row(
+                        children: [
+                          AppContainer(
+                            backgroundColor: context.theme.colorScheme.surface
+                                .withValues(alpha: 0.60),
+                            padding: EdgeInsets.symmetric(
+                              horizontal: 12.w,
+                              vertical: 6.h,
+                            ),
+                            widget: Row(
+                              mainAxisSize: MainAxisSize.min,
+                              children: [
+                                Icon(
+                                  Icons.timer_outlined,
+                                  size: 18.r,
+                                  color: context.theme.colorScheme.onSurface,
+                                ),
+                                SizedBox(width: 6.w),
+                                Text(
+                                  provider.formattedTime,
+                                  style: context.text.titleMedium?.copyWith(
+                                    fontWeight: FontWeight.bold,
+                                    color: context.theme.colorScheme.onSurface,
+                                  ),
+                                ),
+                              ],
+                            ),
+                          ),
+                          SizedBox(width: 20.w),
+                        ],
                       ),
-                      style: context.text.displaySmall,
-                    ),
-                  ],
+                    ],
+                  ),
                 ),
               ),
               Expanded(
@@ -124,14 +176,14 @@ class ExerciseScreen extends StatelessWidget {
                   ),
                 ),
               ),
-              Padding(
-                padding: EdgeInsets.all(20.r),
-                child:
-                    provider.isAnswered &&
-                        !context.watch<VocabProvider>().isspeaking
-                    ? _buildNextButton(context, provider)
-                    : SizedBox(),
-              ),
+
+              if (provider.isAnswered &&
+                  !context.watch<VocabProvider>().isspeaking)
+                Padding(
+                  padding: EdgeInsets.all(20.r),
+                  child: _buildNextButton(context, provider),
+                  // : SizedBox(),
+                ),
             ],
           ),
         ),
@@ -149,7 +201,7 @@ class ExerciseScreen extends StatelessWidget {
     // 2. Extract the complete, unbroken sentence (without the "_____" blank)
     // final String fullSentence = exercise.questionWithoutBlank ?? "";
     return Container(
-      padding: EdgeInsets.all(20.r),
+      padding: EdgeInsets.all(16.r),
       decoration: BoxDecoration(
         color: provider.isCorrect
             ? context.theme.colorScheme.primary.withValues(alpha: 0.40)
@@ -192,7 +244,7 @@ class ExerciseScreen extends StatelessWidget {
 
           if (exercise.type != ExerciseType.translationMCQ) ...[
             if (exercise.type == ExerciseType.fillInBlank) ...[
-              SizedBox(height: 12.h),
+              SizedBox(height: 10.h),
               // final feedback = exercise.explanation!.toString().split(":");
               Text(
                 "${context.l10n.translation} : ${exercise.nativeTranslation}",

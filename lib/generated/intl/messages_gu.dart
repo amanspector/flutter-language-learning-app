@@ -385,6 +385,7 @@ class MessageLookup extends MessageLookupByLibrary {
           "આ અમને તમારા વર્તમાન જ્ઞાન અને શીખવાની ગતિ અનુસાર પાઠ તૈયાર કરવામાં મદદ કરે છે.",
         ),
     "timeDaysAgo": m10,
+    "timeTaken": MessageLookupByLibrary.simpleMessage("લીધેલો સમય"),
     "timeToday": MessageLookupByLibrary.simpleMessage("આજે"),
     "timeYesterday": MessageLookupByLibrary.simpleMessage("ગઈકાલે"),
     "tooManyAttemptsTryAgainLater": MessageLookupByLibrary.simpleMessage(

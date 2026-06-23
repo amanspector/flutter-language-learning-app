@@ -199,5 +199,6 @@
   "yourAnswer": "Your Answer",
   "correctAnswerText": "Correct Answer",
   "lessonReview": "Lesson Review",
-  "tapToRevealMeaning": "Tap to reveal meaning"
+  "tapToRevealMeaning": "Tap to reveal meaning",
+  "timeTaken": "Time Taken"
 }

@@ -217,6 +217,8 @@ class VocabProvider extends ChangeNotifier {
         todaywords = await _mixSrsAndNewWords(
           newUnlearnedWords,
           onboard.learningLanguageCode,
+          level: experienceLevel,
+          category: category,
         );
         todaywords.shuffle();
         log("✅ Today's words after generation: ${todaywords.length}");
@@ -224,6 +226,8 @@ class VocabProvider extends ChangeNotifier {
         todaywords = await _mixSrsAndNewWords(
           unlearnedWords,
           onboard.learningLanguageCode,
+          level: experienceLevel,
+          category: category,
         );
         todaywords.shuffle();
         if (todaywords.length < maxWordsForLevel) {
@@ -238,6 +242,8 @@ class VocabProvider extends ChangeNotifier {
             todaywords = await _mixSrsAndNewWords(
               newUnlearnedWords,
               onboard.learningLanguageCode,
+              level: experienceLevel,
+              category: category,
             );
             todaywords.shuffle();
           }
@@ -266,15 +272,19 @@ class VocabProvider extends ChangeNotifier {
 
   Future<List<WordModel>> _mixSrsAndNewWords(
     List<WordModel> unlearnedWords,
-    String langaugeCode,
-  ) async {
+    String langaugeCode, {
+    String? level,
+    String? category,
+  }) async {
     final total = maxWordsForLevel;
 
-    final dueIds = await FirebaseVocabService().getDueSrsWordIds(langaugeCode);
+    final dueWords = await FirebaseVocabService().getDueSrsWords(
+      langaugeCode,
+      level: level,
+      category: category,
+    );
 
-    final dueWords =
-        unlearnedWords.where((w) => dueIds.contains(w.word)).toList()
-          ..sort((a, b) => a.srsRepetitions.compareTo(b.srsRepetitions));
+    dueWords.sort((a, b) => a.srsRepetitions.compareTo(b.srsRepetitions));
 
     if (dueWords.isEmpty) {
       log("SRS mix → no due words, serving 100% new");
@@ -285,23 +295,27 @@ class VocabProvider extends ChangeNotifier {
     final newCount = total - srsCount;
 
     final srsSlice = dueWords.take(srsCount).toList();
-    final newSlice = unlearnedWords
-        .where((w) => !dueIds.contains(w.word))
-        .take(newCount)
-        .toList();
+    final newSlice = unlearnedWords.take(newCount).toList();
     final mixed = [...srsSlice, ...newSlice];
 
     if (mixed.length < total) {
-      final remaining = unlearnedWords
+      final remainingDue = dueWords
           .where((w) => !mixed.any((m) => m.word == w.word))
           .take(total - mixed.length)
           .toList();
+      mixed.addAll(remainingDue);
+    }
 
-      mixed.addAll(remaining);
+    if (mixed.length < total) {
+      final remainingUnlearned = unlearnedWords
+          .where((w) => !mixed.any((m) => m.word == w.word))
+          .take(total - mixed.length)
+          .toList();
+      mixed.addAll(remainingUnlearned);
     }
 
     log(
-      "SRS mix → ${srsSlice.length} review + ${newSlice.length} new = ${mixed.length} total",
+      "SRS mix → ${srsSlice.length} review + ${newSlice.length} new = ${mixed.length} total (overall due: ${dueWords.length})",
     );
     return mixed;
   }
@@ -487,6 +501,8 @@ class VocabProvider extends ChangeNotifier {
         todaywords = await _mixSrsAndNewWords(
           newUnlearnedWords,
           onboard.learningLanguageCode,
+          level: currentExperienceLevel,
+          category: currentCategory,
         );
         todaywords.shuffle();
         log(
@@ -496,6 +512,8 @@ class VocabProvider extends ChangeNotifier {
         todaywords = await _mixSrsAndNewWords(
           unlearnedWords,
           onboard.learningLanguageCode,
+          level: currentExperienceLevel,
+          category: currentCategory,
         );
         todaywords.shuffle();
         log("✅ today words without generating: ${todaywords.length}");
