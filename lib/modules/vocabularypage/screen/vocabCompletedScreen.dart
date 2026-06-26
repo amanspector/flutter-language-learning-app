@@ -106,7 +106,7 @@ class Vocabcompletedscreen extends StatelessWidget {
                     buttonFunc: () {
                       log("Button clicked");
                       final lessonProvider = context.read<LessonProvider>();
-                      lessonProvider.startPractice(context);
+                      lessonProvider.startPractice();
                       Future.delayed(200.ms, () {
                         if (!context.mounted) return;
                         Navigator.push(

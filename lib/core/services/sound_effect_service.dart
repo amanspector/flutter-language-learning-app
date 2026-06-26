@@ -2,6 +2,8 @@ import 'package:just_audio/just_audio.dart';
 import 'dart:developer' as dev;
 
 class SoundEffectService {
+  static bool isMuted = false;
+
   static final AudioPlayer _placePlayer = AudioPlayer();
   static final AudioPlayer _removePlayer = AudioPlayer();
   static final AudioPlayer _correctPlayer = AudioPlayer();
@@ -13,6 +15,7 @@ class SoundEffectService {
   static bool _wrongLoaded = false;
 
   static Future<void> playPlace() async {
+    if (isMuted) return;
     try {
       if (!_placeLoaded) {
         await _placePlayer.setAsset('assets/sounds/place.mp3');
@@ -26,6 +29,7 @@ class SoundEffectService {
   }
 
   static Future<void> playRemove() async {
+    if (isMuted) return;
     try {
       if (!_removeLoaded) {
         await _removePlayer.setAsset('assets/sounds/remove.mp3');
@@ -39,6 +43,7 @@ class SoundEffectService {
   }
 
   static Future<void> playCorrect() async {
+    if (isMuted) return;
     try {
       if (!_correctLoaded) {
         await _correctPlayer.setAsset('assets/sounds/correct.mp3');
@@ -52,6 +57,7 @@ class SoundEffectService {
   }
 
   static Future<void> playWrong() async {
+    if (isMuted) return;
     try {
       if (!_wrongLoaded) {
         await _wrongPlayer.setAsset('assets/sounds/error2.mp3');

@@ -16,6 +16,7 @@ import 'package:flutter_markdown/flutter_markdown.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:lottie/lottie.dart';
 import 'package:provider/provider.dart';
+import 'package:chatbot_app/modules/onboarding/provider/onboard_provider.dart';
 
 class Homechatscreen extends StatefulWidget {
   const Homechatscreen({super.key});
@@ -592,7 +593,8 @@ class _StateHomescreen extends State<Homechatscreen> {
     inputcontroller.clear();
     FocusScope.of(context).unfocus();
 
-    await provider.sendMessage(text, uid);
+    final onboard = context.read<OnboardProvider>();
+    await provider.sendMessage(text, uid, age: onboard.age);
 
     provider.resetSpeed();
     scrollToBottom();

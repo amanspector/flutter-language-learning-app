@@ -5,6 +5,8 @@ import 'package:chatbot_app/modules/vocabularypage/provider/vocab_provider.dart'
 import 'package:chatbot_app/modules/auth/service/firebase_auth_service.dart';
 import 'package:chatbot_app/modules/vocabularypage/service/tts_service.dart';
 import 'package:chatbot_app/modules/vocabularypage/service/firebase_vocab_service.dart';
+import 'package:chatbot_app/core/services/sound_effect_service.dart';
+import 'package:chatbot_app/core/services/haptic_service.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
 
@@ -13,11 +15,28 @@ class HomescreenProvider extends ChangeNotifier {
   int consecutiveSessionDays = 0;
   int freezesOwned = 0;
   int totalXP = 0;
+  Map<String, String> weekHistory = {};
   String? langauge;
   int seletectedIndex = 0;
   bool isInitLoading = false;
   bool isLoadUserState = false;
   bool _hasInitializedSession = false;
+
+  bool isMuted = false;
+  bool isVibrationEnabled = true;
+
+  void toggleMute(bool value) {
+    isMuted = value;
+    SoundEffectService.isMuted = value;
+    notifyListeners();
+  }
+
+  void toggleVibration(bool value) {
+    isVibrationEnabled = value;
+    AppHapticService.isVibrationEnabled = value;
+    notifyListeners();
+  }
+
   final PageController pageController = PageController();
   List<Map<String, dynamic>> lastLessonExercises = [];
   List<Map<String, dynamic>> lessonHistory = [];
@@ -40,6 +59,12 @@ class HomescreenProvider extends ChangeNotifier {
       consecutiveSessionDays = data?['consecutiveSessionDays'] ?? 0;
       freezesOwned = data?['freezesOwned'] ?? 0;
       totalXP = data?['total_xp'] ?? 0;
+      weekHistory = Map<String, String>.from(
+        (data?['weekHistory'] as Map?)?.map(
+              (k, v) => MapEntry(k.toString(), v.toString()),
+            ) ??
+            {},
+      );
       langauge = data?['language'] ?? "Not Found";
 
       final activeLanguageCode = data?['active_language'] as String?;
@@ -139,14 +164,17 @@ class HomescreenProvider extends ChangeNotifier {
       }
 
       final ttslanguage = TTSService.getCode(uilangauage);
-      if (vocabprovider.todaywords.isEmpty && !vocabprovider.isloadingAidata) {
-        await vocabprovider.loadWords(
+      if (vocabprovider.todaywords.isEmpty &&
+          !vocabprovider.isloadingAidata &&
+          !vocabprovider.generationFailed) {
+        // Run in the background so app startup/redirect is not blocked by vocabulary generation.
+        vocabprovider.loadWords(
           ttslangauage: ttslanguage,
           experienceLevel: onboardprovider.selectedExperienceLevel!,
           category: onboardprovider.selectedgoal!,
           onboard: onboardprovider,
         );
-        log("Loadword is loaded !!");
+        log("Loadword load started in background");
       } else {
         log("Words already loaded or loading in progress");
       }

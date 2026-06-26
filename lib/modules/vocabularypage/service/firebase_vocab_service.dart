@@ -18,7 +18,7 @@ class FirebaseVocabService {
   // String _langDoc(String uid, String languageCode) =>
   //     'users/$uid/languages/$languageCode';
 
-  Future<void> saveLessonResults({
+  Future<bool> saveLessonResults({
     required String language,
     required List<String> masteredWords,
     required List<String> needReviewWords,
@@ -98,10 +98,11 @@ class FirebaseVocabService {
         'last_lesson_date': timestamp,
       }, SetOptions(merge: true));
 
-      await onSessionCompleted(uid);
+      final streakUpdated = await onSessionCompleted(uid);
       await batch.commit();
 
       log("✅ Lesson results saved successfully");
+      return streakUpdated;
     } catch (e) {
       log("❌ Error saving lesson results: $e");
       rethrow;
@@ -260,9 +261,7 @@ class FirebaseVocabService {
         return;
       }
 
-      final updates = <String, dynamic>{
-        'lastCheckedDate': todayStr,
-      };
+      final updates = <String, dynamic>{'lastCheckedDate': todayStr};
 
       if (lastSessionDateStr != null) {
         final lastSessionDate = DateTime.parse(lastSessionDateStr);
@@ -282,8 +281,25 @@ class FirebaseVocabService {
             updates['freezesOwned'] = freezesOwned - missedDays;
             updates['consecutiveSessionDays'] = 0;
             final yesterday = todayMidnight.subtract(const Duration(days: 1));
-            updates['lastSessionDate'] = DateFormat('yyyy-MM-dd').format(yesterday);
-            log("❄️ Consumed $missedDays streak freeze(s) for user $uid. Streak continues!");
+            updates['lastSessionDate'] = DateFormat(
+              'yyyy-MM-dd',
+            ).format(yesterday);
+
+            final weekHistory = Map<String, String>.from(
+              (data['weekHistory'] as Map?)?.map(
+                    (k, v) => MapEntry(k.toString(), v.toString()),
+                  ) ??
+                  {},
+            );
+            for (int i = 1; i <= missedDays; i++) {
+              final missedDate = lastSessionMidnight.add(Duration(days: i));
+              final missedDateStr = DateFormat('yyyy-MM-dd').format(missedDate);
+              weekHistory[missedDateStr] = 'freeze';
+            }
+            updates['weekHistory'] = weekHistory;
+            log(
+              "❄️ Consumed $missedDays streak freeze(s) for user $uid. Streak continues!",
+            );
           } else {
             updates['currentStreak'] = 0;
             updates['current_streak'] = 0;
@@ -294,10 +310,40 @@ class FirebaseVocabService {
         }
       } else {
         // Initialize fields if not set
-        updates['currentStreak'] = data['currentStreak'] ?? data['current_streak'] ?? 0;
+        updates['currentStreak'] =
+            data['currentStreak'] ?? data['current_streak'] ?? 0;
         updates['consecutiveSessionDays'] = data['consecutiveSessionDays'] ?? 0;
         updates['freezesOwned'] = data['freezesOwned'] ?? 0;
       }
+
+      // Populate current week's history (Mon-Sun)
+      final currentWeekHistory = Map<String, String>.from(
+        (updates['weekHistory'] ?? data['weekHistory'] as Map?)?.map(
+              (k, v) => MapEntry(k.toString(), v.toString()),
+            ) ??
+            {},
+      );
+
+      final todayMidnight = DateTime(today.year, today.month, today.day);
+      final monday = todayMidnight.subtract(Duration(days: todayMidnight.weekday - 1));
+
+      for (int i = 0; i < 7; i++) {
+        final day = monday.add(Duration(days: i));
+        final dayStr = DateFormat('yyyy-MM-dd').format(day);
+        
+        if (day.isAfter(todayMidnight)) {
+          currentWeekHistory[dayStr] = 'future';
+        } else if (day.isBefore(todayMidnight)) {
+          if (currentWeekHistory[dayStr] != 'completed' && currentWeekHistory[dayStr] != 'freeze') {
+            currentWeekHistory[dayStr] = 'missed';
+          }
+        } else { // today
+          if (currentWeekHistory[dayStr] != 'completed') {
+            currentWeekHistory[dayStr] = 'pending';
+          }
+        }
+      }
+      updates['weekHistory'] = currentWeekHistory;
 
       await docRef.update(updates);
       log("✅ checkAndUpdateStreak completed for $uid.");
@@ -306,24 +352,29 @@ class FirebaseVocabService {
     }
   }
 
-  Future<void> onSessionCompleted(String uid) async {
+  Future<bool> onSessionCompleted(String uid) async {
     try {
       final docRef = _firestore.collection('users').doc(uid);
-      await _firestore.runTransaction((transaction) async {
+      final streakUpdated = await _firestore.runTransaction<bool>((
+        transaction,
+      ) async {
         final snapshot = await transaction.get(docRef);
-        if (!snapshot.exists) return;
+        if (!snapshot.exists) return false;
         final data = snapshot.data() ?? {};
 
         final todayStr = DateFormat('yyyy-MM-dd').format(DateTime.now());
         final lastSessionDateStr = data['lastSessionDate'] as String?;
-        int currentStreak = (data['currentStreak'] ?? data['current_streak'] ?? 0) as int;
-        int consecutiveSessionDays = (data['consecutiveSessionDays'] ?? 0) as int;
+        int currentStreak =
+            (data['currentStreak'] ?? data['current_streak'] ?? 0) as int;
+        int consecutiveSessionDays =
+            (data['consecutiveSessionDays'] ?? 0) as int;
         int freezesOwned = (data['freezesOwned'] ?? 0) as int;
-        final isPremium = (data['isPremium'] ?? data['is_premium'] ?? false) as bool;
+        final isPremium =
+            (data['isPremium'] ?? data['is_premium'] ?? false) as bool;
 
         if (lastSessionDateStr == todayStr) {
           log("Session already completed today. Skipping streak increment.");
-          return;
+          return false;
         }
 
         currentStreak += 1;
@@ -333,7 +384,9 @@ class FirebaseVocabService {
           consecutiveSessionDays = 0;
           if (isPremium) {
             freezesOwned += 1;
-            log("🌟 Premium user earned a freeze! Total freezes: $freezesOwned");
+            log(
+              "🌟 Premium user earned a freeze! Total freezes: $freezesOwned",
+            );
           } else {
             if (freezesOwned < 1) {
               freezesOwned = 1;
@@ -345,7 +398,17 @@ class FirebaseVocabService {
         }
 
         final longestStreak = (data['longest_streak'] ?? 0) as int;
-        final newLongest = currentStreak > longestStreak ? currentStreak : longestStreak;
+        final newLongest = currentStreak > longestStreak
+            ? currentStreak
+            : longestStreak;
+
+        final weekHistory = Map<String, String>.from(
+          (data['weekHistory'] as Map?)?.map(
+                (k, v) => MapEntry(k.toString(), v.toString()),
+              ) ??
+              {},
+        );
+        weekHistory[todayStr] = 'completed';
 
         transaction.update(docRef, {
           'currentStreak': currentStreak,
@@ -355,11 +418,17 @@ class FirebaseVocabService {
           'lastSessionDate': todayStr,
           'longest_streak': newLongest,
           'last_lesson_date': FieldValue.serverTimestamp(),
+          'weekHistory': weekHistory,
         });
+        return true;
       });
-      log("✅ onSessionCompleted executed for $uid.");
+      log(
+        "✅ onSessionCompleted executed for $uid. Streak updated: $streakUpdated",
+      );
+      return streakUpdated;
     } catch (e) {
       log("❌ Error in onSessionCompleted: $e");
+      return false;
     }
   }
 

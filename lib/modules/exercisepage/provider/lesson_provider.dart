@@ -1,22 +1,29 @@
 import 'dart:math';
 import 'dart:async';
 import 'dart:developer' as dev;
-import 'package:chatbot_app/core/extensions/localization_extension.dart';
 import 'package:chatbot_app/modules/exercisepage/model/exercise_model.dart';
 import 'package:chatbot_app/modules/vocabularypage/provider/vocab_provider.dart';
 import 'package:provider/provider.dart';
 import '../screen/resultscreen.dart';
 import 'package:chatbot_app/modules/vocabularypage/service/firebase_vocab_service.dart';
 import 'package:flutter/material.dart';
-import 'package:vibration/vibration.dart';
+import 'package:chatbot_app/core/services/haptic_service.dart';
 import '../../vocabularypage/model/word_model.dart';
 import 'package:chatbot_app/core/services/sound_effect_service.dart';
+import 'package:chatbot_app/modules/homepage/provider/homescreen_provider.dart';
+import 'package:firebase_auth/firebase_auth.dart';
+import 'package:chatbot_app/generated/l10n.dart';
 
 class LessonProvider extends ChangeNotifier {
   List<WordModel> lessonWords = [];
   List<ExerciseModel> exercises = [];
   Timer? _exerciseTimer;
   int elapsedSeconds = 0;
+
+  Timer? _questionTimer;
+  int questionRemainingSeconds = 60;
+  static const int maxQuestionSeconds = 60;
+  int? _timerExerciseIndex;
 
   int currentWordIndex = 0;
   bool showMeaning = false;
@@ -43,7 +50,14 @@ class LessonProvider extends ChangeNotifier {
   int get xpEarned => score * 10;
   List<String?> arrangedSentence = [];
   bool hasAnimatedResult = false;
+  bool streakUpdated = false;
   Map<WordModel, bool> pendingSrsUpdates = {};
+  bool isSpeakEnabled = true;
+
+  void toggleSpeak(bool value) {
+    isSpeakEnabled = value;
+    notifyListeners();
+  }
 
   String get formattedTime {
     final minutes = elapsedSeconds ~/ 60;
@@ -59,6 +73,40 @@ class LessonProvider extends ChangeNotifier {
     } else {
       return '${seconds}s';
     }
+  }
+
+  void resetQuestionTimer({
+    required VocabProvider vocabProvider,
+    required String languageCode,
+    required BuildContext context,
+  }) {
+    if (_timerExerciseIndex == currentExerciseIndex &&
+        _questionTimer?.isActive == true) {
+      return;
+    }
+    _timerExerciseIndex = currentExerciseIndex;
+    _questionTimer?.cancel();
+    questionRemainingSeconds = maxQuestionSeconds;
+    notifyListeners();
+
+    _questionTimer = Timer.periodic(const Duration(seconds: 1), (timer) {
+      if (currentPhase != LessonPhase.exercise || isAnswered) {
+        timer.cancel();
+        return;
+      }
+      if (questionRemainingSeconds > 0) {
+        questionRemainingSeconds--;
+        notifyListeners();
+      } else {
+        timer.cancel();
+        if (currentExercise?.type == ExerciseType.sentenceArrangement) {
+          checkSentenceArrangement(context);
+        } else {
+          selectedAnswer = "";
+          checkAnswer(vocabProvider, languageCode);
+        }
+      }
+    });
   }
 
   List<String> animatedWords = [];
@@ -162,12 +210,14 @@ class LessonProvider extends ChangeNotifier {
         .trim();
     final correctAnswer = currentExercise!.correctAnswer.trim();
     isAnswered = true;
+    _questionTimer?.cancel();
     isCorrect = userSentence == correctAnswer;
     dev.log("🟦 userSentence   : '$userSentence'");
     dev.log("🟩 correctAnswer  : '$correctAnswer'");
     String text = currentExercise!.questionWithoutBlank;
-    String lang = context.read<VocabProvider>().currentlanguage!;
-    String speaker = context.read<VocabProvider>().currentspeaker;
+    final vocab = context.read<VocabProvider>();
+    String? lang = vocab.currentlanguage;
+    String speaker = vocab.currentspeaker;
 
     currentExercise!.userAnswer = userSentence;
     currentExercise!.isCorrect = isCorrect;
@@ -180,14 +230,19 @@ class LessonProvider extends ChangeNotifier {
       SoundEffectService.playCorrect();
     } else {
       SoundEffectService.playWrong();
-      Vibration.vibrate(pattern: [0, 100, 50, 100]);
+      AppHapticService.vibrate(pattern: [0, 100, 50, 100]);
     }
 
-    final vocab = context.read<VocabProvider>();
-    vocab.setSpeaking(true);
-    Future.delayed(const Duration(milliseconds: 1200), () {
-      vocab.speak(text: text, language: lang, speaker: speaker);
-    });
+    if (lang != null && isSpeakEnabled) {
+      vocab.setSpeaking(true);
+      Future.delayed(const Duration(milliseconds: 1200), () {
+        try {
+          vocab.speak(text: text, language: lang, speaker: speaker);
+        } catch (e) {
+          vocab.setSpeaking(false);
+        }
+      });
+    }
 
     dev.log(testedWord.toString());
     if (testedWord != null) {
@@ -216,7 +271,6 @@ class LessonProvider extends ChangeNotifier {
   }
 
   Future<void> startLesson({
-    required BuildContext con,
     required int userDailyGoalMinutes,
     required List<WordModel> words,
   }) async {
@@ -231,7 +285,7 @@ class LessonProvider extends ChangeNotifier {
         throw Exception("No words available.");
       }
 
-      generateExercises(con);
+      generateExercises();
       currentPhase = LessonPhase.introduction;
       isLoading = false;
       notifyListeners();
@@ -287,7 +341,7 @@ class LessonProvider extends ChangeNotifier {
     notifyListeners();
   }
 
-  void startPractice(BuildContext con) {
+  void startPractice() {
     elapsedSeconds = 0;
     _exerciseTimer?.cancel();
     _exerciseTimer = Timer.periodic(const Duration(seconds: 1), (timer) {
@@ -298,7 +352,7 @@ class LessonProvider extends ChangeNotifier {
         timer.cancel();
       }
     });
-    generateExercises(con);
+    generateExercises();
     currentPhase = LessonPhase.exercise;
     currentExerciseIndex = 0;
     _initializeArrangement();
@@ -336,7 +390,7 @@ class LessonProvider extends ChangeNotifier {
   //   dev.log("✅ Generated ${exercises.length} exercises");
   //
 
-  void generateExercises(BuildContext con) {
+  void generateExercises() {
     exercises.clear();
     masteredWords.clear();
     needReviewWords.clear();
@@ -372,9 +426,9 @@ class LessonProvider extends ChangeNotifier {
 
       switch (type) {
         case ExerciseType.fillInBlank:
-          exercises.add(_createFillInBlank(word, i, con));
+          exercises.add(_createFillInBlank(word, i));
         case ExerciseType.sentenceArrangement:
-          exercises.add(_createSentenceArrangement(word, i, con));
+          exercises.add(_createSentenceArrangement(word, i));
         case ExerciseType.translationMCQ:
           exercises.add(_createTranslationMCQ(word, i));
       }
@@ -384,11 +438,7 @@ class LessonProvider extends ChangeNotifier {
     dev.log("✅ $totalWords words → ${exercises.length} exercises");
   }
 
-  ExerciseModel _createSentenceArrangement(
-    WordModel word,
-    int index,
-    BuildContext con,
-  ) {
+  ExerciseModel _createSentenceArrangement(WordModel word, int index) {
     try {
       _initializeArrangement();
 
@@ -417,22 +467,18 @@ class LessonProvider extends ChangeNotifier {
       return ExerciseModel(
         id: 'ex_${index}_arrange',
         type: ExerciseType.sentenceArrangement,
-        question: con.l10n.arrangeWordsToForm(currentTranslation),
+        question: S.current.arrangeWordsToForm(currentTranslation),
         questionWithoutBlank: currentSentence,
         options: shuffledParts,
         correctAnswer: canonicalAnswer,
-        explanation: con.l10n.correctOrder(currentSentence),
+        explanation: S.current.correctOrder(currentSentence),
       );
     } catch (e) {
       throw Error();
     }
   }
 
-  ExerciseModel _createFillInBlank(
-    WordModel word,
-    int index,
-    BuildContext con,
-  ) {
+  ExerciseModel _createFillInBlank(WordModel word, int index) {
     try {
       final currentExample = word.exampleForRep(word.srsRepetitions);
       final sentence = currentExample?.sentence ?? word.example;
@@ -453,7 +499,7 @@ class LessonProvider extends ChangeNotifier {
       //   questionWithoutBlank = sentence;
       // }
       else {
-        question = con.l10n.fillInTheBlank(word.translation);
+        question = S.current.fillInTheBlank(word.translation);
         questionWithoutBlank = word.word;
       }
 
@@ -508,6 +554,7 @@ class LessonProvider extends ChangeNotifier {
     if (selectedAnswer == null || isAnswered) return;
 
     isAnswered = true;
+    _questionTimer?.cancel();
     final universalRegex = RegExp(r'[¿¡!?,.\-\s\u064B-\u0652]');
     String sanitize(String input) {
       return input.characters
@@ -569,14 +616,24 @@ class LessonProvider extends ChangeNotifier {
     dev.log("📝 testedWord: ${testword.word}");
     hasAnimatedResult = true;
 
-    vocabprovider.setSpeaking(true);
-    Future.delayed(const Duration(milliseconds: 1200), () {
-      vocabprovider.speak(
-        text: currentExercise!.questionWithoutBlank,
-        language: vocabprovider.currentlanguage!,
-        speaker: vocabprovider.currentspeaker,
-      );
-    });
+    final lang = vocabprovider.currentlanguage;
+    if (lang != null && isSpeakEnabled) {
+      vocabprovider.setSpeaking(true);
+      final textToSpeak = currentExercise!.type == ExerciseType.translationMCQ
+          ? currentExercise!.question
+          : currentExercise!.questionWithoutBlank;
+      Future.delayed(const Duration(milliseconds: 1200), () {
+        try {
+          vocabprovider.speak(
+            text: textToSpeak,
+            language: lang,
+            speaker: vocabprovider.currentspeaker,
+          );
+        } catch (e) {
+          vocabprovider.setSpeaking(false);
+        }
+      });
+    }
     notifyListeners();
   }
 
@@ -672,7 +729,14 @@ class LessonProvider extends ChangeNotifier {
       isLoading = true;
       notifyListeners();
       try {
-        await saveLessonResults(languageCode);
+        streakUpdated = await saveLessonResults(languageCode);
+
+        // Refresh homescreen provider stats so the celebration screen shows the updated values
+        final uid = FirebaseAuth.instance.currentUser?.uid;
+        if (uid != null && context.mounted) {
+          final homeProvider = context.read<HomescreenProvider>();
+          await homeProvider.loadUserStats(uid);
+        }
 
         currentPhase = LessonPhase.result;
         isLoading = false;
@@ -682,7 +746,7 @@ class LessonProvider extends ChangeNotifier {
 
         Navigator.pushReplacement(
           context,
-          MaterialPageRoute(builder: (_) => ResultScreen()),
+          MaterialPageRoute(builder: (_) => const ResultScreen()),
         );
       } catch (e) {
         isLoading = false;
@@ -693,7 +757,7 @@ class LessonProvider extends ChangeNotifier {
     }
   }
 
-  Future<void> saveLessonResults(String languageCode) async {
+  Future<bool> saveLessonResults(String languageCode) async {
     try {
       // Commit pending SRS updates to Firestore
       for (final entry in pendingSrsUpdates.entries) {
@@ -703,7 +767,7 @@ class LessonProvider extends ChangeNotifier {
 
       final totalQuestions = exercises.length;
       dev.log("📊 Lesson Results:");
-      await FirebaseVocabService().saveLessonResults(
+      final streakUpdated = await FirebaseVocabService().saveLessonResults(
         language: languageCode,
         masteredWords: masteredWords.toList(),
         needReviewWords: needReviewWords.toList(),
@@ -712,11 +776,15 @@ class LessonProvider extends ChangeNotifier {
         xpEarned: xpEarned,
         exercises: exercises,
       );
-      dev.log("✅ Lesson results saved to Firestore");
+      dev.log(
+        "✅ Lesson results saved to Firestore. Streak updated: $streakUpdated",
+      );
       dev.log("xpEarned : $xpEarned");
       dev.log("Score : $score");
+      return streakUpdated;
     } catch (e) {
       dev.log("❌ Error saving results: $e");
+      return false;
     }
   }
 
@@ -729,6 +797,9 @@ class LessonProvider extends ChangeNotifier {
   }
 
   void resetProgress() {
+    _questionTimer?.cancel();
+    _questionTimer = null;
+    _timerExerciseIndex = null;
     currentExerciseIndex = 0;
     selectedAnswer = null;
     isAnswered = false;
@@ -738,6 +809,9 @@ class LessonProvider extends ChangeNotifier {
   void resetLesson() {
     _exerciseTimer?.cancel();
     _exerciseTimer = null;
+    _questionTimer?.cancel();
+    _questionTimer = null;
+    _timerExerciseIndex = null;
     elapsedSeconds = 0;
     lessonWords.clear();
     exercises.clear();
@@ -753,6 +827,9 @@ class LessonProvider extends ChangeNotifier {
   }
 
   void restartLesson() {
+    _questionTimer?.cancel();
+    _questionTimer = null;
+    _timerExerciseIndex = null;
     currentExerciseIndex = 0;
     score = 0;
     masteredWords.clear();
@@ -777,6 +854,7 @@ class LessonProvider extends ChangeNotifier {
   @override
   void dispose() {
     _exerciseTimer?.cancel();
+    _questionTimer?.cancel();
     super.dispose();
   }
 
@@ -795,6 +873,7 @@ class LessonProvider extends ChangeNotifier {
 
     isCorrect = option == currentExercise!.correctAnswer;
     isAnswered = true;
+    _questionTimer?.cancel();
 
     currentExercise!.userAnswer = option;
     currentExercise!.isCorrect = isCorrect;
@@ -824,14 +903,21 @@ class LessonProvider extends ChangeNotifier {
 
     hasAnimatedResult = true;
 
-    vocabprovider.setSpeaking(true);
-    Future.delayed(const Duration(milliseconds: 1200), () {
-      vocabprovider.speak(
-        text: currentExercise!.question,
-        language: vocabprovider.currentlanguage!,
-        speaker: vocabprovider.currentspeaker,
-      );
-    });
+    final lang = vocabprovider.currentlanguage;
+    if (lang != null && isSpeakEnabled) {
+      vocabprovider.setSpeaking(true);
+      Future.delayed(const Duration(milliseconds: 1200), () {
+        try {
+          vocabprovider.speak(
+            text: currentExercise!.question,
+            language: lang,
+            speaker: vocabprovider.currentspeaker,
+          );
+        } catch (e) {
+          vocabprovider.setSpeaking(false);
+        }
+      });
+    }
 
     notifyListeners();
   }

@@ -162,6 +162,7 @@ class MessageLookup extends MessageLookupByLibrary {
     "enterYourPassword": MessageLookupByLibrary.simpleMessage(
       "أدخل كلمة المرور الخاصة بك",
     ),
+    "example": MessageLookupByLibrary.simpleMessage("مثال"),
     "excelInYourStudiesAndMasterExams": MessageLookupByLibrary.simpleMessage(
       "تفوق في دراستك واجتز الامتحانات ببراعة.",
     ),

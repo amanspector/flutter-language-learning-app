@@ -405,6 +405,7 @@ class VocabProvider extends ChangeNotifier {
             learningGoal: onboard.selectedgoal ?? 'travel',
             wordCount: maxWordsForLevel + 10,
             learnedWords: learnedIds,
+            age: onboard.age,
           );
           log("prompt : $prompt");
 

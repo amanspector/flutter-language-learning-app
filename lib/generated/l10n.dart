@@ -1744,6 +1744,11 @@ class S {
   String get timeTaken {
     return Intl.message('Time Taken', name: 'timeTaken', desc: '', args: []);
   }
+
+  /// `Example`
+  String get example {
+    return Intl.message('Example', name: 'example', desc: '', args: []);
+  }
 }
 
 class AppLocalizationDelegate extends LocalizationsDelegate<S> {

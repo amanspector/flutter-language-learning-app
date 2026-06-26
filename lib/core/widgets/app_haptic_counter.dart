@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:vibration/vibration.dart';
+import 'package:chatbot_app/core/services/haptic_service.dart';
 
 class AppHapticCounter extends StatefulWidget {
   final int begin;
@@ -59,7 +59,7 @@ class _AppHapticCounterState extends State<AppHapticCounter>
       if (value <= widget.begin) return;
 
       if (_controller.isCompleted) {
-        Vibration.vibrate(
+        AppHapticService.vibrate(
           pattern: [0, 40, 60, 40],
           intensities: [0, 255, 0, 255],
         );
@@ -71,7 +71,7 @@ class _AppHapticCounterState extends State<AppHapticCounter>
         if (now.difference(_lastVibrationTime).inMilliseconds >= currentGap) {
           _lastVibrationTime = now;
           final amplitude = (40 + (progress * 215)).round().clamp(1, 255);
-          Vibration.vibrate(amplitude: amplitude);
+          AppHapticService.vibrate(amplitude: amplitude);
         }
       }
     });

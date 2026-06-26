@@ -161,6 +161,7 @@ class MessageLookup extends MessageLookupByLibrary {
     "enterYourPassword": MessageLookupByLibrary.simpleMessage(
       "अपना पासवर्ड दर्ज करें",
     ),
+    "example": MessageLookupByLibrary.simpleMessage("उदाहरण"),
     "excelInYourStudiesAndMasterExams": MessageLookupByLibrary.simpleMessage(
       "अपनी पढ़ाई में उत्कृष्ट प्रदर्शन करें और परीक्षाओं में महारत हासिल करें।",
     ),

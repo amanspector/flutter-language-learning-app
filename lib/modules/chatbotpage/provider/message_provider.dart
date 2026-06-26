@@ -24,7 +24,7 @@ class MessageProvider extends ChangeNotifier {
   String? deletingChatId;
   FocusNode? editfocusnode;
 
-  Future<void> sendMessage(String text, String uid) async {
+  Future<void> sendMessage(String text, String uid, {int? age}) async {
     if (isSendingCooldown) return;
 
     isSendingCooldown = true;
@@ -59,7 +59,7 @@ class MessageProvider extends ChangeNotifier {
         isUser: true,
       );
 
-      final reply = await repo.sendMessage(text);
+      final reply = await repo.sendMessage(text, age: age);
 
       if (isStopped) {
         streamingText = "";

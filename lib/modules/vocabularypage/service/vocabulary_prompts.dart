@@ -8,6 +8,7 @@ class VocabularyPrompts {
     required String learningGoal,
     required int wordCount,
     required List<String> learnedWords,
+    int? age,
   }) {
     final nativeLang = Textconstant.languageNames[nativeLanguage] ?? 'English';
     final isNativeEnglish =
@@ -19,6 +20,9 @@ class VocabularyPrompts {
         : "translation in $nativeLang";
     final translationEnglishPlaceholder = "English translation";
 
+    final ageInstructions = _getAgeInstructions(age, learningGoal);
+    final levelGuidelines = _getLevelGuidelines(experienceLevel);
+
     return """
 You are a language curriculum expert. Generate exactly $wordCount vocabulary words.
 
@@ -26,10 +30,11 @@ TARGET LANGUAGE: $language
 NATIVE LANGUAGE: $nativeLang
 LEVEL: $experienceLevel
 GOAL: $learningGoal
-
-${_getLevelInstructions(experienceLevel)}
+${age != null ? "USER AGE: $age\n" : ""}
+$levelGuidelines
 ${_getGoalInstructions(learningGoal)}
 ${_getLanguageSpecificInstructions(language)}
+$ageInstructions
 
 === MCQ RULES (apply to EVERY word) ===
 
@@ -38,7 +43,7 @@ SIBLING SETS: vehicles/colors/animals/fruits/clothes/furniture/emotions/family/f
 INVALID PATTERNS (never use):
 - Generic: "यह मेरा ___ है" / "આ મારો ___ છે" / "वह एक ___ है" / "મેં ___ ખાધું"
 - Any sentence where ANY sibling word fits the blank naturally
-- Any sentence under 5 words total
+- Any sentence that violates the sentence length constraints for the user's level.
 - Any sentence using only generic adjectives before blank: "good/local/nearby/big/nice + ___"
 - Any sentence where the verb is generic: "went to/visited/saw/found + ___"
 
@@ -61,10 +66,6 @@ STRONG ANCHORS (required patterns):
 - Specific purpose tied to word: "Bought fresh bread from the ___"
 - Outcome tied to word: "Got stitches at the ___ after cutting my hand"
 - Multiple context details: "Checked in at the ___ after the flight and dropped luggage"
-
-BEGINNER (4-5 words): anchor must be a specific location noun or unique action verb
-INTERMEDIATE (6-8 words): anchor via purpose clause or specific context  
-ADVANCED (9-12 words): multiple context details that together eliminate all siblings
 
 === FIELD RULES ===
 - All "sentence" fields: MUST be in $language script only
@@ -96,16 +97,30 @@ Generate exactly $wordCount words now.
   }
   // ${learnedWords.isNotEmpty ? "EXCLUDE these already learned words: ${learnedWords.join(', ')}\n" : ""}
 
-  static String _getLevelInstructions(String level) {
+  static String _getLevelGuidelines(String level) {
     switch (level.toLowerCase()) {
       case 'beginner':
-        return """LEVEL (A1-A2): Simple daily words, short sentences (3-7 words), no idioms, focus on nouns/verbs/adjectives.""";
+        return """
+=== LEVEL DESIGN: BEGINNER (A1-A2) ===
+- Sentence Length: The A1/A2 example sentence and the MCQ "question" MUST be simple and very short: strictly 4 to 6 words total.
+- Anchor Rule: The blank anchor must be a specific location noun or unique action verb.
+- Language style: Simple daily words, no idioms, focus on nouns, basic verbs, and simple adjectives.
+- Complexity: Do NOT generate long, complex, or multi-clause sentences. This is an absolute requirement.""";
       case 'intermediate':
-        return """LEVEL (B1-B2): Conversational vocabulary, idioms allowed, longer sentences (6-12 words), mixed tenses.""";
+        return """
+=== LEVEL DESIGN: INTERMEDIATE (B1-B2) ===
+- Sentence Length: The A1/A2 and B1/B2 example sentences and the MCQ "question" MUST be strictly 6 to 9 words total.
+- Anchor Rule: Anchor the blank via a purpose clause or specific context.
+- Language style: Conversational vocabulary, simple idioms allowed, mixed tenses.
+- Complexity: Avoid making sentences overly complex or too long.""";
       case 'advanced':
-        return """LEVEL (C1-C2): Sophisticated vocabulary, idioms, cultural references, complex sentences, academic/professional terms.""";
+        return """
+=== LEVEL DESIGN: ADVANCED (C1-C2) ===
+- Sentence Length: Example sentences and MCQ questions can be 9 to 14 words total.
+- Anchor Rule: Use multiple context details that together eliminate all sibling options.
+- Language style: Sophisticated vocabulary, idioms, cultural references, and complex academic/professional terms.""";
       default:
-        return _getLevelInstructions('beginner');
+        return _getLevelGuidelines('beginner');
     }
   }
 
@@ -190,6 +205,29 @@ Generate exactly $wordCount words now.
       {"sentence":"$language sentence (B1/B2)","translation_english":"English translation","translation_native":"translation in $nativeLangName","sentence_parts":["..."],"level":"medium"},
       {"sentence":"$language sentence (C1/C2)","translation_english":"English translation","translation_native":"translation in $nativeLangName","sentence_parts":["..."],"level":"hard"}
     ]""";
+    }
+  }
+
+  static String _getAgeInstructions(int? age, String learningGoal) {
+    if (age == null) return "";
+    if (age < 13) {
+      return """
+=== AGE-SPECIFIC INSTRUCTIONS ===
+- TARGET USER IS A CHILD (under 13 years old).
+- Vocabulary words, options, and example sentences MUST be simple, child-friendly, playful, and easy to read.
+- Contexts MUST relate to things children enjoy/are familiar with (e.g. school, pets, toys, cartoon/animation, family, playground, simple games/hobbies) *within* the selected learning goal ($learningGoal).
+- Do NOT generate abstract, complex, professional/business, financial, or sensitive themes.""";
+    } else if (age < 20) {
+      return """
+=== AGE-SPECIFIC INSTRUCTIONS ===
+- TARGET USER IS A TEENAGER (13-19 years old).
+- Vocabulary, MCQ options, and example sentences MUST relate to teenage life and interests (e.g. school/high school life, peer relationships, technology, social media, sports, hobbies, gaming, music/pop culture) *within* the selected learning goal ($learningGoal).
+- Tone should be relatable and engaging, not overly childish but avoiding formal/professional business jargon.""";
+    } else {
+      return """
+=== AGE-SPECIFIC INSTRUCTIONS ===
+- TARGET USER IS AN ADULT (20+ years old).
+- Vocabulary and example sentences should relate to adult contexts (e.g. daily adult routines, career/workplace, news, travel, household management, social/professional events, and light financial topics) *within* the selected learning goal ($learningGoal).""";
     }
   }
 }

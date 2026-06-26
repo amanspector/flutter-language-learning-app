@@ -64,7 +64,14 @@ class RegisterscreenProvider extends ChangeNotifier {
       if (error != null) {
         setErrorMsg(error);
       } else {
-        context.read<OnboardProvider>().reset();
+        final ageVal = selectedAge ?? 24;
+        final genderVal = selectedGender ?? 'Male';
+
+        final onboard = context.read<OnboardProvider>();
+        onboard.reset();
+        onboard.setAge(ageVal);
+        onboard.setGender(genderVal);
+
         context.read<VocabProvider>().reset();
         context.read<HomescreenProvider>().resetUserState();
         context.read<MessageProvider>().resetChat();

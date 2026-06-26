@@ -12,10 +12,14 @@ class GeminiRepo {
   CancelToken? _chatCancelToken;
   CancelToken? _vocabCancelToken;
 
-  Future<String> sendMessage(String message) async {
+  Future<String> sendMessage(String message, {int? age}) async {
     try {
       _chatCancelToken = CancelToken();
       final apikey = dotenv.env['API_KEY'];
+      final ageInstruction = age != null
+          ? " The user is $age years old. Please adapt your explanation style, vocabulary difficulty, tone, and examples to be appropriate and engaging for a ${age < 13 ? 'child under 13' : age < 20 ? 'teenager (13-19)' : 'adult (20+)'}."
+          : "";
+
       final res = await geminiapiclient.post(
         '/models/gemini-3.1-flash-lite:generateContent',
         queryParameters: {"key": apikey},
@@ -32,7 +36,7 @@ class GeminiRepo {
             "parts": [
               {
                 "text":
-                    "You are a helpful language learning tutor chatbot. Your sole purpose is to solve user doubts, translations, vocabulary, grammar rules, and language learning queries. If the user asks you about anything else unrelated to language learning, you must politely decline and direct them to ask you questions about language learning instead.",
+                    "You are a helpful language learning tutor chatbot. Your sole purpose is to solve user doubts, translations, vocabulary, grammar rules, and language learning queries. If the user asks you about anything else unrelated to language learning, you must politely decline and direct them to ask you questions about language learning instead.$ageInstruction",
               },
             ],
           },

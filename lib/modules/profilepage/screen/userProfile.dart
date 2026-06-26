@@ -52,12 +52,16 @@ class Userprofile extends StatelessWidget {
         context.l10n.notFound;
 
     return AppScreen(
-      body: SingleChildScrollView(
-        physics: const BouncingScrollPhysics(),
-        child: Padding(
-          padding: EdgeInsets.symmetric(horizontal: 16.w, vertical: 20.h),
-          child: Column(
-            crossAxisAlignment: CrossAxisAlignment.start,
+      body: Stack(
+        children: [
+          ListView(
+            padding: EdgeInsets.only(
+              bottom: MediaQuery.of(context).padding.bottom + 90,
+              left: 20,
+              right: 20,
+            ),
+            physics: const BouncingScrollPhysics(),
+            // crossAxisAlignment: CrossAxisAlignment.start,
             children: [
               // Beautiful User Header
               SafeArea(
@@ -196,6 +200,66 @@ class Userprofile extends StatelessWidget {
                             'English',
                         textColor: context.theme.colorScheme.onSurface,
                       ),
+                      Padding(
+                        padding: EdgeInsets.symmetric(horizontal: 16.w),
+                        child: Divider(
+                          color: context.colors.outline.withValues(alpha: 0.15),
+                        ),
+                      ),
+                      Consumer<HomescreenProvider>(
+                        builder: (context, provider, _) {
+                          return _buildSettingTile(
+                            context,
+                            icon: provider.isMuted
+                                ? Icons.volume_off_rounded
+                                : Icons.volume_up_rounded,
+                            iconColor: Colors.amber,
+                            iconBgColor: Colors.amber.withValues(alpha: 0.12),
+                            title: 'Sound Effects',
+                            subtitle: provider.isMuted
+                                ? 'Audio is disabled'
+                                : 'Audio is enabled',
+                            textColor: context.theme.colorScheme.onSurface,
+                            trailing: Switch(
+                              value: !provider.isMuted,
+                              onChanged: (val) {
+                                provider.toggleMute(!val);
+                              },
+                              activeThumbColor: context.colors.primary,
+                            ),
+                          );
+                        },
+                      ),
+                      Padding(
+                        padding: EdgeInsets.symmetric(horizontal: 16.w),
+                        child: Divider(
+                          color: context.colors.outline.withValues(alpha: 0.15),
+                        ),
+                      ),
+                      Consumer<HomescreenProvider>(
+                        builder: (context, provider, _) {
+                          return _buildSettingTile(
+                            context,
+                            icon: provider.isVibrationEnabled
+                                ? Icons.vibration_rounded
+                                : Icons.portable_wifi_off_rounded,
+                            iconColor: Colors.pink,
+                            iconBgColor: Colors.pink.withValues(alpha: 0.12),
+                            title: 'Haptic Feedback',
+                            subtitle: provider.isVibrationEnabled
+                                ? 'Vibrations enabled'
+                                : 'Vibrations disabled',
+                            textColor: context.theme.colorScheme.onSurface,
+                            trailing: Switch(
+                              value: provider.isVibrationEnabled,
+                              onChanged: (val) {
+                                provider.toggleVibration(val);
+                              },
+                              activeThumbColor: context.colors.primary,
+                            ),
+                          );
+                        },
+                      ),
                     ],
                   ),
                 ),
@@ -264,7 +328,35 @@ class Userprofile extends StatelessWidget {
               ).staggerFadeUp(4),
             ],
           ),
-        ),
+          Positioned(
+            top: 0,
+            left: 0,
+            right: 0,
+            height: MediaQuery.of(context).padding.top + 20,
+            child: IgnorePointer(
+              child: Container(
+                decoration: BoxDecoration(
+                  gradient: LinearGradient(
+                    colors: [
+                      context.theme.colorScheme.secondaryContainer.withValues(
+                        alpha: 0.95,
+                      ),
+                      context.theme.colorScheme.secondaryContainer.withValues(
+                        alpha: 0.85,
+                      ),
+                      context.theme.colorScheme.secondaryContainer.withValues(
+                        alpha: 0.0,
+                      ),
+                    ],
+                    begin: Alignment.topCenter,
+                    end: Alignment.bottomCenter,
+                    stops: const [0.0, 0.45, 1.0],
+                  ),
+                ),
+              ),
+            ),
+          ),
+        ],
       ),
     );
   }
@@ -428,6 +520,7 @@ class Userprofile extends StatelessWidget {
     Color? iconColor,
     Color? iconBgColor,
     bool showArrow = false,
+    Widget? trailing,
     VoidCallback? onTap,
   }) {
     final scheme = context.theme.colorScheme;
@@ -481,7 +574,9 @@ class Userprofile extends StatelessWidget {
                   Icons.chevron_right_rounded,
                   color: scheme.outline.withValues(alpha: 0.5),
                   size: 22.r,
-                ),
+                )
+              else if (trailing != null)
+                trailing,
             ],
           ),
         ),

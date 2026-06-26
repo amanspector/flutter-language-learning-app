@@ -8,6 +8,7 @@ import 'package:chatbot_app/core/widgets/app_haptic_counter.dart';
 import 'package:chatbot_app/modules/homepage/provider/homescreen_provider.dart';
 import 'package:chatbot_app/modules/exercisepage/provider/lesson_provider.dart';
 import 'package:chatbot_app/modules/homepage/screen/homescreen.dart';
+import 'package:chatbot_app/modules/homepage/screen/streak_celebration_screen.dart';
 import 'package:chatbot_app/modules/onboarding/provider/onboard_provider.dart';
 import 'package:chatbot_app/modules/splashScreen/screen/ambient_background.dart';
 import 'package:chatbot_app/modules/vocabularypage/provider/vocab_provider.dart';
@@ -23,7 +24,6 @@ class ResultScreen extends HookWidget {
 
   @override
   Widget build(BuildContext context) {
-    final isLoading = useState(false);
     final provider = context.read<LessonProvider>();
     final activeStep = useState(0); // 0 = circular progress, 1 = XP, 2 = Timer
     final scorePercentage = provider.exercises.isEmpty
@@ -76,8 +76,39 @@ class ResultScreen extends HookWidget {
       curve: Curves.elasticOut,
     );
 
+    // Score-based confetti intensity
+    final int confettiSeconds = scorePercentage >= 90
+        ? 8
+        : scorePercentage >= 70
+        ? 5
+        : scorePercentage >= 50
+        ? 3
+        : scorePercentage > 0
+        ? 2
+        : 0;
+    final int confettiParticles = scorePercentage >= 90
+        ? 20
+        : scorePercentage >= 70
+        ? 15
+        : scorePercentage >= 50
+        ? 10
+        : scorePercentage > 0
+        ? 5
+        : 0;
+    final double confettiEmission = scorePercentage >= 90
+        ? 0.05
+        : scorePercentage >= 70
+        ? 0.08
+        : scorePercentage >= 50
+        ? 0.12
+        : scorePercentage > 0
+        ? 0.18
+        : 0.0;
+
     final confettiController = useMemoized(
-      () => ConfettiController(duration: Duration(seconds: 4))..play(),
+      () => ConfettiController(
+        duration: Duration(seconds: confettiSeconds > 0 ? confettiSeconds : 1),
+      ),
     );
     useEffect(() => confettiController.dispose, []);
     useEffect(() {
@@ -86,7 +117,7 @@ class ResultScreen extends HookWidget {
         Duration(milliseconds: 200),
         () => scaleController.forward(),
       );
-      if (scorePercentage >= 70) {
+      if (confettiSeconds > 0) {
         confettiController.play();
       }
       return null;
@@ -240,36 +271,46 @@ class ResultScreen extends HookWidget {
 
                       // Continue button
                       AppButton(
-                        isLoading: isLoading.value,
-                        buttonFunc: () async {
-                          isLoading.value = true;
-                          try {
-                            final vocab = context.read<VocabProvider>();
-                            final lesson = context.read<LessonProvider>();
-                            final onboard = context.read<OnboardProvider>();
-                            final homeProvider = context
-                                .read<HomescreenProvider>();
-                            final uid = FirebaseAuth.instance.currentUser!.uid;
-                            await vocab.loadNextBatch(onboard);
-                            lesson.initWordsFromVocab(vocab.todaywords);
-                            if (!context.mounted) return;
-                            await lesson.startLesson(
-                              con: context,
-                              userDailyGoalMinutes: vocab.maxWordsForLevel,
-                              words: vocab.todaywords,
+                        isLoading: false,
+                        buttonFunc: () {
+                          final vocab = context.read<VocabProvider>();
+                          final lesson = context.read<LessonProvider>();
+                          final onboard = context.read<OnboardProvider>();
+                          final homeProvider = context
+                              .read<HomescreenProvider>();
+                          final user = FirebaseAuth.instance.currentUser;
+                          if (user == null) return;
+                          final uid = user.uid;
+
+                          if (lesson.streakUpdated) {
+                            Navigator.pushReplacement(
+                              context,
+                              MaterialPageRoute(
+                                builder: (_) => const StreakCelebrationScreen(),
+                              ),
                             );
-                            if (!context.mounted) return;
-                            lesson.generateExercises(context);
-                            await homeProvider.loadUserStats(uid);
-                            if (!context.mounted) return;
+                          } else {
                             Navigator.pushAndRemoveUntil(
                               context,
                               MaterialPageRoute(builder: (_) => Homescreen()),
-                              (route) => false, // removes all previous routes
+                              (route) => false,
                             );
-                          } finally {
-                            isLoading.value = false;
                           }
+
+                          // Generate exercises and load next batch in the background
+                          Future(() async {
+                            try {
+                              await vocab.loadNextBatch(onboard);
+                              lesson.initWordsFromVocab(vocab.todaywords);
+                              await lesson.startLesson(
+                                userDailyGoalMinutes: vocab.maxWordsForLevel,
+                                words: vocab.todaywords,
+                              );
+                              await homeProvider.loadUserStats(uid);
+                            } catch (e) {
+                              debugPrint("Background generation error: $e");
+                            }
+                          });
                         },
                         childWidget: Text(
                           context.l10n.continueText,
@@ -285,22 +326,26 @@ class ResultScreen extends HookWidget {
             ),
           ),
 
-          // Confetti
-          Align(
-            alignment: Alignment.topCenter,
-            child: ConfettiWidget(
-              confettiController: confettiController,
-              blastDirectionality: BlastDirectionality.explosive,
-              shouldLoop: false,
-              colors: [
-                ColorConstant.colorGreen,
-                ColorConstant.colorBlue,
-                ColorConstant.colorPink,
-                ColorConstant.colorOrange,
-                ColorConstant.colorPurple,
-              ],
+          // Confetti — intensity scales with score
+          if (confettiParticles > 0)
+            Align(
+              alignment: Alignment.topCenter,
+              child: ConfettiWidget(
+                confettiController: confettiController,
+                blastDirectionality: BlastDirectionality.explosive,
+                shouldLoop: false,
+                numberOfParticles: confettiParticles,
+                emissionFrequency: confettiEmission,
+                gravity: 0.2,
+                colors: [
+                  ColorConstant.colorGreen,
+                  ColorConstant.colorBlue,
+                  ColorConstant.colorPink,
+                  ColorConstant.colorOrange,
+                  ColorConstant.colorPurple,
+                ],
+              ),
             ),
-          ),
         ],
       ),
     );

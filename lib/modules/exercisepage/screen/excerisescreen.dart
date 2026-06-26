@@ -14,7 +14,7 @@ import 'package:chatbot_app/modules/vocabularypage/provider/vocab_provider.dart'
 import 'package:chatbot_app/core/services/sound_effect_service.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:chatbot_app/core/widgets/app_button.dart';
-import 'package:vibration/vibration.dart';
+import 'package:chatbot_app/core/services/haptic_service.dart';
 import 'package:provider/provider.dart';
 import 'package:flutter/material.dart';
 
@@ -36,7 +36,20 @@ class ExerciseScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final provider = context.watch<LessonProvider>();
+    final vocab = context.watch<VocabProvider>();
+    final onboard = context.watch<OnboardProvider>();
     final exercise = provider.currentExercise;
+
+    if (provider.currentPhase == LessonPhase.exercise && !provider.isAnswered) {
+      WidgetsBinding.instance.addPostFrameCallback((_) {
+        provider.resetQuestionTimer(
+          vocabProvider: vocab,
+          languageCode: onboard.learningLanguageCode,
+          context: context,
+        );
+      });
+    }
+
     return Scaffold(
       body: PopScope(
         canPop: false,
@@ -93,32 +106,56 @@ class ExerciseScreen extends StatelessWidget {
                       ),
                       Row(
                         children: [
-                          AppContainer(
-                            backgroundColor: context.theme.colorScheme.surface
-                                .withValues(alpha: 0.60),
-                            padding: EdgeInsets.symmetric(
-                              horizontal: 12.w,
-                              vertical: 6.h,
-                            ),
-                            widget: Row(
-                              mainAxisSize: MainAxisSize.min,
-                              children: [
-                                Icon(
-                                  Icons.timer_outlined,
-                                  size: 18.r,
-                                  color: context.theme.colorScheme.onSurface,
-                                ),
-                                SizedBox(width: 6.w),
-                                Text(
-                                  provider.formattedTime,
-                                  style: context.text.titleMedium?.copyWith(
-                                    fontWeight: FontWeight.bold,
-                                    color: context.theme.colorScheme.onSurface,
+                          if (provider.currentPhase == LessonPhase.exercise &&
+                              !provider.isAnswered) ...[
+                            AppContainer(
+                              backgroundColor: context.theme.colorScheme.surface
+                                  .withValues(alpha: 0.60),
+                              borderColor:
+                                  Color.lerp(
+                                    const Color(0xFFE74C3C), // Red
+                                    const Color(0xFF2ECC71), // Green
+                                    provider.questionRemainingSeconds / 60.0,
+                                  )?.withValues(alpha: 0.5) ??
+                                  Colors.transparent,
+                              padding: EdgeInsets.symmetric(
+                                horizontal: 12.w,
+                                vertical: 6.h,
+                              ),
+                              widget: Row(
+                                mainAxisSize: MainAxisSize.min,
+                                children: [
+                                  Icon(
+                                    Icons.hourglass_bottom_rounded,
+                                    size: 18.r,
+                                    color:
+                                        Color.lerp(
+                                          const Color(0xFFE74C3C), // Red
+                                          const Color(0xFF2ECC71), // Green
+                                          provider.questionRemainingSeconds /
+                                              60.0,
+                                        ) ??
+                                        context.theme.colorScheme.onSurface,
                                   ),
-                                ),
-                              ],
+                                  SizedBox(width: 6.w),
+                                  Text(
+                                    "${provider.questionRemainingSeconds}s",
+                                    style: context.text.titleMedium?.copyWith(
+                                      fontWeight: FontWeight.bold,
+                                      color:
+                                          Color.lerp(
+                                            const Color(0xFFE74C3C), // Red
+                                            const Color(0xFF2ECC71), // Green
+                                            provider.questionRemainingSeconds /
+                                                60.0,
+                                          ) ??
+                                          context.theme.colorScheme.onSurface,
+                                    ),
+                                  ),
+                                ],
+                              ),
                             ),
-                          ),
+                          ],
                           SizedBox(width: 20.w),
                         ],
                       ),
@@ -126,6 +163,28 @@ class ExerciseScreen extends StatelessWidget {
                   ),
                 ),
               ),
+              if (provider.currentPhase == LessonPhase.exercise &&
+                  !provider.isAnswered)
+                Padding(
+                  padding: EdgeInsets.symmetric(horizontal: 20.w),
+                  child: ClipRRect(
+                    borderRadius: BorderRadius.circular(4.r),
+                    child: LinearProgressIndicator(
+                      value: provider.questionRemainingSeconds / 60.0,
+                      backgroundColor: context.theme.colorScheme.outline
+                          .withValues(alpha: 0.1),
+                      valueColor: AlwaysStoppedAnimation<Color>(
+                        Color.lerp(
+                              const Color(0xFFE74C3C), // Red
+                              const Color(0xFF2ECC71), // Green
+                              provider.questionRemainingSeconds / 60.0,
+                            ) ??
+                            const Color(0xFF2ECC71),
+                      ),
+                      minHeight: 6.h,
+                    ),
+                  ),
+                ).fadeInSlideUp,
               Expanded(
                 child: SingleChildScrollView(
                   padding: EdgeInsets.all(20.r),
@@ -170,7 +229,11 @@ class ExerciseScreen extends StatelessWidget {
                           _buildMCQOptions(context, exercise!, provider),
                           SizedBox(height: 30.h),
                         ],
-                        _buildFeedback(context, provider, exercise),
+                        _buildFeedback(
+                          context,
+                          provider,
+                          exercise,
+                        ).fadeInSlideUp,
                       ],
                     ],
                   ),
@@ -196,69 +259,241 @@ class ExerciseScreen extends StatelessWidget {
     LessonProvider provider,
     dynamic exercise,
   ) {
-    // final String correctWord = exercise.correctAnswer ?? "";
+    final theme = context.theme;
+    final isCorrect = provider.isCorrect;
+    final vocab = context.read<VocabProvider>();
+    final language = vocab.currentlanguage;
+    final speaker = vocab.currentspeaker;
 
-    // 2. Extract the complete, unbroken sentence (without the "_____" blank)
-    // final String fullSentence = exercise.questionWithoutBlank ?? "";
+    final textToSpeak = exercise.type == ExerciseType.translationMCQ
+        ? exercise.question
+        : exercise.questionWithoutBlank;
+    final keySpeak = "$textToSpeak-$language-word";
+
+    final Color statusColor = isCorrect
+        ? theme.colorScheme.primary.withGreen(180)
+        : theme.colorScheme.error.withRed(225);
+
+    final Color bgColor = isCorrect
+        ? theme.colorScheme.primary.withValues(alpha: 0.15)
+        : theme.colorScheme.error.withValues(alpha: 0.10);
+
     return Container(
-      padding: EdgeInsets.all(16.r),
+      padding: EdgeInsets.all(20.r),
       decoration: BoxDecoration(
-        color: provider.isCorrect
-            ? context.theme.colorScheme.primary.withValues(alpha: 0.40)
-            : context.theme.colorScheme.error.withValues(alpha: 0.20),
-        borderRadius: BorderRadius.circular(16.r),
+        color: bgColor,
+        borderRadius: BorderRadius.circular(24.r),
         border: Border.all(
-          color: provider.isCorrect
-              ? context.theme.colorScheme.primary.withGreen(180)
-              : context.theme.colorScheme.error.withRed(225),
+          color: statusColor.withValues(alpha: 0.3),
           width: 2.r,
         ),
+        boxShadow: [
+          BoxShadow(
+            color: statusColor.withValues(alpha: 0.05),
+            blurRadius: 10.r,
+            offset: const Offset(0, 4),
+          ),
+        ],
       ),
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           Row(
+            mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
-              Icon(
-                provider.isCorrect ? Icons.check_circle : Icons.cancel,
-                color: provider.isCorrect
-                    ? context.theme.colorScheme.primary.withGreen(180)
-                    : context.theme.colorScheme.error.withRed(225),
-                size: 32,
+              Row(
+                children: [
+                  Icon(
+                    isCorrect
+                        ? Icons.check_circle_rounded
+                        : Icons.cancel_rounded,
+                    color: statusColor,
+                    size: 28.r,
+                  ),
+                  SizedBox(width: 10.w),
+                  Text(
+                    isCorrect ? context.l10n.correct : context.l10n.incorrect,
+                    style: context.text.displayMedium?.copyWith(
+                      color: statusColor,
+                      fontSize: 20.sp,
+                      fontWeight: FontWeight.bold,
+                    ),
+                  ),
+                ],
               ),
-              SizedBox(width: 12.w),
+              if (language != null)
+                GestureDetector(
+                  onTap: () {
+                    vocab.speak(
+                      text: textToSpeak,
+                      language: language,
+                      speaker: speaker,
+                    );
+                  },
+                  child: Selector<VocabProvider, String?>(
+                    selector: (_, vocabpro) => vocabpro.speakingKey,
+                    builder: (context, speakingkey, child) {
+                      final isCurrentSpeaking = speakingkey == keySpeak;
+                      return Container(
+                        padding: EdgeInsets.all(8.r),
+                        decoration: BoxDecoration(
+                          color: statusColor.withValues(alpha: 0.15),
+                          shape: BoxShape.circle,
+                        ),
+                        child: AnimatedSwitcher(
+                          duration: const Duration(milliseconds: 150),
+                          child: isCurrentSpeaking
+                              ? SizedBox(
+                                  width: 18.r,
+                                  height: 18.r,
+                                  child: CircularProgressIndicator(
+                                    strokeWidth: 2,
+                                    color: statusColor,
+                                  ),
+                                )
+                              : Icon(
+                                  Icons.volume_up_rounded,
+                                  size: 18.r,
+                                  color: statusColor,
+                                ),
+                        ),
+                      );
+                    },
+                  ),
+                ),
+            ],
+          ),
+          if (!isCorrect) ...[
+            Container(
+              margin: EdgeInsets.only(top: 12.h),
+              padding: EdgeInsets.symmetric(horizontal: 16.w, vertical: 12.h),
+              decoration: BoxDecoration(
+                color: theme.colorScheme.surface.withValues(alpha: 0.9),
+                borderRadius: BorderRadius.circular(16.r),
+                border: Border.all(
+                  color: theme.colorScheme.primary
+                      .withGreen(180)
+                      .withValues(alpha: 0.4),
+                  width: 1.5.r,
+                ),
+              ),
+              child: Row(
+                children: [
+                  Container(
+                    padding: EdgeInsets.all(6.r),
+                    decoration: BoxDecoration(
+                      color: theme.colorScheme.primary
+                          .withGreen(180)
+                          .withValues(alpha: 0.15),
+                      shape: BoxShape.circle,
+                    ),
+                    child: Icon(
+                      Icons.check_circle_outline_rounded,
+                      color: theme.colorScheme.primary.withGreen(180),
+                      size: 20.r,
+                    ),
+                  ),
+                  SizedBox(width: 12.w),
+                  Expanded(
+                    child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: [
+                        Text(
+                          context.l10n.correctAnswerText,
+                          style: context.text.bodySmall?.copyWith(
+                            color: theme.colorScheme.primary.withGreen(180),
+                            fontWeight: FontWeight.bold,
+                          ),
+                        ),
+                        SizedBox(height: 2.h),
+                        Text(
+                          exercise.correctAnswer,
+                          style: context.text.bodyLarge?.copyWith(
+                            fontWeight: FontWeight.bold,
+                            color: theme.colorScheme.onSurface,
+                          ),
+                        ),
+                      ],
+                    ),
+                  ),
+                ],
+              ),
+            ),
+          ],
+          if (exercise.type != ExerciseType.translationMCQ) ...[
+            Padding(
+              padding: EdgeInsets.only(top: 12.h),
+              child: Divider(
+                color: statusColor.withValues(alpha: 0.15),
+                thickness: 1,
+              ),
+            ),
+            if (exercise.type == ExerciseType.fillInBlank &&
+                exercise.nativeTranslation != null) ...[
+              SizedBox(height: 8.h),
               Text(
-                provider.isCorrect
-                    ? context.l10n.correct
-                    : context.l10n.incorrect,
-                style: context.text.displayMedium?.copyWith(
-                  color: provider.isCorrect
-                      ? context.theme.colorScheme.primary.withGreen(180)
-                      : context.theme.colorScheme.error.withRed(225),
-                  fontSize: 22.sp,
-                  fontWeight: FontWeight.bold,
+                "${context.l10n.translation}: ${exercise.nativeTranslation}",
+                style: context.text.bodyMedium?.copyWith(
+                  fontWeight: FontWeight.w600,
+                  color: theme.colorScheme.onSurface,
                 ),
               ),
             ],
-          ),
-
-          if (exercise.type != ExerciseType.translationMCQ) ...[
-            if (exercise.type == ExerciseType.fillInBlank) ...[
-              SizedBox(height: 10.h),
-              // final feedback = exercise.explanation!.toString().split(":");
-              Text(
-                "${context.l10n.translation} : ${exercise.nativeTranslation}",
-                style: context.text.bodyMedium,
-              ),
+            if (exercise.explanation != null) ...[
+              if (exercise.type == ExerciseType.fillInBlank) ...[
+                Builder(
+                  builder: (context) {
+                    final displayExplanation = exercise.explanation!;
+                    if (!isCorrect) {
+                      final prefix = "${exercise.correctAnswer.trim()} :";
+                      if (displayExplanation.trim().toLowerCase().startsWith(
+                        prefix.toLowerCase(),
+                      )) {
+                        final meaningText = displayExplanation
+                            .trim()
+                            .substring(prefix.length)
+                            .trim();
+                        return Padding(
+                          padding: EdgeInsets.only(top: 8.h),
+                          child: Text(
+                            "${context.l10n.meaning}: $meaningText",
+                            style: context.text.bodyMedium?.copyWith(
+                              color: theme.colorScheme.onSurface.withValues(
+                                alpha: 0.8,
+                              ),
+                            ),
+                          ),
+                        );
+                      }
+                    }
+                    return Padding(
+                      padding: EdgeInsets.only(top: 8.h),
+                      child: Text(
+                        displayExplanation,
+                        style: context.text.bodyMedium?.copyWith(
+                          color: theme.colorScheme.onSurface.withValues(
+                            alpha: 0.8,
+                          ),
+                        ),
+                      ),
+                    );
+                  },
+                ),
+              ] else if (exercise.type != ExerciseType.sentenceArrangement) ...[
+                Padding(
+                  padding: EdgeInsets.only(top: 8.h),
+                  child: Text(
+                    exercise.explanation!,
+                    style: context.text.bodyMedium?.copyWith(
+                      color: theme.colorScheme.onSurface.withValues(alpha: 0.8),
+                    ),
+                    textDirection: context
+                        .read<OnboardProvider>()
+                        .learningTextDirection,
+                  ),
+                ),
+              ],
             ],
-            SizedBox(height: 12.h),
-            Text(
-              exercise.explanation!,
-              style: context.text.bodyMedium,
-              textDirection: context
-                  .read<OnboardProvider>()
-                  .learningTextDirection,
-            ),
           ],
         ],
       ),
@@ -520,11 +755,10 @@ class ExerciseScreen extends StatelessWidget {
               ? nextExercise.question
               : nextExercise
                     .questionWithoutBlank; // covers both fillInBlank and sentenceArrangement
-          vocab.preloadText(
-            textSentence,
-            vocab.currentlanguage!,
-            vocab.currentspeaker,
-          );
+          final lang = vocab.currentlanguage;
+          if (lang != null && provider.isSpeakEnabled) {
+            vocab.preloadText(textSentence, lang, vocab.currentspeaker);
+          }
         }
         final onboard = context.read<OnboardProvider>();
         provider.nextExercise(context, onboard.learningLanguageCode);
@@ -572,7 +806,7 @@ class ExerciseScreen extends StatelessWidget {
     provider.checkAnswer(vocabpro, onboard.learningLanguageCode);
 
     if (!provider.isCorrect) {
-      Vibration.vibrate(pattern: [0, 100, 50, 100]);
+      AppHapticService.vibrate(pattern: [0, 100, 50, 100]);
     }
   }
 

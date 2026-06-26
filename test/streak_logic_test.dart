@@ -37,6 +37,16 @@ Map<String, dynamic> checkAndUpdateStreakSimulated({
         updates['consecutiveSessionDays'] = 0;
         final yesterday = todayMidnight.subtract(const Duration(days: 1));
         updates['lastSessionDate'] = DateFormat('yyyy-MM-dd').format(yesterday);
+
+        final weekHistory = Map<String, String>.from(
+          (data['weekHistory'] as Map?)?.map((k, v) => MapEntry(k.toString(), v.toString())) ?? {},
+        );
+        for (int i = 1; i <= missedDays; i++) {
+          final missedDate = lastSessionMidnight.add(Duration(days: i));
+          final missedDateStr = DateFormat('yyyy-MM-dd').format(missedDate);
+          weekHistory[missedDateStr] = 'freeze';
+        }
+        updates['weekHistory'] = weekHistory;
       } else {
         updates['currentStreak'] = 0;
         updates['current_streak'] = 0;
@@ -85,6 +95,11 @@ Map<String, dynamic> onSessionCompletedSimulated({
   final longestStreak = (data['longest_streak'] ?? 0) as int;
   final newLongest = currentStreak > longestStreak ? currentStreak : longestStreak;
 
+  final weekHistory = Map<String, String>.from(
+    (data['weekHistory'] as Map?)?.map((k, v) => MapEntry(k.toString(), v.toString())) ?? {},
+  );
+  weekHistory[todayStr] = 'completed';
+
   return {
     'currentStreak': currentStreak,
     'current_streak': currentStreak,
@@ -92,6 +107,8 @@ Map<String, dynamic> onSessionCompletedSimulated({
     'freezesOwned': freezesOwned,
     'lastSessionDate': todayStr,
     'longest_streak': newLongest,
+    'weekHistory': weekHistory,
+    'streakUpdated': true,
   };
 }
 
@@ -282,6 +299,40 @@ void main() {
       expect(updates['currentStreak'], 0);
       expect(updates['consecutiveSessionDays'], 0);
       expect(updates['freezesOwned'], 0);
+    });
+
+    test('weekHistory updates - completed and freeze', () {
+      final today = DateTime(2026, 6, 23);
+      
+      // 1. Session completed today
+      final data = {
+        'lastSessionDate': '2026-06-22',
+        'currentStreak': 5,
+        'consecutiveSessionDays': 3,
+        'freezesOwned': 1,
+        'weekHistory': {'2026-06-22': 'completed'},
+      };
+      
+      final updates1 = onSessionCompletedSimulated(data: data, today: today);
+      final newHistory1 = updates1['weekHistory'] as Map<String, String>;
+      expect(newHistory1['2026-06-22'], 'completed');
+      expect(newHistory1['2026-06-23'], 'completed');
+      expect(updates1['streakUpdated'], true);
+
+      // 2. Freeze consumed on missed day
+      final data2 = {
+        'lastCheckedDate': '2026-06-21',
+        'lastSessionDate': '2026-06-21', // missed yesterday (June 22)
+        'currentStreak': 5,
+        'consecutiveSessionDays': 3,
+        'freezesOwned': 1,
+        'weekHistory': {'2026-06-21': 'completed'},
+      };
+      
+      final updates2 = checkAndUpdateStreakSimulated(data: data2, today: today);
+      final newHistory2 = updates2['weekHistory'] as Map<String, String>;
+      expect(newHistory2['2026-06-21'], 'completed');
+      expect(newHistory2['2026-06-22'], 'freeze');
     });
   });
 }

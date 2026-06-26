@@ -200,5 +200,6 @@
   "correctAnswerText": "सही जवाब",
   "lessonReview": "पाठ की समीक्षा",
   "tapToRevealMeaning": "अर्थ देखने के लिए टैप करें",
-  "timeTaken": "लिया गया समय"
+  "timeTaken": "लिया गया समय",
+  "example": "उदाहरण"
 }

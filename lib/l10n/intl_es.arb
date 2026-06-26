@@ -200,5 +200,6 @@
   "correctAnswerText": "Respuesta correcta",
   "lessonReview": "Revisión de la lección",
   "tapToRevealMeaning": "Toca para revelar el significado",
-  "timeTaken": "Tiempo tomado"
+  "timeTaken": "Tiempo tomado",
+  "example": "Ejemplo"
 }

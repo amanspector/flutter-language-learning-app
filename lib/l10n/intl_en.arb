@@ -200,5 +200,6 @@
   "correctAnswerText": "Correct Answer",
   "lessonReview": "Lesson Review",
   "tapToRevealMeaning": "Tap to reveal meaning",
-  "timeTaken": "Time Taken"
+  "timeTaken": "Time Taken",
+  "example": "Example"
 }

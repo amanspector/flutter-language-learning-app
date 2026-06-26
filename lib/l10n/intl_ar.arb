@@ -200,5 +200,6 @@
   "correctAnswerText": "الإجابة الصحيحة",
   "lessonReview": "مراجعة الدرس",
   "tapToRevealMeaning": "اضغط لإظهار المعنى",
-  "timeTaken": "الوقت المستغرق"
+  "timeTaken": "الوقت المستغرق",
+  "example": "مثال"
 }
