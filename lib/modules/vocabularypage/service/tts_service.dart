@@ -24,6 +24,7 @@ class TTSService {
     "Gujarati": "gu-IN",
     "Bengali": "bn-IN",
     "Kannada": "kn-IN",
+    "French": "fr-FR",
   };
 
   static String getCode(String languageName) {

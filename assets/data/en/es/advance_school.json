@@ -1,0 +1,3088 @@
+{
+    "metadata": {
+        "language": "Spanish",
+        "native_language": "English",
+        "level": "advnace",
+        "category": "School",
+        "total_words": 100
+    },
+    "words": [
+        {
+            "word": "pedagogía",
+            "translation_english": "pedagogy",
+            "translation_native": "pedagogía",
+            "pronunciation": "peh-dah-goh-HEE-ah",
+            "examples": [
+                {
+                    "sentence": "La pedagogía moderna enfatiza el aprendizaje activo.",
+                    "translation_english": "Modern pedagogy emphasizes active learning.",
+                    "translation_native": "La pedagogía moderna enfatiza el aprendizaje activo.",
+                    "sentence_parts": [
+                        "La",
+                        "pedagogía",
+                        "moderna",
+                        "enfatiza",
+                        "el",
+                        "aprendizaje",
+                        "activo."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "pedagogía",
+                "didáctica",
+                "enseñanza",
+                "instrucción"
+            ],
+            "correct_answer": "pedagogía"
+        },
+        {
+            "word": "currículo",
+            "translation_english": "curriculum",
+            "translation_native": "currículo",
+            "pronunciation": "koo-RREE-koo-loh",
+            "examples": [
+                {
+                    "sentence": "El currículo académico fue revisado este año.",
+                    "translation_english": "The academic curriculum was revised this year.",
+                    "translation_native": "El currículo académico fue revisado este año.",
+                    "sentence_parts": [
+                        "El",
+                        "currículo",
+                        "académico",
+                        "fue",
+                        "revisado",
+                        "este",
+                        "año."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "currículo",
+                "temario",
+                "programa",
+                "plan"
+            ],
+            "correct_answer": "currículo"
+        },
+        {
+            "word": "claustro",
+            "translation_english": "faculty/staff",
+            "translation_native": "claustro",
+            "pronunciation": "KLAU-stroh",
+            "examples": [
+                {
+                    "sentence": "El claustro de profesores se reunió hoy.",
+                    "translation_english": "The faculty gathered today.",
+                    "translation_native": "El claustro de profesores se reunió hoy.",
+                    "sentence_parts": [
+                        "El",
+                        "claustro",
+                        "de",
+                        "profesores",
+                        "se",
+                        "reunió",
+                        "hoy."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "claustro",
+                "directiva",
+                "personal",
+                "departamento"
+            ],
+            "correct_answer": "claustro"
+        },
+        {
+            "word": "evaluación",
+            "translation_english": "assessment/evaluation",
+            "translation_native": "evaluación",
+            "pronunciation": "eh-bah-loo-ah-SYOHN",
+            "examples": [
+                {
+                    "sentence": "La evaluación continua favorece el desarrollo estudiantil.",
+                    "translation_english": "Continuous assessment promotes student development.",
+                    "translation_native": "La evaluación continua favorece el desarrollo estudiantil.",
+                    "sentence_parts": [
+                        "La",
+                        "evaluación",
+                        "continua",
+                        "favorece",
+                        "el",
+                        "desarrollo",
+                        "estudiantil."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "evaluación",
+                "examen",
+                "calificación",
+                "prueba"
+            ],
+            "correct_answer": "evaluación"
+        },
+        {
+            "word": "expediente",
+            "translation_english": "academic record/file",
+            "translation_native": "expediente",
+            "pronunciation": "eks-peh-DYEHN-teh",
+            "examples": [
+                {
+                    "sentence": "Debes solicitar tu expediente académico en secretaría.",
+                    "translation_english": "You must request your academic record at the office.",
+                    "translation_native": "Debes solicitar tu expediente académico en secretaría.",
+                    "sentence_parts": [
+                        "Debes",
+                        "solicitar",
+                        "tu",
+                        "expediente",
+                        "académico",
+                        "en",
+                        "secretaría."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "expediente",
+                "archivo",
+                "historial",
+                "documento"
+            ],
+            "correct_answer": "expediente"
+        },
+        {
+            "word": "interdisciplinario",
+            "translation_english": "interdisciplinary",
+            "translation_native": "interdisciplinario",
+            "pronunciation": "een-tehr-dees-see-plee-nah-RYOH",
+            "examples": [
+                {
+                    "sentence": "El proyecto tiene un enfoque interdisciplinario.",
+                    "translation_english": "The project has an interdisciplinary approach.",
+                    "translation_native": "El proyecto tiene un enfoque interdisciplinario.",
+                    "sentence_parts": [
+                        "El",
+                        "proyecto",
+                        "tiene",
+                        "un",
+                        "enfoque",
+                        "interdisciplinario."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "interdisciplinario",
+                "multidisciplinar",
+                "integral",
+                "complejo"
+            ],
+            "correct_answer": "interdisciplinario"
+        },
+        {
+            "word": "beca",
+            "translation_english": "scholarship",
+            "translation_native": "beca",
+            "pronunciation": "BEH-kah",
+            "examples": [
+                {
+                    "sentence": "Obtuvo una beca por su excelencia académica.",
+                    "translation_english": "He obtained a scholarship for his academic excellence.",
+                    "translation_native": "Obtuvo una beca por su excelencia académica.",
+                    "sentence_parts": [
+                        "Obtuvo",
+                        "una",
+                        "beca",
+                        "por",
+                        "su",
+                        "excelencia",
+                        "académica."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "beca",
+                "ayuda",
+                "subvención",
+                "premio"
+            ],
+            "correct_answer": "beca"
+        },
+        {
+            "word": "docencia",
+            "translation_english": "teaching/lecturing",
+            "translation_native": "docencia",
+            "pronunciation": "doh-SEHN-syah",
+            "examples": [
+                {
+                    "sentence": "Dedicará su carrera a la docencia universitaria.",
+                    "translation_english": "He will dedicate his career to university teaching.",
+                    "translation_native": "Dedicará su carrera a la docencia universitaria.",
+                    "sentence_parts": [
+                        "Dedicará",
+                        "su",
+                        "carrera",
+                        "a",
+                        "la",
+                        "docencia",
+                        "universitaria."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "docencia",
+                "educación",
+                "enseñanza",
+                "pedagogía"
+            ],
+            "correct_answer": "docencia"
+        },
+        {
+            "word": "optativo",
+            "translation_english": "optional/elective",
+            "translation_native": "optativo",
+            "pronunciation": "ohp-tah-TEE-boh",
+            "examples": [
+                {
+                    "sentence": "Ese curso es optativo para los estudiantes de grado.",
+                    "translation_english": "That course is optional for undergraduate students.",
+                    "translation_native": "Ese curso es optativo para los estudiantes de grado.",
+                    "sentence_parts": [
+                        "Ese",
+                        "curso",
+                        "es",
+                        "optativo",
+                        "para",
+                        "los",
+                        "estudiantes",
+                        "de",
+                        "grado."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "optativo",
+                "electivo",
+                "voluntario",
+                "secundario"
+            ],
+            "correct_answer": "optativo"
+        },
+        {
+            "word": "matrícula",
+            "translation_english": "enrollment/tuition",
+            "translation_native": "matrícula",
+            "pronunciation": "mah-TREE-koo-lah",
+            "examples": [
+                {
+                    "sentence": "La matrícula universitaria aumentó este semestre.",
+                    "translation_english": "University tuition increased this semester.",
+                    "translation_native": "La matrícula universitaria aumentó este semestre.",
+                    "sentence_parts": [
+                        "La",
+                        "matrícula",
+                        "universitaria",
+                        "aumentó",
+                        "este",
+                        "semestre."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "matrícula",
+                "inscripción",
+                "cuota",
+                "ingreso"
+            ],
+            "correct_answer": "matrícula"
+        },
+        {
+            "word": "tesis",
+            "translation_english": "thesis",
+            "translation_native": "tesis",
+            "pronunciation": "TEH-sees",
+            "examples": [
+                {
+                    "sentence": "Ella está escribiendo su tesis doctoral.",
+                    "translation_english": "She is writing her doctoral thesis.",
+                    "translation_native": "Ella está escribiendo su tesis doctoral.",
+                    "sentence_parts": [
+                        "Ella",
+                        "está",
+                        "escribiendo",
+                        "su",
+                        "tesis",
+                        "doctoral."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "tesis",
+                "tesina",
+                "estudio",
+                "trabajo"
+            ],
+            "correct_answer": "tesis"
+        },
+        {
+            "word": "postgrado",
+            "translation_english": "postgraduate studies",
+            "translation_native": "postgrado",
+            "pronunciation": "pohst-GRAH-doh",
+            "examples": [
+                {
+                    "sentence": "Después de graduarse, cursará un postgrado.",
+                    "translation_english": "After graduating, he will pursue a postgraduate degree.",
+                    "translation_native": "Después de graduarse, cursará un postgrado.",
+                    "sentence_parts": [
+                        "Después",
+                        "de",
+                        "graduarse,",
+                        "cursará",
+                        "un",
+                        "postgrado."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "postgrado",
+                "maestría",
+                "posdoctorado",
+                "especialización"
+            ],
+            "correct_answer": "postgrado"
+        },
+        {
+            "word": "seminario",
+            "translation_english": "seminar",
+            "translation_native": "seminario",
+            "pronunciation": "seh-mee-NAH-ryoh",
+            "examples": [
+                {
+                    "sentence": "El seminario abordará temas de literatura contemporánea.",
+                    "translation_english": "The seminar will address themes of contemporary literature.",
+                    "translation_native": "El seminario abordará temas de literatura contemporánea.",
+                    "sentence_parts": [
+                        "El",
+                        "seminario",
+                        "abordará",
+                        "temas",
+                        "de",
+                        "literatura",
+                        "contemporánea."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "seminario",
+                "taller",
+                "conferencia",
+                "coloquio"
+            ],
+            "correct_answer": "seminario"
+        },
+        {
+            "word": "acreditación",
+            "translation_english": "accreditation",
+            "translation_native": "acreditación",
+            "pronunciation": "ah-kreh-dee-tah-SYOHN",
+            "examples": [
+                {
+                    "sentence": "La universidad busca la acreditación internacional.",
+                    "translation_english": "The university is seeking international accreditation.",
+                    "translation_native": "La universidad busca la acreditación internacional.",
+                    "sentence_parts": [
+                        "La",
+                        "universidad",
+                        "busca",
+                        "la",
+                        "acreditación",
+                        "internacional."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "acreditación",
+                "certificación",
+                "validación",
+                "reconocimiento"
+            ],
+            "correct_answer": "acreditación"
+        },
+        {
+            "word": "auditorio",
+            "translation_english": "auditorium",
+            "translation_native": "auditorio",
+            "pronunciation": "au-dee-TOH-ryoh",
+            "examples": [
+                {
+                    "sentence": "La ceremonia tendrá lugar en el auditorio principal.",
+                    "translation_english": "The ceremony will take place in the main auditorium.",
+                    "translation_native": "La ceremonia tendrá lugar en el auditorio principal.",
+                    "sentence_parts": [
+                        "La",
+                        "ceremonia",
+                        "tendrá",
+                        "lugar",
+                        "en",
+                        "el",
+                        "auditorio",
+                        "principal."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "auditorio",
+                "anfiteatro",
+                "aula",
+                "salón"
+            ],
+            "correct_answer": "auditorio"
+        },
+        {
+            "word": "competencia",
+            "translation_english": "competence/skill",
+            "translation_native": "competencia",
+            "pronunciation": "kohm-peh-TEHN-syah",
+            "examples": [
+                {
+                    "sentence": "El curso desarrolla la competencia lingüística del alumno.",
+                    "translation_english": "The course develops the student's linguistic competence.",
+                    "translation_native": "El curso desarrolla la competencia lingüística del alumno.",
+                    "sentence_parts": [
+                        "El",
+                        "curso",
+                        "desarrolla",
+                        "la",
+                        "competencia",
+                        "lingüística",
+                        "del",
+                        "alumno."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "competencia",
+                "habilidad",
+                "destreza",
+                "capacidad"
+            ],
+            "correct_answer": "competencia"
+        },
+        {
+            "word": "disciplina",
+            "translation_english": "discipline (field of study)",
+            "translation_native": "disciplina",
+            "pronunciation": "dees-see-PLEE-nah",
+            "examples": [
+                {
+                    "sentence": "La historia es una disciplina fascinante.",
+                    "translation_english": "History is a fascinating discipline.",
+                    "translation_native": "La historia es una disciplina fascinante.",
+                    "sentence_parts": [
+                        "La",
+                        "historia",
+                        "es",
+                        "una",
+                        "disciplina",
+                        "fascinante."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "disciplina",
+                "rama",
+                "campo",
+                "materia"
+            ],
+            "correct_answer": "disciplina"
+        },
+        {
+            "word": "bibliografía",
+            "translation_english": "bibliography",
+            "translation_native": "bibliografía",
+            "pronunciation": "bee-blee-oh-grah-FEE-ah",
+            "examples": [
+                {
+                    "sentence": "Debes incluir la bibliografía al final del ensayo.",
+                    "translation_english": "You must include the bibliography at the end of the essay.",
+                    "translation_native": "Debes incluir la bibliografía al final del ensayo.",
+                    "sentence_parts": [
+                        "Debes",
+                        "incluir",
+                        "la",
+                        "bibliografía",
+                        "al",
+                        "final",
+                        "del",
+                        "ensayo."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "bibliografía",
+                "referencias",
+                "citas",
+                "fuentes"
+            ],
+            "correct_answer": "bibliografía"
+        },
+        {
+            "word": "becario",
+            "translation_english": "scholarship holder/intern",
+            "translation_native": "becario",
+            "pronunciation": "beh-KAH-ryoh",
+            "examples": [
+                {
+                    "sentence": "Él trabaja como becario en el laboratorio.",
+                    "translation_english": "He works as an intern in the laboratory.",
+                    "translation_native": "Él trabaja como becario en el laboratorio.",
+                    "sentence_parts": [
+                        "Él",
+                        "trabaja",
+                        "como",
+                        "becario",
+                        "en",
+                        "el",
+                        "laboratorio."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "becario",
+                "estudiante",
+                "pasante",
+                "asistente"
+            ],
+            "correct_answer": "becario"
+        },
+        {
+            "word": "pizarra",
+            "translation_english": "whiteboard/chalkboard",
+            "translation_native": "pizarra",
+            "pronunciation": "pee-SAH-rrah",
+            "examples": [
+                {
+                    "sentence": "El profesor escribió la fórmula en la pizarra.",
+                    "translation_english": "The teacher wrote the formula on the board.",
+                    "translation_native": "El profesor escribió la fórmula en la pizarra.",
+                    "sentence_parts": [
+                        "El",
+                        "profesor",
+                        "escribió",
+                        "la",
+                        "fórmula",
+                        "en",
+                        "la",
+                        "pizarra."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "pizarra",
+                "tablero",
+                "pantalla",
+                "panel"
+            ],
+            "correct_answer": "pizarra"
+        },
+        {
+            "word": "investigación",
+            "translation_english": "research",
+            "translation_native": "investigación",
+            "pronunciation": "een-bes-tee-gah-SYOHN",
+            "examples": [
+                {
+                    "sentence": "El grupo realiza una investigación sobre el cambio climático.",
+                    "translation_english": "The group is conducting research on climate change.",
+                    "translation_native": "El grupo realiza una investigación sobre el cambio climático.",
+                    "sentence_parts": [
+                        "El",
+                        "grupo",
+                        "realiza",
+                        "una",
+                        "investigación",
+                        "sobre",
+                        "el",
+                        "cambio",
+                        "climático."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "investigación",
+                "estudio",
+                "análisis",
+                "indagación"
+            ],
+            "correct_answer": "investigación"
+        },
+        {
+            "word": "alumnado",
+            "translation_english": "student body",
+            "translation_native": "alumnado",
+            "pronunciation": "ah-loom-NAH-doh",
+            "examples": [
+                {
+                    "sentence": "El alumnado participó activamente en la asamblea.",
+                    "translation_english": "The student body participated actively in the assembly.",
+                    "translation_native": "El alumnado participó activamente en la asamblea.",
+                    "sentence_parts": [
+                        "El",
+                        "alumnado",
+                        "participó",
+                        "activamente",
+                        "en",
+                        "la",
+                        "asamblea."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "alumnado",
+                "estudiantes",
+                "colectivo",
+                "grupo"
+            ],
+            "correct_answer": "alumnado"
+        },
+        {
+            "word": "rectorado",
+            "translation_english": "rector's office/administration",
+            "translation_native": "rectorado",
+            "pronunciation": "rrek-toh-RAH-doh",
+            "examples": [
+                {
+                    "sentence": "La carta fue enviada desde el rectorado.",
+                    "translation_english": "The letter was sent from the rector's office.",
+                    "translation_native": "La carta fue enviada desde el rectorado.",
+                    "sentence_parts": [
+                        "La",
+                        "carta",
+                        "fue",
+                        "enviada",
+                        "desde",
+                        "el",
+                        "rectorado."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "rectorado",
+                "administración",
+                "dirección",
+                "gobierno"
+            ],
+            "correct_answer": "rectorado"
+        },
+        {
+            "word": "prerrequisito",
+            "translation_english": "prerequisite",
+            "translation_native": "prerrequisito",
+            "pronunciation": "prreh-rreh-kee-SEE-toh",
+            "examples": [
+                {
+                    "sentence": "Matemáticas básicas es un prerrequisito para este curso.",
+                    "translation_english": "Basic mathematics is a prerequisite for this course.",
+                    "translation_native": "Matemáticas básicas es un prerrequisito para este curso.",
+                    "sentence_parts": [
+                        "Matemáticas",
+                        "básicas",
+                        "es",
+                        "un",
+                        "prerrequisito",
+                        "para",
+                        "este",
+                        "curso."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "prerrequisito",
+                "requisito",
+                "condición",
+                "previa"
+            ],
+            "correct_answer": "prerrequisito"
+        },
+        {
+            "word": "erudición",
+            "translation_english": "erudition",
+            "translation_native": "erudición",
+            "pronunciation": "eh-roo-dee-SYOHN",
+            "examples": [
+                {
+                    "sentence": "Su erudición sorprendió a todos los profesores.",
+                    "translation_english": "His erudition surprised all the teachers.",
+                    "translation_native": "Su erudición sorprendió a todos los profesores.",
+                    "sentence_parts": [
+                        "Su",
+                        "erudición",
+                        "sorprendió",
+                        "a",
+                        "todos",
+                        "los",
+                        "profesores"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "erudición",
+                "clase",
+                "aula",
+                "estudio"
+            ],
+            "correct_answer": "erudición"
+        },
+        {
+            "word": "epistemología",
+            "translation_english": "epistemology",
+            "translation_native": "epistemología",
+            "pronunciation": "eh-pees-teh-moh-loh-HEE-ah",
+            "examples": [
+                {
+                    "sentence": "Estudiamos epistemología en la facultad de filosofía.",
+                    "translation_english": "We study epistemology at the faculty of philosophy.",
+                    "translation_native": "Estudiamos epistemología en la facultad de filosofía.",
+                    "sentence_parts": [
+                        "Estudiamos",
+                        "epistemología",
+                        "en",
+                        "la",
+                        "facultad",
+                        "de",
+                        "filosofía"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "epistemología",
+                "química",
+                "historia",
+                "geografía"
+            ],
+            "correct_answer": "epistemología"
+        },
+        {
+            "word": "didáctica",
+            "translation_english": "didactics",
+            "translation_native": "didáctica",
+            "pronunciation": "dee-DAK-tee-kah",
+            "examples": [
+                {
+                    "sentence": "La didáctica es fundamental para transmitir el conocimiento.",
+                    "translation_english": "Didactics is fundamental for transmitting knowledge.",
+                    "translation_native": "La didáctica es fundamental para transmitir el conocimiento.",
+                    "sentence_parts": [
+                        "La",
+                        "didáctica",
+                        "es",
+                        "fundamental",
+                        "para",
+                        "transmitir",
+                        "el",
+                        "conocimiento"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "didáctica",
+                "matemática",
+                "literatura",
+                "biología"
+            ],
+            "correct_answer": "didáctica"
+        },
+        {
+            "word": "investigador",
+            "translation_english": "researcher",
+            "translation_native": "investigador",
+            "pronunciation": "een-bes-tee-gah-DOR",
+            "examples": [
+                {
+                    "sentence": "El investigador publicó su estudio en la revista.",
+                    "translation_english": "The researcher published his study in the journal.",
+                    "translation_native": "El investigador publicó su estudio en la revista.",
+                    "sentence_parts": [
+                        "El",
+                        "investigador",
+                        "publicó",
+                        "su",
+                        "estudio",
+                        "en",
+                        "la",
+                        "revista"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "investigador",
+                "estudiante",
+                "director",
+                "conserje"
+            ],
+            "correct_answer": "investigador"
+        },
+        {
+            "word": "académico",
+            "translation_english": "academic",
+            "translation_native": "académico",
+            "pronunciation": "ah-kah-DEH-mee-koh",
+            "examples": [
+                {
+                    "sentence": "El rendimiento académico mejoró este semestre.",
+                    "translation_english": "Academic performance improved this semester.",
+                    "translation_native": "El rendimiento académico mejoró este semestre.",
+                    "sentence_parts": [
+                        "El",
+                        "rendimiento",
+                        "académico",
+                        "mejoró",
+                        "este",
+                        "semestre"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "académico",
+                "deportivo",
+                "laboral",
+                "social"
+            ],
+            "correct_answer": "académico"
+        },
+        {
+            "word": "instrucción",
+            "translation_english": "instruction",
+            "translation_native": "instrucción",
+            "pronunciation": "een-strook-SYOHN",
+            "examples": [
+                {
+                    "sentence": "Recibió una instrucción técnica de alta calidad.",
+                    "translation_english": "He received high-quality technical instruction.",
+                    "translation_native": "Recibió una instrucción técnica de alta calidad.",
+                    "sentence_parts": [
+                        "Recibió",
+                        "una",
+                        "instrucción",
+                        "técnica",
+                        "de",
+                        "alta",
+                        "calidad"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "instrucción",
+                "pregunta",
+                "tarea",
+                "lección"
+            ],
+            "correct_answer": "instrucción"
+        },
+        {
+            "word": "becado",
+            "translation_english": "scholarship holder",
+            "translation_native": "becado",
+            "pronunciation": "beh-KAH-doh",
+            "examples": [
+                {
+                    "sentence": "El estudiante becado destaca en sus notas.",
+                    "translation_english": "The scholarship student stands out in his grades.",
+                    "translation_native": "El estudiante becado destaca en sus notas.",
+                    "sentence_parts": [
+                        "El",
+                        "estudiante",
+                        "becado",
+                        "destaca",
+                        "en",
+                        "sus",
+                        "notas"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "becado",
+                "profesor",
+                "tutor",
+                "delegado"
+            ],
+            "correct_answer": "becado"
+        },
+        {
+            "word": "cátedra",
+            "translation_english": "professorship / chair",
+            "translation_native": "cátedra",
+            "pronunciation": "KAH-teh-drah",
+            "examples": [
+                {
+                    "sentence": "Ella ganó una cátedra en la universidad.",
+                    "translation_english": "She won a chair at the university.",
+                    "translation_native": "Ella ganó una cátedra en la universidad.",
+                    "sentence_parts": [
+                        "Ella",
+                        "ganó",
+                        "una",
+                        "cátedra",
+                        "en",
+                        "la",
+                        "universidad"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "cátedra",
+                "biblioteca",
+                "laboratorio",
+                "pasillo"
+            ],
+            "correct_answer": "cátedra"
+        },
+        {
+            "word": "exención",
+            "translation_english": "exemption",
+            "translation_native": "exención",
+            "pronunciation": "ek-sen-SYOHN",
+            "examples": [
+                {
+                    "sentence": "Solicité la exención de los derechos de examen.",
+                    "translation_english": "I requested the exemption from exam fees.",
+                    "translation_native": "Solicité la exención de los derechos de examen.",
+                    "sentence_parts": [
+                        "Solicité",
+                        "la",
+                        "exención",
+                        "de",
+                        "los",
+                        "derechos",
+                        "de",
+                        "examen"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "exención",
+                "reprobación",
+                "aprobación",
+                "inscripción"
+            ],
+            "correct_answer": "exención"
+        },
+        {
+            "word": "campus",
+            "translation_english": "campus",
+            "translation_native": "campus",
+            "pronunciation": "KAM-poos",
+            "examples": [
+                {
+                    "sentence": "El campus universitario es muy grande.",
+                    "translation_english": "The university campus is very large.",
+                    "translation_native": "El campus universitario es muy grande.",
+                    "sentence_parts": [
+                        "El",
+                        "campus",
+                        "universitario",
+                        "es",
+                        "muy",
+                        "grande"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "campus",
+                "escuela",
+                "instituto",
+                "colegio"
+            ],
+            "correct_answer": "campus"
+        },
+        {
+            "word": "facultativo",
+            "translation_english": "optional / faculty-related",
+            "translation_native": "facultativo",
+            "pronunciation": "fah-kool-tah-TEE-boh",
+            "examples": [
+                {
+                    "sentence": "El seminario es de carácter facultativo.",
+                    "translation_english": "The seminar is optional.",
+                    "translation_native": "El seminario es de carácter facultativo.",
+                    "sentence_parts": [
+                        "El",
+                        "seminario",
+                        "es",
+                        "de",
+                        "carácter",
+                        "facultativo"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "facultativo",
+                "obligatorio",
+                "necesario",
+                "fundamental"
+            ],
+            "correct_answer": "facultativo"
+        },
+        {
+            "word": "exoneración",
+            "translation_english": "exoneration / waiver",
+            "translation_native": "exoneración",
+            "pronunciation": "ek-soh-neh-rah-SYOHN",
+            "examples": [
+                {
+                    "sentence": "Obtuvo la exoneración de la asignatura.",
+                    "translation_english": "He obtained the course waiver.",
+                    "translation_native": "Obtuvo la exoneración de la asignatura.",
+                    "sentence_parts": [
+                        "Obtuvo",
+                        "la",
+                        "exoneración",
+                        "de",
+                        "la",
+                        "asignatura"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "exoneración",
+                "aprobación",
+                "calificación",
+                "evaluación"
+            ],
+            "correct_answer": "exoneración"
+        },
+        {
+            "word": "postulado",
+            "translation_english": "postulate",
+            "translation_native": "postulado",
+            "pronunciation": "poh-stoo-LAH-doh",
+            "examples": [
+                {
+                    "sentence": "El profesor explicó el postulado matemático.",
+                    "translation_english": "The teacher explained the mathematical postulate.",
+                    "translation_native": "El profesor explicó el postulado matemático.",
+                    "sentence_parts": [
+                        "El",
+                        "profesor",
+                        "explicó",
+                        "el",
+                        "postulado",
+                        "matemático"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "postulado",
+                "concepto",
+                "teoría",
+                "resumen"
+            ],
+            "correct_answer": "postulado"
+        },
+        {
+            "word": "rector",
+            "translation_english": "rector / university president",
+            "translation_native": "rector",
+            "pronunciation": "rek-TOR",
+            "examples": [
+                {
+                    "sentence": "El rector dio un discurso en la graduación.",
+                    "translation_english": "The rector gave a speech at the graduation.",
+                    "translation_native": "El rector dio un discurso en la graduación.",
+                    "sentence_parts": [
+                        "El",
+                        "rector",
+                        "dio",
+                        "un",
+                        "discurso",
+                        "en",
+                        "la",
+                        "graduación"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "rector",
+                "estudiante",
+                "conserje",
+                "maestro"
+            ],
+            "correct_answer": "rector"
+        },
+        {
+            "word": "decano",
+            "translation_english": "dean",
+            "translation_native": "decano",
+            "pronunciation": "deh-KAH-noh",
+            "examples": [
+                {
+                    "sentence": "El decano firmó el diploma.",
+                    "translation_english": "The dean signed the diploma.",
+                    "translation_native": "El decano firmó el diploma.",
+                    "sentence_parts": [
+                        "El",
+                        "decano",
+                        "firmó",
+                        "el",
+                        "diploma"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "decano",
+                "alumno",
+                "profesor",
+                "becario"
+            ],
+            "correct_answer": "decano"
+        },
+        {
+            "word": "anfiteatro",
+            "translation_english": "lecture hall / amphitheater",
+            "translation_native": "anfiteatro",
+            "pronunciation": "ahn-fee-teh-AH-troh",
+            "examples": [
+                {
+                    "sentence": "La clase se impartió en el anfiteatro principal.",
+                    "translation_english": "The class was taught in the main lecture hall.",
+                    "translation_native": "La clase se impartió en el anfiteatro principal.",
+                    "sentence_parts": [
+                        "La",
+                        "clase",
+                        "se",
+                        "impartió",
+                        "en",
+                        "el",
+                        "anfiteatro",
+                        "principal"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "anfiteatro",
+                "aula",
+                "pasillo",
+                "biblioteca"
+            ],
+            "correct_answer": "anfiteatro"
+        },
+        {
+            "word": "monografía",
+            "translation_english": "monograph",
+            "translation_native": "monografía",
+            "pronunciation": "moh-noh-grah-FEE-ah",
+            "examples": [
+                {
+                    "sentence": "Debo entregar una monografía al final del curso.",
+                    "translation_english": "I must submit a monograph at the end of the course.",
+                    "translation_native": "Debo entregar una monografía al final del curso.",
+                    "sentence_parts": [
+                        "Debo",
+                        "entregar",
+                        "una",
+                        "monografía",
+                        "al",
+                        "final",
+                        "del",
+                        "curso"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "monografía",
+                "examen",
+                "diario",
+                "resumen"
+            ],
+            "correct_answer": "monografía"
+        },
+        {
+            "word": "pedagogo",
+            "translation_english": "pedagogue / educator",
+            "translation_native": "pedagogo",
+            "pronunciation": "peh-dah-GOH-goh",
+            "examples": [
+                {
+                    "sentence": "El pedagogo analizó los problemas de aprendizaje.",
+                    "translation_english": "The educator analyzed the learning problems.",
+                    "translation_native": "El pedagogo analizó los problemas de aprendizaje.",
+                    "sentence_parts": [
+                        "El",
+                        "pedagogo",
+                        "analizó",
+                        "los",
+                        "problemas",
+                        "de",
+                        "aprendizaje"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "pedagogo",
+                "estudiante",
+                "director",
+                "administrativo"
+            ],
+            "correct_answer": "pedagogo"
+        },
+        {
+            "word": "consiliario",
+            "translation_english": "counselor / board member",
+            "translation_native": "consiliario",
+            "pronunciation": "kohn-see-LYAH-ryoh",
+            "examples": [
+                {
+                    "sentence": "El consiliario sugirió cambios en el programa.",
+                    "translation_english": "The board member suggested changes to the program.",
+                    "translation_native": "El consiliario sugirió cambios en el programa.",
+                    "sentence_parts": [
+                        "El",
+                        "consiliario",
+                        "sugirió",
+                        "cambios",
+                        "en",
+                        "el",
+                        "programa"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "consiliario",
+                "profesor",
+                "estudiante",
+                "alumno"
+            ],
+            "correct_answer": "consiliario"
+        },
+        {
+            "word": "epígrafe",
+            "translation_english": "heading / epigraph",
+            "translation_native": "epígrafe",
+            "pronunciation": "eh-PEE-grah-feh",
+            "examples": [
+                {
+                    "sentence": "Cada capítulo comienza con un epígrafe.",
+                    "translation_english": "Each chapter begins with a heading.",
+                    "translation_native": "Cada capítulo comienza con un epígrafe.",
+                    "sentence_parts": [
+                        "Cada",
+                        "capítulo",
+                        "comienza",
+                        "con",
+                        "un",
+                        "epígrafe"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "epígrafe",
+                "título",
+                "párrafo",
+                "índice"
+            ],
+            "correct_answer": "epígrafe"
+        },
+        {
+            "word": "anotación",
+            "translation_english": "annotation",
+            "translation_native": "anotación",
+            "pronunciation": "ah-noh-tah-SYOHN",
+            "examples": [
+                {
+                    "sentence": "Tomé una anotación importante sobre el examen.",
+                    "translation_english": "I took an important annotation about the exam.",
+                    "translation_native": "Tomé una anotación importante sobre el examen.",
+                    "sentence_parts": [
+                        "Tomé",
+                        "una",
+                        "anotación",
+                        "importante",
+                        "sobre",
+                        "el",
+                        "examen"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "anotación",
+                "pregunta",
+                "tarea",
+                "lección"
+            ],
+            "correct_answer": "anotación"
+        },
+        {
+            "word": "docente",
+            "translation_english": "teaching staff member",
+            "translation_native": "docente",
+            "pronunciation": "doh-SEN-teh",
+            "examples": [
+                {
+                    "sentence": "El cuerpo docente se reunió hoy.",
+                    "translation_english": "The teaching staff met today.",
+                    "translation_native": "El cuerpo docente se reunió hoy.",
+                    "sentence_parts": [
+                        "El",
+                        "cuerpo",
+                        "docente",
+                        "se",
+                        "reunió",
+                        "hoy"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "docente",
+                "estudiante",
+                "administrador",
+                "conserje"
+            ],
+            "correct_answer": "docente"
+        },
+        {
+            "word": "didactismo",
+            "translation_english": "didacticism",
+            "translation_native": "didactismo",
+            "pronunciation": "dee-dak-TEES-moh",
+            "examples": [
+                {
+                    "sentence": "Su didactismo facilitó mucho nuestra comprensión.",
+                    "translation_english": "His didacticism greatly facilitated our understanding.",
+                    "translation_native": "Su didactismo facilitó mucho nuestra comprensión.",
+                    "sentence_parts": [
+                        "Su",
+                        "didactismo",
+                        "facilitó",
+                        "mucho",
+                        "nuestra",
+                        "comprensión"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "didactismo",
+                "conocimiento",
+                "estudio",
+                "aprendizaje"
+            ],
+            "correct_answer": "didactismo"
+        },
+        {
+            "word": "erudito",
+            "translation_english": "scholar",
+            "translation_native": "erudito",
+            "pronunciation": "eh-roo-DEE-toh",
+            "examples": [
+                {
+                    "sentence": "El erudito escribió un libro fascinante.",
+                    "translation_english": "The scholar wrote a fascinating book.",
+                    "translation_native": "El erudito escribió un libro fascinante.",
+                    "sentence_parts": [
+                        "El",
+                        "erudito",
+                        "escribió",
+                        "un",
+                        "libro",
+                        "fascinante"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "erudito",
+                "estudiante",
+                "maestro",
+                "asistente"
+            ],
+            "correct_answer": "erudito"
+        },
+        {
+            "word": "calificador",
+            "translation_english": "grader / qualifier",
+            "translation_native": "calificador",
+            "pronunciation": "kah-lee-fee-kah-DOR",
+            "examples": [
+                {
+                    "sentence": "El profesor es el calificador de este examen.",
+                    "translation_english": "The teacher is the grader for this exam.",
+                    "translation_native": "El profesor es el calificador de este examen.",
+                    "sentence_parts": [
+                        "El",
+                        "profesor",
+                        "es",
+                        "el",
+                        "calificador",
+                        "de",
+                        "este",
+                        "examen"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "calificador",
+                "estudiante",
+                "director",
+                "ayudante"
+            ],
+            "correct_answer": "calificador"
+        },
+        {
+            "word": "consagración",
+            "translation_english": "consecration/dedication",
+            "translation_native": "dedicación profunda",
+            "pronunciation": "kon-sa-gra-SYON",
+            "examples": [
+                {
+                    "sentence": "La consagración del profesor al estudio mejoró el nivel académico.",
+                    "translation_english": "The professor's dedication to the study improved the academic level.",
+                    "translation_native": "La dedicación del profesor al estudio mejoró el nivel académico.",
+                    "sentence_parts": [
+                        "La",
+                        "consagración",
+                        "del",
+                        "profesor",
+                        "al",
+                        "estudio",
+                        "mejoró",
+                        "el",
+                        "nivel",
+                        "académico"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "consagración",
+                "procrastinación",
+                "deserción",
+                "reprobación"
+            ],
+            "correct_answer": "consagración"
+        },
+        {
+            "word": "colegiado",
+            "translation_english": "collegial/collective body",
+            "translation_native": "cuerpo colegiado",
+            "pronunciation": "ko-le-HYA-do",
+            "examples": [
+                {
+                    "sentence": "El órgano colegiado decidió cambiar los reglamentos internos.",
+                    "translation_english": "The collegiate body decided to change the internal regulations.",
+                    "translation_native": "El organismo colectivo decidió cambiar las normas internas.",
+                    "sentence_parts": [
+                        "El",
+                        "órgano",
+                        "colegiado",
+                        "decidió",
+                        "cambiar",
+                        "los",
+                        "reglamentos",
+                        "internos"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "colegiado",
+                "unipersonal",
+                "individual",
+                "solitario"
+            ],
+            "correct_answer": "colegiado"
+        },
+        {
+            "word": "convalidación",
+            "translation_english": "validation/recognition of credits",
+            "translation_native": "reconocimiento de créditos",
+            "pronunciation": "kon-ba-li-da-SYON",
+            "examples": [
+                {
+                    "sentence": "Solicité la convalidación de mis estudios realizados en el extranjero.",
+                    "translation_english": "I requested the validation of my studies completed abroad.",
+                    "translation_native": "Pedí que reconocieran mis estudios hechos fuera del país.",
+                    "sentence_parts": [
+                        "Solicité",
+                        "la",
+                        "convalidación",
+                        "de",
+                        "mis",
+                        "estudios",
+                        "realizados",
+                        "en",
+                        "el",
+                        "extranjero"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "convalidación",
+                "anulación",
+                "refutación",
+                "impugnación"
+            ],
+            "correct_answer": "convalidación"
+        },
+        {
+            "word": "sinopsis",
+            "translation_english": "synopsis",
+            "translation_native": "resumen estructurado",
+            "pronunciation": "si-NOP-sis",
+            "examples": [
+                {
+                    "sentence": "Debemos entregar una sinopsis detallada del proyecto final.",
+                    "translation_english": "We must submit a detailed synopsis of the final project.",
+                    "translation_native": "Tenemos que entregar un resumen detallado del proyecto final.",
+                    "sentence_parts": [
+                        "Debemos",
+                        "entregar",
+                        "una",
+                        "sinopsis",
+                        "detallada",
+                        "del",
+                        "proyecto",
+                        "final"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "sinopsis",
+                "hipótesis",
+                "antítesis",
+                "paradoja"
+            ],
+            "correct_answer": "sinopsis"
+        },
+        {
+            "word": "estipendio",
+            "translation_english": "stipend",
+            "translation_native": "asignación económica",
+            "pronunciation": "es-ti-PEN-dyo",
+            "examples": [
+                {
+                    "sentence": "El estudiante recibió un estipendio para cubrir sus gastos de laboratorio.",
+                    "translation_english": "The student received a stipend to cover his laboratory expenses.",
+                    "translation_native": "El alumno obtuvo una ayuda económica para sus gastos de laboratorio.",
+                    "sentence_parts": [
+                        "El",
+                        "estudiante",
+                        "recibió",
+                        "un",
+                        "estipendio",
+                        "para",
+                        "cubrir",
+                        "sus",
+                        "gastos",
+                        "de",
+                        "laboratorio"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "estipendio",
+                "impuesto",
+                "deuda",
+                "arancel"
+            ],
+            "correct_answer": "estipendio"
+        },
+        {
+            "word": "impartición",
+            "translation_english": "imparting/teaching",
+            "translation_native": "acción de enseñar",
+            "pronunciation": "im-par-ti-SYON",
+            "examples": [
+                {
+                    "sentence": "La impartición de clases requiere mucha preparación previa.",
+                    "translation_english": "The imparting of classes requires much prior preparation.",
+                    "translation_native": "Dar clases requiere mucha preparación previa.",
+                    "sentence_parts": [
+                        "La",
+                        "impartición",
+                        "de",
+                        "clases",
+                        "requiere",
+                        "mucha",
+                        "preparación",
+                        "previa"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "impartición",
+                "recepción",
+                "absorción",
+                "omisión"
+            ],
+            "correct_answer": "impartición"
+        },
+        {
+            "word": "desglose",
+            "translation_english": "breakdown",
+            "translation_native": "análisis detallado",
+            "pronunciation": "des-GLO-se",
+            "examples": [
+                {
+                    "sentence": "El desglose de la calificación aparece en el portal del alumno.",
+                    "translation_english": "The breakdown of the grade appears on the student portal.",
+                    "translation_native": "El detalle de la nota aparece en el portal del estudiante.",
+                    "sentence_parts": [
+                        "El",
+                        "desglose",
+                        "de",
+                        "la",
+                        "calificación",
+                        "aparece",
+                        "en",
+                        "el",
+                        "portal",
+                        "del",
+                        "alumno"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "desglose",
+                "síntesis",
+                "resumen",
+                "bloque"
+            ],
+            "correct_answer": "desglose"
+        },
+        {
+            "word": "escaño",
+            "translation_english": "seat/bench",
+            "translation_native": "asiento en el aula",
+            "pronunciation": "es-KA-nyo",
+            "examples": [
+                {
+                    "sentence": "Cada estudiante ocupó su escaño antes de comenzar el examen.",
+                    "translation_english": "Each student occupied their seat before starting the exam.",
+                    "translation_native": "Cada alumno tomó su asiento antes de empezar el examen.",
+                    "sentence_parts": [
+                        "Cada",
+                        "estudiante",
+                        "ocupó",
+                        "su",
+                        "escaño",
+                        "antes",
+                        "de",
+                        "comenzar",
+                        "el",
+                        "examen"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "escaño",
+                "atril",
+                "pizarra",
+                "borrador"
+            ],
+            "correct_answer": "escaño"
+        },
+        {
+            "word": "adscripción",
+            "translation_english": "affiliation/assignment",
+            "translation_native": "pertenencia a una unidad",
+            "pronunciation": "ads-krip-SYON",
+            "examples": [
+                {
+                    "sentence": "Mi adscripción al departamento de física fue inmediata.",
+                    "translation_english": "My affiliation to the physics department was immediate.",
+                    "translation_native": "Mi pertenencia al departamento de física fue inmediata.",
+                    "sentence_parts": [
+                        "Mi",
+                        "adscripción",
+                        "al",
+                        "departamento",
+                        "de",
+                        "física",
+                        "fue",
+                        "inmediata"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "adscripción",
+                "expulsión",
+                "separación",
+                "renuncia"
+            ],
+            "correct_answer": "adscripción"
+        },
+        {
+            "word": "exordio",
+            "translation_english": "introduction/preamble",
+            "translation_native": "introducción académica",
+            "pronunciation": "ek-SOR-dyo",
+            "examples": [
+                {
+                    "sentence": "El profesor comenzó con un exordio breve sobre la historia del arte.",
+                    "translation_english": "The professor began with a brief introduction about art history.",
+                    "translation_native": "El profesor empezó con una introducción breve sobre historia del arte.",
+                    "sentence_parts": [
+                        "El",
+                        "profesor",
+                        "comenzó",
+                        "con",
+                        "un",
+                        "exordio",
+                        "breve",
+                        "sobre",
+                        "la",
+                        "historia",
+                        "del",
+                        "arte"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "exordio",
+                "conclusión",
+                "cierre",
+                "epílogo"
+            ],
+            "correct_answer": "exordio"
+        },
+        {
+            "word": "coadyuvante",
+            "translation_english": "contributory/assisting",
+            "translation_native": "que ayuda o contribuye",
+            "pronunciation": "koa-dyu-BAN-te",
+            "examples": [
+                {
+                    "sentence": "El seminario fue un factor coadyuvante en mi aprendizaje.",
+                    "translation_english": "The seminar was a contributing factor in my learning.",
+                    "translation_native": "El seminario fue un factor de ayuda en mi aprendizaje.",
+                    "sentence_parts": [
+                        "El",
+                        "seminario",
+                        "fue",
+                        "un",
+                        "factor",
+                        "coadyuvante",
+                        "en",
+                        "mi",
+                        "aprendizaje"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "coadyuvante",
+                "obstructivo",
+                "negativo",
+                "limitante"
+            ],
+            "correct_answer": "coadyuvante"
+        },
+        {
+            "word": "anuencia",
+            "translation_english": "consent/permission",
+            "translation_native": "consentimiento oficial",
+            "pronunciation": "a-NWEN-sya",
+            "examples": [
+                {
+                    "sentence": "Necesito la anuencia del tutor para cambiar mi proyecto.",
+                    "translation_english": "I need the tutor's consent to change my project.",
+                    "translation_native": "Necesito el permiso del tutor para cambiar mi proyecto.",
+                    "sentence_parts": [
+                        "Necesito",
+                        "la",
+                        "anuencia",
+                        "del",
+                        "tutor",
+                        "para",
+                        "cambiar",
+                        "mi",
+                        "proyecto"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "anuencia",
+                "prohibición",
+                "veto",
+                "negativa"
+            ],
+            "correct_answer": "anuencia"
+        },
+        {
+            "word": "derrotero",
+            "translation_english": "course/path",
+            "translation_native": "camino a seguir",
+            "pronunciation": "de-rro-TE-ro",
+            "examples": [
+                {
+                    "sentence": "El plan de estudios marca el derrotero para los alumnos.",
+                    "translation_english": "The curriculum marks the course for the students.",
+                    "translation_native": "El programa de estudios marca el camino para los estudiantes.",
+                    "sentence_parts": [
+                        "El",
+                        "plan",
+                        "de",
+                        "estudios",
+                        "marca",
+                        "el",
+                        "derrotero",
+                        "para",
+                        "los",
+                        "alumnos"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "derrotero",
+                "desvío",
+                "bloqueo",
+                "parada"
+            ],
+            "correct_answer": "derrotero"
+        },
+        {
+            "word": "sucinto",
+            "translation_english": "concise/brief",
+            "translation_native": "breve y preciso",
+            "pronunciation": "su-SIN-to",
+            "examples": [
+                {
+                    "sentence": "Por favor, haga un reporte sucinto sobre los resultados.",
+                    "translation_english": "Please, make a concise report on the results.",
+                    "translation_native": "Por favor, haz un informe breve sobre los resultados.",
+                    "sentence_parts": [
+                        "Por",
+                        "favor",
+                        "haga",
+                        "un",
+                        "reporte",
+                        "sucinto",
+                        "sobre",
+                        "los",
+                        "resultados"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "sucinto",
+                "extenso",
+                "detallado",
+                "redundante"
+            ],
+            "correct_answer": "sucinto"
+        },
+        {
+            "word": "prolijo",
+            "translation_english": "verbose/detailed",
+            "translation_native": "que se extiende mucho",
+            "pronunciation": "pro-LI-ho",
+            "examples": [
+                {
+                    "sentence": "El profesor dio una explicación prolija sobre la teoría.",
+                    "translation_english": "The professor gave a detailed explanation about the theory.",
+                    "translation_native": "El profesor dio una explicación muy larga sobre la teoría.",
+                    "sentence_parts": [
+                        "El",
+                        "profesor",
+                        "dio",
+                        "una",
+                        "explicación",
+                        "prolija",
+                        "sobre",
+                        "la",
+                        "teoría"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "prolijo",
+                "breve",
+                "conciso",
+                "directo"
+            ],
+            "correct_answer": "prolijo"
+        },
+        {
+            "word": "conjetura",
+            "translation_english": "conjecture/hypothesis",
+            "translation_native": "suposición teórica",
+            "pronunciation": "kon-he-TU-ra",
+            "examples": [
+                {
+                    "sentence": "La ciencia se basa a menudo en una conjetura inicial.",
+                    "translation_english": "Science is often based on an initial conjecture.",
+                    "translation_native": "La ciencia a menudo se basa en una suposición inicial.",
+                    "sentence_parts": [
+                        "La",
+                        "ciencia",
+                        "se",
+                        "basa",
+                        "a",
+                        "menudo",
+                        "en",
+                        "una",
+                        "conjetura",
+                        "inicial"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "conjetura",
+                "certeza",
+                "hecho",
+                "prueba"
+            ],
+            "correct_answer": "conjetura"
+        },
+        {
+            "word": "dictamen",
+            "translation_english": "opinion/ruling",
+            "translation_native": "opinión técnica oficial",
+            "pronunciation": "dik-TA-men",
+            "examples": [
+                {
+                    "sentence": "El comité emitió un dictamen favorable para la beca.",
+                    "translation_english": "The committee issued a favorable opinion for the scholarship.",
+                    "translation_native": "El comité dio una opinión oficial positiva para la beca.",
+                    "sentence_parts": [
+                        "El",
+                        "comité",
+                        "emitió",
+                        "un",
+                        "dictamen",
+                        "favorable",
+                        "para",
+                        "la",
+                        "beca"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "dictamen",
+                "rumor",
+                "chisme",
+                "idea"
+            ],
+            "correct_answer": "dictamen"
+        },
+        {
+            "word": "exégesis",
+            "translation_english": "exegesis/interpretation",
+            "translation_native": "interpretación profunda de textos",
+            "pronunciation": "ek-SE-he-sis",
+            "examples": [
+                {
+                    "sentence": "Haremos una exégesis de los textos clásicos en clase.",
+                    "translation_english": "We will perform an exegesis of the classical texts in class.",
+                    "translation_native": "Analizaremos profundamente los textos clásicos en clase.",
+                    "sentence_parts": [
+                        "Haremos",
+                        "una",
+                        "exégesis",
+                        "de",
+                        "los",
+                        "textos",
+                        "clásicos",
+                        "en",
+                        "clase"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "exégesis",
+                "lectura",
+                "copia",
+                "edición"
+            ],
+            "correct_answer": "exégesis"
+        },
+        {
+            "word": "paradigma",
+            "translation_english": "paradigm",
+            "translation_native": "modelo teórico",
+            "pronunciation": "pa-ra-DIG-ma",
+            "examples": [
+                {
+                    "sentence": "Ese descubrimiento cambió el paradigma de la física moderna.",
+                    "translation_english": "That discovery changed the paradigm of modern physics.",
+                    "translation_native": "Ese hallazgo cambió el modelo de la física moderna.",
+                    "sentence_parts": [
+                        "Ese",
+                        "descubrimiento",
+                        "cambió",
+                        "el",
+                        "paradigma",
+                        "de",
+                        "la",
+                        "física",
+                        "moderna"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "paradigma",
+                "error",
+                "fallo",
+                "descuido"
+            ],
+            "correct_answer": "paradigma"
+        },
+        {
+            "word": "concurrencia",
+            "translation_english": "attendance/concurrence",
+            "translation_native": "asistencia de personas",
+            "pronunciation": "kon-ku-RREN-sya",
+            "examples": [
+                {
+                    "sentence": "Hubo gran concurrencia al congreso educativo de ayer.",
+                    "translation_english": "There was great attendance at yesterday's educational congress.",
+                    "translation_native": "Hubo mucha gente en el congreso educativo de ayer.",
+                    "sentence_parts": [
+                        "Hubo",
+                        "gran",
+                        "concurrencia",
+                        "al",
+                        "congreso",
+                        "educativo",
+                        "de",
+                        "ayer"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "concurrencia",
+                "ausencia",
+                "vacío",
+                "soledad"
+            ],
+            "correct_answer": "concurrencia"
+        },
+        {
+            "word": "emérito",
+            "translation_english": "emeritus",
+            "translation_native": "profesor jubilado distinguido",
+            "pronunciation": "e-ME-ri-to",
+            "examples": [
+                {
+                    "sentence": "El profesor emérito ofreció una conferencia magistral hoy.",
+                    "translation_english": "The emeritus professor offered a keynote lecture today.",
+                    "translation_native": "El profesor jubilado distinguido dio una conferencia hoy.",
+                    "sentence_parts": [
+                        "El",
+                        "profesor",
+                        "emérito",
+                        "ofreció",
+                        "una",
+                        "conferencia",
+                        "magistral",
+                        "hoy"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "emérito",
+                "novato",
+                "aprendiz",
+                "principiante"
+            ],
+            "correct_answer": "emérito"
+        },
+        {
+            "word": "solvencia",
+            "translation_english": "solvency/capability",
+            "translation_native": "capacidad intelectual",
+            "pronunciation": "sol-BEN-sya",
+            "examples": [
+                {
+                    "sentence": "El alumno demostró gran solvencia al resolver el problema.",
+                    "translation_english": "The student demonstrated great capability in solving the problem.",
+                    "translation_native": "El alumno mostró gran habilidad para resolver el problema.",
+                    "sentence_parts": [
+                        "El",
+                        "alumno",
+                        "demostró",
+                        "gran",
+                        "solvencia",
+                        "al",
+                        "resolver",
+                        "el",
+                        "problema"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "solvencia",
+                "torpeza",
+                "incapacidad",
+                "descuido"
+            ],
+            "correct_answer": "solvencia"
+        },
+        {
+            "word": "facultad",
+            "translation_english": "faculty/capability",
+            "translation_native": "facultad universitaria",
+            "pronunciation": "fa-kul-TAD",
+            "examples": [
+                {
+                    "sentence": "La facultad de derecho organiza un evento mensual.",
+                    "translation_english": "The law school organizes a monthly event.",
+                    "translation_native": "La facultad de derecho hace un evento cada mes.",
+                    "sentence_parts": [
+                        "La",
+                        "facultad",
+                        "de",
+                        "derecho",
+                        "organiza",
+                        "un",
+                        "evento",
+                        "mensual"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "facultad",
+                "aula",
+                "pasillo",
+                "biblioteca"
+            ],
+            "correct_answer": "facultad"
+        },
+        {
+            "word": "retórica",
+            "translation_english": "rhetoric",
+            "translation_native": "arte de hablar bien",
+            "pronunciation": "re-TO-ri-ka",
+            "examples": [
+                {
+                    "sentence": "Estudiar retórica mejora mucho la capacidad argumentativa.",
+                    "translation_english": "Studying rhetoric greatly improves argumentative capacity.",
+                    "translation_native": "Estudiar el arte de hablar bien mejora mucho la capacidad de debate.",
+                    "sentence_parts": [
+                        "Estudiar",
+                        "retórica",
+                        "mejora",
+                        "mucho",
+                        "la",
+                        "capacidad",
+                        "argumentativa"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "retórica",
+                "aritmética",
+                "biología",
+                "anatomía"
+            ],
+            "correct_answer": "retórica"
+        },
+        {
+            "word": "idiosincrasia",
+            "translation_english": "idiosyncrasy",
+            "translation_native": "idiosincrasia",
+            "pronunciation": "i-dio-sin-kra-sia",
+            "examples": [
+                {
+                    "sentence": "Cada universidad tiene su propia idiosincrasia institucional.",
+                    "translation_english": "Every university has its own institutional idiosyncrasy.",
+                    "translation_native": "Cada universidad tiene su propia idiosincrasia institucional.",
+                    "sentence_parts": [
+                        "Cada",
+                        "universidad",
+                        "tiene",
+                        "su",
+                        "propia",
+                        "idiosincrasia",
+                        "institucional"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "idiosincrasia",
+                "heterogeneidad",
+                "jerarquía",
+                "metodología"
+            ],
+            "correct_answer": "idiosincrasia"
+        },
+        {
+            "word": "colegiatura",
+            "translation_english": "tuition fee",
+            "translation_native": "colegiatura",
+            "pronunciation": "ko-le-hia-tu-ra",
+            "examples": [
+                {
+                    "sentence": "El pago de la colegiatura debe realizarse antes del lunes.",
+                    "translation_english": "The tuition fee payment must be made before Monday.",
+                    "translation_native": "El pago de la colegiatura debe realizarse antes del lunes.",
+                    "sentence_parts": [
+                        "El",
+                        "pago",
+                        "de",
+                        "la",
+                        "colegiatura",
+                        "debe",
+                        "realizarse",
+                        "antes",
+                        "del",
+                        "lunes"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "colegiatura",
+                "estipendio",
+                "donación",
+                "inversión"
+            ],
+            "correct_answer": "colegiatura"
+        },
+        {
+            "word": "interpelación",
+            "translation_english": "interpellation / questioning",
+            "translation_native": "interpelación",
+            "pronunciation": "in-ter-pe-la-sion",
+            "examples": [
+                {
+                    "sentence": "La interpelación del profesor desafió los conocimientos de los estudiantes.",
+                    "translation_english": "The professor's questioning challenged the students' knowledge.",
+                    "translation_native": "La interpelación del profesor desafió los conocimientos de los estudiantes.",
+                    "sentence_parts": [
+                        "La",
+                        "interpelación",
+                        "del",
+                        "profesor",
+                        "desafió",
+                        "los",
+                        "conocimientos",
+                        "de",
+                        "los",
+                        "estudiantes"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "interpelación",
+                "explicación",
+                "exhibición",
+                "reiteración"
+            ],
+            "correct_answer": "interpelación"
+        },
+        {
+            "word": "sustentante",
+            "translation_english": "candidate / examinee",
+            "translation_native": "sustentante",
+            "pronunciation": "sus-ten-tan-te",
+            "examples": [
+                {
+                    "sentence": "El sustentante presentó su defensa ante el jurado.",
+                    "translation_english": "The candidate presented his defense before the jury.",
+                    "translation_native": "El sustentante presentó su defensa ante el jurado.",
+                    "sentence_parts": [
+                        "El",
+                        "sustentante",
+                        "presentó",
+                        "su",
+                        "defensa",
+                        "ante",
+                        "el",
+                        "jurado"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "sustentante",
+                "oponente",
+                "asistente",
+                "evaluador"
+            ],
+            "correct_answer": "sustentante"
+        },
+        {
+            "word": "coherencia",
+            "translation_english": "coherence",
+            "translation_native": "coherencia",
+            "pronunciation": "ko-e-ren-sia",
+            "examples": [
+                {
+                    "sentence": "Su ensayo destaca por la coherencia de sus argumentos.",
+                    "translation_english": "His essay stands out for the coherence of his arguments.",
+                    "translation_native": "Su ensayo destaca por la coherencia de sus argumentos.",
+                    "sentence_parts": [
+                        "Su",
+                        "ensayo",
+                        "destaca",
+                        "por",
+                        "la",
+                        "coherencia",
+                        "de",
+                        "sus",
+                        "argumentos"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "coherencia",
+                "elocuencia",
+                "transparencia",
+                "relevancia"
+            ],
+            "correct_answer": "coherencia"
+        },
+        {
+            "word": "asertividad",
+            "translation_english": "assertiveness",
+            "translation_native": "asertividad",
+            "pronunciation": "a-ser-ti-vi-dad",
+            "examples": [
+                {
+                    "sentence": "La asertividad es clave en el debate académico.",
+                    "translation_english": "Assertiveness is key in academic debate.",
+                    "translation_native": "La asertividad es clave en el debate académico.",
+                    "sentence_parts": [
+                        "La",
+                        "asertividad",
+                        "es",
+                        "clave",
+                        "en",
+                        "el",
+                        "debate",
+                        "académico"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "asertividad",
+                "flexibilidad",
+                "efectividad",
+                "honestidad"
+            ],
+            "correct_answer": "asertividad"
+        },
+        {
+            "word": "escrutinio",
+            "translation_english": "scrutiny",
+            "translation_native": "escrutinio",
+            "pronunciation": "es-kru-ti-nio",
+            "examples": [
+                {
+                    "sentence": "La tesis fue sometida a un escrutinio riguroso.",
+                    "translation_english": "The thesis was subjected to rigorous scrutiny.",
+                    "translation_native": "La tesis fue sometida a un escrutinio riguroso.",
+                    "sentence_parts": [
+                        "La",
+                        "tesis",
+                        "fue",
+                        "sometida",
+                        "a",
+                        "un",
+                        "escrutinio",
+                        "riguroso"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "escrutinio",
+                "estudio",
+                "análisis",
+                "repaso"
+            ],
+            "correct_answer": "escrutinio"
+        },
+        {
+            "word": "consenso",
+            "translation_english": "consensus",
+            "translation_native": "consenso",
+            "pronunciation": "kon-sen-so",
+            "examples": [
+                {
+                    "sentence": "Llegaron a un consenso sobre los nuevos horarios.",
+                    "translation_english": "They reached a consensus regarding the new schedules.",
+                    "translation_native": "Llegaron a un consenso sobre los nuevos horarios.",
+                    "sentence_parts": [
+                        "Llegaron",
+                        "a",
+                        "un",
+                        "consenso",
+                        "sobre",
+                        "los",
+                        "nuevos",
+                        "horarios"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "consenso",
+                "acuerdo",
+                "compromiso",
+                "contrato"
+            ],
+            "correct_answer": "consenso"
+        },
+        {
+            "word": "impecable",
+            "translation_english": "impeccable",
+            "translation_native": "impecable",
+            "pronunciation": "im-pe-ka-ble",
+            "examples": [
+                {
+                    "sentence": "El alumno entregó un trabajo impecable.",
+                    "translation_english": "The student turned in an impeccable paper.",
+                    "translation_native": "El alumno entregó un trabajo impecable.",
+                    "sentence_parts": [
+                        "El",
+                        "alumno",
+                        "entregó",
+                        "un",
+                        "trabajo",
+                        "impecable"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "impecable",
+                "brillante",
+                "excelente",
+                "adecuado"
+            ],
+            "correct_answer": "impecable"
+        },
+        {
+            "word": "pertenencia",
+            "translation_english": "belonging",
+            "translation_native": "pertenencia",
+            "pronunciation": "per-te-nen-sia",
+            "examples": [
+                {
+                    "sentence": "Fomentar el sentido de pertenencia mejora el aprendizaje.",
+                    "translation_english": "Fostering a sense of belonging improves learning.",
+                    "translation_native": "Fomentar el sentido de pertenencia mejora el aprendizaje.",
+                    "sentence_parts": [
+                        "Fomentar",
+                        "el",
+                        "sentido",
+                        "de",
+                        "pertenencia",
+                        "mejora",
+                        "el",
+                        "aprendizaje"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "pertenencia",
+                "asociación",
+                "identidad",
+                "vinculación"
+            ],
+            "correct_answer": "pertenencia"
+        },
+        {
+            "word": "concurrente",
+            "translation_english": "concurrent",
+            "translation_native": "concurrente",
+            "pronunciation": "kon-ku-rren-te",
+            "examples": [
+                {
+                    "sentence": "El estudiante cursa dos materias concurrentes este semestre.",
+                    "translation_english": "The student is taking two concurrent subjects this semester.",
+                    "translation_native": "El estudiante cursa dos materias concurrentes este semestre.",
+                    "sentence_parts": [
+                        "El",
+                        "estudiante",
+                        "cursa",
+                        "dos",
+                        "materias",
+                        "concurrentes",
+                        "este",
+                        "semestre"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "concurrente",
+                "simultáneo",
+                "coincidente",
+                "paralelo"
+            ],
+            "correct_answer": "concurrente"
+        },
+        {
+            "word": "apogeo",
+            "translation_english": "zenith / peak",
+            "translation_native": "apogeo",
+            "pronunciation": "a-po-he-o",
+            "examples": [
+                {
+                    "sentence": "La institución vive su apogeo académico.",
+                    "translation_english": "The institution is living its academic peak.",
+                    "translation_native": "La institución vive su apogeo académico.",
+                    "sentence_parts": [
+                        "La",
+                        "institución",
+                        "vive",
+                        "su",
+                        "apogeo",
+                        "académico"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "apogeo",
+                "cima",
+                "gloria",
+                "punto"
+            ],
+            "correct_answer": "apogeo"
+        },
+        {
+            "word": "anecdotario",
+            "translation_english": "collection of anecdotes",
+            "translation_native": "anecdotario",
+            "pronunciation": "a-nek-do-ta-rio",
+            "examples": [
+                {
+                    "sentence": "El profesor compartió su anecdotario sobre su vida en el extranjero.",
+                    "translation_english": "The professor shared his collection of anecdotes about his life abroad.",
+                    "translation_native": "El profesor compartió su anecdotario sobre su vida en el extranjero.",
+                    "sentence_parts": [
+                        "El",
+                        "profesor",
+                        "compartió",
+                        "su",
+                        "anecdotario",
+                        "sobre",
+                        "su",
+                        "vida",
+                        "en",
+                        "el",
+                        "extranjero"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "anecdotario",
+                "diario",
+                "inventario",
+                "repertorio"
+            ],
+            "correct_answer": "anecdotario"
+        },
+        {
+            "word": "hitos",
+            "translation_english": "milestones",
+            "translation_native": "hitos",
+            "pronunciation": "hi-tos",
+            "examples": [
+                {
+                    "sentence": "La investigación alcanzó hitos importantes este año.",
+                    "translation_english": "The research reached important milestones this year.",
+                    "translation_native": "La investigación alcanzó hitos importantes este año.",
+                    "sentence_parts": [
+                        "La",
+                        "investigación",
+                        "alcanzó",
+                        "hitos",
+                        "importantes",
+                        "este",
+                        "año"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "hitos",
+                "logros",
+                "metas",
+                "puntos"
+            ],
+            "correct_answer": "hitos"
+        },
+        {
+            "word": "inexcusable",
+            "translation_english": "inexcusable",
+            "translation_native": "inexcusable",
+            "pronunciation": "i-neks-ku-sa-ble",
+            "examples": [
+                {
+                    "sentence": "La falta de puntualidad es inexcusable en clase.",
+                    "translation_english": "Lateness is inexcusable in class.",
+                    "translation_native": "La falta de puntualidad es inexcusable en clase.",
+                    "sentence_parts": [
+                        "La",
+                        "falta",
+                        "de",
+                        "puntualidad",
+                        "es",
+                        "inexcusable",
+                        "en",
+                        "clase"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "inexcusable",
+                "inaceptable",
+                "injustificable",
+                "indebido"
+            ],
+            "correct_answer": "inexcusable"
+        },
+        {
+            "word": "versatilidad",
+            "translation_english": "versatility",
+            "translation_native": "versatilidad",
+            "pronunciation": "ver-sa-ti-li-dad",
+            "examples": [
+                {
+                    "sentence": "Su versatilidad le permite dominar diversas áreas.",
+                    "translation_english": "His versatility allows him to master diverse areas.",
+                    "translation_native": "Su versatilidad le permite dominar diversas áreas.",
+                    "sentence_parts": [
+                        "Su",
+                        "versatilidad",
+                        "le",
+                        "permite",
+                        "dominar",
+                        "diversas",
+                        "áreas"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "versatilidad",
+                "capacidad",
+                "adaptabilidad",
+                "habilidad"
+            ],
+            "correct_answer": "versatilidad"
+        },
+        {
+            "word": "interlocutor",
+            "translation_english": "interlocutor",
+            "translation_native": "interlocutor",
+            "pronunciation": "in-ter-lo-ku-tor",
+            "examples": [
+                {
+                    "sentence": "Escuchar al interlocutor es vital para el debate.",
+                    "translation_english": "Listening to the interlocutor is vital for the debate.",
+                    "translation_native": "Escuchar al interlocutor es vital para el debate.",
+                    "sentence_parts": [
+                        "Escuchar",
+                        "al",
+                        "interlocutor",
+                        "es",
+                        "vital",
+                        "para",
+                        "el",
+                        "debate"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "interlocutor",
+                "ponente",
+                "participante",
+                "oyente"
+            ],
+            "correct_answer": "interlocutor"
+        },
+        {
+            "word": "meticuloso",
+            "translation_english": "meticulous",
+            "translation_native": "meticuloso",
+            "pronunciation": "me-ti-ku-lo-so",
+            "examples": [
+                {
+                    "sentence": "El estudiante fue meticuloso con su proyecto final.",
+                    "translation_english": "The student was meticulous with his final project.",
+                    "translation_native": "El estudiante fue meticuloso con su proyecto final.",
+                    "sentence_parts": [
+                        "El",
+                        "estudiante",
+                        "fue",
+                        "meticuloso",
+                        "con",
+                        "su",
+                        "proyecto",
+                        "final"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "meticuloso",
+                "cuidadoso",
+                "detallista",
+                "preciso"
+            ],
+            "correct_answer": "meticuloso"
+        },
+        {
+            "word": "subyacente",
+            "translation_english": "underlying",
+            "translation_native": "subyacente",
+            "pronunciation": "sub-ia-sen-te",
+            "examples": [
+                {
+                    "sentence": "Analizamos la lógica subyacente del problema.",
+                    "translation_english": "We analyzed the underlying logic of the problem.",
+                    "translation_native": "Analizamos la lógica subyacente del problema.",
+                    "sentence_parts": [
+                        "Analizamos",
+                        "la",
+                        "lógica",
+                        "subyacente",
+                        "del",
+                        "problema"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "subyacente",
+                "oculto",
+                "interno",
+                "implícito"
+            ],
+            "correct_answer": "subyacente"
+        },
+        {
+            "word": "fidedigno",
+            "translation_english": "reliable / trustworthy",
+            "translation_native": "fidedigno",
+            "pronunciation": "fi-de-dig-no",
+            "examples": [
+                {
+                    "sentence": "Debemos usar fuentes de información fidedignas.",
+                    "translation_english": "We must use reliable sources of information.",
+                    "translation_native": "Debemos usar fuentes de información fidedignas.",
+                    "sentence_parts": [
+                        "Debemos",
+                        "usar",
+                        "fuentes",
+                        "de",
+                        "información",
+                        "fidedignas"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "fidedigno",
+                "veraz",
+                "auténtico",
+                "confirmado"
+            ],
+            "correct_answer": "fidedigno"
+        },
+        {
+            "word": "provisión",
+            "translation_english": "provision / supply",
+            "translation_native": "provisión",
+            "pronunciation": "pro-vi-sion",
+            "examples": [
+                {
+                    "sentence": "La escuela asegura la provisión de materiales educativos.",
+                    "translation_english": "The school ensures the provision of educational materials.",
+                    "translation_native": "La escuela asegura la provisión de materiales educativos.",
+                    "sentence_parts": [
+                        "La",
+                        "escuela",
+                        "asegura",
+                        "la",
+                        "provisión",
+                        "de",
+                        "materiales",
+                        "educativos"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "provisión",
+                "abastecimiento",
+                "dotación",
+                "entrega"
+            ],
+            "correct_answer": "provisión"
+        },
+        {
+            "word": "rigor",
+            "translation_english": "rigor",
+            "translation_native": "rigor",
+            "pronunciation": "ri-gor",
+            "examples": [
+                {
+                    "sentence": "El rigor científico es esencial en esta área.",
+                    "translation_english": "Scientific rigor is essential in this area.",
+                    "translation_native": "El rigor científico es esencial en esta área.",
+                    "sentence_parts": [
+                        "El",
+                        "rigor",
+                        "científico",
+                        "es",
+                        "esencial",
+                        "en",
+                        "esta",
+                        "área"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "rigor",
+                "severidad",
+                "exigencia",
+                "firmeza"
+            ],
+            "correct_answer": "rigor"
+        },
+        {
+            "word": "paradigmático",
+            "translation_english": "paradigmatic",
+            "translation_native": "paradigmático",
+            "pronunciation": "pa-ra-dig-ma-ti-ko",
+            "examples": [
+                {
+                    "sentence": "Es un ejemplo paradigmático de educación moderna.",
+                    "translation_english": "It is a paradigmatic example of modern education.",
+                    "translation_native": "Es un ejemplo paradigmático de educación moderna.",
+                    "sentence_parts": [
+                        "Es",
+                        "un",
+                        "ejemplo",
+                        "paradigmático",
+                        "de",
+                        "educación",
+                        "moderna"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "paradigmático",
+                "ejemplar",
+                "típico",
+                "representativo"
+            ],
+            "correct_answer": "paradigmático"
+        },
+        {
+            "word": "intervención",
+            "translation_english": "intervention",
+            "translation_native": "intervención",
+            "pronunciation": "in-ter-ven-sion",
+            "examples": [
+                {
+                    "sentence": "Su intervención en clase fue muy oportuna.",
+                    "translation_english": "His intervention in class was very timely.",
+                    "translation_native": "Su intervención en clase fue muy oportuna.",
+                    "sentence_parts": [
+                        "Su",
+                        "intervención",
+                        "en",
+                        "clase",
+                        "fue",
+                        "muy",
+                        "oportuna"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "intervención",
+                "participación",
+                "contribución",
+                "aporte"
+            ],
+            "correct_answer": "intervención"
+        },
+        {
+            "word": "trascendencia",
+            "translation_english": "transcendence / importance",
+            "translation_native": "trascendencia",
+            "pronunciation": "tras-ken-den-sia",
+            "examples": [
+                {
+                    "sentence": "El hallazgo tiene gran trascendencia académica.",
+                    "translation_english": "The finding has great academic importance.",
+                    "translation_native": "El hallazgo tiene gran trascendencia académica.",
+                    "sentence_parts": [
+                        "El",
+                        "hallazgo",
+                        "tiene",
+                        "gran",
+                        "trascendencia",
+                        "académica"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "trascendencia",
+                "relevancia",
+                "impacto",
+                "importancia"
+            ],
+            "correct_answer": "trascendencia"
+        },
+        {
+            "word": "escaqueo",
+            "translation_english": "skipping class",
+            "translation_native": "evasión de responsabilidades escolares",
+            "pronunciation": "es-ka-KE-o",
+            "examples": [
+                {
+                    "sentence": "El escaqueo frecuente de las clases puede afectar tu rendimiento académico.",
+                    "translation_english": "Frequent skipping of classes can affect your academic performance.",
+                    "translation_native": "El escaqueo frecuente de las clases puede afectar tu rendimiento académico.",
+                    "sentence_parts": [
+                        "El",
+                        "escaqueo",
+                        "frecuente",
+                        "de",
+                        "las",
+                        "clases",
+                        "puede",
+                        "afectar",
+                        "tu",
+                        "rendimiento",
+                        "académico."
+                    ],
+                    "level": "advnace"
+                }
+            ],
+            "options": [
+                "escaqueo",
+                "alumnado",
+                "cátedra",
+                "docencia"
+            ],
+            "correct_answer": "escaqueo"
+        },
+        {
+            "word": "interrelación",
+            "translation_english": "interrelationship",
+            "translation_native": "conexión mutua",
+            "pronunciation": "in-te-re-la-THYON",
+            "examples": [
+                {
+                    "sentence": "El profesor destacó la interrelación entre los conceptos de física y matemáticas.",
+                    "translation_english": "The professor highlighted the interrelationship between physics and mathematics concepts.",
+                    "translation_native": "El profesor destacó la interrelación entre los conceptos de física y matemáticas.",
+                    "sentence_parts": [
+                        "El",
+                        "profesor",
+                        "destacó",
+                        "la",
+                        "interrelación",
+                        "entre",
+                        "los",
+                        "conceptos",
+                        "de",
+                        "física",
+                        "y",
+                        "matemáticas."
+                    ],
+                    "level": "advnace"
+                }
+            ],
+            "options": [
+                "interrelación",
+                "evaluación",
+                "currículo",
+                "campus"
+            ],
+            "correct_answer": "interrelación"
+        }
+    ]
+}

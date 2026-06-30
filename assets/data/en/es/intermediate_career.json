@@ -1,0 +1,2895 @@
+{
+    "metadata": {
+        "language": "Spanish",
+        "native_language": "English",
+        "level": "intermediate",
+        "category": "career",
+        "total_words": 100
+    },
+    "words": [
+        {
+            "word": "ascenso",
+            "translation_english": "promotion",
+            "translation_native": "promoción",
+            "pronunciation": "ah-SEN-so",
+            "examples": [
+                {
+                    "sentence": "Espero recibir un ascenso pronto.",
+                    "translation_english": "I hope to receive a promotion soon.",
+                    "translation_native": "Espero recibir un ascenso pronto.",
+                    "sentence_parts": [
+                        "Espero",
+                        "recibir",
+                        "un",
+                        "ascenso",
+                        "pronto."
+                    ],
+                    "level": "intermediate"
+                }
+            ],
+            "options": [
+                "ascenso",
+                "despido",
+                "salario",
+                "jornada"
+            ],
+            "correct_answer": "ascenso"
+        },
+        {
+            "word": "currículum",
+            "translation_english": "resume",
+            "translation_native": "hoja de vida",
+            "pronunciation": "koo-RREE-koo-loom",
+            "examples": [
+                {
+                    "sentence": "He actualizado mi currículum hoy.",
+                    "translation_english": "I have updated my resume today.",
+                    "translation_native": "He actualizado mi currículum hoy.",
+                    "sentence_parts": [
+                        "He",
+                        "actualizado",
+                        "mi",
+                        "currículum",
+                        "hoy."
+                    ],
+                    "level": "intermediate"
+                }
+            ],
+            "options": [
+                "currículum",
+                "entrevista",
+                "contrato",
+                "puesto"
+            ],
+            "correct_answer": "currículum"
+        },
+        {
+            "word": "jornada",
+            "translation_english": "workday",
+            "translation_native": "horario laboral",
+            "pronunciation": "hor-NAH-dah",
+            "examples": [
+                {
+                    "sentence": "Mi jornada laboral es de ocho horas.",
+                    "translation_english": "My workday is eight hours.",
+                    "translation_native": "Mi jornada laboral es de ocho horas.",
+                    "sentence_parts": [
+                        "Mi",
+                        "jornada",
+                        "laboral",
+                        "es",
+                        "de",
+                        "ocho",
+                        "horas."
+                    ],
+                    "level": "intermediate"
+                }
+            ],
+            "options": [
+                "jornada",
+                "empresa",
+                "reunión",
+                "empleado"
+            ],
+            "correct_answer": "jornada"
+        },
+        {
+            "word": "contratar",
+            "translation_english": "to hire",
+            "translation_native": "emplear",
+            "pronunciation": "kon-trah-TAHR",
+            "examples": [
+                {
+                    "sentence": "La empresa quiere contratar a nuevos empleados.",
+                    "translation_english": "The company wants to hire new employees.",
+                    "translation_native": "La empresa quiere contratar a nuevos empleados.",
+                    "sentence_parts": [
+                        "La",
+                        "empresa",
+                        "quiere",
+                        "contratar",
+                        "a",
+                        "nuevos",
+                        "empleados."
+                    ],
+                    "level": "intermediate"
+                }
+            ],
+            "options": [
+                "contratar",
+                "despedir",
+                "renunciar",
+                "trabajar"
+            ],
+            "correct_answer": "contratar"
+        },
+        {
+            "word": "entrevista",
+            "translation_english": "interview",
+            "translation_native": "cita laboral",
+            "pronunciation": "en-treh-VEES-tah",
+            "examples": [
+                {
+                    "sentence": "Tengo una entrevista de trabajo mañana.",
+                    "translation_english": "I have a job interview tomorrow.",
+                    "translation_native": "Tengo una entrevista de trabajo mañana.",
+                    "sentence_parts": [
+                        "Tengo",
+                        "una",
+                        "entrevista",
+                        "de",
+                        "trabajo",
+                        "mañana."
+                    ],
+                    "level": "intermediate"
+                }
+            ],
+            "options": [
+                "entrevista",
+                "solicitud",
+                "oficina",
+                "proyecto"
+            ],
+            "correct_answer": "entrevista"
+        },
+        {
+            "word": "empleador",
+            "translation_english": "employer",
+            "translation_native": "patrono",
+            "pronunciation": "em-pleh-ah-DOR",
+            "examples": [
+                {
+                    "sentence": "El empleador revisó mis referencias.",
+                    "translation_english": "The employer checked my references.",
+                    "translation_native": "El empleador revisó mis referencias.",
+                    "sentence_parts": [
+                        "El",
+                        "empleador",
+                        "revisó",
+                        "mis",
+                        "referencias."
+                    ],
+                    "level": "intermediate"
+                }
+            ],
+            "options": [
+                "empleador",
+                "trabajador",
+                "candidato",
+                "colega"
+            ],
+            "correct_answer": "empleador"
+        },
+        {
+            "word": "sueldo",
+            "translation_english": "salary",
+            "translation_native": "salario",
+            "pronunciation": "SWEL-do",
+            "examples": [
+                {
+                    "sentence": "Mi sueldo es competitivo.",
+                    "translation_english": "My salary is competitive.",
+                    "translation_native": "Mi sueldo es competitivo.",
+                    "sentence_parts": [
+                        "Mi",
+                        "sueldo",
+                        "es",
+                        "competitivo."
+                    ],
+                    "level": "intermediate"
+                }
+            ],
+            "options": [
+                "sueldo",
+                "puesto",
+                "bono",
+                "horario"
+            ],
+            "correct_answer": "sueldo"
+        },
+        {
+            "word": "renunciar",
+            "translation_english": "to resign",
+            "translation_native": "dimitir",
+            "pronunciation": "rreh-noon-SYAHR",
+            "examples": [
+                {
+                    "sentence": "Él decidió renunciar para buscar otro empleo.",
+                    "translation_english": "He decided to resign to look for another job.",
+                    "translation_native": "Él decidió renunciar para buscar otro empleo.",
+                    "sentence_parts": [
+                        "Él",
+                        "decidió",
+                        "renunciar",
+                        "para",
+                        "buscar",
+                        "otro",
+                        "empleo."
+                    ],
+                    "level": "intermediate"
+                }
+            ],
+            "options": [
+                "renunciar",
+                "trabajar",
+                "liderar",
+                "organizar"
+            ],
+            "correct_answer": "renunciar"
+        },
+        {
+            "word": "candidato",
+            "translation_english": "candidate",
+            "translation_native": "aspirante",
+            "pronunciation": "kan-dee-DAH-to",
+            "examples": [
+                {
+                    "sentence": "El candidato tiene mucha experiencia.",
+                    "translation_english": "The candidate has a lot of experience.",
+                    "translation_native": "El candidato tiene mucha experiencia.",
+                    "sentence_parts": [
+                        "El",
+                        "candidato",
+                        "tiene",
+                        "mucha",
+                        "experiencia."
+                    ],
+                    "level": "intermediate"
+                }
+            ],
+            "options": [
+                "candidato",
+                "empleador",
+                "gerente",
+                "cliente"
+            ],
+            "correct_answer": "candidato"
+        },
+        {
+            "word": "puesto",
+            "translation_english": "position",
+            "translation_native": "cargo",
+            "pronunciation": "PWEH-sto",
+            "examples": [
+                {
+                    "sentence": "Solicité el puesto de gerente de ventas.",
+                    "translation_english": "I applied for the sales manager position.",
+                    "translation_native": "Solicité el puesto de gerente de ventas.",
+                    "sentence_parts": [
+                        "Solicité",
+                        "el",
+                        "puesto",
+                        "de",
+                        "gerente",
+                        "de",
+                        "ventas."
+                    ],
+                    "level": "intermediate"
+                }
+            ],
+            "options": [
+                "puesto",
+                "oficina",
+                "salario",
+                "equipo"
+            ],
+            "correct_answer": "puesto"
+        },
+        {
+            "word": "habilidades",
+            "translation_english": "skills",
+            "translation_native": "destrezas",
+            "pronunciation": "ah-bee-lee-DAH-des",
+            "examples": [
+                {
+                    "sentence": "Mis habilidades técnicas son fuertes.",
+                    "translation_english": "My technical skills are strong.",
+                    "translation_native": "Mis habilidades técnicas son fuertes.",
+                    "sentence_parts": [
+                        "Mis",
+                        "habilidades",
+                        "técnicas",
+                        "son",
+                        "fuertes."
+                    ],
+                    "level": "intermediate"
+                }
+            ],
+            "options": [
+                "habilidades",
+                "tareas",
+                "metas",
+                "estudios"
+            ],
+            "correct_answer": "habilidades"
+        },
+        {
+            "word": "gerente",
+            "translation_english": "manager",
+            "translation_native": "jefe",
+            "pronunciation": "heh-REN-te",
+            "examples": [
+                {
+                    "sentence": "El gerente organizó una reunión de equipo.",
+                    "translation_english": "The manager organized a team meeting.",
+                    "translation_native": "El gerente organizó una reunión de equipo.",
+                    "sentence_parts": [
+                        "El",
+                        "gerente",
+                        "organizó",
+                        "una",
+                        "reunión",
+                        "de",
+                        "equipo."
+                    ],
+                    "level": "intermediate"
+                }
+            ],
+            "options": [
+                "gerente",
+                "asistente",
+                "empleado",
+                "candidato"
+            ],
+            "correct_answer": "gerente"
+        },
+        {
+            "word": "despido",
+            "translation_english": "layoff/dismissal",
+            "translation_native": "cese",
+            "pronunciation": "des-PEE-do",
+            "examples": [
+                {
+                    "sentence": "La empresa anunció un despido masivo.",
+                    "translation_english": "The company announced a massive layoff.",
+                    "translation_native": "La empresa anunció un despido masivo.",
+                    "sentence_parts": [
+                        "La",
+                        "empresa",
+                        "anunció",
+                        "un",
+                        "despido",
+                        "masivo."
+                    ],
+                    "level": "intermediate"
+                }
+            ],
+            "options": [
+                "despido",
+                "ascenso",
+                "contrato",
+                "bono"
+            ],
+            "correct_answer": "despido"
+        },
+        {
+            "word": "capacitación",
+            "translation_english": "training",
+            "translation_native": "formación",
+            "pronunciation": "kah-pah-see-tah-SYON",
+            "examples": [
+                {
+                    "sentence": "La empresa ofrece capacitación continua.",
+                    "translation_english": "The company offers continuous training.",
+                    "translation_native": "La empresa ofrece capacitación continua.",
+                    "sentence_parts": [
+                        "La",
+                        "empresa",
+                        "ofrece",
+                        "capacitación",
+                        "continua."
+                    ],
+                    "level": "intermediate"
+                }
+            ],
+            "options": [
+                "capacitación",
+                "contrato",
+                "reunión",
+                "jornada"
+            ],
+            "correct_answer": "capacitación"
+        },
+        {
+            "word": "objetivos",
+            "translation_english": "objectives/goals",
+            "translation_native": "metas",
+            "pronunciation": "ob-heh-TEE-vos",
+            "examples": [
+                {
+                    "sentence": "Debemos alcanzar nuestros objetivos trimestrales.",
+                    "translation_english": "We must reach our quarterly goals.",
+                    "translation_native": "Debemos alcanzar nuestros objetivos trimestrales.",
+                    "sentence_parts": [
+                        "Debemos",
+                        "alcanzar",
+                        "nuestros",
+                        "objetivos",
+                        "trimestrales."
+                    ],
+                    "level": "intermediate"
+                }
+            ],
+            "options": [
+                "objetivos",
+                "tareas",
+                "candidatos",
+                "puestos"
+            ],
+            "correct_answer": "objetivos"
+        },
+        {
+            "word": "tareas",
+            "translation_english": "tasks",
+            "translation_native": "deberes",
+            "pronunciation": "tah-REH-as",
+            "examples": [
+                {
+                    "sentence": "Tengo muchas tareas por completar hoy.",
+                    "translation_english": "I have many tasks to complete today.",
+                    "translation_native": "Tengo muchas tareas por completar hoy.",
+                    "sentence_parts": [
+                        "Tengo",
+                        "muchas",
+                        "tareas",
+                        "por",
+                        "completar",
+                        "hoy."
+                    ],
+                    "level": "intermediate"
+                }
+            ],
+            "options": [
+                "tareas",
+                "sueldos",
+                "habilidades",
+                "ascensos"
+            ],
+            "correct_answer": "tareas"
+        },
+        {
+            "word": "asistente",
+            "translation_english": "assistant",
+            "translation_native": "ayudante",
+            "pronunciation": "ah-sees-TEN-te",
+            "examples": [
+                {
+                    "sentence": "El asistente administrativo es muy eficiente.",
+                    "translation_english": "The administrative assistant is very efficient.",
+                    "translation_native": "El asistente administrativo es muy eficiente.",
+                    "sentence_parts": [
+                        "El",
+                        "asistente",
+                        "administrativo",
+                        "es",
+                        "muy",
+                        "eficiente."
+                    ],
+                    "level": "intermediate"
+                }
+            ],
+            "options": [
+                "asistente",
+                "gerente",
+                "jefe",
+                "empleador"
+            ],
+            "correct_answer": "asistente"
+        },
+        {
+            "word": "liderazgo",
+            "translation_english": "leadership",
+            "translation_native": "dirección",
+            "pronunciation": "lee-der-AH-zgo",
+            "examples": [
+                {
+                    "sentence": "Ella demuestra un buen liderazgo.",
+                    "translation_english": "She demonstrates good leadership.",
+                    "translation_native": "Ella demuestra un buen liderazgo.",
+                    "sentence_parts": [
+                        "Ella",
+                        "demuestra",
+                        "un",
+                        "buen",
+                        "liderazgo."
+                    ],
+                    "level": "intermediate"
+                }
+            ],
+            "options": [
+                "liderazgo",
+                "capacitación",
+                "experiencia",
+                "contrato"
+            ],
+            "correct_answer": "liderazgo"
+        },
+        {
+            "word": "experiencia",
+            "translation_english": "experience",
+            "translation_native": "trayectoria",
+            "pronunciation": "eks-peh-RYEN-syah",
+            "examples": [
+                {
+                    "sentence": "Busco un trabajo que requiera mi experiencia.",
+                    "translation_english": "I am looking for a job that requires my experience.",
+                    "translation_native": "Busco un trabajo que requiera mi experiencia.",
+                    "sentence_parts": [
+                        "Busco",
+                        "un",
+                        "trabajo",
+                        "que",
+                        "requiera",
+                        "mi",
+                        "experiencia."
+                    ],
+                    "level": "intermediate"
+                }
+            ],
+            "options": [
+                "experiencia",
+                "habilidad",
+                "objetivo",
+                "sueldo"
+            ],
+            "correct_answer": "experiencia"
+        },
+        {
+            "word": "contrato",
+            "translation_english": "contract",
+            "translation_native": "acuerdo laboral",
+            "pronunciation": "kon-TRAH-to",
+            "examples": [
+                {
+                    "sentence": "Debo firmar el contrato mañana.",
+                    "translation_english": "I must sign the contract tomorrow.",
+                    "translation_native": "Debo firmar el contrato mañana.",
+                    "sentence_parts": [
+                        "Debo",
+                        "firmar",
+                        "el",
+                        "contrato",
+                        "mañana."
+                    ],
+                    "level": "intermediate"
+                }
+            ],
+            "options": [
+                "contrato",
+                "puesto",
+                "despido",
+                "ascenso"
+            ],
+            "correct_answer": "contrato"
+        },
+        {
+            "word": "colegas",
+            "translation_english": "colleagues",
+            "translation_native": "compañeros",
+            "pronunciation": "ko-LEH-gas",
+            "examples": [
+                {
+                    "sentence": "Mis colegas son muy amables.",
+                    "translation_english": "My colleagues are very kind.",
+                    "translation_native": "Mis colegas son muy amables.",
+                    "sentence_parts": [
+                        "Mis",
+                        "colegas",
+                        "son",
+                        "muy",
+                        "amables."
+                    ],
+                    "level": "intermediate"
+                }
+            ],
+            "options": [
+                "colegas",
+                "gerentes",
+                "empleadores",
+                "candidatos"
+            ],
+            "correct_answer": "colegas"
+        },
+        {
+            "word": "reunión",
+            "translation_english": "meeting",
+            "translation_native": "junta",
+            "pronunciation": "rreh-oo-NYON",
+            "examples": [
+                {
+                    "sentence": "Tenemos una reunión a las diez.",
+                    "translation_english": "We have a meeting at ten.",
+                    "translation_native": "Tenemos una reunión a las diez.",
+                    "sentence_parts": [
+                        "Tenemos",
+                        "una",
+                        "reunión",
+                        "a",
+                        "las",
+                        "diez."
+                    ],
+                    "level": "intermediate"
+                }
+            ],
+            "options": [
+                "reunión",
+                "jornada",
+                "capacitación",
+                "tarea"
+            ],
+            "correct_answer": "reunión"
+        },
+        {
+            "word": "solicitud",
+            "translation_english": "application",
+            "translation_native": "petición",
+            "pronunciation": "so-lee-see-TOOD",
+            "examples": [
+                {
+                    "sentence": "He enviado mi solicitud de empleo.",
+                    "translation_english": "I have sent my job application.",
+                    "translation_native": "He enviado mi solicitud de empleo.",
+                    "sentence_parts": [
+                        "He",
+                        "enviado",
+                        "mi",
+                        "solicitud",
+                        "de",
+                        "empleo."
+                    ],
+                    "level": "intermediate"
+                }
+            ],
+            "options": [
+                "solicitud",
+                "entrevista",
+                "contrato",
+                "puesto"
+            ],
+            "correct_answer": "solicitud"
+        },
+        {
+            "word": "oficina",
+            "translation_english": "office",
+            "translation_native": "despacho",
+            "pronunciation": "o-fee-SEE-nah",
+            "examples": [
+                {
+                    "sentence": "Llegué tarde a la oficina hoy.",
+                    "translation_english": "I arrived late to the office today.",
+                    "translation_native": "Llegué tarde a la oficina hoy.",
+                    "sentence_parts": [
+                        "Llegué",
+                        "tarde",
+                        "a",
+                        "la",
+                        "oficina",
+                        "hoy."
+                    ],
+                    "level": "intermediate"
+                }
+            ],
+            "options": [
+                "oficina",
+                "empresa",
+                "jornada",
+                "puesto"
+            ],
+            "correct_answer": "oficina"
+        },
+        {
+            "word": "empresa",
+            "translation_english": "company",
+            "translation_native": "compañía",
+            "pronunciation": "em-PREH-sah",
+            "examples": [
+                {
+                    "sentence": "Trabajo en una empresa internacional.",
+                    "translation_english": "I work in an international company.",
+                    "translation_native": "Trabajo en una empresa internacional.",
+                    "sentence_parts": [
+                        "Trabajo",
+                        "en",
+                        "una",
+                        "empresa",
+                        "internacional."
+                    ],
+                    "level": "intermediate"
+                }
+            ],
+            "options": [
+                "empresa",
+                "oficina",
+                "puesto",
+                "contrato"
+            ],
+            "correct_answer": "empresa"
+        },
+        {
+            "word": "plantilla",
+            "translation_english": "staff",
+            "translation_native": "plantilla",
+            "pronunciation": "plan-tee-yah",
+            "examples": [
+                {
+                    "sentence": "La empresa aumentó su plantilla este año.",
+                    "translation_english": "The company increased its staff this year.",
+                    "translation_native": "La empresa aumentó su plantilla este año.",
+                    "sentence_parts": [
+                        "La",
+                        "empresa",
+                        "aumentó",
+                        "su",
+                        "plantilla",
+                        "este",
+                        "año."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "plantilla",
+                "cubículo",
+                "oficina",
+                "salario"
+            ],
+            "correct_answer": "plantilla"
+        },
+        {
+            "word": "ascender",
+            "translation_english": "to be promoted",
+            "translation_native": "ascender",
+            "pronunciation": "ah-sen-der",
+            "examples": [
+                {
+                    "sentence": "Espero ascender pronto en mi trabajo.",
+                    "translation_english": "I hope to get promoted soon at my job.",
+                    "translation_native": "Espero ascender pronto en mi trabajo.",
+                    "sentence_parts": [
+                        "Espero",
+                        "ascender",
+                        "pronto",
+                        "en",
+                        "mi",
+                        "trabajo."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "ascender",
+                "dimitir",
+                "trabajar",
+                "formar"
+            ],
+            "correct_answer": "ascender"
+        },
+        {
+            "word": "deducción",
+            "translation_english": "deduction",
+            "translation_native": "deducción",
+            "pronunciation": "deh-duk-see-ohn",
+            "examples": [
+                {
+                    "sentence": "Revisé la deducción en mi nómina.",
+                    "translation_english": "I checked the deduction in my paycheck.",
+                    "translation_native": "Revisé la deducción en mi nómina.",
+                    "sentence_parts": [
+                        "Revisé",
+                        "la",
+                        "deducción",
+                        "en",
+                        "mi",
+                        "nómina."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "deducción",
+                "bono",
+                "beneficio",
+                "aumento"
+            ],
+            "correct_answer": "deducción"
+        },
+        {
+            "word": "nómina",
+            "translation_english": "payroll",
+            "translation_native": "nómina",
+            "pronunciation": "noh-mee-nah",
+            "examples": [
+                {
+                    "sentence": "El departamento de nómina paga a tiempo.",
+                    "translation_english": "The payroll department pays on time.",
+                    "translation_native": "El departamento de nómina paga a tiempo.",
+                    "sentence_parts": [
+                        "El",
+                        "departamento",
+                        "de",
+                        "nómina",
+                        "paga",
+                        "a",
+                        "tiempo."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "nómina",
+                "reunión",
+                "archivo",
+                "gestión"
+            ],
+            "correct_answer": "nómina"
+        },
+        {
+            "word": "comisiones",
+            "translation_english": "commissions",
+            "translation_native": "comisiones",
+            "pronunciation": "koh-mee-see-oh-nes",
+            "examples": [
+                {
+                    "sentence": "Mis comisiones aumentaron este trimestre.",
+                    "translation_english": "My commissions increased this quarter.",
+                    "translation_native": "Mis comisiones aumentaron este trimestre.",
+                    "sentence_parts": [
+                        "Mis",
+                        "comisiones",
+                        "aumentaron",
+                        "este",
+                        "trimestre."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "comisiones",
+                "pagos",
+                "reembolsos",
+                "créditos"
+            ],
+            "correct_answer": "comisiones"
+        },
+        {
+            "word": "beneficios",
+            "translation_english": "benefits",
+            "translation_native": "beneficios",
+            "pronunciation": "beh-neh-fee-see-os",
+            "examples": [
+                {
+                    "sentence": "Ella valora los beneficios médicos.",
+                    "translation_english": "She values the medical benefits.",
+                    "translation_native": "Ella valora los beneficios médicos.",
+                    "sentence_parts": [
+                        "Ella",
+                        "valora",
+                        "los",
+                        "beneficios",
+                        "médicos."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "beneficios",
+                "obligaciones",
+                "metas",
+                "recursos"
+            ],
+            "correct_answer": "beneficios"
+        },
+        {
+            "word": "desempeño",
+            "translation_english": "performance",
+            "translation_native": "desempeño",
+            "pronunciation": "deh-sem-peh-nyoh",
+            "examples": [
+                {
+                    "sentence": "Su desempeño laboral fue excelente.",
+                    "translation_english": "His work performance was excellent.",
+                    "translation_native": "Su desempeño laboral fue excelente.",
+                    "sentence_parts": [
+                        "Su",
+                        "desempeño",
+                        "laboral",
+                        "fue",
+                        "excelente."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "desempeño",
+                "esfuerzo",
+                "talento",
+                "horario"
+            ],
+            "correct_answer": "desempeño"
+        },
+        {
+            "word": "plazo",
+            "translation_english": "deadline",
+            "translation_native": "plazo",
+            "pronunciation": "plah-so",
+            "examples": [
+                {
+                    "sentence": "Debemos terminar antes del plazo.",
+                    "translation_english": "We must finish before the deadline.",
+                    "translation_native": "Debemos terminar antes del plazo.",
+                    "sentence_parts": [
+                        "Debemos",
+                        "terminar",
+                        "antes",
+                        "del",
+                        "plazo."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "plazo",
+                "tiempo",
+                "momento",
+                "ciclo"
+            ],
+            "correct_answer": "plazo"
+        },
+        {
+            "word": "competencia",
+            "translation_english": "competition",
+            "translation_native": "competencia",
+            "pronunciation": "kom-peh-ten-see-ah",
+            "examples": [
+                {
+                    "sentence": "La competencia bajó los precios.",
+                    "translation_english": "The competition lowered prices.",
+                    "translation_native": "La competencia bajó los precios.",
+                    "sentence_parts": [
+                        "La",
+                        "competencia",
+                        "bajó",
+                        "los",
+                        "precios."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "competencia",
+                "industria",
+                "demanda",
+                "oferta"
+            ],
+            "correct_answer": "competencia"
+        },
+        {
+            "word": "vacante",
+            "translation_english": "vacancy",
+            "translation_native": "vacante",
+            "pronunciation": "vah-kahn-teh",
+            "examples": [
+                {
+                    "sentence": "Hay una vacante en el equipo.",
+                    "translation_english": "There is a vacancy on the team.",
+                    "translation_native": "Hay una vacante en el equipo.",
+                    "sentence_parts": [
+                        "Hay",
+                        "una",
+                        "vacante",
+                        "en",
+                        "el",
+                        "equipo."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "vacante",
+                "espacio",
+                "hueco",
+                "puesto"
+            ],
+            "correct_answer": "vacante"
+        },
+        {
+            "word": "recursos",
+            "translation_english": "resources",
+            "translation_native": "recursos",
+            "pronunciation": "reh-koor-soos",
+            "examples": [
+                {
+                    "sentence": "Necesitamos más recursos para el proyecto.",
+                    "translation_english": "We need more resources for the project.",
+                    "translation_native": "Necesitamos más recursos para el proyecto.",
+                    "sentence_parts": [
+                        "Necesitamos",
+                        "más",
+                        "recursos",
+                        "para",
+                        "el",
+                        "proyecto."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "recursos",
+                "fondos",
+                "activos",
+                "inventarios"
+            ],
+            "correct_answer": "recursos"
+        },
+        {
+            "word": "ascendencia",
+            "translation_english": "advancement",
+            "translation_native": "ascendencia",
+            "pronunciation": "ah-sen-den-see-ah",
+            "examples": [
+                {
+                    "sentence": "Busco oportunidades de ascendencia laboral.",
+                    "translation_english": "I am looking for career advancement opportunities.",
+                    "translation_native": "Busco oportunidades de ascendencia laboral.",
+                    "sentence_parts": [
+                        "Busco",
+                        "oportunidades",
+                        "de",
+                        "ascendencia",
+                        "laboral."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "ascendencia",
+                "crecimiento",
+                "desarrollo",
+                "progreso"
+            ],
+            "correct_answer": "ascendencia"
+        },
+        {
+            "word": "presupuesto",
+            "translation_english": "budget",
+            "translation_native": "presupuesto",
+            "pronunciation": "preh-soo-poo-es-toh",
+            "examples": [
+                {
+                    "sentence": "El presupuesto del proyecto es limitado.",
+                    "translation_english": "The project budget is limited.",
+                    "translation_native": "El presupuesto del proyecto es limitado.",
+                    "sentence_parts": [
+                        "El",
+                        "presupuesto",
+                        "del",
+                        "proyecto",
+                        "es",
+                        "limitado."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "presupuesto",
+                "gasto",
+                "balance",
+                "costo"
+            ],
+            "correct_answer": "presupuesto"
+        },
+        {
+            "word": "política",
+            "translation_english": "policy",
+            "translation_native": "política",
+            "pronunciation": "poh-lee-tee-kah",
+            "examples": [
+                {
+                    "sentence": "Debemos seguir la política de la empresa.",
+                    "translation_english": "We must follow company policy.",
+                    "translation_native": "Debemos seguir la política de la empresa.",
+                    "sentence_parts": [
+                        "Debemos",
+                        "seguir",
+                        "la",
+                        "política",
+                        "de",
+                        "la",
+                        "empresa."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "política",
+                "regla",
+                "norma",
+                "protocolo"
+            ],
+            "correct_answer": "política"
+        },
+        {
+            "word": "jefe",
+            "translation_english": "boss",
+            "translation_native": "jefe",
+            "pronunciation": "heh-feh",
+            "examples": [
+                {
+                    "sentence": "Mi jefe aprobó mis vacaciones.",
+                    "translation_english": "My boss approved my vacation.",
+                    "translation_native": "Mi jefe aprobó mis vacaciones.",
+                    "sentence_parts": [
+                        "Mi",
+                        "jefe",
+                        "aprobó",
+                        "mis",
+                        "vacaciones."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "jefe",
+                "líder",
+                "director",
+                "supervisor"
+            ],
+            "correct_answer": "jefe"
+        },
+        {
+            "word": "meta",
+            "translation_english": "goal",
+            "translation_native": "meta",
+            "pronunciation": "meh-tah",
+            "examples": [
+                {
+                    "sentence": "Mi meta es terminar el informe.",
+                    "translation_english": "My goal is to finish the report.",
+                    "translation_native": "Mi meta es terminar el informe.",
+                    "sentence_parts": [
+                        "Mi",
+                        "meta",
+                        "es",
+                        "terminar",
+                        "el",
+                        "informe."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "meta",
+                "propósito",
+                "aspiración",
+                "intención"
+            ],
+            "correct_answer": "meta"
+        },
+        {
+            "word": "subordinado",
+            "translation_english": "subordinate",
+            "translation_native": "subordinado",
+            "pronunciation": "soo-bor-dee-nah-doh",
+            "examples": [
+                {
+                    "sentence": "Tengo un equipo de tres subordinados.",
+                    "translation_english": "I have a team of three subordinates.",
+                    "translation_native": "Tengo un equipo de tres subordinados.",
+                    "sentence_parts": [
+                        "Tengo",
+                        "un",
+                        "equipo",
+                        "de",
+                        "tres",
+                        "subordinados."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "subordinado",
+                "empleado",
+                "ayudante",
+                "asistente"
+            ],
+            "correct_answer": "subordinado"
+        },
+        {
+            "word": "bonificación",
+            "translation_english": "bonus",
+            "translation_native": "bonificación",
+            "pronunciation": "boh-nee-fee-kah-see-ohn",
+            "examples": [
+                {
+                    "sentence": "Recibí una bonificación por ventas.",
+                    "translation_english": "I received a bonus for sales.",
+                    "translation_native": "Recibí una bonificación por ventas.",
+                    "sentence_parts": [
+                        "Recibí",
+                        "una",
+                        "bonificación",
+                        "por",
+                        "ventas."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "bonificación",
+                "recompensa",
+                "premio",
+                "gratificación"
+            ],
+            "correct_answer": "bonificación"
+        },
+        {
+            "word": "reunir",
+            "translation_english": "to gather/meet",
+            "translation_native": "reunir",
+            "pronunciation": "reh-oo-neer",
+            "examples": [
+                {
+                    "sentence": "Vamos a reunir todos los documentos.",
+                    "translation_english": "We are going to gather all the documents.",
+                    "translation_native": "Vamos a reunir todos los documentos.",
+                    "sentence_parts": [
+                        "Vamos",
+                        "a",
+                        "reunir",
+                        "todos",
+                        "los",
+                        "documentos."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "reunir",
+                "juntar",
+                "coleccionar",
+                "agrupar"
+            ],
+            "correct_answer": "reunir"
+        },
+        {
+            "word": "productividad",
+            "translation_english": "productivity",
+            "translation_native": "productividad",
+            "pronunciation": "pro-duk-tee-vee-dahd",
+            "examples": [
+                {
+                    "sentence": "La productividad aumentó este mes.",
+                    "translation_english": "Productivity increased this month.",
+                    "translation_native": "La productividad aumentó este mes.",
+                    "sentence_parts": [
+                        "La",
+                        "productividad",
+                        "aumentó",
+                        "este",
+                        "mes."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "productividad",
+                "eficiencia",
+                "rendimiento",
+                "eficacia"
+            ],
+            "correct_answer": "productividad"
+        },
+        {
+            "word": "jubilación",
+            "translation_english": "retirement",
+            "translation_native": "jubilación",
+            "pronunciation": "hoo-bee-lah-see-ohn",
+            "examples": [
+                {
+                    "sentence": "Él planea su jubilación pronto.",
+                    "translation_english": "He is planning his retirement soon.",
+                    "translation_native": "Él planea su jubilación pronto.",
+                    "sentence_parts": [
+                        "Él",
+                        "planea",
+                        "su",
+                        "jubilación",
+                        "pronto."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "jubilación",
+                "retiro",
+                "descanso",
+                "abandono"
+            ],
+            "correct_answer": "jubilación"
+        },
+        {
+            "word": "delegar",
+            "translation_english": "to delegate",
+            "translation_native": "delegar",
+            "pronunciation": "deh-leh-gar",
+            "examples": [
+                {
+                    "sentence": "Es importante delegar tareas a otros.",
+                    "translation_english": "It is important to delegate tasks to others.",
+                    "translation_native": "Es importante delegar tareas a otros.",
+                    "sentence_parts": [
+                        "Es",
+                        "importante",
+                        "delegar",
+                        "tareas",
+                        "a",
+                        "otros."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "delegar",
+                "asignar",
+                "repartir",
+                "distribuir"
+            ],
+            "correct_answer": "delegar"
+        },
+        {
+            "word": "socio",
+            "translation_english": "partner",
+            "translation_native": "socio",
+            "pronunciation": "soh-see-oh",
+            "examples": [
+                {
+                    "sentence": "Él es mi socio de negocios.",
+                    "translation_english": "He is my business partner.",
+                    "translation_native": "Él es mi socio de negocios.",
+                    "sentence_parts": [
+                        "Él",
+                        "es",
+                        "mi",
+                        "socio",
+                        "de",
+                        "negocios."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "socio",
+                "compañero",
+                "colaborador",
+                "aliado"
+            ],
+            "correct_answer": "socio"
+        },
+        {
+            "word": "facturación",
+            "translation_english": "billing",
+            "translation_native": "facturación",
+            "pronunciation": "fak-too-rah-see-ohn",
+            "examples": [
+                {
+                    "sentence": "Revisé la facturación del trimestre.",
+                    "translation_english": "I reviewed the billing for the quarter.",
+                    "translation_native": "Revisé la facturación del trimestre.",
+                    "sentence_parts": [
+                        "Revisé",
+                        "la",
+                        "facturación",
+                        "del",
+                        "trimestre."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "facturación",
+                "cobro",
+                "contabilidad",
+                "tesorería"
+            ],
+            "correct_answer": "facturación"
+        },
+        {
+            "word": "evaluación",
+            "translation_english": "evaluation",
+            "translation_native": "evaluación",
+            "pronunciation": "eh-vah-loo-ah-see-ohn",
+            "examples": [
+                {
+                    "sentence": "Mañana tengo mi evaluación anual.",
+                    "translation_english": "I have my annual evaluation tomorrow.",
+                    "translation_native": "Mañana tengo mi evaluación anual.",
+                    "sentence_parts": [
+                        "Mañana",
+                        "tengo",
+                        "mi",
+                        "evaluación",
+                        "anual."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "evaluación",
+                "análisis",
+                "revisión",
+                "examen"
+            ],
+            "correct_answer": "evaluación"
+        },
+        {
+            "word": "imprevisto",
+            "translation_english": "unforeseen event",
+            "translation_native": "imprevisto",
+            "pronunciation": "eem-preh-VEES-toh",
+            "examples": [
+                {
+                    "sentence": "Surgió un imprevisto en la agenda.",
+                    "translation_english": "An unforeseen event arose in the schedule.",
+                    "translation_native": "Surgió un imprevisto en la agenda.",
+                    "sentence_parts": [
+                        "Surgió",
+                        "un",
+                        "imprevisto",
+                        "en",
+                        "la",
+                        "agenda."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "imprevisto",
+                "plan",
+                "horario",
+                "evento"
+            ],
+            "correct_answer": "imprevisto"
+        },
+        {
+            "word": "colaborar",
+            "translation_english": "to collaborate",
+            "translation_native": "colaborar",
+            "pronunciation": "koh-lah-boh-RAHR",
+            "examples": [
+                {
+                    "sentence": "Me gusta colaborar en equipo.",
+                    "translation_english": "I like to collaborate in a team.",
+                    "translation_native": "Me gusta colaborar en equipo.",
+                    "sentence_parts": [
+                        "Me",
+                        "gusta",
+                        "colaborar",
+                        "en",
+                        "equipo."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "colaborar",
+                "trabajar",
+                "competir",
+                "ayudar"
+            ],
+            "correct_answer": "colaborar"
+        },
+        {
+            "word": "viáticos",
+            "translation_english": "travel expenses",
+            "translation_native": "viáticos",
+            "pronunciation": "vee-AH-tee-kohs",
+            "examples": [
+                {
+                    "sentence": "La empresa pagará todos mis viáticos.",
+                    "translation_english": "The company will pay all my travel expenses.",
+                    "translation_native": "La empresa pagará todos mis viáticos.",
+                    "sentence_parts": [
+                        "La",
+                        "empresa",
+                        "pagará",
+                        "todos",
+                        "mis",
+                        "viáticos."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "viáticos",
+                "gastos",
+                "salarios",
+                "deudas"
+            ],
+            "correct_answer": "viáticos"
+        },
+        {
+            "word": "remuneración",
+            "translation_english": "remuneration",
+            "translation_native": "pago",
+            "pronunciation": "reh-moo-neh-rah-syon",
+            "examples": [
+                {
+                    "sentence": "La remuneración es justa para este puesto.",
+                    "translation_english": "The remuneration is fair for this position.",
+                    "translation_native": "El pago es justo para este puesto.",
+                    "sentence_parts": [
+                        "La",
+                        "remuneración",
+                        "es",
+                        "justa",
+                        "para",
+                        "este",
+                        "puesto."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "remuneración",
+                "representación",
+                "reanimación",
+                "recolección"
+            ],
+            "correct_answer": "remuneración"
+        },
+        {
+            "word": "negociar",
+            "translation_english": "to negotiate",
+            "translation_native": "tratar",
+            "pronunciation": "neh-go-syar",
+            "examples": [
+                {
+                    "sentence": "Debemos negociar los términos del contrato.",
+                    "translation_english": "We must negotiate the terms of the contract.",
+                    "translation_native": "Debemos tratar los términos del contrato.",
+                    "sentence_parts": [
+                        "Debemos",
+                        "negociar",
+                        "los",
+                        "términos",
+                        "del",
+                        "contrato."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "negociar",
+                "navegar",
+                "nombrar",
+                "notificar"
+            ],
+            "correct_answer": "negociar"
+        },
+        {
+            "word": "ascensorista",
+            "translation_english": "elevator operator",
+            "translation_native": "operador de elevador",
+            "pronunciation": "ah-sen-so-ris-ta",
+            "examples": [
+                {
+                    "sentence": "El ascensorista trabaja en el edificio viejo.",
+                    "translation_english": "The elevator operator works in the old building.",
+                    "translation_native": "El operador de elevador trabaja en el edificio viejo.",
+                    "sentence_parts": [
+                        "El",
+                        "ascensorista",
+                        "trabaja",
+                        "en",
+                        "el",
+                        "edificio",
+                        "viejo."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "ascensorista",
+                "administrador",
+                "artesano",
+                "abogado"
+            ],
+            "correct_answer": "ascensorista"
+        },
+        {
+            "word": "ascensión",
+            "translation_english": "ascent",
+            "translation_native": "subida",
+            "pronunciation": "ah-sen-syon",
+            "examples": [
+                {
+                    "sentence": "Su ascensión profesional fue muy rápida.",
+                    "translation_english": "His professional ascent was very quick.",
+                    "translation_native": "Su subida profesional fue muy rápida.",
+                    "sentence_parts": [
+                        "Su",
+                        "ascensión",
+                        "profesional",
+                        "fue",
+                        "muy",
+                        "rápida."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "ascensión",
+                "atención",
+                "afiliación",
+                "adopción"
+            ],
+            "correct_answer": "ascensión"
+        },
+        {
+            "word": "desempeñar",
+            "translation_english": "to perform",
+            "translation_native": "ejecutar",
+            "pronunciation": "deh-sem-pe-nyar",
+            "examples": [
+                {
+                    "sentence": "Va a desempeñar un papel importante.",
+                    "translation_english": "He is going to perform an important role.",
+                    "translation_native": "Va a ejecutar un papel importante.",
+                    "sentence_parts": [
+                        "Va",
+                        "a",
+                        "desempeñar",
+                        "un",
+                        "papel",
+                        "importante."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "desempeñar",
+                "desarrollar",
+                "destacar",
+                "descansar"
+            ],
+            "correct_answer": "desempeñar"
+        },
+        {
+            "word": "ascendiente",
+            "translation_english": "ascending",
+            "translation_native": "que sube",
+            "pronunciation": "ah-sen-dyen-te",
+            "examples": [
+                {
+                    "sentence": "Sigo una trayectoria ascendiente en ventas.",
+                    "translation_english": "I am following an ascending trajectory in sales.",
+                    "translation_native": "Sigo una trayectoria que sube en ventas.",
+                    "sentence_parts": [
+                        "Sigo",
+                        "una",
+                        "trayectoria",
+                        "ascendiente",
+                        "en",
+                        "ventas."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "ascendiente",
+                "atrayente",
+                "alucinante",
+                "abundante"
+            ],
+            "correct_answer": "ascendiente"
+        },
+        {
+            "word": "ascético",
+            "translation_english": "ascetic",
+            "translation_native": "austero",
+            "pronunciation": "ah-seh-tee-ko",
+            "examples": [
+                {
+                    "sentence": "Su estilo de trabajo es bastante ascético.",
+                    "translation_english": "His work style is quite ascetic.",
+                    "translation_native": "Su estilo de trabajo es bastante austero.",
+                    "sentence_parts": [
+                        "Su",
+                        "estilo",
+                        "de",
+                        "trabajo",
+                        "es",
+                        "bastante",
+                        "ascético."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "ascético",
+                "atlético",
+                "analítico",
+                "auténtico"
+            ],
+            "correct_answer": "ascético"
+        },
+        {
+            "word": "asegurar",
+            "translation_english": "to insure/secure",
+            "translation_native": "garantizar",
+            "pronunciation": "ah-seh-goo-rar",
+            "examples": [
+                {
+                    "sentence": "Debo asegurar el equipo contra robos.",
+                    "translation_english": "I must insure the equipment against theft.",
+                    "translation_native": "Debo garantizar el equipo contra robos.",
+                    "sentence_parts": [
+                        "Debo",
+                        "asegurar",
+                        "el",
+                        "equipo",
+                        "contra",
+                        "robos."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "asegurar",
+                "acelerar",
+                "adelantar",
+                "adaptar"
+            ],
+            "correct_answer": "asegurar"
+        },
+        {
+            "word": "asertivo",
+            "translation_english": "assertive",
+            "translation_native": "decidido",
+            "pronunciation": "ah-ser-tee-vo",
+            "examples": [
+                {
+                    "sentence": "Ser asertivo ayuda en las negociaciones.",
+                    "translation_english": "Being assertive helps in negotiations.",
+                    "translation_native": "Ser decidido ayuda en las negociaciones.",
+                    "sentence_parts": [
+                        "Ser",
+                        "asertivo",
+                        "ayuda",
+                        "en",
+                        "las",
+                        "negociaciones."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "asertivo",
+                "agresivo",
+                "atractivo",
+                "activo"
+            ],
+            "correct_answer": "asertivo"
+        },
+        {
+            "word": "asumir",
+            "translation_english": "to assume/take on",
+            "translation_native": "aceptar",
+            "pronunciation": "ah-soo-mir",
+            "examples": [
+                {
+                    "sentence": "Voy a asumir nuevas responsabilidades.",
+                    "translation_english": "I am going to assume new responsibilities.",
+                    "translation_native": "Voy a aceptar nuevas responsabilidades.",
+                    "sentence_parts": [
+                        "Voy",
+                        "a",
+                        "asumir",
+                        "nuevas",
+                        "responsabilidades."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "asumir",
+                "asustar",
+                "asaltar",
+                "asignar"
+            ],
+            "correct_answer": "asumir"
+        },
+        {
+            "word": "asistir",
+            "translation_english": "to attend",
+            "translation_native": "acudir",
+            "pronunciation": "ah-sis-tir",
+            "examples": [
+                {
+                    "sentence": "Debo asistir a la conferencia hoy.",
+                    "translation_english": "I must attend the conference today.",
+                    "translation_native": "Debo acudir a la conferencia hoy.",
+                    "sentence_parts": [
+                        "Debo",
+                        "asistir",
+                        "a",
+                        "la",
+                        "conferencia",
+                        "hoy."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "asistir",
+                "anexar",
+                "aportar",
+                "activar"
+            ],
+            "correct_answer": "asistir"
+        },
+        {
+            "word": "ascetismo",
+            "translation_english": "asceticism",
+            "translation_native": "austeridad",
+            "pronunciation": "ah-seh-tees-mo",
+            "examples": [
+                {
+                    "sentence": "Su ascetismo profesional es ejemplar.",
+                    "translation_english": "His professional asceticism is exemplary.",
+                    "translation_native": "Su austeridad profesional es ejemplar.",
+                    "sentence_parts": [
+                        "Su",
+                        "ascetismo",
+                        "profesional",
+                        "es",
+                        "ejemplar."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "ascetismo",
+                "altruismo",
+                "activismo",
+                "arribismo"
+            ],
+            "correct_answer": "ascetismo"
+        },
+        {
+            "word": "asequible",
+            "translation_english": "affordable",
+            "translation_native": "económico",
+            "pronunciation": "ah-seh-kee-ble",
+            "examples": [
+                {
+                    "sentence": "Buscamos un precio más asequible.",
+                    "translation_english": "We are looking for a more affordable price.",
+                    "translation_native": "Buscamos un precio más económico.",
+                    "sentence_parts": [
+                        "Buscamos",
+                        "un",
+                        "precio",
+                        "más",
+                        "asequible."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "asequible",
+                "admisible",
+                "accesible",
+                "aplicable"
+            ],
+            "correct_answer": "asequible"
+        },
+        {
+            "word": "ascensor",
+            "translation_english": "elevator",
+            "translation_native": "elevador",
+            "pronunciation": "ah-sen-sor",
+            "examples": [
+                {
+                    "sentence": "El ascensor no funciona hoy.",
+                    "translation_english": "The elevator is not working today.",
+                    "translation_native": "El elevador no funciona hoy.",
+                    "sentence_parts": [
+                        "El",
+                        "ascensor",
+                        "no",
+                        "funciona",
+                        "hoy."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "ascensor",
+                "autobús",
+                "avión",
+                "almacén"
+            ],
+            "correct_answer": "ascensor"
+        },
+        {
+            "word": "asertividad",
+            "translation_english": "assertiveness",
+            "translation_native": "decisión",
+            "pronunciation": "ah-ser-tee-vee-dad",
+            "examples": [
+                {
+                    "sentence": "La asertividad es clave en ventas.",
+                    "translation_english": "Assertiveness is key in sales.",
+                    "translation_native": "La decisión es clave en ventas.",
+                    "sentence_parts": [
+                        "La",
+                        "asertividad",
+                        "es",
+                        "clave",
+                        "en",
+                        "ventas."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "asertividad",
+                "autoridad",
+                "actividad",
+                "amabilidad"
+            ],
+            "correct_answer": "asertividad"
+        },
+        {
+            "word": "asentir",
+            "translation_english": "to nod/agree",
+            "translation_native": "aprobar",
+            "pronunciation": "ah-sen-tir",
+            "examples": [
+                {
+                    "sentence": "El jefe empezó a asentir con entusiasmo.",
+                    "translation_english": "The boss started to nod with enthusiasm.",
+                    "translation_native": "El jefe empezó a aprobar con entusiasmo.",
+                    "sentence_parts": [
+                        "El",
+                        "jefe",
+                        "empezó",
+                        "a",
+                        "asentir",
+                        "con",
+                        "entusiasmo."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "asentir",
+                "asumir",
+                "ascender",
+                "asustar"
+            ],
+            "correct_answer": "asentir"
+        },
+        {
+            "word": "asesoramiento",
+            "translation_english": "counseling",
+            "translation_native": "consejo",
+            "pronunciation": "ah-seh-so-rah-myen-to",
+            "examples": [
+                {
+                    "sentence": "Recibimos asesoramiento legal externo.",
+                    "translation_english": "We received external legal counseling.",
+                    "translation_native": "Recibimos consejo legal externo.",
+                    "sentence_parts": [
+                        "Recibimos",
+                        "asesoramiento",
+                        "legal",
+                        "externo."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "asesoramiento",
+                "acercamiento",
+                "alojamiento",
+                "aislamiento"
+            ],
+            "correct_answer": "asesoramiento"
+        },
+        {
+            "word": "aseguramiento",
+            "translation_english": "assurance/securing",
+            "translation_native": "garantía",
+            "pronunciation": "ah-seh-goo-rah-myen-to",
+            "examples": [
+                {
+                    "sentence": "El aseguramiento de la calidad es vital.",
+                    "translation_english": "Quality assurance is vital.",
+                    "translation_native": "La garantía de la calidad es vital.",
+                    "sentence_parts": [
+                        "El",
+                        "aseguramiento",
+                        "de",
+                        "la",
+                        "calidad",
+                        "es",
+                        "vital."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "aseguramiento",
+                "acercamiento",
+                "ajustamiento",
+                "acoplamiento"
+            ],
+            "correct_answer": "aseguramiento"
+        },
+        {
+            "word": "asesor",
+            "translation_english": "advisor",
+            "translation_native": "consejero",
+            "pronunciation": "ah-seh-sor",
+            "examples": [
+                {
+                    "sentence": "Mi asesor financiero revisó mis cuentas.",
+                    "translation_english": "My financial advisor reviewed my accounts.",
+                    "translation_native": "Mi consejero financiero revisó mis cuentas.",
+                    "sentence_parts": [
+                        "Mi",
+                        "asesor",
+                        "financiero",
+                        "revisó",
+                        "mis",
+                        "cuentas."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "asesor",
+                "autor",
+                "auditor",
+                "actor"
+            ],
+            "correct_answer": "asesor"
+        },
+        {
+            "word": "asiduidad",
+            "translation_english": "diligence/assiduity",
+            "translation_native": "constancia",
+            "pronunciation": "ah-see-dwee-dad",
+            "examples": [
+                {
+                    "sentence": "Su asiduidad en el trabajo impresiona.",
+                    "translation_english": "His diligence at work is impressive.",
+                    "translation_native": "Su constancia en el trabajo impresiona.",
+                    "sentence_parts": [
+                        "Su",
+                        "asiduidad",
+                        "en",
+                        "el",
+                        "trabajo",
+                        "impresiona."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "asiduidad",
+                "actividad",
+                "ansiedad",
+                "autoridad"
+            ],
+            "correct_answer": "asiduidad"
+        },
+        {
+            "word": "proyección",
+            "translation_english": "projection",
+            "translation_native": "projection",
+            "pronunciation": "pro-yek-THYON",
+            "examples": [
+                {
+                    "sentence": "La proyección de ventas parece optimista.",
+                    "translation_english": "The sales projection seems optimistic.",
+                    "translation_native": "The sales projection seems optimistic.",
+                    "sentence_parts": [
+                        "La",
+                        "proyección",
+                        "de",
+                        "ventas",
+                        "parece",
+                        "optimista"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "proyección",
+                "cálculo",
+                "gasto",
+                "mercado"
+            ],
+            "correct_answer": "proyección"
+        },
+        {
+            "word": "fomentar",
+            "translation_english": "to foster",
+            "translation_native": "to foster",
+            "pronunciation": "fo-men-TAR",
+            "examples": [
+                {
+                    "sentence": "Debemos fomentar un ambiente creativo.",
+                    "translation_english": "We must foster a creative environment.",
+                    "translation_native": "We must foster a creative environment.",
+                    "sentence_parts": [
+                        "Debemos",
+                        "fomentar",
+                        "un",
+                        "ambiente",
+                        "creativo"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "fomentar",
+                "detener",
+                "ignorar",
+                "limitar"
+            ],
+            "correct_answer": "fomentar"
+        },
+        {
+            "word": "afiliación",
+            "translation_english": "membership",
+            "translation_native": "membership",
+            "pronunciation": "a-fi-lya-THYON",
+            "examples": [
+                {
+                    "sentence": "Su afiliación al sindicato es obligatoria.",
+                    "translation_english": "His union membership is mandatory.",
+                    "translation_native": "His union membership is mandatory.",
+                    "sentence_parts": [
+                        "Su",
+                        "afiliación",
+                        "al",
+                        "sindicato",
+                        "es",
+                        "obligatoria"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "afiliación",
+                "dirección",
+                "puesto",
+                "salida"
+            ],
+            "correct_answer": "afiliación"
+        },
+        {
+            "word": "desplazamiento",
+            "translation_english": "commute",
+            "translation_native": "commute",
+            "pronunciation": "des-pla-tha-MYEN-to",
+            "examples": [
+                {
+                    "sentence": "El desplazamiento al trabajo toma una hora.",
+                    "translation_english": "The commute to work takes an hour.",
+                    "translation_native": "The commute to work takes an hour.",
+                    "sentence_parts": [
+                        "El",
+                        "desplazamiento",
+                        "al",
+                        "trabajo",
+                        "toma",
+                        "una",
+                        "hora"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "desplazamiento",
+                "entrega",
+                "camino",
+                "transporte"
+            ],
+            "correct_answer": "desplazamiento"
+        },
+        {
+            "word": "trayectoria",
+            "translation_english": "career path",
+            "translation_native": "career path",
+            "pronunciation": "tra-yek-TO-rya",
+            "examples": [
+                {
+                    "sentence": "Ella tiene una larga trayectoria profesional.",
+                    "translation_english": "She has a long professional career path.",
+                    "translation_native": "She has a long professional career path.",
+                    "sentence_parts": [
+                        "Ella",
+                        "tiene",
+                        "una",
+                        "larga",
+                        "trayectoria",
+                        "profesional"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "trayectoria",
+                "posibilidad",
+                "elección",
+                "reunión"
+            ],
+            "correct_answer": "trayectoria"
+        },
+        {
+            "word": "normativa",
+            "translation_english": "regulations",
+            "translation_native": "regulations",
+            "pronunciation": "nor-ma-TI-va",
+            "examples": [
+                {
+                    "sentence": "Debes seguir la normativa vigente.",
+                    "translation_english": "You must follow the current regulations.",
+                    "translation_native": "You must follow the current regulations.",
+                    "sentence_parts": [
+                        "Debes",
+                        "seguir",
+                        "la",
+                        "normativa",
+                        "vigente"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "normativa",
+                "propuesta",
+                "opinión",
+                "decisión"
+            ],
+            "correct_answer": "normativa"
+        },
+        {
+            "word": "incentivo",
+            "translation_english": "incentive",
+            "translation_native": "incentive",
+            "pronunciation": "in-then-TI-vo",
+            "examples": [
+                {
+                    "sentence": "Ofrecieron un incentivo por buen desempeño.",
+                    "translation_english": "They offered an incentive for good performance.",
+                    "translation_native": "They offered an incentive for good performance.",
+                    "sentence_parts": [
+                        "Ofrecieron",
+                        "un",
+                        "incentivo",
+                        "por",
+                        "buen",
+                        "desempeño"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "incentivo",
+                "aumento",
+                "seguro",
+                "impuesto"
+            ],
+            "correct_answer": "incentivo"
+        },
+        {
+            "word": "proceso",
+            "translation_english": "process",
+            "translation_native": "process",
+            "pronunciation": "pro-THE-so",
+            "examples": [
+                {
+                    "sentence": "El proceso de selección dura tres semanas.",
+                    "translation_english": "The selection process lasts three weeks.",
+                    "translation_native": "The selection process lasts three weeks.",
+                    "sentence_parts": [
+                        "El",
+                        "proceso",
+                        "de",
+                        "selección",
+                        "dura",
+                        "tres",
+                        "semanas"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "proceso",
+                "acuerdo",
+                "contrato",
+                "sistema"
+            ],
+            "correct_answer": "proceso"
+        },
+        {
+            "word": "desglose",
+            "translation_english": "breakdown",
+            "translation_native": "breakdown",
+            "pronunciation": "des-GLO-se",
+            "examples": [
+                {
+                    "sentence": "Necesito el desglose de los gastos.",
+                    "translation_english": "I need the breakdown of the expenses.",
+                    "translation_native": "I need the breakdown of the expenses.",
+                    "sentence_parts": [
+                        "Necesito",
+                        "el",
+                        "desglose",
+                        "de",
+                        "los",
+                        "gastos"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "desglose",
+                "informe",
+                "resumen",
+                "archivo"
+            ],
+            "correct_answer": "desglose"
+        },
+        {
+            "word": "intercambio",
+            "translation_english": "exchange",
+            "translation_native": "exchange",
+            "pronunciation": "in-ter-KAM-byo",
+            "examples": [
+                {
+                    "sentence": "Fue un intercambio de ideas productivo.",
+                    "translation_english": "It was a productive exchange of ideas.",
+                    "translation_native": "It was a productive exchange of ideas.",
+                    "sentence_parts": [
+                        "Fue",
+                        "un",
+                        "intercambio",
+                        "de",
+                        "ideas",
+                        "productivo"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "intercambio",
+                "contacto",
+                "debate",
+                "repaso"
+            ],
+            "correct_answer": "intercambio"
+        },
+        {
+            "word": "gestión",
+            "translation_english": "management",
+            "translation_native": "management",
+            "pronunciation": "hes-TYON",
+            "examples": [
+                {
+                    "sentence": "La gestión del tiempo es fundamental.",
+                    "translation_english": "Time management is essential.",
+                    "translation_native": "Time management is essential.",
+                    "sentence_parts": [
+                        "La",
+                        "gestión",
+                        "del",
+                        "tiempo",
+                        "es",
+                        "fundamental"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "gestión",
+                "equipo",
+                "liderazgo",
+                "dirección"
+            ],
+            "correct_answer": "gestión"
+        },
+        {
+            "word": "cobertura",
+            "translation_english": "coverage",
+            "translation_native": "coverage",
+            "pronunciation": "ko-ber-TU-ra",
+            "examples": [
+                {
+                    "sentence": "Nuestra cobertura médica es excelente.",
+                    "translation_english": "Our medical coverage is excellent.",
+                    "translation_native": "Our medical coverage is excellent.",
+                    "sentence_parts": [
+                        "Nuestra",
+                        "cobertura",
+                        "médica",
+                        "es",
+                        "excelente"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "cobertura",
+                "seguridad",
+                "protección",
+                "garantía"
+            ],
+            "correct_answer": "cobertura"
+        },
+        {
+            "word": "fijar",
+            "translation_english": "to set",
+            "translation_native": "to set",
+            "pronunciation": "fi-HAR",
+            "examples": [
+                {
+                    "sentence": "Debemos fijar una fecha para la entrega.",
+                    "translation_english": "We must set a date for the delivery.",
+                    "translation_native": "We must set a date for the delivery.",
+                    "sentence_parts": [
+                        "Debemos",
+                        "fijar",
+                        "una",
+                        "fecha",
+                        "para",
+                        "la",
+                        "entrega"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "fijar",
+                "anotar",
+                "firmar",
+                "enviar"
+            ],
+            "correct_answer": "fijar"
+        },
+        {
+            "word": "retribución",
+            "translation_english": "compensation",
+            "translation_native": "compensation",
+            "pronunciation": "re-tri-bu-TYON",
+            "examples": [
+                {
+                    "sentence": "La retribución por sus servicios fue justa.",
+                    "translation_english": "The compensation for his services was fair.",
+                    "translation_native": "The compensation for his services was fair.",
+                    "sentence_parts": [
+                        "La",
+                        "retribución",
+                        "por",
+                        "sus",
+                        "servicios",
+                        "fue",
+                        "justa"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "retribución",
+                "ganancia",
+                "propina",
+                "inversión"
+            ],
+            "correct_answer": "retribución"
+        },
+        {
+            "word": "solvencia",
+            "translation_english": "solvency",
+            "translation_native": "solvency",
+            "pronunciation": "sol-VEN-thya",
+            "examples": [
+                {
+                    "sentence": "La empresa demuestra mucha solvencia.",
+                    "translation_english": "The company shows great solvency.",
+                    "translation_native": "The company shows great solvency.",
+                    "sentence_parts": [
+                        "La",
+                        "empresa",
+                        "demuestra",
+                        "mucha",
+                        "solvencia"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "solvencia",
+                "confianza",
+                "liquidez",
+                "ganancia"
+            ],
+            "correct_answer": "solvencia"
+        },
+        {
+            "word": "implicación",
+            "translation_english": "involvement",
+            "translation_native": "involvement",
+            "pronunciation": "im-pli-ka-TYON",
+            "examples": [
+                {
+                    "sentence": "Valoramos su implicación en el proyecto.",
+                    "translation_english": "We value your involvement in the project.",
+                    "translation_native": "We value your involvement in the project.",
+                    "sentence_parts": [
+                        "Valoramos",
+                        "su",
+                        "implicación",
+                        "en",
+                        "el",
+                        "proyecto"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "implicación",
+                "esfuerzo",
+                "dedicación",
+                "interés"
+            ],
+            "correct_answer": "implicación"
+        },
+        {
+            "word": "aprobación",
+            "translation_english": "approval",
+            "translation_native": "approval",
+            "pronunciation": "a-pro-ba-TYON",
+            "examples": [
+                {
+                    "sentence": "Esperamos la aprobación del presupuesto.",
+                    "translation_english": "We await the approval of the budget.",
+                    "translation_native": "We await the approval of the budget.",
+                    "sentence_parts": [
+                        "Esperamos",
+                        "la",
+                        "aprobación",
+                        "del",
+                        "presupuesto"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "aprobación",
+                "decisión",
+                "firma",
+                "revisión"
+            ],
+            "correct_answer": "aprobación"
+        },
+        {
+            "word": "escaño",
+            "translation_english": "seat",
+            "translation_native": "seat",
+            "pronunciation": "es-KA-nyo",
+            "examples": [
+                {
+                    "sentence": "Ella ocupa un escaño en el consejo.",
+                    "translation_english": "She holds a seat on the board.",
+                    "translation_native": "She holds a seat on the board.",
+                    "sentence_parts": [
+                        "Ella",
+                        "ocupa",
+                        "un",
+                        "escaño",
+                        "en",
+                        "el",
+                        "consejo"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "escaño",
+                "lugar",
+                "cargo",
+                "puesto"
+            ],
+            "correct_answer": "escaño"
+        },
+        {
+            "word": "viabilidad",
+            "translation_english": "viability",
+            "translation_native": "viability",
+            "pronunciation": "vya-bi-li-daD",
+            "examples": [
+                {
+                    "sentence": "Analizamos la viabilidad del negocio.",
+                    "translation_english": "We analyzed the viability of the business.",
+                    "translation_native": "We analyzed the viability of the business.",
+                    "sentence_parts": [
+                        "Analizamos",
+                        "la",
+                        "viabilidad",
+                        "del",
+                        "negocio"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "viabilidad",
+                "posibilidad",
+                "capacidad",
+                "calidad"
+            ],
+            "correct_answer": "viabilidad"
+        },
+        {
+            "word": "subvención",
+            "translation_english": "grant",
+            "translation_native": "grant",
+            "pronunciation": "sub-ben-TYON",
+            "examples": [
+                {
+                    "sentence": "Solicitamos una subvención para investigación.",
+                    "translation_english": "We applied for a research grant.",
+                    "translation_native": "We applied for a research grant.",
+                    "sentence_parts": [
+                        "Solicitamos",
+                        "una",
+                        "subvención",
+                        "para",
+                        "investigación"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "subvención",
+                "préstamo",
+                "beca",
+                "donativo"
+            ],
+            "correct_answer": "subvención"
+        },
+        {
+            "word": "plantear",
+            "translation_english": "to propose",
+            "translation_native": "to propose",
+            "pronunciation": "plan-te-AR",
+            "examples": [
+                {
+                    "sentence": "Vamos a plantear una nueva idea.",
+                    "translation_english": "We are going to propose a new idea.",
+                    "translation_native": "We are going to propose a new idea.",
+                    "sentence_parts": [
+                        "Vamos",
+                        "a",
+                        "plantear",
+                        "una",
+                        "nueva",
+                        "idea"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "plantear",
+                "discutir",
+                "intentar",
+                "mostrar"
+            ],
+            "correct_answer": "plantear"
+        },
+        {
+            "word": "acuerdo",
+            "translation_english": "agreement",
+            "translation_native": "agreement",
+            "pronunciation": "a-KWER-do",
+            "examples": [
+                {
+                    "sentence": "Llegamos a un acuerdo favorable.",
+                    "translation_english": "We reached a favorable agreement.",
+                    "translation_native": "We reached a favorable agreement.",
+                    "sentence_parts": [
+                        "Llegamos",
+                        "a",
+                        "un",
+                        "acuerdo",
+                        "favorable"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "acuerdo",
+                "contrato",
+                "pacto",
+                "trato"
+            ],
+            "correct_answer": "acuerdo"
+        },
+        {
+            "word": "rentabilidad",
+            "translation_english": "profitability",
+            "translation_native": "profitability",
+            "pronunciation": "ren-ta-bi-li-daD",
+            "examples": [
+                {
+                    "sentence": "La rentabilidad ha aumentado mucho.",
+                    "translation_english": "Profitability has increased a lot.",
+                    "translation_native": "Profitability has increased a lot.",
+                    "sentence_parts": [
+                        "La",
+                        "rentabilidad",
+                        "ha",
+                        "aumentado",
+                        "mucho"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "rentabilidad",
+                "beneficio",
+                "ingreso",
+                "éxito"
+            ],
+            "correct_answer": "rentabilidad"
+        },
+        {
+            "word": "peritaje",
+            "translation_english": "expert appraisal",
+            "translation_native": "evaluación técnica profesional",
+            "pronunciation": "peh-ree-TAH-heh",
+            "examples": [
+                {
+                    "sentence": "Solicitamos un peritaje para valorar el proyecto.",
+                    "translation_english": "We requested an expert appraisal to evaluate the project.",
+                    "translation_native": "Pedimos una evaluación técnica para valorar el proyecto.",
+                    "sentence_parts": [
+                        "Solicitamos",
+                        "un",
+                        "peritaje",
+                        "para",
+                        "valorar",
+                        "el",
+                        "proyecto."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "peritaje",
+                "desempeño",
+                "beneficio",
+                "contrato"
+            ],
+            "correct_answer": "peritaje"
+        },
+        {
+            "word": "auditoría",
+            "translation_english": "audit",
+            "translation_native": "revisión contable",
+            "pronunciation": "au-dee-toh-REE-ah",
+            "examples": [
+                {
+                    "sentence": "La empresa superó la auditoría externa con éxito.",
+                    "translation_english": "The company passed the external audit successfully.",
+                    "translation_native": "La compañía superó la revisión contable con éxito.",
+                    "sentence_parts": [
+                        "La",
+                        "empresa",
+                        "superó",
+                        "la",
+                        "auditoría",
+                        "externa",
+                        "con",
+                        "éxito."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "auditoría",
+                "nómina",
+                "jornada",
+                "puesto"
+            ],
+            "correct_answer": "auditoría"
+        },
+        {
+            "word": "prospectiva",
+            "translation_english": "foresight / forward-looking analysis",
+            "translation_native": "análisis de futuro",
+            "pronunciation": "prohs-pek-TEE-vah",
+            "examples": [
+                {
+                    "sentence": "Hicimos una prospectiva sobre el mercado laboral.",
+                    "translation_english": "We did a forward-looking analysis on the labor market.",
+                    "translation_native": "Hicimos un análisis de futuro sobre el mercado laboral.",
+                    "sentence_parts": [
+                        "Hicimos",
+                        "una",
+                        "prospectiva",
+                        "sobre",
+                        "el",
+                        "mercado",
+                        "laboral."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "prospectiva",
+                "vacante",
+                "reunión",
+                "bonificación"
+            ],
+            "correct_answer": "prospectiva"
+        },
+        {
+            "word": "vacaciones",
+            "translation_english": "vacation / paid time off",
+            "translation_native": "vacaciones / días de descanso",
+            "pronunciation": "ba-ka-THYO-nes",
+            "examples": [
+                {
+                    "sentence": "Necesito solicitar mis vacaciones para el próximo mes.",
+                    "translation_english": "I need to request my vacation for next month.",
+                    "translation_native": "Necesito solicitar mis vacaciones para el próximo mes.",
+                    "sentence_parts": [
+                        "Necesito",
+                        "solicitar",
+                        "mis",
+                        "vacaciones",
+                        "para",
+                        "el",
+                        "próximo",
+                        "mes"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "vacaciones",
+                "habitaciones",
+                "aplicaciones",
+                "ubicaciones"
+            ],
+            "correct_answer": "vacaciones"
+        }
+    ]
+}

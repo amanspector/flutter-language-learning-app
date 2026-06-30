@@ -1,0 +1,3560 @@
+{
+    "metadata": {
+        "language": "Arabic",
+        "native_language": "English",
+        "level": "Intermediate",
+        "category": "school",
+        "total_words": 118
+    },
+    "words": [
+        {
+            "word": "مُخْتَبَر",
+            "translation_english": "laboratory",
+            "translation_native": "laboratory",
+            "pronunciation": "mukhtabar",
+            "examples": [
+                {
+                    "sentence": "نَجْرِي تَجَارِبَ الكِيمِيَاءِ فِي مُخْتَبَر المَدْرَسَةِ النَّشِيطِ",
+                    "translation_english": "We conduct chemistry experiments in the active school laboratory",
+                    "translation_native": "We conduct chemistry experiments in the active school laboratory",
+                    "sentence_parts": [
+                        "نَجْرِي",
+                        "تَجَارِبَ",
+                        "الكِيمِيَاءِ",
+                        "فِي",
+                        "مُخْتَبَر",
+                        "المَدْرَسَةِ",
+                        "النَّشِيطِ"
+                    ],
+                    "level": "medium"
+                }
+            ],
+            "options": [
+                "مُخْتَبَر",
+                "مَلْعَب",
+                "مَقْصَف",
+                "مَكْتَبَة"
+            ],
+            "correct_answer": "مُخْتَبَر"
+        },
+        {
+            "word": "مَكْتَبَة",
+            "translation_english": "library",
+            "translation_native": "library",
+            "pronunciation": "maktabah",
+            "examples": [
+                {
+                    "sentence": "أَسْتَعِيرُ كُتُبَ الأَبْحَاثِ العِلْمِيَّةِ مِنْ مَكْتَبَةِ الجَامِعَةِ",
+                    "translation_english": "I borrow scientific research books from the university library",
+                    "translation_native": "I borrow scientific research books from the university library",
+                    "sentence_parts": [
+                        "أَسْتَعِيرُ",
+                        "كُتُبَ",
+                        "الأَبْحَاثِ",
+                        "العِلْمِيَّةِ",
+                        "مِنْ",
+                        "مَكْتَبَةِ",
+                        "الجَامِعَةِ"
+                    ],
+                    "level": "medium"
+                }
+            ],
+            "options": [
+                "مَكْتَبَة",
+                "حَافِلَة",
+                "صَالَة",
+                "سَاحَة"
+            ],
+            "correct_answer": "مَكْتَبَة"
+        },
+        {
+            "word": "حَاسُوب",
+            "translation_english": "computer",
+            "translation_native": "computer",
+            "pronunciation": "haasoob",
+            "examples": [
+                {
+                    "sentence": "أُبَرْمِجُ لُعْبَةً جَدِيدَةً بِاسْتِخْدَامِ حَاسُوبِ المَدْرَسَةِ المُلَوَّنِ",
+                    "translation_english": "I program a new game using the colorful school computer",
+                    "translation_native": "I program a new game using the colorful school computer",
+                    "sentence_parts": [
+                        "أُبَرْمِجُ",
+                        "لُعْبَةً",
+                        "جَدِيدَةً",
+                        "بِاسْتِخْدَامِ",
+                        "حَاسُوبِ",
+                        "المَدْرَسَةِ",
+                        "المُلَوَّنِ"
+                    ],
+                    "level": "medium"
+                }
+            ],
+            "options": [
+                "حَاسُوب",
+                "قَلَم",
+                "دَفْتَر",
+                "كِتَاب"
+            ],
+            "correct_answer": "حَاسُوب"
+        },
+        {
+            "word": "مَشْرُوع",
+            "translation_english": "project",
+            "translation_native": "project",
+            "pronunciation": "mashroo'",
+            "examples": [
+                {
+                    "sentence": "أُصَمِّمُ مَشْرُوعَ التَّخَرُّجِ لِمَادَّةِ التِّكْنُولُوجْيَا مَعَ زُمَلَائِي",
+                    "translation_english": "I design the graduation project for technology class with my classmates",
+                    "translation_native": "I design the graduation project for technology class with my classmates",
+                    "sentence_parts": [
+                        "أُصَمِّمُ",
+                        "مَشْرُوعَ",
+                        "التَّخَرُّجِ",
+                        "لِمَادَّةِ",
+                        "التِّكْنُولُوجْيَا",
+                        "مَعَ",
+                        "زُمَلَائِي"
+                    ],
+                    "level": "medium"
+                }
+            ],
+            "options": [
+                "مَشْرُوع",
+                "قَامُوس",
+                "امْتِحَان",
+                "طَابِع"
+            ],
+            "correct_answer": "مَشْرُوع"
+        },
+        {
+            "word": "امْتِحَان",
+            "translation_english": "exam",
+            "translation_native": "exam",
+            "pronunciation": "imtihan",
+            "examples": [
+                {
+                    "sentence": "أَدْرُسُ بِجِدٍّ لِأَجْلِ اجْتِيَازِ امْتِحَانِ الرِّيَاضِيَّاتِ النِّهَائِيِّ",
+                    "translation_english": "I study hard to pass the final mathematics exam",
+                    "translation_native": "I study hard to pass the final mathematics exam",
+                    "sentence_parts": [
+                        "أَدْرُسُ",
+                        "بِجِدٍّ",
+                        "لِأَجْلِ",
+                        "اجْتِيَازِ",
+                        "امْتِحَانِ",
+                        "الرِّيَاضِيَّاتِ",
+                        "النِّهَائِيِّ"
+                    ],
+                    "level": "medium"
+                }
+            ],
+            "options": [
+                "امْتِحَان",
+                "مَقْعَد",
+                "مَكْتَب",
+                "قَلَم"
+            ],
+            "correct_answer": "امْتِحَان"
+        },
+        {
+            "word": "مَادَّة",
+            "translation_english": "subject",
+            "translation_native": "subject",
+            "pronunciation": "maaddah",
+            "examples": [
+                {
+                    "sentence": "تُعْتَبَرُ الفِيزْيَاءُ أَصْعَبَ مَادَّةٍ عِلْمِيَّةٍ فِي هَذَا الفَصْلِ",
+                    "translation_english": "Physics is considered the hardest scientific subject this semester",
+                    "translation_native": "Physics is considered the hardest scientific subject this semester",
+                    "sentence_parts": [
+                        "تُعْتَبَرُ",
+                        "الفِيزْيَاءُ",
+                        "أَصْعَبَ",
+                        "مَادَّةٍ",
+                        "عِلْمِيَّةٍ",
+                        "فِي",
+                        "هَذَا",
+                        "الفَصْلِ"
+                    ],
+                    "level": "medium"
+                }
+            ],
+            "options": [
+                "مَادَّة",
+                "طَاوِلَة",
+                "وَرَقَة",
+                "مِمْحَاة"
+            ],
+            "correct_answer": "مَادَّة"
+        },
+        {
+            "word": "مُدَرِّس",
+            "translation_english": "teacher",
+            "translation_native": "teacher",
+            "pronunciation": "mudarris",
+            "examples": [
+                {
+                    "sentence": "يَشْرَحُ مُدَرِّسُ التَّارِيخِ قِصَصَ الحُرُوبِ القَدِيمَةِ بِشَغَفٍ",
+                    "translation_english": "The history teacher explains ancient war stories with passion",
+                    "translation_native": "The history teacher explains ancient war stories with passion",
+                    "sentence_parts": [
+                        "يَشْرَحُ",
+                        "مُدَرِّسُ",
+                        "التَّارِيخِ",
+                        "قِصَصَ",
+                        "الحُرُوبِ",
+                        "القَدِيمَةِ",
+                        "بِشَغَفٍ"
+                    ],
+                    "level": "medium"
+                }
+            ],
+            "options": [
+                "مُدَرِّس",
+                "حَارِس",
+                "طَبَّاخ",
+                "مُمَثِّل"
+            ],
+            "correct_answer": "مُدَرِّس"
+        },
+        {
+            "word": "زَمِيل",
+            "translation_english": "classmate",
+            "translation_native": "classmate",
+            "pronunciation": "zameel",
+            "examples": [
+                {
+                    "sentence": "يُسَاعِدُنِي كُلُّ زَمِيلٍ مُجْتَهِدٍ فِي فَهْمِ مَسَائِلِ الجَبْرِ",
+                    "translation_english": "Every hardworking classmate helps me understand algebra problems",
+                    "translation_native": "Every hardworking classmate helps me understand algebra problems",
+                    "sentence_parts": [
+                        "يُسَاعِدُنِي",
+                        "كُلُّ",
+                        "زَمِيلٍ",
+                        "مُجْتَهِدٍ",
+                        "فِي",
+                        "فَهْمِ",
+                        "مَسَائِلِ",
+                        "الجَبْرِ"
+                    ],
+                    "level": "medium"
+                }
+            ],
+            "options": [
+                "زَمِيل",
+                "غَرِيب",
+                "خَصْم",
+                "مُهَنْدِس"
+            ],
+            "correct_answer": "زَمِيل"
+        },
+        {
+            "word": "تَقْرِير",
+            "translation_english": "report",
+            "translation_native": "report",
+            "pronunciation": "taqreer",
+            "examples": [
+                {
+                    "sentence": "أَكْتُبُ تَقْرِيرَ الأَحْيَاءِ عَنِ الخَلَايَا النَّبَاتِيَّةِ المُخْتَلِفَةِ",
+                    "translation_english": "I write the biology report about different plant cells",
+                    "translation_native": "I write the biology report about different plant cells",
+                    "sentence_parts": [
+                        "أَكْتُبُ",
+                        "تَقْرِيرَ",
+                        "الأَحْيَاءِ",
+                        "عَنِ",
+                        "الخَلَايَا",
+                        "النَّبَاتِيَّةِ",
+                        "المُخْتَلِفَةِ"
+                    ],
+                    "level": "medium"
+                }
+            ],
+            "options": [
+                "تَقْرِير",
+                "قَامُوس",
+                "قَلَم",
+                "مِلَف"
+            ],
+            "correct_answer": "تَقْرِير"
+        },
+        {
+            "word": "مَعْرِض",
+            "translation_english": "exhibition",
+            "translation_native": "exhibition",
+            "pronunciation": "ma'rid",
+            "examples": [
+                {
+                    "sentence": "نَعْرِضُ لَوْحَاتِنَا الفَنِّيَّةَ فِي مَعْرِضِ الفُنُونِ التَّشْكِيلِيَّةِ",
+                    "translation_english": "We display our paintings in the fine arts exhibition",
+                    "translation_native": "We display our paintings in the fine arts exhibition",
+                    "sentence_parts": [
+                        "نَعْرِضُ",
+                        "لَوْحَاتِنَا",
+                        "الفَنِّيَّةَ",
+                        "فِي",
+                        "مَعْرِضِ",
+                        "الفُنُونِ",
+                        "التَّشْكِيلِيَّةِ"
+                    ],
+                    "level": "medium"
+                }
+            ],
+            "options": [
+                "مَعْرِض",
+                "مَطْبَخ",
+                "مَلْعَب",
+                "مَكْتَب"
+            ],
+            "correct_answer": "مَعْرِض"
+        },
+        {
+            "word": "مُحَاضَرَة",
+            "translation_english": "lecture",
+            "translation_native": "lecture",
+            "pronunciation": "muhadarah",
+            "examples": [
+                {
+                    "sentence": "أَسْتَمِعُ إِلَى مُحَاضَرَةِ الأَدَبِ العَرَبِيِّ بِتَرْكِيزٍ كَبِيرٍ",
+                    "translation_english": "I listen to the Arabic literature lecture with great focus",
+                    "translation_native": "I listen to the Arabic literature lecture with great focus",
+                    "sentence_parts": [
+                        "أَسْتَمِعُ",
+                        "إِلَى",
+                        "مُحَاضَرَةِ",
+                        "الأَدَبِ",
+                        "العَرَبِيِّ",
+                        "بِتَرْكِيزٍ",
+                        "كَبِيرٍ"
+                    ],
+                    "level": "medium"
+                }
+            ],
+            "options": [
+                "مُحَاضَرَة",
+                "حَقِيبَة",
+                "طَاوِلَة",
+                "سَاعَة"
+            ],
+            "correct_answer": "مُحَاضَرَة"
+        },
+        {
+            "word": "مُنَاقَشَة",
+            "translation_english": "discussion",
+            "translation_native": "discussion",
+            "pronunciation": "munaqashah",
+            "examples": [
+                {
+                    "sentence": "تَدُورُ مُنَاقَشَةٌ عِلْمِيَّةٌ حَوْلَ أَسْبَابِ التَّغَيُّرِ المُنَاخِيِّ",
+                    "translation_english": "A scientific discussion takes place about the causes of climate change",
+                    "translation_native": "A scientific discussion takes place about the causes of climate change",
+                    "sentence_parts": [
+                        "تَدُورُ",
+                        "مُنَاقَشَةٌ",
+                        "عِلْمِيَّةٌ",
+                        "حَوْلَ",
+                        "أَسْبَابِ",
+                        "التَّغَيُّرِ",
+                        "المُنَاخِيِّ"
+                    ],
+                    "level": "medium"
+                }
+            ],
+            "options": [
+                "مُنَاقَشَة",
+                "قَلَم",
+                "كُرَّاسَة",
+                "مِسْطَرَة"
+            ],
+            "correct_answer": "مُنَاقَشَة"
+        },
+        {
+            "word": "قَامُوس",
+            "translation_english": "dictionary",
+            "translation_native": "dictionary",
+            "pronunciation": "qamoos",
+            "examples": [
+                {
+                    "sentence": "أَبْحَثُ عَنْ مَعَانِي الكَلِمَاتِ فِي قَامُوسِ اللُّغَاتِ",
+                    "translation_english": "I look up word meanings in the languages dictionary",
+                    "translation_native": "I look up word meanings in the languages dictionary",
+                    "sentence_parts": [
+                        "أَبْحَثُ",
+                        "عَنْ",
+                        "مَعَانِي",
+                        "الكَلِمَاتِ",
+                        "فِي",
+                        "قَامُوسِ",
+                        "اللُّغَاتِ"
+                    ],
+                    "level": "medium"
+                }
+            ],
+            "options": [
+                "قَامُوس",
+                "مَقْعَد",
+                "مِنْضَدَة",
+                "دَفْتَر"
+            ],
+            "correct_answer": "قَامُوس"
+        },
+        {
+            "word": "تَجْرِبَة",
+            "translation_english": "experiment",
+            "translation_native": "experiment",
+            "pronunciation": "tajribah",
+            "examples": [
+                {
+                    "sentence": "نَفْشَلُ فِي تَجْرِبَةِ الفِيزْيَاءِ بِسَبَبِ خَطَأٍ فِي الحِسَابَاتِ",
+                    "translation_english": "We fail the physics experiment due to a calculation error",
+                    "translation_native": "We fail the physics experiment due to a calculation error",
+                    "sentence_parts": [
+                        "نَفْشَلُ",
+                        "فِي",
+                        "تَجْرِبَةِ",
+                        "الفِيزْيَاءِ",
+                        "بِسَبَبِ",
+                        "خَطَأٍ",
+                        "فِي",
+                        "الحِسَابَاتِ"
+                    ],
+                    "level": "medium"
+                }
+            ],
+            "options": [
+                "تَجْرِبَة",
+                "رِحْلَة",
+                "حَفْلَة",
+                "مُبَارَاة"
+            ],
+            "correct_answer": "تَجْرِبَة"
+        },
+        {
+            "word": "جَدْوَل",
+            "translation_english": "schedule",
+            "translation_native": "schedule",
+            "pronunciation": "jadwal",
+            "examples": [
+                {
+                    "sentence": "أُنَظِّمُ حِصَصِي الدِّرَاسِيَّةَ حَسَبَ جَدْوَلِ المَدْرَسَةِ الجَدِيدِ",
+                    "translation_english": "I organize my classes according to the new school schedule",
+                    "translation_native": "I organize my classes according to the new school schedule",
+                    "sentence_parts": [
+                        "أُنَظِّمُ",
+                        "حِصَصِي",
+                        "الدِّرَاسِيَّةَ",
+                        "حَسَبَ",
+                        "جَدْوَلِ",
+                        "المَدْرَسَةِ",
+                        "الجَدِيدِ"
+                    ],
+                    "level": "medium"
+                }
+            ],
+            "options": [
+                "جَدْوَل",
+                "كِتَاب",
+                "جِدَار",
+                "مَقْعَد"
+            ],
+            "correct_answer": "جَدْوَل"
+        },
+        {
+            "word": "مَطْوِيَّة",
+            "translation_english": "brochure",
+            "translation_native": "brochure",
+            "pronunciation": "matwiyyah",
+            "examples": [
+                {
+                    "sentence": "أُعِدُّ مَطْوِيَّةً تَوْعَوِيَّةً عَنْ مَخَاطِرِ التَّدْخِينِ بَيْنَ الشَّبَابِ",
+                    "translation_english": "I prepare an awareness brochure about smoking hazards among youth",
+                    "translation_native": "I prepare an awareness brochure about smoking hazards among youth",
+                    "sentence_parts": [
+                        "أُعِدُّ",
+                        "مَطْوِيَّةً",
+                        "تَوْعَوِيَّةً",
+                        "عَنْ",
+                        "مَخَاطِرِ",
+                        "التَّدْخِينِ",
+                        "بَيْنَ",
+                        "الشَّبَابِ"
+                    ],
+                    "level": "medium"
+                }
+            ],
+            "options": [
+                "مَطْوِيَّة",
+                "سَبُّورَة",
+                "حَقِيبَة",
+                "طَاوِلَة"
+            ],
+            "correct_answer": "مَطْوِيَّة"
+        },
+        {
+            "word": "مُدَوَّنَة",
+            "translation_english": "blog",
+            "translation_native": "blog",
+            "pronunciation": "mudawwanah",
+            "examples": [
+                {
+                    "sentence": "أَنْشُرُ مَقَالَاتِي التَّعْلِيمِيَّةَ عَبْرَ مُدَوَّنَةِ المَدْرَسَةِ الإِلِكْتُرُونِيَّةِ",
+                    "translation_english": "I publish my educational articles via the school electronic blog",
+                    "translation_native": "I publish my educational articles via the school electronic blog",
+                    "sentence_parts": [
+                        "أَنْشُرُ",
+                        "مَقَالَاتِي",
+                        "التَّعْلِيمِيَّةَ",
+                        "عَبْرَ",
+                        "مُدَوَّنَةِ",
+                        "المَدْرَسَةِ",
+                        "الإِلِكْتُرُونِيَّةِ"
+                    ],
+                    "level": "medium"
+                }
+            ],
+            "options": [
+                "مُدَوَّنَة",
+                "وَرَقَة",
+                "مِسْطَرَة",
+                "حَافِلَة"
+            ],
+            "correct_answer": "مُدَوَّنَة"
+        },
+        {
+            "word": "مِنْصَّة",
+            "translation_english": "platform",
+            "translation_native": "platform",
+            "pronunciation": "minas-sah",
+            "examples": [
+                {
+                    "sentence": "نَرْفَعُ وَاجِبَاتِنَا المَدْرَسِيَّةَ عَلَى مِنْصَّةِ التَّعْلِيمِ عَنْ بُعْدٍ",
+                    "translation_english": "We upload our school assignments onto the distance learning platform",
+                    "translation_native": "We upload our school assignments onto the distance learning platform",
+                    "sentence_parts": [
+                        "نَرْفَعُ",
+                        "وَاجِبَاتِنَا",
+                        "المَدْرَسِيَّةَ",
+                        "عَلَى",
+                        "مِنْصَّةِ",
+                        "التَّعْلِيمِ",
+                        "عَنْ",
+                        "بُعْدٍ"
+                    ],
+                    "level": "medium"
+                }
+            ],
+            "options": [
+                "مِنْصَّة",
+                "غُرْفَة",
+                "خِزَانَة",
+                "نَافِذَة"
+            ],
+            "correct_answer": "مِنْصَّة"
+        },
+        {
+            "word": "تَقْيِيم",
+            "translation_english": "evaluation",
+            "translation_native": "evaluation",
+            "pronunciation": "taqyeem",
+            "examples": [
+                {
+                    "sentence": "يُرْسِلُ الأُسْتَاذُ تَقْيِيمَ الأَدَاءِ الصَّفِّيِّ لِأَوْلِيَاءِ الأُمُورِ",
+                    "translation_english": "The teacher sends the classroom performance evaluation to parents",
+                    "translation_native": "The teacher sends the classroom performance evaluation to parents",
+                    "sentence_parts": [
+                        "يُرْسِلُ",
+                        "الأُسْتَاذُ",
+                        "تَقْيِيمَ",
+                        "الأَدَاءِ",
+                        "الصَّفِّيِّ",
+                        "لِأَوْلِيَاءِ",
+                        "الأُمُورِ"
+                    ],
+                    "level": "medium"
+                }
+            ],
+            "options": [
+                "تَقْيِيم",
+                "تَدْرِيب",
+                "تَكْرِيم",
+                "تَسْجِيل"
+            ],
+            "correct_answer": "تَقْيِيم"
+        },
+        {
+            "word": "تَسْجِيل",
+            "translation_english": "registration",
+            "translation_native": "registration",
+            "pronunciation": "tasjeel",
+            "examples": [
+                {
+                    "sentence": "بَدَأَ تَسْجِيلُ الطُّلَّابِ فِي النَّادِي الرِّيَاضِيِّ المَدْرَسِيِّ",
+                    "translation_english": "Student registration in the school sports club has started",
+                    "translation_native": "Student registration in the school sports club has started",
+                    "sentence_parts": [
+                        "بَدَأَ",
+                        "تَسْجِيلُ",
+                        "الطُّلَّابِ",
+                        "فِي",
+                        "النَّادِي",
+                        "الرِّيَاضِيِّ",
+                        "المَدْرَسِيِّ"
+                    ],
+                    "level": "medium"
+                }
+            ],
+            "options": [
+                "تَسْجِيل",
+                "تَأْجِيل",
+                "تَفْكِير",
+                "تَطْوِير"
+            ],
+            "correct_answer": "تَسْجِيل"
+        },
+        {
+            "word": "مَقْصَف",
+            "translation_english": "cafeteria",
+            "translation_native": "cafeteria",
+            "pronunciation": "maqsaf",
+            "examples": [
+                {
+                    "sentence": "نَشْتَرِي شَطَائِرَ الغَدَاءِ مِنْ مَقْصَفِ المَدْرَسَةِ المُزْدَحِمِ",
+                    "translation_english": "We buy lunch sandwiches from the crowded school cafeteria",
+                    "translation_native": "We buy lunch sandwiches from the crowded school cafeteria",
+                    "sentence_parts": [
+                        "نَشْتَرِي",
+                        "شَطَائِرَ",
+                        "الغَدَاءِ",
+                        "مِنْ",
+                        "مَقْصَف",
+                        "المَدْرَسَةِ",
+                        "المُزْدَحِمِ"
+                    ],
+                    "level": "medium"
+                }
+            ],
+            "options": [
+                "مَقْصَف",
+                "مَكْتَب",
+                "مَصْنَع",
+                "مَسْرَح"
+            ],
+            "correct_answer": "مَقْصَف"
+        },
+        {
+            "word": "مَجْمُوعَة",
+            "translation_english": "group",
+            "translation_native": "group",
+            "pronunciation": "majmoo'ah",
+            "examples": [
+                {
+                    "sentence": "نَعْمَلُ ضِمْنُ مَجْمُوعَةٍ صَغِيرَةٍ لِحَلِّ تَمَارِينِ الفِيزْيَاءِ",
+                    "translation_english": "We work within a small group to solve physics exercises",
+                    "translation_native": "We work within a small group to solve physics exercises",
+                    "sentence_parts": [
+                        "نَعْمَلُ",
+                        "ضِمْنُ",
+                        "مَجْمُوعَةٍ",
+                        "صَغِيرَةٍ",
+                        "لِحَلِّ",
+                        "تَمَارِينِ",
+                        "الفِيزْيَاءِ"
+                    ],
+                    "level": "medium"
+                }
+            ],
+            "options": [
+                "مَجْمُوعَة",
+                "عَقَبَة",
+                "مُشْكِلَة",
+                "فِكْرَة"
+            ],
+            "correct_answer": "مَجْمُوعَة"
+        },
+        {
+            "word": "مُسَابَقَة",
+            "translation_english": "competition",
+            "translation_native": "competition",
+            "pronunciation": "musabaqah",
+            "examples": [
+                {
+                    "sentence": "أُشَارِكُ فِي مُسَابَقَةِ الرُّوبُوتَاتِ الذَّكِيَّةِ عَلَى مُسْتَوَى المَدِينَةِ",
+                    "translation_english": "I participate in the smart robots competition citywide",
+                    "translation_native": "I participate in the smart robots competition citywide",
+                    "sentence_parts": [
+                        "أُشَارِكُ",
+                        "فِي",
+                        "مُسَابَقَةِ",
+                        "الرُّوبُوتَاتِ",
+                        "الذَّكِيَّةِ",
+                        "عَلَى",
+                        "مُسْتَوَى",
+                        "المَدِينَةِ"
+                    ],
+                    "level": "medium"
+                }
+            ],
+            "options": [
+                "مُسَابَقَة",
+                "مُدَوَّنَة",
+                "مُحَاضَرَة",
+                "مُنَاقَشَة"
+            ],
+            "correct_answer": "مُسَابَقَة"
+        },
+        {
+            "word": "شَهَادَة",
+            "translation_english": "certificate",
+            "translation_native": "certificate",
+            "pronunciation": "shahadah",
+            "examples": [
+                {
+                    "sentence": "أَسْتَلِمُ شَهَادَةَ التَّقْدِيرِ لِتَفَوُّقِي فِي مَادَّةِ الحَاسُوبِ",
+                    "translation_english": "I receive the certificate of appreciation for my computer excellence",
+                    "translation_native": "I receive the certificate of appreciation for my computer excellence",
+                    "sentence_parts": [
+                        "أَسْتَلِمُ",
+                        "شَهَادَةَ",
+                        "التَّقْدِيرِ",
+                        "لِتَفَوُّقِي",
+                        "فِي",
+                        "مَادَّةِ",
+                        "الحَاسُوبِ"
+                    ],
+                    "level": "medium"
+                }
+            ],
+            "options": [
+                "شَهَادَة",
+                "حَقِيبَة",
+                "سَبُّورَة",
+                "وَرَقَة"
+            ],
+            "correct_answer": "شَهَادَة"
+        },
+        {
+            "word": "عَرْض",
+            "translation_english": "presentation",
+            "translation_native": "presentation",
+            "pronunciation": "ard",
+            "examples": [
+                {
+                    "sentence": "أُقَدِّمُ عَرْضًا مَرْئِيًّا عَنْ ثَقَافَاتِ الشُّعُوبِ المُخْتَلِفَةِ",
+                    "translation_english": "I give a visual presentation about different peoples' cultures",
+                    "translation_native": "I give a visual presentation about different peoples' cultures",
+                    "sentence_parts": [
+                        "أُقَدِّمُ",
+                        "عَرْضًا",
+                        "مَرْئِيًّا",
+                        "عَنْ",
+                        "ثَقَافَاتِ",
+                        "الشُّعُوبِ",
+                        "المُخْتَلِفَةِ"
+                    ],
+                    "level": "medium"
+                }
+            ],
+            "options": [
+                "عَرْض",
+                "فَصْل",
+                "قَلَم",
+                "مَقْعَد"
+            ],
+            "correct_answer": "عَرْض"
+        },
+        {
+            "word": "وَاجِب",
+            "translation_english": "homework",
+            "translation_native": "homework",
+            "pronunciation": "wajib",
+            "examples": [
+                {
+                    "sentence": "أُنْهِي وَاجِبَ الكِيمِيَاءِ المَنْزِلِيَّ قَبْلَ مَوْعِدِ العَشَاءِ",
+                    "translation_english": "I finish the chemistry homework assignment before dinner time",
+                    "translation_native": "I finish the chemistry homework assignment before dinner time",
+                    "sentence_parts": [
+                        "أُنْهِي",
+                        "وَاجِبَ",
+                        "الكِيمِيَاءِ",
+                        "المَنْزِلِيَّ",
+                        "قَبْل",
+                        "مَوْعِدِ",
+                        "العَشَاءِ"
+                    ],
+                    "level": "medium"
+                }
+            ],
+            "options": [
+                "وَاجِب",
+                "لِبَاس",
+                "طَعَام",
+                "مَلْعَب"
+            ],
+            "correct_answer": "وَاجِب"
+        },
+        {
+            "word": "حِصَّة",
+            "translation_english": "class period",
+            "translation_native": "class period",
+            "pronunciation": "hissah",
+            "examples": [
+                {
+                    "sentence": "تَبْدَأُ حِصَّةُ الرَّسْمِ المُمْتِعَةُ بَعْدَ فَتْرَةِ الِاسْتِرَاحَةِ",
+                    "translation_english": "The enjoyable art class period starts after the break",
+                    "translation_native": "The enjoyable art class period starts after the break",
+                    "sentence_parts": [
+                        "تَبْدَأُ",
+                        "حِصَّةُ",
+                        "الرَّسْمِ",
+                        "المُمْتِعَةُ",
+                        "بَعْدَ",
+                        "فَتْرَةِ",
+                        "الِاسْتِرَاحَةِ"
+                    ],
+                    "level": "medium"
+                }
+            ],
+            "options": [
+                "حِصَّة",
+                "سَاعَة",
+                "وَرَقَة",
+                "مَحَطَّة"
+            ],
+            "correct_answer": "حِصَّة"
+        },
+        {
+            "word": "مَجْلِس",
+            "translation_english": "council",
+            "translation_native": "council",
+            "pronunciation": "majlis",
+            "examples": [
+                {
+                    "sentence": "يَنْتَخِبُ الطُّلَّابُ مَجْلِسَ الطَّلَبَةِ لِتَمْثِيلِهِمْ أَمَامَ الإِدَارَةِ",
+                    "translation_english": "Students elect the student council to represent them before management",
+                    "translation_native": "Students elect the student council to represent them before management",
+                    "sentence_parts": [
+                        "يَنْتَخِبُ",
+                        "الطُّلَّابُ",
+                        "مَجْلِسَ",
+                        "الطَّلَبَةِ",
+                        "لِتَمْثِيلِهِمْ",
+                        "أَمَامَ",
+                        "الإِدَارَةِ"
+                    ],
+                    "level": "medium"
+                }
+            ],
+            "options": [
+                "مَجْلِس",
+                "مَطْبَخ",
+                "مَلْعَب",
+                "مَوْقِف"
+            ],
+            "correct_answer": "مَجْلِس"
+        },
+        {
+            "word": "مَوْضُوع",
+            "translation_english": "topic",
+            "translation_native": "topic",
+            "pronunciation": "mawdoo'",
+            "examples": [
+                {
+                    "sentence": "نَخْتَارُ مَوْضُوعَ البَحْثِ التَّارِيخِيِّ عَنِ الثَّوْرَةِ الصِّنَاعِيَّةِ",
+                    "translation_english": "We choose the historical research topic about the industrial revolution",
+                    "translation_native": "We choose the historical research topic about the industrial revolution",
+                    "sentence_parts": [
+                        "نَخْتَارُ",
+                        "مَوْضُوعَ",
+                        "البَحْثِ",
+                        "التَّارِيخِيِّ",
+                        "عَنِ",
+                        "الثَّوْرَةِ",
+                        "الصِّنَاعِيَّةِ"
+                    ],
+                    "level": "medium"
+                }
+            ],
+            "options": [
+                "مَوْضُوع",
+                "مِفْتَاح",
+                "مِقَصّ",
+                "مِعْطَف"
+            ],
+            "correct_answer": "مَوْضُوع"
+        },
+        {
+            "word": "نَتِيجَة",
+            "translation_english": "result",
+            "translation_native": "result",
+            "pronunciation": "nateejah",
+            "examples": [
+                {
+                    "sentence": "تَظْهَرُ نَتِيجَةُ الِاخْتِبَارِ الشَّهْرِيِّ عَلَى المَوْقِعِ الإِلِكْتُرُونِيِّ",
+                    "translation_english": "The monthly exam result appears on the electronic website",
+                    "translation_native": "The monthly exam result appears on the electronic website",
+                    "sentence_parts": [
+                        "تَظْهَرُ",
+                        "نَتِيجَةُ",
+                        "الِاخْتِبَارِ",
+                        "الشَّهْرِيِّ",
+                        "عَلَى",
+                        "المَوْقِع",
+                        "الإِلِكْتُرُونِيِّ"
+                    ],
+                    "level": "medium"
+                }
+            ],
+            "options": [
+                "نَتِيجَة",
+                "دَرَجَة",
+                "طَاوِلَة",
+                "سَاعَة"
+            ],
+            "correct_answer": "نَتِيجَة"
+        },
+        {
+            "word": "رِيَاضِيَّات",
+            "translation_english": "mathematics",
+            "translation_native": "mathematics",
+            "pronunciation": "riyadiyyat",
+            "examples": [
+                {
+                    "sentence": "أَحِلُّ مَسَائِلَ رِيَاضِيَّاتٍ صَعْبَةً فِي كِتَابِ المَدْرَسَةِ",
+                    "translation_english": "I solve difficult mathematics problems in the school textbook",
+                    "translation_native": "I solve difficult mathematics problems in the school textbook",
+                    "sentence_parts": [
+                        "أَحِلُّ",
+                        "مَسَائِلَ",
+                        "رِيَاضِيَّاتٍ",
+                        "صَعْبَةً",
+                        "فِي",
+                        "كِتَابِ",
+                        "المَدْرَسَةِ"
+                    ],
+                    "level": "medium"
+                }
+            ],
+            "options": [
+                "رِيَاضِيَّات",
+                "جُغْرَافِيَا",
+                "تَارِيخ",
+                "مُوسِيقَى"
+            ],
+            "correct_answer": "رِيَاضِيَّات"
+        },
+        {
+            "word": "جُغْرَافِيَا",
+            "translation_english": "geography",
+            "translation_native": "geography",
+            "pronunciation": "jughrafiya",
+            "examples": [
+                {
+                    "sentence": "نَدْرُسُ فِي مَادَّةِ جُغْرَافِيَا خَرَائِطَ القَارَّاتِ العَالَمِيَّةِ",
+                    "translation_english": "We study global continent maps in geography class",
+                    "translation_native": "We study global continent maps in geography class",
+                    "sentence_parts": [
+                        "نَدْرُسُ",
+                        "فِي",
+                        "مَادَّةِ",
+                        "جُغْرَافِيَا",
+                        "خَرَائِطَ",
+                        "القَارَّاتِ",
+                        "العَالَمِيَّةِ"
+                    ],
+                    "level": "medium"
+                }
+            ],
+            "options": [
+                "جُغْرَافِيَا",
+                "كِيمِيَاء",
+                "أَحْيَاء",
+                "فِيزْيَاء"
+            ],
+            "correct_answer": "جُغْرَافِيَا"
+        },
+        {
+            "word": "تَارِيخ",
+            "translation_english": "history",
+            "translation_native": "history",
+            "pronunciation": "tareekh",
+            "examples": [
+                {
+                    "sentence": "نَتَعَلَّمُ فِي مَادَّةِ تَارِيخٍ قِصَصَ الشُّعُوبِ القَدِيمَةِ",
+                    "translation_english": "We learn ancient peoples' stories in history class",
+                    "translation_native": "We learn ancient peoples' stories in history class",
+                    "sentence_parts": [
+                        "نَتَعَلَّمُ",
+                        "فِي",
+                        "مَادَّةِ",
+                        "تَارِيخٍ",
+                        "قِصَصَ",
+                        "الشُّعُوبِ",
+                        "القَدِيمَةِ"
+                    ],
+                    "level": "medium"
+                }
+            ],
+            "options": [
+                "تَارِيخ",
+                "فِيزْيَاء",
+                "حَاسُوب",
+                "فَن"
+            ],
+            "correct_answer": "تَارِيخ"
+        },
+        {
+            "word": "كِيمِيَاء",
+            "translation_english": "chemistry",
+            "translation_native": "chemistry",
+            "pronunciation": "keemilya",
+            "examples": [
+                {
+                    "sentence": "نَخْلِطُ المَوَادَّ فِي مَادَّةِ كِيمِيَاءٍ لِنُشَاهِدَ التَّفَاعُلَ",
+                    "translation_english": "We mix substances in chemistry class to watch the reaction",
+                    "translation_native": "We mix substances in chemistry class to watch the reaction",
+                    "sentence_parts": [
+                        "نَخْلِطُ",
+                        "المَوَادَّ",
+                        "فِي",
+                        "مَادَّةِ",
+                        "كِيمِيَاءٍ",
+                        "لِنُشَاهِدَ",
+                        "التَّفَاعُلَ"
+                    ],
+                    "level": "medium"
+                }
+            ],
+            "options": [
+                "كِيمِيَاء",
+                "أَدَب",
+                "لُغَة",
+                "فَلَك"
+            ],
+            "correct_answer": "كِيمِيَاء"
+        },
+        {
+            "word": "فِيزْيَاء",
+            "translation_english": "physics",
+            "translation_native": "physics",
+            "pronunciation": "feezya",
+            "examples": [
+                {
+                    "sentence": "نَدْرُسُ قَوَانِينَ الحَرَكَةِ فِي مَادَّةِ فِيزْيَاءٍ الحَدِيثَةِ",
+                    "translation_english": "We study laws of motion in modern physics class",
+                    "translation_native": "We study laws of motion in modern physics class",
+                    "sentence_parts": [
+                        "نَدْرُسُ",
+                        "قَوَانِينَ",
+                        "الحَرَكَةِ",
+                        "فِي",
+                        "مَادَّةِ",
+                        "فِيزْيَاءٍ",
+                        "الحَدِيثَةِ"
+                    ],
+                    "level": "medium"
+                }
+            ],
+            "options": [
+                "فِيزْيَاء",
+                "مُوسِيقَى",
+                "رَسْم",
+                "فَلْسَفَة"
+            ],
+            "correct_answer": "فِيزْيَاء"
+        },
+        {
+            "word": "أَحْيَاء",
+            "translation_english": "biology",
+            "translation_native": "biology",
+            "pronunciation": "ahyaa",
+            "examples": [
+                {
+                    "sentence": "نَفْحَصُ الخَلَايَا تَحْتَ المِجْهَرِ فِي مَادَّةِ أَحْيَاءٍ",
+                    "translation_english": "We examine cells under the microscope in biology class",
+                    "translation_native": "We examine cells under the microscope in biology class",
+                    "sentence_parts": [
+                        "نَفْحَصُ",
+                        "الخَلَايَا",
+                        "تَحْتَ",
+                        "المِجْهَرِ",
+                        "فِي",
+                        "مَادَّةِ",
+                        "أَحْيَاءٍ"
+                    ],
+                    "level": "medium"
+                }
+            ],
+            "options": [
+                "أَحْيَاء",
+                "تِجَارَة",
+                "حِسَاب",
+                "هَنْدَسَة"
+            ],
+            "correct_answer": "أَحْيَاء"
+        },
+        {
+            "word": "حَافِلَة",
+            "translation_english": "bus",
+            "translation_native": "bus",
+            "pronunciation": "hafilah",
+            "examples": [
+                {
+                    "sentence": "أَرْكَبُ حَافِلَةَ المَدْرَسَةِ الصَّفْرَاءَ كُلَّ صَبَاحٍ بَاكِرٍ",
+                    "translation_english": "I ride the yellow school bus every early morning",
+                    "translation_native": "I ride the yellow school bus every early morning",
+                    "sentence_parts": [
+                        "أَرْكَبُ",
+                        "حَافِلَةَ",
+                        "المَدْرَسَةِ",
+                        "الصَّفْرَاءَ",
+                        "كُلَّ",
+                        "صَبَاحٍ",
+                        "بَاكِرٍ"
+                    ],
+                    "level": "medium"
+                }
+            ],
+            "options": [
+                "حَافِلَة",
+                "سَبُّورَة",
+                "مِنْضَدَة",
+                "طَاوِلَة"
+            ],
+            "correct_answer": "حَافِلَة"
+        },
+        {
+            "word": "مَلْعَب",
+            "translation_english": "playground/field",
+            "translation_native": "playground/field",
+            "pronunciation": "mal'ab",
+            "examples": [
+                {
+                    "sentence": "نَلْعَبُ كُرَةَ القَدَمِ فِي مَلْعَبِ المَدْرَسَةِ الكَبِيرِ",
+                    "translation_english": "We play football in the big school field",
+                    "translation_native": "We play football in the big school field",
+                    "sentence_parts": [
+                        "نَلْعَبُ",
+                        "كُرَةَ",
+                        "القَدَمِ",
+                        "فِي",
+                        "مَلْعَبِ",
+                        "المَدْرَسَةِ",
+                        "الكَبِيرِ"
+                    ],
+                    "level": "medium"
+                }
+            ],
+            "options": [
+                "مَلْعَب",
+                "مَكْتَب",
+                "مَخْزَن",
+                "مَطْبَخ"
+            ],
+            "correct_answer": "مَلْعَب"
+        },
+        {
+            "word": "مُسْتَشَار",
+            "translation_english": "counselor",
+            "translation_native": "counselor",
+            "pronunciation": "mustashar",
+            "examples": [
+                {
+                    "sentence": "أَتَحَدَّثُ مَعَ مُسْتَشَارِ المَدْرَسَةِ النَّفْسِيِّ لِتَوْجِيهِي المِهْنِيِّ",
+                    "translation_english": "I talk with the school psychological counselor for my career guidance",
+                    "translation_native": "I talk with the school psychological counselor for my career guidance",
+                    "sentence_parts": [
+                        "أَتَحَدَّثُ",
+                        "مَعَ",
+                        "مُسْتَشَارِ",
+                        "المَدْرَسَةِ",
+                        "النَّفْسِيِّ",
+                        "لِتَوْجِيهِي",
+                        "المِهْنِيِّ"
+                    ],
+                    "level": "medium"
+                }
+            ],
+            "options": [
+                "مُسْتَشَار",
+                "طَبِيب",
+                "مُهَنْدِس",
+                "حَارِس"
+            ],
+            "correct_answer": "مُسْتَشَار"
+        },
+        {
+            "word": "مُدِير",
+            "translation_english": "principal/director",
+            "translation_native": "principal/director",
+            "pronunciation": "mudeer",
+            "examples": [
+                {
+                    "sentence": "يُلْقِي مُدِيرُ المَدْرَسَةِ كَلِمَةً تَرْحِيبِيَّةً فِي الطَّابُورِ",
+                    "translation_english": "The school principal delivers a welcoming speech during the line-up",
+                    "translation_native": "The school principal delivers a welcoming speech during the line-up",
+                    "sentence_parts": [
+                        "يُلْقِي",
+                        "مُدِيرُ",
+                        "المَدْرَسَةِ",
+                        "كَلِمَةً",
+                        "تَرْحِيبِيَّةً",
+                        "فِي",
+                        "الطَّابُورِ"
+                    ],
+                    "level": "medium"
+                }
+            ],
+            "options": [
+                "مُدِير",
+                "سَائِق",
+                "طَالِب",
+                "خَادِم"
+            ],
+            "correct_answer": "مُدِير"
+        },
+        {
+            "word": "مِنْحَة",
+            "translation_english": "scholarship",
+            "translation_native": "scholarship",
+            "pronunciation": "minhah",
+            "examples": [
+                {
+                    "sentence": "قَدَّمْتُ عَلَى مِنْحَةٍ دِرَاسِيَّةٍ لِلدِّرَاسَةِ فِي الخَارِجِ",
+                    "translation_english": "I applied for an academic scholarship to study abroad",
+                    "translation_native": "I applied for an academic scholarship to study abroad",
+                    "sentence_parts": [
+                        "قَدَّمْتُ",
+                        "عَلَى",
+                        "مِنْحَةٍ",
+                        "دِرَاسِيَّةٍ",
+                        "لِتَحْصِيلِ",
+                        "فِي",
+                        "الخَارِجِ"
+                    ],
+                    "level": "medium"
+                }
+            ],
+            "options": [
+                "مِنْحَة",
+                "عُقُوبَة",
+                "مَهَمَّة",
+                "وَظِيفَة"
+            ],
+            "correct_answer": "مِنْحَة"
+        },
+        {
+            "word": "مِلَف",
+            "translation_english": "folder/file",
+            "translation_native": "folder/file",
+            "pronunciation": "milaf",
+            "examples": [
+                {
+                    "sentence": "أَضَعُ أَوْرَاقَ العَمَلِ فِي مِلَفِّ المَادَّةِ البِلَاسْتِيكِيِّ",
+                    "translation_english": "I place the worksheets in the plastic subject folder",
+                    "translation_native": "I place the worksheets in the plastic subject folder",
+                    "sentence_parts": [
+                        "أَضَعُ",
+                        "أَوْرَاقَ",
+                        "العَمَلِ",
+                        "فِي",
+                        "مِلَفِّ",
+                        "المَادَّةِ",
+                        "البِلَاسْتِيكِيِّ"
+                    ],
+                    "level": "medium"
+                }
+            ],
+            "options": [
+                "مِلَف",
+                "قَلَم",
+                "مَقْعَد",
+                "مِقَصّ"
+            ],
+            "correct_answer": "مِلَف"
+        },
+        {
+            "word": "مُفَكِّرَة",
+            "translation_english": "notebook/planner",
+            "translation_native": "notebook/planner",
+            "pronunciation": "mufakkirah",
+            "examples": [
+                {
+                    "sentence": "أُدَوِّنُ مَوَاعِيدَ الِاخْتِبَارَاتِ فِي مُفَكِّرَتِي اليَوْمِيَّةِ الصَّغِيرَةِ",
+                    "translation_english": "I note down test dates in my small daily planner",
+                    "translation_native": "I note down test dates in my small daily planner",
+                    "sentence_parts": [
+                        "أُدَوِّنُ",
+                        "مَوَاعِيدَ",
+                        "الِاخْتِبَارَاتِ",
+                        "فِي",
+                        "مُفَكِّرَتِي",
+                        "اليَوْمِيَّةِ",
+                        "الصَّغِيرَةِ"
+                    ],
+                    "level": "medium"
+                }
+            ],
+            "options": [
+                "مُفَكِّرَة",
+                "مِسْطَرَة",
+                "مِمْحَاة",
+                "حَقِيبَة"
+            ],
+            "correct_answer": "مُفَكِّرَة"
+        },
+        {
+            "word": "مَحْفَظَة",
+            "translation_english": "pencil case",
+            "translation_native": "pencil case",
+            "pronunciation": "mahfazah",
+            "examples": [
+                {
+                    "sentence": "أَضَعُ أَقْلَامَ التَّلْوِينِ دَاخِلَ مَحْفَظَتِي المَدْرَسِيَّةِ الجَدِيدَةِ",
+                    "translation_english": "I place the coloring pencils inside my new school pencil case",
+                    "translation_native": "I place the coloring pencils inside my new school pencil case",
+                    "sentence_parts": [
+                        "أَضَعُ",
+                        "أَقْلَامَ",
+                        "التَّلْوِينِ",
+                        "دَاخِلَ",
+                        "مَحْفَظَتِي",
+                        "المَدْرَسِيَّةِ",
+                        "الجَدِيدَةِ"
+                    ],
+                    "level": "medium"
+                }
+            ],
+            "options": [
+                "مَحْفَظَة",
+                "سَبُّورَة",
+                "طَاوِلَة",
+                "مِرْوَحَة"
+            ],
+            "correct_answer": "مَحْفَظَة"
+        },
+        {
+            "word": "مُبَرَاة",
+            "translation_english": "pencil sharpener",
+            "translation_native": "pencil sharpener",
+            "pronunciation": "mubarah",
+            "examples": [
+                {
+                    "sentence": "أَسْتَعْمِلُ مُبَرَاةً حَادَّةً لِبَرْيِ قَلَمِ الرَّصَاصِ المَكْسُورِ",
+                    "translation_english": "I use a sharp pencil sharpener to sharpen the broken pencil",
+                    "translation_native": "I use a sharp pencil sharpener to sharpen the broken pencil",
+                    "sentence_parts": [
+                        "أَسْتَعْمِلُ",
+                        "مُبَرَاةً",
+                        "حَادَّةً",
+                        "لِبَرْيِ",
+                        "قَلَمِ",
+                        "الرَّصَاصِ",
+                        "المَكْسُورِ"
+                    ],
+                    "level": "medium"
+                }
+            ],
+            "options": [
+                "مُبَرَاة",
+                "مِمْحَاة",
+                "مِسْطَرَة",
+                "وَرَقَة"
+            ],
+            "correct_answer": "مُبَرَاة"
+        },
+        {
+            "word": "مِمْحَاة",
+            "translation_english": "eraser",
+            "translation_native": "eraser",
+            "pronunciation": "mimhah",
+            "examples": [
+                {
+                    "sentence": "أَمْسَحُ الأَخْطَاءَ الإِمْلَائِيَّةَ بِاسْتِخْدَامِ مِمْحَاةٍ صَغِيرَةٍ نَظِيفَةٍ",
+                    "translation_english": "I erase spelling errors using a small clean eraser",
+                    "translation_native": "I erase spelling errors using a small clean eraser",
+                    "sentence_parts": [
+                        "أَمْسَحُ",
+                        "الأَخْطَاءَ",
+                        "الإِمْلَائِيَّةَ",
+                        "بِاسْتِخْدَامِ",
+                        "مِمْحَاةٍ",
+                        "صَغِيرَةٍ",
+                        "نَظِيفَةٍ"
+                    ],
+                    "level": "medium"
+                }
+            ],
+            "options": [
+                "مِمْحَاة",
+                "مُبَرَاة",
+                "مِسْطَرَة",
+                "حَقِيبَة"
+            ],
+            "correct_answer": "مِمْحَاة"
+        },
+        {
+            "word": "مِسْطَرَة",
+            "translation_english": "ruler",
+            "translation_native": "ruler",
+            "pronunciation": "mistarah",
+            "examples": [
+                {
+                    "sentence": "أَرْسُمُ خُطُوطًا مُسْتَقِيمَةً بِاسْتِخْدَامِ مِسْطَرَةٍ بِلَاسْتِيكِيَّةٍ طَوِيلَةٍ",
+                    "translation_english": "I draw straight lines using a long plastic ruler",
+                    "translation_native": "I draw straight lines using a long plastic ruler",
+                    "sentence_parts": [
+                        "أَرْسُمُ",
+                        "خُطُوطًا",
+                        "مُسْتَقِيمَةً",
+                        "بِاسْتِخْدَامِ",
+                        "مِسْطَرَةٍ",
+                        "بِلَاسْتِيكِيَّةٍ",
+                        "طَوِيلَةٍ"
+                    ],
+                    "level": "medium"
+                }
+            ],
+            "options": [
+                "مِسْطَرَة",
+                "مِمْحَاة",
+                "مُبَرَاة",
+                "دَفْتَر"
+            ],
+            "correct_answer": "مِسْطَرَة"
+        },
+        {
+            "word": "حَقِيبَة",
+            "translation_english": "backpack",
+            "translation_native": "backpack",
+            "pronunciation": "haqeebah",
+            "examples": [
+                {
+                    "sentence": "أَحْمِلُ كُتُبِي الثَّقِيلَةَ دَاخِلَ حَقِيبَةِ المَدْرَسَةِ المُرِيحَةِ",
+                    "translation_english": "I carry my heavy books inside the comfortable school backpack",
+                    "translation_native": "I carry my heavy books inside the comfortable school backpack",
+                    "sentence_parts": [
+                        "أَحْمِلُ",
+                        "كُتُبِي",
+                        "الثَّقِيلَةَ",
+                        "دَاخِلَ",
+                        "حَقِيبَةِ",
+                        "المَدْرَسَةِ",
+                        "المُرِيحَةِ"
+                    ],
+                    "level": "medium"
+                }
+            ],
+            "options": [
+                "حَقِيبَة",
+                "طَاوِلَة",
+                "سَبُّورَة",
+                "نَافِذَة"
+            ],
+            "correct_answer": "حَقِيبَة"
+        },
+        {
+            "word": "مَقْعَد",
+            "translation_english": "desk/seat",
+            "translation_native": "desk/seat",
+            "pronunciation": "maq'ad",
+            "examples": [
+                {
+                    "sentence": "أَجْلِسُ عَلَى مَقْعَدِي المَخْصُوصِ فِي الصَّفِّ الأَوَّلِ",
+                    "translation_english": "I sit on my designated seat in the first row",
+                    "translation_native": "I sit on my designated seat in the first row",
+                    "sentence_parts": [
+                        "أَجْلِسُ",
+                        "عَلَى",
+                        "مَقْعَدِي",
+                        "المَخْصُوصِ",
+                        "فِي",
+                        "الصَّفِّ",
+                        "الأَوَّلِ"
+                    ],
+                    "level": "medium"
+                }
+            ],
+            "options": [
+                "مَقْعَد",
+                "مَكْتَبَة",
+                "مَقْصَف",
+                "مَلْعَب"
+            ],
+            "correct_answer": "مَقْعَد"
+        },
+        {
+            "word": "سَبُّورَة",
+            "translation_english": "whiteboard/board",
+            "translation_native": "whiteboard/board",
+            "pronunciation": "sabboorah",
+            "examples": [
+                {
+                    "sentence": "يَكْتُبُ الأُسْتَاذُ العِبَارَاتِ عَلَى سَبُّورَةِ الفَصْلِ الذَّكِيَّةِ",
+                    "translation_english": "The teacher writes phrases on the smart classroom whiteboard",
+                    "translation_native": "The teacher writes phrases on the smart classroom whiteboard",
+                    "sentence_parts": [
+                        "يَكْتُبُ",
+                        "الأُسْتَاذُ",
+                        "العِبَارَاتِ",
+                        "عَلَى",
+                        "سَبُّورَةِ",
+                        "الفَصْلِ",
+                        "الذَّكِيَّةِ"
+                    ],
+                    "level": "medium"
+                }
+            ],
+            "options": [
+                "سَبُّورَة",
+                "طَاوِلَة",
+                "خِزَانَة",
+                "نَافِذَة"
+            ],
+            "correct_answer": "سَبُّورَة"
+        },
+        {
+            "word": "مُسَوَّدَة",
+            "translation_english": "draft",
+            "translation_native": "draft",
+            "pronunciation": "musawwadah",
+            "examples": [
+                {
+                    "sentence": "أَكْتُبُ مُسَوَّدَةَ المَقَالِ الأُولَى قَبْلَ التَّعْدِيلِ النِّهَائِيِّ",
+                    "translation_english": "I write the first article draft before the final editing",
+                    "translation_native": "I write the first article draft before the final editing",
+                    "sentence_parts": [
+                        "أَكْتُبُ",
+                        "مُسَوَّدَةَ",
+                        "المَقَالِ",
+                        "الأُولَى",
+                        "قَبْلَ",
+                        "التَّعْدِيلِ",
+                        "النِّهَائِيِّ"
+                    ],
+                    "level": "medium"
+                }
+            ],
+            "options": [
+                "مُسَوَّدَة",
+                "شَهَادَة",
+                "مَطْوِيَّة",
+                "مُدَوَّنَة"
+            ],
+            "correct_answer": "مُسَوَّدَة"
+        },
+        {
+            "word": "فَصْل",
+            "translation_english": "semester/term",
+            "translation_native": "semester/term",
+            "pronunciation": "fasl",
+            "examples": [
+                {
+                    "sentence": "نَخْتَارُ مَوَادَّ جَدِيدَةً فِي هَذَا الفَصْلِ الدِّرَاسِيِّ",
+                    "translation_english": "We choose new subjects in this academic semester",
+                    "translation_native": "We choose new subjects in this academic semester",
+                    "sentence_parts": [
+                        "نَخْتَارُ",
+                        "مَوَادَّ",
+                        "جَدِيدَةً",
+                        "فِي",
+                        "هَذَا",
+                        "الفَصْلِ",
+                        "الدِّرَاسِيِّ"
+                    ],
+                    "level": "medium"
+                }
+            ],
+            "options": [
+                "فَصْل",
+                "قَلَم",
+                "مَقْعَد",
+                "دَفْتَر"
+            ],
+            "correct_answer": "فَصْل"
+        },
+        {
+            "word": "مُحَاضِر",
+            "translation_english": "lecturer",
+            "translation_native": "lecturer",
+            "pronunciation": "muhadir",
+            "examples": [
+                {
+                    "sentence": "يُلْقِي مُحَاضِرُ الجَامِعَةِ كَلِمَاتٍ مُحَفِّزَةً لِلطُّلَّابِ الجُدُدِ",
+                    "translation_english": "The university lecturer delivers motivating words to new students",
+                    "translation_native": "The university lecturer delivers motivating words to new students",
+                    "sentence_parts": [
+                        "يُلْقِي",
+                        "مُحَاضِرُ",
+                        "الجَامِعَةِ",
+                        "كَلِمَاتٍ",
+                        "مُحَفِّزَةً",
+                        "لِلطُّلَّابِ",
+                        "الجُدُدِ"
+                    ],
+                    "level": "medium"
+                }
+            ],
+            "options": [
+                "مُحَاضِر",
+                "طَبَّاخ",
+                "سَائِق",
+                "فَلَّاح"
+            ],
+            "correct_answer": "مُحَاضِر"
+        },
+        {
+            "word": "طَالِب",
+            "translation_english": "student",
+            "translation_native": "student",
+            "pronunciation": "talib",
+            "examples": [
+                {
+                    "sentence": "يَدْرُسُ كُلُّ طَالِبٍ مُجْتَهِدٍ لِتَحْقِيقِ أَعْلَى الدَّرَجَاتِ",
+                    "translation_english": "Every hardworking student studies to achieve the highest grades",
+                    "translation_native": "Every hardworking student studies to achieve the highest grades",
+                    "sentence_parts": [
+                        "يَدْرُسُ",
+                        "كُلُّ",
+                        "طَالِبٍ",
+                        "مُجْتَهِدٍ",
+                        "لِتَحْقِيقِ",
+                        "أَعْلَى",
+                        "الدَّرَجَاتِ"
+                    ],
+                    "level": "medium"
+                }
+            ],
+            "options": [
+                "طَالِب",
+                "مُعَلِّم",
+                "مُدِير",
+                "حَارِس"
+            ],
+            "correct_answer": "طَالِب"
+        },
+        {
+            "word": "دَرَجَة",
+            "translation_english": "grade/mark",
+            "translation_native": "grade/mark",
+            "pronunciation": "darajah",
+            "examples": [
+                {
+                    "sentence": "حَصَلْتُ عَلَى دَرَجَةٍ المُمْتَازِ فِي اخْتِبَارِ اللُّغَةِ",
+                    "translation_english": "I obtained an excellent grade in the language test",
+                    "translation_native": "I obtained an excellent grade in the language test",
+                    "sentence_parts": [
+                        "حَصَلْتُ",
+                        "عَلَى",
+                        "دَرَجَةٍ",
+                        "المُمْتَازِ",
+                        "فِي",
+                        "اخْتِبَارِ",
+                        "اللُّغَةِ"
+                    ],
+                    "level": "medium"
+                }
+            ],
+            "options": [
+                "دَرَجَة",
+                "طَاوِلَة",
+                "سَبُّورَة",
+                "وَرَقَة"
+            ],
+            "correct_answer": "دَرَجَة"
+        },
+        {
+            "word": "مُلَخَّص",
+            "translation_english": "summary",
+            "translation_native": "summary",
+            "pronunciation": "mulakh-khas",
+            "examples": [
+                {
+                    "sentence": "أَقْرَأُ مُلَخَّصَ الكِتَابِ لِفَهْمِ الأَفْكَارِ الرَّئِيسِيَّةِ سَرِيعًا",
+                    "translation_english": "I read the book summary to understand main ideas quickly",
+                    "translation_native": "I read the book summary to understand main ideas quickly",
+                    "sentence_parts": [
+                        "أَقْرَأُ",
+                        "مُلَخَّصَ",
+                        "Kِتَابِ",
+                        "لِفَهْمِ",
+                        "الأَفْكَارِ",
+                        "الرَّئِيسِيَّةِ",
+                        "سَرِيعًا"
+                    ],
+                    "level": "medium"
+                }
+            ],
+            "options": [
+                "مُلَخَّص",
+                "قَلَم",
+                "مَقْعَد",
+                "دَفْتَر"
+            ],
+            "correct_answer": "مُلَخَّص"
+        },
+        {
+            "word": "نَادِي",
+            "translation_english": "club",
+            "translation_native": "club",
+            "pronunciation": "nadee",
+            "examples": [
+                {
+                    "sentence": "أَنْضَمُّ إِلَى نَادِي الصَّحَافَةِ لِتَطْوِيرِ مَهَارَاتِ الكِتَابَةِ",
+                    "translation_english": "I join the journalism club to develop writing skills",
+                    "translation_native": "I join the journalism club to develop writing skills",
+                    "sentence_parts": [
+                        "أَنْضَمُّ",
+                        "إِلَى",
+                        "نَادِي",
+                        "الصَّحَافَةِ",
+                        "لِتَطْوِيرِ",
+                        "مَهَارَاتِ",
+                        "الكِتَابَةِ"
+                    ],
+                    "level": "medium"
+                }
+            ],
+            "options": [
+                "نَادِي",
+                "مَقْعَد",
+                "مَكْتَب",
+                "صَفّ"
+            ],
+            "correct_answer": "نَادِي"
+        },
+        {
+            "word": "وَرْشَة",
+            "translation_english": "workshop",
+            "translation_native": "workshop",
+            "pronunciation": "warshah",
+            "examples": [
+                {
+                    "sentence": "أَحْضُرُ وَرْشَةَ عَمَلٍ تَدْرِيبِيَّةً عَنِ الذَّكَاءِ الِاصْطِنَاعِيِّ",
+                    "translation_english": "I attend a training workshop about artificial intelligence",
+                    "translation_native": "I attend a training workshop about artificial intelligence",
+                    "sentence_parts": [
+                        "أَحْضُرُ",
+                        "وَرْشَةَ",
+                        "عَمَلٍ",
+                        "تَدْرِيبِيَّةً",
+                        "عَنِ",
+                        "الذَّكَاءِ",
+                        "الِاصْطِنَاعِيِّ"
+                    ],
+                    "level": "medium"
+                }
+            ],
+            "options": [
+                "وَرْشَة",
+                "حَقِيبَة",
+                "سَبُّورَة",
+                "طَاوِلَة"
+            ],
+            "correct_answer": "وَرْشَة"
+        },
+        {
+            "word": "مَفْهُوم",
+            "translation_english": "concept",
+            "translation_native": "concept",
+            "pronunciation": "mafhoom",
+            "examples": [
+                {
+                    "sentence": "أَشْرَحُ مَفْهُومَ الجَاذِبِيَّةِ العِلْمِيَّ لِأَصْدِقَائِي فِي الفَصْلِ",
+                    "translation_english": "I explain the scientific concept of gravity to my friends in class",
+                    "translation_native": "I explain the scientific concept of gravity to my friends in class",
+                    "sentence_parts": [
+                        "أَشْرَحُ",
+                        "مَفْهُومَ",
+                        "الجَاذِبِيَّةِ",
+                        "العِلْمِيَّ",
+                        "لِأَصْدِقَائِي",
+                        "فِي",
+                        "الفَصْلِ"
+                    ],
+                    "level": "medium"
+                }
+            ],
+            "options": [
+                "مَفْهُوم",
+                "قَلَم",
+                "مِقَصّ",
+                "مَقْعَد"
+            ],
+            "correct_answer": "مَفْهُوم"
+        },
+        {
+            "word": "نَظَرِيَّة",
+            "translation_english": "theory",
+            "translation_native": "theory",
+            "pronunciation": "nazariyyah",
+            "examples": [
+                {
+                    "sentence": "نَدْرُسُ نَظَرِيَّةَ النِّسْبِيَّةِ العِلْمِيَّةِ فِي صَفِّ الفِيزْيَاءِ",
+                    "translation_english": "We study the scientific theory of relativity in physics class",
+                    "translation_native": "We study the scientific theory of relativity in physics class",
+                    "sentence_parts": [
+                        "نَدْرُسُ",
+                        "نَظَرِيَّةَ",
+                        "النِّسْبِيَّةِ",
+                        "العِلْمِيَّةِ",
+                        "فِي",
+                        "صَفِّ",
+                        "الفِيزْيَاءِ"
+                    ],
+                    "level": "medium"
+                }
+            ],
+            "options": [
+                "نَظَرِيَّة",
+                "حَقِيبَة",
+                "طَاوِلَة",
+                "مِرْوَحَة"
+            ],
+            "correct_answer": "نَظَرِيَّة"
+        },
+        {
+            "word": "تَدْرِيب",
+            "translation_english": "training/practice",
+            "translation_native": "training/practice",
+            "pronunciation": "tadreeb",
+            "examples": [
+                {
+                    "sentence": "نَخْضَعُ لِتَدْرِيبٍ رِيَاضِيٍّ شَاقٍّ قَبْلَ البُطُولَةِ المَدْرَسِيَّةِ",
+                    "translation_english": "We undergo hard sports training before the school championship",
+                    "translation_native": "We undergo hard sports training before the school championship",
+                    "sentence_parts": [
+                        "نَخْضَعُ",
+                        "لِتَدْرِيبٍ",
+                        "رِيَاضِيٍّ",
+                        "شَاقٍّ",
+                        "قَبْلَ",
+                        "البُطُولَةِ",
+                        "المَدْرَسِيَّةِ"
+                    ],
+                    "level": "medium"
+                }
+            ],
+            "options": [
+                "تَدْرِيب",
+                "تَأْجِيل",
+                "تَقْيِيم",
+                "تَصْوِير"
+            ],
+            "correct_answer": "تَدْرِيب"
+        },
+        {
+            "word": "مُعَادَلَة",
+            "translation_english": "equation",
+            "translation_native": "equation",
+            "pronunciation": "mu'adalah",
+            "examples": [
+                {
+                    "sentence": "أَحِلُّ مُعَادَلَةَ الكِيمِيَاءِ الصَّعْبَةَ عَلَى السَّبُّورَةِ الذَّكِيَّةِ",
+                    "translation_english": "I solve the difficult chemistry equation on the smart whiteboard",
+                    "translation_native": "I solve the difficult chemistry equation on the smart whiteboard",
+                    "sentence_parts": [
+                        "أَحِلُّ",
+                        "مُعَادَلَةَ",
+                        "الكِيمِيَاءِ",
+                        "الصَّعْبَةَ",
+                        "عَلَى",
+                        "السَّبُّورَةِ",
+                        "الذَّكِيَّةِ"
+                    ],
+                    "level": "medium"
+                }
+            ],
+            "options": [
+                "مُعَادَلَة",
+                "حَقِيبَة",
+                "مِسْطَرَة",
+                "مِمْحَاة"
+            ],
+            "correct_answer": "مُعَادَلَة"
+        },
+        {
+            "word": "بَحْث",
+            "translation_english": "research/paper",
+            "translation_native": "research/paper",
+            "pronunciation": "bahth",
+            "examples": [
+                {
+                    "sentence": "أُنْجِزُ بَحْثَ التَّارِيخِ عَنِ الحَضَارَةِ العَرَبِيَّةِ القَدِيمَةِ",
+                    "translation_english": "I complete the history research paper about ancient Arabic civilization",
+                    "translation_native": "I complete the history research paper about ancient Arabic civilization",
+                    "sentence_parts": [
+                        "أُنْجِزُ",
+                        "بَحْثَ",
+                        "التَّارِيخِ",
+                        "عَنِ",
+                        "الحَضَارَةِ",
+                        "العَرَبِيَّةِ",
+                        "القَدِيمَةِ"
+                    ],
+                    "level": "medium"
+                }
+            ],
+            "options": [
+                "بَحْث",
+                "قَلَم",
+                "مَقْعَد",
+                "دَفْتَر"
+            ],
+            "correct_answer": "بَحْث"
+        },
+        {
+            "word": "نَدْوَة",
+            "translation_english": "seminar/symposium",
+            "translation_native": "seminar/symposium",
+            "pronunciation": "nadwah",
+            "examples": [
+                {
+                    "sentence": "نَحْضُرُ نَدْوَةً ثَقَافِيَّةً عَنْ أَهَمِّيَّةِ القِرَاءَةِ الحَدِيثَةِ",
+                    "translation_english": "We attend a cultural seminar about the importance of modern reading",
+                    "translation_native": "We attend a cultural seminar about the importance of modern reading",
+                    "sentence_parts": [
+                        "نَحْضُرُ",
+                        "نَدْوَةً",
+                        "ثَقَافِيَّةً",
+                        "عَنْ",
+                        "أَهَمِّيَّةِ",
+                        "القِرَاءَةِ",
+                        "الحَدِيثَةِ"
+                    ],
+                    "level": "medium"
+                }
+            ],
+            "options": [
+                "نَدْوَة",
+                "وَرَقَة",
+                "سَاعَة",
+                "طَاوِلَة"
+            ],
+            "correct_answer": "نَدْوَة"
+        },
+        {
+            "word": "تَمْرِين",
+            "translation_english": "exercise/drill",
+            "translation_native": "exercise/drill",
+            "pronunciation": "tamreen",
+            "examples": [
+                {
+                    "sentence": "أُكَرِّرُ تَمْرِينَ الرِّيَاضِيَّاتِ لِفَهْمِ طَرِيقَةِ الحَلِّ الصَّحِيحَةِ",
+                    "translation_english": "I repeat the mathematics exercise to understand the correct solution method",
+                    "translation_native": "I repeat the mathematics exercise to understand the correct solution method",
+                    "sentence_parts": [
+                        "أُكَرِّرُ",
+                        "تَمْرِينَ",
+                        "الرِّيَاضِيَّاتِ",
+                        "لِفَهْمِ",
+                        "طَرِيقَةِ",
+                        "الحَلِّ",
+                        "الصَّحِيحَةِ"
+                    ],
+                    "level": "medium"
+                }
+            ],
+            "options": [
+                "تَمْرِين",
+                "قَلَم",
+                "مَقْعَد",
+                "دَفْتَر"
+            ],
+            "correct_answer": "تَمْرِين"
+        },
+        {
+            "word": "مَأْزِق",
+            "translation_english": "predicament/dilemma",
+            "translation_native": "predicament/dilemma",
+            "pronunciation": "ma'ziq",
+            "examples": [
+                {
+                    "sentence": "وَقَعْتُ فِي مَأْزِقٍ بِسَبَبِ نِسْيَانِ حَاسُوبِي اليَوْمَ",
+                    "translation_english": "I got into a predicament because of forgetting my computer today",
+                    "translation_native": "I got into a predicament because of forgetting my computer today",
+                    "sentence_parts": [
+                        "وَقَعْتُ",
+                        "فِي",
+                        "مَأْزِقٍ",
+                        "بِسَبَبِ",
+                        "نِسْيَانِ",
+                        "حَاسُوبِي",
+                        "اليَوْمَ"
+                    ],
+                    "level": "medium"
+                }
+            ],
+            "options": [
+                "مَأْزِق",
+                "مَوْقِف",
+                "مَلْعَب",
+                "مَكْتَب"
+            ],
+            "correct_answer": "مَأْزِق"
+        },
+        {
+            "word": "مُثَابَرَة",
+            "translation_english": "perseverance",
+            "translation_native": "perseverance",
+            "pronunciation": "muthabarah",
+            "examples": [
+                {
+                    "sentence": "تَتَطَلَّبُ دِرَاسَةُ اللُّغَاتِ مُثَابَرَةً دَائِمَةً لِتَحْقِيقِ الطَّلَاقَةِ",
+                    "translation_english": "Studying languages requires continuous perseverance to achieve fluency",
+                    "translation_native": "Studying languages requires continuous perseverance to achieve fluency",
+                    "sentence_parts": [
+                        "تَتَطَلَّبُ",
+                        "دِرَاسَةُ",
+                        "اللُّغَاتِ",
+                        "مُثَابَرَةً",
+                        "دَائِمَةً",
+                        "لِتَحْقِيقِ",
+                        "الطَّلَاقَةِ"
+                    ],
+                    "level": "medium"
+                }
+            ],
+            "options": [
+                "مُثَابَرَة",
+                "مُسَاوَاة",
+                "مُشَارَكَة",
+                "مُسَابَقَة"
+            ],
+            "correct_answer": "مُثَابَرَة"
+        },
+        {
+            "word": "تَفَوُّق",
+            "translation_english": "excellence/superiority",
+            "translation_native": "excellence/superiority",
+            "pronunciation": "tafawwuq",
+            "examples": [
+                {
+                    "sentence": "نَالَ أَخِي وِسَامَ تَفَوُّقٍ فِي العُلُومِ التِّكْنُولُوجْيَّةِ",
+                    "translation_english": "My brother won an excellence medal in technological sciences",
+                    "translation_native": "My brother won an excellence medal in technological sciences",
+                    "sentence_parts": [
+                        "نَالَ",
+                        "أَخِي",
+                        "وِسَامَ",
+                        "تَفَوُّقٍ",
+                        "فِي",
+                        "العُلُومِ",
+                        "التِّكْنُولُوجْيَّةِ"
+                    ],
+                    "level": "medium"
+                }
+            ],
+            "options": [
+                "تَفَوُّق",
+                "تَأْخِير",
+                "تَقْلِيد",
+                "تَغْيِير"
+            ],
+            "correct_answer": "تَفَوُّق"
+        },
+        {
+            "word": "مَنْرَج",
+            "translation_english": "curriculum",
+            "translation_native": "curriculum",
+            "pronunciation": "manhaj",
+            "examples": [
+                {
+                    "sentence": "يَتَمَيَّزُ مَنْهَجُ المَدْرَسَةِ الجَدِيدُ بِالتَّرْكِيزِ عَلَى البَرْمَجَةِ",
+                    "translation_english": "The new school curriculum is characterized by focusing on programming",
+                    "translation_native": "The new school curriculum is characterized by focusing on programming",
+                    "sentence_parts": [
+                        "يَتَمَيَّزُ",
+                        "مَنْهَجُ",
+                        "المَدْرَسَةِ",
+                        "الجَدِيدُ",
+                        "بِالتَّرْكِيزِ",
+                        "عَلَى",
+                        "البَرْمَجَةِ"
+                    ],
+                    "level": "medium"
+                }
+            ],
+            "options": [
+                "مَنْهَج",
+                "مَكْتَب",
+                "مَقْعَد",
+                "مَخْزَن"
+            ],
+            "correct_answer": "مَنْهَج"
+        },
+        {
+            "word": "إِدَارَة",
+            "translation_english": "administration/management",
+            "translation_native": "administration/management",
+            "pronunciation": "idarah",
+            "examples": [
+                {
+                    "sentence": "تُنَظِّمُ إِدَارَةُ المَدْرَسَةِ الرِّحْلَاتِ العِلْمِيَّةَ لِلطُّلَّابِ",
+                    "translation_english": "The school administration organizes scientific trips for students",
+                    "translation_native": "The school administration organizes scientific trips for students",
+                    "sentence_parts": [
+                        "تُنَظِّمُ",
+                        "إِدَارَةُ",
+                        "المَدْرَسَةِ",
+                        "الرِّحْلَاتِ",
+                        "العِلْمِيَّةَ",
+                        "لِلطُّلَّابِ"
+                    ],
+                    "level": "medium"
+                }
+            ],
+            "options": [
+                "إِدَارَة",
+                "إِعَادَة",
+                "إِجَابَة",
+                "إِشَارَة"
+            ],
+            "correct_answer": "إِدَارَة"
+        },
+        {
+            "word": "حُضُور",
+            "translation_english": "attendance",
+            "translation_native": "attendance",
+            "pronunciation": "hudoor",
+            "examples": [
+                {
+                    "sentence": "يُؤَثِّرُ حُضُورُ الطُّلَّابِ اليَوْمِيُّ عَلَى دَرَجَاتِهِمْ النِّهَائِيَّةِ",
+                    "translation_english": "Students' daily attendance affects their final grades",
+                    "translation_native": "Students' daily attendance affects their final grades",
+                    "sentence_parts": [
+                        "يُؤَثِّرُ",
+                        "حُضُورُ",
+                        "الطُّلَّابِ",
+                        "اليَوْمِيُّ",
+                        "عَلَى",
+                        "دَرَجَاتِهِمْ",
+                        "النِّهَائِيَّةِ"
+                    ],
+                    "level": "medium"
+                }
+            ],
+            "options": [
+                "حُضُور",
+                "غِيَاب",
+                "قَبُول",
+                "خُرُوج"
+            ],
+            "correct_answer": "حُضُور"
+        },
+        {
+            "word": "غِيَاب",
+            "translation_english": "absence",
+            "translation_native": "absence",
+            "pronunciation": "ghiyab",
+            "examples": [
+                {
+                    "sentence": "يَجِبُ تَقْدِيمُ عُذْرٍ طِبِّيٍّ عِنْدَ غِيَابِ الطَّالِبِ",
+                    "translation_english": "A medical excuse must be submitted upon a student's absence",
+                    "translation_native": "A medical excuse must be submitted upon a student's absence",
+                    "sentence_parts": [
+                        "يَجِبُ",
+                        "تَقْدِيمُ",
+                        "عُذْرٍ",
+                        "طِبِّيٍّ",
+                        "عِنْدَ",
+                        "غِيَابِ",
+                        "الطَّالِبِ"
+                    ],
+                    "level": "medium"
+                }
+            ],
+            "options": [
+                "غِيَاب",
+                "حُضُور",
+                "نَجَاح",
+                "دُخُول"
+            ],
+            "correct_answer": "غِيَاب"
+        },
+        {
+            "word": "إِشْعَار",
+            "translation_english": "notification",
+            "translation_native": "notification",
+            "pronunciation": "ish'ar",
+            "examples": [
+                {
+                    "sentence": "تَلَقَّيْتُ إِشْعَارًا هَاتِفِيًّا بِشَأْنِ تَغْيِيرِ جَدْوَلِ الِاخْتِبَارَاتِ",
+                    "translation_english": "I received a phone notification regarding the exam schedule change",
+                    "translation_native": "I received a phone notification regarding the exam schedule change",
+                    "sentence_parts": [
+                        "تَلَقَّيْتُ",
+                        "إِشْعَارًا",
+                        "هَاتِفِيًّا",
+                        "بِشَأْنِ",
+                        "تَغْيِيرِ",
+                        "جَدْوَلِ",
+                        "الِاخْتِبَارَاتِ"
+                    ],
+                    "level": "medium"
+                }
+            ],
+            "options": [
+                "إِشْعَار",
+                "إِعْجَاب",
+                "إِصْدَار",
+                "إِعْلَان"
+            ],
+            "correct_answer": "إِشْعَار"
+        },
+        {
+            "word": "أَدَب",
+            "translation_english": "literature",
+            "translation_native": "literature",
+            "pronunciation": "adab",
+            "examples": [
+                {
+                    "sentence": "نَقْرَأُ رِوَايَاتٍ كَلَاسِيكِيَّةً فِي مَادَّةِ الأَدَبِ الإِنْجِلِيزِيِّ",
+                    "translation_english": "We read classic novels in English literature class",
+                    "translation_native": "We read classic novels in English literature class",
+                    "sentence_parts": [
+                        "نَقْرَأُ",
+                        "رِوَايَاتٍ",
+                        "كَلَاسِيكِيَّةً",
+                        "فِي",
+                        "مَادَّةِ",
+                        "الأَدَبِ",
+                        "الإِنْجِلِيزِيِّ"
+                    ],
+                    "level": "medium"
+                }
+            ],
+            "options": [
+                "أَدَب",
+                "فَلَك",
+                "حِسَاب",
+                "هَنْدَسَة"
+            ],
+            "correct_answer": "أَدَب"
+        },
+        {
+            "word": "بَرْمَجَة",
+            "translation_english": "programming",
+            "translation_native": "programming",
+            "pronunciation": "barmajah",
+            "examples": [
+                {
+                    "sentence": "نَتَعَلَّمُ لُغَةَ بَايثُون فِي صَفِّ بَرْمَجَةِ الحَاسُوبِ",
+                    "translation_english": "We learn Python language in computer programming class",
+                    "translation_native": "We learn Python language in computer programming class",
+                    "sentence_parts": [
+                        "نَتَعَلَّمُ",
+                        "لُغَةَ",
+                        "بَايثُون",
+                        "فِي",
+                        "صَفِّ",
+                        "بَرْمَجَةِ",
+                        "الحَاسُوبِ"
+                    ],
+                    "level": "medium"
+                }
+            ],
+            "options": [
+                "بَرْمَجَة",
+                "فَلْسَفَة",
+                "خَطَابَة",
+                "سِيَاسَة"
+            ],
+            "correct_answer": "بَرْمَجَة"
+        },
+        {
+            "word": "احْتِرَام",
+            "translation_english": "respect",
+            "translation_native": "respect",
+            "pronunciation": "ihtiram",
+            "examples": [
+                {
+                    "sentence": "يَجِبُ إِظْهَارُ احْتِرَامٍ كَبِيرٍ لِلْمُعَلِّمِينَ دَاخِلَ المَدْرَسَةِ",
+                    "translation_english": "Great respect must be shown to teachers inside school",
+                    "translation_native": "Great respect must be shown to teachers inside school",
+                    "sentence_parts": [
+                        "يَجِبُ",
+                        "إِظْهَارُ",
+                        "احْتِرَامٍ",
+                        "كَبِيرٍ",
+                        "لِلْمُعَلِّمِينَ",
+                        "دَاخِلَ",
+                        "المَدْرَسَةِ"
+                    ],
+                    "level": "medium"
+                }
+            ],
+            "options": [
+                "احْتِرَام",
+                "اهْتِمَام",
+                "احْتِفَال",
+                "احْتِجَاج"
+            ],
+            "correct_answer": "احْتِرَام"
+        },
+        {
+            "word": "تَعَاوُن",
+            "translation_english": "cooperation",
+            "translation_native": "cooperation",
+            "pronunciation": "ta'awun",
+            "examples": [
+                {
+                    "sentence": "يُؤَدِّي تَعَاوُنُ الطُّلَّابِ إِلَى نَجَاحِ المَشْرُوعِ الجَمَاعِيِّ",
+                    "translation_english": "Students' cooperation leads to the success of the group project",
+                    "translation_native": "Students' cooperation leads to the success of the group project",
+                    "sentence_parts": [
+                        "يُؤَدِّي",
+                        "تَعَاوُنُ",
+                        "الطُّلَّابِ",
+                        "إِلَى",
+                        "نَجَاحِ",
+                        "المَشْرُوعِ",
+                        "الجَمَاعِيِّ"
+                    ],
+                    "level": "medium"
+                }
+            ],
+            "options": [
+                "تَعَاوُن",
+                "تَنَافُس",
+                "تَبَاعُد",
+                "تَنَازُل"
+            ],
+            "correct_answer": "تَعَاوُن"
+        },
+        {
+            "word": "نَجَاح",
+            "translation_english": "success",
+            "translation_native": "success",
+            "pronunciation": "najah",
+            "examples": [
+                {
+                    "sentence": "نَحْتَفِلُ بِنَجَاحِ زُمَلَائِنَا فِي امْتِحَانَاتِ نِهَايَةِ العَامِ",
+                    "translation_english": "We celebrate our classmates' success in year-end exams",
+                    "translation_native": "We celebrate our classmates' success in year-end exams",
+                    "sentence_parts": [
+                        "نَحْتَفِلُ",
+                        "بِنَجَاحِ",
+                        "زُمَلَائِنَا",
+                        "فِي",
+                        "امْتِحَانَاتِ",
+                        "نِهَايَةِ",
+                        "العَامِ"
+                    ],
+                    "level": "medium"
+                }
+            ],
+            "options": [
+                "نَجَاح",
+                "فَشَل",
+                "تَعَب",
+                "خَوْف"
+            ],
+            "correct_answer": "نَجَاح"
+        },
+        {
+            "word": "رِحْلَة",
+            "translation_english": "trip/excursion",
+            "translation_native": "trip/excursion",
+            "pronunciation": "rihlah",
+            "examples": [
+                {
+                    "sentence": "تُنَظِّمُ المَدْرَسَةُ رِحْلَةً عِلْمِيَّةً إِلَى مَتْحَفِ العُلُومِ",
+                    "translation_english": "The school organizes a scientific trip to the science museum",
+                    "translation_native": "The school organizes a scientific trip to the science museum",
+                    "sentence_parts": [
+                        "تُنَظِّمُ",
+                        "المَدْرَسَةُ",
+                        "رِحْلَةً",
+                        "عِلْمِيَّةً",
+                        "إِلَى",
+                        "مَتْحَفِ",
+                        "العُلُومِ"
+                    ],
+                    "level": "medium"
+                }
+            ],
+            "options": [
+                "رِحْلَة",
+                "حَفْلَة",
+                "مُبَارَاة",
+                "مُسَابَقَة"
+            ],
+            "correct_answer": "رِحْلَة"
+        },
+        {
+            "word": "مُوسِيقَى",
+            "translation_english": "music",
+            "translation_native": "music",
+            "pronunciation": "mooseeqa",
+            "examples": [
+                {
+                    "sentence": "نَعْزِفُ أَلْحَانًا جَمِيلَةً فِي غُرْفَةِ مُوسِيقَى المَدْرَسَةِ",
+                    "translation_english": "We play beautiful melodies in the school music room",
+                    "translation_native": "We play beautiful melodies in the school music room",
+                    "sentence_parts": [
+                        "نَعْزِفُ",
+                        "أَلْحَانًا",
+                        "جَمِيلَةً",
+                        "فِي",
+                        "غُرْفَةِ",
+                        "مُوسِيقَى",
+                        "المَدْرَسَةِ"
+                    ],
+                    "level": "medium"
+                }
+            ],
+            "options": [
+                "مُوسِيقَى",
+                "رِيَاضَة",
+                "رَسْم",
+                "تَارِيخ"
+            ],
+            "correct_answer": "مُوسِيقَى"
+        },
+        {
+            "word": "فُنُون",
+            "translation_english": "arts",
+            "translation_native": "arts",
+            "pronunciation": "funoon",
+            "examples": [
+                {
+                    "sentence": "نَتَعَلَّمُ الرَّسْمَ وَالنَّحْتَ فِي حِصَّةِ فُنُونٍ الجَمِيلَةِ",
+                    "translation_english": "We learn drawing and sculpting in fine arts class",
+                    "translation_native": "We learn drawing and sculpting in fine arts class",
+                    "sentence_parts": [
+                        "نَتَعَلَّمُ",
+                        "الرَّسْمَ",
+                        "وَالنَّحْتَ",
+                        "فِي",
+                        "حِصَّةِ",
+                        "فُنُونٍ",
+                        "الجَمِيلَةِ"
+                    ],
+                    "level": "medium"
+                }
+            ],
+            "options": [
+                "فُنُون",
+                "عُلُوم",
+                "لُغَات",
+                "حِسَاب"
+            ],
+            "correct_answer": "فُنُون"
+        },
+        {
+            "word": "إِبْدَاع",
+            "translation_english": "creativity",
+            "translation_native": "creativity",
+            "pronunciation": "ibda'",
+            "examples": [
+                {
+                    "sentence": "يَظْهَرُ إِبْدَاعُ الطُّلَّابِ فِي مَعْرِضِ الفُنُونِ السَّنَوِيِّ",
+                    "translation_english": "Students' creativity appears in the annual arts exhibition",
+                    "translation_native": "Students' creativity appears in the annual arts exhibition",
+                    "sentence_parts": [
+                        "يَظْهَرُ",
+                        "إِبْدَاعُ",
+                        "الطُّلَّابِ",
+                        "فِي",
+                        "مَعْرِضِ",
+                        "الفُنُونِ",
+                        "السَّنَوِيِّ"
+                    ],
+                    "level": "medium"
+                }
+            ],
+            "options": [
+                "إِبْدَاع",
+                "إِهْمَال",
+                "إِغْلَاق",
+                "إِصْلَاح"
+            ],
+            "correct_answer": "إِبْدَاع"
+        },
+        {
+            "word": "فَلْسَفَة",
+            "translation_english": "philosophy",
+            "translation_native": "philosophy",
+            "pronunciation": "falsafah",
+            "examples": [
+                {
+                    "sentence": "نُنَاقِشُ أَفْكَارَ الحُكَمَاءِ فِي مَادَّةِ فَلْسَفَةٍ اليُونَانِيَّةِ",
+                    "translation_english": "We discuss sages' ideas in Greek philosophy class",
+                    "translation_native": "We discuss sages' ideas in Greek philosophy class",
+                    "sentence_parts": [
+                        "نُنَاقِشُ",
+                        "أَفْكَارَ",
+                        "الحُكَمَاءِ",
+                        "فِي",
+                        "مَادَّةِ",
+                        "فَلْسَفَةٍ",
+                        "اليُونَانِيَّةِ"
+                    ],
+                    "level": "medium"
+                }
+            ],
+            "options": [
+                "fَلْسَفَة",
+                "fِيزْيَاء",
+                "fَن",
+                "fَلَك"
+            ],
+            "correct_answer": "فَلْسَفَة"
+        },
+        {
+            "word": "حِمَايَة",
+            "translation_english": "protection/security",
+            "translation_native": "protection/security",
+            "pronunciation": "himayah",
+            "examples": [
+                {
+                    "sentence": "يَسْهَرُ حَارِسُ المَدْرَسَةِ عَلَى حِمَايَةِ المَبْنَى لَيْلًا",
+                    "translation_english": "The school guard stays up for the building's protection at night",
+                    "translation_native": "The school guard stays up for the building's protection at night",
+                    "sentence_parts": [
+                        "يَسْهَرُ",
+                        "حَارِسُ",
+                        "المَدْرَسَةِ",
+                        "عَلَى",
+                        "حِمَايَةِ",
+                        "المَبْنَى",
+                        "لَيْلًا"
+                    ],
+                    "level": "medium"
+                }
+            ],
+            "options": [
+                "حِمَايَة",
+                "خِيَانَة",
+                "خَسَارَة",
+                "خِدْمَة"
+            ],
+            "correct_answer": "حِمَايَة"
+        },
+        {
+            "word": "تَحْصِيل",
+            "translation_english": "achievement/attainment",
+            "translation_native": "achievement/attainment",
+            "pronunciation": "tahseel",
+            "examples": [
+                {
+                    "sentence": "يَسْعَى الطُّلَّابُ لِرَفْعِ تَحْصِيلِهِمْ العِلْمِيِّ قَبْلَ الِامْتِحَانَاتِ",
+                    "translation_english": "Students seek to raise their academic achievement before exams",
+                    "translation_native": "Students seek to raise their academic achievement before exams",
+                    "sentence_parts": [
+                        "يَسْعَى",
+                        "الطُّلَّابُ",
+                        "لِرَفْعِ",
+                        "تَحْصِيلِهِمْ",
+                        "العِلْمِيِّ",
+                        "قَبْلَ",
+                        "الِامْتِحَانَاتِ"
+                    ],
+                    "level": "medium"
+                }
+            ],
+            "options": [
+                "تَحْصِيل",
+                "تَأْجِيل",
+                "تَبْدِيل",
+                "تَقْلِيل"
+            ],
+            "correct_answer": "تَحْصِيل"
+        },
+        {
+            "word": "تَحْدِيث",
+            "translation_english": "update",
+            "translation_native": "update",
+            "pronunciation": "tahdeeth",
+            "examples": [
+                {
+                    "sentence": "قَامَ الفَنِّيُّ بِعَمَلِ تَحْدِيثٍ لِأَجْهِزَةِ حَاسُوبِ المَدْرَسَةِ",
+                    "translation_english": "The technician performed an update for the school computer devices",
+                    "translation_native": "The technician performed an update for the school computer devices",
+                    "sentence_parts": [
+                        "قَامَ",
+                        "الفَنِّيُّ",
+                        "بِعَمَلِ",
+                        "تَحْدِيثٍ",
+                        "لِأَجْهِزَةِ",
+                        "حَاسُوبِ",
+                        "المَدْرَسَةِ"
+                    ],
+                    "level": "medium"
+                }
+            ],
+            "options": [
+                "تَحْدِيث",
+                "تَقْدِيس",
+                "تَأْسِيس",
+                "تَعْوِيض"
+            ],
+            "correct_answer": "تَحْدِيث"
+        },
+        {
+            "word": "تَرْكِيز",
+            "translation_english": "focus/concentration",
+            "translation_native": "focus/concentration",
+            "pronunciation": "tarkeez",
+            "examples": [
+                {
+                    "sentence": "يَتَطَلَّبُ فَهْمُ الفِيزْيَاءِ تَرْكِيزًا عَقْلِيًّا كَبِيرًا جِدًّا",
+                    "translation_english": "Understanding physics requires very large mental focus",
+                    "translation_native": "Understanding physics requires very large mental focus",
+                    "sentence_parts": [
+                        "يَتَطَلَّبُ",
+                        "فَهْمُ",
+                        "الفِيزْيَاءِ",
+                        "تَرْكِيزًا",
+                        "عَقْلِيًّا",
+                        "كَبِيرًا",
+                        "جِدًّا"
+                    ],
+                    "level": "medium"
+                }
+            ],
+            "options": [
+                "تَرْكِيز",
+                "تَمْيِيز",
+                "تَعْزِيز",
+                "تَحْفِيز"
+            ],
+            "correct_answer": "تَرْكِيز"
+        },
+        {
+            "word": "مَوْهِبَة",
+            "translation_english": "talent",
+            "translation_native": "talent",
+            "pronunciation": "mawhibah",
+            "examples": [
+                {
+                    "sentence": "اكتَشَفَ مُعَلِّمُ المُوسِيقَى مَوْهِبَةَ الغِنَاءِ عِنْدَ زَيْدٍ",
+                    "translation_english": "The music teacher discovered the singing talent in Zaid",
+                    "translation_native": "The music teacher discovered the singing talent in Zaid",
+                    "sentence_parts": [
+                        "اكتَشَفَ",
+                        "مُعَلِّمُ",
+                        "المُوسِيقَى",
+                        "مَوْهِبَةَ",
+                        "الغِنَاءِ",
+                        "عِنْدَ",
+                        "زَيْدٍ"
+                    ],
+                    "level": "medium"
+                }
+            ],
+            "options": [
+                "مَوْهِبَة",
+                "مُشْكِلَة",
+                "مَعْرَكَة",
+                "مُرَاقَبَة"
+            ],
+            "correct_answer": "مَوْهِبَة"
+        },
+        {
+            "word": "هَنْدَسَة",
+            "translation_english": "engineering/geometry",
+            "translation_native": "engineering/geometry",
+            "pronunciation": "handasah",
+            "examples": [
+                {
+                    "sentence": "نَحْسِبُ مَسَاحَةَ الأَشْكَالِ فِي مَادَّةِ هَنْدَسَةِ الرِّيَاضِيَّاتِ",
+                    "translation_english": "We calculate shapes' area in mathematics geometry class",
+                    "translation_native": "We calculate shapes' area in mathematics geometry class",
+                    "sentence_parts": [
+                        "نَحْسِبُ",
+                        "مَسَاحَةَ",
+                        "الأَشْكَالِ",
+                        "فِي",
+                        "مَادَّةِ",
+                        "هَنْدَسَةِ",
+                        "الرِّيَاضِيَّاتِ"
+                    ],
+                    "level": "medium"
+                }
+            ],
+            "options": [
+                "هَنْدَسَة",
+                "فَلْسَفَة",
+                "سِيَاسَة",
+                "تِجَارَة"
+            ],
+            "correct_answer": "هَنْدَسَة"
+        },
+        {
+            "word": "ثَقَافَة",
+            "translation_english": "culture",
+            "translation_native": "culture",
+            "pronunciation": "thaqafah",
+            "examples": [
+                {
+                    "sentence": "نَتَعَلَّمُ عَنْ ثَقَافَةِ الشُّعُوبِ فِي حِصَّةِ الِاجْتِمَاعِيَّاتِ",
+                    "translation_english": "We learn about peoples' culture in social studies class",
+                    "translation_native": "We learn about peoples' culture in social studies class",
+                    "sentence_parts": [
+                        "نَتَعَلَّمُ",
+                        "عَنْ",
+                        "ثَقَافَةِ",
+                        "الشُّعُوبِ",
+                        "فِي",
+                        "حِصَّةِ",
+                        "الِاجْتِمَاعِيَّاتِ"
+                    ],
+                    "level": "medium"
+                }
+            ],
+            "options": [
+                "ثَقَافَة",
+                "رِيَاضَة",
+                "صِحَّة",
+                "بِيئَة"
+            ],
+            "correct_answer": "ثَقَافَة"
+        },
+        {
+            "word": "مَطْبُوعَات",
+            "translation_english": "publications/printed items",
+            "translation_native": "publications/printed items",
+            "pronunciation": "matboo'at",
+            "examples": [
+                {
+                    "sentence": "نُوَزِّعُ مَطْبُوعَاتِ المَدْرَسَةِ التَّوْعَوِيَّةَ عَلَى الطُّلَّابِ كُلَّهُمْ",
+                    "translation_english": "We distribute the school awareness publications to all students",
+                    "translation_native": "We distribute the school awareness publications to all students",
+                    "sentence_parts": [
+                        "نُوَزِّعُ",
+                        "مَطْبُوعَاتِ",
+                        "المَدْرَسَةِ",
+                        "التَّوْعَوِيَّةَ",
+                        "عَلَى",
+                        "الطُّلَّابِ",
+                        "كُلَّهُمْ"
+                    ],
+                    "level": "medium"
+                }
+            ],
+            "options": [
+                "مَطْبُوعَات",
+                "مَأْكُولَات",
+                "مَشْرُوبَات",
+                "مَلْبُوسَات"
+            ],
+            "correct_answer": "مَطْبُوعَات"
+        },
+        {
+            "word": "مُسَاعَدَة",
+            "translation_english": "assistance/help",
+            "translation_native": "assistance/help",
+            "pronunciation": "musa'adah",
+            "examples": [
+                {
+                    "sentence": "أَطْلُبُ مُسَاعَدَةَ المُعَلِّمِ عِنْدَمَا تَصْعُبُ عَلَيَّ المَسْأَلَةُ",
+                    "translation_english": "I ask for the teacher's assistance when the problem becomes difficult for me",
+                    "translation_native": "I ask for the teacher's assistance when the problem becomes difficult for me",
+                    "sentence_parts": [
+                        "أَطْلُبُ",
+                        "مُسَاعَدَةَ",
+                        "المُعَلِّمِ",
+                        "عِنْدَمَا",
+                        "تَصْعُبُ",
+                        "عَلَيَّ",
+                        "المَسْأَلَةُ"
+                    ],
+                    "level": "medium"
+                }
+            ],
+            "options": [
+                "مُسَاعَدَة",
+                "مُعَاقَبَة",
+                "مُشَاهَدَة",
+                "مُسَابَقَة"
+            ],
+            "correct_answer": "مُسَاعَدَة"
+        },
+        {
+            "word": "انْضِبَاط",
+            "translation_english": "discipline",
+            "translation_native": "discipline",
+            "pronunciation": "indibat",
+            "examples": [
+                {
+                    "sentence": "يُحَقِّقُ انْضِبَاطُ الطُّلَّابِ بِيئَةً تَعْلِيمِيَّةً هَادِئَةً دَاخِلَ الصَّفِّ",
+                    "translation_english": "Students' discipline achieves a quiet learning environment inside the classroom",
+                    "translation_native": "Students' discipline achieves a quiet learning environment inside the classroom",
+                    "sentence_parts": [
+                        "يُحَقِّقُ",
+                        "انْضِبَاطُ",
+                        "الطُّلَّابِ",
+                        "بِيئَةً",
+                        "تَعْلِيمِيَّةً",
+                        "هَادِئَةً",
+                        "دَاخِلَ",
+                        "الصَّفِّ"
+                    ],
+                    "level": "medium"
+                }
+            ],
+            "options": [
+                "انْضِبَاط",
+                "انْفِصَال",
+                "انْهِيَار",
+                "انْخِفَاض"
+            ],
+            "correct_answer": "انْضِبَاط"
+        },
+        {
+            "word": "تَجْهِيز",
+            "translation_english": "preparation/equipment",
+            "translation_native": "preparation/equipment",
+            "pronunciation": "tajheez",
+            "examples": [
+                {
+                    "sentence": "يَتِمُّ تَجْهِيزُ مُخْتَبَرِ العُلُومِ بِأَحْدَثِ المَجَاهِرِ الإِلِكْتُرُونِيَّةِ",
+                    "translation_english": "The science laboratory is being equipped with the latest electronic microscopes",
+                    "translation_native": "The science laboratory is being equipped with the latest electronic microscopes",
+                    "sentence_parts": [
+                        "يَتِمُّ",
+                        "تَجْهِيزُ",
+                        "مُخْتَبَرِ",
+                        "العُلُومِ",
+                        "بِأَحْدَثِ",
+                        "المَجَاهِرِ",
+                        "الإِلِكْتُرُونِيَّةِ"
+                    ],
+                    "level": "medium"
+                }
+            ],
+            "options": [
+                "تَجْهِيز",
+                "تَأْجِيل",
+                "تَبْدِيل",
+                "تَمْدِيد"
+            ],
+            "correct_answer": "تَجْهِيز"
+        },
+        {
+            "word": "مَأْلُوف",
+            "translation_english": "familiar",
+            "translation_native": "familiar",
+            "pronunciation": "ma'loof",
+            "examples": [
+                {
+                    "sentence": "أَصْبَحَ نِظَامُ الِامْتِحَانَاتِ الإِلِكْتُرُونِيِّ مَأْلُوفًا جِدًّا لَدَى الطُّلَّابِ",
+                    "translation_english": "The electronic exam system became very familiar to students",
+                    "translation_native": "The electronic exam system became very familiar to students",
+                    "sentence_parts": [
+                        "أَصْبَحَ",
+                        "نِظَامُ",
+                        "الِامْتِحَانَاتِ",
+                        "الإِلِكْتُرُونِيِّ",
+                        "مَأْلُوفًا",
+                        "جِدًّا",
+                        "لَدَى",
+                        "الطُّلَّابِ"
+                    ],
+                    "level": "medium"
+                }
+            ],
+            "options": [
+                "مَأْلُوف",
+                "مَجْهُول",
+                "مَغْلُوق",
+                "مَقْطُوع"
+            ],
+            "correct_answer": "مَأْلُوف"
+        },
+        {
+            "word": "مَقَال",
+            "translation_english": "essay/article",
+            "translation_native": "essay/article",
+            "pronunciation": "maqal",
+            "examples": [
+                {
+                    "sentence": "أَكْتُبُ مَقَالًا أَدَبِيًّا طَوِيلًا لِمَجَلَّةِ المَدْرَسَةِ الشَّهْرِيَّةِ",
+                    "translation_english": "I write a long literary essay for the monthly school magazine",
+                    "translation_native": "I write a long literary essay for the monthly school magazine",
+                    "sentence_parts": [
+                        "أَكْتُبُ",
+                        "مَقَالًا",
+                        "أَدَبِيًّا",
+                        "طَوِيلًا",
+                        "لِمَجَلَّةِ",
+                        "المَدْرَسَةِ",
+                        "الشَّهْرِيَّةِ"
+                    ],
+                    "level": "medium"
+                }
+            ],
+            "options": [
+                "مَقَال",
+                "قَلَم",
+                "مَقْعَد",
+                "دَفْتَر"
+            ],
+            "correct_answer": "مَقَال"
+        },
+        {
+            "word": "مَوْقِع",
+            "translation_english": "website",
+            "translation_native": "website",
+            "pronunciation": "mawq'i",
+            "examples": [
+                {
+                    "sentence": "أَتَصَفَّحُ مَوْقِعَ المَدْرَسَةِ الإِلِكْتُرُونِيَّ لِمَعْرِفَةِ أَخْبَارِ الأَنْشِطَةِ",
+                    "translation_english": "I browse the school electronic website to know activities' news",
+                    "translation_native": "I browse the school electronic website to know activities' news",
+                    "sentence_parts": [
+                        "أَتَصَفَّحُ",
+                        "مَوْقِعَ",
+                        "المَدْرَسَةِ",
+                        "الإِلِكْتُرُونِيَّ",
+                        "لِمَعْرِفَةِ",
+                        "أَخْبَارِ",
+                        "الأَنْشِطَةِ"
+                    ],
+                    "level": "medium"
+                }
+            ],
+            "options": [
+                "مَوْقِع",
+                "مَلْعَب",
+                "مَطْبَخ",
+                "مَخْزَن"
+            ],
+            "correct_answer": "مَوْقِع"
+        },
+        {
+            "word": "نِظَام",
+            "translation_english": "system/order",
+            "translation_native": "system/order",
+            "pronunciation": "nizam",
+            "examples": [
+                {
+                    "sentence": "يَجِبُ اتِّبَاعُ نِظَامِ المَدْرَسَةِ الدَّاخِلِيِّ لِتَجَنُّبِ العُقُوبَاتِ",
+                    "translation_english": "The school internal system must be followed to avoid punishments",
+                    "translation_native": "The school internal system must be followed to avoid punishments",
+                    "sentence_parts": [
+                        "يَجِبُ",
+                        "اتِّبَاعُ",
+                        "نِظَامِ",
+                        "المَدْرَسَةِ",
+                        "الدَّاخِلِيِّ",
+                        "لِتَجَنُّبِ",
+                        "العُقُوبَاتِ"
+                    ],
+                    "level": "medium"
+                }
+            ],
+            "options": [
+                "نِظَام",
+                "كِتَاب",
+                "قَلَم",
+                "جِدَار"
+            ],
+            "correct_answer": "نِظَام"
+        },
+        {
+            "word": "تَعْلِيم",
+            "translation_english": "education",
+            "translation_native": "education",
+            "pronunciation": "ta'leem",
+            "examples": [
+                {
+                    "sentence": "يَعْتَمِدُ تَعْلِيمُ المَدْرَسَةِ الحَدِيثُ عَلَى الأَلْوَاحِ الذَّكِيَّةِ",
+                    "translation_english": "Modern school education relies on smart tablets",
+                    "translation_native": "Modern school education relies on smart tablets",
+                    "sentence_parts": [
+                        "يَعْتَمِدُ",
+                        "تَعْلِيمُ",
+                        "المَدْرَسَةِ",
+                        "الحَدِيثُ",
+                        "عَلَى",
+                        "الأَلْوَاحِ",
+                        "الذَّكِيَّةِ"
+                    ],
+                    "level": "medium"
+                }
+            ],
+            "options": [
+                "تَعْلِيم",
+                "تَقْدِيم",
+                "تَنْظِيم",
+                "تَكْرِيم"
+            ],
+            "correct_answer": "تَعْلِيم"
+        },
+        {
+            "word": "مَجَلَّة",
+            "translation_english": "magazine/journal",
+            "translation_native": "magazine/journal",
+            "pronunciation": "majallah",
+            "examples": [
+                {
+                    "sentence": "أَنْشُرُ رُسُومَاتِي الفَنِّيَّةَ فِي مَجَلَّةِ الحَائِطِ المَدْرَسِيَّةِ",
+                    "translation_english": "I publish my artistic drawings in the school wall magazine",
+                    "translation_native": "I publish my artistic drawings in the school wall magazine",
+                    "sentence_parts": [
+                        "أَنْشُرُ",
+                        "رُسُومَاتِي",
+                        "الفَنِّيَّةَ",
+                        "فِي",
+                        "مَجَلَّةِ",
+                        "الحَائِطِ",
+                        "المَدْرَسِيَّةِ"
+                    ],
+                    "level": "medium"
+                }
+            ],
+            "options": [
+                "مَجَلَّة",
+                "سَبُّورَة",
+                "طَاوِلَة",
+                "سَاعَة"
+            ],
+            "correct_answer": "مَجَلَّة"
+        },
+        {
+            "word": "تَعْلِيق",
+            "translation_english": "comment/feedback",
+            "translation_native": "comment/feedback",
+            "pronunciation": "ta'leeq",
+            "examples": [
+                {
+                    "sentence": "أَنْتَظِرُ تَعْلِيقَ الأُسْتَاذِ عَلَى مَشْرُوعِي العِلْمِيِّ الجَدِيدِ",
+                    "translation_english": "I await the teacher's comment on my new scientific project",
+                    "translation_native": "I await the teacher's comment on my new scientific project",
+                    "sentence_parts": [
+                        "أَنْتَظِرُ",
+                        "تَعْلِيقَ",
+                        "الأُسْتَاذِ",
+                        "عَلَى",
+                        "مَشْرُوعِي",
+                        "العِلْمِيِّ",
+                        "الجَدِيدِ"
+                    ],
+                    "level": "medium"
+                }
+            ],
+            "options": [
+                "تَعْلِيق",
+                "تَحْقِيق",
+                "تَدْقِيق",
+                "تَصْدِيق"
+            ],
+            "correct_answer": "تَعْلِيق"
+        },
+        {
+            "word": "مُمَثِّل",
+            "translation_english": "representative",
+            "translation_native": "representative",
+            "pronunciation": "mumath-thil",
+            "examples": [
+                {
+                    "sentence": "تَمَّ اخْتِيَارِي مُمَثِّلًا لِلصَّفِّ فِي مَجْلِسِ الطَّلَبَةِ",
+                    "translation_english": "I was chosen as a class representative in the student council",
+                    "translation_native": "I was chosen as a class representative in the student council",
+                    "sentence_parts": [
+                        "تَمَّ",
+                        "اخْتِيَارِي",
+                        "مُمَثِّلًا",
+                        "لِلصَّفِّ",
+                        "فِي",
+                        "مَجْلِسِ",
+                        "الطَّلَبَةِ"
+                    ],
+                    "level": "medium"
+                }
+            ],
+            "options": [
+                "مُمَثِّل",
+                "مُخْرِج",
+                "مُصَوِّر",
+                "مُؤَلِّف"
+            ],
+            "correct_answer": "مُمَثِّل"
+        },
+        {
+            "word": "مُسَاهَمَة",
+            "translation_english": "contribution",
+            "translation_native": "contribution",
+            "pronunciation": "musahamah",
+            "examples": [
+                {
+                    "sentence": "تَشْكُرُ المَدْرَسَةُ كُلَّ مُسَاهَمَةٍ فَعَّالَةٍ فِي تَنْظِيفِ الحَدِيقَةِ",
+                    "translation_english": "The school thanks every effective contribution in cleaning the garden",
+                    "translation_native": "The school thanks every effective contribution in cleaning the garden",
+                    "sentence_parts": [
+                        "تَشْكُرُ",
+                        "المَدْرَسَةُ",
+                        "كُلَّ",
+                        "مُسَاهَمَةٍ",
+                        "فَعَّالَةٍ",
+                        "فِي",
+                        "تَنْظِيفِ",
+                        "الحَدِيقَةِ"
+                    ],
+                    "level": "medium"
+                }
+            ],
+            "options": [
+                "مُسَاهَمَة",
+                "مُحَاكَمَة",
+                "مُقَاطَعَة",
+                "مُهَاجَرَة"
+            ],
+            "correct_answer": "مُسَاهَمَة"
+        },
+        {
+            "word": "مُبَادَرَة",
+            "translation_english": "initiative",
+            "translation_native": "initiative",
+            "pronunciation": "mubadarah",
+            "examples": [
+                {
+                    "sentence": "أَطْلَقَ الطُّلَّابُ مُبَادَرَةً خَيْرِيَّةً لِجَمْعِ الكُتُبِ المُسْتَعْمَلَةِ",
+                    "translation_english": "Students launched a charitable initiative to collect used books",
+                    "translation_native": "Students launched a charitable initiative to collect used books",
+                    "sentence_parts": [
+                        "أَطْلَقَ",
+                        "الطُّلَّابُ",
+                        "مُبَادَرَةً",
+                        "خَيْرِيَّةً",
+                        "لِجَمْعِ",
+                        "الكُتُبِ",
+                        "المُسْتَعْمَلَةِ"
+                    ],
+                    "level": "medium"
+                }
+            ],
+            "options": [
+                "مُبَادَرَة",
+                "مُحَاضَرَة",
+                "مُنَاقَشَة",
+                "مُسَابَقَة"
+            ],
+            "correct_answer": "مُبَادَرَة"
+        },
+        {
+            "word": "بِيئَة",
+            "translation_english": "environment",
+            "translation_native": "environment",
+            "pronunciation": "bee'ah",
+            "examples": [
+                {
+                    "sentence": "نَعْمَلُ عَلَى خَلْقِ بِيئَةٍ دِرَاسِيَّةٍ نَظِيفَةٍ وَخَضْرَاءَ",
+                    "translation_english": "We work to create a clean and green learning environment",
+                    "translation_native": "We work to create a clean and green learning environment",
+                    "sentence_parts": [
+                        "نَعْمَلُ",
+                        "عَلَى",
+                        "خَلْقِ",
+                        "بِيئَةٍ",
+                        "دِرَاسِيَّةٍ",
+                        "نَظِيفَةٍ",
+                        "وَخَضْرَاءَ"
+                    ],
+                    "level": "medium"
+                }
+            ],
+            "options": [
+                "بِيئَة",
+                "سَاعَة",
+                "طَاوِلَة",
+                "غُرْفَة"
+            ],
+            "correct_answer": "بِيئَة"
+        },
+        {
+            "word": "مُهِمَّة",
+            "translation_english": "task/mission",
+            "translation_native": "task/mission",
+            "pronunciation": "muhimmah",
+            "examples": [
+                {
+                    "sentence": "أَنْجَزْتُ مُهِمَّةَ البَحْثِ العِلْمِيِّ الصَّعْبَةَ بِنَجَاحٍ كَبِيرٍ",
+                    "translation_english": "I completed the difficult scientific research task with great success",
+                    "translation_native": "I completed the difficult scientific research task with great success",
+                    "sentence_parts": [
+                        "أَنْجَزْتُ",
+                        "مُهِمَّةَ",
+                        "البَحْثِ",
+                        "العِلْمِيِّ",
+                        "الصَّعْبَةَ",
+                        "بِنَجَاحٍ",
+                        "كَبِيرٍ"
+                    ],
+                    "level": "medium"
+                }
+            ],
+            "options": [
+                "مُهِمَّة",
+                "حَقِيبَة",
+                "سَبُّورَة",
+                "طَاوِلَة"
+            ],
+            "correct_answer": "مُهِمَّة"
+        },
+        {
+            "word": "أُسْلُوب",
+            "translation_english": "method/style",
+            "translation_native": "method/style",
+            "pronunciation": "usloob",
+            "examples": [
+                {
+                    "sentence": "يَتَمَيَّزُ هَذَا المُدَرِّسُ بِأُسْلُوبِ شَرْحٍ سَهْلٍ وَمُمْتِعٍ",
+                    "translation_english": "This teacher is characterized by an easy and enjoyable explanation style",
+                    "translation_native": "This teacher is characterized by an easy and enjoyable explanation style",
+                    "sentence_parts": [
+                        "يَتَمَيَّزُ",
+                        "هَذَا",
+                        "المُدَرِّسُ",
+                        "بِأُسْلُوبِ",
+                        "شَرْحٍ",
+                        "سَهْلٍ",
+                        "وَمُمْتِعٍ"
+                    ],
+                    "level": "medium"
+                }
+            ],
+            "options": [
+                "أُسْلُوب",
+                "مِفْتَاح",
+                "مِقَصّ",
+                "مِعْطَف"
+            ],
+            "correct_answer": "أُسْلُوب"
+        },
+        {
+            "word": "مَعْرِفَة",
+            "translation_english": "knowledge",
+            "translation_native": "knowledge",
+            "pronunciation": "ma'rifah",
+            "examples": [
+                {
+                    "sentence": "نَكْتَسِبُ مَعْرِفَةً عِلْمِيَّةً جَدِيدَةً مِنْ خِلَالِ القِرَاءَةِ",
+                    "translation_english": "We acquire new scientific knowledge through reading",
+                    "translation_native": "We acquire new scientific knowledge through reading",
+                    "sentence_parts": [
+                        "نَكْتَسِبُ",
+                        "مَعْرِفَةً",
+                        "عِلْمِيَّةً",
+                        "جَدِيدَةً",
+                        "مِنْ",
+                        "خِلَالِ",
+                        "القِرَاءَةِ"
+                    ],
+                    "level": "medium"
+                }
+            ],
+            "options": [
+                "مَعْرِفَة",
+                "مُشْكِلَة",
+                "مَدْرَسَة",
+                "مَكْتَبَة"
+            ],
+            "correct_answer": "مَعْرِفَة"
+        },
+        {
+            "word": "مَهَارَة",
+            "translation_english": "skill",
+            "translation_native": "skill",
+            "pronunciation": "maharah",
+            "examples": [
+                {
+                    "sentence": "أُطَوِّرُ مَهَارَةَ التَّحَدُّثِ بِاللُّغَةِ العَرَبِيَّةِ فِي المَدْرَسَةِ",
+                    "translation_english": "I develop the Arabic speaking skill at school",
+                    "translation_native": "I develop the Arabic speaking skill at school",
+                    "sentence_parts": [
+                        "أُطَوِّرُ",
+                        "مَهَارَةَ",
+                        "التَّحَدُّثِ",
+                        "بِاللُّغَةِ",
+                        "العَرَبِيَّةِ",
+                        "فِي",
+                        "المَدْرَسَةِ"
+                    ],
+                    "level": "medium"
+                }
+            ],
+            "options": [
+                "مَهَارَة",
+                "مِسْطَرَة",
+                "مِمْحَاة",
+                "مُبَرَاة"
+            ],
+            "correct_answer": "مَهَارَة"
+        },
+        {
+            "word": "تَحْلِيل",
+            "translation_english": "analysis",
+            "translation_native": "analysis",
+            "pronunciation": "tahleel",
+            "examples": [
+                {
+                    "sentence": "نَقُومُ بِتَحْلِيلِ النُّصُوصِ الأَدَبِيَّةِ فِي حِصَّةِ اللُّغَةِ",
+                    "translation_english": "We perform literary texts analysis in language class",
+                    "translation_native": "We perform literary texts analysis in language class",
+                    "sentence_parts": [
+                        "نَقُومُ",
+                        "بِتَحْلِيلِ",
+                        "النُّصُوصِ",
+                        "الأَدَبِTargetِّيَّةِ",
+                        "فِي",
+                        "حِصَّةِ",
+                        "اللُّغَةِ"
+                    ],
+                    "level": "medium"
+                }
+            ],
+            "options": [
+                "تَحْلِيل",
+                "تَأْجِيل",
+                "تَبْدِيل",
+                "تَفْصِيل"
+            ],
+            "correct_answer": "تَحْلِيل"
+        },
+        {
+            "word": "تَقَدُّم",
+            "translation_english": "progress",
+            "translation_native": "progress",
+            "pronunciation": "taqaddum",
+            "examples": [
+                {
+                    "sentence": "يُعْجَبُ المُعَلِّمُ بِتَقَدُّمِ زَيْدٍ المَلْحُوظِ فِي الرِّيَاضِيَّاتِ",
+                    "translation_english": "The teacher admires Zaid's noticeable progress in mathematics",
+                    "translation_native": "The teacher admires Zaid's noticeable progress in mathematics",
+                    "sentence_parts": [
+                        "يُعْجَبُ",
+                        "المُعَلِّمُ",
+                        "بِتَقَدُّمِ",
+                        "زَيْدٍ",
+                        "المَلْحُوظِ",
+                        "فِي",
+                        "الرِّيَاضِيَّاتِ"
+                    ],
+                    "level": "medium"
+                }
+            ],
+            "options": [
+                "تَقَدُّم",
+                "تَأَخُّر",
+                "تَغَيُّر",
+                "تَحَرُّك"
+            ],
+            "correct_answer": "تَقَدُّم"
+        },
+        {
+            "word": "نِقَاش",
+            "translation_english": "debate/discussion",
+            "translation_native": "debate/discussion",
+            "pronunciation": "niqash",
+            "examples": [
+                {
+                    "sentence": "دَارَ نِقَاشٌ حَادٌّ بَيْنَ الطُّلَّابِ حَوْلَ التِّكْنُولُوجْيَا",
+                    "translation_english": "A sharp debate took place among students about technology",
+                    "translation_native": "A sharp debate took place among students about technology",
+                    "sentence_parts": [
+                        "دَارَ",
+                        "نِقَاشٌ",
+                        "حَادٌّ",
+                        "بَيْنَ",
+                        "الطُّلَّابِ",
+                        "حَوْلَ",
+                        "التِّكْنُولُوجْيَا"
+                    ],
+                    "level": "medium"
+                }
+            ],
+            "options": [
+                "نِقَاش",
+                "قَلَم",
+                "مَقْعَد",
+                "دَفْتَر"
+            ],
+            "correct_answer": "نِقَاش"
+        },
+        {
+            "word": "مُسْتَوَى",
+            "translation_english": "level",
+            "translation_native": "level",
+            "pronunciation": "mustawa",
+            "examples": [
+                {
+                    "sentence": "يَرْتَفِعُ مُسْتَوَى الِاخْتِبَارَاتِ تَدْرِيجِيًّا خِلَالَ الفَصْلِ الدِّرَاسِيِّ",
+                    "translation_english": "The tests' level rises gradually during the semester",
+                    "translation_native": "The tests' level rises gradually during the semester",
+                    "sentence_parts": [
+                        "يَرْتَفِعُ",
+                        "مُسْتَوَى",
+                        "الِاخْتِبَارَاتِ",
+                        "تَدْرِيجِيًّا",
+                        "خِلَالَ",
+                        "الفَصْلِ",
+                        "الدِّرَاسِيِّ"
+                    ],
+                    "level": "medium"
+                }
+            ],
+            "options": [
+                "مُسْتَوَى",
+                "مُسْتَشَار",
+                "مُسْتَقْبَل",
+                "مُسْتَنَد"
+            ],
+            "correct_answer": "مُسْتَوَى"
+        },
+        {
+            "word": "تَوْجِيه",
+            "translation_english": "guidance/orientation",
+            "translation_native": "guidance/orientation",
+            "pronunciation": "tawjeeh",
+            "examples": [
+                {
+                    "sentence": "نَحْتَاجُ إِلَى تَوْجِيهٍ مِهْنِيٍّ لِاخْتِيَارِ التَّخَصُّصِ الجَامِعِيِّ",
+                    "translation_english": "We need career guidance to choose the university major",
+                    "translation_native": "We need career guidance to choose the university major",
+                    "sentence_parts": [
+                        "نَحْتَاجُ",
+                        "إِلَى",
+                        "تَوْجِيهٍ",
+                        "مِهْنِيٍّ",
+                        "لِاخْتِيَارِ",
+                        "التَّخَصُّصِ",
+                        "الجَامِعِيِّ"
+                    ],
+                    "level": "medium"
+                }
+            ],
+            "options": [
+                "تَوْجِيه",
+                "تَوْقِيف",
+                "تَوْفِير",
+                "تَوْقِيع"
+            ],
+            "correct_answer": "تَوْجِيه"
+        },
+        {
+            "word": "خِطَاب",
+            "translation_english": "speech/letter",
+            "translation_native": "speech/letter",
+            "pronunciation": "khitab",
+            "examples": [
+                {
+                    "sentence": "أَلْقَى رَئِيسُ المَجْلِسِ خِطَابًا مُؤَثِّرًا فِي حَفْلِ التَّخَرُّجِ",
+                    "translation_english": "The council president delivered an moving speech at graduation",
+                    "translation_native": "The council president delivered an moving speech at graduation",
+                    "sentence_parts": [
+                        "أَلْقَى",
+                        "رَئِيسُ",
+                        "المَجْلِسِ",
+                        "خِطَابًا",
+                        "مُؤَثِّرًا",
+                        "فِي",
+                        "حَفْلِ",
+                        "التَّخَرُّجِ"
+                    ],
+                    "level": "medium"
+                }
+            ],
+            "options": [
+                "خِطَاب",
+                "خِزَانَة",
+                "خَرِيطَة",
+                "خَاتَم"
+            ],
+            "correct_answer": "خِطَاب"
+        },
+        {
+            "word": "تَعْدِيل",
+            "translation_english": "modification/editing",
+            "translation_native": "modification/editing",
+            "pronunciation": "ta'deel",
+            "examples": [
+                {
+                    "sentence": "أَجْرَيْتُ تَعْدِيلًا بَسِيطًا عَلَى تَصْمِيمِ الرُّوبُوتِ المَدْرَسِيِّ",
+                    "translation_english": "I made a simple modification to the school robot design",
+                    "translation_native": "I made a simple modification to the school robot design",
+                    "sentence_parts": [
+                        "أَجْرَيْتُ",
+                        "تَعْدِيلًا",
+                        "بَسِيطًا",
+                        "عَلَى",
+                        "تَصْمِيمِ",
+                        "الرُّوبُوتِ",
+                        "المَدْرَسِيِّ"
+                    ],
+                    "level": "medium"
+                }
+            ],
+            "options": [
+                "تَعْدِيل",
+                "تَعْطِيل",
+                "تَعْوِيض",
+                "تَعْيِين"
+            ],
+            "correct_answer": "تَعْدِيل"
+        },
+        {
+            "word": "نَشَاط",
+            "translation_english": "activity",
+            "translation_native": "activity",
+            "pronunciation": "nashat",
+            "examples": [
+                {
+                    "sentence": "أُشَارِكُ فِي نَشَاطٍ رِيَاضِيٍّ بَعْدَ انْتِهَاءِ الدِّرَاسَةِ",
+                    "translation_english": "I participate in a sports activity after school ends",
+                    "translation_native": "I participate in a sports activity after school ends",
+                    "sentence_parts": [
+                        "أُشَارِكُ",
+                        "فِي",
+                        "نَشَاطٍ",
+                        "رِيَاضِيٍّ",
+                        "بَعْدَ",
+                        "انْتِهَاءِ",
+                        "الدِّرَاسَةِ"
+                    ],
+                    "level": "medium"
+                }
+            ],
+            "options": [
+                "نَشَاط",
+                "نِقَاش",
+                "نِظَام",
+                "نَتِيجَة"
+            ],
+            "correct_answer": "نَشَاط"
+        },
+        {
+            "word": "مُلَاحَظَة",
+            "translation_english": "note/observation",
+            "translation_native": "note/observation",
+            "pronunciation": "mulahazah",
+            "examples": [
+                {
+                    "sentence": "أَكْتُبُ كُلَّ مُلَاحَظَةٍ يَقُولُهَا الأُسْتَاذُ أَثْنَاءَ الشَّرْحِ",
+                    "translation_english": "I write down every note the teacher says during explanation",
+                    "translation_native": "I write down every note the teacher says during explanation",
+                    "sentence_parts": [
+                        "أَكْتُبُ",
+                        "كُلَّ",
+                        "مُلَاحَظَةٍ",
+                        "يَقُولُهَا",
+                        "الأُسْتَاذُ",
+                        "أَثْنَاءَ",
+                        "الشَّرْحِ"
+                    ],
+                    "level": "medium"
+                }
+            ],
+            "options": [
+                "مُلَاحَظَة",
+                "مُسَابَقَة",
+                "مُشَارَكَة",
+                "مُسَاوَاة"
+            ],
+            "correct_answer": "مُلَاحَظَة"
+        }
+    ]
+}

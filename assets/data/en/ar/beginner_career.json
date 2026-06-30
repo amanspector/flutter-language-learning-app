@@ -1,0 +1,4335 @@
+{
+    "metadata": {
+        "language": "Arabic",
+        "native_language": "English",
+        "level": "Beginner",
+        "category": "career",
+        "total_words": 97
+    },
+    "words": [
+        {
+            "word": "مكتب",
+            "translation_english": "office",
+            "translation_native": "office",
+            "pronunciation": "maktab",
+            "examples": [
+                {
+                    "sentence": "أرتب أوراقي داخل المكتب الجديد",
+                    "translation_english": "I organize my papers inside the new office",
+                    "translation_native": "I organize my papers inside the new office",
+                    "sentence_parts": [
+                        "أرتب",
+                        "أوراقي",
+                        "داخل",
+                        "المكتب",
+                        "الجديد"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "مكتب",
+                "مستشفى",
+                "ملعب",
+                "مطار"
+            ],
+            "correct_answer": "مكتب"
+        },
+        {
+            "word": "حاسوب",
+            "translation_english": "computer",
+            "translation_native": "computer",
+            "pronunciation": "hasoub",
+            "examples": [
+                {
+                    "sentence": "أبرمج الألعاب عبر الحاسوب يوميا",
+                    "translation_english": "I program games via computer daily",
+                    "translation_native": "I program games via computer daily",
+                    "sentence_parts": [
+                        "أبرمج",
+                        "الألعاب",
+                        "عبر",
+                        "الحاسوب",
+                        "يوميا"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "حاسوب",
+                "هاتف",
+                "تلفاز",
+                "راديو"
+            ],
+            "correct_answer": "حاسوب"
+        },
+        {
+            "word": "مدير",
+            "translation_english": "manager",
+            "translation_native": "manager",
+            "pronunciation": "mudir",
+            "examples": [
+                {
+                    "sentence": "يوقع المدير عقود العمل الجديدة",
+                    "translation_english": "The manager signs new work contracts",
+                    "translation_native": "The manager signs new work contracts",
+                    "sentence_parts": [
+                        "يوقع",
+                        "المدير",
+                        "عقود",
+                        "العمل",
+                        "الجديدة"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "مدير",
+                "طبيب",
+                "مهندس",
+                "طباخ"
+            ],
+            "correct_answer": "مدير"
+        },
+        {
+            "word": "اجتماع",
+            "translation_english": "meeting",
+            "translation_native": "meeting",
+            "pronunciation": "ijtima'",
+            "examples": [
+                {
+                    "sentence": "أحضر الاجتماع لمناقشة خطة المشروع",
+                    "translation_english": "I attend the meeting to discuss the project plan",
+                    "translation_native": "I attend the meeting to discuss the project plan",
+                    "sentence_parts": [
+                        "أحضر",
+                        "الاجتماع",
+                        "لمناقشة",
+                        "خطة",
+                        "المشروع"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "اجتماع",
+                "عطلة",
+                "نزهة",
+                "حفلة"
+            ],
+            "correct_answer": "اجتماع"
+        },
+        {
+            "word": "قلم",
+            "translation_english": "pen",
+            "translation_native": "pen",
+            "pronunciation": "qalam",
+            "examples": [
+                {
+                    "sentence": "أكتب ملاحظات العمل بقلم أزرق",
+                    "translation_english": "I write work notes with a blue pen",
+                    "translation_native": "I write work notes with a blue pen",
+                    "sentence_parts": [
+                        "أكتب",
+                        "ملاحظات",
+                        "العمل",
+                        "بقلم",
+                        "أزرق"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "قلم",
+                "ممحاة",
+                "مسطرة",
+                "حقيبة"
+            ],
+            "correct_answer": "قلم"
+        },
+        {
+            "word": "موظف",
+            "translation_english": "employee",
+            "translation_native": "employee",
+            "pronunciation": "muwazzaf",
+            "examples": [
+                {
+                    "sentence": "يساعد الموظف الزبائن في المتجر",
+                    "translation_english": "The employee helps customers in the store",
+                    "translation_native": "The employee helps customers in the store",
+                    "sentence_parts": [
+                        "يساعد",
+                        "الموظف",
+                        "الزبائن",
+                        "في",
+                        "المتجر"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "موظف",
+                "لاعب",
+                "رسام",
+                "كاتب"
+            ],
+            "correct_answer": "موظف"
+        },
+        {
+            "word": "راتب",
+            "translation_english": "salary",
+            "translation_native": "salary",
+            "pronunciation": "ratib",
+            "examples": [
+                {
+                    "sentence": "أستلم الراتب نهاية كل شهر",
+                    "translation_english": "I receive the salary end of every month",
+                    "translation_native": "I receive the salary end of every month",
+                    "sentence_parts": [
+                        "أستلم",
+                        "الراتب",
+                        "نهاية",
+                        "كل",
+                        "شهر"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "راتب",
+                "سعر",
+                "خصم",
+                "دين"
+            ],
+            "correct_answer": "راتب"
+        },
+        {
+            "word": "هاتف",
+            "translation_english": "phone",
+            "translation_native": "phone",
+            "pronunciation": "hatif",
+            "examples": [
+                {
+                    "sentence": "أستخدم الهاتف للاتصال بالعملاء دائما",
+                    "translation_english": "I use the phone to call clients always",
+                    "translation_native": "I use the phone to call clients always",
+                    "sentence_parts": [
+                        "أستخدم",
+                        "الهاتف",
+                        "للاتصال",
+                        "بالعملاء",
+                        "دائما"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "هاتف",
+                "طابعة",
+                "ماسح",
+                "مذياع"
+            ],
+            "correct_answer": "هاتف"
+        },
+        {
+            "word": "شركة",
+            "translation_english": "company",
+            "translation_native": "company",
+            "pronunciation": "sharika",
+            "examples": [
+                {
+                    "sentence": "تعمل الشركة في تطوير البرمجيات",
+                    "translation_english": "The company works in software development",
+                    "translation_native": "The company works in software development",
+                    "sentence_parts": [
+                        "تعمل",
+                        "الشركة",
+                        "في",
+                        "تطوير",
+                        "البرمجيات"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "شركة",
+                "مدرسة",
+                "جامعة",
+                "مستشفى"
+            ],
+            "correct_answer": "شركة"
+        },
+        {
+            "word": "طابعة",
+            "translation_english": "printer",
+            "translation_native": "printer",
+            "pronunciation": "tabi'a",
+            "examples": [
+                {
+                    "sentence": "أطبع التقارير عبر الطابعة الملونة",
+                    "translation_english": "I print reports via the colored printer",
+                    "translation_native": "I print reports via the colored printer",
+                    "sentence_parts": [
+                        "أطبع",
+                        "التقارير",
+                        "عبر",
+                        "الطابعة",
+                        "الملونة"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "طابعة",
+                "شاشة",
+                "لوحة",
+                "فأرة"
+            ],
+            "correct_answer": "طابعة"
+        },
+        {
+            "word": "مشروع",
+            "translation_english": "project",
+            "translation_native": "project",
+            "pronunciation": "mashru'",
+            "examples": [
+                {
+                    "sentence": "أنهي المشروع قبل موعد التسليم",
+                    "translation_english": "I finish the project before deadline",
+                    "translation_native": "I finish the project before deadline",
+                    "sentence_parts": [
+                        "أنهي",
+                        "المشروع",
+                        "قبل",
+                        "موعد",
+                        "التسليم"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "مشروع",
+                "واجب",
+                "اختبار",
+                "بحث"
+            ],
+            "correct_answer": "مشروع"
+        },
+        {
+            "word": "مكتبة",
+            "translation_english": "library",
+            "translation_native": "library",
+            "pronunciation": "maktaba",
+            "examples": [
+                {
+                    "sentence": "أبحث عن مراجع داخل المكتبة",
+                    "translation_english": "I search for references inside the library",
+                    "translation_native": "I search for references inside the library",
+                    "sentence_parts": [
+                        "أبحث",
+                        "عن",
+                        "مراجع",
+                        "داخل",
+                        "المكتبة"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "مكتبة",
+                "مقهى",
+                "متحف",
+                "مصنع"
+            ],
+            "correct_answer": "مكتبة"
+        },
+        {
+            "word": "فأرة",
+            "translation_english": "mouse",
+            "translation_native": "mouse",
+            "pronunciation": "fa'ra",
+            "examples": [
+                {
+                    "sentence": "أحرك الفأرة للتحكم في الشاشة",
+                    "translation_english": "I move the mouse to control the screen",
+                    "translation_native": "I move the mouse to control the screen",
+                    "sentence_parts": [
+                        "أحرك",
+                        "الفأرة",
+                        "للتحكم",
+                        "في",
+                        "الشاشة"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "فأرة",
+                "لوحة",
+                "سماعة",
+                "كاميرا"
+            ],
+            "correct_answer": "فأرة"
+        },
+        {
+            "word": "رسالة",
+            "translation_english": "message",
+            "translation_native": "message",
+            "pronunciation": "risala",
+            "examples": [
+                {
+                    "sentence": "أرسل رسالة إلكترونية إلى المدير",
+                    "translation_english": "I send an electronic message to the manager",
+                    "translation_native": "I send an electronic message to the manager",
+                    "sentence_parts": [
+                        "أرسل",
+                        "رسالة",
+                        "إلكترونية",
+                        "إلى",
+                        "المدير"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "رسالة",
+                "صورة",
+                "ملف",
+                "رابط"
+            ],
+            "correct_answer": "رسالة"
+        },
+        {
+            "word": "ساعة",
+            "translation_english": "clock",
+            "translation_native": "clock",
+            "pronunciation": "sa'a",
+            "examples": [
+                {
+                    "sentence": "تحدد الساعة موعد بدء العمل",
+                    "translation_english": "The clock determines the start work time",
+                    "translation_native": "The clock determines the start work time",
+                    "sentence_parts": [
+                        "تحدد",
+                        "الساعة",
+                        "موعد",
+                        "بدء",
+                        "العمل"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "ساعة",
+                "تقويم",
+                "مصباح",
+                "مروحة"
+            ],
+            "correct_answer": "ساعة"
+        },
+        {
+            "word": "كرسي",
+            "translation_english": "chair",
+            "translation_native": "chair",
+            "pronunciation": "kursi",
+            "examples": [
+                {
+                    "sentence": "أجلس على الكرسي للعمل طويلا",
+                    "translation_english": "I sit on the chair to work long",
+                    "translation_native": "I sit on the chair to work long",
+                    "sentence_parts": [
+                        "أجلس",
+                        "على",
+                        "الكرسي",
+                        "للعمل",
+                        "طويلا"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "كرسي",
+                "أريكة",
+                "طاولة",
+                "رف"
+            ],
+            "correct_answer": "كرسي"
+        },
+        {
+            "word": "ملف",
+            "translation_english": "file",
+            "translation_native": "file",
+            "pronunciation": "milaff",
+            "examples": [
+                {
+                    "sentence": "أحفظ الملف في ذاكرة الحاسوب",
+                    "translation_english": "I save the file in the computer memory",
+                    "translation_native": "I save the file in the computer memory",
+                    "sentence_parts": [
+                        "أحفظ",
+                        "الملف",
+                        "في",
+                        "ذاكرة",
+                        "الحاسوب"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "ملف",
+                "مجلد",
+                "برنامج",
+                "تطبيق"
+            ],
+            "correct_answer": "ملف"
+        },
+        {
+            "word": "زبون",
+            "translation_english": "customer",
+            "translation_native": "customer",
+            "pronunciation": "zabun",
+            "examples": [
+                {
+                    "sentence": "يطلب الزبون خدمة جديدة اليوم",
+                    "translation_english": "The customer asks for a new service today",
+                    "translation_native": "The customer asks for a new service today",
+                    "sentence_parts": [
+                        "يطلب",
+                        "الزبون",
+                        "خدمة",
+                        "جديدة",
+                        "اليوم"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "زبون",
+                "بائع",
+                "مورد",
+                "مدير"
+            ],
+            "correct_answer": "زبون"
+        },
+        {
+            "word": "شاشة",
+            "translation_english": "screen",
+            "translation_native": "screen",
+            "pronunciation": "shasha",
+            "examples": [
+                {
+                    "sentence": "أشاهد البيانات عبر شاشة الحاسوب",
+                    "translation_english": "I watch data via the computer screen",
+                    "translation_native": "I watch data via the computer screen",
+                    "sentence_parts": [
+                        "أشاهد",
+                        "البيانات",
+                        "عبر",
+                        "شاشة",
+                        "الحاسوب"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "شاشة",
+                "لوحة",
+                "طابعة",
+                "سماعة"
+            ],
+            "correct_answer": "شاشة"
+        },
+        {
+            "word": "مهمة",
+            "translation_english": "task",
+            "translation_native": "task",
+            "pronunciation": "muhimma",
+            "examples": [
+                {
+                    "sentence": "أنجز المهمة المطلوبة بسرعة كبيرة",
+                    "translation_english": "I complete the required task very quickly",
+                    "translation_native": "I complete the required task very quickly",
+                    "sentence_parts": [
+                        "أنجز",
+                        "المهمة",
+                        "المطلوبة",
+                        "بسرعة",
+                        "كبيرة"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "مهمة",
+                "خطة",
+                "فكرة",
+                "هدف"
+            ],
+            "correct_answer": "مهمة"
+        },
+        {
+            "word": "مقهى",
+            "translation_english": "cafe",
+            "translation_native": "cafe",
+            "pronunciation": "maqha",
+            "examples": [
+                {
+                    "sentence": "أعمل في المقهى بهدوء تام",
+                    "translation_english": "I work in the cafe with complete calm",
+                    "translation_native": "I work in the cafe with complete calm",
+                    "sentence_parts": [
+                        "أعمل",
+                        "في",
+                        "المقهى",
+                        "بهدوء",
+                        "تام"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "مقهى",
+                "مطعم",
+                "فندق",
+                "متجر"
+            ],
+            "correct_answer": "مقهى"
+        },
+        {
+            "word": "مفتاح",
+            "translation_english": "key",
+            "translation_native": "key",
+            "pronunciation": "miftah",
+            "examples": [
+                {
+                    "sentence": "أفتح باب المكتب بالمفتاح الحديدي",
+                    "translation_english": "I open the office door with the iron key",
+                    "translation_native": "I open the office door with the iron key",
+                    "sentence_parts": [
+                        "أفتح",
+                        "باب",
+                        "المكتب",
+                        "بالمفتاح",
+                        "الحديدي"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "مفتاح",
+                "قفل",
+                "بطاقة",
+                "رمز"
+            ],
+            "correct_answer": "مفتاح"
+        },
+        {
+            "word": "صورة",
+            "translation_english": "picture",
+            "translation_native": "picture",
+            "pronunciation": "sura",
+            "examples": [
+                {
+                    "sentence": "أرفق صورة في ملف العمل",
+                    "translation_english": "I attach a picture in the work file",
+                    "translation_native": "I attach a picture in the work file",
+                    "sentence_parts": [
+                        "أرفق",
+                        "صورة",
+                        "في",
+                        "ملف",
+                        "العمل"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "صورة",
+                "رسمة",
+                "خريطة",
+                "وثيقة"
+            ],
+            "correct_answer": "صورة"
+        },
+        {
+            "word": "سماعة",
+            "translation_english": "headphone",
+            "translation_native": "headphone",
+            "pronunciation": "sama'a",
+            "examples": [
+                {
+                    "sentence": "أرتدي السماعة لسماع الاجتماع بوضوح",
+                    "translation_english": "I wear the headphone to hear the meeting clearly",
+                    "translation_native": "I wear the headphone to hear the meeting clearly",
+                    "sentence_parts": [
+                        "أرتدي",
+                        "السماعة",
+                        "لسماع",
+                        "الاجتماع",
+                        "بوضوح"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "سماعة",
+                "ميكروفون",
+                "كاميرا",
+                "لوحة"
+            ],
+            "correct_answer": "سماعة"
+        },
+        {
+            "word": "مصباح",
+            "translation_english": "lamp",
+            "translation_native": "lamp",
+            "pronunciation": "misbah",
+            "examples": [
+                {
+                    "sentence": "أشعل المصباح فوق مكتبي ليلا",
+                    "translation_english": "I turn on the lamp above my desk at night",
+                    "translation_native": "I turn on the lamp above my desk at night",
+                    "sentence_parts": [
+                        "أشعل",
+                        "المصباح",
+                        "فوق",
+                        "مكتبي",
+                        "ليلا"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "مصباح",
+                "مروحة",
+                "ساعة",
+                "تقويم"
+            ],
+            "correct_answer": "مصباح"
+        },
+        {
+            "word": "تقويم",
+            "translation_english": "calendar",
+            "translation_native": "calendar",
+            "pronunciation": "taqwim",
+            "examples": [
+                {
+                    "sentence": "أحدد مواعيد العمل في التقويم",
+                    "translation_english": "I set work appointments in the calendar",
+                    "translation_native": "I set work appointments in the calendar",
+                    "sentence_parts": [
+                        "أحدد",
+                        "مواعيد",
+                        "العمل",
+                        "في",
+                        "التقويم"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "تقويم",
+                "ساعة",
+                "مصباح",
+                "مذكرة"
+            ],
+            "correct_answer": "تقويم"
+        },
+        {
+            "word": "مذكرة",
+            "translation_english": "notebook",
+            "translation_native": "notebook",
+            "pronunciation": "mudhakkira",
+            "examples": [
+                {
+                    "sentence": "أدون أفكاري داخل المذكرة الصغيرة",
+                    "translation_english": "I write down my ideas inside the small notebook",
+                    "translation_native": "I write down my ideas inside the small notebook",
+                    "sentence_parts": [
+                        "أدون",
+                        "أفكاري",
+                        "داخل",
+                        "المذكرة",
+                        "الصغيرة"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "مذكرة",
+                "ورقة",
+                "ملف",
+                "كتاب"
+            ],
+            "correct_answer": "مذكرة"
+        },
+        {
+            "word": "خزانة",
+            "translation_english": "cabinet",
+            "translation_native": "cabinet",
+            "pronunciation": "khizana",
+            "examples": [
+                {
+                    "sentence": "أضع الأوراق داخل الخزانة المغلقة",
+                    "translation_english": "I put the papers inside the closed cabinet",
+                    "translation_native": "I put the papers inside the closed cabinet",
+                    "sentence_parts": [
+                        "أضع",
+                        "الأوراق",
+                        "داخل",
+                        "الخزانة",
+                        "المغلقة"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "خزانة",
+                "رف",
+                "طاولة",
+                "كرسي"
+            ],
+            "correct_answer": "خزانة"
+        },
+        {
+            "word": "مروحة",
+            "translation_english": "fan",
+            "translation_native": "fan",
+            "pronunciation": "marwaha",
+            "examples": [
+                {
+                    "sentence": "أشغل المروحة لتبريد جو المكتب",
+                    "translation_english": "I turn on the fan to cool the office atmosphere",
+                    "translation_native": "I turn on the fan to cool the office atmosphere",
+                    "sentence_parts": [
+                        "أشغل",
+                        "المروحة",
+                        "لتبريد",
+                        "جو",
+                        "المكتب"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "مروحة",
+                "مصباح",
+                "ساعة",
+                "مكيف"
+            ],
+            "correct_answer": "مروحة"
+        },
+        {
+            "word": "ميكروفون",
+            "translation_english": "microphone",
+            "translation_native": "microphone",
+            "pronunciation": "mikrofon",
+            "examples": [
+                {
+                    "sentence": "أستخدم الميكروفون لإلقاء العرض التقديمي",
+                    "translation_english": "I use the microphone to give the presentation",
+                    "translation_native": "I use the microphone to give the presentation",
+                    "sentence_parts": [
+                        "أستخدم",
+                        "الميكروفون",
+                        "لإلقاء",
+                        "العرض",
+                        "التقديمي"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "ميكروفون",
+                "سماعة",
+                "كاميرا",
+                "هاتف"
+            ],
+            "correct_answer": "ميكروفون"
+        },
+        {
+            "word": "كاميرا",
+            "translation_english": "camera",
+            "translation_native": "camera",
+            "pronunciation": "kamera",
+            "examples": [
+                {
+                    "sentence": "أشغل الكاميرا أثناء الاجتماع المرئي",
+                    "translation_english": "I turn on the camera during the video meeting",
+                    "translation_native": "I turn on the camera during the video meeting",
+                    "sentence_parts": [
+                        "أشغل",
+                        "الكاميرا",
+                        "أثناء",
+                        "الاجتماع",
+                        "المرئي"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "كاميرا",
+                "ميكروفون",
+                "سماعة",
+                "شاشة"
+            ],
+            "correct_answer": "كاميرا"
+        },
+        {
+            "word": "لوحة",
+            "translation_english": "keyboard",
+            "translation_native": "keyboard",
+            "pronunciation": "lawha",
+            "examples": [
+                {
+                    "sentence": "أطبع النصوص عبر لوحة المفاتيح",
+                    "translation_english": "I type the texts via the keyboard",
+                    "translation_native": "I type the texts via the keyboard",
+                    "sentence_parts": [
+                        "أطبع",
+                        "النصوص",
+                        "عبر",
+                        "لوحة",
+                        "المفاتيح"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "لوحة",
+                "فأرة",
+                "شاشة",
+                "طابعة"
+            ],
+            "correct_answer": "لوحة"
+        },
+        {
+            "word": "مجلد",
+            "translation_english": "folder",
+            "translation_native": "folder",
+            "pronunciation": "mujallad",
+            "examples": [
+                {
+                    "sentence": "أنظم الملفات داخل المجلد الرقمي",
+                    "translation_english": "I organize the files inside the digital folder",
+                    "translation_native": "I organize the files inside the digital folder",
+                    "sentence_parts": [
+                        "أنظم",
+                        "الملفات",
+                        "داخل",
+                        "المجلد",
+                        "الرقمي"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "مجلد",
+                "ملف",
+                "برنامج",
+                "رابط"
+            ],
+            "correct_answer": "مجلد"
+        },
+        {
+            "word": "رابط",
+            "translation_english": "link",
+            "translation_native": "link",
+            "pronunciation": "rabit",
+            "examples": [
+                {
+                    "sentence": "أضغط الرابط لفتح موقع العمل",
+                    "translation_english": "I click the link to open the work site",
+                    "translation_native": "I click the link to open the work site",
+                    "sentence_parts": [
+                        "أضغط",
+                        "الرابط",
+                        "لفتح",
+                        "موقع",
+                        "العمل"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "رابط",
+                "ملف",
+                "مجلد",
+                "رسالة"
+            ],
+            "correct_answer": "رابط"
+        },
+        {
+            "word": "برنامج",
+            "translation_english": "program",
+            "translation_native": "program",
+            "pronunciation": "barnamaj",
+            "examples": [
+                {
+                    "sentence": "أثبت البرنامج على الحاسوب الجديد",
+                    "translation_english": "I install the program on the new computer",
+                    "translation_native": "I install the program on the new computer",
+                    "sentence_parts": [
+                        "أثبت",
+                        "البرنامج",
+                        "على",
+                        "الحاسوب",
+                        "الجديد"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "برنامج",
+                "تطبيق",
+                "ملف",
+                "مجلد"
+            ],
+            "correct_answer": "برنامج"
+        },
+        {
+            "word": "تطبيق",
+            "translation_english": "application",
+            "translation_native": "application",
+            "pronunciation": "tatbiq",
+            "examples": [
+                {
+                    "sentence": "أفتح التطبيق للتواصل مع الزملاء",
+                    "translation_english": "I open the application to communicate with colleagues",
+                    "translation_native": "I open the application to communicate with colleagues",
+                    "sentence_parts": [
+                        "أفتح",
+                        "التطبيق",
+                        "للتواصل",
+                        "مع",
+                        "الزملاء"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "تطبيق",
+                "برنامج",
+                "رابط",
+                "رسالة"
+            ],
+            "correct_answer": "تطبيق"
+        },
+        {
+            "word": "زميل",
+            "translation_english": "colleague",
+            "translation_native": "colleague",
+            "pronunciation": "zamil",
+            "examples": [
+                {
+                    "sentence": "أساعد الزميل في كتابة التقرير",
+                    "translation_english": "I help the colleague in writing the report",
+                    "translation_native": "I help the colleague in writing the report",
+                    "sentence_parts": [
+                        "أساعد",
+                        "الزميل",
+                        "في",
+                        "كتابة",
+                        "التقرير"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "زميل",
+                "مدير",
+                "زبون",
+                "موظف"
+            ],
+            "correct_answer": "زميل"
+        },
+        {
+            "word": "تقرير",
+            "translation_english": "report",
+            "translation_native": "report",
+            "pronunciation": "taqrir",
+            "examples": [
+                {
+                    "sentence": "أرسل التقرير إلى المدير صباحا",
+                    "translation_english": "I send the report to the manager in the morning",
+                    "translation_native": "I send the report to the manager in the morning",
+                    "sentence_parts": [
+                        "أرسل",
+                        "التقرير",
+                        "إلى",
+                        "المدير",
+                        "صباحا"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "تقرير",
+                "ملف",
+                "مهمة",
+                "رسالة"
+            ],
+            "correct_answer": "تقرير"
+        },
+        {
+            "word": "عرض",
+            "translation_english": "presentation",
+            "translation_native": "presentation",
+            "pronunciation": "ard",
+            "examples": [
+                {
+                    "sentence": "أقدم عرض العمل أمام الجميع",
+                    "translation_english": "I give the work presentation in front of everyone",
+                    "translation_native": "I give the work presentation in front of everyone",
+                    "sentence_parts": [
+                        "أقدم",
+                        "عرض",
+                        "العمل",
+                        "أمام",
+                        "الجميع"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "عرض",
+                "اجتماع",
+                "مهمة",
+                "مشروع"
+            ],
+            "correct_answer": "عرض"
+        },
+        {
+            "word": "مستند",
+            "translation_english": "document",
+            "translation_native": "document",
+            "pronunciation": "mustanad",
+            "examples": [
+                {
+                    "sentence": "أوقع المستند بقلمي الخاص اليوم",
+                    "translation_english": "I sign the document with my own pen today",
+                    "translation_native": "I sign the document with my own pen today",
+                    "sentence_parts": [
+                        "أوقع",
+                        "المستند",
+                        "بقلمي",
+                        "الخاص",
+                        "اليوم"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "مستند",
+                "ملف",
+                "ورقة",
+                "رسالة"
+            ],
+            "correct_answer": "مستند"
+        },
+        {
+            "word": "مؤتمر",
+            "translation_english": "conference",
+            "translation_native": "conference",
+            "pronunciation": "mu'tamar",
+            "examples": [
+                {
+                    "sentence": "أحضر المؤتمر لمقابلة خبراء العمل",
+                    "translation_english": "I attend the conference to meet work experts",
+                    "translation_native": "I attend the conference to meet work experts",
+                    "sentence_parts": [
+                        "أحضر",
+                        "المؤتمر",
+                        "لمقابلة",
+                        "خبراء",
+                        "العمل"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "مؤتمر",
+                "اجتماع",
+                "حفلة",
+                "عرض"
+            ],
+            "correct_answer": "مؤتمر"
+        },
+        {
+            "word": "مكالمة",
+            "translation_english": "call",
+            "translation_native": "call",
+            "pronunciation": "mukalama",
+            "examples": [
+                {
+                    "sentence": "أجري مكالمة هاتفية مع العميل",
+                    "translation_english": "I make a phone call with the client",
+                    "translation_native": "I make a phone call with the client",
+                    "sentence_parts": [
+                        "أجري",
+                        "مكالمة",
+                        "هاتفية",
+                        "مع",
+                        "العميل"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "مكالمة",
+                "رسالة",
+                "اجتماع",
+                "عرض"
+            ],
+            "correct_answer": "مكالمة"
+        },
+        {
+            "word": "موعد",
+            "translation_english": "appointment",
+            "translation_native": "appointment",
+            "pronunciation": "maw'id",
+            "examples": [
+                {
+                    "sentence": "أحدد موعد المقابلة مع المدير",
+                    "translation_english": "I set the interview appointment with the manager",
+                    "translation_native": "I set the interview appointment with the manager",
+                    "sentence_parts": [
+                        "أحدد",
+                        "موعد",
+                        "المقابلة",
+                        "مع",
+                        "المدير"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "موعد",
+                "اجتماع",
+                "مهمة",
+                "عطلة"
+            ],
+            "correct_answer": "موعد"
+        },
+        {
+            "word": "عقد",
+            "translation_english": "contract",
+            "translation_native": "contract",
+            "pronunciation": "aqd",
+            "examples": [
+                {
+                    "sentence": "أقرأ العقد قبل توقيعه رسميا",
+                    "translation_english": "I read the contract before signing it officially",
+                    "translation_native": "I read the contract before signing it officially",
+                    "sentence_parts": [
+                        "أقرأ",
+                        "العقد",
+                        "قبل",
+                        "توقيعه",
+                        "رسميا"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "عقد",
+                "مستند",
+                "ملف",
+                "ورقة"
+            ],
+            "correct_answer": "عقد"
+        },
+        {
+            "word": "فريق",
+            "translation_english": "team",
+            "translation_native": "team",
+            "pronunciation": "fariq",
+            "examples": [
+                {
+                    "sentence": "أعمل مع فريق متميز جدا",
+                    "translation_english": "I work with a very distinguished team",
+                    "translation_native": "I work with a very distinguished team",
+                    "sentence_parts": [
+                        "أعمل",
+                        "مع",
+                        "فريق",
+                        "متميز",
+                        "جدا"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "فريق",
+                "زملاء",
+                "زبائن",
+                "مدراء"
+            ],
+            "correct_answer": "فريق"
+        },
+        {
+            "word": "مكافأة",
+            "translation_english": "bonus",
+            "translation_native": "bonus",
+            "pronunciation": "mukafa'a",
+            "examples": [
+                {
+                    "sentence": "أستلم مكافأة عملي نهاية السنة",
+                    "translation_english": "I receive my work bonus end of the year",
+                    "translation_native": "I receive my work bonus end of the year",
+                    "sentence_parts": [
+                        "أستلم",
+                        "مكافأة",
+                        "عملي",
+                        "نهاية",
+                        "السنة"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "مكافأة",
+                "راتب",
+                "خصم",
+                "سعر"
+            ],
+            "correct_answer": "مكافأة"
+        },
+        {
+            "word": "مهنة",
+            "translation_english": "profession",
+            "translation_native": "profession",
+            "pronunciation": "mihna",
+            "examples": [
+                {
+                    "sentence": "أحب مهنة البرمجة كثيرا جدا",
+                    "translation_english": "I love the programming profession very much",
+                    "translation_native": "I love the programming profession very much",
+                    "sentence_parts": [
+                        "أحب",
+                        "مهنة",
+                        "البرمجة",
+                        "كثيرا",
+                        "جدا"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "مهنة",
+                "عمل",
+                "وظيفة",
+                "نشاط"
+            ],
+            "correct_answer": "مهنة"
+        },
+        {
+            "word": "السيرة الذاتية",
+            "translation_english": "the resume",
+            "translation_native": "the resume",
+            "pronunciation": "as-seerah adh-dhateeyah",
+            "examples": [
+                {
+                    "sentence": "أنا أرسلت السيرة الذاتية إلى الشركة اليوم.",
+                    "translation_english": "I sent the resume to the company today.",
+                    "translation_native": "I sent the resume to the company today.",
+                    "sentence_parts": [
+                        "أنا",
+                        "أرسلت",
+                        "السيرة",
+                        "الذاتية",
+                        "إلى",
+                        "الشركة",
+                        "اليوم"
+                    ],
+                    "level": "easy"
+                },
+                {
+                    "sentence": "يجب تحديث السيرة الذاتية قبل التقديم للوظيفة.",
+                    "translation_english": "You must update the resume before applying for the job.",
+                    "translation_native": "You must update the resume before applying for the job.",
+                    "sentence_parts": [
+                        "يجب",
+                        "تحديث",
+                        "السيرة",
+                        "الذاتية",
+                        "قبل",
+                        "التقديم",
+                        "للوظيفة"
+                    ],
+                    "level": "medium"
+                },
+                {
+                    "sentence": "راجع المدير السيرة الذاتية الخاصة بي بعناية.",
+                    "translation_english": "The manager reviewed my resume carefully.",
+                    "translation_native": "The manager reviewed my resume carefully.",
+                    "sentence_parts": [
+                        "راجع",
+                        "المدير",
+                        "السيرة",
+                        "الذاتية",
+                        "الخاصة",
+                        "بي",
+                        "بعناية"
+                    ],
+                    "level": "hard"
+                }
+            ],
+            "options": [
+                "السيرة الذاتية",
+                "الراتب الشهري",
+                "البريد الإلكتروني",
+                "العقد الجديد"
+            ],
+            "correct_answer": "السيرة الذاتية"
+        },
+        {
+            "word": "المقابلة",
+            "translation_english": "the interview",
+            "translation_native": "the interview",
+            "pronunciation": "al-muqabalah",
+            "examples": [
+                {
+                    "sentence": "عندي المقابلة الشخصية غدا في الصباح الباكر.",
+                    "translation_english": "I have the personal interview tomorrow in the early morning.",
+                    "translation_native": "I have the personal interview tomorrow in the early morning.",
+                    "sentence_parts": [
+                        "عندي",
+                        "المقابلة",
+                        "الشخصية",
+                        "غدا",
+                        "في",
+                        "الصباح",
+                        "الباكر"
+                    ],
+                    "level": "easy"
+                },
+                {
+                    "sentence": "أنا أنتظر المقابلة عبر تطبيق زوم الآن.",
+                    "translation_english": "I am waiting for the interview via Zoom app now.",
+                    "translation_native": "I am waiting for the interview via Zoom app now.",
+                    "sentence_parts": [
+                        "أنا",
+                        "أنتظر",
+                        "المقابلة",
+                        "عبر",
+                        "تطبيق",
+                        "زوم",
+                        "الآن"
+                    ],
+                    "level": "medium"
+                },
+                {
+                    "sentence": "نجحت في المقابلة وحصلت على هذا العمل.",
+                    "translation_english": "I passed the interview and got this job.",
+                    "translation_native": "I passed the interview and got this job.",
+                    "sentence_parts": [
+                        "نجحت",
+                        "في",
+                        "المقابلة",
+                        "وحصلت",
+                        "على",
+                        "هذا",
+                        "العمل"
+                    ],
+                    "level": "hard"
+                }
+            ],
+            "options": [
+                "المقابلة",
+                "الشركة",
+                "المهارة",
+                "الحقيبة"
+            ],
+            "correct_answer": "المقابلة"
+        },
+        {
+            "word": "الوظيفة",
+            "translation_english": "the job",
+            "translation_native": "the job",
+            "pronunciation": "al-wadhifah",
+            "examples": [
+                {
+                    "sentence": "أريد الحصول على الوظيفة في هذه الشركة.",
+                    "translation_english": "I want to get the job in this company.",
+                    "translation_native": "I want to get the job in this company.",
+                    "sentence_parts": [
+                        "أريد",
+                        "الحصول",
+                        "على",
+                        "الوظيفة",
+                        "في",
+                        "هذه",
+                        "الشركة"
+                    ],
+                    "level": "easy"
+                },
+                {
+                    "sentence": "قدمت طلبا للحصول على الوظيفة الجديدة أمس.",
+                    "translation_english": "I submitted an application to get the new job yesterday.",
+                    "translation_native": "I submitted an application to get the new job yesterday.",
+                    "sentence_parts": [
+                        "قدمت",
+                        "طلبا",
+                        "للحصول",
+                        "على",
+                        "الوظيفة",
+                        "الجديدة",
+                        "أمس"
+                    ],
+                    "level": "medium"
+                },
+                {
+                    "sentence": "أبحث عن الوظيفة المناسبة لمجال دراستي حاليا.",
+                    "translation_english": "I am looking for the suitable job for my field of study currently.",
+                    "translation_native": "I am looking for the suitable job for my field of study currently.",
+                    "sentence_parts": [
+                        "أبحث",
+                        "عن",
+                        "الوظيفة",
+                        "المناسبة",
+                        "لمجال",
+                        "دراستي",
+                        "حاليا"
+                    ],
+                    "level": "hard"
+                }
+            ],
+            "options": [
+                "الوظيفة",
+                "الكمبيوتر",
+                "الملف",
+                "الاجتماع"
+            ],
+            "correct_answer": "الوظيفة"
+        },
+        {
+            "word": "الشركة",
+            "translation_english": "the company",
+            "translation_native": "the company",
+            "pronunciation": "ash-sharikah",
+            "examples": [
+                {
+                    "sentence": "أعمل في الشركة التي تطور ألعاب الفيديو.",
+                    "translation_english": "I work in the company that develops video games.",
+                    "translation_native": "I work in the company that develops video games.",
+                    "sentence_parts": [
+                        "أعمل",
+                        "في",
+                        "الشركة",
+                        "التي",
+                        "تطور",
+                        "ألعاب",
+                        "الفيديو"
+                    ],
+                    "level": "easy"
+                },
+                {
+                    "sentence": "تبحث الشركة عن مصممين للعمل بدوام جزئي.",
+                    "translation_english": "The company looks for designers to work part-time.",
+                    "translation_native": "The company looks for designers to work part-time.",
+                    "sentence_parts": [
+                        "تبحث",
+                        "الشركة",
+                        "عن",
+                        "مصممين",
+                        "للعمل",
+                        "بدوام",
+                        "جزئي"
+                    ],
+                    "level": "medium"
+                },
+                {
+                    "sentence": "هذه الشركة تقدم خدمات تقنية رائعة للشباب.",
+                    "translation_english": "This company offers great technical services to youth.",
+                    "translation_native": "This company offers great technical services to youth.",
+                    "sentence_parts": [
+                        "هذه",
+                        "الشركة",
+                        "تقدم",
+                        "خدمات",
+                        "تقنية",
+                        "رائعة",
+                        "للشباب"
+                    ],
+                    "level": "hard"
+                }
+            ],
+            "options": [
+                "الشركة",
+                "المهارة",
+                "الخدمة",
+                "المقابلة"
+            ],
+            "correct_answer": "الشركة"
+        },
+        {
+            "word": "المكتب",
+            "translation_english": "the office",
+            "translation_native": "the office",
+            "pronunciation": "al-maktab",
+            "examples": [
+                {
+                    "sentence": "أعمل من المكتب الخاص بالشركة الناشئة اليوم.",
+                    "translation_english": "I work from the startup company's office today.",
+                    "translation_native": "I work from the startup company's office today.",
+                    "sentence_parts": [
+                        "أعمل",
+                        "من",
+                        "المكتب",
+                        "الخاص",
+                        "بالشركة",
+                        "الناشئة",
+                        "اليوم"
+                    ],
+                    "level": "easy"
+                },
+                {
+                    "sentence": "يحتوي المكتب على مساحة مخصصة لألعاب الفيديو.",
+                    "translation_english": "The office contains an area dedicated to video games.",
+                    "translation_native": "The office contains an area dedicated to video games.",
+                    "sentence_parts": [
+                        "يحتوي",
+                        "المكتب",
+                        "على",
+                        "مساحة",
+                        "مخصصة",
+                        "لألعاب",
+                        "الفيديو"
+                    ],
+                    "level": "medium"
+                },
+                {
+                    "sentence": "ذهبنا إلى المكتب لتوقيع الأوراق الرسمية معا.",
+                    "translation_english": "We went to the office to sign official papers together.",
+                    "translation_native": "We went to the office to sign official papers together.",
+                    "sentence_parts": [
+                        "ذهبنا",
+                        "إلى",
+                        "المكتب",
+                        "لتوقيع",
+                        "الأوراق",
+                        "الرسمية",
+                        "معا"
+                    ],
+                    "level": "hard"
+                }
+            ],
+            "options": [
+                "المكتب",
+                "المقابلة",
+                "المهارة",
+                "السيرة الذاتية"
+            ],
+            "correct_answer": "المكتب"
+        },
+        {
+            "word": "المدير",
+            "translation_english": "the boss",
+            "translation_native": "the boss",
+            "pronunciation": "al-mudeer",
+            "examples": [
+                {
+                    "sentence": "تحدثت مع المدير اليوم عن مواعيد عملي.",
+                    "translation_english": "I spoke with the boss today about my work hours.",
+                    "translation_native": "I spoke with the boss today about my work hours.",
+                    "sentence_parts": [
+                        "تحدثت",
+                        "مع",
+                        "المدير",
+                        "اليوم",
+                        "عن",
+                        "مواعيد",
+                        "عملي"
+                    ],
+                    "level": "easy"
+                },
+                {
+                    "sentence": "وافق المدير على إجازتي الصيفية هذا الأسبوع.",
+                    "translation_english": "The boss approved my summer vacation this week.",
+                    "translation_native": "The boss approved my summer vacation this week.",
+                    "sentence_parts": [
+                        "وافق",
+                        "المدير",
+                        "على",
+                        "إجازتي",
+                        "الصيفية",
+                        "هذا",
+                        "الأسبوع"
+                    ],
+                    "level": "medium"
+                },
+                {
+                    "sentence": "المدير الجديد يشجع الأفكار الإبداعية لدى الشباب.",
+                    "translation_english": "The new boss encourages creative ideas among youth.",
+                    "translation_native": "The new boss encourages creative ideas among youth.",
+                    "sentence_parts": [
+                        "المدير",
+                        "الجديد",
+                        "يشجع",
+                        "الأفكار",
+                        "الإبداعية",
+                        "لدى",
+                        "الشباب"
+                    ],
+                    "level": "hard"
+                }
+            ],
+            "options": [
+                "المدير",
+                "المشروع",
+                "العقد",
+                "الملف"
+            ],
+            "correct_answer": "المدير"
+        },
+        {
+            "word": "البريد الإلكتروني",
+            "translation_english": "the email",
+            "translation_native": "the email",
+            "pronunciation": "al-bareed al-iliktroonee",
+            "examples": [
+                {
+                    "sentence": "أنا تلقيت البريد الإلكتروني الذي يحتوي رابط زوم.",
+                    "translation_english": "I received the email containing the Zoom link.",
+                    "translation_native": "I received the email containing the Zoom link.",
+                    "sentence_parts": [
+                        "أنا",
+                        "تلقيت",
+                        "البريد",
+                        "الإلكتروني",
+                        "الذي",
+                        "يحتوي",
+                        "رابط",
+                        "زوم"
+                    ],
+                    "level": "easy"
+                },
+                {
+                    "sentence": "أرسلت البريد الإلكتروني الخاص بالشكر بعد المقابلة.",
+                    "translation_english": "I sent the thank-you email after the interview.",
+                    "translation_native": "I sent the thank-you email after the interview.",
+                    "sentence_parts": [
+                        "أرسلت",
+                        "البريد",
+                        "الإلكتروني",
+                        "الخاص",
+                        "بالشكر",
+                        "بعد",
+                        "المقابلة"
+                    ],
+                    "level": "medium"
+                },
+                {
+                    "sentence": "يرجى فحص البريد الإلكتروني لتأكيد حضورك غدا.",
+                    "translation_english": "Please check the email to confirm your attendance tomorrow.",
+                    "translation_native": "Please check the email to confirm your attendance tomorrow.",
+                    "sentence_parts": [
+                        "يرجى",
+                        "فحص",
+                        "البريد",
+                        "الإلكتروني",
+                        "لتأكيد",
+                        "حضورك",
+                        "غدا"
+                    ],
+                    "level": "hard"
+                }
+            ],
+            "options": [
+                "البريد الإلكتروني",
+                "الراتب الشهري",
+                "السيرة الذاتية",
+                "العقد الجديد"
+            ],
+            "correct_answer": "البريد الإلكتروني"
+        },
+        {
+            "word": "المشروع",
+            "translation_english": "the project",
+            "translation_native": "the project",
+            "pronunciation": "al-mashroo'",
+            "examples": [
+                {
+                    "sentence": "أنهيت المشروع المدرسي قبل الوقت المحدد بدقائق.",
+                    "translation_english": "I finished the school project minutes before the set time.",
+                    "translation_native": "I finished the school project minutes before the set time.",
+                    "sentence_parts": [
+                        "أنهيت",
+                        "المشروع",
+                        "المدرسي",
+                        "قبل",
+                        "الوقت",
+                        "المحدد",
+                        "بدقائق"
+                    ],
+                    "level": "easy"
+                },
+                {
+                    "sentence": "نحن نعرض المشروع الخاص بالتصميم على الطلاب.",
+                    "translation_english": "We present the design project to the students.",
+                    "translation_native": "We present the design project to the students.",
+                    "sentence_parts": [
+                        "نحن",
+                        "نعرض",
+                        "المشروع",
+                        "الخاص",
+                        "بالتصميم",
+                        "على",
+                        "الطلاب"
+                    ],
+                    "level": "medium"
+                },
+                {
+                    "sentence": "يتطلب هذا المشروع الكثير من العمل الجماعي دائما.",
+                    "translation_english": "This project always requires a lot of teamwork.",
+                    "translation_native": "This project always requires a lot of teamwork.",
+                    "sentence_parts": [
+                        "يتطلب",
+                        "هذا",
+                        "المشروع",
+                        "الكثير",
+                        "من",
+                        "العمل",
+                        "الجماعي",
+                        "دائما"
+                    ],
+                    "level": "hard"
+                }
+            ],
+            "options": [
+                "المشروع",
+                "البريد الإلكتروني",
+                "الجدول",
+                "الملف"
+            ],
+            "correct_answer": "المشروع"
+        },
+        {
+            "word": "الفريق",
+            "translation_english": "the team",
+            "translation_native": "the team",
+            "pronunciation": "al-fariq",
+            "examples": [
+                {
+                    "sentence": "أعمل مع الفريق في إدارة وسائل التواصل.",
+                    "translation_english": "I work with the team in managing social media.",
+                    "translation_native": "I work with the team in managing social media.",
+                    "sentence_parts": [
+                        "أعمل",
+                        "مع",
+                        "الفريق",
+                        "في",
+                        "إدارة",
+                        "وسائل",
+                        "التواصل"
+                    ],
+                    "level": "easy"
+                },
+                {
+                    "sentence": "يشارك الفريق الأفكار الجديدة في المحادثة الجماعية.",
+                    "translation_english": "The team shares new ideas in the group chat.",
+                    "translation_native": "The team shares new ideas in the group chat.",
+                    "sentence_parts": [
+                        "يشارك",
+                        "الفريق",
+                        "الأفكار",
+                        "الجديدة",
+                        "في",
+                        "المحادثة",
+                        "الجماعية"
+                    ],
+                    "level": "medium"
+                },
+                {
+                    "sentence": "فاز الفريق الخاص بنا في مسابقة البرمجة.",
+                    "translation_english": "Our team won in the programming contest.",
+                    "translation_native": "Our team won in the programming contest.",
+                    "sentence_parts": [
+                        "فاز",
+                        "الفريق",
+                        "الخاص",
+                        "بنا",
+                        "في",
+                        "مسابقة",
+                        "البرمجة"
+                    ],
+                    "level": "hard"
+                }
+            ],
+            "options": [
+                "الفريق",
+                "الراتب",
+                "الملف",
+                "العقد"
+            ],
+            "correct_answer": "الفريق"
+        },
+        {
+            "word": "الاجتماع",
+            "translation_english": "the meeting",
+            "translation_native": "the meeting",
+            "pronunciation": "al-ijtima'",
+            "examples": [
+                {
+                    "sentence": "عندنا الاجتماع الخاص بالفريق عبر تطبيق ديسكورد.",
+                    "translation_english": "We have the team meeting via Discord application.",
+                    "translation_native": "We have the team meeting via Discord application.",
+                    "sentence_parts": [
+                        "عندنا",
+                        "الاجتماع",
+                        "الخاص",
+                        "بالفريق",
+                        "عبر",
+                        "تطبيق",
+                        "ديسكورد"
+                    ],
+                    "level": "easy"
+                },
+                {
+                    "sentence": "كان الاجتماع اليوم مفيدا جدا لجميع الأعضاء.",
+                    "translation_english": "Today's meeting was very useful for all members.",
+                    "translation_native": "Today's meeting was very useful for all members.",
+                    "sentence_parts": [
+                        "كان",
+                        "الاجتماع",
+                        "اليوم",
+                        "مفيدا",
+                        "جدا",
+                        "لجميع",
+                        "الأعضاء"
+                    ],
+                    "level": "medium"
+                },
+                {
+                    "sentence": "حددت موعد الاجتماع الجديد مع العميل ظهرا.",
+                    "translation_english": "I scheduled the new meeting with the client at noon.",
+                    "translation_native": "I scheduled the new meeting with the client at noon.",
+                    "sentence_parts": [
+                        "حددت",
+                        "موعد",
+                        "الاجتماع",
+                        "الجديد",
+                        "مع",
+                        "العميل",
+                        "ظهرا"
+                    ],
+                    "level": "hard"
+                }
+            ],
+            "options": [
+                "الاجتماع",
+                "التدريب",
+                "الموقع الإلكتروني",
+                "الجدول"
+            ],
+            "correct_answer": "الاجتماع"
+        },
+        {
+            "word": "العقد",
+            "translation_english": "the contract",
+            "translation_native": "the contract",
+            "pronunciation": "al-'aqd",
+            "examples": [
+                {
+                    "sentence": "وقعت العقد الخاص بأول عمل حقيقي لي.",
+                    "translation_english": "I signed the contract of my first real job.",
+                    "translation_native": "I signed the contract of my first real job.",
+                    "sentence_parts": [
+                        "وقعت",
+                        "العقد",
+                        "الخاص",
+                        "بأول",
+                        "عمل",
+                        "حقيقي",
+                        "لي"
+                    ],
+                    "level": "easy"
+                },
+                {
+                    "sentence": "قرأنا العقد جيدا بعناية قبل التوقيع النهائي.",
+                    "translation_english": "We read the contract well with care before final signature.",
+                    "translation_native": "We read the contract well with care before final signature.",
+                    "sentence_parts": [
+                        "قرأنا",
+                        "العقد",
+                        "جيدا",
+                        "بعناية",
+                        "قبل",
+                        "التوقيع",
+                        "النهائي"
+                    ],
+                    "level": "medium"
+                },
+                {
+                    "sentence": "يحدد العقد عدد ساعات العمل في الأسبوع.",
+                    "translation_english": "The contract defines the number of work hours per week.",
+                    "translation_native": "The contract defines the number of work hours per week.",
+                    "sentence_parts": [
+                        "يحدد",
+                        "العقد",
+                        "عدد",
+                        "ساعات",
+                        "العمل",
+                        "في",
+                        "الأسبوع"
+                    ],
+                    "level": "hard"
+                }
+            ],
+            "options": [
+                "العقد",
+                "السيرة الذاتية",
+                "الراتب",
+                "البريد الإلكتروني"
+            ],
+            "correct_answer": "العقد"
+        },
+        {
+            "word": "الراتب",
+            "translation_english": "the salary",
+            "translation_native": "the salary",
+            "pronunciation": "ar-ratib",
+            "examples": [
+                {
+                    "sentence": "تقدم الشركة الراتب المناسب للشباب في البداية.",
+                    "translation_english": "The company offers the suitable salary to youth at the beginning.",
+                    "translation_native": "The company offers the suitable salary to youth at the beginning.",
+                    "sentence_parts": [
+                        "تقدم",
+                        "الشركة",
+                        "الراتب",
+                        "المناسب",
+                        "للشباب",
+                        "في",
+                        "البداية"
+                    ],
+                    "level": "easy"
+                },
+                {
+                    "sentence": "أريد مناقشة الراتب الجديد قبل توقيع العقد.",
+                    "translation_english": "I want to discuss the new salary before signing the contract.",
+                    "translation_native": "I want to discuss the new salary before signing the contract.",
+                    "sentence_parts": [
+                        "أريد",
+                        "مناقشة",
+                        "الراتب",
+                        "الجديد",
+                        "قبل",
+                        "توقيع",
+                        "العقد"
+                    ],
+                    "level": "medium"
+                },
+                {
+                    "sentence": "هذا الراتب يغطي تكاليف دراستي الجامعية بالكامل.",
+                    "translation_english": "This salary covers my university studies' costs entirely.",
+                    "translation_native": "This salary covers my university studies' costs entirely.",
+                    "sentence_parts": [
+                        "هذا",
+                        "الراتب",
+                        "يغطي",
+                        "تكاليف",
+                        "دراستي",
+                        "الجامعية",
+                        "بالكامل"
+                    ],
+                    "level": "hard"
+                }
+            ],
+            "options": [
+                "الراتب",
+                "البريد الإلكتروني",
+                "المشروع",
+                "الكمبيوتر"
+            ],
+            "correct_answer": "الراتب"
+        },
+        {
+            "word": "الكمبيوتر",
+            "translation_english": "the computer",
+            "translation_native": "the computer",
+            "pronunciation": "al-kambyooter",
+            "examples": [
+                {
+                    "sentence": "أحتاج الكمبيوتر المحمول لإتمام مهام تدريبي الجديد.",
+                    "translation_english": "I need the laptop computer to complete my new internship tasks.",
+                    "translation_native": "I need the laptop computer to complete my new internship tasks.",
+                    "sentence_parts": [
+                        "أحتاج",
+                        "الكمبيوتر",
+                        "المحمول",
+                        "لإتمام",
+                        "مهام",
+                        "تدريبي",
+                        "الجديد"
+                    ],
+                    "level": "easy"
+                },
+                {
+                    "sentence": "يعمل الكمبيوتر في المكتب بشكل سريع جدا الآن.",
+                    "translation_english": "The computer in the office works very quickly now.",
+                    "translation_native": "يعمل الكمبيوتر في المكتب بشكل سريع جدا الآن.",
+                    "sentence_parts": [
+                        "يعمل",
+                        "الكمبيوتر",
+                        "في",
+                        "المكتب",
+                        "بشكل",
+                        "سريع",
+                        "جدا",
+                        "الآن"
+                    ],
+                    "level": "medium"
+                },
+                {
+                    "sentence": "أستخدم الكمبيوتر لتعديل الفيديوهات ومقاطع الصوت دائما.",
+                    "translation_english": "I always use the computer to edit videos and audio clips.",
+                    "translation_native": "I always use the computer to edit videos and audio clips.",
+                    "sentence_parts": [
+                        "أستخدم",
+                        "الكمبيوتر",
+                        "لتعديل",
+                        "الفيديوهات",
+                        "ومقاطع",
+                        "الصوت",
+                        "دائما"
+                    ],
+                    "level": "hard"
+                }
+            ],
+            "options": [
+                "الكمبيوتر",
+                "الشركة",
+                "المقابلة",
+                "البرمجة"
+            ],
+            "correct_answer": "الكمبيوتر"
+        },
+        {
+            "word": "الهاتف",
+            "translation_english": "the phone",
+            "translation_native": "the phone",
+            "pronunciation": "al-hatif",
+            "examples": [
+                {
+                    "sentence": "أستخدم الهاتف الذكي للرد على رسائل العمل.",
+                    "translation_english": "I use the smart phone to reply to work messages.",
+                    "translation_native": "I use the smart phone to reply to work messages.",
+                    "sentence_parts": [
+                        "أستخدم",
+                        "الهاتف",
+                        "الذكي",
+                        "للرد",
+                        "على",
+                        "رسائل",
+                        "العمل"
+                    ],
+                    "level": "easy"
+                },
+                {
+                    "sentence": "رن الهاتف الخاص بي أثناء الاجتماع مع المدير.",
+                    "translation_english": "My phone rang during the meeting with the manager.",
+                    "translation_native": "My phone rang during the meeting with the manager.",
+                    "sentence_parts": [
+                        "رن",
+                        "الهاتف",
+                        "الخاص",
+                        "بي",
+                        "أثناء",
+                        "الاجتماع",
+                        "مع",
+                        "المدير"
+                    ],
+                    "level": "medium"
+                },
+                {
+                    "sentence": "يجب إغلاق الهاتف أثناء المقابلة الشخصية غدا.",
+                    "translation_english": "You must turn off the phone during the personal interview tomorrow.",
+                    "translation_native": "You must turn off the phone during the personal interview tomorrow.",
+                    "sentence_parts": [
+                        "يجب",
+                        "إغلاق",
+                        "الهاتف",
+                        "أثناء",
+                        "المقابلة",
+                        "الشخصية",
+                        "غدا"
+                    ],
+                    "level": "hard"
+                }
+            ],
+            "options": [
+                "الهاتف",
+                "الراتب",
+                "المشروع",
+                "العقد"
+            ],
+            "correct_answer": "الهاتف"
+        },
+        {
+            "word": "الموقع الإلكتروني",
+            "translation_english": "the website",
+            "translation_native": "the website",
+            "pronunciation": "al-mawqi' al-iliktroonee",
+            "examples": [
+                {
+                    "sentence": "أنا صممت الموقع الإلكتروني الخاص بمتجر الملابس الجديد.",
+                    "translation_english": "I designed the website of the new clothing store.",
+                    "translation_native": "I designed the website of the new clothing store.",
+                    "sentence_parts": [
+                        "أنا",
+                        "صممت",
+                        "الموقع",
+                        "الإلكتروني",
+                        "الخاص",
+                        "بمتجر",
+                        "الملابس",
+                        "الجديد"
+                    ],
+                    "level": "easy"
+                },
+                {
+                    "sentence": "يحتوي الموقع الإلكتروني على واجهة تفاعلية رائعة.",
+                    "translation_english": "The website contains a wonderful interactive interface.",
+                    "translation_native": "The website contains a wonderful interactive interface.",
+                    "sentence_parts": [
+                        "يحتوي",
+                        "الموقع",
+                        "الإلكتروني",
+                        "على",
+                        "واجهة",
+                        "تفاعلية",
+                        "رائعة"
+                    ],
+                    "level": "medium"
+                },
+                {
+                    "sentence": "نطور الموقع الإلكتروني لشركة البرمجيات الكبرى حاليا.",
+                    "translation_english": "We are currently developing the website for the big software company.",
+                    "translation_native": "We are currently developing the website for the big software company.",
+                    "sentence_parts": [
+                        "نطور",
+                        "الموقع",
+                        "الإلكتروني",
+                        "لشركة",
+                        "البرمجيات",
+                        "الكبرى",
+                        "حاليا"
+                    ],
+                    "level": "hard"
+                }
+            ],
+            "options": [
+                "الموقع الإلكتروني",
+                "الراتب الشهري",
+                "البريد الإلكتروني",
+                "العقد الجديد"
+            ],
+            "correct_answer": "الموقع الإلكتروني"
+        },
+        {
+            "word": "العمل",
+            "translation_english": "the work",
+            "translation_native": "the work",
+            "pronunciation": "al-'amal",
+            "examples": [
+                {
+                    "sentence": "حصلت على العمل المؤقت ككاتب محتوى مبدع.",
+                    "translation_english": "I got the temporary work as a creative content writer.",
+                    "translation_native": "I got the temporary work as a creative content writer.",
+                    "sentence_parts": [
+                        "حصلت",
+                        "على",
+                        "العمل",
+                        "المؤقت",
+                        "ككاتب",
+                        "محتوى",
+                        "مبدع"
+                    ],
+                    "level": "easy"
+                },
+                {
+                    "sentence": "هذا العمل يوفر فرصا كثيرة للتطور المهني.",
+                    "translation_english": "This work offers many opportunities for professional development.",
+                    "translation_native": "This work offers many opportunities for professional development.",
+                    "sentence_parts": [
+                        "هذا",
+                        "العمل",
+                        "يوفر",
+                        "فرصا",
+                        "كثيرة",
+                        "للتطور",
+                        "المهني"
+                    ],
+                    "level": "medium"
+                },
+                {
+                    "sentence": "أبحث عن العمل المتصل بالتقنيات الحديثة حاليا.",
+                    "translation_english": "I am looking for work related to modern technologies currently.",
+                    "translation_native": "I am looking for work related to modern technologies currently.",
+                    "sentence_parts": [
+                        "أبحث",
+                        "عن",
+                        "العمل",
+                        "المتصل",
+                        "بالتقنيات",
+                        "الحديثة",
+                        "حاليا"
+                    ],
+                    "level": "hard"
+                }
+            ],
+            "options": [
+                "العمل",
+                "الراتب",
+                "العقد",
+                "الجدول"
+            ],
+            "correct_answer": "العمل"
+        },
+        {
+            "word": "التدريب",
+            "translation_english": "the internship",
+            "translation_native": "the internship",
+            "pronunciation": "at-tadreeb",
+            "examples": [
+                {
+                    "sentence": "أبحث عن التدريب العملي لكسب الخبرة المناسبة.",
+                    "translation_english": "I am looking for the practical internship to gain suitable experience.",
+                    "translation_native": "I am looking for the practical internship to gain suitable experience.",
+                    "sentence_parts": [
+                        "أبحث",
+                        "عن",
+                        "التدريب",
+                        "العملي",
+                        "لكسب",
+                        "الخبرة",
+                        "المناسبة"
+                    ],
+                    "level": "easy"
+                },
+                {
+                    "sentence": "بدأت التدريب الصيفي الخاص بي في الشركة.",
+                    "translation_english": "I started my summer internship in the company.",
+                    "translation_native": "I started my summer internship in the company.",
+                    "sentence_parts": [
+                        "بدأت",
+                        "التدريب",
+                        "الصيفي",
+                        "الخاص",
+                        "بي",
+                        "في",
+                        "الشركة"
+                    ],
+                    "level": "medium"
+                },
+                {
+                    "sentence": "هذا التدريب يقدم فرصة رائعة للتعلم السريع.",
+                    "translation_english": "This internship offers a wonderful opportunity for fast learning.",
+                    "translation_native": "This internship offers a wonderful opportunity for fast learning.",
+                    "sentence_parts": [
+                        "هذا",
+                        "التدريب",
+                        "يقدم",
+                        "فرصة",
+                        "رائعة",
+                        "للتعلم",
+                        "السريع"
+                    ],
+                    "level": "hard"
+                }
+            ],
+            "options": [
+                "التدريب",
+                "الاجتماع",
+                "الموقع الإلكتروني",
+                "الجدول"
+            ],
+            "correct_answer": "التدريب"
+        },
+        {
+            "word": "التصميم",
+            "translation_english": "the design",
+            "translation_native": "the design",
+            "pronunciation": "at-tasmeem",
+            "examples": [
+                {
+                    "sentence": "يعجبني التصميم الحديث لموقع الويب الجديد هذا.",
+                    "translation_english": "I like the modern design of this new website.",
+                    "translation_native": "I like the modern design of this new website.",
+                    "sentence_parts": [
+                        "يعجبني",
+                        "التصميم",
+                        "الحديث",
+                        "لموقع",
+                        "الويب",
+                        "الجديد",
+                        "هذا"
+                    ],
+                    "level": "easy"
+                },
+                {
+                    "sentence": "وافق العميل على التصميم النهائي لشعار المتجر.",
+                    "translation_english": "The client approved the final design of the store's logo.",
+                    "translation_native": "The client approved the final design of the store's logo.",
+                    "sentence_parts": [
+                        "وافق",
+                        "العميل",
+                        "على",
+                        "التصميم",
+                        "النهائي",
+                        "لشعار",
+                        "المتجر"
+                    ],
+                    "level": "medium"
+                },
+                {
+                    "sentence": "التصميم الإبداعي يجذب فئة الشباب بشكل كبير.",
+                    "translation_english": "Creative design significantly attracts the youth group.",
+                    "translation_native": "Creative design significantly attracts the youth group.",
+                    "sentence_parts": [
+                        "التصميم",
+                        "الإبداعي",
+                        "يجذب",
+                        "فئة",
+                        "الشباب",
+                        "بشكل",
+                        "كبير"
+                    ],
+                    "level": "hard"
+                }
+            ],
+            "options": [
+                "التصميم",
+                "الكمبيوتر",
+                "الراتب",
+                "الملف"
+            ],
+            "correct_answer": "التصميم"
+        },
+        {
+            "word": "البرمجة",
+            "translation_english": "the programming",
+            "translation_native": "the programming",
+            "pronunciation": "al-barmajah",
+            "examples": [
+                {
+                    "sentence": "أتعلم البرمجة لتطوير ألعاب الهواتف الذكية الممتعة.",
+                    "translation_english": "I learn programming to develop fun smartphone games.",
+                    "translation_native": "I learn programming to develop fun smartphone games.",
+                    "sentence_parts": [
+                        "أتعلم",
+                        "البرمجة",
+                        "لتطوير",
+                        "ألعاب",
+                        "الهواتف",
+                        "الذكية",
+                        "الممتعة"
+                    ],
+                    "level": "easy"
+                },
+                {
+                    "sentence": "البرمجة هي مهارة أساسية ومطلوبة في سوق العمل.",
+                    "translation_english": "Programming is an essential and demanded skill in the job market.",
+                    "translation_native": "Programming is an essential and demanded skill in the job market.",
+                    "sentence_parts": [
+                        "البرمجة",
+                        "هي",
+                        "مهارة",
+                        "أساسية",
+                        "ومطلوبة",
+                        "في",
+                        "سوق",
+                        "العمل"
+                    ],
+                    "level": "medium"
+                },
+                {
+                    "sentence": "مهارة البرمجة تساعدني في بناء تطبيقات مميزة.",
+                    "translation_english": "Programming skill helps me in building unique applications.",
+                    "translation_native": "Programming skill helps me in building unique applications.",
+                    "sentence_parts": [
+                        "مهارة",
+                        "البرمجة",
+                        "تساعدني",
+                        "في",
+                        "بناء",
+                        "تطبيقات",
+                        "مميزة"
+                    ],
+                    "level": "hard"
+                }
+            ],
+            "options": [
+                "البرمجة",
+                "الشركة",
+                "المقابلة",
+                "الخدمة"
+            ],
+            "correct_answer": "البرمجة"
+        },
+        {
+            "word": "الزميل",
+            "translation_english": "the colleague",
+            "translation_native": "the colleague",
+            "pronunciation": "az-zameel",
+            "examples": [
+                {
+                    "sentence": "طلبت المساعدة من الزميل في قسم التصميم.",
+                    "translation_english": "I asked the colleague in the design department for help.",
+                    "translation_native": "I asked the colleague in the design department for help.",
+                    "sentence_parts": [
+                        "طلبت",
+                        "المساعدة",
+                        "من",
+                        "الزميل",
+                        "في",
+                        "قسم",
+                        "التصميم"
+                    ],
+                    "level": "easy"
+                },
+                {
+                    "sentence": "هذا الزميل علمني كيفية استخدام برامج التعديل.",
+                    "translation_english": "This colleague taught me how to use editing programs.",
+                    "translation_native": "This colleague taught me how to use editing programs.",
+                    "sentence_parts": [
+                        "هذا",
+                        "الزميل",
+                        "علمني",
+                        "كيفية",
+                        "استخدام",
+                        "برامج",
+                        "التعديل"
+                    ],
+                    "level": "medium"
+                },
+                {
+                    "sentence": "شارك الزميل الكود البرمجي للموقع الإلكتروني الجديد.",
+                    "translation_english": "The colleague shared the programming code of the new website.",
+                    "translation_native": "The colleague shared the programming code of the new website.",
+                    "sentence_parts": [
+                        "شارك",
+                        "الزميل",
+                        "الكود",
+                        "البرمجي",
+                        "للموقع",
+                        "الإلكتروني",
+                        "الجديد"
+                    ],
+                    "level": "hard"
+                }
+            ],
+            "options": [
+                "الزميل",
+                "المدير",
+                "الراتب",
+                "المشروع"
+            ],
+            "correct_answer": "الزميل"
+        },
+        {
+            "word": "الجدول",
+            "translation_english": "the schedule",
+            "translation_native": "the schedule",
+            "pronunciation": "al-jadwal",
+            "examples": [
+                {
+                    "sentence": "عندي الجدول الخاص بمواعيد العمل اليوم.",
+                    "translation_english": "I have the schedule of work times today.",
+                    "translation_native": "I have the schedule of work times today.",
+                    "sentence_parts": [
+                        "عندي",
+                        "الجدول",
+                        "الخاص",
+                        "بمواعيد",
+                        "العمل",
+                        "اليوم"
+                    ],
+                    "level": "easy"
+                },
+                {
+                    "sentence": "غيرت الجدول لكي أتمكن من الدراسة غدا.",
+                    "translation_english": "I changed the schedule so that I can study tomorrow.",
+                    "translation_native": "I changed the schedule so that I can study tomorrow.",
+                    "sentence_parts": [
+                        "غيرت",
+                        "الجدول",
+                        "لكي",
+                        "أتمكن",
+                        "من",
+                        "الدراسة",
+                        "غدا"
+                    ],
+                    "level": "medium"
+                },
+                {
+                    "sentence": "هذا الجدول مريح ومناسب لساعات دراستي الجامعية.",
+                    "translation_english": "This schedule is comfortable and suitable for my university study hours.",
+                    "translation_native": "This schedule is comfortable and suitable for my university study hours.",
+                    "sentence_parts": [
+                        "هذا",
+                        "الجدول",
+                        "مريح",
+                        "ومناسب",
+                        "لساعات",
+                        "دراستي",
+                        "الجامعية"
+                    ],
+                    "level": "hard"
+                }
+            ],
+            "options": [
+                "الجدول",
+                "الكمبيوتر",
+                "الراتب",
+                "الملف"
+            ],
+            "correct_answer": "الجدول"
+        },
+        {
+            "word": "المهارة",
+            "translation_english": "the skill",
+            "translation_native": "the skill",
+            "pronunciation": "al-maharah",
+            "examples": [
+                {
+                    "sentence": "تعديل الفيديوهات هي المهارة المطلوبة في الشركة.",
+                    "translation_english": "Video editing is the required skill in the company.",
+                    "translation_native": "Video editing is the required skill in the company.",
+                    "sentence_parts": [
+                        "تعديل",
+                        "الفيديوهات",
+                        "هي",
+                        "المهارة",
+                        "المطلوبة",
+                        "في",
+                        "الشركة"
+                    ],
+                    "level": "easy"
+                },
+                {
+                    "sentence": "تحسين المهارة الشخصية يساعد في التطور المهني.",
+                    "translation_english": "Improving personal skill helps in professional development.",
+                    "translation_native": "Improving personal skill helps in professional development.",
+                    "sentence_parts": [
+                        "تحسين",
+                        "المهارة",
+                        "الشخصية",
+                        "يساعد",
+                        "في",
+                        "التطور",
+                        "المهني"
+                    ],
+                    "level": "medium"
+                },
+                {
+                    "sentence": "أتدرب يوميا لاكتساب المهارة اللازمة للعمل الجديد.",
+                    "translation_english": "I practice daily to acquire the necessary skill for the new job.",
+                    "translation_native": "I practice daily to acquire the necessary skill for the new job.",
+                    "sentence_parts": [
+                        "أتدرب",
+                        "يوميا",
+                        "لاكتساب",
+                        "المهارة",
+                        "اللازمة",
+                        "للعمل",
+                        "الجديد"
+                    ],
+                    "level": "hard"
+                }
+            ],
+            "options": [
+                "المهارة",
+                "الsolicitud",
+                "الملف",
+                "الباقة"
+            ],
+            "correct_answer": "المهارة"
+        },
+        {
+            "word": "الحساب",
+            "translation_english": "the account",
+            "translation_native": "the account",
+            "pronunciation": "al-hisab",
+            "examples": [
+                {
+                    "sentence": "أنشأت الحساب المهني الجديد الخاص بي الآن.",
+                    "translation_english": "I created my new professional account now.",
+                    "translation_native": "I created my new professional account now.",
+                    "sentence_parts": [
+                        "أنشأت",
+                        "الحساب",
+                        "المهني",
+                        "الجديد",
+                        "الخاص",
+                        "بي",
+                        "الآن"
+                    ],
+                    "level": "easy"
+                },
+                {
+                    "sentence": "قمت بتحديث الحساب الشخصي لمتجر الملابس أمس.",
+                    "translation_english": "I updated the personal account of the clothing store yesterday.",
+                    "translation_native": "I updated the personal account of the clothing store yesterday.",
+                    "sentence_parts": [
+                        "قمت",
+                        "بتحديث",
+                        "الحساب",
+                        "الشخصي",
+                        "لمتجر",
+                        "الملابس",
+                        "أمس"
+                    ],
+                    "level": "medium"
+                },
+                {
+                    "sentence": "الحساب التجاري للشركة على إنستغرام يبدو رائعا.",
+                    "translation_english": "The company's business account on Instagram looks great.",
+                    "translation_native": "The company's business account on Instagram looks great.",
+                    "sentence_parts": [
+                        "الحساب",
+                        "التجاري",
+                        "للشركة",
+                        "على",
+                        "إنستغرام",
+                        "يبدو",
+                        "رائعا"
+                    ],
+                    "level": "hard"
+                }
+            ],
+            "options": [
+                "الحساب",
+                "الراتب",
+                "المشروع",
+                "الجدول"
+            ],
+            "correct_answer": "الحساب"
+        },
+        {
+            "word": "الملف",
+            "translation_english": "the file",
+            "translation_native": "the file",
+            "pronunciation": "al-milaf",
+            "examples": [
+                {
+                    "sentence": "قمت بتحميل الملف الذي يحتوي شروط التدريب.",
+                    "translation_english": "I downloaded the file containing the internship conditions.",
+                    "translation_native": "I downloaded the file containing the internship conditions.",
+                    "sentence_parts": [
+                        "قمت",
+                        "بتحميل",
+                        "الملف",
+                        "الذي",
+                        "يحتوي",
+                        "شروط",
+                        "التدريب"
+                    ],
+                    "level": "easy"
+                },
+                {
+                    "sentence": "هذا الملف البرمجي حجمه صغير جدا وسريع.",
+                    "translation_english": "This programming file size is very small and fast.",
+                    "translation_native": "This programming file size is very small and fast.",
+                    "sentence_parts": [
+                        "هذا",
+                        "الملف",
+                        "البرمجي",
+                        "حجمه",
+                        "صغير",
+                        "جدا",
+                        "وسريع"
+                    ],
+                    "level": "medium"
+                },
+                {
+                    "sentence": "يجب إرسال الملف الخاص بالتصميم غدا صباحا.",
+                    "translation_english": "The design file must be sent tomorrow morning.",
+                    "translation_native": "The design file must be sent tomorrow morning.",
+                    "sentence_parts": [
+                        "يجب",
+                        "إرسال",
+                        "الملف",
+                        "الخاص",
+                        "بالتصميم",
+                        "غدا",
+                        "صباحا"
+                    ],
+                    "level": "hard"
+                }
+            ],
+            "options": [
+                "الملف",
+                "الراتب",
+                "المشروع",
+                "العقد"
+            ],
+            "correct_answer": "الملف"
+        },
+        {
+            "word": "الخدمة",
+            "translation_english": "the service",
+            "translation_native": "the service",
+            "pronunciation": "al-khidmah",
+            "examples": [
+                {
+                    "sentence": "نقدم الخدمة الممتازة للعملاء في هذا المتجر.",
+                    "translation_english": "We offer excellent service to customers in this store.",
+                    "translation_native": "We offer excellent service to customers in this store.",
+                    "sentence_parts": [
+                        "نقدم",
+                        "الخدمة",
+                        "الممتازة",
+                        "للعملاء",
+                        "في",
+                        "هذا",
+                        "المتجر"
+                    ],
+                    "level": "easy"
+                },
+                {
+                    "sentence": "هذه الخدمة التقنية تسهل عملية التواصل بشكل كبير.",
+                    "translation_english": "This technical service facilitates communication process greatly.",
+                    "translation_native": "This technical service facilitates communication process greatly.",
+                    "sentence_parts": [
+                        "هذه",
+                        "الخدمة",
+                        "التقنية",
+                        "تسهل",
+                        "عملية",
+                        "التواصل",
+                        "بشكل",
+                        "كبير"
+                    ],
+                    "level": "medium"
+                },
+                {
+                    "sentence": "نهدف إلى تحسين الخدمة الرقمية طوال الوقت.",
+                    "translation_english": "We aim to improve the digital service all the time.",
+                    "translation_native": "We aim to improve the digital service all the time.",
+                    "sentence_parts": [
+                        "نهدف",
+                        "إلى",
+                        "تحسين",
+                        "الخدمة",
+                        "الرقمية",
+                        "طوال",
+                        "الوقت"
+                    ],
+                    "level": "hard"
+                }
+            ],
+            "options": [
+                "الخدمة",
+                "المقابلة",
+                "الشركة",
+                "المهارة"
+            ],
+            "correct_answer": "الخدمة"
+        },
+        {
+            "word": "الميزانية",
+            "translation_english": "the budget",
+            "translation_native": "the budget",
+            "pronunciation": "al-meezaniyyah",
+            "examples": [
+                {
+                    "sentence": "حددت الميزانية الخاصة بشراء الكمبيوتر المحمول اليوم.",
+                    "translation_english": "I set the budget for buying the laptop today.",
+                    "translation_native": "I set the budget for buying the laptop today.",
+                    "sentence_parts": [
+                        "حددت",
+                        "الميزانية",
+                        "الخاصة",
+                        "بشراء",
+                        "الكمبيوتر",
+                        "المحمول",
+                        "اليوم"
+                    ],
+                    "level": "easy"
+                },
+                {
+                    "sentence": "الميزانية المحددة لهذا المشروع صغيرة جدا.",
+                    "translation_english": "The set budget for this project is very small.",
+                    "translation_native": "The set budget for this project is very small.",
+                    "sentence_parts": [
+                        "الميزانية",
+                        "المحددة",
+                        "لهذا",
+                        "المشروع",
+                        "صغيرة",
+                        "جدا"
+                    ],
+                    "level": "medium"
+                },
+                {
+                    "sentence": "يجب مراجعة الميزانية قبل بدء الإعلان.",
+                    "translation_english": "The budget must be reviewed before starting the advertisement.",
+                    "translation_native": "The budget must be reviewed before starting the advertisement.",
+                    "sentence_parts": [
+                        "يجب",
+                        "مراجعة",
+                        "الميزانية",
+                        "قبل",
+                        "بدء",
+                        "الإعلان"
+                    ],
+                    "level": "hard"
+                }
+            ],
+            "options": [
+                "الميزانية",
+                "الرسالة",
+                "الصفحة",
+                "الشهادة"
+            ],
+            "correct_answer": "الميزانية"
+        },
+        {
+            "word": "الشعار",
+            "translation_english": "the logo",
+            "translation_native": "the logo",
+            "pronunciation": "ash-shi'ar",
+            "examples": [
+                {
+                    "sentence": "صممت الشعار الجديد لقناتي على يوتيوب اليوم.",
+                    "translation_english": "I designed the new logo for my YouTube channel today.",
+                    "translation_native": "I designed the new logo for my YouTube channel today.",
+                    "sentence_parts": [
+                        "صممت",
+                        "الشعار",
+                        "الجديد",
+                        "لقناتي",
+                        "على",
+                        "يوتيوب",
+                        "اليوم"
+                    ],
+                    "level": "easy"
+                },
+                {
+                    "sentence": "يمثل الشعار هوية الشركة بشكل رائع ومميز.",
+                    "translation_english": "The logo represents the company identity in a wonderful and unique way.",
+                    "translation_native": "The logo represents the company identity in a wonderful and unique way.",
+                    "sentence_parts": [
+                        "يمثل",
+                        "الشعار",
+                        "هوية",
+                        "الشركة",
+                        "بشكل",
+                        "رائع",
+                        "ومميز"
+                    ],
+                    "level": "medium"
+                },
+                {
+                    "sentence": "يجب مراجعة الشعار وتعديل الألوان غدا صباحا.",
+                    "translation_english": "The logo must be reviewed and colors adjusted tomorrow morning.",
+                    "translation_native": "The logo must be reviewed and colors adjusted tomorrow morning.",
+                    "sentence_parts": [
+                        "يجب",
+                        "مراجعة",
+                        "الشعار",
+                        "وتعديل",
+                        "الألوان",
+                        "غدا",
+                        "صباحا"
+                    ],
+                    "level": "hard"
+                }
+            ],
+            "options": [
+                "الشعار",
+                "الخطأ",
+                "الرابط",
+                "المجلد"
+            ],
+            "correct_answer": "الشعار"
+        },
+        {
+            "word": "التقديم",
+            "translation_english": "the application",
+            "translation_native": "the application",
+            "pronunciation": "at-taqdeem",
+            "examples": [
+                {
+                    "sentence": "التقديم لهذه الوظيفة سهل عبر الإنترنت دائما.",
+                    "translation_english": "Applying for this job is always easy online.",
+                    "translation_native": "Applying for this job is always easy online.",
+                    "sentence_parts": [
+                        "التقديم",
+                        "لهذه",
+                        "الوظيفة",
+                        "سهل",
+                        "عبر",
+                        "الإنترنت",
+                        "دائما"
+                    ],
+                    "level": "easy"
+                },
+                {
+                    "sentence": "يرجى إتمام عملية التتقديم قبل نهاية الأسبوع.",
+                    "translation_english": "Please complete the application process before the end of the week.",
+                    "translation_native": "Please complete the application process before the end of the week.",
+                    "sentence_parts": [
+                        "يرجى",
+                        "إتمام",
+                        "عملية",
+                        "التقديم",
+                        "قبل",
+                        "نهاية",
+                        "الأسبوع"
+                    ],
+                    "level": "medium"
+                },
+                {
+                    "sentence": "أعلنت الشركة عن فتح باب التقديم للتدريب.",
+                    "translation_english": "The company announced the opening of the application period for the internship.",
+                    "translation_native": "The company announced the opening of the application period for the internship.",
+                    "sentence_parts": [
+                        "أعلنت",
+                        "الشركة",
+                        "عن",
+                        "فتح",
+                        "باب",
+                        "التقديم",
+                        "للتدريب"
+                    ],
+                    "level": "hard"
+                }
+            ],
+            "options": [
+                "التقديم",
+                "النجاح",
+                "الصوت",
+                "الخطأ"
+            ],
+            "correct_answer": "التقديم"
+        },
+        {
+            "word": "العميل",
+            "translation_english": "the client",
+            "translation_native": "the client",
+            "pronunciation": "al-'ameel",
+            "examples": [
+                {
+                    "sentence": "وافق العميل على التصميم الجديد للموقع الإلكتروني.",
+                    "translation_english": "The client approved the website's new design.",
+                    "translation_native": "The client approved the website's new design.",
+                    "sentence_parts": [
+                        "وافق",
+                        "العميل",
+                        "على",
+                        "التصميم",
+                        "الجديد",
+                        "للموقع",
+                        "الإلكتروني"
+                    ],
+                    "level": "easy"
+                },
+                {
+                    "sentence": "طلب العميل تعديل بعض الألوان في الشعار.",
+                    "translation_english": "The client requested to modify some colors in the logo.",
+                    "translation_native": "The client requested to modify some colors in the logo.",
+                    "sentence_parts": [
+                        "طلب",
+                        "العميل",
+                        "تعديل",
+                        "بعض",
+                        "الألوان",
+                        "في",
+                        "الشعار"
+                    ],
+                    "level": "medium"
+                },
+                {
+                    "sentence": "يجب إرسال العرض المالي إلى العميل غدا صباحا.",
+                    "translation_english": "The financial offer must be sent to the client tomorrow morning.",
+                    "translation_native": "The financial offer must be sent to the client tomorrow morning.",
+                    "sentence_parts": [
+                        "يجب",
+                        "إرسال",
+                        "العرض",
+                        "المالي",
+                        "إلى",
+                        "العميل",
+                        "غدا",
+                        "صباحا"
+                    ],
+                    "level": "hard"
+                }
+            ],
+            "options": [
+                "العميل",
+                "المدير",
+                "الموظف",
+                "الزميل"
+            ],
+            "correct_answer": "العميل"
+        },
+        {
+            "word": "الإعلان",
+            "translation_english": "the advertisement",
+            "translation_native": "the advertisement",
+            "pronunciation": "al-i'lan",
+            "examples": [
+                {
+                    "sentence": "صممت الإعلان الجديد لمتجر الملابس على إنستغرام.",
+                    "translation_english": "I designed the new ad for the clothing store on Instagram.",
+                    "translation_native": "I designed the new ad for the clothing store on Instagram.",
+                    "sentence_parts": [
+                        "صممت",
+                        "الإعلان",
+                        "الجديد",
+                        "لمتجر",
+                        "الملابس",
+                        "على",
+                        "إنستغرام"
+                    ],
+                    "level": "easy"
+                },
+                {
+                    "sentence": "هذا الإعلان الرقمي جذب الكثير من الزوار الجدد.",
+                    "translation_english": "This digital ad attracted many new visitors.",
+                    "translation_native": "This digital ad attracted many new visitors.",
+                    "sentence_parts": [
+                        "هذا",
+                        "الإعلان",
+                        "الرقمي",
+                        "جذب",
+                        "الكثير",
+                        "من",
+                        "الزوار",
+                        "الجدد"
+                    ],
+                    "level": "medium"
+                },
+                {
+                    "sentence": "استثمرنا في الإعلان لترويج قناتنا التعليمية الجديدة.",
+                    "translation_english": "We invested in advertising to promote our new educational channel.",
+                    "translation_native": "We invested in advertising to promote our new educational channel.",
+                    "sentence_parts": [
+                        "استثمرنا",
+                        "في",
+                        "الإعلان",
+                        "لترويج",
+                        "قناتنا",
+                        "التعليمية",
+                        "الجديدة"
+                    ],
+                    "level": "hard"
+                }
+            ],
+            "options": [
+                "الإعلان",
+                "الجدول",
+                "المشروع",
+                "العقد"
+            ],
+            "correct_answer": "الإعلان"
+        },
+        {
+            "word": "الرد",
+            "translation_english": "the reply",
+            "translation_native": "the reply",
+            "pronunciation": "al-radd",
+            "examples": [
+                {
+                    "sentence": "أنا أنتظر الرد من مسؤول التوظيف غدا.",
+                    "translation_english": "I am waiting for the reply from the hiring manager tomorrow.",
+                    "translation_native": "I am waiting for the reply from the hiring manager tomorrow.",
+                    "sentence_parts": [
+                        "أنا",
+                        "أنتظر",
+                        "الرد",
+                        "من",
+                        "مسؤول",
+                        "التوظيف",
+                        "غدا"
+                    ],
+                    "level": "easy"
+                },
+                {
+                    "sentence": "جاء الرد على بريدي الإلكتروني سريعا جدا.",
+                    "translation_english": "The reply to my email came very quickly.",
+                    "translation_native": "The reply to my email came very quickly.",
+                    "sentence_parts": [
+                        "جاء",
+                        "الرد",
+                        "على",
+                        "بريدي",
+                        "الإلكتروني",
+                        "سريعا",
+                        "جدا"
+                    ],
+                    "level": "medium"
+                },
+                {
+                    "sentence": "يجب صياغة الرد على أسئلة العملاء بدقة.",
+                    "translation_english": "The reply to customers' questions must be drafted accurately.",
+                    "translation_native": "The reply to customers' questions must be drafted accurately.",
+                    "sentence_parts": [
+                        "يجب",
+                        "صياغة",
+                        "الرد",
+                        "على",
+                        "أسئلة",
+                        "العملاء",
+                        "بدقة"
+                    ],
+                    "level": "hard"
+                }
+            ],
+            "options": [
+                "الرد",
+                "العقد",
+                "الملف",
+                "الراتب"
+            ],
+            "correct_answer": "الرد"
+        },
+        {
+            "word": "التفاوض",
+            "translation_english": "the negotiation",
+            "translation_native": "the negotiation",
+            "pronunciation": "at-tafawudh",
+            "examples": [
+                {
+                    "sentence": "أريد التفاوض على قيمة الراتب مع المدير.",
+                    "translation_english": "I want to negotiate the salary value with the manager.",
+                    "translation_native": "I want to negotiate the salary value with the manager.",
+                    "sentence_parts": [
+                        "أريد",
+                        "التفاوض",
+                        "على",
+                        "قيمة",
+                        "الراتب",
+                        "مع",
+                        "المدير"
+                    ],
+                    "level": "easy"
+                },
+                {
+                    "sentence": "مهارة التفاوض تساعدك في الحصول على عقود.",
+                    "translation_english": "Negotiation skill helps you in obtaining contracts.",
+                    "translation_native": "Negotiation skill helps you in obtaining contracts.",
+                    "sentence_parts": [
+                        "مهارة",
+                        "التفاوض",
+                        "تساعدك",
+                        "في",
+                        "الحصول",
+                        "على",
+                        "عقود"
+                    ],
+                    "level": "medium"
+                },
+                {
+                    "sentence": "بدأنا عملية التفاوض مع الشركة الناشئة اليوم.",
+                    "translation_english": "We started the negotiation process with the startup company today.",
+                    "translation_native": "We started the negotiation process with the startup company today.",
+                    "sentence_parts": [
+                        "بدأنا",
+                        "عملية",
+                        "التفاوض",
+                        "مع",
+                        "الشركة",
+                        "الناشئة",
+                        "اليوم"
+                    ],
+                    "level": "hard"
+                }
+            ],
+            "options": [
+                "التفاوض",
+                "التحديث",
+                "التصميم",
+                "التدريب"
+            ],
+            "correct_answer": "التفاوض"
+        },
+        {
+            "word": "التطبيق",
+            "translation_english": "the app",
+            "translation_native": "the app",
+            "pronunciation": "at-tatbeeq",
+            "examples": [
+                {
+                    "sentence": "قمت بتحميل التطبيق الجديد الخاص بالشركة أمس.",
+                    "translation_english": "I downloaded the company's new application yesterday.",
+                    "translation_native": "I downloaded the company's new application yesterday.",
+                    "sentence_parts": [
+                        "قمت",
+                        "بتحميل",
+                        "التطبيق",
+                        "الجديد",
+                        "الخاص",
+                        "بالشركة",
+                        "أمس"
+                    ],
+                    "level": "easy"
+                },
+                {
+                    "sentence": "هذا التطبيق يسهل مهام العمل عن بعد.",
+                    "translation_english": "This application facilitates remote work tasks.",
+                    "translation_native": "This application facilitates remote work tasks.",
+                    "sentence_parts": [
+                        "هذا",
+                        "التطبيق",
+                        "يسهل",
+                        "مهام",
+                        "العمل",
+                        "عن",
+                        "بعد"
+                    ],
+                    "level": "medium"
+                },
+                {
+                    "sentence": "نطور التطبيق الخاص بالهواتف الذكية طوال الوقت.",
+                    "translation_english": "We develop the smartphone application all the time.",
+                    "translation_native": "We develop the smartphone application all the time.",
+                    "sentence_parts": [
+                        "نطور",
+                        "التطبيق",
+                        "الخاص",
+                        "بالهواتف",
+                        "الذكية",
+                        "طوال",
+                        "الوقت"
+                    ],
+                    "level": "hard"
+                }
+            ],
+            "options": [
+                "التطبيق",
+                "الشعار",
+                "المجلد",
+                "الرابط"
+            ],
+            "correct_answer": "التطبيق"
+        },
+        {
+            "word": "الخبرة",
+            "translation_english": "the experience",
+            "translation_native": "the experience",
+            "pronunciation": "al-khibrah",
+            "examples": [
+                {
+                    "sentence": "أريد كسب الخبرة العملية من هذا التدريب.",
+                    "translation_english": "I want to gain practical experience from this internship.",
+                    "translation_native": "I want to gain practical experience from this internship.",
+                    "sentence_parts": [
+                        "أريد",
+                        "كسب",
+                        "الخبرة",
+                        "العملية",
+                        "من",
+                        "هذا",
+                        "التدريب"
+                    ],
+                    "level": "easy"
+                },
+                {
+                    "sentence": "تساعد الخبرة في الحصول على وظيفة أفضل دائما.",
+                    "translation_english": "Experience always helps in getting a better job.",
+                    "translation_native": "Experience always helps in getting a better job.",
+                    "sentence_parts": [
+                        "تساعد",
+                        "الخبرة",
+                        "في",
+                        "الحصول",
+                        "على",
+                        "وظيفة",
+                        "أفضل",
+                        "دائما"
+                    ],
+                    "level": "medium"
+                },
+                {
+                    "sentence": "يبحث المدير عن مبرمج يمتلك بعض الخبرة.",
+                    "translation_english": "The manager looks for a programmer who possesses some experience.",
+                    "translation_native": "The manager looks for a programmer who possesses some experience.",
+                    "sentence_parts": [
+                        "يبحث",
+                        "المدير",
+                        "عن",
+                        "مبرمج",
+                        "يمتلك",
+                        "بعض",
+                        "الخبرة"
+                    ],
+                    "level": "hard"
+                }
+            ],
+            "options": [
+                "الخبرة",
+                "الميزانية",
+                "الصفحة",
+                "الشهادة"
+            ],
+            "correct_answer": "الخبرة"
+        },
+        {
+            "word": "الرسالة",
+            "translation_english": "the message",
+            "translation_native": "the message",
+            "pronunciation": "al-risalah",
+            "examples": [
+                {
+                    "sentence": "أرسلت الرسالة المباشرة إلى منشئ المحتوى أمس.",
+                    "translation_english": "I sent the direct message to the content creator yesterday.",
+                    "translation_native": "I sent the direct message to the content creator yesterday.",
+                    "sentence_parts": [
+                        "أرسلت",
+                        "الرسالة",
+                        "المباشرة",
+                        "إلى",
+                        "منشئ",
+                        "المحتوى",
+                        "أمس"
+                    ],
+                    "level": "easy"
+                },
+                {
+                    "sentence": "كانت الرسالة من العميل واضحة ومحددة جدا.",
+                    "translation_english": "The message from the client was very clear and specific.",
+                    "translation_native": "The message from the client was very clear and specific.",
+                    "sentence_parts": [
+                        "كانت",
+                        "الرسالة",
+                        "من",
+                        "العميل",
+                        "واضحة",
+                        "ومحددة",
+                        "جدا"
+                    ],
+                    "level": "medium"
+                },
+                {
+                    "sentence": "تلقيت الرسالة التي تحتوي على تعديلات التصميم.",
+                    "translation_english": "I received the message containing the design modifications.",
+                    "translation_native": "I received the message containing the design modifications.",
+                    "sentence_parts": [
+                        "تلقيت",
+                        "الرسالة",
+                        "التي",
+                        "تحتوي",
+                        "على",
+                        "تعديلات",
+                        "التصميم"
+                    ],
+                    "level": "hard"
+                }
+            ],
+            "options": [
+                "الرسالة",
+                "الميزانية",
+                "الشهادة",
+                "الخبرة"
+            ],
+            "correct_answer": "الرسالة"
+        },
+        {
+            "word": "التحديث",
+            "translation_english": "the update",
+            "translation_native": "the update",
+            "pronunciation": "at-tahdeeth",
+            "examples": [
+                {
+                    "sentence": "يجب إجراء التحديث الجديد للتطبيق هذا الأسبوع.",
+                    "translation_english": "The new update for the application must be done this week.",
+                    "translation_native": "The new update for the application must be done this week.",
+                    "sentence_parts": [
+                        "يجب",
+                        "إجراء",
+                        "التحديث",
+                        "الجديد",
+                        "للتطبيق",
+                        "هذا",
+                        "الأسبوع"
+                    ],
+                    "level": "easy"
+                },
+                {
+                    "sentence": "جلب التحديث ميزات جديدة ومفيدة لكل الموظفين.",
+                    "translation_english": "The update brought new and useful features for all employees.",
+                    "translation_native": "The update brought new and useful features for all employees.",
+                    "sentence_parts": [
+                        "جلب",
+                        "التحديث",
+                        "ميزات",
+                        "جديدة",
+                        "ومفيدة",
+                        "لكل",
+                        "الموظفين"
+                    ],
+                    "level": "medium"
+                },
+                {
+                    "sentence": "نقوم بعمل التحديث الدوري للموقع الإلكتروني دائما.",
+                    "translation_english": "We always perform the periodic update of the website.",
+                    "translation_native": "We always perform the periodic update of the website.",
+                    "sentence_parts": [
+                        "نقوم",
+                        "بعمل",
+                        "التحديث",
+                        "الدوري",
+                        "للموقع",
+                        "الإلكتروني",
+                        "دائما"
+                    ],
+                    "level": "hard"
+                }
+            ],
+            "options": [
+                "التحديث",
+                "التفاوض",
+                "التصميم",
+                "التدريب"
+            ],
+            "correct_answer": "التحديث"
+        },
+        {
+            "word": "النجاح",
+            "translation_english": "the success",
+            "translation_native": "the success",
+            "pronunciation": "an-najah",
+            "examples": [
+                {
+                    "sentence": "كان إطلاق التطبيق الجديد بمثابة النجاح الرائع.",
+                    "translation_english": "The launch of the new app was like a wonderful success.",
+                    "translation_native": "The launch of the new app was like a wonderful success.",
+                    "sentence_parts": [
+                        "كان",
+                        "إطلاق",
+                        "التطبيق",
+                        "الجديد",
+                        "بمثابة",
+                        "النجاح",
+                        "الرائع"
+                    ],
+                    "level": "easy"
+                },
+                {
+                    "sentence": "يعتمد النجاح في العمل على التعاون المستمر.",
+                    "translation_english": "Success in work depends on continuous cooperation.",
+                    "translation_native": "Success in work depends on continuous cooperation.",
+                    "sentence_parts": [
+                        "يعتمد",
+                        "النجاح",
+                        "في",
+                        "العمل",
+                        "على",
+                        "التعاون",
+                        "المستمر"
+                    ],
+                    "level": "medium"
+                },
+                {
+                    "sentence": "حققت حملتنا التسويقية الرقمية الكثير من النجاح.",
+                    "translation_english": "Our digital marketing campaign achieved a lot of success.",
+                    "translation_native": "Our digital marketing campaign achieved a lot of success.",
+                    "sentence_parts": [
+                        "حققت",
+                        "حملتنا",
+                        "التسويقية",
+                        "الرقمية",
+                        "الكثير",
+                        "من",
+                        "النجاح"
+                    ],
+                    "level": "hard"
+                }
+            ],
+            "options": [
+                "النجاح",
+                "التقديم",
+                "الصوت",
+                "الخطأ"
+            ],
+            "correct_answer": "النجاح"
+        },
+        {
+            "word": "الخطأ",
+            "translation_english": "the error",
+            "translation_native": "the error",
+            "pronunciation": "al-khata'",
+            "examples": [
+                {
+                    "sentence": "وجدت الخطأ البرمجي في كود اللعبة اليوم.",
+                    "translation_english": "I found the programming error in the game's code today.",
+                    "translation_native": "I found the programming error in the game's code today.",
+                    "sentence_parts": [
+                        "وجدت",
+                        "الخطأ",
+                        "البرمجي",
+                        "في",
+                        "كود",
+                        "اللعبة",
+                        "اليوم"
+                    ],
+                    "level": "easy"
+                },
+                {
+                    "sentence": "قام المبرمج بحل الخطأ الموجود في الصفحة.",
+                    "translation_english": "The programmer solved the error found in the page.",
+                    "translation_native": "The programmer solved the error found in the page.",
+                    "sentence_parts": [
+                        "قام",
+                        "المبرمج",
+                        "بحل",
+                        "الخطأ",
+                        "الموجود",
+                        "في",
+                        "الصفحة"
+                    ],
+                    "level": "medium"
+                },
+                {
+                    "sentence": "أرسلنا تقريرا عن الخطأ التقني أثناء الاجتماع.",
+                    "translation_english": "We sent a report about the technical error during the meeting.",
+                    "translation_native": "We sent a report about the technical error during the meeting.",
+                    "sentence_parts": [
+                        "أرسلنا",
+                        "تقريرا",
+                        "عن",
+                        "الخطأ",
+                        "التقني",
+                        "أثناء",
+                        "الاجتماع"
+                    ],
+                    "level": "hard"
+                }
+            ],
+            "options": [
+                "الخطأ",
+                "الشعار",
+                "الرابط",
+                "المجلد"
+            ],
+            "correct_answer": "الخطأ"
+        },
+        {
+            "word": "الصفحة",
+            "translation_english": "the page",
+            "translation_native": "the page",
+            "pronunciation": "as-safhah",
+            "examples": [
+                {
+                    "sentence": "أنشأت الصفحة الرئيسية للموقع الإلكتروني الجديد اليوم.",
+                    "translation_english": "I created the home page of the new website today.",
+                    "translation_native": "I created the home page of the new website today.",
+                    "sentence_parts": [
+                        "أنشأت",
+                        "الصفحة",
+                        "الرئيسية",
+                        "للموقع",
+                        "الإلكتروني",
+                        "الجديد",
+                        "اليوم"
+                    ],
+                    "level": "easy"
+                },
+                {
+                    "sentence": "تحتوي الصفحة على معلومات مفيدة عن التدريب.",
+                    "translation_english": "The page contains useful information about the internship.",
+                    "translation_native": "The page contains useful information about the internship.",
+                    "sentence_parts": [
+                        "تحتوي",
+                        "الصفحة",
+                        "على",
+                        "معلومات",
+                        "مفيدة",
+                        "عن",
+                        "التدريب"
+                    ],
+                    "level": "medium"
+                },
+                {
+                    "sentence": "يجب مراجعة محتوى الصفحة قبل النشر النهائي.",
+                    "translation_english": "The page content must be reviewed before final publishing.",
+                    "translation_native": "The page content must be reviewed before final publishing.",
+                    "sentence_parts": [
+                        "يجب",
+                        "مراجعة",
+                        "محتوى",
+                        "الصفحة",
+                        "قبل",
+                        "النشر",
+                        "النهائي"
+                    ],
+                    "level": "hard"
+                }
+            ],
+            "options": [
+                "الصفحة",
+                "الميزانية",
+                "الشهادة",
+                "الخبرة"
+            ],
+            "correct_answer": "الصفحة"
+        },
+        {
+            "word": "العرض",
+            "translation_english": "the presentation",
+            "translation_native": "the presentation",
+            "pronunciation": "al-'ardh",
+            "examples": [
+                {
+                    "sentence": "قدمت العرض التقديمي للمشروع أمام فريق العمل.",
+                    "translation_english": "I presented the project presentation before the work team.",
+                    "translation_native": "I presented the project presentation before the work team.",
+                    "sentence_parts": [
+                        "قدمت",
+                        "العرض",
+                        "التقديمي",
+                        "للمشروع",
+                        "أمام",
+                        "فريق",
+                        "العمل"
+                    ],
+                    "level": "easy"
+                },
+                {
+                    "sentence": "يحتوي العرض المالي على تكاليف تصميم الشعار.",
+                    "translation_english": "The financial offer contains the costs of designing the logo.",
+                    "translation_native": "The financial offer contains the costs of designing the logo.",
+                    "sentence_parts": [
+                        "يحتوي",
+                        "العرض",
+                        "المالي",
+                        "على",
+                        "تكاليف",
+                        "تصميم",
+                        "الشعار"
+                    ],
+                    "level": "medium"
+                },
+                {
+                    "sentence": "أرسلنا العرض الفني النهائي إلى العميل للتو.",
+                    "translation_english": "We just sent the final technical offer to the client.",
+                    "translation_native": "We just sent the final technical offer to the client.",
+                    "sentence_parts": [
+                        "أرسلنا",
+                        "العرض",
+                        "الفني",
+                        "النهائي",
+                        "إلى",
+                        "العميل",
+                        "للتو"
+                    ],
+                    "level": "hard"
+                }
+            ],
+            "options": [
+                "العرض",
+                "الراتب",
+                "المشروع",
+                "العقد"
+            ],
+            "correct_answer": "العرض"
+        },
+        {
+            "word": "الكود",
+            "translation_english": "the code",
+            "translation_native": "the code",
+            "pronunciation": "al-kood",
+            "examples": [
+                {
+                    "sentence": "كتبت الكود الخاص بصفحة الويب الجديدة اليوم.",
+                    "translation_english": "I wrote the code for the new web page today.",
+                    "translation_native": "I wrote the code for the new web page today.",
+                    "sentence_parts": [
+                        "كتبت",
+                        "الكود",
+                        "الخاص",
+                        "بصفحة",
+                        "الويب",
+                        "الجديدة",
+                        "اليوم"
+                    ],
+                    "level": "easy"
+                },
+                {
+                    "sentence": "يجب فحص الكود البرمجي جيدا لمنع الأخطاء.",
+                    "translation_english": "The programming code must be checked well to prevent errors.",
+                    "translation_native": "The programming code must be checked well to prevent errors.",
+                    "sentence_parts": [
+                        "يجب",
+                        "فحص",
+                        "الكود",
+                        "البرمجي",
+                        "جيدا",
+                        "لمنع",
+                        "الأخطاء"
+                    ],
+                    "level": "medium"
+                },
+                {
+                    "sentence": "الكود الخاص باللعبة متاح للجميع بشكل مجاني.",
+                    "translation_english": "The game's code is available to everyone for free.",
+                    "translation_native": "The game's code is available to everyone for free.",
+                    "sentence_parts": [
+                        "الكود",
+                        "الخاص",
+                        "باللعبة",
+                        "متاح",
+                        "للجميع",
+                        "بشكل",
+                        "مجاني"
+                    ],
+                    "level": "hard"
+                }
+            ],
+            "options": [
+                "الكود",
+                "الشعار",
+                "الرابط",
+                "المجلد"
+            ],
+            "correct_answer": "الكود"
+        },
+        {
+            "word": "الشهادة",
+            "translation_english": "the certificate",
+            "translation_native": "the certificate",
+            "pronunciation": "ash-shahadah",
+            "examples": [
+                {
+                    "sentence": "حصلت على الشهادة الرقمية في البرمجة اليوم.",
+                    "translation_english": "I got the digital certificate in programming today.",
+                    "translation_native": "I got the digital certificate in programming today.",
+                    "sentence_parts": [
+                        "حصلت",
+                        "على",
+                        "الشهادة",
+                        "الرقمية",
+                        "في",
+                        "البرمجة",
+                        "اليوم"
+                    ],
+                    "level": "easy"
+                },
+                {
+                    "sentence": "قمت برفع الشهادة الجديدة على حسابي المهني.",
+                    "translation_english": "I uploaded the new certificate to my professional account.",
+                    "translation_native": "I uploaded the new certificate to my professional account.",
+                    "sentence_parts": [
+                        "قمت",
+                        "برفع",
+                        "الشهادة",
+                        "الجديدة",
+                        "على",
+                        "حسابي",
+                        "المهني"
+                    ],
+                    "level": "medium"
+                },
+                {
+                    "sentence": "الشهادة المهنية تثبت مهاراتك في تصميم الجرافيك.",
+                    "translation_english": "The professional certificate proves your skills in graphic design.",
+                    "translation_native": "The professional certificate proves your skills in graphic design.",
+                    "sentence_parts": [
+                        "الشهادة",
+                        "المهنية",
+                        "تثبت",
+                        "مهاراتك",
+                        "في",
+                        "تصميم",
+                        "الجرافيك"
+                    ],
+                    "level": "hard"
+                }
+            ],
+            "options": [
+                "الشهادة",
+                "الميزانية",
+                "الصفحة",
+                "الخبرة"
+            ],
+            "correct_answer": "الشهادة"
+        },
+        {
+            "word": "الشاشة",
+            "translation_english": "the screen",
+            "translation_native": "the screen",
+            "pronunciation": "ash-shashah",
+            "examples": [
+                {
+                    "sentence": "شاركت الشاشة مع الفريق لعرض التصميم الجديد.",
+                    "translation_english": "I shared the screen with the team to display the new design.",
+                    "translation_native": "I shared the screen with the team to display the new design.",
+                    "sentence_parts": [
+                        "شاركت",
+                        "الشاشة",
+                        "مع",
+                        "الفريق",
+                        "لعرض",
+                        "التصميم",
+                        "الجديد"
+                    ],
+                    "level": "easy"
+                },
+                {
+                    "sentence": "تعتبر الشاشة الخاصة بي كبيرة ومناسبة للبرمجة.",
+                    "translation_english": "My screen is considered large and suitable for programming.",
+                    "translation_native": "My screen is considered large and suitable for programming.",
+                    "sentence_parts": [
+                        "تعتبر",
+                        "الشاشة",
+                        "الخاصة",
+                        "بي",
+                        "كبيرة",
+                        "ومناسبة",
+                        "للبرمجة"
+                    ],
+                    "level": "medium"
+                },
+                {
+                    "sentence": "أحتاج إلى شراء الشاشة الإضافية لتسهيل العمل.",
+                    "translation_english": "I need to buy the additional screen to facilitate work.",
+                    "translation_native": "I need to buy the additional screen to facilitate work.",
+                    "sentence_parts": [
+                        "أحتاج",
+                        "إلى",
+                        "شراء",
+                        "الشاشة",
+                        "الإضافية",
+                        "لتسهيل",
+                        "العمل"
+                    ],
+                    "level": "hard"
+                }
+            ],
+            "options": [
+                "الشاشة",
+                "الميزانية",
+                "الشهادة",
+                "الصفحة"
+            ],
+            "correct_answer": "الشاشة"
+        },
+        {
+            "word": "الكاميرا",
+            "translation_english": "the camera",
+            "translation_native": "the camera",
+            "pronunciation": "al-kamera",
+            "examples": [
+                {
+                    "sentence": "فتحت الكاميرا أثناء الاجتماع مع فريق العمل.",
+                    "translation_english": "I opened the camera during the meeting with the work team.",
+                    "translation_native": "I opened the camera during the meeting with the work team.",
+                    "sentence_parts": [
+                        "فتحت",
+                        "الكاميرا",
+                        "أثناء",
+                        "الاجتماع",
+                        "مع",
+                        "فريق",
+                        "العمل"
+                    ],
+                    "level": "easy"
+                },
+                {
+                    "sentence": "تتميز الكاميرا الجديدة بجودة تصوير رائعة جدا.",
+                    "translation_english": "The new camera features a very wonderful filming quality.",
+                    "translation_native": "The new camera features a very wonderful filming quality.",
+                    "sentence_parts": [
+                        "تتميز",
+                        "الكاميرا",
+                        "الجديدة",
+                        "بجودة",
+                        "تصوير",
+                        "رائعة",
+                        "جدا"
+                    ],
+                    "level": "medium"
+                },
+                {
+                    "sentence": "نشتري الكاميرا الاحترافية لتسجيل محتوى الدورة غدا.",
+                    "translation_english": "We buy the professional camera to record the course content tomorrow.",
+                    "translation_native": "We buy the professional camera to record the course content tomorrow.",
+                    "sentence_parts": [
+                        "نشتري",
+                        "الكاميرا",
+                        "الاحترافية",
+                        "لتسجيل",
+                        "محتوى",
+                        "الدورة",
+                        "غدا"
+                    ],
+                    "level": "hard"
+                }
+            ],
+            "options": [
+                "الكاميرا",
+                "الميزانية",
+                "الشهادة",
+                "الخبرة"
+            ],
+            "correct_answer": "الكاميرا"
+        },
+        {
+            "word": "الميكروفون",
+            "translation_english": "the microphone",
+            "translation_native": "the microphone",
+            "pronunciation": "al-meekroofoon",
+            "examples": [
+                {
+                    "sentence": "قمت بتوصيل الميكروفون لتسجيل صوتي بوضوح اليوم.",
+                    "translation_english": "I connected the microphone to record my voice clearly today.",
+                    "translation_native": "I connected the microphone to record my voice clearly today.",
+                    "sentence_parts": [
+                        "قمت",
+                        "بتوصيل",
+                        "الميكروفون",
+                        "لتسجيل",
+                        "صوتي",
+                        "بوضوح",
+                        "اليوم"
+                    ],
+                    "level": "easy"
+                },
+                {
+                    "sentence": "يحتوي الميكروفون على ميزة تصفية الضوضاء المحيطة.",
+                    "translation_english": "The microphone contains a ambient noise filtering feature.",
+                    "translation_native": "The microphone contains a ambient noise filtering feature.",
+                    "sentence_parts": [
+                        "يحتوي",
+                        "الميكروفون",
+                        "على",
+                        "ميزة",
+                        "تصفية",
+                        "الضوضاء",
+                        "المحيطة"
+                    ],
+                    "level": "medium"
+                },
+                {
+                    "sentence": "اشتريت الميكروفون الاحترافي لبث ألعاب الفيديو مباشرة.",
+                    "translation_english": "I bought the professional microphone to stream video games directly.",
+                    "translation_native": "I bought the professional microphone to stream video games directly.",
+                    "sentence_parts": [
+                        "اشتريت",
+                        "الميكروفون",
+                        "الاحترافي",
+                        "لبث",
+                        "ألعاب",
+                        "الفيديو",
+                        "مباشرة"
+                    ],
+                    "level": "hard"
+                }
+            ],
+            "options": [
+                "الميكروفون",
+                "الشعار",
+                "الرابط",
+                "المجلد"
+            ],
+            "correct_answer": "الميكروفون"
+        },
+        {
+            "word": "الصوت",
+            "translation_english": "the audio",
+            "translation_native": "the audio",
+            "pronunciation": "as-sawt",
+            "examples": [
+                {
+                    "sentence": "قمت بتحسين جودة الصوت في الفيديو الترويجي.",
+                    "translation_english": "I improved the audio quality in the promotional video.",
+                    "translation_native": "I improved the audio quality in the promotional video.",
+                    "sentence_parts": [
+                        "قمت",
+                        "بتحسين",
+                        "جودة",
+                        "الصوت",
+                        "في",
+                        "الفيديو",
+                        "الترويجي"
+                    ],
+                    "level": "easy"
+                },
+                {
+                    "sentence": "كان الصوت في البث المباشر واضحا ونقيا.",
+                    "translation_english": "The audio in the live stream was clear and crisp.",
+                    "translation_native": "The audio in the live stream was clear and crisp.",
+                    "sentence_parts": [
+                        "كان",
+                        "الصوت",
+                        "في",
+                        "البث",
+                        "المباشر",
+                        "واضحا",
+                        "ونقيا"
+                    ],
+                    "level": "medium"
+                },
+                {
+                    "sentence": "يجب مزامنة الصوت مع لقطات الفيديو المعدلة.",
+                    "translation_english": "The audio must be synchronized with the edited video shots.",
+                    "translation_native": "The audio must be synchronized with the edited video shots.",
+                    "sentence_parts": [
+                        "يجب",
+                        "مزامنة",
+                        "الصوت",
+                        "مع",
+                        "لقطات",
+                        "الفيديو",
+                        "المعدلة"
+                    ],
+                    "level": "hard"
+                }
+            ],
+            "options": [
+                "الصوت",
+                "التقديم",
+                "النجاح",
+                "الخطأ"
+            ],
+            "correct_answer": "الصوت"
+        },
+        {
+            "word": "المجلد",
+            "translation_english": "the folder",
+            "translation_native": "the folder",
+            "pronunciation": "al-mujallad",
+            "examples": [
+                {
+                    "sentence": "حفظت جميع التصاميم داخل المجلد المشترك اليوم.",
+                    "translation_english": "I saved all designs inside the shared folder today.",
+                    "translation_native": "I saved all designs inside the shared folder today.",
+                    "sentence_parts": [
+                        "حفظت",
+                        "جميع",
+                        "التصاميم",
+                        "داخل",
+                        "المجلد",
+                        "المشترك",
+                        "اليوم"
+                    ],
+                    "level": "easy"
+                },
+                {
+                    "sentence": "يحتوي المجلد على جميع مستندات التدريب الصيفي.",
+                    "translation_english": "The folder contains all summer internship documents.",
+                    "translation_native": "The folder contains all summer internship documents.",
+                    "sentence_parts": [
+                        "يحتوي",
+                        "المجلد",
+                        "على",
+                        "جميع",
+                        "مستندات",
+                        "التدريب",
+                        "الصيفي"
+                    ],
+                    "level": "medium"
+                },
+                {
+                    "sentence": "قم بإنشاء المجلد الجديد لحفظ الملفات الصوتية.",
+                    "translation_english": "Create the new folder to save the audio files.",
+                    "translation_native": "Create the new folder to save the audio files.",
+                    "sentence_parts": [
+                        "قم",
+                        "بإنشاء",
+                        "المجلد",
+                        "الجديد",
+                        "لحفظ",
+                        "الملفات",
+                        "الصوتية"
+                    ],
+                    "level": "hard"
+                }
+            ],
+            "options": [
+                "المجلد",
+                "الشعار",
+                "الرابط",
+                "الخطأ"
+            ],
+            "correct_answer": "المجلد"
+        },
+        {
+            "word": "كلمة المرور",
+            "translation_english": "the password",
+            "translation_native": "the password",
+            "pronunciation": "kalimat al-muroor",
+            "examples": [
+                {
+                    "sentence": "يجب حماية كلمة المرور الخاصة بحساب العمل.",
+                    "translation_english": "The password of the work account must be protected.",
+                    "translation_native": "The password of the work account must be protected.",
+                    "sentence_parts": [
+                        "يجب",
+                        "حماية",
+                        "كلمة",
+                        "المرور",
+                        "الخاصة",
+                        "بحساب",
+                        "العمل"
+                    ],
+                    "level": "easy"
+                },
+                {
+                    "sentence": "أنا قمت بتغيير كلمة المرور الخاصة بحساب الشركة.",
+                    "translation_english": "I changed the password of the company account.",
+                    "translation_native": "I changed the password of the company account.",
+                    "sentence_parts": [
+                        "أنا",
+                        "قمت",
+                        "بتغيير",
+                        "كلمة",
+                        "المرور",
+                        "الخاصة",
+                        "بحساب",
+                        "الشركة"
+                    ],
+                    "level": "medium"
+                },
+                {
+                    "sentence": "احتفظ بملف كلمة المرور في مكان آمن.",
+                    "translation_english": "Keep the password file in a safe place.",
+                    "translation_native": "Keep the password file in a safe place.",
+                    "sentence_parts": [
+                        "احتفظ",
+                        "بملف",
+                        "كلمة",
+                        "المرور",
+                        "في",
+                        "مكان",
+                        "آمن"
+                    ],
+                    "level": "hard"
+                }
+            ],
+            "options": [
+                "كلمة المرور",
+                "السيرة الذاتية",
+                "البريد الإلكتروني",
+                "الموقع الإلكتروني"
+            ],
+            "correct_answer": "كلمة المرور"
+        },
+        {
+            "word": "الرابط",
+            "translation_english": "the link",
+            "translation_native": "the link",
+            "pronunciation": "al-rabit",
+            "examples": [
+                {
+                    "sentence": "أرسلت الرابط الخاص بالاجتماع إلى المدير للتو.",
+                    "translation_english": "I just sent the meeting link to the manager.",
+                    "translation_native": "I just sent the meeting link to the manager.",
+                    "sentence_parts": [
+                        "أرسلت",
+                        "الرابط",
+                        "الخاص",
+                        "بالاجتماع",
+                        "إلى",
+                        "المدير",
+                        "للتو"
+                    ],
+                    "level": "easy"
+                },
+                {
+                    "sentence": "هذا الرابط ينقلك إلى صفحة التسجيل للتدريب.",
+                    "translation_english": "This link takes you to the registration page for the internship.",
+                    "translation_native": "This link takes you to the registration page for the internship.",
+                    "sentence_parts": [
+                        "هذا",
+                        "الرابط",
+                        "ينقلك",
+                        "إلى",
+                        "صفحة",
+                        "التسجيل",
+                        "للتدريب"
+                    ],
+                    "level": "medium"
+                },
+                {
+                    "sentence": "انسخ الرابط لمشاهدة معرض أعمالي الفنية اليوم.",
+                    "translation_english": "Copy the link to view my art portfolio exhibition today.",
+                    "translation_native": "Copy the link to view my art portfolio exhibition today.",
+                    "sentence_parts": [
+                        "انسخ",
+                        "الرابط",
+                        "لمشاهدة",
+                        "معرض",
+                        "أعمالي",
+                        "الفنية",
+                        "اليوم"
+                    ],
+                    "level": "hard"
+                }
+            ],
+            "options": [
+                "الرابط",
+                "الشعار",
+                "الخطأ",
+                "المجلد"
+            ],
+            "correct_answer": "الرابط"
+        },
+        {
+            "word": "الموظف",
+            "translation_english": "the employee",
+            "translation_native": "the employee",
+            "pronunciation": "al-muwadhahf",
+            "examples": [
+                {
+                    "sentence": "يعتبر الموظف الجديد نشيطا ومميزا جدا هنا.",
+                    "translation_english": "The new employee is considered active and very unique here.",
+                    "translation_native": "The new employee is considered active and very unique here.",
+                    "sentence_parts": [
+                        "يعتبر",
+                        "الموظف",
+                        "الجديد",
+                        "نشيطا",
+                        "ومميزا",
+                        "جدا",
+                        "هنا"
+                    ],
+                    "level": "easy"
+                },
+                {
+                    "sentence": "حصل الموظف المثالي على مكافأة مالية اليوم.",
+                    "translation_english": "The ideal employee received a financial reward today.",
+                    "translation_native": "The ideal employee received a financial reward today.",
+                    "sentence_parts": [
+                        "حصل",
+                        "الموظف",
+                        "المثالي",
+                        "على",
+                        "مكافأة",
+                        "مالية",
+                        "اليوم"
+                    ],
+                    "level": "medium"
+                },
+                {
+                    "sentence": "يمتلك الموظف الجديد صلاحية دخول المنصة الرقمية.",
+                    "translation_english": "The new employee has authorization to enter the digital platform.",
+                    "translation_native": "The new employee has authorization to enter the digital platform.",
+                    "sentence_parts": [
+                        "يمتلك",
+                        "الموظف",
+                        "الجديد",
+                        "صلاحية",
+                        "دخول",
+                        "المنصة",
+                        "الرقمية"
+                    ],
+                    "level": "hard"
+                }
+            ],
+            "options": [
+                "الموظف",
+                "المدير",
+                "العميل",
+                "الزميل"
+            ],
+            "correct_answer": "الموظف"
+        }
+    ]
+}

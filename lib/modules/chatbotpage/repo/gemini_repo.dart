@@ -17,7 +17,11 @@ class GeminiRepo {
       _chatCancelToken = CancelToken();
       final apikey = dotenv.env['API_KEY'];
       final ageInstruction = age != null
-          ? " The user is $age years old. Please adapt your explanation style, vocabulary difficulty, tone, and examples to be appropriate and engaging for a ${age < 13 ? 'child under 13' : age < 20 ? 'teenager (13-19)' : 'adult (20+)'}."
+          ? " The user is $age years old. Please adapt your explanation style, vocabulary difficulty, tone, and examples to be appropriate and engaging for a ${age < 13
+                ? 'child under 13'
+                : age < 20
+                ? 'teenager (13-19)'
+                : 'adult (20+)'}."
           : "";
 
       final res = await geminiapiclient.post(
@@ -137,6 +141,18 @@ class GeminiRepo {
       }
 
       log("decoded text : $decoded");
+      try {
+        if (decoded != null) {
+          final validJson = jsonEncode(decoded);
+          log("valid json format: $validJson");
+          final prettyJson = const JsonEncoder.withIndent(
+            '  ',
+          ).convert(decoded);
+          log("pretty json format:\n$prettyJson");
+        }
+      } catch (e) {
+        log("Error formatting decoded object to JSON: $e");
+      }
       // final List wordsJson = decoded['words'] as List;
       final List? wordsJson =
           (decoded['words'] ?? decoded['vocabulary'] ?? decoded['word_list'])

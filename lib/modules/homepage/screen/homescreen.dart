@@ -2,6 +2,7 @@ import 'package:chatbot_app/modules/homepage/provider/homescreen_provider.dart';
 import 'package:chatbot_app/modules/onboarding/provider/onboard_provider.dart';
 import 'package:chatbot_app/modules/homepage/screen/lessonHistoryScreen.dart';
 import 'package:chatbot_app/modules/vocabularypage/screen/vocabscreen.dart';
+import 'package:chatbot_app/modules/vocabularypage/provider/vocab_provider.dart';
 import 'package:flutter_floating_bottom_bar/flutter_floating_bottom_bar.dart';
 import 'package:chatbot_app/modules/homepage/screen/lessonReviewScreen.dart';
 import 'package:chatbot_app/core/extensions/app_animation_extension.dart';
@@ -247,6 +248,65 @@ class Homescreen extends StatelessWidget {
                                 style: context.text.labelLarge,
                               ),
                             ).fadeInScaleDelayed(400),
+                          ),
+                          Padding(
+                            padding: EdgeInsets.only(bottom: 15.r),
+                            child: AppButton(
+                              width: MediaQuery.widthOf(context) * 0.9,
+                              backgroundColor:
+                                  context.theme.colorScheme.secondary,
+                              borderColor: context.theme.colorScheme.secondary,
+                              buttonFunc: () async {
+                                final onboard = context.read<OnboardProvider>();
+                                final vocabProvider = context
+                                    .read<VocabProvider>();
+
+                                showDialog(
+                                  context: context,
+                                  barrierDismissible: false,
+                                  builder: (context) => const Center(
+                                    child: CircularProgressIndicator(),
+                                  ),
+                                );
+
+                                try {
+                                  await vocabProvider.generateWordsFromAI(
+                                    onboard,
+                                  );
+                                  if (context.mounted) {
+                                    Navigator.pop(
+                                      context,
+                                    ); // Dismiss loading spinner
+                                    ScaffoldMessenger.of(context).showSnackBar(
+                                      SnackBar(
+                                        content: Text(
+                                          vocabProvider.generationFailed
+                                              ? 'Failed to generate vocabulary.'
+                                              : 'Vocabulary generated and saved to assets successfully!',
+                                        ),
+                                      ),
+                                    );
+                                  }
+                                } catch (e) {
+                                  if (context.mounted) {
+                                    Navigator.pop(
+                                      context,
+                                    ); // Dismiss loading spinner
+                                    ScaffoldMessenger.of(context).showSnackBar(
+                                      SnackBar(
+                                        content: Text(
+                                          'Error generating data: $e',
+                                        ),
+                                      ),
+                                    );
+                                  }
+                                }
+                              },
+                              childWidget: Text(
+                                'Generate Data',
+                                style: context.text.labelLarge,
+                              ),
+                            ).fadeInScaleDelayed(500),
                           ),
                         ],
                       ),

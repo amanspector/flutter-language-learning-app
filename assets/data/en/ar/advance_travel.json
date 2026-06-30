@@ -1,0 +1,1938 @@
+{
+    "metadata": {
+        "language": "Arabic",
+        "native_language": "English",
+        "level": "Advanced",
+        "category": "travel",
+        "total_words": 56
+    },
+    "words": [
+        {
+            "word": "تَذْكِرَة",
+            "translation_english": "ticket",
+            "translation_native": "ticket",
+            "pronunciation": "tadhkira",
+            "examples": [
+                {
+                    "sentence": "قمتُ بمسحِ رمزِ الاستجابةِ السريعِ الموجودِ على تذكرةِ الصعودِ لدخولِ الطائرةِ.",
+                    "translation_english": "I scanned the QR code on the boarding ticket to enter the plane.",
+                    "translation_native": "I scanned the QR code on the boarding ticket to enter the plane.",
+                    "sentence_parts": [
+                        "قمتُ",
+                        "بمسحِ",
+                        "رمزِ",
+                        "الاستجابةِ",
+                        "السريعِ",
+                        "الموجودِ",
+                        "على",
+                        "تذكرةِ",
+                        "الصعودِ",
+                        "لدخولِ",
+                        "الطائرةِ"
+                    ],
+                    "level": "hard"
+                }
+            ],
+            "options": [
+                "تَذْكِرَة",
+                "حَقِيبَة",
+                "جَوَاز",
+                "تَأْشِيرَة"
+            ],
+            "correct_answer": "تَذْكِرَة"
+        },
+        {
+            "word": "جَوَاز",
+            "translation_english": "passport",
+            "translation_native": "passport",
+            "pronunciation": "jawaz",
+            "examples": [
+                {
+                    "sentence": "يجبُ ختمُ جوازِ السفرِ عندَ مكتبِ الهجرةِ قبلَ التوجهِ إلى منطقةِ الأمتعةِ.",
+                    "translation_english": "The passport must be stamped at the immigration desk before heading to the baggage area.",
+                    "translation_native": "The passport must be stamped at the immigration desk before heading to the baggage area.",
+                    "sentence_parts": [
+                        "يجبُ",
+                        "ختمُ",
+                        "جوازِ",
+                        "السفرِ",
+                        "عندَ",
+                        "مكتبِ",
+                        "الهجرةِ",
+                        "قبلَ",
+                        "التوجهِ",
+                        "إلى",
+                        "منطقةِ",
+                        "الأمتعةِ"
+                    ],
+                    "level": "hard"
+                }
+            ],
+            "options": [
+                "جَوَاز",
+                "مِفْتَاح",
+                "هَاتِف",
+                "مُحَفَظَة"
+            ],
+            "correct_answer": "جَوَاز"
+        },
+        {
+            "word": "تَأْشِيرَة",
+            "translation_english": "visa",
+            "translation_native": "visa",
+            "pronunciation": "ta'shira",
+            "examples": [
+                {
+                    "sentence": "تتطلبُ الرحلةُ الدراسيةُ الحصولَ على تأشيرةٍ إلكترونيةٍ قبلَ موعدِ المغادرةِ بأسابيعَ قليلةٍ.",
+                    "translation_english": "The study trip requires obtaining an electronic visa a few weeks before departure.",
+                    "translation_native": "The study trip requires obtaining an electronic visa a few weeks before departure.",
+                    "sentence_parts": [
+                        "تتطلبُ",
+                        "الرحلةُ",
+                        "الدراسيةُ",
+                        "الحصولَ",
+                        "على",
+                        "تأشيرةٍ",
+                        "إلكترونيةٍ",
+                        "قبلَ",
+                        "موعدِ",
+                        "المغادرةِ",
+                        "بأسابيعَ",
+                        "قليلةٍ"
+                    ],
+                    "level": "hard"
+                }
+            ],
+            "options": [
+                "تَأْشِيرَة",
+                "رُخْصَة",
+                "بِطَاقَة",
+                "وَرَقَة"
+            ],
+            "correct_answer": "تَأْشِيرَة"
+        },
+        {
+            "word": "مِظَلَّة",
+            "translation_english": "umbrella",
+            "translation_native": "umbrella",
+            "pronunciation": "mizalla",
+            "examples": [
+                {
+                    "sentence": "فتحتُ مظلةَ الوقايةِ من المطرِ أثناءَ سيري في شوارعِ لندنَ الضبابيةِ المزدحمةِ.",
+                    "translation_english": "I opened the protective umbrella while walking in the crowded, foggy streets of London.",
+                    "translation_native": "I opened the protective umbrella while walking in the crowded, foggy streets of London.",
+                    "sentence_parts": [
+                        "فتحتُ",
+                        "مظلةَ",
+                        "الوقايةِ",
+                        "من",
+                        "المطرِ",
+                        "أثناءَ",
+                        "سيري",
+                        "في",
+                        "شوارعِ",
+                        "لندنَ",
+                        "الضبابيةِ",
+                        "المزدحمةِ"
+                    ],
+                    "level": "hard"
+                }
+            ],
+            "options": [
+                "مِظَلَّة",
+                "حَقِيبَة",
+                "قُبَّعَة",
+                "سُتْرَة"
+            ],
+            "correct_answer": "مِظَلَّة"
+        },
+        {
+            "word": "فُنْدُق",
+            "translation_english": "hotel",
+            "translation_native": "hotel",
+            "pronunciation": "funduq",
+            "examples": [
+                {
+                    "sentence": "سجلتُ وصولي في فندقِ الشبابِ الرقميِ لاستخدامِ شبكةِ الإنترنتِ فائقةِ السرعةِ هناكَ.",
+                    "translation_english": "I checked into the digital youth hotel to use the super-fast internet there.",
+                    "translation_native": "I checked into the digital youth hotel to use the super-fast internet there.",
+                    "sentence_parts": [
+                        "سجلتُ",
+                        "وصولي",
+                        "في",
+                        "فندقِ",
+                        "الشبابِ",
+                        "الرقميِ",
+                        "لاستخدامِ",
+                        "شبكةِ",
+                        "الإنترنتِ",
+                        "فائقةِ",
+                        "السرعةِ",
+                        "هناكَ"
+                    ],
+                    "level": "hard"
+                }
+            ],
+            "options": [
+                "فُنْدُق",
+                "مَطْعَم",
+                "مَتْجَر",
+                "مَسْرَح"
+            ],
+            "correct_answer": "فُنْدُق"
+        },
+        {
+            "word": "خَرِيطَة",
+            "translation_english": "map",
+            "translation_native": "map",
+            "pronunciation": "kharita",
+            "examples": [
+                {
+                    "sentence": "استخدمتُ خريطةَ المدينةِ التفاعليةِ لتحديدِ موقعِ مقهى الألعابِ المفضلِ لديَّ بالخارجِ.",
+                    "translation_english": "I used the interactive city map to locate my favorite gaming cafe abroad.",
+                    "translation_native": "I used the interactive city map to locate my favorite gaming cafe abroad.",
+                    "sentence_parts": [
+                        "استخدمتُ",
+                        "خريطةَ",
+                        "المدينةِ",
+                        "التفاعليةِ",
+                        "لتحديدِ",
+                        "موقعِ",
+                        "مقهى",
+                        "الألعابِ",
+                        "المفضلِ",
+                        "لديَّ",
+                        "بالخارجِ"
+                    ],
+                    "level": "hard"
+                }
+            ],
+            "options": [
+                "خَرِيطَة",
+                "صُورَة",
+                "لَوْحَة",
+                "رِسَالَة"
+            ],
+            "correct_answer": "خَرِيطَة"
+        },
+        {
+            "word": "مِتْرُو",
+            "translation_english": "subway",
+            "translation_native": "subway",
+            "pronunciation": "metro",
+            "examples": [
+                {
+                    "sentence": "استقليتُ قطارَ المترو السريعِ للوصولِ إلى مركزِ التسوقِ قبلَ إغلاقِ المحلاتِ التجاريةِ.",
+                    "translation_english": "I took the fast subway train to reach the mall before the shops closed.",
+                    "translation_native": "I took the fast subway train to reach the mall before the shops closed.",
+                    "sentence_parts": [
+                        "استقليتُ",
+                        "قطارَ",
+                        "المترو",
+                        "السريعِ",
+                        "للوصولِ",
+                        "إلى",
+                        "مركزِ",
+                        "التسوقِ",
+                        "قبلَ",
+                        "إغلاقِ",
+                        "المحلاتِ",
+                        "التجاريةِ"
+                    ],
+                    "level": "hard"
+                }
+            ],
+            "options": [
+                "مِتْرُو",
+                "بَاص",
+                "قَارِب",
+                "طَائِرَة"
+            ],
+            "correct_answer": "مِتْرُو"
+        },
+        {
+            "word": "مَطَار",
+            "translation_english": "airport",
+            "translation_native": "airport",
+            "pronunciation": "matar",
+            "examples": [
+                {
+                    "sentence": "انتظرتُ في صالةِ المطارِ الدوليةِ لشحنِ هاتفي قبلَ رحلتي الطويلةِ إلى اليابانِ.",
+                    "translation_english": "I waited in the international airport lounge to charge my phone before my long flight to Japan.",
+                    "translation_native": "I waited in the international airport lounge to charge my phone before my long flight to Japan.",
+                    "sentence_parts": [
+                        "انتظرتُ",
+                        "في",
+                        "صالةِ",
+                        "المطارِ",
+                        "الدوليةِ",
+                        "لشحنِ",
+                        "هاتفي",
+                        "قبلَ",
+                        "رحلتي",
+                        "الطويلةِ",
+                        "إلى",
+                        "اليابانِ"
+                    ],
+                    "level": "hard"
+                }
+            ],
+            "options": [
+                "مَطَار",
+                "مِينَا",
+                "مَحَطَة",
+                "مَوْقِف"
+            ],
+            "correct_answer": "مَطَار"
+        },
+        {
+            "word": "حَقِيبَة",
+            "translation_english": "suitcase",
+            "translation_native": "suitcase",
+            "pronunciation": "haqiba",
+            "examples": [
+                {
+                    "sentence": "وضعتُ ملابسَ الرياضةِ داخلَ حقيبةِ السفرِ الكبيرةِ استعداداً لبطولةِ كرةِ القدمِ الدوليةِ.",
+                    "translation_english": "I put my sportswear inside the large suitcase in preparation for the international soccer tournament.",
+                    "translation_native": "I put my sportswear inside the large suitcase in preparation for the international soccer tournament.",
+                    "sentence_parts": [
+                        "وضعتُ",
+                        "ملابسَ",
+                        "الرياضةِ",
+                        "داخلَ",
+                        "حقيبةِ",
+                        "السفرِ",
+                        "الكبيرةِ",
+                        "استعداداً",
+                        "لبطولةِ",
+                        "كرةِ",
+                        "القدمِ",
+                        "الدوليةِ"
+                    ],
+                    "level": "hard"
+                }
+            ],
+            "options": [
+                "حَقِيبَة",
+                "مِحْفَظَة",
+                "عُلْبَة",
+                "سَلَة"
+            ],
+            "correct_answer": "حَقِيبَة"
+        },
+        {
+            "word": "مُدَوِّنَة",
+            "translation_english": "blog",
+            "translation_native": "blog",
+            "pronunciation": "mudawwana",
+            "examples": [
+                {
+                    "sentence": "نشرتُ تفاصيلَ رحلتي في مدونةِ السفرِ الخاصةِ بي لمشاركةِ تجاربي مع الأصدقاءِ.",
+                    "translation_english": "I posted details of my trip on my travel blog to share my experiences with friends.",
+                    "translation_native": "I posted details of my trip on my travel blog to share my experiences with friends.",
+                    "sentence_parts": [
+                        "نشرتُ",
+                        "تفاصيلَ",
+                        "رحلتي",
+                        "في",
+                        "مدونةِ",
+                        "السفرِ",
+                        "الخاصةِ",
+                        "بي",
+                        "لمشاركةِ",
+                        "تجاربي",
+                        "مع",
+                        "الأصدقاءِ"
+                    ],
+                    "level": "hard"
+                }
+            ],
+            "options": [
+                "مُدَوِّنَة",
+                "مَجَلَة",
+                "صَحِيفَة",
+                "رِسَالَة"
+            ],
+            "correct_answer": "مُدَوِّنَة"
+        },
+        {
+            "word": "مِصْعَد",
+            "translation_english": "elevator",
+            "translation_native": "elevator",
+            "pronunciation": "mis'ad",
+            "examples": [
+                {
+                    "sentence": "ضغطتُ زرَّ الطابقِ العاشرِ داخلَ مصعدِ الفندقِ للوصولِ إلى غرفتي بسرعةٍ فائقةٍ.",
+                    "translation_english": "I pressed the tenth-floor button inside the hotel elevator to reach my room at lightning speed.",
+                    "translation_native": "I pressed the tenth-floor button inside the hotel elevator to reach my room at lightning speed.",
+                    "sentence_parts": [
+                        "ضغطتُ",
+                        "زرَّ",
+                        "الطابقِ",
+                        "العاشرِ",
+                        "داخلَ",
+                        "مصعدِ",
+                        "الفندقِ",
+                        "للوصولِ",
+                        "إلى",
+                        "غرفتي",
+                        "بسرعةٍ",
+                        "فائقةٍ"
+                    ],
+                    "level": "hard"
+                }
+            ],
+            "options": [
+                "مِصْعَد",
+                "سُلَّم",
+                "مَمَر",
+                "بَاب"
+            ],
+            "correct_answer": "مِصْعَد"
+        },
+        {
+            "word": "مُتَرْجِم",
+            "translation_english": "translator",
+            "translation_native": "translator",
+            "pronunciation": "mutarjim",
+            "examples": [
+                {
+                    "sentence": "استخدمتُ تطبيقَ المترجمِ الفوريِ لفهمِ قائمةِ الطعامِ المكتوبةِ باللغةِ الصينيةِ المعقدةِ تماماً.",
+                    "translation_english": "I used the instant translator app to understand the menu written in completely complex Chinese.",
+                    "translation_native": "I used the instant translator app to understand the menu written in completely complex Chinese.",
+                    "sentence_parts": [
+                        "استخدمتُ",
+                        "تطبيقَ",
+                        "المترجمِ",
+                        "الفوريِ",
+                        "لفهمِ",
+                        "قائمةِ",
+                        "الطعامِ",
+                        "المكتوبةِ",
+                        "باللغةِ",
+                        "الصينيةِ",
+                        "المعقدةِ",
+                        "تماماً"
+                    ],
+                    "level": "hard"
+                }
+            ],
+            "options": [
+                "مُتَرْجِم",
+                "مُرْشِد",
+                "مُعَلِّم",
+                "مُدِير"
+            ],
+            "correct_answer": "مُتَرْجِم"
+        },
+        {
+            "word": "مُدَوِّن",
+            "translation_english": "vlogger",
+            "translation_native": "vlogger",
+            "pronunciation": "mudawwin",
+            "examples": [
+                {
+                    "sentence": "سجلَ المدونُ الشهيرُ فيديو عن معالمِ المدينةِ السياحيةِ لجماهيرِ المتابعينَ عبرَ الإنترنتِ.",
+                    "translation_english": "The famous vlogger recorded a video about the city's tourist landmarks for the masses of followers online.",
+                    "translation_native": "The famous vlogger recorded a video about the city's tourist landmarks for the masses of followers online.",
+                    "sentence_parts": [
+                        "سجلَ",
+                        "المدونُ",
+                        "الشهيرُ",
+                        "فيديو",
+                        "عن",
+                        "معالمِ",
+                        "المدينةِ",
+                        "السياحيةِ",
+                        "لجماهيرِ",
+                        "المتابعينَ",
+                        "عبرَ",
+                        "الإنترنتِ"
+                    ],
+                    "level": "hard"
+                }
+            ],
+            "options": [
+                "مُدَوِّن",
+                "مُصَوِّر",
+                "مُمَثِّل",
+                "مُغَنِّي"
+            ],
+            "correct_answer": "مُدَوِّن"
+        },
+        {
+            "word": "شَاحِن",
+            "translation_english": "charger",
+            "translation_native": "charger",
+            "pronunciation": "shahin",
+            "examples": [
+                {
+                    "sentence": "نسيتُ شاحنَ الهاتفِ في غرفتي بالفندقِ مما اضطرني للبحثِ عن بديلٍ سريعٍ.",
+                    "translation_english": "I forgot the phone charger in my hotel room, which forced me to look for a quick replacement.",
+                    "translation_native": "I forgot the phone charger in my hotel room, which forced me to look for a quick replacement.",
+                    "sentence_parts": [
+                        "نسيتُ",
+                        "شاحنَ",
+                        "الهاتفِ",
+                        "في",
+                        "غرفتي",
+                        "بالفندقِ",
+                        "مما",
+                        "اضطرني",
+                        "للبحثِ",
+                        "عن",
+                        "بديلٍ",
+                        "سريعٍ"
+                    ],
+                    "level": "hard"
+                }
+            ],
+            "options": [
+                "شَاحِن",
+                "مِفْتَاح",
+                "هَاتِف",
+                "حَاسُوب"
+            ],
+            "correct_answer": "شَاحِن"
+        },
+        {
+            "word": "مُدَوَّنَة",
+            "translation_english": "logbook",
+            "translation_native": "logbook",
+            "pronunciation": "mudawwana",
+            "examples": [
+                {
+                    "sentence": "سجلَ الطيارُ مسارَ الرحلةِ في مدونةِ الطيرانِ الخاصةِ به قبلَ الإقلاعِ بسلامٍ.",
+                    "translation_english": "The pilot recorded the flight path in his aviation logbook before taking off safely.",
+                    "translation_native": "The pilot recorded the flight path in his aviation logbook before taking off safely.",
+                    "sentence_parts": [
+                        "سجلَ",
+                        "الطيارُ",
+                        "مسارَ",
+                        "الرحلةِ",
+                        "في",
+                        "مدونةِ",
+                        "الطيرانِ",
+                        "الخاصةِ",
+                        "به",
+                        "قبلَ",
+                        "الإقلاعِ",
+                        "بسلامٍ"
+                    ],
+                    "level": "hard"
+                }
+            ],
+            "options": [
+                "مُدَوَّنَة",
+                "مُفَكِّرَة",
+                "رِسَالَة",
+                "قَائِمَة"
+            ],
+            "correct_answer": "مُدَوَّنَة"
+        },
+        {
+            "word": "مِظَلَّة",
+            "translation_english": "parachute",
+            "translation_native": "parachute",
+            "pronunciation": "mizalla",
+            "examples": [
+                {
+                    "sentence": "استخدمَ المغامرُ مظلةَ القفزِ للهبوطِ بسلامٍ فوقَ الجبالِ الخضراءِ خلالَ رحلةِ التخييمِ.",
+                    "translation_english": "The adventurer used the parachute to land safely over the green mountains during the camping trip.",
+                    "translation_native": "The adventurer used the parachute to land safely over the green mountains during the camping trip.",
+                    "sentence_parts": [
+                        "استخدمَ",
+                        "المغامرُ",
+                        "مظلةَ",
+                        "القفزِ",
+                        "للهبوطِ",
+                        "بسلامٍ",
+                        "فوقَ",
+                        "الجبالِ",
+                        "الخضراءِ",
+                        "خلالَ",
+                        "رحلةِ",
+                        "التخييمِ"
+                    ],
+                    "level": "hard"
+                }
+            ],
+            "options": [
+                "مِظَلَّة",
+                "طَائِرَة",
+                "مِرْكَبَة",
+                "دَرَّاجَة"
+            ],
+            "correct_answer": "مِظَلَّة"
+        },
+        {
+            "word": "مُتْحَف",
+            "translation_english": "museum",
+            "translation_native": "museum",
+            "pronunciation": "mut-haf",
+            "examples": [
+                {
+                    "sentence": "تجولتُ داخلَ متحفِ الفنونِ الحديثةِ لمشاهدةِ المعارضِ الرقميةِ المذهلةِ مع أصدقائي.",
+                    "translation_english": "I wandered inside the modern art museum to see the amazing digital exhibits with my friends.",
+                    "translation_native": "I wandered inside the modern art museum to see the amazing digital exhibits with my friends.",
+                    "sentence_parts": [
+                        "تجولتُ",
+                        "داخلَ",
+                        "متحفِ",
+                        "الفنونِ",
+                        "الحديثةِ",
+                        "لمشاهدةِ",
+                        "المعارضِ",
+                        "الرقميةِ",
+                        "المذهلةِ",
+                        "مع",
+                        "أصدقائي"
+                    ],
+                    "level": "hard"
+                }
+            ],
+            "options": [
+                "مُتْحَف",
+                "مَسْرَح",
+                "مَلْعَب",
+                "مَكْتَب"
+            ],
+            "correct_answer": "مُتْحَف"
+        },
+        {
+            "word": "مَطْعَم",
+            "translation_english": "restaurant",
+            "translation_native": "restaurant",
+            "pronunciation": "mat'am",
+            "examples": [
+                {
+                    "sentence": "طلبتُ وجبةً نباتيةً في مطعمِ البيتزا الإيطاليِ المشهورِ بتقديمِ الأطباقِ العضويةِ الطازجةِ.",
+                    "translation_english": "I ordered a vegetarian meal at the Italian pizza restaurant famous for serving fresh organic dishes.",
+                    "translation_native": "I ordered a vegetarian meal at the Italian pizza restaurant famous for serving fresh organic dishes.",
+                    "sentence_parts": [
+                        "طلبتُ",
+                        "وجبةً",
+                        "نباتيةً",
+                        "في",
+                        "مطعمِ",
+                        "البيتزا",
+                        "الإيطاليِ",
+                        "المشهورِ",
+                        "بتقديمِ",
+                        "الأطباقِ",
+                        "العضويةِ",
+                        "الطازجةِ"
+                    ],
+                    "level": "hard"
+                }
+            ],
+            "options": [
+                "مَطْعَم",
+                "مَقْهَى",
+                "مَخْبَز",
+                "مَتْجَر"
+            ],
+            "correct_answer": "مَطْعَم"
+        },
+        {
+            "word": "مَقْهَى",
+            "translation_english": "cafe",
+            "translation_native": "cafe",
+            "pronunciation": "maqha",
+            "examples": [
+                {
+                    "sentence": "جلستُ في مقهى الإنترنتِ الهادئِ لإنهاءِ مشروعِ المدرسةِ قبلَ العودةِ إلى الوطنِ.",
+                    "translation_english": "I sat in the quiet internet cafe to finish the school project before returning home.",
+                    "translation_native": "I sat in the quiet internet cafe to finish the school project before returning home.",
+                    "sentence_parts": [
+                        "جلستُ",
+                        "في",
+                        "مقهى",
+                        "الإنترنتِ",
+                        "الهادئِ",
+                        "لإنهاءِ",
+                        "مشروعِ",
+                        "المدرسةِ",
+                        "قبلَ",
+                        "العودةِ",
+                        "إلى",
+                        "الوطنِ"
+                    ],
+                    "level": "hard"
+                }
+            ],
+            "options": [
+                "مَقْهَى",
+                "مَطْعَم",
+                "مَتْجَر",
+                "مَكْتَب"
+            ],
+            "correct_answer": "مَقْهَى"
+        },
+        {
+            "word": "مَحَطَة",
+            "translation_english": "station",
+            "translation_native": "station",
+            "pronunciation": "mahatta",
+            "examples": [
+                {
+                    "sentence": "انتظرتُ وصولَ القطارِ السريعِ في محطةِ القطاراتِ المركزيةِ المزدحمةِ بالمسافرينَ الشبابِ.",
+                    "translation_english": "I waited for the high-speed train to arrive at the central train station crowded with young travelers.",
+                    "translation_native": "I waited for the high-speed train to arrive at the central train station crowded with young travelers.",
+                    "sentence_parts": [
+                        "انتظرتُ",
+                        "وصولَ",
+                        "القطارِ",
+                        "السريعِ",
+                        "في",
+                        "محطةِ",
+                        "القطاراتِ",
+                        "المركزيةِ",
+                        "المزدحمةِ",
+                        "بالمسافرينَ",
+                        "الشبابِ"
+                    ],
+                    "level": "hard"
+                }
+            ],
+            "options": [
+                "مَحَطَة",
+                "مَوْقِف",
+                "مَطَار",
+                "مِينَا"
+            ],
+            "correct_answer": "مَحَطَة"
+        },
+        {
+            "word": "مَوْقِف",
+            "translation_english": "parking lot",
+            "translation_native": "parking lot",
+            "pronunciation": "mawqif",
+            "examples": [
+                {
+                    "sentence": "أوقفتُ السيارةَ المستأجرةَ في موقفِ السياراتِ الخاصِ بالفندقِ لتجنبِ دفعِ المخالفاتِ.",
+                    "translation_english": "I parked the rental car in the hotel's private parking lot to avoid paying fines.",
+                    "translation_native": "I parked the rental car in the hotel's private parking lot to avoid paying fines.",
+                    "sentence_parts": [
+                        "أوقفتُ",
+                        "السيارةَ",
+                        "المستأجرةَ",
+                        "في",
+                        "موقفِ",
+                        "السياراتِ",
+                        "الخاصِ",
+                        "بالفندقِ",
+                        "لتجنبِ",
+                        "دفعِ",
+                        "المخالفاتِ"
+                    ],
+                    "level": "hard"
+                }
+            ],
+            "options": [
+                "مَوْقِف",
+                "مَحَطَة",
+                "مَطَار",
+                "مِينَا"
+            ],
+            "correct_answer": "مَوْقِف"
+        },
+        {
+            "word": "مِينَا",
+            "translation_english": "port",
+            "translation_native": "port",
+            "pronunciation": "mina",
+            "examples": [
+                {
+                    "sentence": "وصلتِ السفينةُ السياحيةُ إلى ميناءِ المدينةِ التاريخيِ لبدءِ جولةٍ بحريةٍ ممتعةٍ.",
+                    "translation_english": "The cruise ship arrived at the city's historic port to begin an enjoyable sea tour.",
+                    "translation_native": "The cruise ship arrived at the city's historic port to begin an enjoyable sea tour.",
+                    "sentence_parts": [
+                        "وصلتِ",
+                        "السفينةُ",
+                        "السياحيةُ",
+                        "إلى",
+                        "ميناءِ",
+                        "المدينةِ",
+                        "التاريخيِ",
+                        "لبدءِ",
+                        "جولةٍ",
+                        "بحريةٍ",
+                        "ممتعةٍ"
+                    ],
+                    "level": "hard"
+                }
+            ],
+            "options": [
+                "مِينَا",
+                "مَحَطَة",
+                "مَطَار",
+                "مَوْقِف"
+            ],
+            "correct_answer": "مِينَا"
+        },
+        {
+            "word": "مَجَلَة",
+            "translation_english": "magazine",
+            "translation_native": "magazine",
+            "pronunciation": "majalla",
+            "examples": [
+                {
+                    "sentence": "قرأتُ مجلةَ السفرِ العالميةَ أثناءَ رحلتي الجويةِ للتعرفِ على أفضلِ وجهاتِ التخييمِ.",
+                    "translation_english": "I read the international travel magazine during my flight to learn about the best camping destinations.",
+                    "translation_native": "I read the international travel magazine during my flight to learn about the best camping destinations.",
+                    "sentence_parts": [
+                        "قرأتُ",
+                        "مجلةَ",
+                        "السفرِ",
+                        "العالميةَ",
+                        "أثناءَ",
+                        "رحلتي",
+                        "الجويةِ",
+                        "للتعرفِ",
+                        "على",
+                        "أفضلِ",
+                        "وجهاتِ",
+                        "التخييمِ"
+                    ],
+                    "level": "hard"
+                }
+            ],
+            "options": [
+                "مَجَلَة",
+                "كِتَاب",
+                "جَرِيدَة",
+                "رِسَالَة"
+            ],
+            "correct_answer": "مَجَلَة"
+        },
+        {
+            "word": "كِتَاب",
+            "translation_english": "book",
+            "translation_native": "book",
+            "pronunciation": "kitab",
+            "examples": [
+                {
+                    "sentence": "اشتريتُ كتابَ التاريخِ المصورَ من مكتبةِ المطارِ لقراءتِهِ خلالَ فترةِ الانتظارِ الطويلةِ.",
+                    "translation_english": "I bought the illustrated history book from the airport bookstore to read during the long wait.",
+                    "translation_native": "I bought the illustrated history book from the airport bookstore to read during the long wait.",
+                    "sentence_parts": [
+                        "اشتريتُ",
+                        "كتابَ",
+                        "التاريخِ",
+                        "المصورَ",
+                        "من",
+                        "مكتبةِ",
+                        "المطارِ",
+                        "لقراءتِهِ",
+                        "خلالَ",
+                        "فترةِ",
+                        "الانتظارِ",
+                        "الطويلةِ"
+                    ],
+                    "level": "hard"
+                }
+            ],
+            "options": [
+                "كِتَاب",
+                "مَجَلَة",
+                "جَرِيدَة",
+                "مُدَوِّنَة"
+            ],
+            "correct_answer": "كِتَاب"
+        },
+        {
+            "word": "جَرِيدَة",
+            "translation_english": "newspaper",
+            "translation_native": "newspaper",
+            "pronunciation": "jarida",
+            "examples": [
+                {
+                    "sentence": "تصفحتُ جريدةَ الصباحِ المحليةَ لمعرفةِ أحوالِ الطقسِ في وجهتي السياحيةِ القادمةِ.",
+                    "translation_english": "I browsed the local morning newspaper to know the weather conditions at my next tourist destination.",
+                    "translation_native": "I browsed the local morning newspaper to know the weather conditions at my next tourist destination.",
+                    "sentence_parts": [
+                        "تصفحتُ",
+                        "جريدةَ",
+                        "الصباحِ",
+                        "المحليةَ",
+                        "لمعرفةِ",
+                        "أحوالِ",
+                        "الطقسِ",
+                        "في",
+                        "وجهتي",
+                        "السياحيةِ",
+                        "القادمةِ"
+                    ],
+                    "level": "hard"
+                }
+            ],
+            "options": [
+                "جَرِيدَة",
+                "مَجَلَة",
+                "كِتَاب",
+                "رِسَالَة"
+            ],
+            "correct_answer": "جَرِيدَة"
+        },
+        {
+            "word": "رِسَالَة",
+            "translation_english": "letter",
+            "translation_native": "letter",
+            "pronunciation": "risala",
+            "examples": [
+                {
+                    "sentence": "أرسلتُ رسالةَ شكرٍ إلكترونيةً إلى مديرِ الفندقِ لحسنِ ضيافتِهِ خلالَ إقامتي القصيرةِ.",
+                    "translation_english": "I sent an electronic thank-you letter to the hotel manager for his hospitality during my short stay.",
+                    "translation_native": "I sent an electronic thank-you letter to the hotel manager for his hospitality during my short stay.",
+                    "sentence_parts": [
+                        "أرسلتُ",
+                        "رسالةَ",
+                        "شكرٍ",
+                        "إلكترونيةً",
+                        "إلى",
+                        "مديرِ",
+                        "الفندقِ",
+                        "لحسنِ",
+                        "ضيافتِهِ",
+                        "خلالَ",
+                        "إقامتي",
+                        "القصيرةِ"
+                    ],
+                    "level": "hard"
+                }
+            ],
+            "options": [
+                "رِسَالَة",
+                "مَجَلَة",
+                "كِتَاب",
+                "جَرِيدَة"
+            ],
+            "correct_answer": "رِسَالَة"
+        },
+        {
+            "word": "مُفَكِّرَة",
+            "translation_english": "notebook",
+            "translation_native": "notebook",
+            "pronunciation": "mufakkira",
+            "examples": [
+                {
+                    "sentence": "دونْتُ ملاحظاتِ الرحلةِ في مفكرةِ السفرِ الشخصيةِ لأتذكرَ الأماكنَ التي زرتُها.",
+                    "translation_english": "I wrote down trip notes in my personal travel notebook to remember the places I visited.",
+                    "translation_native": "I wrote down trip notes in my personal travel notebook to remember the places I visited.",
+                    "sentence_parts": [
+                        "دونْتُ",
+                        "ملاحظاتِ",
+                        "الرحلةِ",
+                        "في",
+                        "مفكرةِ",
+                        "السفرِ",
+                        "الشخصيةِ",
+                        "لأتذكرَ",
+                        "الأماكنَ",
+                        "التي",
+                        "زرتُها"
+                    ],
+                    "level": "hard"
+                }
+            ],
+            "options": [
+                "مُفَكِّرَة",
+                "مُدَوِّنَة",
+                "رِسَالَة",
+                "قَائِمَة"
+            ],
+            "correct_answer": "مُفَكِّرَة"
+        },
+        {
+            "word": "قَائِمَة",
+            "translation_english": "list",
+            "translation_native": "list",
+            "pronunciation": "qa'ima",
+            "examples": [
+                {
+                    "sentence": "أعددتُ قائمةَ المهامِ اليوميةِ لزيارةِ المعالمِ السياحيةِ قبلَ مغادرةِ المدينةِ غداً.",
+                    "translation_english": "I prepared the daily task list to visit the tourist landmarks before leaving the city tomorrow.",
+                    "translation_native": "I prepared the daily task list to visit the tourist landmarks before leaving the city tomorrow.",
+                    "sentence_parts": [
+                        "أعددتُ",
+                        "قائمةَ",
+                        "المهامِ",
+                        "اليوميةِ",
+                        "لزيارةِ",
+                        "المعالمِ",
+                        "السياحيةِ",
+                        "قبلَ",
+                        "مغادرةِ",
+                        "المدينةِ",
+                        "غداً"
+                    ],
+                    "level": "hard"
+                }
+            ],
+            "options": [
+                "قَائِمَة",
+                "مُفَكِّرَة",
+                "رِسَالَة",
+                "مُدَوِّنَة"
+            ],
+            "correct_answer": "قَائِمَة"
+        },
+        {
+            "word": "مُصَوِّر",
+            "translation_english": "photographer",
+            "translation_native": "photographer",
+            "pronunciation": "musawwir",
+            "examples": [
+                {
+                    "sentence": "استأجرتُ مصوراً محترفاً لالتقاطِ صورٍ تذكاريةٍ جميلةٍ في وسطِ المدينةِ القديمةِ.",
+                    "translation_english": "I hired a professional photographer to take beautiful souvenir photos in the middle of the old city.",
+                    "translation_native": "I hired a professional photographer to take beautiful souvenir photos in the middle of the old city.",
+                    "sentence_parts": [
+                        "استأجرتُ",
+                        "مصوراً",
+                        "محترفاً",
+                        "لالتقاطِ",
+                        "صورٍ",
+                        "تذكاريةٍ",
+                        "جميلةٍ",
+                        "في",
+                        "وسطِ",
+                        "المدينةِ",
+                        "القديمةِ"
+                    ],
+                    "level": "hard"
+                }
+            ],
+            "options": [
+                "مُصَوِّر",
+                "مُدَوِّن",
+                "مُمَثِّل",
+                "مُغَنِّي"
+            ],
+            "correct_answer": "مُصَوِّر"
+        },
+        {
+            "word": "مُمَثِّل",
+            "translation_english": "actor",
+            "translation_native": "actor",
+            "pronunciation": "mumathil",
+            "examples": [
+                {
+                    "sentence": "قابلتُ ممثلاً مشهوراً بالصدفةِ أثناءَ تجولي في شوارعِ هوليوودَ المزدحمةِ.",
+                    "translation_english": "I met a famous actor by chance while wandering in the crowded streets of Hollywood.",
+                    "translation_native": "I met a famous actor by chance while wandering in the crowded streets of Hollywood.",
+                    "sentence_parts": [
+                        "قابلتُ",
+                        "ممثلاً",
+                        "مشهوراً",
+                        "بالصدفةِ",
+                        "أثناءَ",
+                        "تجولي",
+                        "في",
+                        "شوارعِ",
+                        "هوليوودَ",
+                        "المزدحمةِ"
+                    ],
+                    "level": "hard"
+                }
+            ],
+            "options": [
+                "مُمَثِّل",
+                "مُصَوِّر",
+                "مُدَوِّن",
+                "مُغَنِّي"
+            ],
+            "correct_answer": "مُمَثِّل"
+        },
+        {
+            "word": "مُغَنِّي",
+            "translation_english": "singer",
+            "translation_native": "singer",
+            "pronunciation": "mughanni",
+            "examples": [
+                {
+                    "sentence": "حضرتُ حفلاً موسيقياً لمغني البوبِ المفضلِ لديَّ في ملعبِ المدينةِ الكبيرِ.",
+                    "translation_english": "I attended a concert for my favorite pop singer at the city's large stadium.",
+                    "translation_native": "I attended a concert for my favorite pop singer at the city's large stadium.",
+                    "sentence_parts": [
+                        "حضرتُ",
+                        "حفلاً",
+                        "موسيقياً",
+                        "لمغني",
+                        "البوبِ",
+                        "المفضلِ",
+                        "لديَّ",
+                        "في",
+                        "ملعبِ",
+                        "المدينةِ",
+                        "الكبيرِ"
+                    ],
+                    "level": "hard"
+                }
+            ],
+            "options": [
+                "مُغَنِّي",
+                "مُمَثِّل",
+                "مُصَوِّر",
+                "مُدَوِّن"
+            ],
+            "correct_answer": "مُغَنِّي"
+        },
+        {
+            "word": "مُدِير",
+            "translation_english": "manager",
+            "translation_native": "manager",
+            "pronunciation": "mudir",
+            "examples": [
+                {
+                    "sentence": "تحدثتُ مع مديرِ الفندقِ لحلِ مشكلةِ الحجزِ المزدوجِ قبلَ موعدِ وصولِنا.",
+                    "translation_english": "I spoke with the hotel manager to resolve the double booking problem before our arrival time.",
+                    "translation_native": "I spoke with the hotel manager to resolve the double booking problem before our arrival time.",
+                    "sentence_parts": [
+                        "تحدثتُ",
+                        "مع",
+                        "مديرِ",
+                        "الفندقِ",
+                        "لحلِ",
+                        "مشكلةِ",
+                        "الحجزِ",
+                        "المزدوجِ",
+                        "قبلَ",
+                        "موعدِ",
+                        "وصولِنا"
+                    ],
+                    "level": "hard"
+                }
+            ],
+            "options": [
+                "مُدِير",
+                "مُعَلِّم",
+                "مُتَرْجِم",
+                "مُرْشِد"
+            ],
+            "correct_answer": "مُدِير"
+        },
+        {
+            "word": "مُعَلِّم",
+            "translation_english": "teacher",
+            "translation_native": "teacher",
+            "pronunciation": "mu'allim",
+            "examples": [
+                {
+                    "sentence": "رافقنا معلمُ التاريخِ في رحلةٍ تعليميةٍ لاستكشافِ الآثارِ القديمةِ في الصحراءِ.",
+                    "translation_english": "The history teacher accompanied us on an educational trip to explore the ancient ruins in the desert.",
+                    "translation_native": "The history teacher accompanied us on an educational trip to explore the ancient ruins in the desert.",
+                    "sentence_parts": [
+                        "رافقنا",
+                        "معلمُ",
+                        "التاريخِ",
+                        "في",
+                        "رحلةٍ",
+                        "تعليميةٍ",
+                        "لاستكشافِ",
+                        "الآثارِ",
+                        "القديمةِ",
+                        "في",
+                        "الصحراءِ"
+                    ],
+                    "level": "hard"
+                }
+            ],
+            "options": [
+                "مُعَلِّم",
+                "مُدِير",
+                "مُتَرْجِم",
+                "مُرْشِد"
+            ],
+            "correct_answer": "مُعَلِّم"
+        },
+        {
+            "word": "مُرْشِد",
+            "translation_english": "guide",
+            "translation_native": "guide",
+            "pronunciation": "murshid",
+            "examples": [
+                {
+                    "sentence": "قدمَ المرشدُ السياحيُ معلوماتٍ قيمةً عن تاريخِ القلعةِ أثناءَ جولتنا الصباحيةِ.",
+                    "translation_english": "The tour guide provided valuable information about the history of the castle during our morning tour.",
+                    "translation_native": "The tour guide provided valuable information about the history of the castle during our morning tour.",
+                    "sentence_parts": [
+                        "قدمَ",
+                        "المرشدُ",
+                        "السياحيُ",
+                        "معلوماتٍ",
+                        "قيمةً",
+                        "عن",
+                        "تاريخِ",
+                        "القلعةِ",
+                        "أثناءَ",
+                        "جولتنا",
+                        "الصباحيةِ"
+                    ],
+                    "level": "hard"
+                }
+            ],
+            "options": [
+                "مُرْشِد",
+                "مُعَلِّم",
+                "مُدِير",
+                "مُتَرْجِم"
+            ],
+            "correct_answer": "مُرْشِد"
+        },
+        {
+            "word": "سُلَّم",
+            "translation_english": "stairs",
+            "translation_native": "stairs",
+            "pronunciation": "sullam",
+            "examples": [
+                {
+                    "sentence": "صعدتُ سلمَ البرجِ العالي لمشاهدةِ غروبِ الشمسِ فوقَ أسطحِ المنازلِ الملونةِ.",
+                    "translation_english": "I climbed the tower stairs to watch the sunset over the colorful house roofs.",
+                    "translation_native": "I climbed the tower stairs to watch the sunset over the colorful house roofs.",
+                    "sentence_parts": [
+                        "صعدتُ",
+                        "سلمَ",
+                        "البرجِ",
+                        "العالي",
+                        "لمشاهدةِ",
+                        "غروبِ",
+                        "الشمسِ",
+                        "فوقَ",
+                        "أسطحِ",
+                        "المنازلِ",
+                        "الملونةِ"
+                    ],
+                    "level": "hard"
+                }
+            ],
+            "options": [
+                "سُلَّم",
+                "مِصْعَد",
+                "مَمَر",
+                "بَاب"
+            ],
+            "correct_answer": "سُلَّم"
+        },
+        {
+            "word": "مَمَر",
+            "translation_english": "corridor",
+            "translation_native": "corridor",
+            "pronunciation": "mamar",
+            "examples": [
+                {
+                    "sentence": "مشيتُ في ممرِ الفندقِ الطويلِ للوصولِ إلى غرفتي بعدَ يومٍ طويلٍ من التسوقِ.",
+                    "translation_english": "I walked in the long hotel corridor to reach my room after a long day of shopping.",
+                    "translation_native": "I walked in the long hotel corridor to reach my room after a long day of shopping.",
+                    "sentence_parts": [
+                        "مشيتُ",
+                        "في",
+                        "ممرِ",
+                        "الفندقِ",
+                        "الطويلِ",
+                        "للوصولِ",
+                        "إلى",
+                        "غرفتي",
+                        "بعدَ",
+                        "يومٍ",
+                        "طويلٍ",
+                        "من",
+                        "التسوقِ"
+                    ],
+                    "level": "hard"
+                }
+            ],
+            "options": [
+                "مَمَر",
+                "سُلَّم",
+                "مِصْعَد",
+                "بَاب"
+            ],
+            "correct_answer": "مَمَر"
+        },
+        {
+            "word": "بَاب",
+            "translation_english": "door",
+            "translation_native": "door",
+            "pronunciation": "bab",
+            "examples": [
+                {
+                    "sentence": "أغلقتُ بابَ الغرفةِ بإحكامٍ قبلَ الخلودِ إلى النومِ بعدَ رحلةِ الطيرانِ المتعبةِ.",
+                    "translation_english": "I locked the room door tightly before going to sleep after the tiring flight.",
+                    "translation_native": "I locked the room door tightly before going to sleep after the tiring flight.",
+                    "sentence_parts": [
+                        "أغلقتُ",
+                        "بابَ",
+                        "الغرفةِ",
+                        "بإحكامٍ",
+                        "قبلَ",
+                        "الخلودِ",
+                        "إلى",
+                        "النومِ",
+                        "بعدَ",
+                        "رحلةِ",
+                        "الطيرانِ",
+                        "المتعبةِ"
+                    ],
+                    "level": "hard"
+                }
+            ],
+            "options": [
+                "بَاب",
+                "مَمَر",
+                "سُلَّم",
+                "مِصْعَد"
+            ],
+            "correct_answer": "بَاب"
+        },
+        {
+            "word": "مَلْعَب",
+            "translation_english": "stadium",
+            "translation_native": "stadium",
+            "pronunciation": "mal'ab",
+            "examples": [
+                {
+                    "sentence": "دخلتُ ملعبَ كرةِ القدمِ لمشاهدةِ المباراةِ النهائيةِ مع آلافِ المشجعينَ المتحمسينَ.",
+                    "translation_english": "I entered the soccer stadium to watch the final match with thousands of enthusiastic fans.",
+                    "translation_native": "I entered the soccer stadium to watch the final match with thousands of enthusiastic fans.",
+                    "sentence_parts": [
+                        "دخلتُ",
+                        "ملعبَ",
+                        "كرةِ",
+                        "القدمِ",
+                        "لمشاهدةِ",
+                        "المباراةِ",
+                        "النهائيةِ",
+                        "مع",
+                        "آلافِ",
+                        "المشجعينَ",
+                        "المتحمسينَ"
+                    ],
+                    "level": "hard"
+                }
+            ],
+            "options": [
+                "مَلْعَب",
+                "مُتْحَف",
+                "مَسْرَح",
+                "مَكْتَب"
+            ],
+            "correct_answer": "مَلْعَب"
+        },
+        {
+            "word": "مَسْرَح",
+            "translation_english": "theater",
+            "translation_native": "theater",
+            "pronunciation": "masrah",
+            "examples": [
+                {
+                    "sentence": "شاهدتُ عرضاً موسيقياً رائعاً في مسرحِ المدينةِ التاريخيِ وسطَ أجواءٍ احتفاليةٍ مبهجةٍ.",
+                    "translation_english": "I watched a wonderful musical performance at the city's historic theater amidst joyful festive vibes.",
+                    "translation_native": "I watched a wonderful musical performance at the city's historic theater amidst joyful festive vibes.",
+                    "sentence_parts": [
+                        "شاهدتُ",
+                        "عرضاً",
+                        "موسيقياً",
+                        "رائعاً",
+                        "في",
+                        "مسرحِ",
+                        "المدينةِ",
+                        "التاريخيِ",
+                        "وسطَ",
+                        "أجواءٍ",
+                        "احتفاليةٍ",
+                        "مبهجةٍ"
+                    ],
+                    "level": "hard"
+                }
+            ],
+            "options": [
+                "مَسْرَح",
+                "مَلْعَب",
+                "مُتْحَف",
+                "مَكْتَب"
+            ],
+            "correct_answer": "مَسْرَح"
+        },
+        {
+            "word": "مَكْتَب",
+            "translation_english": "office",
+            "translation_native": "office",
+            "pronunciation": "maktab",
+            "examples": [
+                {
+                    "sentence": "زرتُ مكتبَ الاستعلاماتِ السياحيةِ للحصولِ على خريطةٍ مجانيةٍ للمدينةِ القديمةِ.",
+                    "translation_english": "I visited the tourist information office to get a free map of the old city.",
+                    "translation_native": "I visited the tourist information office to get a free map of the old city.",
+                    "sentence_parts": [
+                        "زرتُ",
+                        "مكتبَ",
+                        "الاستعلاماتِ",
+                        "السياحيةِ",
+                        "للحصولِ",
+                        "على",
+                        "خريطةٍ",
+                        "مجانيةٍ",
+                        "للمدينةِ",
+                        "القديمةِ"
+                    ],
+                    "level": "hard"
+                }
+            ],
+            "options": [
+                "مَكْتَب",
+                "مُتْحَف",
+                "مَسْرَح",
+                "مَلْعَب"
+            ],
+            "correct_answer": "مَكْتَب"
+        },
+        {
+            "word": "بَاص",
+            "translation_english": "bus",
+            "translation_native": "bus",
+            "pronunciation": "bas",
+            "examples": [
+                {
+                    "sentence": "ركبتُ باصَ الرحلاتِ السياحيَ للتجولِ في أرجاءِ المدينةِ ورؤيةِ المعالمِ الشهيرةِ.",
+                    "translation_english": "I rode the tourist bus to tour around the city and see the famous landmarks.",
+                    "translation_native": "I rode the tourist bus to tour around the city and see the famous landmarks.",
+                    "sentence_parts": [
+                        "ركبتُ",
+                        "باصَ",
+                        "الرحلاتِ",
+                        "السياحيَ",
+                        "للتجولِ",
+                        "في",
+                        "أرجاءِ",
+                        "المدينةِ",
+                        "ورؤيةِ",
+                        "المعالمِ",
+                        "الشهيرةِ"
+                    ],
+                    "level": "hard"
+                }
+            ],
+            "options": [
+                "بَاص",
+                "مِتْرُو",
+                "قَارِب",
+                "طَائِرَة"
+            ],
+            "correct_answer": "بَاص"
+        },
+        {
+            "word": "قَارِب",
+            "translation_english": "boat",
+            "translation_native": "boat",
+            "pronunciation": "qarib",
+            "examples": [
+                {
+                    "sentence": "استأجرتُ قارباً صغيراً للتنزهِ في النهرِ ومشاهدةِ غروبِ الشمسِ مع أصدقائي.",
+                    "translation_english": "I rented a small boat to cruise on the river and watch the sunset with my friends.",
+                    "translation_native": "I rented a small boat to cruise on the river and watch the sunset with my friends.",
+                    "sentence_parts": [
+                        "استأجرتُ",
+                        "قارباً",
+                        "صغيراً",
+                        "للتنزهِ",
+                        "في",
+                        "النهرِ",
+                        "ومشاهدةِ",
+                        "غروبِ",
+                        "الشمسِ",
+                        "مع",
+                        "أصدقائي"
+                    ],
+                    "level": "hard"
+                }
+            ],
+            "options": [
+                "قَارِب",
+                "مِتْرُو",
+                "بَاص",
+                "طَائِرَة"
+            ],
+            "correct_answer": "قَارِب"
+        },
+        {
+            "word": "طَائِرَة",
+            "translation_english": "airplane",
+            "translation_native": "airplane",
+            "pronunciation": "ta'ira",
+            "examples": [
+                {
+                    "sentence": "صعدتُ إلى طائرةِ الركابِ العملاقةِ لبدءِ رحلتي الدوليةِ نحو القارةِ البعيدةِ.",
+                    "translation_english": "I boarded the giant passenger airplane to begin my international trip toward the distant continent.",
+                    "translation_native": "I boarded the giant passenger airplane to begin my international trip toward the distant continent.",
+                    "sentence_parts": [
+                        "صعدتُ",
+                        "إلى",
+                        "طائرةِ",
+                        "الركابِ",
+                        "العملاقةِ",
+                        "لبدءِ",
+                        "رحلتي",
+                        "الدوليةِ",
+                        "نحو",
+                        "القارةِ",
+                        "البعيدةِ"
+                    ],
+                    "level": "hard"
+                }
+            ],
+            "options": [
+                "طَائِرَة",
+                "مِتْرُو",
+                "بَاص",
+                "قَارِب"
+            ],
+            "correct_answer": "طَائِرَة"
+        },
+        {
+            "word": "مِحْفَظَة",
+            "translation_english": "wallet",
+            "translation_native": "wallet",
+            "pronunciation": "mihfaza",
+            "examples": [
+                {
+                    "sentence": "وضعتُ بطاقةَ الائتمانِ داخلَ محفظتي الجلديةِ قبلَ الخروجِ للتسوقِ في السوقِ الشعبيِ.",
+                    "translation_english": "I put the credit card inside my leather wallet before going out to shop in the popular market.",
+                    "translation_native": "I put the credit card inside my leather wallet before going out to shop in the popular market.",
+                    "sentence_parts": [
+                        "وضعتُ",
+                        "بطاقةَ",
+                        "الائتمانِ",
+                        "داخلَ",
+                        "محفظتي",
+                        "الجلديةِ",
+                        "قبلَ",
+                        "الخروجِ",
+                        "للتسوقِ",
+                        "في",
+                        "السوقِ",
+                        "الشعبيِ"
+                    ],
+                    "level": "hard"
+                }
+            ],
+            "options": [
+                "مِحْفَظَة",
+                "حَقِيبَة",
+                "عُلْبَة",
+                "سَلَة"
+            ],
+            "correct_answer": "مِحْفَظَة"
+        },
+        {
+            "word": "عُلْبَة",
+            "translation_english": "box",
+            "translation_native": "box",
+            "pronunciation": "ulba",
+            "examples": [
+                {
+                    "sentence": "اشتريتُ علبةَ هدايا تذكاريةً من المتجرِ المحليِ لتقديمِها كهديةٍ لعائلتي عندَ العودةِ.",
+                    "translation_english": "I bought a souvenir box from the local shop to present as a gift to my family upon returning.",
+                    "translation_native": "I bought a souvenir box from the local shop to present as a gift to my family upon returning.",
+                    "sentence_parts": [
+                        "اشتريتُ",
+                        "علبةَ",
+                        "هدايا",
+                        "تذكاريةً",
+                        "من",
+                        "المتجرِ",
+                        "المحليِ",
+                        "لتقديمِها",
+                        "كهديةٍ",
+                        "لعائلتي",
+                        "عندَ",
+                        "العودةِ"
+                    ],
+                    "level": "hard"
+                }
+            ],
+            "options": [
+                "عُلْبَة",
+                "حَقِيبَة",
+                "مِحْفَظَة",
+                "سَلَة"
+            ],
+            "correct_answer": "عُلْبَة"
+        },
+        {
+            "word": "سَلَة",
+            "translation_english": "basket",
+            "translation_native": "basket",
+            "pronunciation": "sala",
+            "examples": [
+                {
+                    "sentence": "ملأتُ سلةَ التسوقِ بالفاكهةِ الطازجةِ من المزارعِ المحليةِ خلالَ رحلتي الريفيةِ.",
+                    "translation_english": "I filled the shopping basket with fresh fruit from local farms during my rural trip.",
+                    "translation_native": "I filled the shopping basket with fresh fruit from local farms during my rural trip.",
+                    "sentence_parts": [
+                        "ملأتُ",
+                        "سلةَ",
+                        "التسوقِ",
+                        "بالفاكهةِ",
+                        "الطازجةِ",
+                        "من",
+                        "المزارعِ",
+                        "المحليةِ",
+                        "خلالَ",
+                        "رحلتي",
+                        "الريفيةِ"
+                    ],
+                    "level": "hard"
+                }
+            ],
+            "options": [
+                "سَلَة",
+                "حَقِيبَة",
+                "مِحْفَظَة",
+                "عُلْبَة"
+            ],
+            "correct_answer": "سَلَة"
+        },
+        {
+            "word": "مِفْتَاح",
+            "translation_english": "key",
+            "translation_native": "key",
+            "pronunciation": "miftah",
+            "examples": [
+                {
+                    "sentence": "استلمتُ مفتاحَ الغرفةِ من موظفِ الاستقبالِ بعدَ تسجيلِ وصولي في الفندقِ الفاخرِ.",
+                    "translation_english": "I received the room key from the receptionist after checking into the luxury hotel.",
+                    "translation_native": "I received the room key from the receptionist after checking into the luxury hotel.",
+                    "sentence_parts": [
+                        "استلمتُ",
+                        "مفتاحَ",
+                        "الغرفةِ",
+                        "من",
+                        "موظفِ",
+                        "الاستقبالِ",
+                        "بعدَ",
+                        "تسجيلِ",
+                        "وصولي",
+                        "في",
+                        "الفندقِ",
+                        "الفاخرِ"
+                    ],
+                    "level": "hard"
+                }
+            ],
+            "options": [
+                "مِفْتَاح",
+                "شَاحِن",
+                "هَاتِف",
+                "حَاسُوب"
+            ],
+            "correct_answer": "مِفْتَاح"
+        },
+        {
+            "word": "هَاتِف",
+            "translation_english": "phone",
+            "translation_native": "phone",
+            "pronunciation": "hatif",
+            "examples": [
+                {
+                    "sentence": "استخدمتُ هاتفي الذكيَ لالتقاطِ صورٍ رائعةٍ للمناظرِ الطبيعيةِ أثناءَ رحلتي الجبليةِ.",
+                    "translation_english": "I used my smartphone to take wonderful photos of the natural scenery during my mountain trip.",
+                    "translation_native": "I used my smartphone to take wonderful photos of the natural scenery during my mountain trip.",
+                    "sentence_parts": [
+                        "استخدمتُ",
+                        "هاتفي",
+                        "الذكيَ",
+                        "لالتقاطِ",
+                        "صورٍ",
+                        "رائعةٍ",
+                        "للمناظرِ",
+                        "الطبيعيةِ",
+                        "أثناءَ",
+                        "رحلتي",
+                        "الجبليةِ"
+                    ],
+                    "level": "hard"
+                }
+            ],
+            "options": [
+                "هَاتِف",
+                "شَاحِن",
+                "مِفْتَاح",
+                "حَاسُوب"
+            ],
+            "correct_answer": "هَاتِف"
+        },
+        {
+            "word": "حَاسُوب",
+            "translation_english": "computer",
+            "translation_native": "computer",
+            "pronunciation": "hasub",
+            "examples": [
+                {
+                    "sentence": "فتحتُ حاسوبي المحمولَ في المقهى لإكمالِ بعضِ الأعمالِ المدرسيةِ أثناءَ العطلةِ.",
+                    "translation_english": "I opened my laptop in the cafe to complete some school work during the holiday.",
+                    "translation_native": "I opened my laptop in the cafe to complete some school work during the holiday.",
+                    "sentence_parts": [
+                        "فتحتُ",
+                        "حاسوبي",
+                        "المحمولَ",
+                        "في",
+                        "المقهى",
+                        "لإكمالِ",
+                        "بعضِ",
+                        "الأعمالِ",
+                        "المدرسيةِ",
+                        "أثناءَ",
+                        "العطلةِ"
+                    ],
+                    "level": "hard"
+                }
+            ],
+            "options": [
+                "حَاسُوب",
+                "هَاتِف",
+                "شَاحِن",
+                "مِفْتَاح"
+            ],
+            "correct_answer": "حَاسُوب"
+        },
+        {
+            "word": "رُخْصَة",
+            "translation_english": "license",
+            "translation_native": "license",
+            "pronunciation": "rukhsa",
+            "examples": [
+                {
+                    "sentence": "أبرزتُ رخصةَ القيادةِ الدوليةَ لموظفِ تأجيرِ السياراتِ لاستلامِ السيارةِ المحجوزةِ.",
+                    "translation_english": "I presented the international driving license to the car rental employee to pick up the booked car.",
+                    "translation_native": "I presented the international driving license to the car rental employee to pick up the booked car.",
+                    "sentence_parts": [
+                        "أبرزتُ",
+                        "رخصةَ",
+                        "القيادةِ",
+                        "الدوليةَ",
+                        "لموظفِ",
+                        "تأجيرِ",
+                        "السياراتِ",
+                        "لاستلامِ",
+                        "السيارةِ",
+                        "المحجوزةِ"
+                    ],
+                    "level": "hard"
+                }
+            ],
+            "options": [
+                "رُخْصَة",
+                "تَأْشِيرَة",
+                "بِطَاقَة",
+                "وَرَقَة"
+            ],
+            "correct_answer": "رُخْصَة"
+        },
+        {
+            "word": "بِطَاقَة",
+            "translation_english": "card",
+            "translation_native": "card",
+            "pronunciation": "bitaqa",
+            "examples": [
+                {
+                    "sentence": "استخدمتُ بطاقةَ الصعودِ الإلكترونيةَ لتجاوزِ طوابيرِ الانتظارِ الطويلةِ في المطارِ.",
+                    "translation_english": "I used the electronic boarding card to bypass long waiting lines at the airport.",
+                    "translation_native": "I used the electronic boarding card to bypass long waiting lines at the airport.",
+                    "sentence_parts": [
+                        "استخدمتُ",
+                        "بطاقةَ",
+                        "الصعودِ",
+                        "الإلكترونيةَ",
+                        "لتجاوزِ",
+                        "طوابيرِ",
+                        "الانتظارِ",
+                        "الطويلةِ",
+                        "في",
+                        "المطارِ"
+                    ],
+                    "level": "hard"
+                }
+            ],
+            "options": [
+                "بِطَاقَة",
+                "رُخْصَة",
+                "تَأْشِيرَة",
+                "وَرَقَة"
+            ],
+            "correct_answer": "بِطَاقَة"
+        },
+        {
+            "word": "وَرَقَة",
+            "translation_english": "paper",
+            "translation_native": "paper",
+            "pronunciation": "waraqa",
+            "examples": [
+                {
+                    "sentence": "كتبتُ عنوانَ الفندقِ على ورقةٍ صغيرةٍ لأتمكنَ من سؤالِ المارةِ عن الطريقِ.",
+                    "translation_english": "I wrote the hotel address on a small piece of paper so I could ask passersby for directions.",
+                    "translation_native": "I wrote the hotel address on a small piece of paper so I could ask passersby for directions.",
+                    "sentence_parts": [
+                        "كتبتُ",
+                        "عنوانَ",
+                        "الفندقِ",
+                        "على",
+                        "ورقةٍ",
+                        "صغيرةٍ",
+                        "لأتمكنَ",
+                        "من",
+                        "سؤالِ",
+                        "المارةِ",
+                        "عن",
+                        "الطريقِ"
+                    ],
+                    "level": "hard"
+                }
+            ],
+            "options": [
+                "وَرَقَة",
+                "بِطَاقَة",
+                "رُخْصَة",
+                "تَأْشِيرَة"
+            ],
+            "correct_answer": "وَرَقَة"
+        },
+        {
+            "word": "قُبَّعَة",
+            "translation_english": "hat",
+            "translation_native": "hat",
+            "pronunciation": "qubba'a",
+            "examples": [
+                {
+                    "sentence": "ارتديتُ قبعةَ الشمسِ العريضةَ لحمايةِ وجهي من أشعةِ الشمسِ القويةِ على الشاطئِ.",
+                    "translation_english": "I wore the wide sun hat to protect my face from the strong sun rays on the beach.",
+                    "translation_native": "I wore the wide sun hat to protect my face from the strong sun rays on the beach.",
+                    "sentence_parts": [
+                        "ارتديتُ",
+                        "قبعةَ",
+                        "الشمسِ",
+                        "العريضةَ",
+                        "لحمايةِ",
+                        "وجهي",
+                        "من",
+                        "أشعةِ",
+                        "الشمسِ",
+                        "القويةِ",
+                        "على",
+                        "الشاطئِ"
+                    ],
+                    "level": "hard"
+                }
+            ],
+            "options": [
+                "قُبَّعَة",
+                "مِظَلَّة",
+                "حَقِيبَة",
+                "سُتْرَة"
+            ],
+            "correct_answer": "قُبَّعَة"
+        },
+        {
+            "word": "سُتْرَة",
+            "translation_english": "jacket",
+            "translation_native": "jacket",
+            "pronunciation": "sutra",
+            "examples": [
+                {
+                    "sentence": "ارتديتُ سترةً دافئةً لمواجهةِ البردِ القارسِ أثناءَ رحلتي إلى القطبِ الشماليِ.",
+                    "translation_english": "I wore a warm jacket to face the bitter cold during my trip to the North Pole.",
+                    "translation_native": "I wore a warm jacket to face the bitter cold during my trip to the North Pole.",
+                    "sentence_parts": [
+                        "ارتديتُ",
+                        "سترةً",
+                        "دافئةً",
+                        "لمواجهةِ",
+                        "البردِ",
+                        "القارسِ",
+                        "أثناءَ",
+                        "رحلتي",
+                        "إلى",
+                        "القطبِ",
+                        "الشماليِ"
+                    ],
+                    "level": "hard"
+                }
+            ],
+            "options": [
+                "سُتْرَة",
+                "مِظَلَّة",
+                "قُبَّعَة",
+                "حَقِيبَة"
+            ],
+            "correct_answer": "سُتْرَة"
+        },
+        {
+            "word": "صُورَة",
+            "translation_english": "photo",
+            "translation_native": "photo",
+            "pronunciation": "sura",
+            "examples": [
+                {
+                    "sentence": "التقطتُ صورةً تذكاريةً رائعةً أمامَ برجِ إيفلَ الشهيرِ في باريسَ.",
+                    "translation_english": "I took a wonderful souvenir photo in front of the famous Eiffel Tower in Paris.",
+                    "translation_native": "I took a wonderful souvenir photo in front of the famous Eiffel Tower in Paris.",
+                    "sentence_parts": [
+                        "التقطتُ",
+                        "صورةً",
+                        "تذكاريةً",
+                        "رائعةً",
+                        "أمامَ",
+                        "برجِ",
+                        "إيفلَ",
+                        "الشهيرِ",
+                        "في",
+                        "باريسَ"
+                    ],
+                    "level": "hard"
+                }
+            ],
+            "options": [
+                "صُورَة",
+                "خَرِيطَة",
+                "لَوْحَة",
+                "رِسَالَة"
+            ],
+            "correct_answer": "صُورَة"
+        },
+        {
+            "word": "لَوْحَة",
+            "translation_english": "painting",
+            "translation_native": "painting",
+            "pronunciation": "lawha",
+            "examples": [
+                {
+                    "sentence": "تأملتُ لوحةً فنيةً نادرةً في المتحفِ الوطنيِ للفنونِ الجميلةِ بمدينةِ روما.",
+                    "translation_english": "I contemplated a rare painting in the National Museum of Fine Arts in Rome.",
+                    "translation_native": "I contemplated a rare painting in the National Museum of Fine Arts in Rome.",
+                    "sentence_parts": [
+                        "تأملتُ",
+                        "لوحةً",
+                        "فنيةً",
+                        "نادرةً",
+                        "في",
+                        "المتحفِ",
+                        "الوطنيِ",
+                        "للفنونِ",
+                        "الجميلةِ",
+                        "بمدينةِ",
+                        "روما"
+                    ],
+                    "level": "hard"
+                }
+            ],
+            "options": [
+                "لَوْحَة",
+                "صُورَة",
+                "خَرِيطَة",
+                "رِسَالَة"
+            ],
+            "correct_answer": "لَوْحَة"
+        }
+    ]
+}

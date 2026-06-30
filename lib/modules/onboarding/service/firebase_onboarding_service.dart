@@ -133,4 +133,49 @@ class FirebaseOnboardingService {
     await batch.commit();
     log("updated daily goal");
   }
+
+  static Future<void> setExperienceLevel(String level, {String? languageCode}) async {
+    final uid = FirebaseAuth.instance.currentUser?.uid;
+    if (uid == null) return;
+
+    final batch = _firestore.batch();
+    final userRef = _firestore.collection('users').doc(uid);
+
+    batch.set(userRef, {
+      "level": level,
+    }, SetOptions(merge: true));
+
+    if (languageCode != null) {
+      final langRef = userRef.collection('languages').doc(languageCode);
+      batch.set(langRef, {
+        "level": level,
+      }, SetOptions(merge: true));
+    }
+
+    await batch.commit();
+    log("updated experience level");
+  }
+
+  static Future<void> setCategory(String category, {String? languageCode}) async {
+    final uid = FirebaseAuth.instance.currentUser?.uid;
+    if (uid == null) return;
+
+    final batch = _firestore.batch();
+    final userRef = _firestore.collection('users').doc(uid);
+
+    batch.set(userRef, {
+      "category": category,
+    }, SetOptions(merge: true));
+
+    if (languageCode != null) {
+      final langRef = userRef.collection('languages').doc(languageCode);
+      batch.set(langRef, {
+        "category": category,
+      }, SetOptions(merge: true));
+    }
+
+    await batch.commit();
+    log("updated category");
+  }
 }
+

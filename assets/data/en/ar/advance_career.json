@@ -1,0 +1,802 @@
+{
+    "metadata": {
+        "language": "Arabic",
+        "native_language": "English",
+        "level": "Advanced",
+        "category": "career",
+        "total_words": 23
+    },
+    "words": [
+        {
+            "word": "مُبَادَرَة",
+            "translation_english": "Initiative",
+            "translation_native": "Initiative",
+            "pronunciation": "mubadara",
+            "examples": [
+                {
+                    "sentence": "أظهر الطالب مبادرة في تنظيم حملة التبرع بالدم داخل مدرسته الثانوية.",
+                    "translation_english": "The student showed initiative in organizing the blood drive at his high school.",
+                    "translation_native": "The student showed initiative in organizing the blood drive at his high school.",
+                    "sentence_parts": [
+                        "أظهر",
+                        "الطالب",
+                        "مبادرة",
+                        "في",
+                        "تنظيم",
+                        "حملة",
+                        "التبرع",
+                        "بالدم",
+                        "داخل",
+                        "مدرسته",
+                        "الثانوية"
+                    ],
+                    "level": "hard"
+                }
+            ],
+            "options": [
+                "مُبَادَرَة",
+                "مُحَاضَرَة",
+                "مُغَامَرَة",
+                "مُثَابَرَة"
+            ],
+            "correct_answer": "مُبَادَرَة"
+        },
+        {
+            "word": "اسْتِشْرَاف",
+            "translation_english": "Foresight",
+            "translation_native": "Foresight",
+            "pronunciation": "istishraf",
+            "examples": [
+                {
+                    "sentence": "يتطلب النجاح المهني استشراف التغيرات التقنية في سوق العمل الرقمي المستقبلي.",
+                    "translation_english": "Professional success requires foresight regarding technical changes in the future digital job market.",
+                    "translation_native": "Professional success requires foresight regarding technical changes in the future digital job market.",
+                    "sentence_parts": [
+                        "يتطلب",
+                        "النجاح",
+                        "المهني",
+                        "استشراف",
+                        "التغيرات",
+                        "التقنية",
+                        "في",
+                        "سوق",
+                        "العمل",
+                        "الرقمي",
+                        "المستقبلي"
+                    ],
+                    "level": "hard"
+                }
+            ],
+            "options": [
+                "اسْتِشْرَاف",
+                "اسْتِكْشَاف",
+                "اسْتِعْرَاض",
+                "اسْتِجْوَاب"
+            ],
+            "correct_answer": "اسْتِشْرَاف"
+        },
+        {
+            "word": "كفاءة",
+            "translation_english": "Competence",
+            "translation_native": "Competence",
+            "pronunciation": "kafa'a",
+            "examples": [
+                {
+                    "sentence": "أثبت المبرمج الشاب كفاءة عالية في حل مشكلات البرمجة المعقدة تقنياً.",
+                    "translation_english": "The young programmer proved high competence in solving complex technical coding problems.",
+                    "translation_native": "The young programmer proved high competence in solving complex technical coding problems.",
+                    "sentence_parts": [
+                        "أثبت",
+                        "المبرمج",
+                        "الشاب",
+                        "كفاءة",
+                        "عالية",
+                        "في",
+                        "حل",
+                        "مشكلات",
+                        "البرمجة",
+                        "المعقدة",
+                        "تقنياً"
+                    ],
+                    "level": "hard"
+                }
+            ],
+            "options": [
+                "كفاءة",
+                "نزاهة",
+                "فصاحة",
+                "لباقة"
+            ],
+            "correct_answer": "كفاءة"
+        },
+        {
+            "word": "استراتيجية",
+            "translation_english": "Strategy",
+            "translation_native": "Strategy",
+            "pronunciation": "istratijiyya",
+            "examples": [
+                {
+                    "sentence": "وضع الفريق استراتيجية ذكية لزيادة متابعي حساب النادي على منصات التواصل.",
+                    "translation_english": "The team developed a smart strategy to increase the club's social media followers.",
+                    "translation_native": "The team developed a smart strategy to increase the club's social media followers.",
+                    "sentence_parts": [
+                        "وضع",
+                        "الفريق",
+                        "استراتيجية",
+                        "ذكية",
+                        "لزيادة",
+                        "متابعي",
+                        "حساب",
+                        "النادي",
+                        "على",
+                        "منصات",
+                        "التواصل"
+                    ],
+                    "level": "hard"
+                }
+            ],
+            "options": [
+                "استراتيجية",
+                "ميزانية",
+                "أكاديمية",
+                "ديناميكية"
+            ],
+            "correct_answer": "استراتيجية"
+        },
+        {
+            "word": "تنسيق",
+            "translation_english": "Coordination",
+            "translation_native": "Coordination",
+            "pronunciation": "tansiq",
+            "examples": [
+                {
+                    "sentence": "تولى الطالب تنسيق جدول الحفلة الموسيقية لضمان حضور جميع أعضاء الفرقة.",
+                    "translation_english": "The student handled the coordination of the concert schedule to ensure all band members attended.",
+                    "translation_native": "The student handled the coordination of the concert schedule to ensure all band members attended.",
+                    "sentence_parts": [
+                        "تولى",
+                        "الطالب",
+                        "تنسيق",
+                        "جدول",
+                        "الحفلة",
+                        "الموسيقية",
+                        "لضمان",
+                        "حضور",
+                        "جميع",
+                        "أعضاء",
+                        "الفرقة"
+                    ],
+                    "level": "hard"
+                }
+            ],
+            "options": [
+                "تنسيق",
+                "توثيق",
+                "تصنيف",
+                "تطبيق"
+            ],
+            "correct_answer": "تنسيق"
+        },
+        {
+            "word": "إبداع",
+            "translation_english": "Creativity",
+            "translation_native": "Creativity",
+            "pronunciation": "ibda'",
+            "examples": [
+                {
+                    "sentence": "يحتاج المصمم الجرافيكي إلى إبداع مستمر لجذب انتباه الجمهور عبر الإنترنت.",
+                    "translation_english": "The graphic designer needs constant creativity to capture the audience's attention online.",
+                    "translation_native": "The graphic designer needs constant creativity to capture the audience's attention online.",
+                    "sentence_parts": [
+                        "يحتاج",
+                        "المصمم",
+                        "الجرافيكي",
+                        "إلى",
+                        "إبداع",
+                        "مستمر",
+                        "لجذب",
+                        "انتباه",
+                        "الجمهور",
+                        "عبر",
+                        "الإنترنت"
+                    ],
+                    "level": "hard"
+                }
+            ],
+            "options": [
+                "إبداع",
+                "إقناع",
+                "إطلاع",
+                "إجماع"
+            ],
+            "correct_answer": "إبداع"
+        },
+        {
+            "word": "تواصل",
+            "translation_english": "Communication",
+            "translation_native": "Communication",
+            "pronunciation": "tawasul",
+            "examples": [
+                {
+                    "sentence": "تعتبر مهارات تواصل فعالة ضرورية للعمل الجماعي في مشاريع البحث العلمي.",
+                    "translation_english": "Effective communication skills are considered essential for teamwork in scientific research projects.",
+                    "translation_native": "Effective communication skills are considered essential for teamwork in scientific research projects.",
+                    "sentence_parts": [
+                        "تعتبر",
+                        "مهارات",
+                        "تواصل",
+                        "فعالة",
+                        "ضرورية",
+                        "للعمل",
+                        "الجماعي",
+                        "في",
+                        "مشاريع",
+                        "البحث",
+                        "العلمي"
+                    ],
+                    "level": "hard"
+                }
+            ],
+            "options": [
+                "تواصل",
+                "تفاؤل",
+                "تكامل",
+                "تفاعل"
+            ],
+            "correct_answer": "تواصل"
+        },
+        {
+            "word": "تطوير",
+            "translation_english": "Development",
+            "translation_native": "Development",
+            "pronunciation": "tatwir",
+            "examples": [
+                {
+                    "sentence": "يساهم تطوير تطبيقات الهاتف في تحسين تجربة المستخدم أثناء ممارسة الألعاب.",
+                    "translation_english": "Mobile app development contributes to improving the user experience while playing games.",
+                    "translation_native": "Mobile app development contributes to improving the user experience while playing games.",
+                    "sentence_parts": [
+                        "يساهم",
+                        "تطوير",
+                        "تطبيقات",
+                        "الهاتف",
+                        "في",
+                        "تحسين",
+                        "تجربة",
+                        "المستخدم",
+                        "أثناء",
+                        "ممارسة",
+                        "الألعاب"
+                    ],
+                    "level": "hard"
+                }
+            ],
+            "options": [
+                "تطوير",
+                "تصوير",
+                "تنوير",
+                "تزوير"
+            ],
+            "correct_answer": "تطوير"
+        },
+        {
+            "word": "مسؤولية",
+            "translation_english": "Responsibility",
+            "translation_native": "Responsibility",
+            "pronunciation": "mas'uliyya",
+            "examples": [
+                {
+                    "sentence": "تحمل الطالب مسؤولية إدارة ميزانية النادي الرياضي خلال الفصل الدراسي الحالي.",
+                    "translation_english": "The student took the responsibility of managing the sports club budget during the current semester.",
+                    "translation_native": "The student took the responsibility of managing the sports club budget during the current semester.",
+                    "sentence_parts": [
+                        "تحمل",
+                        "الطالب",
+                        "مسؤولية",
+                        "إدارة",
+                        "ميزانية",
+                        "النادي",
+                        "الرياضي",
+                        "خلال",
+                        "الفصل",
+                        "الدراسي",
+                        "الحالي"
+                    ],
+                    "level": "hard"
+                }
+            ],
+            "options": [
+                "مسؤولية",
+                "موضوعية",
+                "عقلانية",
+                "واقعية"
+            ],
+            "correct_answer": "مسؤولية"
+        },
+        {
+            "word": "تحليل",
+            "translation_english": "Analysis",
+            "translation_native": "Analysis",
+            "pronunciation": "tahlil",
+            "examples": [
+                {
+                    "sentence": "يتطلب تحليل بيانات الألعاب الإلكترونية فهماً عميقاً لسلوك اللاعبين وتفضيلاتهم الشخصية.",
+                    "translation_english": "Analyzing electronic game data requires a deep understanding of players' behavior and personal preferences.",
+                    "translation_native": "Analyzing electronic game data requires a deep understanding of players' behavior and personal preferences.",
+                    "sentence_parts": [
+                        "يتطلب",
+                        "تحليل",
+                        "بيانات",
+                        "الألعاب",
+                        "الإلكترونية",
+                        "فهماً",
+                        "عميقاً",
+                        "لسلوك",
+                        "اللاعبين",
+                        "وتفضيلاتهم",
+                        "الشخصية"
+                    ],
+                    "level": "hard"
+                }
+            ],
+            "options": [
+                "تحليل",
+                "تأهيل",
+                "تعديل",
+                "تبديل"
+            ],
+            "correct_answer": "تحليل"
+        },
+        {
+            "word": "إنجاز",
+            "translation_english": "Achievement",
+            "translation_native": "Achievement",
+            "pronunciation": "injaz",
+            "examples": [
+                {
+                    "sentence": "يعد الفوز ببطولة الروبوتات إنجازاً كبيراً يضيف قيمة للسيرة الذاتية للطالب.",
+                    "translation_english": "Winning the robotics championship is a major achievement that adds value to the student's resume.",
+                    "translation_native": "Winning the robotics championship is a major achievement that adds value to the student's resume.",
+                    "sentence_parts": [
+                        "يعد",
+                        "الفوز",
+                        "ببطولة",
+                        "الروبوتات",
+                        "إنجازاً",
+                        "كبيراً",
+                        "يضيف",
+                        "قيمة",
+                        "للسيرة",
+                        "الذاتية",
+                        "للطالب"
+                    ],
+                    "level": "hard"
+                }
+            ],
+            "options": [
+                "إنجاز",
+                "امتياز",
+                "اعتزاز",
+                "احتراز"
+            ],
+            "correct_answer": "إنجاز"
+        },
+        {
+            "word": "مواكبة",
+            "translation_english": "Keeping up with",
+            "translation_native": "Keeping up with",
+            "pronunciation": "muwakaba",
+            "examples": [
+                {
+                    "sentence": "تساعد مواكبة أحدث تقنيات الذكاء الاصطناعي الشباب على التميز في مساراتهم المهنية.",
+                    "translation_english": "Keeping up with the latest AI technologies helps youth excel in their career paths.",
+                    "translation_native": "Keeping up with the latest AI technologies helps youth excel in their career paths.",
+                    "sentence_parts": [
+                        "تساعد",
+                        "مواكبة",
+                        "أحدث",
+                        "تقنيات",
+                        "الذكاء",
+                        "الاصطناعي",
+                        "الشباب",
+                        "على",
+                        "التميز",
+                        "في",
+                        "مساراتهم",
+                        "المهنية"
+                    ],
+                    "level": "hard"
+                }
+            ],
+            "options": [
+                "مواكبة",
+                "مراقبة",
+                "مطالبة",
+                "مشاركة"
+            ],
+            "correct_answer": "مواكبة"
+        },
+        {
+            "word": "تخطيط",
+            "translation_english": "Planning",
+            "translation_native": "Planning",
+            "pronunciation": "takhtit",
+            "examples": [
+                {
+                    "sentence": "يتطلب تخطيط الفعاليات المدرسية دقة عالية لضمان نجاحها وجذب أكبر عدد.",
+                    "translation_english": "Planning school events requires high precision to ensure their success and attract the largest number.",
+                    "translation_native": "Planning school events requires high precision to ensure their success and attract the largest number.",
+                    "sentence_parts": [
+                        "يتطلب",
+                        "تخطيط",
+                        "الفعاليات",
+                        "المدرسية",
+                        "دقة",
+                        "عالية",
+                        "لضمان",
+                        "نجاحها",
+                        "وجذب",
+                        "أكبر",
+                        "عدد"
+                    ],
+                    "level": "hard"
+                }
+            ],
+            "options": [
+                "تخطيط",
+                "تلقين",
+                "تلوين",
+                "تسكين"
+            ],
+            "correct_answer": "تخطيط"
+        },
+        {
+            "word": "تحدي",
+            "translation_english": "Challenge",
+            "translation_native": "Challenge",
+            "pronunciation": "tahaddi",
+            "examples": [
+                {
+                    "sentence": "يمثل تعلم لغات البرمجة تحدي ممتع للطلاب الطامحين للعمل في التكنولوجيا.",
+                    "translation_english": "Learning programming languages represents an enjoyable challenge for students aspiring to work in technology.",
+                    "translation_native": "Learning programming languages represents an enjoyable challenge for students aspiring to work in technology.",
+                    "sentence_parts": [
+                        "يمثل",
+                        "تعلم",
+                        "لغات",
+                        "البرمجة",
+                        "تحدي",
+                        "ممتع",
+                        "للطلاب",
+                        "الطامحين",
+                        "للعمل",
+                        "في",
+                        "التكنولوجيا"
+                    ],
+                    "level": "hard"
+                }
+            ],
+            "options": [
+                "تحدي",
+                "تفادي",
+                "تمادي",
+                "تنادي"
+            ],
+            "correct_answer": "تحدي"
+        },
+        {
+            "word": "مهارة",
+            "translation_english": "Skill",
+            "translation_native": "Skill",
+            "pronunciation": "mahara",
+            "examples": [
+                {
+                    "sentence": "تعد مهارة العرض التقديمي ضرورية للطلاب الذين يطمحون لعرض أفكارهم أمام الجمهور.",
+                    "translation_english": "Presentation skill is essential for students who aspire to present their ideas before an audience.",
+                    "translation_native": "Presentation skill is essential for students who aspire to present their ideas before an audience.",
+                    "sentence_parts": [
+                        "تعد",
+                        "مهارة",
+                        "العرض",
+                        "التقديمي",
+                        "ضرورية",
+                        "للطلاب",
+                        "الذين",
+                        "يطمحون",
+                        "لعرض",
+                        "أفكارهم",
+                        "أمام",
+                        "الجمهور"
+                    ],
+                    "level": "hard"
+                }
+            ],
+            "options": [
+                "مهارة",
+                "إشارة",
+                "عبارة",
+                "إدارة"
+            ],
+            "correct_answer": "مهارة"
+        },
+        {
+            "word": "تعاون",
+            "translation_english": "Collaboration",
+            "translation_native": "Collaboration",
+            "pronunciation": "ta'awun",
+            "examples": [
+                {
+                    "sentence": "يعزز تعاون الطلاب في المشاريع الجماعية من روح الفريق والإنتاجية الإبداعية لديهم.",
+                    "translation_english": "Student collaboration in group projects enhances their team spirit and creative productivity.",
+                    "translation_native": "Student collaboration in group projects enhances their team spirit and creative productivity.",
+                    "sentence_parts": [
+                        "يعزز",
+                        "تعاون",
+                        "الطلاب",
+                        "في",
+                        "المشاريع",
+                        "الجماعية",
+                        "من",
+                        "روح",
+                        "الفريق",
+                        "والإنتاجية",
+                        "الإبداعية",
+                        "لديهم"
+                    ],
+                    "level": "hard"
+                }
+            ],
+            "options": [
+                "تعاون",
+                "تداون",
+                "تساون",
+                "تجاون"
+            ],
+            "correct_answer": "تعاون"
+        },
+        {
+            "word": "إتقان",
+            "translation_english": "Mastery",
+            "translation_native": "Mastery",
+            "pronunciation": "itqan",
+            "examples": [
+                {
+                    "sentence": "يتطلب إتقان التصوير الفوتوغرافي سنوات من التدريب المستمر وتجربة زوايا إضاءة مختلفة.",
+                    "translation_english": "Mastery of photography requires years of continuous practice and experimenting with different lighting angles.",
+                    "translation_native": "Mastery of photography requires years of continuous practice and experimenting with different lighting angles.",
+                    "sentence_parts": [
+                        "يتطلب",
+                        "إتقان",
+                        "التصوير",
+                        "الفوتوغرافي",
+                        "سنوات",
+                        "من",
+                        "التدريب",
+                        "المستمر",
+                        "وتجربة",
+                        "زوايا",
+                        "إضاءة",
+                        "مختلفة"
+                    ],
+                    "level": "hard"
+                }
+            ],
+            "options": [
+                "إتقان",
+                "إعلان",
+                "إذعان",
+                "إمعان"
+            ],
+            "correct_answer": "إتقان"
+        },
+        {
+            "word": "تأثير",
+            "translation_english": "Influence",
+            "translation_native": "Influence",
+            "pronunciation": "ta'thir",
+            "examples": [
+                {
+                    "sentence": "يستخدم المؤثرون على وسائل التواصل الاجتماعي تأثيرهم لنشر الوعي حول قضايا بيئية.",
+                    "translation_english": "Social media influencers use their influence to spread awareness about environmental issues.",
+                    "translation_native": "Social media influencers use their influence to spread awareness about environmental issues.",
+                    "sentence_parts": [
+                        "يستخدم",
+                        "المؤثرون",
+                        "على",
+                        "وسائل",
+                        "التواصل",
+                        "الاجتماعي",
+                        "تأثيرهم",
+                        "لنشر",
+                        "الوعي",
+                        "حول",
+                        "قضايا",
+                        "بيئية"
+                    ],
+                    "level": "hard"
+                }
+            ],
+            "options": [
+                "تأثير",
+                "تغيير",
+                "تيسير",
+                "تفكير"
+            ],
+            "correct_answer": "تأثير"
+        },
+        {
+            "word": "تنظيم",
+            "translation_english": "Organization",
+            "translation_native": "Organization",
+            "pronunciation": "tanzim",
+            "examples": [
+                {
+                    "sentence": "يساعد تنظيم الوقت الطلاب على الموازنة بين الدراسة وممارسة هواياتهم المفضلة يومياً.",
+                    "translation_english": "Time organization helps students balance between studying and practicing their favorite hobbies daily.",
+                    "translation_native": "Time organization helps students balance between studying and practicing their favorite hobbies daily.",
+                    "sentence_parts": [
+                        "يساعد",
+                        "تنظيم",
+                        "الوقت",
+                        "الطلاب",
+                        "على",
+                        "الموازنة",
+                        "بين",
+                        "الدراسة",
+                        "وممارسة",
+                        "هواياتهم",
+                        "المفضلة",
+                        "يومياً"
+                    ],
+                    "level": "hard"
+                }
+            ],
+            "options": [
+                "تنظيم",
+                "تلقيم",
+                "تأميم",
+                "تعتيم"
+            ],
+            "correct_answer": "تنظيم"
+        },
+        {
+            "word": "تطوع",
+            "translation_english": "Volunteering",
+            "translation_native": "Volunteering",
+            "pronunciation": "tatawwu'",
+            "examples": [
+                {
+                    "sentence": "يمنح العمل التطوعي الشباب خبرة عملية قيمة تعزز فرصهم في التوظيف مستقبلاً.",
+                    "translation_english": "Volunteering gives youth valuable practical experience that enhances their future employment opportunities.",
+                    "translation_native": "Volunteering gives youth valuable practical experience that enhances their future employment opportunities.",
+                    "sentence_parts": [
+                        "يمنح",
+                        "العمل",
+                        "التطوعي",
+                        "الشباب",
+                        "خبرة",
+                        "عملية",
+                        "قيمة",
+                        "تعزز",
+                        "فرصهم",
+                        "في",
+                        "التوظيف",
+                        "مستقبلاً"
+                    ],
+                    "level": "hard"
+                }
+            ],
+            "options": [
+                "تطوع",
+                "تطلع",
+                "توقع",
+                "توسع"
+            ],
+            "correct_answer": "تطوع"
+        },
+        {
+            "word": "تفكير",
+            "translation_english": "Thinking",
+            "translation_native": "Thinking",
+            "pronunciation": "tafkir",
+            "examples": [
+                {
+                    "sentence": "يتطلب التفكير النقدي تقييم المعلومات بدقة قبل اتخاذ قرارات مهنية حاسمة مستقبلاً.",
+                    "translation_english": "Critical thinking requires evaluating information accurately before making crucial professional decisions in the future.",
+                    "translation_native": "Critical thinking requires evaluating information accurately before making crucial professional decisions in the future.",
+                    "sentence_parts": [
+                        "يتطلب",
+                        "التفكير",
+                        "النقدي",
+                        "تقييم",
+                        "المعلومات",
+                        "بدقة",
+                        "قبل",
+                        "اتخاذ",
+                        "قرارات",
+                        "مهنية",
+                        "حاسمة",
+                        "مستقبلاً"
+                    ],
+                    "level": "hard"
+                }
+            ],
+            "options": [
+                "تفكير",
+                "تكبير",
+                "تذكير",
+                "تأجير"
+            ],
+            "correct_answer": "تفكير"
+        },
+        {
+            "word": "تفاعل",
+            "translation_english": "Interaction",
+            "translation_native": "Interaction",
+            "pronunciation": "tafa'ul",
+            "examples": [
+                {
+                    "sentence": "يعزز التفاعل الإيجابي بين الزملاء بيئة العمل ويحفز الإبداع في المشاريع المشتركة.",
+                    "translation_english": "Positive interaction between colleagues enhances the work environment and stimulates creativity in joint projects.",
+                    "translation_native": "Positive interaction between colleagues enhances the work environment and stimulates creativity in joint projects.",
+                    "sentence_parts": [
+                        "يعزز",
+                        "التفاعل",
+                        "الإيجابي",
+                        "بين",
+                        "الزملاء",
+                        "بيئة",
+                        "العمل",
+                        "ويحفز",
+                        "الإبداع",
+                        "في",
+                        "المشاريع",
+                        "المشتركة"
+                    ],
+                    "level": "hard"
+                }
+            ],
+            "options": [
+                "تفاعل",
+                "تكامل",
+                "تفاؤل",
+                "تواصل"
+            ],
+            "correct_answer": "تفاعل"
+        },
+        {
+            "word": "مبادرة",
+            "translation_english": "Initiative",
+            "translation_native": "Initiative",
+            "pronunciation": "mubadara",
+            "examples": [
+                {
+                    "sentence": "أخذ الطالب زمام المبادرة في تصميم شعار جديد لنادي البرمجة المدرسي.",
+                    "translation_english": "The student took the initiative to design a new logo for the school coding club.",
+                    "translation_native": "The student took the initiative to design a new logo for the school coding club.",
+                    "sentence_parts": [
+                        "أخذ",
+                        "الطالب",
+                        "زمام",
+                        "المبادرة",
+                        "في",
+                        "تصميم",
+                        "شعار",
+                        "جديد",
+                        "لنادي",
+                        "البرمجة",
+                        "المدرسي"
+                    ],
+                    "level": "hard"
+                }
+            ],
+            "options": [
+                "مبادرة",
+                "محاضرة",
+                "مغامرة",
+                "مثابرة"
+            ],
+            "correct_answer": "مبادرة"
+        }
+    ]
+}

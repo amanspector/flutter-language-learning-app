@@ -1,0 +1,3029 @@
+{
+    "metadata": {
+        "language": "Arabic",
+        "native_language": "English",
+        "level": "Advanced",
+        "category": "school",
+        "total_words": 84
+    },
+    "words": [
+        {
+            "word": "مُحَاضَرَة",
+            "translation_english": "Lecture",
+            "translation_native": "Lecture",
+            "pronunciation": "muhadarah",
+            "examples": [
+                {
+                    "sentence": "حضرنا مُحَاضَرَة أكاديمية مكثفة حول تأثير الذكاء الاصطناعي في التعليم الجامعي الحديث",
+                    "translation_english": "We attended an intensive academic lecture on the impact of AI in modern university education.",
+                    "translation_native": "We attended an intensive academic lecture on the impact of AI in modern university education.",
+                    "sentence_parts": [
+                        "حضرنا",
+                        "مُحَاضَرَة",
+                        "أكاديمية",
+                        "مكثفة",
+                        "حول",
+                        "تأثير",
+                        "الذكاء",
+                        "الاصطناعي",
+                        "في",
+                        "التعليم",
+                        "الجامعي",
+                        "الحديث"
+                    ],
+                    "level": "hard"
+                }
+            ],
+            "options": [
+                "مُحَاضَرَة",
+                "مُسَابَقَة",
+                "مُبَارَاة",
+                "مُقَابَلَة"
+            ],
+            "correct_answer": "مُحَاضَرَة"
+        },
+        {
+            "word": "مَنْهَجِيَّة",
+            "translation_english": "Methodology",
+            "translation_native": "Methodology",
+            "pronunciation": "manhajiyyah",
+            "examples": [
+                {
+                    "sentence": "تعتمد مَنْهَجِيَّة البحث العلمي على تحليل البيانات بدقة للوصول إلى نتائج موثوقة",
+                    "translation_english": "The scientific research methodology relies on analyzing data accurately to reach reliable results.",
+                    "translation_native": "The scientific research methodology relies on analyzing data accurately to reach reliable results.",
+                    "sentence_parts": [
+                        "تعتمد",
+                        "مَنْهَجِيَّة",
+                        "البحث",
+                        "العلمي",
+                        "على",
+                        "تحليل",
+                        "البيانات",
+                        "بدقة",
+                        "للوصول",
+                        "إلى",
+                        "نتائج",
+                        "موثوقة"
+                    ],
+                    "level": "hard"
+                }
+            ],
+            "options": [
+                "مَنْهَجِيَّة",
+                "أُطْرُوحَة",
+                "مُقَارَبَة",
+                "مُعَالَجَة"
+            ],
+            "correct_answer": "مَنْهَجِيَّة"
+        },
+        {
+            "word": "أُطْرُوحَة",
+            "translation_english": "Thesis",
+            "translation_native": "Thesis",
+            "pronunciation": "utruhah",
+            "examples": [
+                {
+                    "sentence": "قدم الطالب أُطْرُوحَة متميزة نالت إعجاب لجنة التحكيم في نهاية العام الدراسي",
+                    "translation_english": "The student presented an excellent thesis that impressed the jury at the end of the year.",
+                    "translation_native": "The student presented an excellent thesis that impressed the jury at the end of the year.",
+                    "sentence_parts": [
+                        "قدم",
+                        "الطالب",
+                        "أُطْرُوحَة",
+                        "متميزة",
+                        "نالت",
+                        "إعجاب",
+                        "لجنة",
+                        "التحكيم",
+                        "في",
+                        "نهاية",
+                        "العام",
+                        "الدراسي"
+                    ],
+                    "level": "hard"
+                }
+            ],
+            "options": [
+                "أُطْرُوحَة",
+                "مُقَدِّمَة",
+                "خَاتِمَة",
+                "مُسَوَّدَة"
+            ],
+            "correct_answer": "أُطْرُوحَة"
+        },
+        {
+            "word": "مُسَوَّدَة",
+            "translation_english": "Draft",
+            "translation_native": "Draft",
+            "pronunciation": "musawwadah",
+            "examples": [
+                {
+                    "sentence": "قمت بمراجعة مُسَوَّدَة المقال قبل تسليمه للأستاذ لضمان خلوه من الأخطاء اللغوية",
+                    "translation_english": "I reviewed the draft of the article before submitting it to the professor to ensure it is error-free.",
+                    "translation_native": "I reviewed the draft of the article before submitting it to the professor to ensure it is error-free.",
+                    "sentence_parts": [
+                        "قمت",
+                        "بمراجعة",
+                        "مُسَوَّدَة",
+                        "المقال",
+                        "قبل",
+                        "تسليمه",
+                        "للأستاذ",
+                        "لضمان",
+                        "خلوه",
+                        "من",
+                        "الأخطاء",
+                        "اللغوية"
+                    ],
+                    "level": "hard"
+                }
+            ],
+            "options": [
+                "مُسَوَّدَة",
+                "مُقْتَطَفَة",
+                "مُحَادَثَة",
+                "مُعَادَلَة"
+            ],
+            "correct_answer": "مُسَوَّدَة"
+        },
+        {
+            "word": "مُقَارَبَة",
+            "translation_english": "Approach",
+            "translation_native": "Approach",
+            "pronunciation": "muqarabah",
+            "examples": [
+                {
+                    "sentence": "تتطلب المسائل الرياضية المعقدة مُقَارَبَة إبداعية لحلها بعيداً عن الطرق التقليدية المعتادة",
+                    "translation_english": "Complex mathematical problems require a creative approach to solve them beyond traditional methods.",
+                    "translation_native": "Complex mathematical problems require a creative approach to solve them beyond traditional methods.",
+                    "sentence_parts": [
+                        "تتطلب",
+                        "المسائل",
+                        "الرياضية",
+                        "المعقدة",
+                        "مُقَارَبَة",
+                        "إبداعية",
+                        "لحلها",
+                        "بعيداً",
+                        "عن",
+                        "الطرق",
+                        "التقليدية",
+                        "المعتادة"
+                    ],
+                    "level": "hard"
+                }
+            ],
+            "options": [
+                "مُقَارَبَة",
+                "مُبَادَرَة",
+                "مُشَارَكَة",
+                "مُعَايَرَة"
+            ],
+            "correct_answer": "مُقَارَبَة"
+        },
+        {
+            "word": "مُعَايَرَة",
+            "translation_english": "Calibration",
+            "translation_native": "Calibration",
+            "pronunciation": "mu'ayarah",
+            "examples": [
+                {
+                    "sentence": "يجب إجراء مُعَايَرَة دقيقة لأجهزة المختبر قبل البدء بتجارب الكيمياء الحيوية الحساسة",
+                    "translation_english": "Precise calibration of laboratory equipment must be done before starting sensitive biochemical experiments.",
+                    "translation_native": "Precise calibration of laboratory equipment must be done before starting sensitive biochemical experiments.",
+                    "sentence_parts": [
+                        "يجب",
+                        "إجراء",
+                        "مُعَايَرَة",
+                        "دقيقة",
+                        "لأجهزة",
+                        "المختبر",
+                        "قبل",
+                        "البدء",
+                        "بتجارب",
+                        "الكيمياء",
+                        "الحيوية",
+                        "الحساسة"
+                    ],
+                    "level": "hard"
+                }
+            ],
+            "options": [
+                "مُعَايَرَة",
+                "مُطَابَقَة",
+                "مُوَازَنَة",
+                "مُشَاهَدَة"
+            ],
+            "correct_answer": "مُعَايَرَة"
+        },
+        {
+            "word": "مُطَابَقَة",
+            "translation_english": "Correspondence/Matching",
+            "translation_native": "Correspondence/Matching",
+            "pronunciation": "mutabaqah",
+            "examples": [
+                {
+                    "sentence": "تأكد من مُطَابَقَة النتائج التجريبية مع الفرضيات العلمية التي وضعتها في بحثك",
+                    "translation_english": "Ensure the matching of experimental results with the scientific hypotheses you set in your research.",
+                    "translation_native": "Ensure the matching of experimental results with the scientific hypotheses you set in your research.",
+                    "sentence_parts": [
+                        "تأكد",
+                        "من",
+                        "مُطَابَقَة",
+                        "النتائج",
+                        "التجريبية",
+                        "مع",
+                        "الفرضيات",
+                        "العلمية",
+                        "التي",
+                        "وضعتها",
+                        "في",
+                        "بحثك"
+                    ],
+                    "level": "hard"
+                }
+            ],
+            "options": [
+                "مُطَابَقَة",
+                "مُعَايَنَة",
+                "مُطَالَعَة",
+                "مُعَالَجَة"
+            ],
+            "correct_answer": "مُطَابَقَة"
+        },
+        {
+            "word": "مُعَايَنَة",
+            "translation_english": "Inspection",
+            "translation_native": "Inspection",
+            "pronunciation": "mu'ayanah",
+            "examples": [
+                {
+                    "sentence": "قام الأستاذ بإجراء مُعَايَنَة ميدانية للموقع الأثري ضمن رحلة المدرسة التعليمية السنوية",
+                    "translation_english": "The professor conducted a field inspection of the archaeological site during the annual school trip.",
+                    "translation_native": "The professor conducted a field inspection of the archaeological site during the annual school trip.",
+                    "sentence_parts": [
+                        "قام",
+                        "الأستاذ",
+                        "بإجراء",
+                        "مُعَايَنَة",
+                        "ميدانية",
+                        "للموقع",
+                        "الأثري",
+                        "ضمن",
+                        "رحلة",
+                        "المدرسة",
+                        "التعليمية",
+                        "السنوية"
+                    ],
+                    "level": "hard"
+                }
+            ],
+            "options": [
+                "مُعَايَنَة",
+                "مُعَاقَبَة",
+                "مُطَاوَعَة",
+                "مُعَاوَنَة"
+            ],
+            "correct_answer": "مُعَايَنَة"
+        },
+        {
+            "word": "مُطَالَعَة",
+            "translation_english": "Reading/Perusal",
+            "translation_native": "Reading/Perusal",
+            "pronunciation": "mutala'ah",
+            "examples": [
+                {
+                    "sentence": "تعد مُطَالَعَة الكتب الأدبية الكلاسيكية وسيلة ممتازة لتطوير مهارات الكتابة الإبداعية للطلاب",
+                    "translation_english": "Reading classic literary books is an excellent way to develop students' creative writing skills.",
+                    "translation_native": "Reading classic literary books is an excellent way to develop students' creative writing skills.",
+                    "sentence_parts": [
+                        "تعد",
+                        "مُطَالَعَة",
+                        "الكتب",
+                        "الأدبية",
+                        "الكلاسيكية",
+                        "وسيلة",
+                        "ممتازة",
+                        "لتطوير",
+                        "مهارات",
+                        "الكتابة",
+                        "الإبداعية",
+                        "للطلاب"
+                    ],
+                    "level": "hard"
+                }
+            ],
+            "options": [
+                "مُطَالَعَة",
+                "مُجَادَلَة",
+                "مُحَاوَرَة",
+                "مُصَالَحَة"
+            ],
+            "correct_answer": "مُطَالَعَة"
+        },
+        {
+            "word": "مُحَاوَرَة",
+            "translation_english": "Dialogue/Discussion",
+            "translation_native": "Dialogue/Discussion",
+            "pronunciation": "muhawarah",
+            "examples": [
+                {
+                    "sentence": "أدار المعلم مُحَاوَرَة فلسفية عميقة حول الأخلاق في عصر التكنولوجيا الرقمية المتسارع",
+                    "translation_english": "The teacher led a deep philosophical dialogue about ethics in the age of fast-paced digital technology.",
+                    "translation_native": "The teacher led a deep philosophical dialogue about ethics in the age of fast-paced digital technology.",
+                    "sentence_parts": [
+                        "أدار",
+                        "المعلم",
+                        "مُحَاوَرَة",
+                        "فلسفية",
+                        "عميقة",
+                        "حول",
+                        "الأخلاق",
+                        "في",
+                        "عصر",
+                        "التكنولوجيا",
+                        "الرقمية",
+                        "المتسارع"
+                    ],
+                    "level": "hard"
+                }
+            ],
+            "options": [
+                "مُحَاوَرَة",
+                "مُعَايَرَة",
+                "مُبَارَزَة",
+                "مُصَادَمَة"
+            ],
+            "correct_answer": "مُحَاوَرَة"
+        },
+        {
+            "word": "مُعَادَلَة",
+            "translation_english": "Equation",
+            "translation_native": "Equation",
+            "pronunciation": "mu'adalah",
+            "examples": [
+                {
+                    "sentence": "حل تلك مُعَادَلَة التفاضلية يتطلب فهماً عميقاً لقوانين الفيزياء والرياضيات المتقدمة جداً",
+                    "translation_english": "Solving that differential equation requires a deep understanding of the laws of physics and advanced mathematics.",
+                    "translation_native": "Solving that differential equation requires a deep understanding of the laws of physics and advanced mathematics.",
+                    "sentence_parts": [
+                        "حل",
+                        "تلك",
+                        "مُعَادَلَة",
+                        "التفاضلية",
+                        "يتطلب",
+                        "فهماً",
+                        "عميقاً",
+                        "لقوانين",
+                        "الفيزياء",
+                        "والرياضيات",
+                        "المتقدمة",
+                        "جداً"
+                    ],
+                    "level": "hard"
+                }
+            ],
+            "options": [
+                "مُعَادَلَة",
+                "مُقَارَنَة",
+                "مُسَاوَاة",
+                "مُعَالَجَة"
+            ],
+            "correct_answer": "مُعَادَلَة"
+        },
+        {
+            "word": "مُقَارَنَة",
+            "translation_english": "Comparison",
+            "translation_native": "Comparison",
+            "pronunciation": "muqaranah",
+            "examples": [
+                {
+                    "sentence": "أجرينا مُقَارَنَة شاملة بين الأنظمة السياسية المختلفة في العالم ضمن مادة العلوم الاجتماعية",
+                    "translation_english": "We conducted a comprehensive comparison between different political systems in the world in social studies.",
+                    "translation_native": "We conducted a comprehensive comparison between different political systems in the world in social studies.",
+                    "sentence_parts": [
+                        "أجرينا",
+                        "مُقَارَنَة",
+                        "شاملة",
+                        "بين",
+                        "الأنظمة",
+                        "السياسية",
+                        "المختلفة",
+                        "في",
+                        "العالم",
+                        "ضمن",
+                        "مادة",
+                        "العلوم",
+                        "الاجتماعية"
+                    ],
+                    "level": "hard"
+                }
+            ],
+            "options": [
+                "مُقَارَنَة",
+                "مُعَايَنَة",
+                "مُشَاهَدَة",
+                "مُطَالَعَة"
+            ],
+            "correct_answer": "مُقَارَنَة"
+        },
+        {
+            "word": "مُعَالَجَة",
+            "translation_english": "Processing/Treatment",
+            "translation_native": "Processing/Treatment",
+            "pronunciation": "mu'alajah",
+            "examples": [
+                {
+                    "sentence": "تتضمن مادة علوم الحاسب دراسة مُعَالَجَة البيانات الضخمة باستخدام خوارزميات برمجية حديثة ومعقدة",
+                    "translation_english": "Computer science includes studying big data processing using modern and complex software algorithms.",
+                    "translation_native": "Computer science includes studying big data processing using modern and complex software algorithms.",
+                    "sentence_parts": [
+                        "تتضمن",
+                        "مادة",
+                        "علوم",
+                        "الحاسب",
+                        "دراسة",
+                        "مُعَالَجَة",
+                        "البيانات",
+                        "الضخمة",
+                        "باستخدام",
+                        "خوارزميات",
+                        "برمجية",
+                        "حديثة",
+                        "ومعقدة"
+                    ],
+                    "level": "hard"
+                }
+            ],
+            "options": [
+                "مُعَالَجَة",
+                "مُطَابَقَة",
+                "مُعَايَرَة",
+                "مُسَاوَاة"
+            ],
+            "correct_answer": "مُعَالَجَة"
+        },
+        {
+            "word": "مُسَاوَاة",
+            "translation_english": "Equality",
+            "translation_native": "Equality",
+            "pronunciation": "musawah",
+            "examples": [
+                {
+                    "sentence": "ناقش الطلاب مبدأ مُسَاوَاة الفرص في التعليم كحق أساسي من حقوق الإنسان العالمية",
+                    "translation_english": "The students discussed the principle of equality of opportunity in education as a fundamental human right.",
+                    "translation_native": "The students discussed the principle of equality of opportunity in education as a fundamental human right.",
+                    "sentence_parts": [
+                        "ناقش",
+                        "الطلاب",
+                        "مبدأ",
+                        "مُسَاوَاة",
+                        "الفرص",
+                        "في",
+                        "التعليم",
+                        "كحق",
+                        "أساسي",
+                        "من",
+                        "حقوق",
+                        "الإنسان",
+                        "العالمية"
+                    ],
+                    "level": "hard"
+                }
+            ],
+            "options": [
+                "مُسَاوَاة",
+                "مُقَارَنَة",
+                "مُعَادَلَة",
+                "مُحَاوَرَة"
+            ],
+            "correct_answer": "مُسَاوَاة"
+        },
+        {
+            "word": "مُشَاهَدَة",
+            "translation_english": "Observation",
+            "translation_native": "Observation",
+            "pronunciation": "mushahadah",
+            "examples": [
+                {
+                    "sentence": "تعتمد التجارب العلمية في المختبر على دقة مُشَاهَدَة التفاعلات الكيميائية وتدوين النتائج فوراً",
+                    "translation_english": "Scientific experiments in the lab depend on the accuracy of observing chemical reactions and recording results immediately.",
+                    "translation_native": "Scientific experiments in the lab depend on the accuracy of observing chemical reactions and recording results immediately.",
+                    "sentence_parts": [
+                        "تعتمد",
+                        "التجارب",
+                        "العلمية",
+                        "في",
+                        "المختبر",
+                        "على",
+                        "دقة",
+                        "مُشَاهَدَة",
+                        "التفاعلات",
+                        "الكيميائية",
+                        "وتدوين",
+                        "النتائج",
+                        "فوراً"
+                    ],
+                    "level": "hard"
+                }
+            ],
+            "options": [
+                "مُشَاهَدَة",
+                "مُعَايَنَة",
+                "مُطَالَعَة",
+                "مُقَارَنَة"
+            ],
+            "correct_answer": "مُشَاهَدَة"
+        },
+        {
+            "word": "مُبَادَرَة",
+            "translation_english": "Initiative",
+            "translation_native": "Initiative",
+            "pronunciation": "mubadarah",
+            "examples": [
+                {
+                    "sentence": "أطلق اتحاد الطلبة مُبَادَرَة بيئية تهدف إلى تقليل استخدام البلاستيك داخل الحرم الجامعي",
+                    "translation_english": "The student union launched an environmental initiative aiming to reduce plastic use on campus.",
+                    "translation_native": "The student union launched an environmental initiative aiming to reduce plastic use on campus.",
+                    "sentence_parts": [
+                        "أطلق",
+                        "اتحاد",
+                        "الطلبة",
+                        "مُبَادَرَة",
+                        "بيئية",
+                        "تهدف",
+                        "إلى",
+                        "تقليل",
+                        "استخدام",
+                        "البلاستيك",
+                        "داخل",
+                        "الحرم",
+                        "الجامعي"
+                    ],
+                    "level": "hard"
+                }
+            ],
+            "options": [
+                "مُبَادَرَة",
+                "مُشَارَكَة",
+                "مُقَارَبَة",
+                "مُعَايَرَة"
+            ],
+            "correct_answer": "مُبَادَرَة"
+        },
+        {
+            "word": "مُشَارَكَة",
+            "translation_english": "Participation",
+            "translation_native": "Participation",
+            "pronunciation": "musharakah",
+            "examples": [
+                {
+                    "sentence": "تزيد مُشَارَكَة الطلاب في الأنشطة الصفية من قدرتهم على التفكير النقدي والتحليل المنطقي",
+                    "translation_english": "Student participation in classroom activities increases their ability for critical thinking and logical analysis.",
+                    "translation_native": "Student participation in classroom activities increases their ability for critical thinking and logical analysis.",
+                    "sentence_parts": [
+                        "تزيد",
+                        "مُشَارَكَة",
+                        "الطلاب",
+                        "في",
+                        "الأنشطة",
+                        "الصفية",
+                        "من",
+                        "قدرتهم",
+                        "على",
+                        "التفكير",
+                        "النقدي",
+                        "والتحليل",
+                        "المنطقي"
+                    ],
+                    "level": "hard"
+                }
+            ],
+            "options": [
+                "مُشَارَكَة",
+                "مُبَادَرَة",
+                "مُحَاوَرَة",
+                "مُصَالَحَة"
+            ],
+            "correct_answer": "مُشَارَكَة"
+        },
+        {
+            "word": "مُصَالَحَة",
+            "translation_english": "Reconciliation",
+            "translation_native": "Reconciliation",
+            "pronunciation": "musalahah",
+            "examples": [
+                {
+                    "sentence": "درسنا في مادة التاريخ أهمية مُصَالَحَة الشعوب بعد انتهاء النزاعات والحروب العالمية الكبرى",
+                    "translation_english": "We studied in history the importance of reconciliation of peoples after the end of major global conflicts and wars.",
+                    "translation_native": "We studied in history the importance of reconciliation of peoples after the end of major global conflicts and wars.",
+                    "sentence_parts": [
+                        "درسنا",
+                        "في",
+                        "مادة",
+                        "التاريخ",
+                        "أهمية",
+                        "مُصَالَحَة",
+                        "الشعوب",
+                        "بعد",
+                        "انتهاء",
+                        "النزاعات",
+                        "والحروب",
+                        "العالمية",
+                        "الكبرى"
+                    ],
+                    "level": "hard"
+                }
+            ],
+            "options": [
+                "مُصَالَحَة",
+                "مُحَاوَرَة",
+                "مُشَارَكَة",
+                "مُجَادَلَة"
+            ],
+            "correct_answer": "مُصَالَحَة"
+        },
+        {
+            "word": "مُجَادَلَة",
+            "translation_english": "Argument/Debate",
+            "translation_native": "Argument/Debate",
+            "pronunciation": "mujadalah",
+            "examples": [
+                {
+                    "sentence": "تجنب الطالب الدخول في مُجَادَلَة عقيمة مع زملائه حول موضوعات لا تستند إلى حقائق",
+                    "translation_english": "The student avoided entering into a futile argument with his peers about topics not based on facts.",
+                    "translation_native": "The student avoided entering into a futile argument with his peers about topics not based on facts.",
+                    "sentence_parts": [
+                        "تجنب",
+                        "الطالب",
+                        "الدخول",
+                        "في",
+                        "مُجَادَلَة",
+                        "عقيمة",
+                        "مع",
+                        "زملائه",
+                        "حول",
+                        "موضوعات",
+                        "لا",
+                        "تستند",
+                        "إلى",
+                        "حقائق"
+                    ],
+                    "level": "hard"
+                }
+            ],
+            "options": [
+                "مُجَادَلَة",
+                "مُصَالَحَة",
+                "مُحَاوَرَة",
+                "مُبَارَزَة"
+            ],
+            "correct_answer": "مُجَادَلَة"
+        },
+        {
+            "word": "مُبَارَزَة",
+            "translation_english": "Duel/Contest",
+            "translation_native": "Duel/Contest",
+            "pronunciation": "mubarazah",
+            "examples": [
+                {
+                    "sentence": "نظم النادي الأدبي مُبَارَزَة شعرية بين الطلاب الموهوبين في فن الإلقاء والبلاغة العربية",
+                    "translation_english": "The literary club organized a poetry duel between students talented in the art of recitation and Arabic rhetoric.",
+                    "translation_native": "The literary club organized a poetry duel between students talented in the art of recitation and Arabic rhetoric.",
+                    "sentence_parts": [
+                        "نظم",
+                        "النادي",
+                        "الأدبي",
+                        "مُبَارَزَة",
+                        "شعرية",
+                        "بين",
+                        "الطلاب",
+                        "الموهوبين",
+                        "في",
+                        "فن",
+                        "الإلقاء",
+                        "والبلاغة",
+                        "العربية"
+                    ],
+                    "level": "hard"
+                }
+            ],
+            "options": [
+                "مُبَارَزَة",
+                "مُجَادَلَة",
+                "مُحَاوَرَة",
+                "مُصَالَحَة"
+            ],
+            "correct_answer": "مُبَارَزَة"
+        },
+        {
+            "word": "مُعَاقَبَة",
+            "translation_english": "Punishment",
+            "translation_native": "Punishment",
+            "pronunciation": "mu'aqabah",
+            "examples": [
+                {
+                    "sentence": "تفرض اللوائح المدرسية مُعَاقَبَة صارمة على الطلاب الذين يغشون في الاختبارات النهائية الرسمية",
+                    "translation_english": "School regulations impose strict punishment on students who cheat in official final exams.",
+                    "translation_native": "School regulations impose strict punishment on students who cheat in official final exams.",
+                    "sentence_parts": [
+                        "تفرض",
+                        "اللوائح",
+                        "المدرسية",
+                        "مُعَاقَبَة",
+                        "صارمة",
+                        "على",
+                        "الطلاب",
+                        "الذين",
+                        "يغشون",
+                        "في",
+                        "الاختبارات",
+                        "النهائية",
+                        "الرسمية"
+                    ],
+                    "level": "hard"
+                }
+            ],
+            "options": [
+                "مُعَاقَبَة",
+                "مُعَاوَنَة",
+                "مُطَاوَعَة",
+                "مُعَايَنَة"
+            ],
+            "correct_answer": "مُعَاقَبَة"
+        },
+        {
+            "word": "مُعَاوَنَة",
+            "translation_english": "Assistance/Aid",
+            "translation_native": "Assistance/Aid",
+            "pronunciation": "mu'awanah",
+            "examples": [
+                {
+                    "sentence": "قدم المعلم مُعَاوَنَة إضافية للطلاب الذين يواجهون صعوبات في فهم مادة الرياضيات المتقدمة",
+                    "translation_english": "The teacher provided additional assistance to students facing difficulties in understanding advanced mathematics.",
+                    "translation_native": "The teacher provided additional assistance to students facing difficulties in understanding advanced mathematics.",
+                    "sentence_parts": [
+                        "قدم",
+                        "المعلم",
+                        "مُعَاوَنَة",
+                        "إضافية",
+                        "للطلاب",
+                        "الذين",
+                        "يواجهون",
+                        "صعوبات",
+                        "في",
+                        "فهم",
+                        "مادة",
+                        "الرياضيات",
+                        "المتقدمة"
+                    ],
+                    "level": "hard"
+                }
+            ],
+            "options": [
+                "مُعَاوَنَة",
+                "مُعَاقَبَة",
+                "مُطَاوَعَة",
+                "مُعَايَنَة"
+            ],
+            "correct_answer": "مُعَاوَنَة"
+        },
+        {
+            "word": "مُطَاوَعَة",
+            "translation_english": "Compliance/Yielding",
+            "translation_native": "Compliance/Yielding",
+            "pronunciation": "mutawa'ah",
+            "examples": [
+                {
+                    "sentence": "تتطلب التجارب الفيزيائية مُطَاوَعَة المواد للضغط والحرارة العالية للحصول على نتائج دقيقة وموثوقة",
+                    "translation_english": "Physical experiments require the compliance of materials to pressure and high heat to obtain accurate and reliable results.",
+                    "translation_native": "Physical experiments require the compliance of materials to pressure and high heat to obtain accurate and reliable results.",
+                    "sentence_parts": [
+                        "تتطلب",
+                        "التجارب",
+                        "الفيزيائية",
+                        "مُطَاوَعَة",
+                        "المواد",
+                        "للضغط",
+                        "والحرارة",
+                        "العالية",
+                        "للحصول",
+                        "على",
+                        "نتائج",
+                        "دقيقة",
+                        "وموثوقة"
+                    ],
+                    "level": "hard"
+                }
+            ],
+            "options": [
+                "مُطَاوَعَة",
+                "مُعَاقَبَة",
+                "مُعَاوَنَة",
+                "مُعَايَنَة"
+            ],
+            "correct_answer": "مُطَاوَعَة"
+        },
+        {
+            "word": "مُسَابَقَة",
+            "translation_english": "Competition",
+            "translation_native": "Competition",
+            "pronunciation": "musabaqah",
+            "examples": [
+                {
+                    "sentence": "فاز فريق مدرستنا في مُسَابَقَة الروبوتات الوطنية بعد تصميم نموذج مبتكر وعملي جداً",
+                    "translation_english": "Our school team won the national robotics competition after designing an innovative and very practical model.",
+                    "translation_native": "Our school team won the national robotics competition after designing an innovative and very practical model.",
+                    "sentence_parts": [
+                        "فاز",
+                        "فريق",
+                        "مدرستنا",
+                        "في",
+                        "مُسَابَقَة",
+                        "الروبوتات",
+                        "الوطنية",
+                        "بعد",
+                        "تصميم",
+                        "نموذج",
+                        "مبتكر",
+                        "وعملي",
+                        "جداً"
+                    ],
+                    "level": "hard"
+                }
+            ],
+            "options": [
+                "مُسَابَقَة",
+                "مُبَارَاة",
+                "مُقَابَلَة",
+                "مُحَاضَرَة"
+            ],
+            "correct_answer": "مُسَابَقَة"
+        },
+        {
+            "word": "مُبَارَاة",
+            "translation_english": "Match/Game",
+            "translation_native": "Match/Game",
+            "pronunciation": "mubarah",
+            "examples": [
+                {
+                    "sentence": "شاهدنا مُبَارَاة كرة القدم النهائية بين فريق مدرستنا والمدرسة المنافسة في الملعب الرئيسي",
+                    "translation_english": "We watched the final football match between our school team and the rival school at the main stadium.",
+                    "translation_native": "We watched the final football match between our school team and the rival school at the main stadium.",
+                    "sentence_parts": [
+                        "شاهدنا",
+                        "مُبَارَاة",
+                        "كرة",
+                        "القدم",
+                        "النهائية",
+                        "بين",
+                        "فريق",
+                        "مدرستنا",
+                        "والمدرسة",
+                        "المنافسة",
+                        "في",
+                        "الملعب",
+                        "الرئيسي"
+                    ],
+                    "level": "hard"
+                }
+            ],
+            "options": [
+                "مُبَارَاة",
+                "مُسَابَقَة",
+                "مُقَابَلَة",
+                "مُحَاضَرَة"
+            ],
+            "correct_answer": "مُبَارَاة"
+        },
+        {
+            "word": "مُقَابَلَة",
+            "translation_english": "Interview",
+            "translation_native": "Interview",
+            "pronunciation": "muqabalah",
+            "examples": [
+                {
+                    "sentence": "خضع الطالب لـ مُقَابَلَة شخصية للقبول في البرنامج الصيفي المرموق للتدريب في شركة تقنية",
+                    "translation_english": "The student underwent a personal interview for admission to the prestigious summer program for training at a tech company.",
+                    "translation_native": "The student underwent a personal interview for admission to the prestigious summer program for training at a tech company.",
+                    "sentence_parts": [
+                        "خضع",
+                        "الطالب",
+                        "لـ",
+                        "مُقَابَلَة",
+                        "شخصية",
+                        "للقبول",
+                        "في",
+                        "البرنامج",
+                        "الصيفي",
+                        "المرموق",
+                        "للتدريب",
+                        "في",
+                        "شركة",
+                        "تقنية"
+                    ],
+                    "level": "hard"
+                }
+            ],
+            "options": [
+                "مُقَابَلَة",
+                "مُسَابَقَة",
+                "مُبَارَاة",
+                "مُحَاضَرَة"
+            ],
+            "correct_answer": "مُقَابَلَة"
+        },
+        {
+            "word": "مُقْتَطَفَة",
+            "translation_english": "Excerpt",
+            "translation_native": "Excerpt",
+            "pronunciation": "muqtaṭafah",
+            "examples": [
+                {
+                    "sentence": "قرأنا مُقْتَطَفَة أدبية من رواية مشهورة لتحليل أسلوب الكاتب في استخدام الصور البلاغية",
+                    "translation_english": "We read a literary excerpt from a famous novel to analyze the writer's style in using rhetorical images.",
+                    "translation_native": "We read a literary excerpt from a famous novel to analyze the writer's style in using rhetorical images.",
+                    "sentence_parts": [
+                        "قرأنا",
+                        "مُقْتَطَفَة",
+                        "أدبية",
+                        "من",
+                        "رواية",
+                        "مشهورة",
+                        "لتحليل",
+                        "أسلوب",
+                        "الكاتب",
+                        "في",
+                        "استخدام",
+                        "الصور",
+                        "البلاغية"
+                    ],
+                    "level": "hard"
+                }
+            ],
+            "options": [
+                "مُقْتَطَفَة",
+                "مُسَوَّدَة",
+                "مُحَادَثَة",
+                "مُعَادَلَة"
+            ],
+            "correct_answer": "مُقْتَطَفَة"
+        },
+        {
+            "word": "مُحَادَثَة",
+            "translation_english": "Conversation",
+            "translation_native": "Conversation",
+            "pronunciation": "muhadathah",
+            "examples": [
+                {
+                    "sentence": "تساعد ممارسة مُحَادَثَة اللغة الإنجليزية بطلاقة الطلاب على التواصل بفعالية مع زملائهم الدوليين",
+                    "translation_english": "Practicing English conversation fluently helps students communicate effectively with their international peers.",
+                    "translation_native": "Practicing English conversation fluently helps students communicate effectively with their international peers.",
+                    "sentence_parts": [
+                        "تساعد",
+                        "ممارسة",
+                        "مُحَادَثَة",
+                        "اللغة",
+                        "الإنجليزية",
+                        "بطلاقة",
+                        "الطلاب",
+                        "على",
+                        "التواصل",
+                        "بفعالية",
+                        "مع",
+                        "زملائهم",
+                        "الدوليين"
+                    ],
+                    "level": "hard"
+                }
+            ],
+            "options": [
+                "مُحَادَثَة",
+                "مُسَوَّدَة",
+                "مُقْتَطَفَة",
+                "مُعَادَلَة"
+            ],
+            "correct_answer": "مُحَادَثَة"
+        },
+        {
+            "word": "مُقَدِّمَة",
+            "translation_english": "Introduction",
+            "translation_native": "Introduction",
+            "pronunciation": "muqaddimah",
+            "examples": [
+                {
+                    "sentence": "كتب الطالب مُقَدِّمَة قوية لبحثه العلمي لجذب انتباه القارئ منذ السطور الأولى للمقال",
+                    "translation_english": "The student wrote a strong introduction for his scientific research to attract the reader's attention from the first lines.",
+                    "translation_native": "The student wrote a strong introduction for his scientific research to attract the reader's attention from the first lines.",
+                    "sentence_parts": [
+                        "كتب",
+                        "الطالب",
+                        "مُقَدِّمَة",
+                        "قوية",
+                        "لبحثه",
+                        "العلمي",
+                        "لجذب",
+                        "انتباه",
+                        "القارئ",
+                        "منذ",
+                        "السطور",
+                        "الأولى",
+                        "للمقال"
+                    ],
+                    "level": "hard"
+                }
+            ],
+            "options": [
+                "مُقَدِّمَة",
+                "خَاتِمَة",
+                "أُطْرُوحَة",
+                "مُسَوَّدَة"
+            ],
+            "correct_answer": "مُقَدِّمَة"
+        },
+        {
+            "word": "خَاتِمَة",
+            "translation_english": "Conclusion",
+            "translation_native": "Conclusion",
+            "pronunciation": "khatimah",
+            "examples": [
+                {
+                    "sentence": "لخصت خَاتِمَة التقرير أهم النتائج التي توصلنا إليها بعد أشهر من البحث الميداني",
+                    "translation_english": "The report's conclusion summarized the most important results we reached after months of field research.",
+                    "translation_native": "The report's conclusion summarized the most important results we reached after months of field research.",
+                    "sentence_parts": [
+                        "لخصت",
+                        "خَاتِمَة",
+                        "التقرير",
+                        "أهم",
+                        "النتائج",
+                        "التي",
+                        "توصلنا",
+                        "إليها",
+                        "بعد",
+                        "أشهر",
+                        "من",
+                        "البحث",
+                        "الميداني"
+                    ],
+                    "level": "hard"
+                }
+            ],
+            "options": [
+                "خَاتِمَة",
+                "مُقَدِّمَة",
+                "أُطْرُوحَة",
+                "مُسَوَّدَة"
+            ],
+            "correct_answer": "خَاتِمَة"
+        },
+        {
+            "word": "مُدَرِّس",
+            "translation_english": "Teacher/Instructor",
+            "translation_native": "Teacher/Instructor",
+            "pronunciation": "mudarris",
+            "examples": [
+                {
+                    "sentence": "يُعتبر مُدَرِّس مادة الفيزياء مرجعاً أساسياً للطلاب الذين يطمحون لدراسة الهندسة في المستقبل",
+                    "translation_english": "The physics teacher is considered a primary reference for students aspiring to study engineering in the future.",
+                    "translation_native": "The physics teacher is considered a primary reference for students aspiring to study engineering in the future.",
+                    "sentence_parts": [
+                        "يُعتبر",
+                        "مُدَرِّس",
+                        "مادة",
+                        "الفيزياء",
+                        "مرجعاً",
+                        "أساسياً",
+                        "للطلاب",
+                        "الذين",
+                        "يطمحون",
+                        "لدراسة",
+                        "الهندسة",
+                        "في",
+                        "المستقبل"
+                    ],
+                    "level": "hard"
+                }
+            ],
+            "options": [
+                "مُدَرِّس",
+                "مُدِير",
+                "مُوَجِّه",
+                "مُحَاضِر"
+            ],
+            "correct_answer": "مُدَرِّس"
+        },
+        {
+            "word": "مُدِير",
+            "translation_english": "Principal/Manager",
+            "translation_native": "Principal/Manager",
+            "pronunciation": "mudir",
+            "examples": [
+                {
+                    "sentence": "اجتمع مُدِير المدرسة مع أولياء الأمور لمناقشة تطوير المرافق الرياضية والتعليمية في المؤسسة",
+                    "translation_english": "The school principal met with parents to discuss developing sports and educational facilities in the institution.",
+                    "translation_native": "The school principal met with parents to discuss developing sports and educational facilities in the institution.",
+                    "sentence_parts": [
+                        "اجتمع",
+                        "مُدِير",
+                        "المدرسة",
+                        "مع",
+                        "أولياء",
+                        "الأمور",
+                        "لمناقشة",
+                        "تطوير",
+                        "المرافق",
+                        "الرياضية",
+                        "والتعليمية",
+                        "في",
+                        "المؤسسة"
+                    ],
+                    "level": "hard"
+                }
+            ],
+            "options": [
+                "مُدِير",
+                "مُدَرِّس",
+                "مُوَجِّه",
+                "مُحَاضِر"
+            ],
+            "correct_answer": "مُدِير"
+        },
+        {
+            "word": "مُوَجِّه",
+            "translation_english": "Counselor/Guide",
+            "translation_native": "Counselor/Guide",
+            "pronunciation": "muwajjih",
+            "examples": [
+                {
+                    "sentence": "قدم مُوَجِّه الطلاب نصائح قيمة حول اختيار التخصص الجامعي المناسب لقدراتهم واهتماماتهم الشخصية",
+                    "translation_english": "The student counselor provided valuable advice on choosing the university major suitable for their abilities and interests.",
+                    "translation_native": "The student counselor provided valuable advice on choosing the university major suitable for their abilities and interests.",
+                    "sentence_parts": [
+                        "قدم",
+                        "مُوَجِّه",
+                        "الطلاب",
+                        "نصائح",
+                        "قيمة",
+                        "حول",
+                        "اختيار",
+                        "التخصص",
+                        "الجامعي",
+                        "المناسب",
+                        "لقدراتهم",
+                        "واهتماماتهم",
+                        "الشخصية"
+                    ],
+                    "level": "hard"
+                }
+            ],
+            "options": [
+                "مُوَجِّه",
+                "مُدَرِّس",
+                "مُدِير",
+                "مُحَاضِر"
+            ],
+            "correct_answer": "مُوَجِّه"
+        },
+        {
+            "word": "مُحَاضِر",
+            "translation_english": "Lecturer",
+            "translation_native": "Lecturer",
+            "pronunciation": "muhadir",
+            "examples": [
+                {
+                    "sentence": "دعا القسم مُحَاضِر زائر من جامعة دولية لتقديم سلسلة ندوات حول التغير المناخي",
+                    "translation_english": "The department invited a visiting lecturer from an international university to present a series of seminars on climate change.",
+                    "translation_native": "The department invited a visiting lecturer from an international university to present a series of seminars on climate change.",
+                    "sentence_parts": [
+                        "دعا",
+                        "القسم",
+                        "مُحَاضِر",
+                        "زائر",
+                        "من",
+                        "جامعة",
+                        "دولية",
+                        "لتقديم",
+                        "سلسلة",
+                        "ندوات",
+                        "حول",
+                        "التغير",
+                        "المناخي"
+                    ],
+                    "level": "hard"
+                }
+            ],
+            "options": [
+                "مُحَاضِر",
+                "مُدَرِّس",
+                "مُدِير",
+                "مُوَجِّه"
+            ],
+            "correct_answer": "مُحَاضِر"
+        },
+        {
+            "word": "مُخْتَبَر",
+            "translation_english": "Laboratory",
+            "translation_native": "Laboratory",
+            "pronunciation": "mukhtabar",
+            "examples": [
+                {
+                    "sentence": "قضينا معظم وقتنا في مُخْتَبَر الكيمياء لإجراء تجارب عملية حول خصائص العناصر المختلفة",
+                    "translation_english": "We spent most of our time in the chemistry laboratory conducting practical experiments on properties of different elements.",
+                    "translation_native": "We spent most of our time in the chemistry laboratory conducting practical experiments on properties of different elements.",
+                    "sentence_parts": [
+                        "قضينا",
+                        "معظم",
+                        "وقتنا",
+                        "في",
+                        "مُخْتَبَر",
+                        "الكيمياء",
+                        "لإجراء",
+                        "تجارب",
+                        "عملية",
+                        "حول",
+                        "خصائص",
+                        "العناصر",
+                        "المختلفة"
+                    ],
+                    "level": "hard"
+                }
+            ],
+            "options": [
+                "مُخْتَبَر",
+                "مُدَرَّج",
+                "مَكْتَبَة",
+                "مَعْرِض"
+            ],
+            "correct_answer": "مُخْتَبَر"
+        },
+        {
+            "word": "مُدَرَّج",
+            "translation_english": "Auditorium/Lecture Hall",
+            "translation_native": "Auditorium/Lecture Hall",
+            "pronunciation": "mudarraj",
+            "examples": [
+                {
+                    "sentence": "تجمع مئات الطلاب في مُدَرَّج الجامعة لحضور حفل استقبال الطلاب الجدد لهذا العام",
+                    "translation_english": "Hundreds of students gathered in the university auditorium to attend the reception ceremony for new students this year.",
+                    "translation_native": "Hundreds of students gathered in the university auditorium to attend the reception ceremony for new students this year.",
+                    "sentence_parts": [
+                        "تجمع",
+                        "مئات",
+                        "الطلاب",
+                        "في",
+                        "مُدَرَّج",
+                        "الجامعة",
+                        "لحضور",
+                        "حفل",
+                        "استقبال",
+                        "الطلاب",
+                        "الجدد",
+                        "لهذا",
+                        "العام"
+                    ],
+                    "level": "hard"
+                }
+            ],
+            "options": [
+                "مُدَرَّج",
+                "مُخْتَبَر",
+                "مَكْتَبَة",
+                "مَعْرِض"
+            ],
+            "correct_answer": "مُدَرَّج"
+        },
+        {
+            "word": "مَكْتَبَة",
+            "translation_english": "Library",
+            "translation_native": "Library",
+            "pronunciation": "maktabah",
+            "examples": [
+                {
+                    "sentence": "تعد مَكْتَبَة الجامعة مكاناً مثالياً للدراسة الهادئة والبحث عن مصادر علمية ومراجع متنوعة",
+                    "translation_english": "The university library is an ideal place for quiet study and searching for scientific sources and diverse references.",
+                    "translation_native": "The university library is an ideal place for quiet study and searching for scientific sources and diverse references.",
+                    "sentence_parts": [
+                        "تعد",
+                        "مَكْتَبَة",
+                        "الجامعة",
+                        "مكاناً",
+                        "مثالياً",
+                        "للدراسة",
+                        "الهادئة",
+                        "والبحث",
+                        "عن",
+                        "مصادر",
+                        "علمية",
+                        "ومراجع",
+                        "متنوعة"
+                    ],
+                    "level": "hard"
+                }
+            ],
+            "options": [
+                "مَكْتَبَة",
+                "مُخْتَبَر",
+                "مُدَرَّج",
+                "مَعْرِض"
+            ],
+            "correct_answer": "مَكْتَبَة"
+        },
+        {
+            "word": "مَعْرِض",
+            "translation_english": "Exhibition",
+            "translation_native": "Exhibition",
+            "pronunciation": "ma'rid",
+            "examples": [
+                {
+                    "sentence": "نظم طلاب الفنون مَعْرِض إبداعي لعرض لوحاتهم ومنحوتاتهم الفنية أمام الجمهور وأولياء الأمور",
+                    "translation_english": "Art students organized a creative exhibition to display their paintings and sculptures before the public and parents.",
+                    "translation_native": "Art students organized a creative exhibition to display their paintings and sculptures before the public and parents.",
+                    "sentence_parts": [
+                        "نظم",
+                        "طلاب",
+                        "الفنون",
+                        "مَعْرِض",
+                        "إبداعي",
+                        "لعرض",
+                        "لوحاتهم",
+                        "ومنحوتاتهم",
+                        "الفنية",
+                        "أمام",
+                        "الجمهور",
+                        "وأولياء",
+                        "الأمور"
+                    ],
+                    "level": "hard"
+                }
+            ],
+            "options": [
+                "مَعْرِض",
+                "مُخْتَبَر",
+                "مُدَرَّج",
+                "مَكْتَبَة"
+            ],
+            "correct_answer": "مَعْرِض"
+        },
+        {
+            "word": "مُقَرَّر",
+            "translation_english": "Course/Syllabus",
+            "translation_native": "Course/Syllabus",
+            "pronunciation": "muqarrar",
+            "examples": [
+                {
+                    "sentence": "يغطي مُقَرَّر الأدب العربي الحديث أهم الكتاب والشعراء الذين أثروا في الثقافة المعاصرة",
+                    "translation_english": "The modern Arabic literature course covers the most important writers and poets who influenced contemporary culture.",
+                    "translation_native": "The modern Arabic literature course covers the most important writers and poets who influenced contemporary culture.",
+                    "sentence_parts": [
+                        "يغطي",
+                        "مُقَرَّر",
+                        "الأدب",
+                        "العربي",
+                        "الحديث",
+                        "أهم",
+                        "الكتاب",
+                        "والشعراء",
+                        "الذين",
+                        "أثروا",
+                        "في",
+                        "الثقافة",
+                        "المعاصرة"
+                    ],
+                    "level": "hard"
+                }
+            ],
+            "options": [
+                "مُقَرَّر",
+                "مُسْتَوَى",
+                "مُعَدَّل",
+                "مُؤَهِّل"
+            ],
+            "correct_answer": "مُقَرَّر"
+        },
+        {
+            "word": "مُسْتَوَى",
+            "translation_english": "Level",
+            "translation_native": "Level",
+            "pronunciation": "mustawa",
+            "examples": [
+                {
+                    "sentence": "يسعى الطلاب لتحسين مُسْتَوَى أدائهم الأكاديمي من خلال الالتزام بالحضور والمشاركة في النقاشات",
+                    "translation_english": "Students strive to improve their academic performance level by committing to attendance and participating in discussions.",
+                    "translation_native": "Students strive to improve their academic performance level by committing to attendance and participating in discussions.",
+                    "sentence_parts": [
+                        "يسعى",
+                        "الطلاب",
+                        "لتحسين",
+                        "مُسْتَوَى",
+                        "أدائهم",
+                        "الأكاديمي",
+                        "من",
+                        "خلال",
+                        "الالتزام",
+                        "بالحضور",
+                        "والمشاركة",
+                        "في",
+                        "النقاشات"
+                    ],
+                    "level": "hard"
+                }
+            ],
+            "options": [
+                "مُسْتَوَى",
+                "مُقَرَّر",
+                "مُعَدَّل",
+                "مُؤَهِّل"
+            ],
+            "correct_answer": "مُسْتَوَى"
+        },
+        {
+            "word": "مُعَدَّل",
+            "translation_english": "Average/GPA",
+            "translation_native": "Average/GPA",
+            "pronunciation": "mu'addal",
+            "examples": [
+                {
+                    "sentence": "حافظ الطالب على مُعَدَّل تراكمي مرتفع بفضل جهوده المستمرة في الدراسة والتحضير للاختبارات",
+                    "translation_english": "The student maintained a high cumulative GPA thanks to his continuous efforts in studying and preparing for exams.",
+                    "translation_native": "The student maintained a high cumulative GPA thanks to his continuous efforts in studying and preparing for exams.",
+                    "sentence_parts": [
+                        "حافظ",
+                        "الطالب",
+                        "على",
+                        "مُعَدَّل",
+                        "تراكمي",
+                        "مرتفع",
+                        "بفضل",
+                        "جهوده",
+                        "المستمرة",
+                        "في",
+                        "الدراسة",
+                        "والتحضير",
+                        "للاختبارات"
+                    ],
+                    "level": "hard"
+                }
+            ],
+            "options": [
+                "مُعَدَّل",
+                "مُقَرَّر",
+                "مُسْتَوَى",
+                "مُؤَهِّل"
+            ],
+            "correct_answer": "مُعَدَّل"
+        },
+        {
+            "word": "مُؤَهِّل",
+            "translation_english": "Qualification",
+            "translation_native": "Qualification",
+            "pronunciation": "mu'ahhil",
+            "examples": [
+                {
+                    "sentence": "تعتبر الشهادة الجامعية مُؤَهِّل أساسي للحصول على فرص عمل متميزة في سوق العمل التنافسي",
+                    "translation_english": "A university degree is considered a basic qualification to obtain excellent job opportunities in the competitive job market.",
+                    "translation_native": "A university degree is considered a basic qualification to obtain excellent job opportunities in the competitive job market.",
+                    "sentence_parts": [
+                        "تعتبر",
+                        "الشهادة",
+                        "الجامعية",
+                        "مُؤَهِّل",
+                        "أساسي",
+                        "للحصول",
+                        "على",
+                        "فرص",
+                        "عمل",
+                        "متميزة",
+                        "في",
+                        "سوق",
+                        "العمل",
+                        "التنافسي"
+                    ],
+                    "level": "hard"
+                }
+            ],
+            "options": [
+                "مُؤَهِّل",
+                "مُقَرَّر",
+                "مُسْتَوَى",
+                "مُعَدَّل"
+            ],
+            "correct_answer": "مُؤَهِّل"
+        },
+        {
+            "word": "مُتَفَوِّق",
+            "translation_english": "Outstanding/Excellent",
+            "translation_native": "Outstanding/Excellent",
+            "pronunciation": "mutafawwiq",
+            "examples": [
+                {
+                    "sentence": "كرمت المدرسة الطالب مُتَفَوِّق في نهاية العام الدراسي تقديراً لإنجازاته الأكاديمية والرياضية الملحوظة",
+                    "translation_english": "The school honored the outstanding student at the end of the school year in recognition of his notable academic and sports achievements.",
+                    "translation_native": "The school honored the outstanding student at the end of the school year in recognition of his notable academic and sports achievements.",
+                    "sentence_parts": [
+                        "كرمت",
+                        "المدرسة",
+                        "الطالب",
+                        "مُتَفَوِّق",
+                        "في",
+                        "نهاية",
+                        "العام",
+                        "الدراسي",
+                        "تقديراً",
+                        "لإنجازاته",
+                        "الأكاديمية",
+                        "والرياضية",
+                        "الملحوظة"
+                    ],
+                    "level": "hard"
+                }
+            ],
+            "options": [
+                "مُتَفَوِّق",
+                "مُجْتَهِد",
+                "مُتَعَاوِن",
+                "مُبْتَكِر"
+            ],
+            "correct_answer": "مُتَفَوِّق"
+        },
+        {
+            "word": "مُجْتَهِد",
+            "translation_english": "Hardworking/Diligent",
+            "translation_native": "Hardworking/Diligent",
+            "pronunciation": "mujtahid",
+            "examples": [
+                {
+                    "sentence": "يُعرف الطالب مُجْتَهِد بانضباطه الشديد في أداء الواجبات المدرسية وحرصه على الحضور المبكر",
+                    "translation_english": "The diligent student is known for his strict discipline in performing school assignments and his keenness on early attendance.",
+                    "translation_native": "The diligent student is known for his strict discipline in performing school assignments and his keenness on early attendance.",
+                    "sentence_parts": [
+                        "يُعرف",
+                        "الطالب",
+                        "مُجْتَهِد",
+                        "بانضباطه",
+                        "الشديد",
+                        "في",
+                        "أداء",
+                        "الواجبات",
+                        "المدرسية",
+                        "وحرصه",
+                        "على",
+                        "الحضور",
+                        "المبكر"
+                    ],
+                    "level": "hard"
+                }
+            ],
+            "options": [
+                "مُجْتَهِد",
+                "مُتَفَوِّق",
+                "مُتَعَاوِن",
+                "مُبْتَكِر"
+            ],
+            "correct_answer": "مُجْتَهِد"
+        },
+        {
+            "word": "مُتَعَاوِن",
+            "translation_english": "Cooperative",
+            "translation_native": "Cooperative",
+            "pronunciation": "muta'awin",
+            "examples": [
+                {
+                    "sentence": "كان الفريق مُتَعَاوِن جداً في إنجاز المشروع الجماعي قبل الموعد النهائي المحدد من المعلم",
+                    "translation_english": "The team was very cooperative in completing the group project before the deadline set by the teacher.",
+                    "translation_native": "The team was very cooperative in completing the group project before the deadline set by the teacher.",
+                    "sentence_parts": [
+                        "كان",
+                        "الفريق",
+                        "مُتَعَاوِن",
+                        "جداً",
+                        "في",
+                        "إنجاز",
+                        "المشروع",
+                        "الجماعي",
+                        "قبل",
+                        "الموعد",
+                        "النهائي",
+                        "المحدد",
+                        "من",
+                        "المعلم"
+                    ],
+                    "level": "hard"
+                }
+            ],
+            "options": [
+                "مُتَعَاوِن",
+                "مُتَفَوِّق",
+                "مُجْتَهِد",
+                "مُبْتَكِر"
+            ],
+            "correct_answer": "مُتَعَاوِن"
+        },
+        {
+            "word": "مُبْتَكِر",
+            "translation_english": "Innovative",
+            "translation_native": "Innovative",
+            "pronunciation": "mubtakir",
+            "examples": [
+                {
+                    "sentence": "قدم الطالب حلاً مُبْتَكِر لمشكلة نقص المياه في مدرسته باستخدام تقنيات إعادة تدوير بسيطة",
+                    "translation_english": "The student presented an innovative solution to the water shortage problem in his school using simple recycling techniques.",
+                    "translation_native": "The student presented an innovative solution to the water shortage problem in his school using simple recycling techniques.",
+                    "sentence_parts": [
+                        "قدم",
+                        "الطالب",
+                        "حلاً",
+                        "مُبْتَكِر",
+                        "لمشكلة",
+                        "نقص",
+                        "المياه",
+                        "في",
+                        "مدرسته",
+                        "باستخدام",
+                        "تقنيات",
+                        "إعادة",
+                        "تدوير",
+                        "بسيطة"
+                    ],
+                    "level": "hard"
+                }
+            ],
+            "options": [
+                "مُبْتَكِر",
+                "مُتَفَوِّق",
+                "مُجْتَهِد",
+                "مُتَعَاوِن"
+            ],
+            "correct_answer": "مُبْتَكِر"
+        },
+        {
+            "word": "مُعَقَّد",
+            "translation_english": "Complex",
+            "translation_native": "Complex",
+            "pronunciation": "mu'aqqad",
+            "examples": [
+                {
+                    "sentence": "يحتوي الكتاب على شرح مُعَقَّد للنظريات العلمية التي يصعب على المبتدئين فهمها بسهولة",
+                    "translation_english": "The book contains a complex explanation of scientific theories that are difficult for beginners to understand easily.",
+                    "translation_native": "The book contains a complex explanation of scientific theories that are difficult for beginners to understand easily.",
+                    "sentence_parts": [
+                        "يحتوي",
+                        "الكتاب",
+                        "على",
+                        "شرح",
+                        "مُعَقَّد",
+                        "للنظريات",
+                        "العلمية",
+                        "التي",
+                        "يصعب",
+                        "على",
+                        "المبتدئين",
+                        "فهمها",
+                        "بسهولة"
+                    ],
+                    "level": "hard"
+                }
+            ],
+            "options": [
+                "مُعَقَّد",
+                "مُبَسَّط",
+                "مُحَدَّد",
+                "مُتَجَدِّد"
+            ],
+            "correct_answer": "مُعَقَّد"
+        },
+        {
+            "word": "مُبَسَّط",
+            "translation_english": "Simplified",
+            "translation_native": "Simplified",
+            "pronunciation": "mubassat",
+            "examples": [
+                {
+                    "sentence": "وفر المعلم ملخصاً مُبَسَّط للمادة الدراسية لمساعدة الطلاب على مراجعة الدروس قبل الاختبارات",
+                    "translation_english": "The teacher provided a simplified summary of the course material to help students review lessons before exams.",
+                    "translation_native": "The teacher provided a simplified summary of the course material to help students review lessons before exams.",
+                    "sentence_parts": [
+                        "وفر",
+                        "المعلم",
+                        "ملخصاً",
+                        "مُبَسَّط",
+                        "للمادة",
+                        "الدراسية",
+                        "لمساعدة",
+                        "الطلاب",
+                        "على",
+                        "مراجعة",
+                        "الدروس",
+                        "قبل",
+                        "الاختبارات"
+                    ],
+                    "level": "hard"
+                }
+            ],
+            "options": [
+                "مُبَسَّط",
+                "مُعَقَّد",
+                "مُحَدَّد",
+                "مُتَجَدِّد"
+            ],
+            "correct_answer": "مُبَسَّط"
+        },
+        {
+            "word": "مُحَدَّد",
+            "translation_english": "Specific/Defined",
+            "translation_native": "Specific/Defined",
+            "pronunciation": "muhaddad",
+            "examples": [
+                {
+                    "sentence": "يجب على كل طالب اختيار موضوع مُحَدَّد لبحث التخرج والالتزام به طوال الفصل الدراسي",
+                    "translation_english": "Every student must choose a specific topic for the graduation research and commit to it throughout the semester.",
+                    "translation_native": "Every student must choose a specific topic for the graduation research and commit to it throughout the semester.",
+                    "sentence_parts": [
+                        "يجب",
+                        "على",
+                        "كل",
+                        "طالب",
+                        "اختيار",
+                        "موضوع",
+                        "مُحَدَّد",
+                        "لبحث",
+                        "التخرج",
+                        "والالتزام",
+                        "به",
+                        "طوال",
+                        "الفصل",
+                        "الدراسي"
+                    ],
+                    "level": "hard"
+                }
+            ],
+            "options": [
+                "مُحَدَّد",
+                "مُعَقَّد",
+                "مُبَسَّط",
+                "مُتَجَدِّد"
+            ],
+            "correct_answer": "مُحَدَّد"
+        },
+        {
+            "word": "مُتَجَدِّد",
+            "translation_english": "Renewable",
+            "translation_native": "Renewable",
+            "pronunciation": "mutajaddid",
+            "examples": [
+                {
+                    "sentence": "ناقشنا في مادة العلوم أهمية مصادر الطاقة مُتَجَدِّد مثل الشمس والرياح للحفاظ على البيئة",
+                    "translation_english": "We discussed in science the importance of renewable energy sources like the sun and wind to preserve the environment.",
+                    "translation_native": "We discussed in science the importance of renewable energy sources like the sun and wind to preserve the environment.",
+                    "sentence_parts": [
+                        "ناقشنا",
+                        "في",
+                        "مادة",
+                        "العلوم",
+                        "أهمية",
+                        "مصادر",
+                        "الطاقة",
+                        "مُتَجَدِّد",
+                        "مثل",
+                        "الشمس",
+                        "والرياح",
+                        "للحفاظ",
+                        "على",
+                        "البيئة"
+                    ],
+                    "level": "hard"
+                }
+            ],
+            "options": [
+                "مُتَجَدِّد",
+                "مُعَقَّد",
+                "مُبَسَّط",
+                "مُحَدَّد"
+            ],
+            "correct_answer": "مُتَجَدِّد"
+        },
+        {
+            "word": "مُعْتَمَد",
+            "translation_english": "Accredited/Approved",
+            "translation_native": "Accredited/Approved",
+            "pronunciation": "mu'tamad",
+            "examples": [
+                {
+                    "sentence": "تمنح الجامعة شهادات مُعْتَمَد دولياً لجميع خريجيها في مختلف التخصصات العلمية والأدبية والتقنية",
+                    "translation_english": "The university grants internationally accredited certificates to all its graduates in various scientific, literary, and technical majors.",
+                    "translation_native": "The university grants internationally accredited certificates to all its graduates in various scientific, literary, and technical majors.",
+                    "sentence_parts": [
+                        "تمنح",
+                        "الجامعة",
+                        "شهادات",
+                        "مُعْتَمَد",
+                        "دولياً",
+                        "لجميع",
+                        "خريجيها",
+                        "في",
+                        "مختلف",
+                        "التخصصات",
+                        "العلمية",
+                        "والأدبية",
+                        "والتقنية"
+                    ],
+                    "level": "hard"
+                }
+            ],
+            "options": [
+                "مُعْتَمَد",
+                "مُعَدَّل",
+                "مُقَدَّر",
+                "مُجَدَّد"
+            ],
+            "correct_answer": "مُعْتَمَد"
+        },
+        {
+            "word": "مُقَدَّر",
+            "translation_english": "Appreciated/Estimated",
+            "translation_native": "Appreciated/Estimated",
+            "pronunciation": "muqaddar",
+            "examples": [
+                {
+                    "sentence": "كان الجهد الذي بذله الطلاب في المشروع مُقَدَّر من قبل لجنة التحكيم والأساتذة",
+                    "translation_english": "The effort the students put into the project was appreciated by the jury and the professors.",
+                    "translation_native": "The effort the students put into the project was appreciated by the jury and the professors.",
+                    "sentence_parts": [
+                        "كان",
+                        "الجهد",
+                        "الذي",
+                        "بذله",
+                        "الطلاب",
+                        "في",
+                        "المشروع",
+                        "مُقَدَّر",
+                        "من",
+                        "قبل",
+                        "لجنة",
+                        "التحكيم",
+                        "والأساتذة"
+                    ],
+                    "level": "hard"
+                }
+            ],
+            "options": [
+                "مُقَدَّر",
+                "مُعْتَمَد",
+                "مُعَدَّل",
+                "مُجَدَّد"
+            ],
+            "correct_answer": "مُقَدَّر"
+        },
+        {
+            "word": "مُجَدَّد",
+            "translation_english": "Renewed/Renovated",
+            "translation_native": "Renewed/Renovated",
+            "pronunciation": "mujaddad",
+            "examples": [
+                {
+                    "sentence": "تم افتتاح مبنى المكتبة بعد أن أصبح مُجَدَّد بالكامل بأحدث الأجهزة والتقنيات التعليمية",
+                    "translation_english": "The library building was opened after it became fully renovated with the latest educational devices and technologies.",
+                    "translation_native": "The library building was opened after it became fully renovated with the latest educational devices and technologies.",
+                    "sentence_parts": [
+                        "تم",
+                        "افتتاح",
+                        "مبنى",
+                        "المكتبة",
+                        "بعد",
+                        "أن",
+                        "أصبح",
+                        "مُجَدَّد",
+                        "بالكامل",
+                        "بأحدث",
+                        "الأجهزة",
+                        "والتقنيات",
+                        "التعليمية"
+                    ],
+                    "level": "hard"
+                }
+            ],
+            "options": [
+                "مُجَدَّد",
+                "مُعْتَمَد",
+                "مُعَدَّل",
+                "مُقَدَّر"
+            ],
+            "correct_answer": "مُجَدَّد"
+        },
+        {
+            "word": "مُتَطَوِّر",
+            "translation_english": "Advanced/Developed",
+            "translation_native": "Advanced/Developed",
+            "pronunciation": "mutatawwir",
+            "examples": [
+                {
+                    "sentence": "تستخدم المدرسة نظاماً تعليمياً مُتَطَوِّر يعتمد على التفاعل الرقمي والتعلم الذاتي للطلاب",
+                    "translation_english": "The school uses an advanced educational system that relies on digital interaction and self-learning for students.",
+                    "translation_native": "The school uses an advanced educational system that relies on digital interaction and self-learning for students.",
+                    "sentence_parts": [
+                        "تستخدم",
+                        "المدرسة",
+                        "نظاماً",
+                        "تعليمياً",
+                        "مُتَطَوِّر",
+                        "يعتمد",
+                        "على",
+                        "التفاعل",
+                        "الرقمي",
+                        "والتعلم",
+                        "الذاتي",
+                        "للطلاب"
+                    ],
+                    "level": "hard"
+                }
+            ],
+            "options": [
+                "مُتَطَوِّر",
+                "مُتَأَخِّر",
+                "مُتَوَازِن",
+                "مُتَعَدِّد"
+            ],
+            "correct_answer": "مُتَطَوِّر"
+        },
+        {
+            "word": "مُتَأَخِّر",
+            "translation_english": "Late/Delayed",
+            "translation_native": "Late/Delayed",
+            "pronunciation": "muta'akhkhir",
+            "examples": [
+                {
+                    "sentence": "يُمنع دخول الطلاب إلى القاعة في حال وصولهم مُتَأَخِّر عن موعد بدء المحاضرة الرسمية",
+                    "translation_english": "Students are prohibited from entering the hall if they arrive late for the official start time of the lecture.",
+                    "translation_native": "Students are prohibited from entering the hall if they arrive late for the official start time of the lecture.",
+                    "sentence_parts": [
+                        "يُمنع",
+                        "دخول",
+                        "الطلاب",
+                        "إلى",
+                        "القاعة",
+                        "في",
+                        "حال",
+                        "وصولهم",
+                        "مُتَأَخِّر",
+                        "عن",
+                        "موعد",
+                        "بدء",
+                        "المحاضرة",
+                        "الرسمية"
+                    ],
+                    "level": "hard"
+                }
+            ],
+            "options": [
+                "مُتَأَخِّر",
+                "مُتَطَوِّر",
+                "مُتَوَازِن",
+                "مُتَعَدِّد"
+            ],
+            "correct_answer": "مُتَأَخِّر"
+        },
+        {
+            "word": "مُتَوَازِن",
+            "translation_english": "Balanced",
+            "translation_native": "Balanced",
+            "pronunciation": "mutawazin",
+            "examples": [
+                {
+                    "sentence": "يجب على الطالب الحفاظ على جدول دراسي مُتَوَازِن يجمع بين المذاكرة والأنشطة الترفيهية والرياضية",
+                    "translation_english": "The student must maintain a balanced study schedule that combines studying with recreational and sports activities.",
+                    "translation_native": "The student must maintain a balanced study schedule that combines studying with recreational and sports activities.",
+                    "sentence_parts": [
+                        "يجب",
+                        "على",
+                        "الطالب",
+                        "الحفاظ",
+                        "على",
+                        "جدول",
+                        "دراسي",
+                        "مُتَوَازِن",
+                        "يجمع",
+                        "بين",
+                        "المذاكرة",
+                        "والأنشطة",
+                        "الترفيهية",
+                        "والرياضية"
+                    ],
+                    "level": "hard"
+                }
+            ],
+            "options": [
+                "مُتَوَازِن",
+                "مُتَطَوِّر",
+                "مُتَأَخِّر",
+                "مُتَعَدِّد"
+            ],
+            "correct_answer": "مُتَوَازِن"
+        },
+        {
+            "word": "مُتَعَدِّد",
+            "translation_english": "Multiple/Diverse",
+            "translation_native": "Multiple/Diverse",
+            "pronunciation": "muta'addid",
+            "examples": [
+                {
+                    "sentence": "يوفر المختبر العلمي أجهزة قياس مُتَعَدِّد لمساعدة الطلاب في إجراء تجارب الفيزياء والبيولوجيا",
+                    "translation_english": "The science lab provides multiple measuring devices to help students conduct physics and biology experiments.",
+                    "translation_native": "The science lab provides multiple measuring devices to help students conduct physics and biology experiments.",
+                    "sentence_parts": [
+                        "يوفر",
+                        "المختبر",
+                        "العلمي",
+                        "أجهزة",
+                        "قياس",
+                        "مُتَعَدِّد",
+                        "لمساعدة",
+                        "الطلاب",
+                        "في",
+                        "إجراء",
+                        "تجارب",
+                        "الفيزياء",
+                        "والبيولوجيا"
+                    ],
+                    "level": "hard"
+                }
+            ],
+            "options": [
+                "مُتَعَدِّد",
+                "مُتَطَوِّر",
+                "مُتَأَخِّر",
+                "مُتَوَازِن"
+            ],
+            "correct_answer": "مُتَعَدِّد"
+        },
+        {
+            "word": "مُحَفِّز",
+            "translation_english": "Stimulating/Motivating",
+            "translation_native": "Stimulating/Motivating",
+            "pronunciation": "muhaffiz",
+            "examples": [
+                {
+                    "sentence": "يعد بيئة الفصل الدراسي مُحَفِّز للإبداع عندما يشجع المعلم الطلاب على طرح الأسئلة",
+                    "translation_english": "The classroom environment is stimulating for creativity when the teacher encourages students to ask questions.",
+                    "translation_native": "The classroom environment is stimulating for creativity when the teacher encourages students to ask questions.",
+                    "sentence_parts": [
+                        "يعد",
+                        "بيئة",
+                        "الفصل",
+                        "الدراسي",
+                        "مُحَفِّز",
+                        "للإبداع",
+                        "عندما",
+                        "يشجع",
+                        "المعلم",
+                        "الطلاب",
+                        "على",
+                        "طرح",
+                        "الأسئلة"
+                    ],
+                    "level": "hard"
+                }
+            ],
+            "options": [
+                "مُحَفِّز",
+                "مُعَطِّل",
+                "مُحَايِد",
+                "مُسَاعِد"
+            ],
+            "correct_answer": "مُحَفِّز"
+        },
+        {
+            "word": "مُعَطِّل",
+            "translation_english": "Disruptive/Blocking",
+            "translation_native": "Disruptive/Blocking",
+            "pronunciation": "mu'attil",
+            "examples": [
+                {
+                    "sentence": "يعتبر استخدام الهواتف الذكية أثناء الشرح سلوكاً مُعَطِّل لتركيز الطلاب في الفصل الدراسي",
+                    "translation_english": "Using smartphones during the explanation is considered a disruptive behavior for students' focus in the classroom.",
+                    "translation_native": "Using smartphones during the explanation is considered a disruptive behavior for students' focus in the classroom.",
+                    "sentence_parts": [
+                        "يعتبر",
+                        "استخدام",
+                        "الهواتف",
+                        "الذكية",
+                        "أثناء",
+                        "الشرح",
+                        "سلوكاً",
+                        "مُعَطِّل",
+                        "لتركيز",
+                        "الطلاب",
+                        "في",
+                        "الفصل",
+                        "الدراسي"
+                    ],
+                    "level": "hard"
+                }
+            ],
+            "options": [
+                "مُعَطِّل",
+                "مُحَفِّز",
+                "مُحَايِد",
+                "مُسَاعِد"
+            ],
+            "correct_answer": "مُعَطِّل"
+        },
+        {
+            "word": "مُحَايِد",
+            "translation_english": "Neutral",
+            "translation_native": "Neutral",
+            "pronunciation": "muhayid",
+            "examples": [
+                {
+                    "sentence": "يجب على الباحث العلمي الحفاظ على موقف مُحَايِد عند تحليل البيانات لضمان دقة النتائج",
+                    "translation_english": "The scientific researcher must maintain a neutral stance when analyzing data to ensure the accuracy of results.",
+                    "translation_native": "The scientific researcher must maintain a neutral stance when analyzing data to ensure the accuracy of results.",
+                    "sentence_parts": [
+                        "يجب",
+                        "على",
+                        "الباحث",
+                        "العلمي",
+                        "الحفاظ",
+                        "على",
+                        "موقف",
+                        "مُحَايِد",
+                        "عند",
+                        "تحليل",
+                        "البيانات",
+                        "لضمان",
+                        "دقة",
+                        "النتائج"
+                    ],
+                    "level": "hard"
+                }
+            ],
+            "options": [
+                "مُحَايِد",
+                "مُحَفِّز",
+                "مُعَطِّل",
+                "مُسَاعِد"
+            ],
+            "correct_answer": "مُحَايِد"
+        },
+        {
+            "word": "مُسَاعِد",
+            "translation_english": "Assistant/Helpful",
+            "translation_native": "Assistant/Helpful",
+            "pronunciation": "musa'id",
+            "examples": [
+                {
+                    "sentence": "يعمل الطالب مُسَاعِد للمختبر في مساعدة المعلمين على إعداد التجارب العلمية قبل بدء الحصص",
+                    "translation_english": "The student works as a lab assistant in helping teachers prepare scientific experiments before classes start.",
+                    "translation_native": "The student works as a lab assistant in helping teachers prepare scientific experiments before classes start.",
+                    "sentence_parts": [
+                        "يعمل",
+                        "الطالب",
+                        "مُسَاعِد",
+                        "للمختبر",
+                        "في",
+                        "مساعدة",
+                        "المعلمين",
+                        "على",
+                        "إعداد",
+                        "التجارب",
+                        "العلمية",
+                        "قبل",
+                        "بدء",
+                        "الحصص"
+                    ],
+                    "level": "hard"
+                }
+            ],
+            "options": [
+                "مُسَاعِد",
+                "مُحَفِّز",
+                "مُعَطِّل",
+                "مُحَايِد"
+            ],
+            "correct_answer": "مُسَاعِد"
+        },
+        {
+            "word": "مُتَضَمِّن",
+            "translation_english": "Containing/Including",
+            "translation_native": "Containing/Including",
+            "pronunciation": "mutadammin",
+            "examples": [
+                {
+                    "sentence": "قدم الطالب تقريراً مُتَضَمِّن كافة المراجع العلمية التي استخدمها في بحثه الدراسي الأخير",
+                    "translation_english": "The student presented a report including all the scientific references he used in his last academic research.",
+                    "translation_native": "The student presented a report including all the scientific references he used in his last academic research.",
+                    "sentence_parts": [
+                        "قدم",
+                        "الطالب",
+                        "تقريراً",
+                        "مُتَضَمِّن",
+                        "كافة",
+                        "المراجع",
+                        "العلمية",
+                        "التي",
+                        "استخدمها",
+                        "في",
+                        "بحثه",
+                        "الدراسي",
+                        "الأخير"
+                    ],
+                    "level": "hard"
+                }
+            ],
+            "options": [
+                "مُتَضَمِّن",
+                "مُسْتَقِل",
+                "مُتَفَرِّد",
+                "مُتَمَايِز"
+            ],
+            "correct_answer": "مُتَضَمِّن"
+        },
+        {
+            "word": "مُسْتَقِل",
+            "translation_english": "Independent",
+            "translation_native": "Independent",
+            "pronunciation": "mustaqill",
+            "examples": [
+                {
+                    "sentence": "يشجع المعلم الطلاب على إجراء بحث مُسْتَقِل لتطوير مهاراتهم في التفكير والبحث العلمي",
+                    "translation_english": "The teacher encourages students to conduct independent research to develop their skills in thinking and scientific research.",
+                    "translation_native": "The teacher encourages students to conduct independent research to develop their skills in thinking and scientific research.",
+                    "sentence_parts": [
+                        "يشجع",
+                        "المعلم",
+                        "الطلاب",
+                        "على",
+                        "إجراء",
+                        "بحث",
+                        "مُسْتَقِل",
+                        "لتطوير",
+                        "مهاراتهم",
+                        "في",
+                        "التفكير",
+                        "والبحث",
+                        "العلمي"
+                    ],
+                    "level": "hard"
+                }
+            ],
+            "options": [
+                "مُسْتَقِل",
+                "مُتَضَمِّن",
+                "مُتَفَرِّد",
+                "مُتَمَايِز"
+            ],
+            "correct_answer": "مُسْتَقِل"
+        },
+        {
+            "word": "مُتَفَرِّد",
+            "translation_english": "Unique",
+            "translation_native": "Unique",
+            "pronunciation": "mutafarrid",
+            "examples": [
+                {
+                    "sentence": "أظهر الطالب أسلوباً مُتَفَرِّد في حل المسائل الرياضية مما أثار إعجاب جميع الأساتذة",
+                    "translation_english": "The student showed a unique style in solving mathematical problems which impressed all the professors.",
+                    "translation_native": "The student showed a unique style in solving mathematical problems which impressed all the professors.",
+                    "sentence_parts": [
+                        "أظهر",
+                        "الطالب",
+                        "أسلوباً",
+                        "مُتَفَرِّد",
+                        "في",
+                        "حل",
+                        "المسائل",
+                        "الرياضية",
+                        "مما",
+                        "أثار",
+                        "إعجاب",
+                        "جميع",
+                        "الأساتذة"
+                    ],
+                    "level": "hard"
+                }
+            ],
+            "options": [
+                "مُتَفَرِّد",
+                "مُتَضَمِّن",
+                "مُسْتَقِل",
+                "مُتَمَايِز"
+            ],
+            "correct_answer": "مُتَفَرِّد"
+        },
+        {
+            "word": "مُتَمَايِز",
+            "translation_english": "Distinct/Differentiated",
+            "translation_native": "Distinct/Differentiated",
+            "pronunciation": "mutamayiz",
+            "examples": [
+                {
+                    "sentence": "يستخدم المعلم أساليب تدريس مُتَمَايِز لتلبية احتياجات الطلاب المختلفة في الفصل الدراسي الواحد",
+                    "translation_english": "The teacher uses differentiated teaching methods to meet the different needs of students in one classroom.",
+                    "translation_native": "The teacher uses differentiated teaching methods to meet the different needs of students in one classroom.",
+                    "sentence_parts": [
+                        "يستخدم",
+                        "المعلم",
+                        "أساليب",
+                        "تدريس",
+                        "مُتَمَايِز",
+                        "لتلبية",
+                        "احتياجات",
+                        "الطلاب",
+                        "المختلفة",
+                        "في",
+                        "الفصل",
+                        "الدراسي",
+                        "الواحد"
+                    ],
+                    "level": "hard"
+                }
+            ],
+            "options": [
+                "مُتَمَايِز",
+                "مُتَضَمِّن",
+                "مُسْتَقِل",
+                "مُتَفَرِّد"
+            ],
+            "correct_answer": "مُتَمَايِز"
+        },
+        {
+            "word": "مُتَطَلِّب",
+            "translation_english": "Demanding/Requirement",
+            "translation_native": "Demanding/Requirement",
+            "pronunciation": "mutatallib",
+            "examples": [
+                {
+                    "sentence": "يعد تخصص الطب مجالاً مُتَطَوِّر ومُتَطَلِّب جداً من حيث الجهد والوقت والتركيز الأكاديمي",
+                    "translation_english": "Medicine is an advanced and very demanding field in terms of effort, time, and academic focus.",
+                    "translation_native": "Medicine is an advanced and very demanding field in terms of effort, time, and academic focus.",
+                    "sentence_parts": [
+                        "يعد",
+                        "تخصص",
+                        "الطب",
+                        "مجالاً",
+                        "مُتَطَوِّر",
+                        "ومُتَطَلِّب",
+                        "جداً",
+                        "من",
+                        "حيث",
+                        "الجهد",
+                        "والوقت",
+                        "والتركيز",
+                        "الأكاديمي"
+                    ],
+                    "level": "hard"
+                }
+            ],
+            "options": [
+                "مُتَطَلِّب",
+                "مُتَوَقَّع",
+                "مُتَحَقِّق",
+                "مُتَعَاقِب"
+            ],
+            "correct_answer": "مُتَطَلِّب"
+        },
+        {
+            "word": "مُتَوَقَّع",
+            "translation_english": "Expected",
+            "translation_native": "Expected",
+            "pronunciation": "mutawaqqa'",
+            "examples": [
+                {
+                    "sentence": "كانت نتائج الاختبارات ضمن النطاق مُتَوَقَّع بناءً على أداء الطلاب خلال الفصل الدراسي",
+                    "translation_english": "The exam results were within the expected range based on the students' performance during the semester.",
+                    "translation_native": "The exam results were within the expected range based on the students' performance during the semester.",
+                    "sentence_parts": [
+                        "كانت",
+                        "نتائج",
+                        "الاختبارات",
+                        "ضمن",
+                        "النطاق",
+                        "مُتَوَقَّع",
+                        "بناءً",
+                        "على",
+                        "أداء",
+                        "الطلاب",
+                        "خلال",
+                        "الفصل",
+                        "الدراسي"
+                    ],
+                    "level": "hard"
+                }
+            ],
+            "options": [
+                "مُتَوَقَّع",
+                "مُتَطَلِّب",
+                "مُتَحَقِّق",
+                "مُتَعَاقِب"
+            ],
+            "correct_answer": "مُتَوَقَّع"
+        },
+        {
+            "word": "مُتَحَقِّق",
+            "translation_english": "Realized/Verified",
+            "translation_native": "Realized/Verified",
+            "pronunciation": "muta'haqiq",
+            "examples": [
+                {
+                    "sentence": "أصبح النجاح الأكاديمي مُتَحَقِّق بفضل التخطيط الجيد والالتزام بالجدول الدراسي طوال العام",
+                    "translation_english": "Academic success became realized thanks to good planning and commitment to the study schedule all year.",
+                    "translation_native": "Academic success became realized thanks to good planning and commitment to the study schedule all year.",
+                    "sentence_parts": [
+                        "أصبح",
+                        "النجاح",
+                        "الأكاديمي",
+                        "مُتَحَقِّق",
+                        "بفضل",
+                        "التخطيط",
+                        "الجيد",
+                        "والالتزام",
+                        "بالجدول",
+                        "الدراسي",
+                        "طوال",
+                        "العام"
+                    ],
+                    "level": "hard"
+                }
+            ],
+            "options": [
+                "مُتَحَقِّق",
+                "مُتَطَلِّب",
+                "مُتَوَقَّع",
+                "مُتَعَاقِب"
+            ],
+            "correct_answer": "مُتَحَقِّق"
+        },
+        {
+            "word": "مُتَعَاقِب",
+            "translation_english": "Consecutive/Sequential",
+            "translation_native": "Consecutive/Sequential",
+            "pronunciation": "muta'aqib",
+            "examples": [
+                {
+                    "sentence": "حقق فريق المدرسة الفوز في ثلاث مباريات مُتَعَاقِب ضمن بطولة كرة القدم الوطنية",
+                    "translation_english": "The school team achieved victory in three consecutive matches within the national football championship.",
+                    "translation_native": "The school team achieved victory in three consecutive matches within the national football championship.",
+                    "sentence_parts": [
+                        "حقق",
+                        "فريق",
+                        "المدرسة",
+                        "الفوز",
+                        "في",
+                        "ثلاث",
+                        "مباريات",
+                        "مُتَعَاقِب",
+                        "ضمن",
+                        "بطولة",
+                        "كرة",
+                        "القدم",
+                        "الوطنية"
+                    ],
+                    "level": "hard"
+                }
+            ],
+            "options": [
+                "مُتَعَاقِب",
+                "مُتَطَلِّب",
+                "مُتَوَقَّع",
+                "مُتَحَقِّق"
+            ],
+            "correct_answer": "مُتَعَاقِب"
+        },
+        {
+            "word": "مُتَأَمِّل",
+            "translation_english": "Contemplative/Thoughtful",
+            "translation_native": "Contemplative/Thoughtful",
+            "pronunciation": "muta'ammil",
+            "examples": [
+                {
+                    "sentence": "جلس الطالب مُتَأَمِّل في نتائج بحثه قبل كتابة الخاتمة النهائية للمقال العلمي",
+                    "translation_english": "The student sat contemplative of his research results before writing the final conclusion of the scientific article.",
+                    "translation_native": "The student sat contemplative of his research results before writing the final conclusion of the scientific article.",
+                    "sentence_parts": [
+                        "جلس",
+                        "الطالب",
+                        "مُتَأَمِّل",
+                        "في",
+                        "نتائج",
+                        "بحثه",
+                        "قبل",
+                        "كتابة",
+                        "الخاتمة",
+                        "النهائية",
+                        "للمقال",
+                        "العلمي"
+                    ],
+                    "level": "hard"
+                }
+            ],
+            "options": [
+                "مُتَأَمِّل",
+                "مُتَذَمِّر",
+                "مُتَحَمِّس",
+                "مُتَرَدِّد"
+            ],
+            "correct_answer": "مُتَأَمِّل"
+        },
+        {
+            "word": "مُتَذَمِّر",
+            "translation_english": "Complaining/Dissatisfied",
+            "translation_native": "Complaining/Dissatisfied",
+            "pronunciation": "mutadhammir",
+            "examples": [
+                {
+                    "sentence": "كان الطالب مُتَذَمِّر من كثرة الواجبات المدرسية التي تتطلب وقتاً طويلاً لإنجازها",
+                    "translation_english": "The student was complaining about the amount of school assignments that require a long time to complete.",
+                    "translation_native": "The student was complaining about the amount of school assignments that require a long time to complete.",
+                    "sentence_parts": [
+                        "كان",
+                        "الطالب",
+                        "مُتَذَمِّر",
+                        "من",
+                        "كثرة",
+                        "الواجبات",
+                        "المدرسية",
+                        "التي",
+                        "تتطلب",
+                        "وقتاً",
+                        "طويلاً",
+                        "لإنجازها"
+                    ],
+                    "level": "hard"
+                }
+            ],
+            "options": [
+                "مُتَذَمِّر",
+                "مُتَأَمِّل",
+                "مُتَحَمِّس",
+                "مُتَرَدِّد"
+            ],
+            "correct_answer": "مُتَذَمِّر"
+        },
+        {
+            "word": "مُتَحَمِّس",
+            "translation_english": "Enthusiastic",
+            "translation_native": "Enthusiastic",
+            "pronunciation": "mutahammis",
+            "examples": [
+                {
+                    "sentence": "كان الطلاب مُتَحَمِّس للمشاركة في الرحلة الميدانية إلى المتحف الوطني للعلوم والتكنولوجيا",
+                    "translation_english": "The students were enthusiastic to participate in the field trip to the National Museum of Science and Technology.",
+                    "translation_native": "The students were enthusiastic to participate in the field trip to the National Museum of Science and Technology.",
+                    "sentence_parts": [
+                        "كان",
+                        "الطلاب",
+                        "مُتَحَمِّس",
+                        "للمشاركة",
+                        "في",
+                        "الرحلة",
+                        "الميدانية",
+                        "إلى",
+                        "المتحف",
+                        "الوطني",
+                        "للعلوم",
+                        "والتكنولوجيا"
+                    ],
+                    "level": "hard"
+                }
+            ],
+            "options": [
+                "مُتَحَمِّس",
+                "مُتَأَمِّل",
+                "مُتَذَمِّر",
+                "مُتَرَدِّد"
+            ],
+            "correct_answer": "مُتَحَمِّس"
+        },
+        {
+            "word": "مُتَرَدِّد",
+            "translation_english": "Hesitant",
+            "translation_native": "Hesitant",
+            "pronunciation": "mutaraddid",
+            "examples": [
+                {
+                    "sentence": "بقي الطالب مُتَرَدِّد في اختيار التخصص الجامعي حتى اللحظة الأخيرة قبل التقديم الرسمي",
+                    "translation_english": "The student remained hesitant in choosing the university major until the last moment before the official application.",
+                    "translation_native": "The student remained hesitant in choosing the university major until the last moment before the official application.",
+                    "sentence_parts": [
+                        "بقي",
+                        "الطالب",
+                        "مُتَرَدِّد",
+                        "في",
+                        "اختيار",
+                        "التخصص",
+                        "الجامعي",
+                        "حتى",
+                        "اللحظة",
+                        "الأخيرة",
+                        "قبل",
+                        "التقديم",
+                        "الرسمي"
+                    ],
+                    "level": "hard"
+                }
+            ],
+            "options": [
+                "مُتَرَدِّد",
+                "مُتَأَمِّل",
+                "مُتَذَمِّر",
+                "مُتَحَمِّس"
+            ],
+            "correct_answer": "مُتَرَدِّد"
+        },
+        {
+            "word": "مُتَجَاوِز",
+            "translation_english": "Exceeding/Surpassing",
+            "translation_native": "Exceeding/Surpassing",
+            "pronunciation": "mutajawiz",
+            "examples": [
+                {
+                    "sentence": "حقق الطالب درجات عالية مُتَجَاوِز توقعات المعلمين في اختبار الرياضيات الصعب جداً",
+                    "translation_english": "The student achieved high grades, surpassing the teachers' expectations in the very difficult math test.",
+                    "translation_native": "The student achieved high grades, surpassing the teachers' expectations in the very difficult math test.",
+                    "sentence_parts": [
+                        "حقق",
+                        "الطالب",
+                        "درجات",
+                        "عالية",
+                        "مُتَجَاوِز",
+                        "توقعات",
+                        "المعلمين",
+                        "في",
+                        "اختبار",
+                        "الرياضيات",
+                        "الصعب",
+                        "جداً"
+                    ],
+                    "level": "hard"
+                }
+            ],
+            "options": [
+                "مُتَجَاوِز",
+                "مُتَضَامِن",
+                "مُتَشَابِه",
+                "مُتَكَامِل"
+            ],
+            "correct_answer": "مُتَجَاوِز"
+        },
+        {
+            "word": "مُتَضَامِن",
+            "translation_english": "Solidary/United",
+            "translation_native": "Solidary/United",
+            "pronunciation": "mutadamin",
+            "examples": [
+                {
+                    "sentence": "وقف الطلاب مُتَضَامِن مع زملائهم في حملة التبرع لدعم الطلاب المحتاجين في المدرسة",
+                    "translation_english": "The students stood in solidarity with their peers in the donation campaign to support needy students at school.",
+                    "translation_native": "The students stood in solidarity with their peers in the donation campaign to support needy students at school.",
+                    "sentence_parts": [
+                        "وقف",
+                        "الطلاب",
+                        "مُتَضَامِن",
+                        "مع",
+                        "زملائهم",
+                        "في",
+                        "حملة",
+                        "التبرع",
+                        "لدعم",
+                        "الطلاب",
+                        "المحتاجين",
+                        "في",
+                        "المدرسة"
+                    ],
+                    "level": "hard"
+                }
+            ],
+            "options": [
+                "مُتَضَامِن",
+                "مُتَجَاوِز",
+                "مُتَشَابِه",
+                "مُتَكَامِل"
+            ],
+            "correct_answer": "مُتَضَامِن"
+        },
+        {
+            "word": "مُتَشَابِه",
+            "translation_english": "Similar",
+            "translation_native": "Similar",
+            "pronunciation": "mutashabih",
+            "examples": [
+                {
+                    "sentence": "لاحظ المعلم أن أسلوب الكتابة لدى الطالبين كان مُتَشَابِه بشكل يثير الشك في النزاهة",
+                    "translation_english": "The teacher noticed that the writing style of both students was similar in a way that raises suspicion of integrity.",
+                    "translation_native": "The teacher noticed that the writing style of both students was similar in a way that raises suspicion of integrity.",
+                    "sentence_parts": [
+                        "لاحظ",
+                        "المعلم",
+                        "أن",
+                        "أسلوب",
+                        "الكتابة",
+                        "لدى",
+                        "الطالبين",
+                        "كان",
+                        "مُتَشَابِه",
+                        "بشكل",
+                        "يثير",
+                        "الشك",
+                        "في",
+                        "النزاهة"
+                    ],
+                    "level": "hard"
+                }
+            ],
+            "options": [
+                "مُتَشَابِه",
+                "مُتَجَاوِز",
+                "مُتَضَامِن",
+                "مُتَكَامِل"
+            ],
+            "correct_answer": "مُتَشَابِه"
+        },
+        {
+            "word": "مُتَكَامِل",
+            "translation_english": "Integrated",
+            "translation_native": "Integrated",
+            "pronunciation": "mutakamil",
+            "examples": [
+                {
+                    "sentence": "قدم الفريق مشروعاً مُتَكَامِل يجمع بين البرمجة والتصميم والتحليل الإحصائي للبيانات الضخمة",
+                    "translation_english": "The team presented an integrated project combining programming, design, and statistical analysis of big data.",
+                    "translation_native": "The team presented an integrated project combining programming, design, and statistical analysis of big data.",
+                    "sentence_parts": [
+                        "قدم",
+                        "الفريق",
+                        "مشروعاً",
+                        "مُتَكَامِل",
+                        "يجمع",
+                        "بين",
+                        "البرمجة",
+                        "والتصميم",
+                        "والتحليل",
+                        "الإحصائي",
+                        "للبيانات",
+                        "الضخمة"
+                    ],
+                    "level": "hard"
+                }
+            ],
+            "options": [
+                "مُتَكَامِل",
+                "مُتَجَاوِز",
+                "مُتَضَامِن",
+                "مُتَشَابِه"
+            ],
+            "correct_answer": "مُتَكَامِل"
+        },
+        {
+            "word": "مُتَأَلِّق",
+            "translation_english": "Brilliant/Shining",
+            "translation_native": "Brilliant/Shining",
+            "pronunciation": "muta'alliq",
+            "examples": [
+                {
+                    "sentence": "كان أداء الطالب مُتَأَلِّق في العرض التقديمي أمام لجنة التحكيم في المسابقة العلمية",
+                    "translation_english": "The student's performance was brilliant in the presentation before the jury in the scientific competition.",
+                    "translation_native": "The student's performance was brilliant in the presentation before the jury in the scientific competition.",
+                    "sentence_parts": [
+                        "كان",
+                        "أداء",
+                        "الطالب",
+                        "مُتَأَلِّق",
+                        "في",
+                        "العرض",
+                        "التقديمي",
+                        "أمام",
+                        "لجنة",
+                        "التحكيم",
+                        "في",
+                        "المسابقة",
+                        "العلمية"
+                    ],
+                    "level": "hard"
+                }
+            ],
+            "options": [
+                "مُتَأَلِّق",
+                "مُتَوَاضِع",
+                "مُتَجَاهِل",
+                "مُتَكَبِّر"
+            ],
+            "correct_answer": "مُتَأَلِّق"
+        },
+        {
+            "word": "مُتَوَاضِع",
+            "translation_english": "Humble/Modest",
+            "translation_native": "Humble/Modest",
+            "pronunciation": "mutawadi'",
+            "examples": [
+                {
+                    "sentence": "رغم تفوقه الدراسي، كان الطالب مُتَوَاضِع جداً في تعامله مع زملائه ومعلميه دائماً",
+                    "translation_english": "Despite his academic excellence, the student was very humble in his dealing with his peers and teachers always.",
+                    "translation_native": "Despite his academic excellence, the student was very humble in his dealing with his peers and teachers always.",
+                    "sentence_parts": [
+                        "رغم",
+                        "تفوقه",
+                        "الدراسي",
+                        "كان",
+                        "الطالب",
+                        "مُتَوَاضِع",
+                        "جداً",
+                        "في",
+                        "تعامله",
+                        "مع",
+                        "زملائه",
+                        "ومعلميه",
+                        "دائماً"
+                    ],
+                    "level": "hard"
+                }
+            ],
+            "options": [
+                "مُتَوَاضِع",
+                "مُتَأَلِّق",
+                "مُتَجَاهِل",
+                "مُتَكَبِّر"
+            ],
+            "correct_answer": "مُتَوَاضِع"
+        },
+        {
+            "word": "مُتَجَاهِل",
+            "translation_english": "Ignoring/Neglectful",
+            "translation_native": "Ignoring/Neglectful",
+            "pronunciation": "mutajahil",
+            "examples": [
+                {
+                    "sentence": "استمر الطالب في اللعب بالهاتف مُتَجَاهِل تعليمات المعلم بضرورة التركيز في الدرس",
+                    "translation_english": "The student continued playing with the phone, ignoring the teacher's instructions about the necessity of focusing in the lesson.",
+                    "translation_native": "The student continued playing with the phone, ignoring the teacher's instructions about the necessity of focusing in the lesson.",
+                    "sentence_parts": [
+                        "استمر",
+                        "الطالب",
+                        "في",
+                        "اللعب",
+                        "بالهاتف",
+                        "مُتَجَاهِل",
+                        "تعليمات",
+                        "المعلم",
+                        "بضرورة",
+                        "التركيز",
+                        "في",
+                        "الدرس"
+                    ],
+                    "level": "hard"
+                }
+            ],
+            "options": [
+                "مُتَجَاهِل",
+                "مُتَأَلِّق",
+                "مُتَوَاضِع",
+                "مُتَكَبِّر"
+            ],
+            "correct_answer": "مُتَجَاهِل"
+        },
+        {
+            "word": "مُتَكَبِّر",
+            "translation_english": "Arrogant",
+            "translation_native": "Arrogant",
+            "pronunciation": "mutakabbir",
+            "examples": [
+                {
+                    "sentence": "لا يحب الطلاب العمل مع زميلهم مُتَكَبِّر الذي يرفض الاستماع إلى آراء الآخرين مطلقاً",
+                    "translation_english": "Students do not like working with their arrogant colleague who refuses to listen to others' opinions at all.",
+                    "translation_native": "Students do not like working with their arrogant colleague who refuses to listen to others' opinions at all.",
+                    "sentence_parts": [
+                        "لا",
+                        "يحب",
+                        "الطلاب",
+                        "العمل",
+                        "مع",
+                        "زميلهم",
+                        "مُتَكَبِّر",
+                        "الذي",
+                        "يرفض",
+                        "الاستماع",
+                        "إلى",
+                        "آراء",
+                        "الآخرين",
+                        "مطلقاً"
+                    ],
+                    "level": "hard"
+                }
+            ],
+            "options": [
+                "مُتَكَبِّر",
+                "مُتَأَلِّق",
+                "مُتَوَاضِع",
+                "مُتَجَاهِل"
+            ],
+            "correct_answer": "مُتَكَبِّر"
+        },
+        {
+            "word": "مُتَوَقِّف",
+            "translation_english": "Stopped/Paused",
+            "translation_native": "Stopped/Paused",
+            "pronunciation": "mutawaqqif",
+            "examples": [
+                {
+                    "sentence": "بقي العمل في المختبر مُتَوَقِّف بسبب عطل فني في أجهزة القياس الحساسة جداً",
+                    "translation_english": "Work in the lab remained stopped due to a technical failure in the very sensitive measuring devices.",
+                    "translation_native": "Work in the lab remained stopped due to a technical failure in the very sensitive measuring devices.",
+                    "sentence_parts": [
+                        "بقي",
+                        "العمل",
+                        "في",
+                        "المختبر",
+                        "مُتَوَقِّف",
+                        "بسبب",
+                        "عطل",
+                        "فني",
+                        "في",
+                        "أجهزة",
+                        "القياس",
+                        "الحساسة",
+                        "جداً"
+                    ],
+                    "level": "hard"
+                }
+            ],
+            "options": [
+                "مُتَوَقِّف",
+                "مُتَطَوِّع",
+                "مُتَوَاصِل",
+                "مُتَأَمِّل"
+            ],
+            "correct_answer": "مُتَوَقِّف"
+        },
+        {
+            "word": "مُتَطَوِّع",
+            "translation_english": "Volunteer",
+            "translation_native": "Volunteer",
+            "pronunciation": "mutatawwi'",
+            "examples": [
+                {
+                    "sentence": "عمل الطالب مُتَطَوِّع في تنظيم مكتبة المدرسة خلال أوقات الفراغ لخدمة زملائه الطلاب",
+                    "translation_english": "The student worked as a volunteer in organizing the school library during free time to serve his fellow students.",
+                    "translation_native": "The student worked as a volunteer in organizing the school library during free time to serve his fellow students.",
+                    "sentence_parts": [
+                        "عمل",
+                        "الطالب",
+                        "مُتَطَوِّع",
+                        "في",
+                        "تنظيم",
+                        "مكتبة",
+                        "المدرسة",
+                        "خلال",
+                        "أوقات",
+                        "الفراغ",
+                        "لخدمة",
+                        "زملائه",
+                        "الطلاب"
+                    ],
+                    "level": "hard"
+                }
+            ],
+            "options": [
+                "مُتَطَوِّع",
+                "مُتَوَقِّف",
+                "مُتَوَاصِل",
+                "مُتَأَمِّل"
+            ],
+            "correct_answer": "مُتَطَوِّع"
+        },
+        {
+            "word": "مُتَوَاصِل",
+            "translation_english": "Continuous",
+            "translation_native": "Continuous",
+            "pronunciation": "mutawasil",
+            "examples": [
+                {
+                    "sentence": "يتطلب النجاح الدراسي جهداً مُتَوَاصِل من الطالب طوال أيام الفصل الدراسي المليء بالتحديات",
+                    "translation_english": "Academic success requires continuous effort from the student throughout the days of the challenging semester.",
+                    "translation_native": "Academic success requires continuous effort from the student throughout the days of the challenging semester.",
+                    "sentence_parts": [
+                        "يتطلب",
+                        "النجاح",
+                        "الدراسي",
+                        "جهداً",
+                        "مُتَوَاصِل",
+                        "من",
+                        "الطالب",
+                        "طوال",
+                        "أيام",
+                        "الفصل",
+                        "الدراسي",
+                        "المليء",
+                        "بالتحديات"
+                    ],
+                    "level": "hard"
+                }
+            ],
+            "options": [
+                "مُتَوَاصِل",
+                "مُتَوَقِّف",
+                "مُتَطَوِّع",
+                "مُتَأَمِّل"
+            ],
+            "correct_answer": "مُتَوَاصِل"
+        }
+    ]
+}

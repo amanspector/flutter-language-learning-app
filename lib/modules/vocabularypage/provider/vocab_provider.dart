@@ -1,6 +1,9 @@
 import 'dart:async';
+import 'dart:convert';
 import 'dart:developer';
+import 'dart:io';
 import 'dart:typed_data';
+import 'package:flutter/services.dart' show rootBundle;
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:chatbot_app/core/extensions/daily_goal_extension.dart';
 import 'package:chatbot_app/core/widgets/app_customContainer.dart';
@@ -104,6 +107,195 @@ class VocabProvider extends ChangeNotifier {
     await _tts.setSpeechRate(0.4);
   }
 
+  Future<List<WordModel>> _loadVocabFromJson(
+    String languageCode,
+    String level,
+    String category,
+  ) async {
+    try {
+      final filename =
+          "${languageCode.toLowerCase()}_${level.toLowerCase()}_${category.toLowerCase()}.json";
+      log("Attempting to load vocab JSON from filesystem: $filename");
+
+      // Helper function to extract list of word models from dynamic JSON content
+      List<dynamic> extractWords(dynamic decodedJson) {
+        if (decodedJson is Map) {
+          return decodedJson['words'] as List? ?? [];
+        } else if (decodedJson is List) {
+          return decodedJson;
+        }
+        return [];
+      }
+
+      // 1. Try host directory path
+      try {
+        final hostFile = File(
+          'd:/folder/Flutter/chatbot_app/assets/data/$filename',
+        );
+        if (await hostFile.exists()) {
+          final content = await hostFile.readAsString();
+          final decodedJson = jsonDecode(content);
+          final List decoded = extractWords(decodedJson);
+          log("Loaded vocab from host path: ${hostFile.path}");
+          return decoded.map((e) => WordModel.fromJson(e)).toList();
+        }
+      } catch (e) {
+        log("Could not check/read from host path: $e");
+      }
+
+      // 2. Try relative directory path
+      try {
+        final relativeFile = File('assets/data/$filename');
+        if (await relativeFile.exists()) {
+          final content = await relativeFile.readAsString();
+          final decodedJson = jsonDecode(content);
+          final List decoded = extractWords(decodedJson);
+          log("Loaded vocab from relative path: ${relativeFile.path}");
+          return decoded.map((e) => WordModel.fromJson(e)).toList();
+        }
+      } catch (e) {
+        log("Could not check/read from relative path: $e");
+      }
+
+      // 3. Try systemTemp directory path
+      try {
+        final tempFile = File('${Directory.systemTemp.path}/$filename');
+        if (await tempFile.exists()) {
+          final content = await tempFile.readAsString();
+          final decodedJson = jsonDecode(content);
+          final List decoded = extractWords(decodedJson);
+          log("Loaded vocab from temp path: ${tempFile.path}");
+          return decoded.map((e) => WordModel.fromJson(e)).toList();
+        }
+      } catch (e) {
+        log("Could not check/read from temp path: $e");
+      }
+
+      // 4. Fallback to rootBundle assets
+      try {
+        final jsonString = await rootBundle.loadString('assets/data/$filename');
+        final decodedJson = jsonDecode(jsonString);
+        final List decoded = extractWords(decodedJson);
+        log("Loaded vocab from rootBundle asset: assets/data/$filename");
+        return decoded.map((e) => WordModel.fromJson(e)).toList();
+      } catch (e) {
+        log("Asset not found or failed to load via rootBundle: $e");
+      }
+    } catch (e) {
+      log("Error loading vocab from JSON: $e");
+    }
+    return [];
+  }
+
+  Future<void> _saveVocabToJson(
+    String languageCode,
+    String level,
+    String category,
+    List<WordModel> words,
+  ) async {
+    try {
+      final filename =
+          "${languageCode.toLowerCase()}_${level.toLowerCase()}_${category.toLowerCase()}.json";
+      final jsonList = words.map((w) => w.toJson()).toList();
+      final jsonString = jsonEncode(jsonList);
+
+      // 1. Try to save to host directory (if it exists)
+      final hostDir = Directory('d:/folder/Flutter/chatbot_app/assets/data');
+      if (hostDir.existsSync()) {
+        try {
+          final hostFile = File(
+            'd:/folder/Flutter/chatbot_app/assets/data/$filename',
+          );
+          await hostFile.writeAsString(jsonString);
+          log(
+            "Successfully saved vocabulary data to host path: ${hostFile.path}",
+          );
+        } catch (e) {
+          log("Failed to write to host path: $e");
+        }
+      }
+
+      // 2. Try to save to relative directory (if it exists or can be created)
+      final relativeDir = Directory('assets/data');
+      bool canWriteRelative = false;
+      try {
+        if (!relativeDir.existsSync()) {
+          relativeDir.createSync(recursive: true);
+        }
+        canWriteRelative = true;
+      } catch (e) {
+        log("Could not access relative assets directory: $e");
+      }
+
+      if (canWriteRelative) {
+        try {
+          final relativeFile = File('assets/data/$filename');
+          await relativeFile.writeAsString(jsonString);
+          log(
+            "Successfully saved vocabulary data to relative path: ${relativeFile.path}",
+          );
+        } catch (e) {
+          log("Failed to write to relative path: $e");
+        }
+      }
+
+      // 3. Save to systemTemp directory as a robust fallback for all platforms (e.g. mobile/emulators)
+      try {
+        final tempFile = File('${Directory.systemTemp.path}/$filename');
+        await tempFile.writeAsString(jsonString);
+        log(
+          "Successfully saved vocabulary data to temp path: ${tempFile.path}",
+        );
+      } catch (e) {
+        log("Failed to write to temp path: $e");
+      }
+
+      // 4. Try sending to the local save-vocab server running on host PC (highly recommended for emulators/devices)
+      try {
+        final client = HttpClient();
+        client.connectionTimeout = const Duration(seconds: 3);
+        final uris = [
+          Uri.parse('http://192.168.1.49:8080/save-vocab'),
+          Uri.parse('http://10.0.2.2:8080/save-vocab'),
+          Uri.parse('http://localhost:8080/save-vocab'),
+        ];
+        for (final uri in uris) {
+          try {
+            final request = await client.postUrl(uri);
+            request.headers.contentType = ContentType.json;
+            request.write(
+              jsonEncode({'filename': filename, 'content': jsonList}),
+            );
+            final response = await request.close();
+            if (response.statusCode == 200) {
+              log(
+                "Successfully pushed vocabulary data to local host server: $uri",
+              );
+              break;
+            }
+          } catch (e) {
+            log("Local save server not available at $uri: $e");
+          }
+        }
+        client.close();
+      } catch (e) {
+        log("Error sending to local save server: $e");
+      }
+    } catch (e) {
+      log("Error saving vocab to JSON: $e");
+    }
+  }
+
+  Future<List<WordModel>> _getUnlearnedWords(
+    List<WordModel> wordsList,
+    String language,
+  ) async {
+    // Commented out Firebase learned words:
+    // final learnedIds = await FirebaseVocabService().getLearnedWords(language);
+    final learnedIds = <String>[];
+    return wordsList.where((w) => !learnedIds.contains(w.word)).toList();
+  }
+
   Future<List<WordModel>> _fetchUntilUnlearnedTarget(
     int target,
     OnboardProvider onboard,
@@ -111,9 +303,11 @@ class VocabProvider extends ChangeNotifier {
     String category,
   ) async {
     List<WordModel> unlearnedWords = [];
-    List<String> learnedIds = await FirebaseVocabService().getLearnedWords(
-      onboard.learningLanguageCode,
-    );
+    // Commented out Firebase learned words fetch:
+    // List<String> learnedIds = await FirebaseVocabService().getLearnedWords(
+    //   onboard.learningLanguageCode,
+    // );
+    List<String> learnedIds = [];
 
     // Check cached words first
     final cachedUnlearned = allWords
@@ -121,27 +315,21 @@ class VocabProvider extends ChangeNotifier {
         .toList();
     unlearnedWords.addAll(cachedUnlearned);
 
-    // Fetch from Firebase until we have enough
-    while (unlearnedWords.length < target) {
-      final result = await FirebaseVocabService.fetchVocabfromai(
+    // Fetch from JSON instead of Firebase until we have enough
+    if (unlearnedWords.length < target) {
+      final localWords = await _loadVocabFromJson(
         onboard.learningLanguageCode,
         experienceLevel,
         category,
-        startAfterDoc: lastFetchedDoc,
       );
 
-      if (result.words.isEmpty) break;
-
-      lastFetchedDoc = result.lastDoc;
-      final newWords = result.words.map((e) => WordModel.fromJson(e)).toList();
-
-      for (var w in newWords) {
+      for (var w in localWords) {
         if (!allWords.any((existing) => existing.word == w.word)) {
           allWords.add(w);
         }
       }
 
-      final filtered = newWords
+      final filtered = localWords
           .where((w) => !learnedIds.contains(w.word))
           .toList();
       unlearnedWords.addAll(filtered);
@@ -175,12 +363,45 @@ class VocabProvider extends ChangeNotifier {
       todaywords.clear();
       lastFetchedDoc = null;
 
-      // Always update from the current language's goal (not stale from a previous language)
       dailygoalString = onboard.selectedDailyGoal;
       maxWordsForLevel = DailyGoal.getMaxWordsForGoal(dailygoalString);
 
       log("maxWordsForLevel: $maxWordsForLevel");
       log("dailygoalString: $dailygoalString");
+
+      // final unlearnedStaticWords = await _getUnlearnedStaticWords(onboard);
+      // if (unlearnedStaticWords.isNotEmpty) {
+      //   log("Serving ${unlearnedStaticWords.length} unlearned static words.");
+      //   todaywords = unlearnedStaticWords.take(maxWordsForLevel).toList();
+
+      //   await FirebaseVocabService.saveVocab(
+      //     languageCode: onboard.learningLanguageCode,
+      //     level: onboard.selectedExperienceLevel ?? 'Beginner',
+      //     category: onboard.selectedgoal ?? 'travel',
+      //     words: todaywords,
+      //   );
+      //   await FirebaseVocabService().seedSrsCards(
+      //     todaywords,
+      //     onboard.learningLanguageCode,
+      //   );
+
+      //   allWords = List.from(todaywords);
+      //   currentIndex = 0;
+      //   showMeaning = false;
+      //   iscompleted = false;
+
+      //   log("todaywords (static) :- $todaywords");
+      //   await initTTS();
+      //   await _ttsService.stopPlayer();
+      //   if (todaywords.isNotEmpty) {
+      //     preloadWordByIndex(currentIndex, ttslangauage, speaker);
+      //     preloadWordByIndex(currentIndex + 1, ttslangauage, speaker);
+      //   }
+
+      //   isloadingAidata = false;
+      //   notifyListeners();
+      //   return;
+      // }
 
       final unlearnedWords = await _fetchUntilUnlearnedTarget(
         maxWordsForLevel,
@@ -206,11 +427,16 @@ class VocabProvider extends ChangeNotifier {
           return;
         }
 
-        final newUnlearnedWords = await FirebaseVocabService()
-            .getUnlearnedWords(
-              allWords: allWords,
-              language: onboard.learningLanguageCode,
-            );
+        // Commented out Firebase call:
+        // final newUnlearnedWords = await FirebaseVocabService()
+        //     .getUnlearnedWords(
+        //       allWords: allWords,
+        //       language: onboard.learningLanguageCode,
+        //     );
+        final newUnlearnedWords = await _getUnlearnedWords(
+          allWords,
+          onboard.learningLanguageCode,
+        );
         log(
           "✅ New unlearn words after generation: ${newUnlearnedWords.length}",
         );
@@ -234,11 +460,16 @@ class VocabProvider extends ChangeNotifier {
           log("Mixed words still less than goal, generating more...");
           await generateWordsFromAI(onboard);
           if (!generationFailed && allWords.isNotEmpty) {
-            final newUnlearnedWords = await FirebaseVocabService()
-                .getUnlearnedWords(
-                  allWords: allWords,
-                  language: onboard.learningLanguageCode,
-                );
+            // Commented out Firebase call:
+            // final newUnlearnedWords = await FirebaseVocabService()
+            //     .getUnlearnedWords(
+            //       allWords: allWords,
+            //       language: onboard.learningLanguageCode,
+            //     );
+            final newUnlearnedWords = await _getUnlearnedWords(
+              allWords,
+              onboard.learningLanguageCode,
+            );
             todaywords = await _mixSrsAndNewWords(
               newUnlearnedWords,
               onboard.learningLanguageCode,
@@ -278,11 +509,13 @@ class VocabProvider extends ChangeNotifier {
   }) async {
     final total = maxWordsForLevel;
 
-    final dueWords = await FirebaseVocabService().getDueSrsWords(
-      langaugeCode,
-      level: level,
-      category: category,
-    );
+    // Commented out Firebase call:
+    // final dueWords = await FirebaseVocabService().getDueSrsWords(
+    //   langaugeCode,
+    //   level: level,
+    //   category: category,
+    // );
+    final dueWords = <WordModel>[];
 
     dueWords.sort((a, b) => a.srsRepetitions.compareTo(b.srsRepetitions));
 
@@ -386,9 +619,11 @@ class VocabProvider extends ChangeNotifier {
     notifyListeners();
 
     const maxRetries = 3;
-    List<String> learnedIds = await FirebaseVocabService().getLearnedWords(
-      onboard.learningLanguageCode,
-    );
+    // Commented out Firebase call:
+    // List<String> learnedIds = await FirebaseVocabService().getLearnedWords(
+    //   onboard.learningLanguageCode,
+    // );
+    List<String> learnedIds = [];
 
     try {
       while (retryCount < maxRetries) {
@@ -433,16 +668,24 @@ class VocabProvider extends ChangeNotifier {
           currentIndex = 0;
           iscompleted = false;
 
-          await FirebaseVocabService.saveVocab(
-            languageCode: onboard.learningLanguageCode,
-            level: onboard.selectedExperienceLevel!,
-            category: onboard.selectedgoal!,
-            words: words,
-          );
+          // Commented out Firebase calls:
+          // await FirebaseVocabService.saveVocab(
+          //   languageCode: onboard.learningLanguageCode,
+          //   level: onboard.selectedExperienceLevel!,
+          //   category: onboard.selectedgoal!,
+          //   words: words,
+          // );
+          // await FirebaseVocabService().seedSrsCards(
+          //   words,
+          //   onboard.learningLanguageCode,
+          // );
 
-          await FirebaseVocabService().seedSrsCards(
-            words,
+          // Save vocabulary to JSON file:
+          await _saveVocabToJson(
             onboard.learningLanguageCode,
+            onboard.selectedExperienceLevel!,
+            onboard.selectedgoal!,
+            words,
           );
 
           notifyListeners();
@@ -478,6 +721,29 @@ class VocabProvider extends ChangeNotifier {
     try {
       if (currentExperienceLevel == null || currentCategory == null) return;
 
+      // final unlearnedStaticWords = await _getUnlearnedStaticWords(onboard);
+      // if (unlearnedStaticWords.isNotEmpty) {
+      //   log("Serving ${unlearnedStaticWords.length} unlearned static words in next batch.");
+      //   todaywords = unlearnedStaticWords.take(maxWordsForLevel).toList();
+
+      //   await FirebaseVocabService.saveVocab(
+      //     languageCode: onboard.learningLanguageCode,
+      //     level: onboard.selectedExperienceLevel ?? 'Beginner',
+      //     category: onboard.selectedgoal ?? 'travel',
+      //     words: todaywords,
+      //   );
+      //   await FirebaseVocabService().seedSrsCards(
+      //     todaywords,
+      //     onboard.learningLanguageCode,
+      //   );
+
+      //   allWords = List.from(todaywords);
+      //   currentIndex = 0;
+      //   iscompleted = false;
+      //   notifyListeners();
+      //   return;
+      // }
+
       final unlearnedWords = await _fetchUntilUnlearnedTarget(
         maxWordsForLevel,
         onboard,
@@ -490,11 +756,16 @@ class VocabProvider extends ChangeNotifier {
 
         await generateWordsFromAI(onboard);
 
-        final newUnlearnedWords = await FirebaseVocabService()
-            .getUnlearnedWords(
-              allWords: allWords,
-              language: onboard.learningLanguageCode,
-            );
+        // Commented out Firebase call:
+        // final newUnlearnedWords = await FirebaseVocabService()
+        //     .getUnlearnedWords(
+        //       allWords: allWords,
+        //       language: onboard.learningLanguageCode,
+        //     );
+        final newUnlearnedWords = await _getUnlearnedWords(
+          allWords,
+          onboard.learningLanguageCode,
+        );
         log(
           "✅ New unlearn words after generation: ${newUnlearnedWords.length}",
         );

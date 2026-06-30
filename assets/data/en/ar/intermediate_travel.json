@@ -1,0 +1,2891 @@
+{
+    "metadata": {
+        "language": "Arabic",
+        "native_language": "English",
+        "level": "Intermediate",
+        "category": "travel",
+        "total_words": 96
+    },
+    "words": [
+        {
+            "word": "مطار",
+            "translation_english": "Airport",
+            "translation_native": "Airport",
+            "pronunciation": "matar",
+            "examples": [
+                {
+                    "sentence": "أقلعت الطائرة من المطار بعد تأخير طويل",
+                    "translation_english": "The plane took off from the airport after a long delay.",
+                    "translation_native": "The plane took off from the airport after a long delay.",
+                    "sentence_parts": [
+                        "أقلعت",
+                        "الطائرة",
+                        "من",
+                        "المطار",
+                        "بعد",
+                        "تأخير",
+                        "طويل"
+                    ],
+                    "level": "medium"
+                }
+            ],
+            "options": [
+                "مطار",
+                "فندق",
+                "متحف",
+                "مطعم"
+            ],
+            "correct_answer": "مطار"
+        },
+        {
+            "word": "تذكرة",
+            "translation_english": "Ticket",
+            "translation_native": "Ticket",
+            "pronunciation": "tadhkara",
+            "examples": [
+                {
+                    "sentence": "أظهرت تذكرة السفر عند بوابة الدخول للرحلة",
+                    "translation_english": "I showed the travel ticket at the flight boarding gate.",
+                    "translation_native": "I showed the travel ticket at the flight boarding gate.",
+                    "sentence_parts": [
+                        "أظهرت",
+                        "تذكرة",
+                        "السفر",
+                        "عند",
+                        "بوابة",
+                        "الدخول",
+                        "للرحلة"
+                    ],
+                    "level": "medium"
+                }
+            ],
+            "options": [
+                "تذكرة",
+                "حقيبة",
+                "جواز",
+                "خريطة"
+            ],
+            "correct_answer": "تذكرة"
+        },
+        {
+            "word": "فندق",
+            "translation_english": "Hotel",
+            "translation_native": "Hotel",
+            "pronunciation": "funduq",
+            "examples": [
+                {
+                    "sentence": "حجزت فندق وسط المدينة لقضاء عطلة الصيف",
+                    "translation_english": "I booked a hotel downtown for the summer vacation.",
+                    "translation_native": "I booked a hotel downtown for the summer vacation.",
+                    "sentence_parts": [
+                        "حجزت",
+                        "فندق",
+                        "وسط",
+                        "المدينة",
+                        "لقضاء",
+                        "عطلة",
+                        "الصيف"
+                    ],
+                    "level": "medium"
+                }
+            ],
+            "options": [
+                "فندق",
+                "مطار",
+                "مستشفى",
+                "مكتب"
+            ],
+            "correct_answer": "فندق"
+        },
+        {
+            "word": "جواز",
+            "translation_english": "Passport",
+            "translation_native": "Passport",
+            "pronunciation": "jawaz",
+            "examples": [
+                {
+                    "sentence": "ختم الموظف جواز السفر عند نقطة التفتيش",
+                    "translation_english": "The officer stamped the passport at the checkpoint.",
+                    "translation_native": "The officer stamped the passport at the checkpoint.",
+                    "sentence_parts": [
+                        "ختم",
+                        "الموظف",
+                        "جواز",
+                        "السفر",
+                        "عند",
+                        "نقطة",
+                        "التفتيش"
+                    ],
+                    "level": "medium"
+                }
+            ],
+            "options": [
+                "جواز",
+                "هاتف",
+                "مفتاح",
+                "محفظة"
+            ],
+            "correct_answer": "جواز"
+        },
+        {
+            "word": "حقيبة",
+            "translation_english": "Suitcase",
+            "translation_native": "Suitcase",
+            "pronunciation": "haqiba",
+            "examples": [
+                {
+                    "sentence": "وضعت حقيبة الملابس على ميزان الوزن الثقيل",
+                    "translation_english": "I placed the clothes suitcase on the heavy weight scale.",
+                    "translation_native": "I placed the clothes suitcase on the heavy weight scale.",
+                    "sentence_parts": [
+                        "وضعت",
+                        "حقيبة",
+                        "الملابس",
+                        "على",
+                        "ميزان",
+                        "الوزن",
+                        "الثقيل"
+                    ],
+                    "level": "medium"
+                }
+            ],
+            "options": [
+                "حقيبة",
+                "خيمة",
+                "كاميرا",
+                "مظلة"
+            ],
+            "correct_answer": "حقيبة"
+        },
+        {
+            "word": "خريطة",
+            "translation_english": "Map",
+            "translation_native": "Map",
+            "pronunciation": "kharita",
+            "examples": [
+                {
+                    "sentence": "فتحت خريطة المدينة لأجد طريق المتحف الوطني",
+                    "translation_english": "I opened the city map to find the national museum route.",
+                    "translation_native": "I opened the city map to find the national museum route.",
+                    "sentence_parts": [
+                        "فتحت",
+                        "خريطة",
+                        "المدينة",
+                        "لأجد",
+                        "طريق",
+                        "المتحف",
+                        "الوطني"
+                    ],
+                    "level": "medium"
+                }
+            ],
+            "options": [
+                "خريطة",
+                "رسالة",
+                "صورة",
+                "مجلة"
+            ],
+            "correct_answer": "خريطة"
+        },
+        {
+            "word": "قطار",
+            "translation_english": "Train",
+            "translation_native": "Train",
+            "pronunciation": "qitar",
+            "examples": [
+                {
+                    "sentence": "ركبت قطار الأنفاق للوصول إلى ملعب كرة",
+                    "translation_english": "I rode the subway train to reach the soccer stadium.",
+                    "translation_native": "I rode the subway train to reach the soccer stadium.",
+                    "sentence_parts": [
+                        "ركبت",
+                        "قطار",
+                        "الأنفاق",
+                        "للوصول",
+                        "إلى",
+                        "ملعب",
+                        "كرة"
+                    ],
+                    "level": "medium"
+                }
+            ],
+            "options": [
+                "قطار",
+                "قارب",
+                "حافلة",
+                "طائرة"
+            ],
+            "correct_answer": "قطار"
+        },
+        {
+            "word": "حافلة",
+            "translation_english": "Bus",
+            "translation_native": "Bus",
+            "pronunciation": "hafila",
+            "examples": [
+                {
+                    "sentence": "انتظرت حافلة السياح أمام برج الساعة القديم",
+                    "translation_english": "I waited for the tourist bus in front of the old clock tower.",
+                    "translation_native": "I waited for the tourist bus in front of the old clock tower.",
+                    "sentence_parts": [
+                        "انتظرت",
+                        "حافلة",
+                        "السياح",
+                        "أمام",
+                        "برج",
+                        "الساعة",
+                        "القديم"
+                    ],
+                    "level": "medium"
+                }
+            ],
+            "options": [
+                "حافلة",
+                "سيارة",
+                "دراجة",
+                "سفينة"
+            ],
+            "correct_answer": "حافلة"
+        },
+        {
+            "word": "متحف",
+            "translation_english": "Museum",
+            "translation_native": "Museum",
+            "pronunciation": "mathaf",
+            "examples": [
+                {
+                    "sentence": "زرت متحف التاريخ للتعرف على حضارات العالم",
+                    "translation_english": "I visited the history museum to learn about world civilizations.",
+                    "translation_native": "I visited the history museum to learn about world civilizations.",
+                    "sentence_parts": [
+                        "زرت",
+                        "متحف",
+                        "التاريخ",
+                        "للتعرف",
+                        "على",
+                        "حضارات",
+                        "العالم"
+                    ],
+                    "level": "medium"
+                }
+            ],
+            "options": [
+                "متحف",
+                "مسرح",
+                "سوق",
+                "معرض"
+            ],
+            "correct_answer": "متحف"
+        },
+        {
+            "word": "مطعم",
+            "translation_english": "Restaurant",
+            "translation_native": "Restaurant",
+            "pronunciation": "mat'am",
+            "examples": [
+                {
+                    "sentence": "طلبت وجبة إيطالية في مطعم البيتزا الشهير",
+                    "translation_english": "I ordered an Italian meal at the famous pizza restaurant.",
+                    "translation_native": "I ordered an Italian meal at the famous pizza restaurant.",
+                    "sentence_parts": [
+                        "طلبت",
+                        "وجبة",
+                        "إيطالية",
+                        "في",
+                        "مطعم",
+                        "البيتزا",
+                        "الشهير"
+                    ],
+                    "level": "medium"
+                }
+            ],
+            "options": [
+                "مطعم",
+                "مقهى",
+                "مخبز",
+                "متجر"
+            ],
+            "correct_answer": "مطعم"
+        },
+        {
+            "word": "مقهى",
+            "translation_english": "Cafe",
+            "translation_native": "Cafe",
+            "pronunciation": "maqha",
+            "examples": [
+                {
+                    "sentence": "جلست في مقهى هادئ لأشرب قهوة مثلجة",
+                    "translation_english": "I sat in a quiet cafe to drink iced coffee.",
+                    "translation_native": "I sat in a quiet cafe to drink iced coffee.",
+                    "sentence_parts": [
+                        "جلست",
+                        "في",
+                        "مقهى",
+                        "هادئ",
+                        "لأشرب",
+                        "قهوة",
+                        "مثلجة"
+                    ],
+                    "level": "medium"
+                }
+            ],
+            "options": [
+                "مقهى",
+                "مطعم",
+                "مكتبة",
+                "نادي"
+            ],
+            "correct_answer": "مقهى"
+        },
+        {
+            "word": "سوق",
+            "translation_english": "Market",
+            "translation_native": "Market",
+            "pronunciation": "suq",
+            "examples": [
+                {
+                    "sentence": "اشتريت هدايا تذكارية من سوق الحرف اليدوية",
+                    "translation_english": "I bought souvenirs from the handicrafts market.",
+                    "translation_native": "I bought souvenirs from the handicrafts market.",
+                    "sentence_parts": [
+                        "اشتريت",
+                        "هدايا",
+                        "تذكارية",
+                        "من",
+                        "سوق",
+                        "الحرف",
+                        "اليدوية"
+                    ],
+                    "level": "medium"
+                }
+            ],
+            "options": [
+                "سوق",
+                "متجر",
+                "مجمع",
+                "مصنع"
+            ],
+            "correct_answer": "سوق"
+        },
+        {
+            "word": "مستشفى",
+            "translation_english": "Hospital",
+            "translation_native": "Hospital",
+            "pronunciation": "mustashfa",
+            "examples": [
+                {
+                    "sentence": "ذهبت إلى مستشفى الطوارئ بسبب ألم شديد",
+                    "translation_english": "I went to the emergency hospital due to severe pain.",
+                    "translation_native": "I went to the emergency hospital due to severe pain.",
+                    "sentence_parts": [
+                        "ذهبت",
+                        "إلى",
+                        "مستشفى",
+                        "الطوارئ",
+                        "بسبب",
+                        "ألم",
+                        "شديد"
+                    ],
+                    "level": "medium"
+                }
+            ],
+            "options": [
+                "مستشفى",
+                "صيدلية",
+                "عيادة",
+                "مختبر"
+            ],
+            "correct_answer": "مستشفى"
+        },
+        {
+            "word": "صيدلية",
+            "translation_english": "Pharmacy",
+            "translation_native": "Pharmacy",
+            "pronunciation": "saydaliya",
+            "examples": [
+                {
+                    "sentence": "اشتريت دواء الزكام من صيدلية المطار السريعة",
+                    "translation_english": "I bought cold medicine from the quick airport pharmacy.",
+                    "translation_native": "I bought cold medicine from the quick airport pharmacy.",
+                    "sentence_parts": [
+                        "اشتريت",
+                        "دواء",
+                        "الزكام",
+                        "من",
+                        "صيدلية",
+                        "المطار",
+                        "السريعة"
+                    ],
+                    "level": "medium"
+                }
+            ],
+            "options": [
+                "صيدلية",
+                "مستشفى",
+                "عيادة",
+                "مركز"
+            ],
+            "correct_answer": "صيدلية"
+        },
+        {
+            "word": "شاطئ",
+            "translation_english": "Beach",
+            "translation_native": "Beach",
+            "pronunciation": "shati'",
+            "examples": [
+                {
+                    "sentence": "قضيت يومي على شاطئ البحر للسباحة واللعب",
+                    "translation_english": "I spent my day at the beach for swimming and playing.",
+                    "translation_native": "I spent my day at the beach for swimming and playing.",
+                    "sentence_parts": [
+                        "قضيت",
+                        "يومي",
+                        "على",
+                        "شاطئ",
+                        "البحر",
+                        "للسباحة",
+                        "واللعب"
+                    ],
+                    "level": "medium"
+                }
+            ],
+            "options": [
+                "شاطئ",
+                "نهر",
+                "جبل",
+                "غابة"
+            ],
+            "correct_answer": "شاطئ"
+        },
+        {
+            "word": "جبل",
+            "translation_english": "Mountain",
+            "translation_native": "Mountain",
+            "pronunciation": "jabal",
+            "examples": [
+                {
+                    "sentence": "تسلقنا قمة جبل شاهق لمشاهدة غروب الشمس",
+                    "translation_english": "We climbed a high mountain peak to watch the sunset.",
+                    "translation_native": "We climbed a high mountain peak to watch the sunset.",
+                    "sentence_parts": [
+                        "تسلقنا",
+                        "قمة",
+                        "جبل",
+                        "شاهق",
+                        "لمشاهدة",
+                        "غروب",
+                        "الشمس"
+                    ],
+                    "level": "medium"
+                }
+            ],
+            "options": [
+                "جبل",
+                "تلة",
+                "وادي",
+                "صحراء"
+            ],
+            "correct_answer": "جبل"
+        },
+        {
+            "word": "كاميرا",
+            "translation_english": "Camera",
+            "translation_native": "Camera",
+            "pronunciation": "kamera",
+            "examples": [
+                {
+                    "sentence": "التقطت صورة احترافية بكاميرا هاتفي الجديدة اليوم",
+                    "translation_english": "I took a professional photo with my new phone camera today.",
+                    "translation_native": "I took a professional photo with my new phone camera today.",
+                    "sentence_parts": [
+                        "التقطت",
+                        "صورة",
+                        "احترافية",
+                        "بكاميرا",
+                        "هاتفي",
+                        "الجديدة",
+                        "اليوم"
+                    ],
+                    "level": "medium"
+                }
+            ],
+            "options": [
+                "كاميرا",
+                "حاسوب",
+                "شاشة",
+                "سماعة"
+            ],
+            "correct_answer": "كاميرا"
+        },
+        {
+            "word": "مفتاح",
+            "translation_english": "Key",
+            "translation_native": "Key",
+            "pronunciation": "miftah",
+            "examples": [
+                {
+                    "sentence": "أعدت مفتاح الغرفة لموظف الاستقبال عند المغادرة",
+                    "translation_english": "I returned the room key to the receptionist upon departure.",
+                    "translation_native": "I returned the room key to the receptionist upon departure.",
+                    "sentence_parts": [
+                        "أعدت",
+                        "مفتاح",
+                        "الغرفة",
+                        "لموظف",
+                        "الاستقبال",
+                        "عند",
+                        "المغادرة"
+                    ],
+                    "level": "medium"
+                }
+            ],
+            "options": [
+                "مفتاح",
+                "بطاقة",
+                "قفل",
+                "محفظة"
+            ],
+            "correct_answer": "مفتاح"
+        },
+        {
+            "word": "هاتف",
+            "translation_english": "Phone",
+            "translation_native": "Phone",
+            "pronunciation": "hatif",
+            "examples": [
+                {
+                    "sentence": "شحنت هاتف المحمول قبل الخروج في جولة",
+                    "translation_english": "I charged my mobile phone before going out on a tour.",
+                    "translation_native": "I charged my mobile phone before going out on a tour.",
+                    "sentence_parts": [
+                        "شحنت",
+                        "هاتف",
+                        "المحمول",
+                        "قبل",
+                        "الخروج",
+                        "في",
+                        "جولة"
+                    ],
+                    "level": "medium"
+                }
+            ],
+            "options": [
+                "هاتف",
+                "حاسوب",
+                "ساعة",
+                "راديو"
+            ],
+            "correct_answer": "هاتف"
+        },
+        {
+            "word": "محفظة",
+            "translation_english": "Wallet",
+            "translation_native": "Wallet",
+            "pronunciation": "mahfaza",
+            "examples": [
+                {
+                    "sentence": "وضعت محفظة النقود في حقيبة الظهر بأمان",
+                    "translation_english": "I put the money wallet in the backpack safely.",
+                    "translation_native": "I put the money wallet in the backpack safely.",
+                    "sentence_parts": [
+                        "وضعت",
+                        "محفظة",
+                        "النقود",
+                        "في",
+                        "حقيبة",
+                        "الظهر",
+                        "بأمان"
+                    ],
+                    "level": "medium"
+                }
+            ],
+            "options": [
+                "محفظة",
+                "حقيبة",
+                "بطاقة",
+                "مفتاح"
+            ],
+            "correct_answer": "محفظة"
+        },
+        {
+            "word": "مظلة",
+            "translation_english": "Umbrella",
+            "translation_native": "Umbrella",
+            "pronunciation": "mizalla",
+            "examples": [
+                {
+                    "sentence": "فتحت مظلة المطر عندما بدأ الطقس بالعواصف",
+                    "translation_english": "I opened the rain umbrella when the weather started storming.",
+                    "translation_native": "I opened the rain umbrella when the weather started storming.",
+                    "sentence_parts": [
+                        "فتحت",
+                        "مظلة",
+                        "المطر",
+                        "عندما",
+                        "بدأ",
+                        "الطقس",
+                        "بالعواصف"
+                    ],
+                    "level": "medium"
+                }
+            ],
+            "options": [
+                "مظلة",
+                "معطف",
+                "قبعة",
+                "وشاح"
+            ],
+            "correct_answer": "مظلة"
+        },
+        {
+            "word": "معطف",
+            "translation_english": "Coat",
+            "translation_native": "Coat",
+            "pronunciation": "mi'taf",
+            "examples": [
+                {
+                    "sentence": "ارتديت معطف الشتاء للتدفئة في رحلة الجبل",
+                    "translation_english": "I wore the winter coat for warmth on the mountain trip.",
+                    "translation_native": "I wore the winter coat for warmth on the mountain trip.",
+                    "sentence_parts": [
+                        "ارتديت",
+                        "معطف",
+                        "الشتاء",
+                        "للتدفئة",
+                        "في",
+                        "رحلة",
+                        "الجبل"
+                    ],
+                    "level": "medium"
+                }
+            ],
+            "options": [
+                "معطف",
+                "قميص",
+                "سروال",
+                "حذاء"
+            ],
+            "correct_answer": "معطف"
+        },
+        {
+            "word": "قبعة",
+            "translation_english": "Hat",
+            "translation_native": "Hat",
+            "pronunciation": "qubba'a",
+            "examples": [
+                {
+                    "sentence": "اشتريت قبعة الشمس لحماية وجهي من الضوء",
+                    "translation_english": "I bought a sun hat to protect my face from the light.",
+                    "translation_native": "I bought a sun hat to protect my face from the light.",
+                    "sentence_parts": [
+                        "اشتريت",
+                        "قبعة",
+                        "الشمس",
+                        "لحماية",
+                        "وجهي",
+                        "من",
+                        "الضوء"
+                    ],
+                    "level": "medium"
+                }
+            ],
+            "options": [
+                "قبعة",
+                "نظارة",
+                "وشاح",
+                "قفاز"
+            ],
+            "correct_answer": "قبعة"
+        },
+        {
+            "word": "نظارة",
+            "translation_english": "Glasses",
+            "translation_native": "Glasses",
+            "pronunciation": "nazzara",
+            "examples": [
+                {
+                    "sentence": "لبست نظارة الشمس أثناء القيادة في النهار",
+                    "translation_english": "I wore sunglasses while driving during the day.",
+                    "translation_native": "I wore sunglasses while driving during the day.",
+                    "sentence_parts": [
+                        "لبست",
+                        "نظارة",
+                        "الشمس",
+                        "أثناء",
+                        "القيادة",
+                        "في",
+                        "النهار"
+                    ],
+                    "level": "medium"
+                }
+            ],
+            "options": [
+                "نظارة",
+                "عدسة",
+                "ساعة",
+                "خاتم"
+            ],
+            "correct_answer": "نظارة"
+        },
+        {
+            "word": "ساعة",
+            "translation_english": "Watch",
+            "translation_native": "Watch",
+            "pronunciation": "sa'a",
+            "examples": [
+                {
+                    "sentence": "نظرت إلى ساعة اليد لمعرفة وقت الرحلة",
+                    "translation_english": "I looked at the wristwatch to know the flight time.",
+                    "translation_native": "I looked at the wristwatch to know the flight time.",
+                    "sentence_parts": [
+                        "نظرت",
+                        "إلى",
+                        "ساعة",
+                        "اليد",
+                        "لمعرفة",
+                        "وقت",
+                        "الرحلة"
+                    ],
+                    "level": "medium"
+                }
+            ],
+            "options": [
+                "ساعة",
+                "هاتف",
+                "خاتم",
+                "قلادة"
+            ],
+            "correct_answer": "ساعة"
+        },
+        {
+            "word": "خاتم",
+            "translation_english": "Ring",
+            "translation_native": "Ring",
+            "pronunciation": "khatam",
+            "examples": [
+                {
+                    "sentence": "أضعت خاتم الفضة في رمال الشاطئ الذهبية",
+                    "translation_english": "I lost the silver ring in the golden beach sand.",
+                    "translation_native": "I lost the silver ring in the golden beach sand.",
+                    "sentence_parts": [
+                        "أضعت",
+                        "خاتم",
+                        "الفضة",
+                        "في",
+                        "رمال",
+                        "الشاطئ",
+                        "الذهبية"
+                    ],
+                    "level": "medium"
+                }
+            ],
+            "options": [
+                "خاتم",
+                "سوار",
+                "عقد",
+                "قرط"
+            ],
+            "correct_answer": "خاتم"
+        },
+        {
+            "word": "سوار",
+            "translation_english": "Bracelet",
+            "translation_native": "Bracelet",
+            "pronunciation": "siwar",
+            "examples": [
+                {
+                    "sentence": "اشتريت سوار الصداقة من متجر الهدايا التذكارية",
+                    "translation_english": "I bought a friendship bracelet from the souvenir gift shop.",
+                    "translation_native": "I bought a friendship bracelet from the souvenir gift shop.",
+                    "sentence_parts": [
+                        "اشتريت",
+                        "سوار",
+                        "الصداقة",
+                        "من",
+                        "متجر",
+                        "الهدايا",
+                        "التذكارية"
+                    ],
+                    "level": "medium"
+                }
+            ],
+            "options": [
+                "سوار",
+                "خاتم",
+                "قلادة",
+                "ساعة"
+            ],
+            "correct_answer": "سوار"
+        },
+        {
+            "word": "قلادة",
+            "translation_english": "Necklace",
+            "translation_native": "Necklace",
+            "pronunciation": "qilada",
+            "examples": [
+                {
+                    "sentence": "أهدتني صديقتي قلادة ذهبية قبل رحلة السفر",
+                    "translation_english": "My friend gifted me a gold necklace before the travel trip.",
+                    "translation_native": "My friend gifted me a gold necklace before the travel trip.",
+                    "sentence_parts": [
+                        "أهدتني",
+                        "صديقتي",
+                        "قلادة",
+                        "ذهبية",
+                        "قبل",
+                        "رحلة",
+                        "السفر"
+                    ],
+                    "level": "medium"
+                }
+            ],
+            "options": [
+                "قلادة",
+                "سوار",
+                "خاتم",
+                "قرط"
+            ],
+            "correct_answer": "قلادة"
+        },
+        {
+            "word": "قرط",
+            "translation_english": "Earring",
+            "translation_native": "Earring",
+            "pronunciation": "qurt",
+            "examples": [
+                {
+                    "sentence": "فقدت قرط الأذن أثناء الرقص في الحفلة",
+                    "translation_english": "I lost the ear earring while dancing at the party.",
+                    "translation_native": "I lost the ear earring while dancing at the party.",
+                    "sentence_parts": [
+                        "فقدت",
+                        "قرط",
+                        "الأذن",
+                        "أثناء",
+                        "الرقص",
+                        "في",
+                        "الحفلة"
+                    ],
+                    "level": "medium"
+                }
+            ],
+            "options": [
+                "قرط",
+                "خاتم",
+                "سوار",
+                "قلادة"
+            ],
+            "correct_answer": "قرط"
+        },
+        {
+            "word": "حذاء",
+            "translation_english": "Shoe",
+            "translation_native": "Shoe",
+            "pronunciation": "hitha'",
+            "examples": [
+                {
+                    "sentence": "ربطت حذاء الرياضة قبل الجري في الحديقة",
+                    "translation_english": "I tied the sports shoe before running in the park.",
+                    "translation_native": "I tied the sports shoe before running in the park.",
+                    "sentence_parts": [
+                        "ربطت",
+                        "حذاء",
+                        "الرياضة",
+                        "قبل",
+                        "الجري",
+                        "في",
+                        "الحديقة"
+                    ],
+                    "level": "medium"
+                }
+            ],
+            "options": [
+                "حذاء",
+                "جورب",
+                "قميص",
+                "سروال"
+            ],
+            "correct_answer": "حذاء"
+        },
+        {
+            "word": "جورب",
+            "translation_english": "Sock",
+            "translation_native": "Sock",
+            "pronunciation": "jawrab",
+            "examples": [
+                {
+                    "sentence": "ارتديت جورب الصوف للتدفئة داخل المنزل البارد",
+                    "translation_english": "I wore the wool sock for warmth inside the cold house.",
+                    "translation_native": "I wore the wool sock for warmth inside the cold house.",
+                    "sentence_parts": [
+                        "ارتديت",
+                        "جورب",
+                        "الصوف",
+                        "للتدفئة",
+                        "داخل",
+                        "المنزل",
+                        "البارد"
+                    ],
+                    "level": "medium"
+                }
+            ],
+            "options": [
+                "جورب",
+                "حذاء",
+                "قفاز",
+                "وشاح"
+            ],
+            "correct_answer": "جورب"
+        },
+        {
+            "word": "قميص",
+            "translation_english": "Shirt",
+            "translation_native": "Shirt",
+            "pronunciation": "qamis",
+            "examples": [
+                {
+                    "sentence": "كويت قميص القطن لارتدائه في حفل التخرج",
+                    "translation_english": "I ironed the cotton shirt to wear it at the graduation party.",
+                    "translation_native": "I ironed the cotton shirt to wear it at the graduation party.",
+                    "sentence_parts": [
+                        "كويت",
+                        "قميص",
+                        "القطن",
+                        "لارتدائه",
+                        "في",
+                        "حفل",
+                        "التخرج"
+                    ],
+                    "level": "medium"
+                }
+            ],
+            "options": [
+                "قميص",
+                "سروال",
+                "معطف",
+                "سترة"
+            ],
+            "correct_answer": "قميص"
+        },
+        {
+            "word": "سروال",
+            "translation_english": "Trousers",
+            "translation_native": "Trousers",
+            "pronunciation": "sirwal",
+            "examples": [
+                {
+                    "sentence": "اشتريت سروال الجينز من متجر الملابس الكبير",
+                    "translation_english": "I bought the jeans trousers from the big clothing store.",
+                    "translation_native": "I bought the jeans trousers from the big clothing store.",
+                    "sentence_parts": [
+                        "اشتريت",
+                        "سروال",
+                        "الجينز",
+                        "من",
+                        "متجر",
+                        "الملابس",
+                        "الكبير"
+                    ],
+                    "level": "medium"
+                }
+            ],
+            "options": [
+                "سروال",
+                "قميص",
+                "سترة",
+                "تنورة"
+            ],
+            "correct_answer": "سروال"
+        },
+        {
+            "word": "سترة",
+            "translation_english": "Jacket",
+            "translation_native": "Jacket",
+            "pronunciation": "sutra",
+            "examples": [
+                {
+                    "sentence": "خلعت سترة الجلد بسبب حرارة الجو المرتفعة",
+                    "translation_english": "I took off the leather jacket because of the high weather heat.",
+                    "translation_native": "I took off the leather jacket because of the high weather heat.",
+                    "sentence_parts": [
+                        "خلعت",
+                        "سترة",
+                        "الجلد",
+                        "بسبب",
+                        "حرارة",
+                        "الجو",
+                        "المرتفعة"
+                    ],
+                    "level": "medium"
+                }
+            ],
+            "options": [
+                "سترة",
+                "قميص",
+                "سروال",
+                "معطف"
+            ],
+            "correct_answer": "سترة"
+        },
+        {
+            "word": "تنورة",
+            "translation_english": "Skirt",
+            "translation_native": "Skirt",
+            "pronunciation": "tannura",
+            "examples": [
+                {
+                    "sentence": "اختارت تنورة الحرير لحضور حفل الزفاف المسائي",
+                    "translation_english": "She chose the silk skirt to attend the evening wedding party.",
+                    "translation_native": "She chose the silk skirt to attend the evening wedding party.",
+                    "sentence_parts": [
+                        "اختارت",
+                        "تنورة",
+                        "الحرير",
+                        "لحضور",
+                        "حفل",
+                        "الزفاف",
+                        "المسائي"
+                    ],
+                    "level": "medium"
+                }
+            ],
+            "options": [
+                "تنورة",
+                "فستان",
+                "قميص",
+                "سروال"
+            ],
+            "correct_answer": "تنورة"
+        },
+        {
+            "word": "فستان",
+            "translation_english": "Dress",
+            "translation_native": "Dress",
+            "pronunciation": "fustan",
+            "examples": [
+                {
+                    "sentence": "أعجبني فستان الحفلة الأزرق في واجهة المتجر",
+                    "translation_english": "I liked the blue party dress in the store window.",
+                    "translation_native": "I liked the blue party dress in the store window.",
+                    "sentence_parts": [
+                        "أعجبني",
+                        "فستان",
+                        "الحفلة",
+                        "الأزرق",
+                        "في",
+                        "واجهة",
+                        "المتجر"
+                    ],
+                    "level": "medium"
+                }
+            ],
+            "options": [
+                "فستان",
+                "تنورة",
+                "قميص",
+                "سترة"
+            ],
+            "correct_answer": "فستان"
+        },
+        {
+            "word": "قفاز",
+            "translation_english": "Glove",
+            "translation_native": "Glove",
+            "pronunciation": "quffaz",
+            "examples": [
+                {
+                    "sentence": "لبست قفاز الصوف للعب في الثلج الكثيف",
+                    "translation_english": "I wore the wool glove to play in the thick snow.",
+                    "translation_native": "I wore the wool glove to play in the thick snow.",
+                    "sentence_parts": [
+                        "لبست",
+                        "قفاز",
+                        "الصوف",
+                        "للعب",
+                        "في",
+                        "الثلج",
+                        "الكثيف"
+                    ],
+                    "level": "medium"
+                }
+            ],
+            "options": [
+                "قفاز",
+                "جورب",
+                "وشاح",
+                "قبعة"
+            ],
+            "correct_answer": "قفاز"
+        },
+        {
+            "word": "وشاح",
+            "translation_english": "Scarf",
+            "translation_native": "Scarf",
+            "pronunciation": "wishah",
+            "examples": [
+                {
+                    "sentence": "لففت وشاح الرقبة حول عنقي للتدفئة تماماً",
+                    "translation_english": "I wrapped the neck scarf around my neck for warmth completely.",
+                    "translation_native": "I wrapped the neck scarf around my neck for warmth completely.",
+                    "sentence_parts": [
+                        "لففت",
+                        "وشاح",
+                        "الرقبة",
+                        "حول",
+                        "عنقي",
+                        "للتدفئة",
+                        "تماماً"
+                    ],
+                    "level": "medium"
+                }
+            ],
+            "options": [
+                "وشاح",
+                "قفاز",
+                "قبعة",
+                "جورب"
+            ],
+            "correct_answer": "وشاح"
+        },
+        {
+            "word": "مكتبة",
+            "translation_english": "Library",
+            "translation_native": "Library",
+            "pronunciation": "maktaba",
+            "examples": [
+                {
+                    "sentence": "استعرت كتاب التاريخ من مكتبة المدرسة العامة",
+                    "translation_english": "I borrowed the history book from the public school library.",
+                    "translation_native": "I borrowed the history book from the public school library.",
+                    "sentence_parts": [
+                        "استعرت",
+                        "كتاب",
+                        "التاريخ",
+                        "من",
+                        "مكتبة",
+                        "المدرسة",
+                        "العامة"
+                    ],
+                    "level": "medium"
+                }
+            ],
+            "options": [
+                "مكتبة",
+                "متحف",
+                "مقهى",
+                "نادي"
+            ],
+            "correct_answer": "مكتبة"
+        },
+        {
+            "word": "نادي",
+            "translation_english": "Club",
+            "translation_native": "Club",
+            "pronunciation": "nadi",
+            "examples": [
+                {
+                    "sentence": "انضممت إلى نادي الرياضة لممارسة كرة القدم",
+                    "translation_english": "I joined the sports club to practice soccer.",
+                    "translation_native": "I joined the sports club to practice soccer.",
+                    "sentence_parts": [
+                        "انضممت",
+                        "إلى",
+                        "نادي",
+                        "الرياضة",
+                        "لممارسة",
+                        "كرة",
+                        "القدم"
+                    ],
+                    "level": "medium"
+                }
+            ],
+            "options": [
+                "نادي",
+                "مقهى",
+                "مكتبة",
+                "متحف"
+            ],
+            "correct_answer": "نادي"
+        },
+        {
+            "word": "ملعب",
+            "translation_english": "Stadium",
+            "translation_native": "Stadium",
+            "pronunciation": "mal'ab",
+            "examples": [
+                {
+                    "sentence": "شاهدت مباراة الفريق في ملعب المدينة الكبير",
+                    "translation_english": "I watched the team match in the big city stadium.",
+                    "translation_native": "I watched the team match in the big city stadium.",
+                    "sentence_parts": [
+                        "شاهدت",
+                        "مباراة",
+                        "الفريق",
+                        "في",
+                        "ملعب",
+                        "المدينة",
+                        "الكبير"
+                    ],
+                    "level": "medium"
+                }
+            ],
+            "options": [
+                "ملعب",
+                "نادي",
+                "متحف",
+                "مقهى"
+            ],
+            "correct_answer": "ملعب"
+        },
+        {
+            "word": "مسبح",
+            "translation_english": "Swimming pool",
+            "translation_native": "Swimming pool",
+            "pronunciation": "masbah",
+            "examples": [
+                {
+                    "sentence": "قفزت في مسبح الفندق للسباحة وقت الصباح",
+                    "translation_english": "I jumped in the hotel swimming pool to swim at morning time.",
+                    "translation_native": "I jumped in the hotel swimming pool to swim at morning time.",
+                    "sentence_parts": [
+                        "قفزت",
+                        "في",
+                        "مسبح",
+                        "الفندق",
+                        "للسباحة",
+                        "وقت",
+                        "الصباح"
+                    ],
+                    "level": "medium"
+                }
+            ],
+            "options": [
+                "مسبح",
+                "شاطئ",
+                "نهر",
+                "بحر"
+            ],
+            "correct_answer": "مسبح"
+        },
+        {
+            "word": "حديقة",
+            "translation_english": "Garden",
+            "translation_native": "Garden",
+            "pronunciation": "hadiqa",
+            "examples": [
+                {
+                    "sentence": "تنزّهت في حديقة الزهور مع أصدقائي اليوم",
+                    "translation_english": "I walked in the flower garden with my friends today.",
+                    "translation_native": "I walked in the flower garden with my friends today.",
+                    "sentence_parts": [
+                        "تنزّهت",
+                        "في",
+                        "حديقة",
+                        "الزهور",
+                        "مع",
+                        "أصدقائي",
+                        "اليوم"
+                    ],
+                    "level": "medium"
+                }
+            ],
+            "options": [
+                "حديقة",
+                "غابة",
+                "جبل",
+                "شاطئ"
+            ],
+            "correct_answer": "حديقة"
+        },
+        {
+            "word": "غابة",
+            "translation_english": "Forest",
+            "translation_native": "Forest",
+            "pronunciation": "ghaba",
+            "examples": [
+                {
+                    "sentence": "تجولت في غابة الأشجار الكثيفة لاستكشاف الطبيعة",
+                    "translation_english": "I wandered in the dense tree forest to explore nature.",
+                    "translation_native": "I wandered in the dense tree forest to explore nature.",
+                    "sentence_parts": [
+                        "تجولت",
+                        "في",
+                        "غابة",
+                        "الأشجار",
+                        "الكثيفة",
+                        "لاستكشاف",
+                        "الطبيعة"
+                    ],
+                    "level": "medium"
+                }
+            ],
+            "options": [
+                "غابة",
+                "حديقة",
+                "جبل",
+                "شاطئ"
+            ],
+            "correct_answer": "غابة"
+        },
+        {
+            "word": "نهر",
+            "translation_english": "River",
+            "translation_native": "River",
+            "pronunciation": "nahr",
+            "examples": [
+                {
+                    "sentence": "ركبت قارب النهر لمشاهدة معالم المدينة الجميلة",
+                    "translation_english": "I rode the river boat to watch the beautiful city landmarks.",
+                    "translation_native": "I rode the river boat to watch the beautiful city landmarks.",
+                    "sentence_parts": [
+                        "ركبت",
+                        "قارب",
+                        "النهر",
+                        "لمشاهدة",
+                        "معالم",
+                        "المدينة",
+                        "الجميلة"
+                    ],
+                    "level": "medium"
+                }
+            ],
+            "options": [
+                "نهر",
+                "بحر",
+                "مسبح",
+                "شاطئ"
+            ],
+            "correct_answer": "نهر"
+        },
+        {
+            "word": "بحر",
+            "translation_english": "Sea",
+            "translation_native": "Sea",
+            "pronunciation": "bahr",
+            "examples": [
+                {
+                    "sentence": "أبحرنا في سفينة البحر لمسافة طويلة جداً",
+                    "translation_english": "We sailed in the sea ship for a very long distance.",
+                    "translation_native": "We sailed in the sea ship for a very long distance.",
+                    "sentence_parts": [
+                        "أبحرنا",
+                        "في",
+                        "سفينة",
+                        "البحر",
+                        "لمسافة",
+                        "طويلة",
+                        "جداً"
+                    ],
+                    "level": "medium"
+                }
+            ],
+            "options": [
+                "بحر",
+                "نهر",
+                "مسبح",
+                "شاطئ"
+            ],
+            "correct_answer": "بحر"
+        },
+        {
+            "word": "صحراء",
+            "translation_english": "Desert",
+            "translation_native": "Desert",
+            "pronunciation": "sahra'",
+            "examples": [
+                {
+                    "sentence": "ركبت الجمل في رحلة صحراء الرمال الذهبية",
+                    "translation_english": "I rode the camel on a golden sand desert trip.",
+                    "translation_native": "I rode the camel on a golden sand desert trip.",
+                    "sentence_parts": [
+                        "ركبت",
+                        "الجمل",
+                        "في",
+                        "رحلة",
+                        "صحراء",
+                        "الرمال",
+                        "الذهبية"
+                    ],
+                    "level": "medium"
+                }
+            ],
+            "options": [
+                "صحراء",
+                "جبل",
+                "غابة",
+                "حديقة"
+            ],
+            "correct_answer": "صحراء"
+        },
+        {
+            "word": "تلة",
+            "translation_english": "Hill",
+            "translation_native": "Hill",
+            "pronunciation": "talla",
+            "examples": [
+                {
+                    "sentence": "ركضت فوق تلة العشب الأخضر عند الغروب",
+                    "translation_english": "I ran over the green grass hill at sunset.",
+                    "translation_native": "I ran over the green grass hill at sunset.",
+                    "sentence_parts": [
+                        "ركضت",
+                        "فوق",
+                        "تلة",
+                        "العشب",
+                        "الأخضر",
+                        "عند",
+                        "الغروب"
+                    ],
+                    "level": "medium"
+                }
+            ],
+            "options": [
+                "تلة",
+                "جبل",
+                "وادي",
+                "صحراء"
+            ],
+            "correct_answer": "تلة"
+        },
+        {
+            "word": "وادي",
+            "translation_english": "Valley",
+            "translation_native": "Valley",
+            "pronunciation": "wadi",
+            "examples": [
+                {
+                    "sentence": "شاهدت تدفق المياه في وادي الجبل العميق",
+                    "translation_english": "I watched the water flow in the deep mountain valley.",
+                    "translation_native": "I watched the water flow in the deep mountain valley.",
+                    "sentence_parts": [
+                        "شاهدت",
+                        "تدفق",
+                        "المياه",
+                        "في",
+                        "وادي",
+                        "الجبل",
+                        "العميق"
+                    ],
+                    "level": "medium"
+                }
+            ],
+            "options": [
+                "وادي",
+                "تلة",
+                "جبل",
+                "صحراء"
+            ],
+            "correct_answer": "وادي"
+        },
+        {
+            "word": "حاسوب",
+            "translation_english": "Computer",
+            "translation_native": "Computer",
+            "pronunciation": "hasub",
+            "examples": [
+                {
+                    "sentence": "استخدمت حاسوب المكتب لإرسال رسائل البريد الإلكتروني",
+                    "translation_english": "I used the office computer to send email messages.",
+                    "translation_native": "I used the office computer to send email messages.",
+                    "sentence_parts": [
+                        "استخدمت",
+                        "حاسوب",
+                        "المكتب",
+                        "لإرسال",
+                        "رسائل",
+                        "البريد",
+                        "الإلكتروني"
+                    ],
+                    "level": "medium"
+                }
+            ],
+            "options": [
+                "حاسوب",
+                "هاتف",
+                "كاميرا",
+                "ساعة"
+            ],
+            "correct_answer": "حاسوب"
+        },
+        {
+            "word": "شاشة",
+            "translation_english": "Screen",
+            "translation_native": "Screen",
+            "pronunciation": "shasha",
+            "examples": [
+                {
+                    "sentence": "لمست شاشة التلفاز لاختيار فيلم الأكشن المفضل",
+                    "translation_english": "I touched the TV screen to select the favorite action movie.",
+                    "translation_native": "I touched the TV screen to select the favorite action movie.",
+                    "sentence_parts": [
+                        "لمست",
+                        "شاشة",
+                        "التلفاز",
+                        "لاختيار",
+                        "فيلم",
+                        "الأكشن",
+                        "المفضل"
+                    ],
+                    "level": "medium"
+                }
+            ],
+            "options": [
+                "شاشة",
+                "حاسوب",
+                "هاتف",
+                "كاميرا"
+            ],
+            "correct_answer": "شاشة"
+        },
+        {
+            "word": "سماعة",
+            "translation_english": "Headphone",
+            "translation_native": "Headphone",
+            "pronunciation": "samma'a",
+            "examples": [
+                {
+                    "sentence": "وضعت سماعة الأذن للاستماع إلى الموسيقى الصاخبة",
+                    "translation_english": "I put on the ear headphone to listen to loud music.",
+                    "translation_native": "I put on the ear headphone to listen to loud music.",
+                    "sentence_parts": [
+                        "وضعت",
+                        "سماعة",
+                        "الأذن",
+                        "للاستماع",
+                        "إلى",
+                        "الموسيقى",
+                        "الصاخبة"
+                    ],
+                    "level": "medium"
+                }
+            ],
+            "options": [
+                "سماعة",
+                "هاتف",
+                "حاسوب",
+                "كاميرا"
+            ],
+            "correct_answer": "سماعة"
+        },
+        {
+            "word": "راديو",
+            "translation_english": "Radio",
+            "translation_native": "Radio",
+            "pronunciation": "radio",
+            "examples": [
+                {
+                    "sentence": "شغلت راديو السيارة لسماع أخبار الطقس اليوم",
+                    "translation_english": "I turned on the car radio to hear today's weather news.",
+                    "translation_native": "I turned on the car radio to hear today's weather news.",
+                    "sentence_parts": [
+                        "شغلت",
+                        "راديو",
+                        "السيارة",
+                        "لسماع",
+                        "أخبار",
+                        "الطقس",
+                        "اليوم"
+                    ],
+                    "level": "medium"
+                }
+            ],
+            "options": [
+                "راديو",
+                "هاتف",
+                "حاسوب",
+                "سماعة"
+            ],
+            "correct_answer": "راديو"
+        },
+        {
+            "word": "قفل",
+            "translation_english": "Lock",
+            "translation_native": "Lock",
+            "pronunciation": "qufl",
+            "examples": [
+                {
+                    "sentence": "أغلقت قفل الحقيبة لحماية أغراضي من الضياع",
+                    "translation_english": "I closed the suitcase lock to protect my items from loss.",
+                    "translation_native": "I closed the suitcase lock to protect my items from loss.",
+                    "sentence_parts": [
+                        "أغلقت",
+                        "قفل",
+                        "الحقيبة",
+                        "لحماية",
+                        "أغراضي",
+                        "من",
+                        "الضياع"
+                    ],
+                    "level": "medium"
+                }
+            ],
+            "options": [
+                "قفل",
+                "مفتاح",
+                "بطاقة",
+                "محفظة"
+            ],
+            "correct_answer": "قفل"
+        },
+        {
+            "word": "بطاقة",
+            "translation_english": "Card",
+            "translation_native": "Card",
+            "pronunciation": "bitaqa",
+            "examples": [
+                {
+                    "sentence": "استخدمت بطاقة البنك لدفع ثمن وجبة الغداء",
+                    "translation_english": "I used the bank card to pay for the lunch meal.",
+                    "translation_native": "I used the bank card to pay for the lunch meal.",
+                    "sentence_parts": [
+                        "استخدمت",
+                        "بطاقة",
+                        "البنك",
+                        "لدفع",
+                        "ثمن",
+                        "وجبة",
+                        "الغداء"
+                    ],
+                    "level": "medium"
+                }
+            ],
+            "options": [
+                "بطاقة",
+                "مفتاح",
+                "قفل",
+                "محفظة"
+            ],
+            "correct_answer": "بطاقة"
+        },
+        {
+            "word": "عدسة",
+            "translation_english": "Lens",
+            "translation_native": "Lens",
+            "pronunciation": "adasa",
+            "examples": [
+                {
+                    "sentence": "نظفت عدسة الكاميرا لالتقاط صورة واضحة جداً",
+                    "translation_english": "I cleaned the camera lens to take a very clear photo.",
+                    "translation_native": "I cleaned the camera lens to take a very clear photo.",
+                    "sentence_parts": [
+                        "نظفت",
+                        "عدسة",
+                        "الكاميرا",
+                        "لالتقاط",
+                        "صورة",
+                        "واضحة",
+                        "جداً"
+                    ],
+                    "level": "medium"
+                }
+            ],
+            "options": [
+                "عدسة",
+                "نظارة",
+                "ساعة",
+                "شاشة"
+            ],
+            "correct_answer": "عدسة"
+        },
+        {
+            "word": "كرسي",
+            "translation_english": "Chair",
+            "translation_native": "Chair",
+            "pronunciation": "kursi",
+            "examples": [
+                {
+                    "sentence": "جلست على كرسي المقهى بانتظار صديقي المفضل",
+                    "translation_english": "I sat on the cafe chair waiting for my best friend.",
+                    "translation_native": "I sat on the cafe chair waiting for my best friend.",
+                    "sentence_parts": [
+                        "جلست",
+                        "على",
+                        "كرسي",
+                        "المقهى",
+                        "بانتظار",
+                        "صديقي",
+                        "المفضل"
+                    ],
+                    "level": "medium"
+                }
+            ],
+            "options": [
+                "كرسي",
+                "طاولة",
+                "سرير",
+                "أريكة"
+            ],
+            "correct_answer": "كرسي"
+        },
+        {
+            "word": "طاولة",
+            "translation_english": "Table",
+            "translation_native": "Table",
+            "pronunciation": "tawila",
+            "examples": [
+                {
+                    "sentence": "وضعت حقيبة السفر على طاولة الغرفة الخشبية",
+                    "translation_english": "I placed the travel suitcase on the wooden room table.",
+                    "translation_native": "I placed the travel suitcase on the wooden room table.",
+                    "sentence_parts": [
+                        "وضعت",
+                        "حقيبة",
+                        "السفر",
+                        "على",
+                        "طاولة",
+                        "الغرفة",
+                        "الخشبية"
+                    ],
+                    "level": "medium"
+                }
+            ],
+            "options": [
+                "طاولة",
+                "كرسي",
+                "سرير",
+                "أريكة"
+            ],
+            "correct_answer": "طاولة"
+        },
+        {
+            "word": "سرير",
+            "translation_english": "Bed",
+            "translation_native": "Bed",
+            "pronunciation": "sarir",
+            "examples": [
+                {
+                    "sentence": "نمت على سرير الفندق المريح بعد السفر",
+                    "translation_english": "I slept on the comfortable hotel bed after traveling.",
+                    "translation_native": "I slept on the comfortable hotel bed after traveling.",
+                    "sentence_parts": [
+                        "نمت",
+                        "على",
+                        "سرير",
+                        "الفندق",
+                        "المريح",
+                        "بعد",
+                        "السفر"
+                    ],
+                    "level": "medium"
+                }
+            ],
+            "options": [
+                "سرير",
+                "أريكة",
+                "طاولة",
+                "كرسي"
+            ],
+            "correct_answer": "سرير"
+        },
+        {
+            "word": "أريكة",
+            "translation_english": "Sofa",
+            "translation_native": "Sofa",
+            "pronunciation": "arika",
+            "examples": [
+                {
+                    "sentence": "استرحت على أريكة الصالة لمشاهدة برامج التلفاز",
+                    "translation_english": "I rested on the lounge sofa to watch TV shows.",
+                    "translation_native": "I rested on the lounge sofa to watch TV shows.",
+                    "sentence_parts": [
+                        "استرحت",
+                        "على",
+                        "أريكة",
+                        "الصالة",
+                        "لمشاهدة",
+                        "برامج",
+                        "التلفاز"
+                    ],
+                    "level": "medium"
+                }
+            ],
+            "options": [
+                "أريكة",
+                "سرير",
+                "كرسي",
+                "طاولة"
+            ],
+            "correct_answer": "أريكة"
+        },
+        {
+            "word": "خزانة",
+            "translation_english": "Closet",
+            "translation_native": "Closet",
+            "pronunciation": "khizana",
+            "examples": [
+                {
+                    "sentence": "علقت ملابس السفر داخل خزانة الغرفة الكبيرة",
+                    "translation_english": "I hung the travel clothes inside the big room closet.",
+                    "translation_native": "I hung the travel clothes inside the big room closet.",
+                    "sentence_parts": [
+                        "علقت",
+                        "ملابس",
+                        "السفر",
+                        "داخل",
+                        "خزانة",
+                        "الغرفة",
+                        "الكبيرة"
+                    ],
+                    "level": "medium"
+                }
+            ],
+            "options": [
+                "خزانة",
+                "سرير",
+                "أريكة",
+                "كرسي"
+            ],
+            "correct_answer": "خزانة"
+        },
+        {
+            "word": "مصباح",
+            "translation_english": "Lamp",
+            "translation_native": "Lamp",
+            "pronunciation": "misbah",
+            "examples": [
+                {
+                    "sentence": "أشعلت مصباح الغرفة للقراءة قبل وقت النوم",
+                    "translation_english": "I turned on the room lamp to read before bedtime.",
+                    "translation_native": "I turned on the room lamp to read before bedtime.",
+                    "sentence_parts": [
+                        "أشعلت",
+                        "مصباح",
+                        "الغرفة",
+                        "للقراءة",
+                        "قبل",
+                        "وقت",
+                        "النوم"
+                    ],
+                    "level": "medium"
+                }
+            ],
+            "options": [
+                "مصباح",
+                "نافذة",
+                "باب",
+                "مرآة"
+            ],
+            "correct_answer": "مصباح"
+        },
+        {
+            "word": "نافذة",
+            "translation_english": "Window",
+            "translation_native": "Window",
+            "pronunciation": "nafitha",
+            "examples": [
+                {
+                    "sentence": "فتحت نافذة الغرفة لمشاهدة منظر البحر الرائع",
+                    "translation_english": "I opened the room window to watch the wonderful sea view.",
+                    "translation_native": "I opened the room window to watch the wonderful sea view.",
+                    "sentence_parts": [
+                        "فتحت",
+                        "نافذة",
+                        "الغرفة",
+                        "لمشاهدة",
+                        "منظر",
+                        "البحر",
+                        "الرائع"
+                    ],
+                    "level": "medium"
+                }
+            ],
+            "options": [
+                "نافذة",
+                "باب",
+                "مصباح",
+                "مرآة"
+            ],
+            "correct_answer": "نافذة"
+        },
+        {
+            "word": "باب",
+            "translation_english": "Door",
+            "translation_native": "Door",
+            "pronunciation": "bab",
+            "examples": [
+                {
+                    "sentence": "طرقت باب الغرفة قبل الدخول لرؤية صديقي",
+                    "translation_english": "I knocked on the room door before entering to see my friend.",
+                    "translation_native": "I knocked on the room door before entering to see my friend.",
+                    "sentence_parts": [
+                        "طرقت",
+                        "باب",
+                        "الغرفة",
+                        "قبل",
+                        "الدخول",
+                        "لرؤية",
+                        "صديقي"
+                    ],
+                    "level": "medium"
+                }
+            ],
+            "options": [
+                "باب",
+                "نافذة",
+                "مصباح",
+                "مرآة"
+            ],
+            "correct_answer": "باب"
+        },
+        {
+            "word": "مرآة",
+            "translation_english": "Mirror",
+            "translation_native": "Mirror",
+            "pronunciation": "mir'a",
+            "examples": [
+                {
+                    "sentence": "نظرت إلى مرآة الحمام لتجهيز شعري للخروج",
+                    "translation_english": "I looked at the bathroom mirror to prepare my hair for going out.",
+                    "translation_native": "I looked at the bathroom mirror to prepare my hair for going out.",
+                    "sentence_parts": [
+                        "نظرت",
+                        "إلى",
+                        "مرآة",
+                        "الحمام",
+                        "لتجهيز",
+                        "شعري",
+                        "للخروج"
+                    ],
+                    "level": "medium"
+                }
+            ],
+            "options": [
+                "مرآة",
+                "نافذة",
+                "باب",
+                "مصباح"
+            ],
+            "correct_answer": "مرآة"
+        },
+        {
+            "word": "سعيد",
+            "translation_english": "Happy",
+            "translation_native": "Happy",
+            "pronunciation": "sa'id",
+            "examples": [
+                {
+                    "sentence": "شعرت سعيد جداً ببدء رحلتي الصيفية الممتعة",
+                    "translation_english": "I felt very happy starting my fun summer trip.",
+                    "translation_native": "I felt very happy starting my fun summer trip.",
+                    "sentence_parts": [
+                        "شعرت",
+                        "سعيد",
+                        "جداً",
+                        "ببدء",
+                        "رحلتي",
+                        "الصيفية",
+                        "الممتعة"
+                    ],
+                    "level": "medium"
+                }
+            ],
+            "options": [
+                "سعيد",
+                "حزين",
+                "غاضب",
+                "خائف"
+            ],
+            "correct_answer": "سعيد"
+        },
+        {
+            "word": "حزين",
+            "translation_english": "Sad",
+            "translation_native": "Sad",
+            "pronunciation": "hazin",
+            "examples": [
+                {
+                    "sentence": "كنت حزين لانتهاء عطلتي في هذا المكان",
+                    "translation_english": "I was sad for my vacation ending in this place.",
+                    "translation_native": "I was sad for my vacation ending in this place.",
+                    "sentence_parts": [
+                        "كنت",
+                        "حزين",
+                        "لانتهاء",
+                        "عطلتي",
+                        "في",
+                        "هذا",
+                        "المكان"
+                    ],
+                    "level": "medium"
+                }
+            ],
+            "options": [
+                "حزين",
+                "سعيد",
+                "غاضب",
+                "خائف"
+            ],
+            "correct_answer": "حزين"
+        },
+        {
+            "word": "غاضب",
+            "translation_english": "Angry",
+            "translation_native": "Angry",
+            "pronunciation": "ghadib",
+            "examples": [
+                {
+                    "sentence": "أصبحت غاضب بسبب تأخر الطائرة عن موعدها",
+                    "translation_english": "I became angry because the plane was late for its time.",
+                    "translation_native": "I became angry because the plane was late for its time.",
+                    "sentence_parts": [
+                        "أصبحت",
+                        "غاضب",
+                        "بسبب",
+                        "تأخر",
+                        "الطائرة",
+                        "عن",
+                        "موعدها"
+                    ],
+                    "level": "medium"
+                }
+            ],
+            "options": [
+                "غاضب",
+                "سعيد",
+                "حزين",
+                "خائف"
+            ],
+            "correct_answer": "غاضب"
+        },
+        {
+            "word": "خائف",
+            "translation_english": "Scared",
+            "translation_native": "Scared",
+            "pronunciation": "kha'if",
+            "examples": [
+                {
+                    "sentence": "كنت خائف من ركوب الأفعوانية في الملاهي",
+                    "translation_english": "I was scared of riding the roller coaster in the amusement park.",
+                    "translation_native": "I was scared of riding the roller coaster in the amusement park.",
+                    "sentence_parts": [
+                        "كنت",
+                        "خائف",
+                        "من",
+                        "ركوب",
+                        "الأفعوانية",
+                        "في",
+                        "الملاهي"
+                    ],
+                    "level": "medium"
+                }
+            ],
+            "options": [
+                "خائف",
+                "سعيد",
+                "حزين",
+                "غاضب"
+            ],
+            "correct_answer": "خائف"
+        },
+        {
+            "word": "أب",
+            "translation_english": "Father",
+            "translation_native": "Father",
+            "pronunciation": "ab",
+            "examples": [
+                {
+                    "sentence": "سافر أبي معي في رحلة عمل طويلة",
+                    "translation_english": "My father traveled with me on a long business trip.",
+                    "translation_native": "My father traveled with me on a long business trip.",
+                    "sentence_parts": [
+                        "سافر",
+                        "أبي",
+                        "معي",
+                        "في",
+                        "رحلة",
+                        "عمل",
+                        "طويلة"
+                    ],
+                    "level": "medium"
+                }
+            ],
+            "options": [
+                "أب",
+                "أم",
+                "أخ",
+                "أخت"
+            ],
+            "correct_answer": "أب"
+        },
+        {
+            "word": "أم",
+            "translation_english": "Mother",
+            "translation_native": "Mother",
+            "pronunciation": "umm",
+            "examples": [
+                {
+                    "sentence": "اشترت أم هدايا كثيرة من سوق المدينة",
+                    "translation_english": "My mother bought many gifts from the city market.",
+                    "translation_native": "My mother bought many gifts from the city market.",
+                    "sentence_parts": [
+                        "اشترت",
+                        "أم",
+                        "هدايا",
+                        "كثيرة",
+                        "من",
+                        "سوق",
+                        "المدينة"
+                    ],
+                    "level": "medium"
+                }
+            ],
+            "options": [
+                "أم",
+                "أب",
+                "أخ",
+                "أخت"
+            ],
+            "correct_answer": "أم"
+        },
+        {
+            "word": "أخ",
+            "translation_english": "Brother",
+            "translation_native": "Brother",
+            "pronunciation": "akh",
+            "examples": [
+                {
+                    "sentence": "لعب أخ كرة القدم في حديقة الفندق",
+                    "translation_english": "My brother played soccer in the hotel garden.",
+                    "translation_native": "My brother played soccer in the hotel garden.",
+                    "sentence_parts": [
+                        "لعب",
+                        "أخ",
+                        "كرة",
+                        "القدم",
+                        "في",
+                        "حديقة",
+                        "الفندق"
+                    ],
+                    "level": "medium"
+                }
+            ],
+            "options": [
+                "أخ",
+                "أخت",
+                "أب",
+                "أم"
+            ],
+            "correct_answer": "أخ"
+        },
+        {
+            "word": "أخت",
+            "translation_english": "Sister",
+            "translation_native": "Sister",
+            "pronunciation": "ukht",
+            "examples": [
+                {
+                    "sentence": "التقطت أخت صوراً رائعة للبحر عند الغروب",
+                    "translation_english": "My sister took wonderful photos of the sea at sunset.",
+                    "translation_native": "My sister took wonderful photos of the sea at sunset.",
+                    "sentence_parts": [
+                        "التقطت",
+                        "أخت",
+                        "صوراً",
+                        "رائعة",
+                        "للبحر",
+                        "عند",
+                        "الغروب"
+                    ],
+                    "level": "medium"
+                }
+            ],
+            "options": [
+                "أخت",
+                "أخ",
+                "أب",
+                "أم"
+            ],
+            "correct_answer": "أخت"
+        },
+        {
+            "word": "تفاح",
+            "translation_english": "Apple",
+            "translation_native": "Apple",
+            "pronunciation": "tuffah",
+            "examples": [
+                {
+                    "sentence": "أكلت تفاح أحمر طازج في رحلة الجبل",
+                    "translation_english": "I ate fresh red apple on the mountain trip.",
+                    "translation_native": "I ate fresh red apple on the mountain trip.",
+                    "sentence_parts": [
+                        "أكلت",
+                        "تفاح",
+                        "أحمر",
+                        "طازج",
+                        "في",
+                        "رحلة",
+                        "الجبل"
+                    ],
+                    "level": "medium"
+                }
+            ],
+            "options": [
+                "تفاح",
+                "موز",
+                "عنب",
+                "برتقال"
+            ],
+            "correct_answer": "تفاح"
+        },
+        {
+            "word": "موز",
+            "translation_english": "Banana",
+            "translation_native": "Banana",
+            "pronunciation": "mawz",
+            "examples": [
+                {
+                    "sentence": "وضعت موز أصفر في حقيبة الظهر للغداء",
+                    "translation_english": "I put yellow banana in the backpack for lunch.",
+                    "translation_native": "I put yellow banana in the backpack for lunch.",
+                    "sentence_parts": [
+                        "وضعت",
+                        "موز",
+                        "أصفر",
+                        "في",
+                        "حقيبة",
+                        "الظهر",
+                        "للغداء"
+                    ],
+                    "level": "medium"
+                }
+            ],
+            "options": [
+                "موز",
+                "تفاح",
+                "عنب",
+                "برتقال"
+            ],
+            "correct_answer": "موز"
+        },
+        {
+            "word": "عنب",
+            "translation_english": "Grape",
+            "translation_native": "Grape",
+            "pronunciation": "inab",
+            "examples": [
+                {
+                    "sentence": "قطفت عنب أخضر من مزرعة القرية القديمة",
+                    "translation_english": "I picked green grape from the old village farm.",
+                    "translation_native": "I picked green grape from the old village farm.",
+                    "sentence_parts": [
+                        "قطفت",
+                        "عنب",
+                        "أخضر",
+                        "من",
+                        "مزرعة",
+                        "القرية",
+                        "القديمة"
+                    ],
+                    "level": "medium"
+                }
+            ],
+            "options": [
+                "عنب",
+                "تفاح",
+                "موز",
+                "برتقال"
+            ],
+            "correct_answer": "عنب"
+        },
+        {
+            "word": "برتقال",
+            "translation_english": "Orange",
+            "translation_native": "Orange",
+            "pronunciation": "burtuqal",
+            "examples": [
+                {
+                    "sentence": "عصرت برتقال طازج في مطبخ الفندق صباحاً",
+                    "translation_english": "I squeezed fresh orange in the hotel kitchen in the morning.",
+                    "translation_native": "I squeezed fresh orange in the hotel kitchen in the morning.",
+                    "sentence_parts": [
+                        "عصرت",
+                        "برتقال",
+                        "طازج",
+                        "في",
+                        "مطبخ",
+                        "الفندق",
+                        "صباحاً"
+                    ],
+                    "level": "medium"
+                }
+            ],
+            "options": [
+                "برتقال",
+                "تفاح",
+                "موز",
+                "عنب"
+            ],
+            "correct_answer": "برتقال"
+        },
+        {
+            "word": "أحمر",
+            "translation_english": "Red",
+            "translation_native": "Red",
+            "pronunciation": "ahmar",
+            "examples": [
+                {
+                    "sentence": "اشتريت قميص أحمر لارتدائه في حفل التخرج",
+                    "translation_english": "I bought a red shirt to wear at the graduation party.",
+                    "translation_native": "I bought a red shirt to wear at the graduation party.",
+                    "sentence_parts": [
+                        "اشتريت",
+                        "قميص",
+                        "أحمر",
+                        "لارتدائه",
+                        "في",
+                        "حفل",
+                        "التخرج"
+                    ],
+                    "level": "medium"
+                }
+            ],
+            "options": [
+                "أحمر",
+                "أزرق",
+                "أخضر",
+                "أصفر"
+            ],
+            "correct_answer": "أحمر"
+        },
+        {
+            "word": "أزرق",
+            "translation_english": "Blue",
+            "translation_native": "Blue",
+            "pronunciation": "azraq",
+            "examples": [
+                {
+                    "sentence": "رسمت سماء أزرق صافي في دفتر الرسم",
+                    "translation_english": "I drew a clear blue sky in the sketchbook.",
+                    "translation_native": "I drew a clear blue sky in the sketchbook.",
+                    "sentence_parts": [
+                        "رسمت",
+                        "سماء",
+                        "أزرق",
+                        "صافي",
+                        "في",
+                        "دفتر",
+                        "الرسم"
+                    ],
+                    "level": "medium"
+                }
+            ],
+            "options": [
+                "أزرق",
+                "أحمر",
+                "أخضر",
+                "أصفر"
+            ],
+            "correct_answer": "أزرق"
+        },
+        {
+            "word": "أخضر",
+            "translation_english": "Green",
+            "translation_native": "Green",
+            "pronunciation": "akhdar",
+            "examples": [
+                {
+                    "sentence": "مشيت فوق عشب أخضر في حديقة المدينة",
+                    "translation_english": "I walked over green grass in the city park.",
+                    "translation_native": "I walked over green grass in the city park.",
+                    "sentence_parts": [
+                        "مشيت",
+                        "فوق",
+                        "عشب",
+                        "أخضر",
+                        "في",
+                        "حديقة",
+                        "المدينة"
+                    ],
+                    "level": "medium"
+                }
+            ],
+            "options": [
+                "أخضر",
+                "أحمر",
+                "أزرق",
+                "أصفر"
+            ],
+            "correct_answer": "أخضر"
+        },
+        {
+            "word": "أصفر",
+            "translation_english": "Yellow",
+            "translation_native": "Yellow",
+            "pronunciation": "asfar",
+            "examples": [
+                {
+                    "sentence": "رأيت زهرة أصفر جميلة في حقل القرية",
+                    "translation_english": "I saw a beautiful yellow flower in the village field.",
+                    "translation_native": "I saw a beautiful yellow flower in the village field.",
+                    "sentence_parts": [
+                        "رأيت",
+                        "زهرة",
+                        "أصفر",
+                        "جميلة",
+                        "في",
+                        "حقل",
+                        "القرية"
+                    ],
+                    "level": "medium"
+                }
+            ],
+            "options": [
+                "أصفر",
+                "أحمر",
+                "أزرق",
+                "أخضر"
+            ],
+            "correct_answer": "أصفر"
+        },
+        {
+            "word": "طبيب",
+            "translation_english": "Doctor",
+            "translation_native": "Doctor",
+            "pronunciation": "tabib",
+            "examples": [
+                {
+                    "sentence": "فحص طبيب المستشفى جرحي بعد حادث السقوط",
+                    "translation_english": "The hospital doctor examined my wound after the fall accident.",
+                    "translation_native": "The hospital doctor examined my wound after the fall accident.",
+                    "sentence_parts": [
+                        "فحص",
+                        "طبيب",
+                        "المستشفى",
+                        "جرحي",
+                        "بعد",
+                        "حادث",
+                        "السقوط"
+                    ],
+                    "level": "medium"
+                }
+            ],
+            "options": [
+                "طبيب",
+                "معلم",
+                "مهندس",
+                "محام"
+            ],
+            "correct_answer": "طبيب"
+        },
+        {
+            "word": "معلم",
+            "translation_english": "Teacher",
+            "translation_native": "Teacher",
+            "pronunciation": "mu'allim",
+            "examples": [
+                {
+                    "sentence": "شرح معلم التاريخ دروس الحضارات القديمة اليوم",
+                    "translation_english": "The history teacher explained ancient civilization lessons today.",
+                    "translation_native": "The history teacher explained ancient civilization lessons today.",
+                    "sentence_parts": [
+                        "شرح",
+                        "معلم",
+                        "التاريخ",
+                        "دروس",
+                        "الحضارات",
+                        "القديمة",
+                        "اليوم"
+                    ],
+                    "level": "medium"
+                }
+            ],
+            "options": [
+                "معلم",
+                "طبيب",
+                "مهندس",
+                "محام"
+            ],
+            "correct_answer": "معلم"
+        },
+        {
+            "word": "مهندس",
+            "translation_english": "Engineer",
+            "translation_native": "Engineer",
+            "pronunciation": "muhandis",
+            "examples": [
+                {
+                    "sentence": "صمم مهندس المبنى جسراً جديداً فوق النهر",
+                    "translation_english": "The building engineer designed a new bridge over the river.",
+                    "translation_native": "The building engineer designed a new bridge over the river.",
+                    "sentence_parts": [
+                        "صمم",
+                        "مهندس",
+                        "المبنى",
+                        "جسراً",
+                        "جديداً",
+                        "فوق",
+                        "النهر"
+                    ],
+                    "level": "medium"
+                }
+            ],
+            "options": [
+                "مهندس",
+                "طبيب",
+                "معلم",
+                "محام"
+            ],
+            "correct_answer": "مهندس"
+        },
+        {
+            "word": "محام",
+            "translation_english": "Lawyer",
+            "translation_native": "Lawyer",
+            "pronunciation": "muham",
+            "examples": [
+                {
+                    "sentence": "دافع محام المكتب عن حقوق العمال المظلومين",
+                    "translation_english": "The office lawyer defended the rights of oppressed workers.",
+                    "translation_native": "The office lawyer defended the rights of oppressed workers.",
+                    "sentence_parts": [
+                        "دافع",
+                        "محام",
+                        "المكتب",
+                        "عن",
+                        "حقوق",
+                        "العمال",
+                        "المظلومين"
+                    ],
+                    "level": "medium"
+                }
+            ],
+            "options": [
+                "محام",
+                "طبيب",
+                "معلم",
+                "مهندس"
+            ],
+            "correct_answer": "محام"
+        },
+        {
+            "word": "يد",
+            "translation_english": "Hand",
+            "translation_native": "Hand",
+            "pronunciation": "yad",
+            "examples": [
+                {
+                    "sentence": "غسلت يد بالماء والصابون قبل تناول الطعام",
+                    "translation_english": "I washed my hand with water and soap before eating.",
+                    "translation_native": "I washed my hand with water and soap before eating.",
+                    "sentence_parts": [
+                        "غسلت",
+                        "يد",
+                        "بالماء",
+                        "والصابون",
+                        "قبل",
+                        "تناول",
+                        "الطعام"
+                    ],
+                    "level": "medium"
+                }
+            ],
+            "options": [
+                "يد",
+                "رجل",
+                "عين",
+                "أذن"
+            ],
+            "correct_answer": "يد"
+        },
+        {
+            "word": "رجل",
+            "translation_english": "Leg",
+            "translation_native": "Leg",
+            "pronunciation": "rijl",
+            "examples": [
+                {
+                    "sentence": "أصيبت رجل في حادث رياضي أثناء الجري",
+                    "translation_english": "My leg was injured in a sports accident while running.",
+                    "translation_native": "My leg was injured in a sports accident while running.",
+                    "sentence_parts": [
+                        "أصيبت",
+                        "رجل",
+                        "في",
+                        "حادث",
+                        "رياضي",
+                        "أثناء",
+                        "الجري"
+                    ],
+                    "level": "medium"
+                }
+            ],
+            "options": [
+                "رجل",
+                "يد",
+                "عين",
+                "أذن"
+            ],
+            "correct_answer": "رجل"
+        },
+        {
+            "word": "عين",
+            "translation_english": "Eye",
+            "translation_native": "Eye",
+            "pronunciation": "ayn",
+            "examples": [
+                {
+                    "sentence": "دخل غبار في عين أثناء ركوب الدراجة",
+                    "translation_english": "Dust entered my eye while riding the bike.",
+                    "translation_native": "Dust entered my eye while riding the bike.",
+                    "sentence_parts": [
+                        "دخل",
+                        "غبار",
+                        "في",
+                        "عين",
+                        "أثناء",
+                        "ركوب",
+                        "الدراجة"
+                    ],
+                    "level": "medium"
+                }
+            ],
+            "options": [
+                "عين",
+                "يد",
+                "رجل",
+                "أذن"
+            ],
+            "correct_answer": "عين"
+        },
+        {
+            "word": "أذن",
+            "translation_english": "Ear",
+            "translation_native": "Ear",
+            "pronunciation": "udhun",
+            "examples": [
+                {
+                    "sentence": "وضعت سماعة الموسيقى في أذن لسماع الأغاني",
+                    "translation_english": "I put the music headphone in my ear to hear songs.",
+                    "translation_native": "I put the music headphone in my ear to hear songs.",
+                    "sentence_parts": [
+                        "وضعت",
+                        "سماعة",
+                        "الموسيقى",
+                        "في",
+                        "أذن",
+                        "لسماع",
+                        "الأغاني"
+                    ],
+                    "level": "medium"
+                }
+            ],
+            "options": [
+                "أذن",
+                "يد",
+                "رجل",
+                "عين"
+            ],
+            "correct_answer": "أذن"
+        },
+        {
+            "word": "كرة",
+            "translation_english": "Ball",
+            "translation_native": "Ball",
+            "pronunciation": "kura",
+            "examples": [
+                {
+                    "sentence": "ركلت كرة القدم بقوة في ملعب المدرسة",
+                    "translation_english": "I kicked the soccer ball strongly in the school stadium.",
+                    "translation_native": "I kicked the soccer ball strongly in the school stadium.",
+                    "sentence_parts": [
+                        "ركلت",
+                        "كرة",
+                        "القدم",
+                        "بقوة",
+                        "في",
+                        "ملعب",
+                        "المدرسة"
+                    ],
+                    "level": "medium"
+                }
+            ],
+            "options": [
+                "كرة",
+                "مضرب",
+                "شبكة",
+                "قبعة"
+            ],
+            "correct_answer": "كرة"
+        },
+        {
+            "word": "مضرب",
+            "translation_english": "Racket",
+            "translation_native": "Racket",
+            "pronunciation": "midrab",
+            "examples": [
+                {
+                    "sentence": "كسرت مضرب التنس أثناء المباراة النهائية اليوم",
+                    "translation_english": "I broke the tennis racket during the final match today.",
+                    "translation_native": "I broke the tennis racket during the final match today.",
+                    "sentence_parts": [
+                        "كسرت",
+                        "مضرب",
+                        "التنس",
+                        "أثناء",
+                        "المباراة",
+                        "النهائية",
+                        "اليوم"
+                    ],
+                    "level": "medium"
+                }
+            ],
+            "options": [
+                "مضرب",
+                "كرة",
+                "شبكة",
+                "قبعة"
+            ],
+            "correct_answer": "مضرب"
+        },
+        {
+            "word": "شبكة",
+            "translation_english": "Net",
+            "translation_native": "Net",
+            "pronunciation": "shabaka",
+            "examples": [
+                {
+                    "sentence": "علق المضرب في شبكة الملعب أثناء اللعب",
+                    "translation_english": "The racket got stuck in the stadium net while playing.",
+                    "translation_native": "The racket got stuck in the stadium net while playing.",
+                    "sentence_parts": [
+                        "علق",
+                        "المضرب",
+                        "في",
+                        "شبكة",
+                        "الملعب",
+                        "أثناء",
+                        "اللعب"
+                    ],
+                    "level": "medium"
+                }
+            ],
+            "options": [
+                "شبكة",
+                "كرة",
+                "مضرب",
+                "قبعة"
+            ],
+            "correct_answer": "شبكة"
+        },
+        {
+            "word": "قلم",
+            "translation_english": "Pen",
+            "translation_native": "Pen",
+            "pronunciation": "qalam",
+            "examples": [
+                {
+                    "sentence": "كتبت اسمي بقلم الحبر في دفتر الملاحظات",
+                    "translation_english": "I wrote my name with an ink pen in the notebook.",
+                    "translation_native": "I wrote my name with an ink pen in the notebook.",
+                    "sentence_parts": [
+                        "كتبت",
+                        "اسمي",
+                        "بقلم",
+                        "الحبر",
+                        "في",
+                        "دفتر",
+                        "الملاحظات"
+                    ],
+                    "level": "medium"
+                }
+            ],
+            "options": [
+                "قلم",
+                "ورقة",
+                "ممحاة",
+                "مسطرة"
+            ],
+            "correct_answer": "قلم"
+        },
+        {
+            "word": "ورقة",
+            "translation_english": "Paper",
+            "translation_native": "Paper",
+            "pronunciation": "waraqa",
+            "examples": [
+                {
+                    "sentence": "وضعت ورقة الاختبار على مكتب المعلم الكبير",
+                    "translation_english": "I placed the test paper on the big teacher desk.",
+                    "translation_native": "I placed the test paper on the big teacher desk.",
+                    "sentence_parts": [
+                        "وضعت",
+                        "ورقة",
+                        "الاختبار",
+                        "على",
+                        "مكتب",
+                        "المعلم",
+                        "الكبير"
+                    ],
+                    "level": "medium"
+                }
+            ],
+            "options": [
+                "ورقة",
+                "قلم",
+                "ممحاة",
+                "مسطرة"
+            ],
+            "correct_answer": "ورقة"
+        },
+        {
+            "word": "ممحاة",
+            "translation_english": "Eraser",
+            "translation_native": "Eraser",
+            "pronunciation": "mimhat",
+            "examples": [
+                {
+                    "sentence": "استخدمت ممحاة الرصاص لتصحيح خطأ في الرسم",
+                    "translation_english": "I used the lead eraser to correct a mistake in the drawing.",
+                    "translation_native": "I used the lead eraser to correct a mistake in the drawing.",
+                    "sentence_parts": [
+                        "استخدمت",
+                        "ممحاة",
+                        "الرصاص",
+                        "لتصحيح",
+                        "خطأ",
+                        "في",
+                        "الرسم"
+                    ],
+                    "level": "medium"
+                }
+            ],
+            "options": [
+                "ممحاة",
+                "قلم",
+                "ورقة",
+                "مسطرة"
+            ],
+            "correct_answer": "ممحاة"
+        },
+        {
+            "word": "مسطرة",
+            "translation_english": "Ruler",
+            "translation_native": "Ruler",
+            "pronunciation": "mastara",
+            "examples": [
+                {
+                    "sentence": "رسمت خطاً مستقيماً بمسطرة الخشب في الصف",
+                    "translation_english": "I drew a straight line with a wood ruler in class.",
+                    "translation_native": "I drew a straight line with a wood ruler in class.",
+                    "sentence_parts": [
+                        "رسمت",
+                        "خطاً",
+                        "مستقيماً",
+                        "بمسطرة",
+                        "الخشب",
+                        "في",
+                        "الصف"
+                    ],
+                    "level": "medium"
+                }
+            ],
+            "options": [
+                "مسطرة",
+                "قلم",
+                "ورقة",
+                "ممحاة"
+            ],
+            "correct_answer": "مسطرة"
+        }
+    ]
+}

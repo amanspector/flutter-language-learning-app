@@ -1,0 +1,3772 @@
+{
+    "metadata": {
+        "language": "Spanish",
+        "native_language": "English",
+        "level": "Advance",
+        "category": "travel",
+        "total_words": 100
+    },
+    "words": [
+        {
+            "word": "el itinerario",
+            "translation_english": "the itinerary",
+            "translation_native": "the itinerary",
+            "pronunciation": "",
+            "examples": [
+                {
+                    "sentence": "Confirmé el itinerario del vuelo antes de hacer el check-in en línea.",
+                    "translation_english": "I confirmed the flight itinerary before checking in online.",
+                    "translation_native": "I confirmed the flight itinerary before checking in online.",
+                    "sentence_parts": [
+                        "Confirmé",
+                        "el",
+                        "itinerario",
+                        "del",
+                        "vuelo",
+                        "antes",
+                        "de",
+                        "hacer",
+                        "el",
+                        "check-in",
+                        "en",
+                        "línea."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "el itinerario",
+                "el equipaje",
+                "el pasaporte",
+                "el asiento"
+            ],
+            "correct_answer": "el itinerario"
+        },
+        {
+            "word": "el equipaje de mano",
+            "translation_english": "carry-on luggage",
+            "translation_native": "carry-on luggage",
+            "pronunciation": "",
+            "examples": [
+                {
+                    "sentence": "Metí mi laptop y los auriculares en el equipaje de mano para el vuelo.",
+                    "translation_english": "I put my laptop and headphones in the carry-on luggage for the flight.",
+                    "translation_native": "I put my laptop and headphones in the carry-on luggage for the flight.",
+                    "sentence_parts": [
+                        "Metí",
+                        "mi",
+                        "laptop",
+                        "y",
+                        "los",
+                        "auriculares",
+                        "en",
+                        "el",
+                        "equipaje",
+                        "de",
+                        "mano",
+                        "para",
+                        "el",
+                        "vuelo."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "el equipaje de mano",
+                "el maletero",
+                "el bolsillo",
+                "el compartimento"
+            ],
+            "correct_answer": "el equipaje de mano"
+        },
+        {
+            "word": "el alojamiento",
+            "translation_english": "accommodation / lodging",
+            "translation_native": "accommodation / lodging",
+            "pronunciation": "",
+            "examples": [
+                {
+                    "sentence": "Reservamos el alojamiento cerca del centro histórico para estar cerca de los monumentos.",
+                    "translation_english": "We booked the accommodation near the historic center to be close to the monuments.",
+                    "translation_native": "We booked the accommodation near the historic center to be close to the monuments.",
+                    "sentence_parts": [
+                        "Reservamos",
+                        "el",
+                        "alojamiento",
+                        "cerca",
+                        "del",
+                        "centro",
+                        "histórico",
+                        "para",
+                        "estar",
+                        "cerca",
+                        "de",
+                        "los",
+                        "monumentos."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "el alojamiento",
+                "el transporte",
+                "el restaurante",
+                "el museo"
+            ],
+            "correct_answer": "el alojamiento"
+        },
+        {
+            "word": "el pasaporte",
+            "translation_english": "passport",
+            "translation_native": "passport",
+            "pronunciation": "",
+            "examples": [
+                {
+                    "sentence": "El oficial de aduanas revisó mi pasaporte y estampó el sello de entrada.",
+                    "translation_english": "The customs officer checked my passport and stamped the entry seal.",
+                    "translation_native": "The customs officer checked my passport and stamped the entry seal.",
+                    "sentence_parts": [
+                        "El",
+                        "oficial",
+                        "de",
+                        "aduanas",
+                        "revisó",
+                        "mi",
+                        "pasaporte",
+                        "y",
+                        "estampó",
+                        "el",
+                        "sello",
+                        "de",
+                        "entrada."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "el pasaporte",
+                "el boleto",
+                "la visa",
+                "el permiso"
+            ],
+            "correct_answer": "el pasaporte"
+        },
+        {
+            "word": "la aduana",
+            "translation_english": "customs",
+            "translation_native": "customs",
+            "pronunciation": "",
+            "examples": [
+                {
+                    "sentence": "Declaré los regalos comprados en la aduana antes de salir del aeropuerto.",
+                    "translation_english": "I declared the purchased gifts at customs before leaving the airport.",
+                    "translation_native": "I declared the purchased gifts at customs before leaving the airport.",
+                    "sentence_parts": [
+                        "Declaré",
+                        "los",
+                        "regalos",
+                        "comprados",
+                        "en",
+                        "la",
+                        "aduana",
+                        "antes",
+                        "de",
+                        "salir",
+                        "del",
+                        "aeropuerto."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "la aduana",
+                "la terminal",
+                "la tienda",
+                "la sala"
+            ],
+            "correct_answer": "la aduana"
+        },
+        {
+            "word": "el transbordo",
+            "translation_english": "layover / transfer",
+            "translation_native": "layover / transfer",
+            "pronunciation": "",
+            "examples": [
+                {
+                    "sentence": "Perdimos el transbordo en Ciudad de México porque el primer vuelo llegó tarde.",
+                    "translation_english": "We missed the transfer in Mexico City because the first flight arrived late.",
+                    "translation_native": "We missed the transfer in Mexico City because the first flight arrived late.",
+                    "sentence_parts": [
+                        "Perdimos",
+                        "el",
+                        "transbordo",
+                        "en",
+                        "Ciudad",
+                        "de",
+                        "México",
+                        "porque",
+                        "el",
+                        "primer",
+                        "vuelo",
+                        "llegó",
+                        "tarde."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "el transbordo",
+                "el despegue",
+                "el aterrizaje",
+                "el embarque"
+            ],
+            "correct_answer": "el transbordo"
+        },
+        {
+            "word": "el albergue juvenil",
+            "translation_english": "youth hostel",
+            "translation_native": "youth hostel",
+            "pronunciation": "",
+            "examples": [
+                {
+                    "sentence": "Compartí habitación con mochileros de cinco países distintos en el albergue juvenil.",
+                    "translation_english": "I shared a room with backpackers from five different countries at the youth hostel.",
+                    "translation_native": "I shared a room with backpackers from five different countries at the youth hostel.",
+                    "sentence_parts": [
+                        "Compartí",
+                        "habitación",
+                        "con",
+                        "mochileros",
+                        "de",
+                        "cinco",
+                        "países",
+                        "distintos",
+                        "en",
+                        "el",
+                        "albergue",
+                        "juvenil."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "el albergue juvenil",
+                "el hotel boutique",
+                "el apartamento",
+                "el resort"
+            ],
+            "correct_answer": "el albergue juvenil"
+        },
+        {
+            "word": "el mapa interactivo",
+            "translation_english": "interactive map",
+            "translation_native": "interactive map",
+            "pronunciation": "",
+            "examples": [
+                {
+                    "sentence": "Usé el mapa interactivo del metro para calcular los transbordos sin perderme.",
+                    "translation_english": "I used the interactive subway map to plan the transfers without getting lost.",
+                    "translation_native": "I used the interactive subway map to plan the transfers without getting lost.",
+                    "sentence_parts": [
+                        "Usé",
+                        "el",
+                        "mapa",
+                        "interactivo",
+                        "del",
+                        "metro",
+                        "para",
+                        "calcular",
+                        "los",
+                        "transbordos",
+                        "sin",
+                        "perderme."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "el mapa interactivo",
+                "el folleto",
+                "el cartel",
+                "el directorio"
+            ],
+            "correct_answer": "el mapa interactivo"
+        },
+        {
+            "word": "el alquiler de bicicletas",
+            "translation_english": "bicycle rental",
+            "translation_native": "bicycle rental",
+            "pronunciation": "",
+            "examples": [
+                {
+                    "sentence": "Usamos el alquiler de bicicletas para recorrer el malecón costero en una hora.",
+                    "translation_english": "We used the bicycle rental to ride along the coastal promenade in one hour.",
+                    "translation_native": "We used the bicycle rental to ride along the coastal promenade in one hour.",
+                    "sentence_parts": [
+                        "Usamos",
+                        "el",
+                        "alquiler",
+                        "de",
+                        "bicicletas",
+                        "para",
+                        "recorrer",
+                        "el",
+                        "malecón",
+                        "costero",
+                        "en",
+                        "una",
+                        "hora."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "el alquiler de bicicletas",
+                "el servicio de taxi",
+                "el transporte público",
+                "el tour en autobús"
+            ],
+            "correct_answer": "el alquiler de bicicletas"
+        },
+        {
+            "word": "la tarjeta de embarque",
+            "translation_english": "boarding pass",
+            "translation_native": "boarding pass",
+            "pronunciation": "",
+            "examples": [
+                {
+                    "sentence": "Escaneé la tarjeta de embarque digital desde mi celular en la puerta de salida.",
+                    "translation_english": "I scanned the digital boarding pass from my phone at the departure gate.",
+                    "translation_native": "I scanned the digital boarding pass from my phone at the departure gate.",
+                    "sentence_parts": [
+                        "Escaneé",
+                        "la",
+                        "tarjeta",
+                        "de",
+                        "embarque",
+                        "digital",
+                        "desde",
+                        "mi",
+                        "celular",
+                        "en",
+                        "la",
+                        "puerta",
+                        "de",
+                        "salida."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "la tarjeta de embarque",
+                "la identificación",
+                "la reserva",
+                "la etiqueta"
+            ],
+            "correct_answer": "la tarjeta de embarque"
+        },
+        {
+            "word": "el crucero",
+            "translation_english": "cruise ship / cruise",
+            "translation_native": "cruise ship / cruise",
+            "pronunciation": "",
+            "examples": [
+                {
+                    "sentence": "El crucero atracó en Cartagena y bajamos para explorar el casco histórico amurallado.",
+                    "translation_english": "The cruise ship docked in Cartagena and we got off to explore the walled historic center.",
+                    "translation_native": "The cruise ship docked in Cartagena and we got off to explore the walled historic center.",
+                    "sentence_parts": [
+                        "El",
+                        "crucero",
+                        "atracó",
+                        "en",
+                        "Cartagena",
+                        "y",
+                        "bajamos",
+                        "para",
+                        "explorar",
+                        "el",
+                        "casco",
+                        "histórico",
+                        "amurallado."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "el crucero",
+                "el ferri",
+                "el yate",
+                "el carguero"
+            ],
+            "correct_answer": "el crucero"
+        },
+        {
+            "word": "el metro",
+            "translation_english": "subway / metro",
+            "translation_native": "subway / metro",
+            "pronunciation": "",
+            "examples": [
+                {
+                    "sentence": "Tomé el metro desde el aeropuerto hasta el zócalo usando la tarjeta recargable.",
+                    "translation_english": "I took the subway from the airport to the main square using the rechargeable card.",
+                    "translation_native": "I took the subway from the airport to the main square using the rechargeable card.",
+                    "sentence_parts": [
+                        "Tomé",
+                        "el",
+                        "metro",
+                        "desde",
+                        "el",
+                        "aeropuerto",
+                        "hasta",
+                        "el",
+                        "zócalo",
+                        "usando",
+                        "la",
+                        "tarjeta",
+                        "recargable."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "el metro",
+                "el tranvía",
+                "el teleférico",
+                "el funicular"
+            ],
+            "correct_answer": "el metro"
+        },
+        {
+            "word": "la excursión",
+            "translation_english": "excursion / day trip",
+            "translation_native": "excursion / day trip",
+            "pronunciation": "",
+            "examples": [
+                {
+                    "sentence": "La excursión a las ruinas mayas incluía guía bilingüe y transporte desde el hotel.",
+                    "translation_english": "The excursion to the Mayan ruins included a bilingual guide and transportation from the hotel.",
+                    "translation_native": "The excursion to the Mayan ruins included a bilingual guide and transportation from the hotel.",
+                    "sentence_parts": [
+                        "La",
+                        "excursión",
+                        "a",
+                        "las",
+                        "ruinas",
+                        "mayas",
+                        "incluía",
+                        "guía",
+                        "bilingüe",
+                        "y",
+                        "transporte",
+                        "desde",
+                        "el",
+                        "hotel."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "la excursión",
+                "la conferencia",
+                "la visita",
+                "la caminata"
+            ],
+            "correct_answer": "la excursión"
+        },
+        {
+            "word": "el hospedaje",
+            "translation_english": "lodging / stay",
+            "translation_native": "lodging / stay",
+            "pronunciation": "",
+            "examples": [
+                {
+                    "sentence": "El hospedaje en casa de familia local incluía desayuno típico cada mañana.",
+                    "translation_english": "The lodging at a local family home included a traditional breakfast every morning.",
+                    "translation_native": "The lodging at a local family home included a traditional breakfast every morning.",
+                    "sentence_parts": [
+                        "El",
+                        "hospedaje",
+                        "en",
+                        "casa",
+                        "de",
+                        "familia",
+                        "local",
+                        "incluía",
+                        "desayuno",
+                        "típico",
+                        "cada",
+                        "mañana."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "el hospedaje",
+                "el camping",
+                "el recorrido",
+                "el contrato"
+            ],
+            "correct_answer": "el hospedaje"
+        },
+        {
+            "word": "el boleto de ida y vuelta",
+            "translation_english": "round-trip ticket",
+            "translation_native": "round-trip ticket",
+            "pronunciation": "",
+            "examples": [
+                {
+                    "sentence": "Compré el boleto de ida y vuelta con un mes de anticipación para ahorrar.",
+                    "translation_english": "I bought the round-trip ticket one month in advance to save money.",
+                    "translation_native": "I bought the round-trip ticket one month in advance to save money.",
+                    "sentence_parts": [
+                        "Compré",
+                        "el",
+                        "boleto",
+                        "de",
+                        "ida",
+                        "y",
+                        "vuelta",
+                        "con",
+                        "un",
+                        "mes",
+                        "de",
+                        "anticipación",
+                        "para",
+                        "ahorrar."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "el boleto de ida y vuelta",
+                "el pase mensual",
+                "el abono de tren",
+                "el seguro de viaje"
+            ],
+            "correct_answer": "el boleto de ida y vuelta"
+        },
+        {
+            "word": "el tipo de cambio",
+            "translation_english": "exchange rate",
+            "translation_native": "exchange rate",
+            "pronunciation": "",
+            "examples": [
+                {
+                    "sentence": "Verifiqué el tipo de cambio antes de cambiar dólares por pesos en la casa de cambio.",
+                    "translation_english": "I checked the exchange rate before converting dollars to pesos at the currency exchange.",
+                    "translation_native": "I checked the exchange rate before converting dollars to pesos at the currency exchange.",
+                    "sentence_parts": [
+                        "Verifiqué",
+                        "el",
+                        "tipo",
+                        "de",
+                        "cambio",
+                        "antes",
+                        "de",
+                        "cambiar",
+                        "dólares",
+                        "por",
+                        "pesos",
+                        "en",
+                        "la",
+                        "casa",
+                        "de",
+                        "cambio."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "el tipo de cambio",
+                "el precio fijo",
+                "el descuento",
+                "el impuesto"
+            ],
+            "correct_answer": "el tipo de cambio"
+        },
+        {
+            "word": "el recargo",
+            "translation_english": "surcharge / extra charge",
+            "translation_native": "surcharge / extra charge",
+            "pronunciation": "",
+            "examples": [
+                {
+                    "sentence": "El hotel aplicó un recargo por hacer el check-in antes de las doce del mediodía.",
+                    "translation_english": "The hotel applied a surcharge for checking in before noon.",
+                    "translation_native": "The hotel applied a surcharge for checking in before noon.",
+                    "sentence_parts": [
+                        "El",
+                        "hotel",
+                        "aplicó",
+                        "un",
+                        "recargo",
+                        "por",
+                        "hacer",
+                        "el",
+                        "check-in",
+                        "antes",
+                        "de",
+                        "las",
+                        "doce",
+                        "del",
+                        "mediodía."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "el recargo",
+                "el reembolso",
+                "el depósito",
+                "el descuento"
+            ],
+            "correct_answer": "el recargo"
+        },
+        {
+            "word": "la propina",
+            "translation_english": "tip / gratuity",
+            "translation_native": "tip / gratuity",
+            "pronunciation": "",
+            "examples": [
+                {
+                    "sentence": "Dejamos la propina en efectivo porque el mesero nos recomendó platillos auténticos del menú.",
+                    "translation_english": "We left the tip in cash because the waiter recommended authentic dishes from the menu.",
+                    "translation_native": "We left the tip in cash because the waiter recommended authentic dishes from the menu.",
+                    "sentence_parts": [
+                        "Dejamos",
+                        "la",
+                        "propina",
+                        "en",
+                        "efectivo",
+                        "porque",
+                        "el",
+                        "mesero",
+                        "nos",
+                        "recomendó",
+                        "platillos",
+                        "auténticos",
+                        "del",
+                        "menú."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "la propina",
+                "la cuenta",
+                "la factura",
+                "la reserva"
+            ],
+            "correct_answer": "la propina"
+        },
+        {
+            "word": "el seguro de viaje",
+            "translation_english": "travel insurance",
+            "translation_native": "travel insurance",
+            "pronunciation": "",
+            "examples": [
+                {
+                    "sentence": "El seguro de viaje cubrió los gastos médicos después de torcerme el tobillo en las ruinas.",
+                    "translation_english": "Travel insurance covered the medical expenses after I twisted my ankle at the ruins.",
+                    "translation_native": "Travel insurance covered the medical expenses after I twisted my ankle at the ruins.",
+                    "sentence_parts": [
+                        "El",
+                        "seguro",
+                        "de",
+                        "viaje",
+                        "cubrió",
+                        "los",
+                        "gastos",
+                        "médicos",
+                        "después",
+                        "de",
+                        "torcerme",
+                        "el",
+                        "tobillo",
+                        "en",
+                        "las",
+                        "ruinas."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "el seguro de viaje",
+                "el pasaporte",
+                "el itinerario",
+                "el visado"
+            ],
+            "correct_answer": "el seguro de viaje"
+        },
+        {
+            "word": "la sala de espera",
+            "translation_english": "waiting room / lounge",
+            "translation_native": "waiting room / lounge",
+            "pronunciation": "",
+            "examples": [
+                {
+                    "sentence": "Cargué mi celular en la sala de espera mientras anunciaban el retraso del vuelo.",
+                    "translation_english": "I charged my phone in the waiting lounge while they announced the flight delay.",
+                    "translation_native": "I charged my phone in the waiting lounge while they announced the flight delay.",
+                    "sentence_parts": [
+                        "Cargué",
+                        "mi",
+                        "celular",
+                        "en",
+                        "la",
+                        "sala",
+                        "de",
+                        "espera",
+                        "mientras",
+                        "anunciaban",
+                        "el",
+                        "retraso",
+                        "del",
+                        "vuelo."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "la sala de espera",
+                "la cabina",
+                "la pista",
+                "la terminal"
+            ],
+            "correct_answer": "la sala de espera"
+        },
+        {
+            "word": "el recepcionista",
+            "translation_english": "receptionist",
+            "translation_native": "receptionist",
+            "pronunciation": "",
+            "examples": [
+                {
+                    "sentence": "El recepcionista nos asignó una habitación con vista al mar al hacer el check-in.",
+                    "translation_english": "The receptionist assigned us a room with an ocean view at check-in.",
+                    "translation_native": "The receptionist assigned us a room with an ocean view at check-in.",
+                    "sentence_parts": [
+                        "El",
+                        "recepcionista",
+                        "nos",
+                        "asignó",
+                        "una",
+                        "habitación",
+                        "con",
+                        "vista",
+                        "al",
+                        "mar",
+                        "al",
+                        "hacer",
+                        "el",
+                        "check-in."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "el recepcionista",
+                "el conserje",
+                "el botones",
+                "el gerente"
+            ],
+            "correct_answer": "el recepcionista"
+        },
+        {
+            "word": "la tarifa",
+            "translation_english": "rate / fare / fee",
+            "translation_native": "rate / fare / fee",
+            "pronunciation": "",
+            "examples": [
+                {
+                    "sentence": "La tarifa de datos internacionales era tan alta que usé solo WiFi en el viaje.",
+                    "translation_english": "The international data rate was so high that I only used WiFi on the trip.",
+                    "translation_native": "The international data rate was so high that I only used WiFi on the trip.",
+                    "sentence_parts": [
+                        "La",
+                        "tarifa",
+                        "de",
+                        "datos",
+                        "internacionales",
+                        "era",
+                        "tan",
+                        "alta",
+                        "que",
+                        "usé",
+                        "solo",
+                        "WiFi",
+                        "en",
+                        "el",
+                        "viaje."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "la tarifa",
+                "la señal",
+                "la cobertura",
+                "la velocidad"
+            ],
+            "correct_answer": "la tarifa"
+        },
+        {
+            "word": "la ruta turística",
+            "translation_english": "tourist route / sightseeing route",
+            "translation_native": "tourist route / sightseeing route",
+            "pronunciation": "",
+            "examples": [
+                {
+                    "sentence": "Seguimos la ruta turística marcada en el mapa para no perdernos ningún monumento importante.",
+                    "translation_english": "We followed the tourist route marked on the map so we wouldn't miss any important monument.",
+                    "translation_native": "We followed the tourist route marked on the map so we wouldn't miss any important monument.",
+                    "sentence_parts": [
+                        "Seguimos",
+                        "la",
+                        "ruta",
+                        "turística",
+                        "marcada",
+                        "en",
+                        "el",
+                        "mapa",
+                        "para",
+                        "no",
+                        "perdernos",
+                        "ningún",
+                        "monumento",
+                        "importante."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "la ruta turística",
+                "la autopista",
+                "la avenida",
+                "la carretera"
+            ],
+            "correct_answer": "la ruta turística"
+        },
+        {
+            "word": "el carril bici",
+            "translation_english": "bike lane / cycle path",
+            "translation_native": "bike lane / cycle path",
+            "pronunciation": "",
+            "examples": [
+                {
+                    "sentence": "Pedaleé por el carril bici que bordea el río para llegar al mercado central.",
+                    "translation_english": "I cycled along the bike lane that runs alongside the river to reach the central market.",
+                    "translation_native": "I cycled along the bike lane that runs alongside the river to reach the central market.",
+                    "sentence_parts": [
+                        "Pedaleé",
+                        "por",
+                        "el",
+                        "carril",
+                        "bici",
+                        "que",
+                        "bordea",
+                        "el",
+                        "río",
+                        "para",
+                        "llegar",
+                        "al",
+                        "mercado",
+                        "central."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "el carril bici",
+                "el andén",
+                "el pasillo",
+                "el callejón"
+            ],
+            "correct_answer": "el carril bici"
+        },
+        {
+            "word": "el tren de alta velocidad",
+            "translation_english": "high-speed train",
+            "translation_native": "high-speed train",
+            "pronunciation": "",
+            "examples": [
+                {
+                    "sentence": "El tren de alta velocidad nos llevó de Madrid a Barcelona en menos de tres horas.",
+                    "translation_english": "The high-speed train took us from Madrid to Barcelona in less than three hours.",
+                    "translation_native": "The high-speed train took us from Madrid to Barcelona in less than three hours.",
+                    "sentence_parts": [
+                        "El",
+                        "tren",
+                        "de",
+                        "alta",
+                        "velocidad",
+                        "nos",
+                        "llevó",
+                        "de",
+                        "Madrid",
+                        "a",
+                        "Barcelona",
+                        "en",
+                        "menos",
+                        "de",
+                        "tres",
+                        "horas."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "el tren de alta velocidad",
+                "el autocar",
+                "el tranvía",
+                "el funicular"
+            ],
+            "correct_answer": "el tren de alta velocidad"
+        },
+        {
+            "word": "el descuento estudiantil",
+            "translation_english": "student discount",
+            "translation_native": "student discount",
+            "pronunciation": "",
+            "examples": [
+                {
+                    "sentence": "Presenté mi credencial escolar y obtuve el descuento estudiantil en la entrada al museo.",
+                    "translation_english": "I showed my student ID and got the student discount at the museum entrance.",
+                    "translation_native": "I showed my student ID and got the student discount at the museum entrance.",
+                    "sentence_parts": [
+                        "Presenté",
+                        "mi",
+                        "credencial",
+                        "escolar",
+                        "y",
+                        "obtuve",
+                        "el",
+                        "descuento",
+                        "estudiantil",
+                        "en",
+                        "la",
+                        "entrada",
+                        "al",
+                        "museo."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "el descuento estudiantil",
+                "el pase gratuito",
+                "el reembolso",
+                "el cupón"
+            ],
+            "correct_answer": "el descuento estudiantil"
+        },
+        {
+            "word": "el mercado de artesanías",
+            "translation_english": "craft market / artisan market",
+            "translation_native": "craft market / artisan market",
+            "pronunciation": "",
+            "examples": [
+                {
+                    "sentence": "Regatié el precio de un tapete tejido a mano en el mercado de artesanías.",
+                    "translation_english": "I haggled over the price of a hand-woven rug at the craft market.",
+                    "translation_native": "I haggled over the price of a hand-woven rug at the craft market.",
+                    "sentence_parts": [
+                        "Regatié",
+                        "el",
+                        "precio",
+                        "de",
+                        "un",
+                        "tapete",
+                        "tejido",
+                        "a",
+                        "mano",
+                        "en",
+                        "el",
+                        "mercado",
+                        "de",
+                        "artesanías."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "el mercado de artesanías",
+                "el centro comercial",
+                "la tienda duty-free",
+                "el supermercado"
+            ],
+            "correct_answer": "el mercado de artesanías"
+        },
+        {
+            "word": "el retraso",
+            "translation_english": "delay",
+            "translation_native": "delay",
+            "pronunciation": "",
+            "examples": [
+                {
+                    "sentence": "El retraso del vuelo nos hizo perder la reserva del restaurante aquella noche.",
+                    "translation_english": "The flight delay made us miss the restaurant reservation that evening.",
+                    "translation_native": "The flight delay made us miss the restaurant reservation that evening.",
+                    "sentence_parts": [
+                        "El",
+                        "retraso",
+                        "del",
+                        "vuelo",
+                        "nos",
+                        "hizo",
+                        "perder",
+                        "la",
+                        "reserva",
+                        "del",
+                        "restaurante",
+                        "aquella",
+                        "noche."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "el retraso",
+                "el despegue",
+                "el abordaje",
+                "el tráfico"
+            ],
+            "correct_answer": "el retraso"
+        },
+        {
+            "word": "la embajada",
+            "translation_english": "embassy",
+            "translation_native": "embassy",
+            "pronunciation": "",
+            "examples": [
+                {
+                    "sentence": "Fui a la embajada a solicitar un pasaporte de emergencia tras perder el mío.",
+                    "translation_english": "I went to the embassy to request an emergency passport after losing mine.",
+                    "translation_native": "I went to the embassy to request an emergency passport after losing mine.",
+                    "sentence_parts": [
+                        "Fui",
+                        "a",
+                        "la",
+                        "embajada",
+                        "a",
+                        "solicitar",
+                        "un",
+                        "pasaporte",
+                        "de",
+                        "emergencia",
+                        "tras",
+                        "perder",
+                        "el",
+                        "mío."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "la embajada",
+                "la comisaría",
+                "la aduana",
+                "la oficina de turismo"
+            ],
+            "correct_answer": "la embajada"
+        },
+        {
+            "word": "la urgencia",
+            "translation_english": "emergency room / urgent care",
+            "translation_native": "emergency room / urgent care",
+            "pronunciation": "",
+            "examples": [
+                {
+                    "sentence": "Me llevaron a urgencias después de sufrir una reacción alérgica grave al marisco.",
+                    "translation_english": "I was taken to the emergency room after having a severe allergic reaction to shellfish.",
+                    "translation_native": "I was taken to the emergency room after having a severe allergic reaction to shellfish.",
+                    "sentence_parts": [
+                        "Me",
+                        "llevaron",
+                        "a",
+                        "urgencias",
+                        "después",
+                        "de",
+                        "sufrir",
+                        "una",
+                        "reacción",
+                        "alérgica",
+                        "grave",
+                        "al",
+                        "marisco."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "urgencias",
+                "la farmacia",
+                "la clínica",
+                "la recepción"
+            ],
+            "correct_answer": "urgencias"
+        },
+        {
+            "word": "el robo",
+            "translation_english": "theft / robbery",
+            "translation_native": "theft / robbery",
+            "pronunciation": "",
+            "examples": [
+                {
+                    "sentence": "Denuncié el robo de mi mochila en la comisaría más cercana para el seguro.",
+                    "translation_english": "I reported the theft of my backpack at the nearest police station for insurance purposes.",
+                    "translation_native": "I reported the theft of my backpack at the nearest police station for insurance purposes.",
+                    "sentence_parts": [
+                        "Denuncié",
+                        "el",
+                        "robo",
+                        "de",
+                        "mi",
+                        "mochila",
+                        "en",
+                        "la",
+                        "comisaría",
+                        "más",
+                        "cercana",
+                        "para",
+                        "el",
+                        "seguro."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "el robo",
+                "el accidente",
+                "el extravío",
+                "el daño"
+            ],
+            "correct_answer": "el robo"
+        },
+        {
+            "word": "la comisaría",
+            "translation_english": "police station",
+            "translation_native": "police station",
+            "pronunciation": "",
+            "examples": [
+                {
+                    "sentence": "El turista fue a la comisaría a presentar la denuncia por documentos robados.",
+                    "translation_english": "The tourist went to the police station to file a report for stolen documents.",
+                    "translation_native": "The tourist went to the police station to file a report for stolen documents.",
+                    "sentence_parts": [
+                        "El",
+                        "turista",
+                        "fue",
+                        "a",
+                        "la",
+                        "comisaría",
+                        "a",
+                        "presentar",
+                        "la",
+                        "denuncia",
+                        "por",
+                        "documentos",
+                        "robados."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "la comisaría",
+                "la embajada",
+                "la aduana",
+                "la clínica"
+            ],
+            "correct_answer": "la comisaría"
+        },
+        {
+            "word": "el botiquín",
+            "translation_english": "first aid kit",
+            "translation_native": "first aid kit",
+            "pronunciation": "",
+            "examples": [
+                {
+                    "sentence": "Saqué vendas y antiséptico del botiquín después de cortarme el pie en la playa.",
+                    "translation_english": "I got bandages and antiseptic from the first aid kit after cutting my foot on the beach.",
+                    "translation_native": "I got bandages and antiseptic from the first aid kit after cutting my foot on the beach.",
+                    "sentence_parts": [
+                        "Saqué",
+                        "vendas",
+                        "y",
+                        "antiséptico",
+                        "del",
+                        "botiquín",
+                        "después",
+                        "de",
+                        "cortarme",
+                        "el",
+                        "pie",
+                        "en",
+                        "la",
+                        "playa."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "el botiquín",
+                "el maletín",
+                "el armario",
+                "el equipaje"
+            ],
+            "correct_answer": "el botiquín"
+        },
+        {
+            "word": "la farmacia de guardia",
+            "translation_english": "24-hour pharmacy / duty pharmacy",
+            "translation_native": "24-hour pharmacy / duty pharmacy",
+            "pronunciation": "",
+            "examples": [
+                {
+                    "sentence": "Busqué la farmacia de guardia más cercana a medianoche para comprar analgésicos.",
+                    "translation_english": "I looked for the nearest 24-hour pharmacy at midnight to buy painkillers.",
+                    "translation_native": "I looked for the nearest 24-hour pharmacy at midnight to buy painkillers.",
+                    "sentence_parts": [
+                        "Busqué",
+                        "la",
+                        "farmacia",
+                        "de",
+                        "guardia",
+                        "más",
+                        "cercana",
+                        "a",
+                        "medianoche",
+                        "para",
+                        "comprar",
+                        "analgésicos."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "la farmacia de guardia",
+                "la clínica privada",
+                "la tienda de conveniencia",
+                "la droguería"
+            ],
+            "correct_answer": "la farmacia de guardia"
+        },
+        {
+            "word": "el alquiler de autos",
+            "translation_english": "car rental",
+            "translation_native": "car rental",
+            "pronunciation": "",
+            "examples": [
+                {
+                    "sentence": "Presenté la licencia internacional en el alquiler de autos para explorar la costa libremente.",
+                    "translation_english": "I showed my international license at the car rental to explore the coast freely.",
+                    "translation_native": "I showed my international license at the car rental to explore the coast freely.",
+                    "sentence_parts": [
+                        "Presenté",
+                        "la",
+                        "licencia",
+                        "internacional",
+                        "en",
+                        "el",
+                        "alquiler",
+                        "de",
+                        "autos",
+                        "para",
+                        "explorar",
+                        "la",
+                        "costa",
+                        "libremente."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "el alquiler de autos",
+                "el estacionamiento",
+                "el taller mecánico",
+                "el puesto de gasolina"
+            ],
+            "correct_answer": "el alquiler de autos"
+        },
+        {
+            "word": "el peaje",
+            "translation_english": "toll",
+            "translation_native": "toll",
+            "pronunciation": "",
+            "examples": [
+                {
+                    "sentence": "Pagamos el peaje con monedas porque la cabina automática no aceptaba tarjetas extranjeras.",
+                    "translation_english": "We paid the toll with coins because the automatic booth didn't accept foreign cards.",
+                    "translation_native": "We paid the toll with coins because the automatic booth didn't accept foreign cards.",
+                    "sentence_parts": [
+                        "Pagamos",
+                        "el",
+                        "peaje",
+                        "con",
+                        "monedas",
+                        "porque",
+                        "la",
+                        "cabina",
+                        "automática",
+                        "no",
+                        "aceptaba",
+                        "tarjetas",
+                        "extranjeras."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "el peaje",
+                "el aparcamiento",
+                "el combustible",
+                "el seguro"
+            ],
+            "correct_answer": "el peaje"
+        },
+        {
+            "word": "el crucero fluvial",
+            "translation_english": "river cruise",
+            "translation_native": "river cruise",
+            "pronunciation": "",
+            "examples": [
+                {
+                    "sentence": "El crucero fluvial por el Amazonas duró tres días con guías especializados en fauna.",
+                    "translation_english": "The river cruise along the Amazon lasted three days with wildlife specialist guides.",
+                    "translation_native": "The river cruise along the Amazon lasted three days with wildlife specialist guides.",
+                    "sentence_parts": [
+                        "El",
+                        "crucero",
+                        "fluvial",
+                        "por",
+                        "el",
+                        "Amazonas",
+                        "duró",
+                        "tres",
+                        "días",
+                        "con",
+                        "guías",
+                        "especializados",
+                        "en",
+                        "fauna."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "el crucero fluvial",
+                "el recorrido terrestre",
+                "el vuelo chárter",
+                "el safari"
+            ],
+            "correct_answer": "el crucero fluvial"
+        },
+        {
+            "word": "el hospedaje de lujo",
+            "translation_english": "luxury accommodation",
+            "translation_native": "luxury accommodation",
+            "pronunciation": "",
+            "examples": [
+                {
+                    "sentence": "El hospedaje de lujo incluía servicio de mayordomo y desayuno buffet ilimitado en la terraza.",
+                    "translation_english": "The luxury accommodation included butler service and unlimited buffet breakfast on the terrace.",
+                    "translation_native": "The luxury accommodation included butler service and unlimited buffet breakfast on the terrace.",
+                    "sentence_parts": [
+                        "El",
+                        "hospedaje",
+                        "de",
+                        "lujo",
+                        "incluía",
+                        "servicio",
+                        "de",
+                        "mayordomo",
+                        "y",
+                        "desayuno",
+                        "buffet",
+                        "ilimitado",
+                        "en",
+                        "la",
+                        "terraza."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "el hospedaje de lujo",
+                "el albergue juvenil",
+                "el camping",
+                "el apartamento compartido"
+            ],
+            "correct_answer": "el hospedaje de lujo"
+        },
+        {
+            "word": "la escala",
+            "translation_english": "layover / stopover",
+            "translation_native": "layover / stopover",
+            "pronunciation": "",
+            "examples": [
+                {
+                    "sentence": "Tuvimos una escala de ocho horas en Bogotá y aprovechamos para recorrer el centro.",
+                    "translation_english": "We had an eight-hour layover in Bogotá and took the chance to explore the city center.",
+                    "translation_native": "We had an eight-hour layover in Bogotá and took the chance to explore the city center.",
+                    "sentence_parts": [
+                        "Tuvimos",
+                        "una",
+                        "escala",
+                        "de",
+                        "ocho",
+                        "horas",
+                        "en",
+                        "Bogotá",
+                        "y",
+                        "aprovechamos",
+                        "para",
+                        "recorrer",
+                        "el",
+                        "centro."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "la escala",
+                "la llegada",
+                "la partida",
+                "la conexión"
+            ],
+            "correct_answer": "la escala"
+        },
+        {
+            "word": "el guía turístico",
+            "translation_english": "tour guide",
+            "translation_native": "tour guide",
+            "pronunciation": "",
+            "examples": [
+                {
+                    "sentence": "El guía turístico narró la historia de cada pirámide mientras subíamos los escalones.",
+                    "translation_english": "The tour guide narrated the history of each pyramid as we climbed the steps.",
+                    "translation_native": "The tour guide narrated the history of each pyramid as we climbed the steps.",
+                    "sentence_parts": [
+                        "El",
+                        "guía",
+                        "turístico",
+                        "narró",
+                        "la",
+                        "historia",
+                        "de",
+                        "cada",
+                        "pirámide",
+                        "mientras",
+                        "subíamos",
+                        "los",
+                        "escalones."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "el guía turístico",
+                "el conductor",
+                "el conserje",
+                "el fotógrafo"
+            ],
+            "correct_answer": "el guía turístico"
+        },
+        {
+            "word": "el visado",
+            "translation_english": "visa",
+            "translation_native": "visa",
+            "pronunciation": "",
+            "examples": [
+                {
+                    "sentence": "Solicité el visado estudiantil en el consulado con tres meses de anticipación.",
+                    "translation_english": "I applied for the student visa at the consulate three months in advance.",
+                    "translation_native": "I applied for the student visa at the consulate three months in advance.",
+                    "sentence_parts": [
+                        "Solicité",
+                        "el",
+                        "visado",
+                        "estudiantil",
+                        "en",
+                        "el",
+                        "consulado",
+                        "con",
+                        "tres",
+                        "meses",
+                        "de",
+                        "anticipación."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "el visado",
+                "el pasaporte",
+                "el permiso",
+                "el contrato"
+            ],
+            "correct_answer": "el visado"
+        },
+        {
+            "word": "el cheque de viajero",
+            "translation_english": "traveler's check",
+            "translation_native": "traveler's check",
+            "pronunciation": "",
+            "examples": [
+                {
+                    "sentence": "Cambié el cheque de viajero en el banco cuando el cajero automático rechazó mi tarjeta.",
+                    "translation_english": "I cashed the traveler's check at the bank when the ATM rejected my card.",
+                    "translation_native": "I cashed the traveler's check at the bank when the ATM rejected my card.",
+                    "sentence_parts": [
+                        "Cambié",
+                        "el",
+                        "cheque",
+                        "de",
+                        "viajero",
+                        "en",
+                        "el",
+                        "banco",
+                        "cuando",
+                        "el",
+                        "cajero",
+                        "automático",
+                        "rechazó",
+                        "mi",
+                        "tarjeta."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "el cheque de viajero",
+                "el billete",
+                "el bono",
+                "el recibo"
+            ],
+            "correct_answer": "el cheque de viajero"
+        },
+        {
+            "word": "el recibo",
+            "translation_english": "receipt",
+            "translation_native": "receipt",
+            "pronunciation": "",
+            "examples": [
+                {
+                    "sentence": "Guardé el recibo de cada compra para solicitar el reembolso del IVA en el aeropuerto.",
+                    "translation_english": "I kept the receipt for every purchase to claim the VAT refund at the airport.",
+                    "translation_native": "I kept the receipt for every purchase to claim the VAT refund at the airport.",
+                    "sentence_parts": [
+                        "Guardé",
+                        "el",
+                        "recibo",
+                        "de",
+                        "cada",
+                        "compra",
+                        "para",
+                        "solicitar",
+                        "el",
+                        "reembolso",
+                        "del",
+                        "IVA",
+                        "en",
+                        "el",
+                        "aeropuerto."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "el recibo",
+                "el catálogo",
+                "el contrato",
+                "el folleto"
+            ],
+            "correct_answer": "el recibo"
+        },
+        {
+            "word": "el cajero automático",
+            "translation_english": "ATM / cash machine",
+            "translation_native": "ATM / cash machine",
+            "pronunciation": "",
+            "examples": [
+                {
+                    "sentence": "El cajero automático del banco local cobró comisión por retirar dinero con mi tarjeta gringa.",
+                    "translation_english": "The local bank's ATM charged a fee for withdrawing money with my foreign card.",
+                    "translation_native": "The local bank's ATM charged a fee for withdrawing money with my foreign card.",
+                    "sentence_parts": [
+                        "El",
+                        "cajero",
+                        "automático",
+                        "del",
+                        "banco",
+                        "local",
+                        "cobró",
+                        "comisión",
+                        "por",
+                        "retirar",
+                        "dinero",
+                        "con",
+                        "mi",
+                        "tarjeta",
+                        "gringa."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "el cajero automático",
+                "el mostrador",
+                "la caja fuerte",
+                "el terminal"
+            ],
+            "correct_answer": "el cajero automático"
+        },
+        {
+            "word": "la habitación doble",
+            "translation_english": "double room",
+            "translation_native": "double room",
+            "pronunciation": "",
+            "examples": [
+                {
+                    "sentence": "Reservamos una habitación doble con dos camas individuales para que cada uno tuviera su espacio.",
+                    "translation_english": "We booked a double room with two single beds so everyone could have their own space.",
+                    "translation_native": "We booked a double room with two single beds so everyone could have their own space.",
+                    "sentence_parts": [
+                        "Reservamos",
+                        "una",
+                        "habitación",
+                        "doble",
+                        "con",
+                        "dos",
+                        "camas",
+                        "individuales",
+                        "para",
+                        "que",
+                        "cada",
+                        "uno",
+                        "tuviera",
+                        "su",
+                        "espacio."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "la habitación doble",
+                "la suite presidencial",
+                "el dormitorio compartido",
+                "la habitación individual"
+            ],
+            "correct_answer": "la habitación doble"
+        },
+        {
+            "word": "la conexión WiFi",
+            "translation_english": "WiFi connection",
+            "translation_native": "WiFi connection",
+            "pronunciation": "",
+            "examples": [
+                {
+                    "sentence": "La conexión WiFi del hostal era tan lenta que no podía subir fotos a Instagram.",
+                    "translation_english": "The hostel's WiFi connection was so slow that I couldn't upload photos to Instagram.",
+                    "translation_native": "The hostel's WiFi connection was so slow that I couldn't upload photos to Instagram.",
+                    "sentence_parts": [
+                        "La",
+                        "conexión",
+                        "WiFi",
+                        "del",
+                        "hostal",
+                        "era",
+                        "tan",
+                        "lenta",
+                        "que",
+                        "no",
+                        "podía",
+                        "subir",
+                        "fotos",
+                        "a",
+                        "Instagram."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "la conexión WiFi",
+                "la señal de celular",
+                "la antena",
+                "la electricidad"
+            ],
+            "correct_answer": "la conexión WiFi"
+        },
+        {
+            "word": "el tour nocturno",
+            "translation_english": "night tour",
+            "translation_native": "night tour",
+            "pronunciation": "",
+            "examples": [
+                {
+                    "sentence": "El tour nocturno por el centro histórico reveló leyendas y pasajes ocultos entre edificios coloniales.",
+                    "translation_english": "The night tour of the historic center revealed legends and hidden passages between colonial buildings.",
+                    "translation_native": "The night tour of the historic center revealed legends and hidden passages between colonial buildings.",
+                    "sentence_parts": [
+                        "El",
+                        "tour",
+                        "nocturno",
+                        "por",
+                        "el",
+                        "centro",
+                        "histórico",
+                        "reveló",
+                        "leyendas",
+                        "y",
+                        "pasajes",
+                        "ocultos",
+                        "entre",
+                        "edificios",
+                        "coloniales."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "el tour nocturno",
+                "el paseo matutino",
+                "la excursión rural",
+                "el recorrido gastronómico"
+            ],
+            "correct_answer": "el tour nocturno"
+        },
+        {
+            "word": "la mochila",
+            "translation_english": "backpack",
+            "translation_native": "backpack",
+            "pronunciation": "",
+            "examples": [
+                {
+                    "sentence": "Distribuí el peso de la mochila con el saco de dormir abajo y la ropa arriba.",
+                    "translation_english": "I distributed the weight of the backpack with the sleeping bag at the bottom and clothes on top.",
+                    "translation_native": "I distributed the weight of the backpack with the sleeping bag at the bottom and clothes on top.",
+                    "sentence_parts": [
+                        "Distribuí",
+                        "el",
+                        "peso",
+                        "de",
+                        "la",
+                        "mochila",
+                        "con",
+                        "el",
+                        "saco",
+                        "de",
+                        "dormir",
+                        "abajo",
+                        "y",
+                        "la",
+                        "ropa",
+                        "arriba."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "la mochila",
+                "la maleta",
+                "la bolsa de mano",
+                "la riñonera"
+            ],
+            "correct_answer": "la mochila"
+        },
+        {
+            "word": "el patrimonio cultural",
+            "translation_english": "cultural heritage",
+            "translation_native": "cultural heritage",
+            "pronunciation": "",
+            "examples": [
+                {
+                    "sentence": "La ciudad fue declarada patrimonio cultural de la humanidad por la UNESCO en los noventa.",
+                    "translation_english": "The city was declared a cultural heritage of humanity by UNESCO in the nineties.",
+                    "translation_native": "The city was declared a cultural heritage of humanity by UNESCO in the nineties.",
+                    "sentence_parts": [
+                        "La",
+                        "ciudad",
+                        "fue",
+                        "declarada",
+                        "patrimonio",
+                        "cultural",
+                        "de",
+                        "la",
+                        "humanidad",
+                        "por",
+                        "la",
+                        "UNESCO",
+                        "en",
+                        "los",
+                        "noventa."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "patrimonio cultural",
+                "zona turística",
+                "reserva natural",
+                "parque nacional"
+            ],
+            "correct_answer": "patrimonio cultural"
+        },
+        {
+            "word": "el hostal",
+            "translation_english": "hostel",
+            "translation_native": "hostel",
+            "pronunciation": "",
+            "examples": [
+                {
+                    "sentence": "El hostal tenía una terraza comunitaria donde los viajeros compartían historias de sus rutas.",
+                    "translation_english": "The hostel had a communal terrace where travelers shared stories about their routes.",
+                    "translation_native": "The hostel had a communal terrace where travelers shared stories about their routes.",
+                    "sentence_parts": [
+                        "El",
+                        "hostal",
+                        "tenía",
+                        "una",
+                        "terraza",
+                        "comunitaria",
+                        "donde",
+                        "los",
+                        "viajeros",
+                        "compartían",
+                        "historias",
+                        "de",
+                        "sus",
+                        "rutas."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "el hostal",
+                "el hotel",
+                "el resort",
+                "el apartamento"
+            ],
+            "correct_answer": "el hostal"
+        },
+        {
+            "word": "el menú del día",
+            "translation_english": "daily set menu",
+            "translation_native": "daily set menu",
+            "pronunciation": "",
+            "examples": [
+                {
+                    "sentence": "Pedimos el menú del día que incluía sopa, plato fuerte y refresco por muy poco dinero.",
+                    "translation_english": "We ordered the daily set menu which included soup, main course, and a drink for very little money.",
+                    "translation_native": "We ordered the daily set menu which included soup, main course, and a drink for very little money.",
+                    "sentence_parts": [
+                        "Pedimos",
+                        "el",
+                        "menú",
+                        "del",
+                        "día",
+                        "que",
+                        "incluía",
+                        "sopa,",
+                        "plato",
+                        "fuerte",
+                        "y",
+                        "refresco",
+                        "por",
+                        "muy",
+                        "poco",
+                        "dinero."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "el menú del día",
+                "el menú a la carta",
+                "el buffet libre",
+                "el desayuno incluido"
+            ],
+            "correct_answer": "el menú del día"
+        },
+        {
+            "word": "la cuenta",
+            "translation_english": "the bill / check (restaurant)",
+            "translation_native": "the bill / check (restaurant)",
+            "pronunciation": "",
+            "examples": [
+                {
+                    "sentence": "Le pedí la cuenta al mesero y la dividimos entre cuatro para pagar por separado.",
+                    "translation_english": "I asked the waiter for the bill and we split it four ways to pay separately.",
+                    "translation_native": "I asked the waiter for the bill and we split it four ways to pay separately.",
+                    "sentence_parts": [
+                        "Le",
+                        "pedí",
+                        "la",
+                        "cuenta",
+                        "al",
+                        "mesero",
+                        "y",
+                        "la",
+                        "dividimos",
+                        "entre",
+                        "cuatro",
+                        "para",
+                        "pagar",
+                        "por",
+                        "separado."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "la cuenta",
+                "la carta",
+                "la propina",
+                "la reserva"
+            ],
+            "correct_answer": "la cuenta"
+        },
+        {
+            "word": "el platillo típico",
+            "translation_english": "traditional dish",
+            "translation_native": "traditional dish",
+            "pronunciation": "",
+            "examples": [
+                {
+                    "sentence": "El guía nos recomendó probar el platillo típico de la región antes de seguir el recorrido.",
+                    "translation_english": "The guide recommended trying the traditional dish of the region before continuing the tour.",
+                    "translation_native": "The guide recommended trying the traditional dish of the region before continuing the tour.",
+                    "sentence_parts": [
+                        "El",
+                        "guía",
+                        "nos",
+                        "recomendó",
+                        "probar",
+                        "el",
+                        "platillo",
+                        "típico",
+                        "de",
+                        "la",
+                        "región",
+                        "antes",
+                        "de",
+                        "seguir",
+                        "el",
+                        "recorrido."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "el platillo típico",
+                "el aperitivo",
+                "el postre",
+                "el desayuno"
+            ],
+            "correct_answer": "el platillo típico"
+        },
+        {
+            "word": "el puesto de comida",
+            "translation_english": "food stall / food stand",
+            "translation_native": "food stall / food stand",
+            "pronunciation": "",
+            "examples": [
+                {
+                    "sentence": "Compré tacos de canasta en el puesto de comida que abre solo por las mañanas.",
+                    "translation_english": "I bought basket tacos at the food stall that only opens in the mornings.",
+                    "translation_native": "I bought basket tacos at the food stall that only opens in the mornings.",
+                    "sentence_parts": [
+                        "Compré",
+                        "tacos",
+                        "de",
+                        "canasta",
+                        "en",
+                        "el",
+                        "puesto",
+                        "de",
+                        "comida",
+                        "que",
+                        "abre",
+                        "solo",
+                        "por",
+                        "las",
+                        "mañanas."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "el puesto de comida",
+                "el restaurante",
+                "la cafetería",
+                "el food truck"
+            ],
+            "correct_answer": "el puesto de comida"
+        },
+        {
+            "word": "el régimen alimentario",
+            "translation_english": "dietary requirements / diet",
+            "translation_native": "dietary requirements / diet",
+            "pronunciation": "",
+            "examples": [
+                {
+                    "sentence": "Informé al hotel de mi régimen alimentario vegano para que adaptaran el desayuno incluido.",
+                    "translation_english": "I informed the hotel of my vegan dietary requirements so they could adapt the included breakfast.",
+                    "translation_native": "I informed the hotel of my vegan dietary requirements so they could adapt the included breakfast.",
+                    "sentence_parts": [
+                        "Informé",
+                        "al",
+                        "hotel",
+                        "de",
+                        "mi",
+                        "régimen",
+                        "alimentario",
+                        "vegano",
+                        "para",
+                        "que",
+                        "adaptaran",
+                        "el",
+                        "desayuno",
+                        "incluido."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "el régimen alimentario",
+                "el horario",
+                "el presupuesto",
+                "el perfil"
+            ],
+            "correct_answer": "el régimen alimentario"
+        },
+        {
+            "word": "la reserva",
+            "translation_english": "reservation / booking",
+            "translation_native": "reservation / booking",
+            "pronunciation": "",
+            "examples": [
+                {
+                    "sentence": "Cancelé la reserva del restaurante con 24 horas de antelación para evitar el cargo por no presentarse.",
+                    "translation_english": "I cancelled the restaurant reservation 24 hours in advance to avoid the no-show charge.",
+                    "translation_native": "I cancelled the restaurant reservation 24 hours in advance to avoid the no-show charge.",
+                    "sentence_parts": [
+                        "Cancelé",
+                        "la",
+                        "reserva",
+                        "del",
+                        "restaurante",
+                        "con",
+                        "24",
+                        "horas",
+                        "de",
+                        "antelación",
+                        "para",
+                        "evitar",
+                        "el",
+                        "cargo",
+                        "por",
+                        "no",
+                        "presentarse."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "la reserva",
+                "la orden",
+                "la factura",
+                "la lista de espera"
+            ],
+            "correct_answer": "la reserva"
+        },
+        {
+            "word": "el kiosko",
+            "translation_english": "kiosk / newsstand",
+            "translation_native": "kiosk / newsstand",
+            "pronunciation": "",
+            "examples": [
+                {
+                    "sentence": "Compré una tarjeta SIM local en el kiosko del aeropuerto para tener datos desde el primer día.",
+                    "translation_english": "I bought a local SIM card at the airport kiosk to have data from the very first day.",
+                    "translation_native": "I bought a local SIM card at the airport kiosk to have data from the very first day.",
+                    "sentence_parts": [
+                        "Compré",
+                        "una",
+                        "tarjeta",
+                        "SIM",
+                        "local",
+                        "en",
+                        "el",
+                        "kiosko",
+                        "del",
+                        "aeropuerto",
+                        "para",
+                        "tener",
+                        "datos",
+                        "desde",
+                        "el",
+                        "primer",
+                        "día."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "el kiosko",
+                "el mostrador",
+                "la tienda duty-free",
+                "el cajero"
+            ],
+            "correct_answer": "el kiosko"
+        },
+        {
+            "word": "el regateo",
+            "translation_english": "haggling / bargaining",
+            "translation_native": "haggling / bargaining",
+            "pronunciation": "",
+            "examples": [
+                {
+                    "sentence": "El regateo es parte de la cultura del mercado y conseguí la artesanía a mitad de precio.",
+                    "translation_english": "Haggling is part of the market culture and I got the craft at half price.",
+                    "translation_native": "Haggling is part of the market culture and I got the craft at half price.",
+                    "sentence_parts": [
+                        "El",
+                        "regateo",
+                        "es",
+                        "parte",
+                        "de",
+                        "la",
+                        "cultura",
+                        "del",
+                        "mercado",
+                        "y",
+                        "conseguí",
+                        "la",
+                        "artesanía",
+                        "a",
+                        "mitad",
+                        "de",
+                        "precio."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "el regateo",
+                "el descuento",
+                "el trueque",
+                "el soborno"
+            ],
+            "correct_answer": "el regateo"
+        },
+        {
+            "word": "la tienda libre de impuestos",
+            "translation_english": "duty-free shop",
+            "translation_native": "duty-free shop",
+            "pronunciation": "",
+            "examples": [
+                {
+                    "sentence": "Compré perfume importado en la tienda libre de impuestos justo antes de abordar el vuelo.",
+                    "translation_english": "I bought imported perfume at the duty-free shop right before boarding the flight.",
+                    "translation_native": "I bought imported perfume at the duty-free shop right before boarding the flight.",
+                    "sentence_parts": [
+                        "Compré",
+                        "perfume",
+                        "importado",
+                        "en",
+                        "la",
+                        "tienda",
+                        "libre",
+                        "de",
+                        "impuestos",
+                        "justo",
+                        "antes",
+                        "de",
+                        "abordar",
+                        "el",
+                        "vuelo."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "la tienda libre de impuestos",
+                "la boutique del hotel",
+                "la tienda de regalos",
+                "la droguería"
+            ],
+            "correct_answer": "la tienda libre de impuestos"
+        },
+        {
+            "word": "la zona peatonal",
+            "translation_english": "pedestrian zone / walking street",
+            "translation_native": "pedestrian zone / walking street",
+            "pronunciation": "",
+            "examples": [
+                {
+                    "sentence": "La zona peatonal del centro se llena de músicos y artistas callejeros los fines de semana.",
+                    "translation_english": "The pedestrian zone downtown fills with street musicians and artists on weekends.",
+                    "translation_native": "The pedestrian zone downtown fills with street musicians and artists on weekends.",
+                    "sentence_parts": [
+                        "La",
+                        "zona",
+                        "peatonal",
+                        "del",
+                        "centro",
+                        "se",
+                        "llena",
+                        "de",
+                        "músicos",
+                        "y",
+                        "artistas",
+                        "callejeros",
+                        "los",
+                        "fines",
+                        "de",
+                        "semana."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "la zona peatonal",
+                "la autopista",
+                "la plaza principal",
+                "la avenida"
+            ],
+            "correct_answer": "la zona peatonal"
+        },
+        {
+            "word": "el mirador",
+            "translation_english": "viewpoint / lookout",
+            "translation_native": "viewpoint / lookout",
+            "pronunciation": "",
+            "examples": [
+                {
+                    "sentence": "Subimos al mirador al atardecer y filmamos el panorama completo de la ciudad para TikTok.",
+                    "translation_english": "We climbed up to the viewpoint at sunset and filmed the full city panorama for TikTok.",
+                    "translation_native": "We climbed up to the viewpoint at sunset and filmed the full city panorama for TikTok.",
+                    "sentence_parts": [
+                        "Subimos",
+                        "al",
+                        "mirador",
+                        "al",
+                        "atardecer",
+                        "y",
+                        "filmamos",
+                        "el",
+                        "panorama",
+                        "completo",
+                        "de",
+                        "la",
+                        "ciudad",
+                        "para",
+                        "TikTok."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "el mirador",
+                "el campanario",
+                "el edificio",
+                "el balcón"
+            ],
+            "correct_answer": "el mirador"
+        },
+        {
+            "word": "el casco histórico",
+            "translation_english": "historic center / old town",
+            "translation_native": "historic center / old town",
+            "pronunciation": "",
+            "examples": [
+                {
+                    "sentence": "El casco histórico conserva edificios coloniales de piedra que aparecen en todos los filtros de Instagram.",
+                    "translation_english": "The historic center preserves stone colonial buildings that show up in every Instagram filter.",
+                    "translation_native": "The historic center preserves stone colonial buildings that show up in every Instagram filter.",
+                    "sentence_parts": [
+                        "El",
+                        "casco",
+                        "histórico",
+                        "conserva",
+                        "edificios",
+                        "coloniales",
+                        "de",
+                        "piedra",
+                        "que",
+                        "aparecen",
+                        "en",
+                        "todos",
+                        "los",
+                        "filtros",
+                        "de",
+                        "Instagram."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "el casco histórico",
+                "el barrio moderno",
+                "el parque industrial",
+                "el complejo turístico"
+            ],
+            "correct_answer": "el casco histórico"
+        },
+        {
+            "word": "el museo de arte",
+            "translation_english": "art museum",
+            "translation_native": "art museum",
+            "pronunciation": "",
+            "examples": [
+                {
+                    "sentence": "El museo de arte tenía entrada gratis los domingos y exhibía murales de Diego Rivera.",
+                    "translation_english": "The art museum had free entry on Sundays and displayed Diego Rivera murals.",
+                    "translation_native": "The art museum had free entry on Sundays and displayed Diego Rivera murals.",
+                    "sentence_parts": [
+                        "El",
+                        "museo",
+                        "de",
+                        "arte",
+                        "tenía",
+                        "entrada",
+                        "gratis",
+                        "los",
+                        "domingos",
+                        "y",
+                        "exhibía",
+                        "murales",
+                        "de",
+                        "Diego",
+                        "Rivera."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "el museo de arte",
+                "el teatro",
+                "la galería privada",
+                "el auditorio"
+            ],
+            "correct_answer": "el museo de arte"
+        },
+        {
+            "word": "la catedral",
+            "translation_english": "cathedral",
+            "translation_native": "cathedral",
+            "pronunciation": "",
+            "examples": [
+                {
+                    "sentence": "La catedral del zócalo tiene dos torres barrocas que sirven de punto de orientación en la ciudad.",
+                    "translation_english": "The cathedral on the main square has two baroque towers that serve as orientation landmarks in the city.",
+                    "translation_native": "The cathedral on the main square has two baroque towers that serve as orientation landmarks in the city.",
+                    "sentence_parts": [
+                        "La",
+                        "catedral",
+                        "del",
+                        "zócalo",
+                        "tiene",
+                        "dos",
+                        "torres",
+                        "barrocas",
+                        "que",
+                        "sirven",
+                        "de",
+                        "punto",
+                        "de",
+                        "orientación",
+                        "en",
+                        "la",
+                        "ciudad."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "la catedral",
+                "la mezquita",
+                "la basílica",
+                "la capilla"
+            ],
+            "correct_answer": "la catedral"
+        },
+        {
+            "word": "el teleférico",
+            "translation_english": "cable car / gondola",
+            "translation_native": "cable car / gondola",
+            "pronunciation": "",
+            "examples": [
+                {
+                    "sentence": "El teleférico nos subió desde el valle hasta la cumbre nevada en apenas diez minutos.",
+                    "translation_english": "The cable car took us from the valley up to the snowy summit in just ten minutes.",
+                    "translation_native": "The cable car took us from the valley up to the snowy summit in just ten minutes.",
+                    "sentence_parts": [
+                        "El",
+                        "teleférico",
+                        "nos",
+                        "subió",
+                        "desde",
+                        "el",
+                        "valle",
+                        "hasta",
+                        "la",
+                        "cumbre",
+                        "nevada",
+                        "en",
+                        "apenas",
+                        "diez",
+                        "minutos."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "el teleférico",
+                "el funicular",
+                "el autobús",
+                "el helicóptero"
+            ],
+            "correct_answer": "el teleférico"
+        },
+        {
+            "word": "el camping",
+            "translation_english": "campsite / camping",
+            "translation_native": "campsite / camping",
+            "pronunciation": "",
+            "examples": [
+                {
+                    "sentence": "Armamos la carpa en el camping dentro del parque nacional para ver las estrellas sin luz artificial.",
+                    "translation_english": "We set up the tent at the campsite inside the national park to see the stars without artificial light.",
+                    "translation_native": "We set up the tent at the campsite inside the national park to see the stars without artificial light.",
+                    "sentence_parts": [
+                        "Armamos",
+                        "la",
+                        "carpa",
+                        "en",
+                        "el",
+                        "camping",
+                        "dentro",
+                        "del",
+                        "parque",
+                        "nacional",
+                        "para",
+                        "ver",
+                        "las",
+                        "estrellas",
+                        "sin",
+                        "luz",
+                        "artificial."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "el camping",
+                "el albergue",
+                "el claro del bosque",
+                "el jardín"
+            ],
+            "correct_answer": "el camping"
+        },
+        {
+            "word": "el congestionamiento",
+            "translation_english": "traffic jam / congestion",
+            "translation_native": "traffic jam / congestion",
+            "pronunciation": "",
+            "examples": [
+                {
+                    "sentence": "El congestionamiento en la autopista nos hizo llegar dos horas tarde al aeropuerto.",
+                    "translation_english": "The traffic jam on the highway made us arrive two hours late at the airport.",
+                    "translation_native": "The traffic jam on the highway made us arrive two hours late at the airport.",
+                    "sentence_parts": [
+                        "El",
+                        "congestionamiento",
+                        "en",
+                        "la",
+                        "autopista",
+                        "nos",
+                        "hizo",
+                        "llegar",
+                        "dos",
+                        "horas",
+                        "tarde",
+                        "al",
+                        "aeropuerto."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "el congestionamiento",
+                "el desvío",
+                "el accidente",
+                "la obra"
+            ],
+            "correct_answer": "el congestionamiento"
+        },
+        {
+            "word": "el desvío",
+            "translation_english": "detour / diversion",
+            "translation_native": "detour / diversion",
+            "pronunciation": "",
+            "examples": [
+                {
+                    "sentence": "El desvío por obras nos llevó por una carretera rural que no aparecía en Google Maps.",
+                    "translation_english": "The construction detour took us through a rural road that didn't appear on Google Maps.",
+                    "translation_native": "The construction detour took us through a rural road that didn't appear on Google Maps.",
+                    "sentence_parts": [
+                        "El",
+                        "desvío",
+                        "por",
+                        "obras",
+                        "nos",
+                        "llevó",
+                        "por",
+                        "una",
+                        "carretera",
+                        "rural",
+                        "que",
+                        "no",
+                        "aparecía",
+                        "en",
+                        "Google",
+                        "Maps."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "el desvío",
+                "el atajo",
+                "el peaje",
+                "el carril"
+            ],
+            "correct_answer": "el desvío"
+        },
+        {
+            "word": "la parada de autobús",
+            "translation_english": "bus stop",
+            "translation_native": "bus stop",
+            "pronunciation": "",
+            "examples": [
+                {
+                    "sentence": "Esperé cuarenta minutos en la parada de autobús bajo la lluvia porque la app daba horarios incorrectos.",
+                    "translation_english": "I waited forty minutes at the bus stop in the rain because the app showed incorrect times.",
+                    "translation_native": "I waited forty minutes at the bus stop in the rain because the app showed incorrect times.",
+                    "sentence_parts": [
+                        "Esperé",
+                        "cuarenta",
+                        "minutos",
+                        "en",
+                        "la",
+                        "parada",
+                        "de",
+                        "autobús",
+                        "bajo",
+                        "la",
+                        "lluvia",
+                        "porque",
+                        "la",
+                        "app",
+                        "daba",
+                        "horarios",
+                        "incorrectos."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "la parada de autobús",
+                "la estación de metro",
+                "la terminal",
+                "la acera"
+            ],
+            "correct_answer": "la parada de autobús"
+        },
+        {
+            "word": "el vuelo de bajo costo",
+            "translation_english": "budget flight / low-cost flight",
+            "translation_native": "budget flight / low-cost flight",
+            "pronunciation": "",
+            "examples": [
+                {
+                    "sentence": "Tomamos un vuelo de bajo costo pero pagamos extra por el equipaje y la selección de asientos.",
+                    "translation_english": "We took a budget flight but paid extra for luggage and seat selection.",
+                    "translation_native": "We took a budget flight but paid extra for luggage and seat selection.",
+                    "sentence_parts": [
+                        "Tomamos",
+                        "un",
+                        "vuelo",
+                        "de",
+                        "bajo",
+                        "costo",
+                        "pero",
+                        "pagamos",
+                        "extra",
+                        "por",
+                        "el",
+                        "equipaje",
+                        "y",
+                        "la",
+                        "selección",
+                        "de",
+                        "asientos."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "el vuelo de bajo costo",
+                "el vuelo directo",
+                "el vuelo chárter",
+                "el vuelo privado"
+            ],
+            "correct_answer": "el vuelo de bajo costo"
+        },
+        {
+            "word": "la aplicación de viajes",
+            "translation_english": "travel app",
+            "translation_native": "travel app",
+            "pronunciation": "",
+            "examples": [
+                {
+                    "sentence": "La aplicación de viajes me alertó del cambio de puerta de embarque en tiempo real.",
+                    "translation_english": "The travel app alerted me about the gate change in real time.",
+                    "translation_native": "The travel app alerted me about the gate change in real time.",
+                    "sentence_parts": [
+                        "La",
+                        "aplicación",
+                        "de",
+                        "viajes",
+                        "me",
+                        "alertó",
+                        "del",
+                        "cambio",
+                        "de",
+                        "puerta",
+                        "de",
+                        "embarque",
+                        "en",
+                        "tiempo",
+                        "real."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "la aplicación de viajes",
+                "la pantalla del aeropuerto",
+                "la tripulación",
+                "el altavoz"
+            ],
+            "correct_answer": "la aplicación de viajes"
+        },
+        {
+            "word": "el pasillo",
+            "translation_english": "aisle (on a plane or bus)",
+            "translation_native": "aisle (on a plane or bus)",
+            "pronunciation": "",
+            "examples": [
+                {
+                    "sentence": "Elegí el asiento de pasillo para poder levantarme sin molestar a nadie durante el vuelo largo.",
+                    "translation_english": "I chose the aisle seat so I could get up without disturbing anyone during the long flight.",
+                    "translation_native": "I chose the aisle seat so I could get up without disturbing anyone during the long flight.",
+                    "sentence_parts": [
+                        "Elegí",
+                        "el",
+                        "asiento",
+                        "de",
+                        "pasillo",
+                        "para",
+                        "poder",
+                        "levantarme",
+                        "sin",
+                        "molestar",
+                        "a",
+                        "nadie",
+                        "durante",
+                        "el",
+                        "vuelo",
+                        "largo."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "el pasillo",
+                "la ventanilla",
+                "el centro",
+                "la primera clase"
+            ],
+            "correct_answer": "el pasillo"
+        },
+        {
+            "word": "la tarjeta de crédito sin comisión",
+            "translation_english": "no-fee credit card",
+            "translation_native": "no-fee credit card",
+            "pronunciation": "",
+            "examples": [
+                {
+                    "sentence": "Usé la tarjeta de crédito sin comisión en el extranjero para ahorrar en todas las compras.",
+                    "translation_english": "I used the no-fee credit card abroad to save money on every purchase.",
+                    "translation_native": "I used the no-fee credit card abroad to save money on every purchase.",
+                    "sentence_parts": [
+                        "Usé",
+                        "la",
+                        "tarjeta",
+                        "de",
+                        "crédito",
+                        "sin",
+                        "comisión",
+                        "en",
+                        "el",
+                        "extranjero",
+                        "para",
+                        "ahorrar",
+                        "en",
+                        "todas",
+                        "las",
+                        "compras."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "la tarjeta de crédito sin comisión",
+                "la tarjeta de débito",
+                "el dinero en efectivo",
+                "el cheque de viajero"
+            ],
+            "correct_answer": "la tarjeta de crédito sin comisión"
+        },
+        {
+            "word": "el malecón",
+            "translation_english": "seafront promenade / boardwalk",
+            "translation_native": "seafront promenade / boardwalk",
+            "pronunciation": "",
+            "examples": [
+                {
+                    "sentence": "Caminamos por el malecón al anochecer y vimos a pescadores locales recoger las redes.",
+                    "translation_english": "We walked along the seafront promenade at dusk and saw local fishermen pulling in their nets.",
+                    "translation_native": "We walked along the seafront promenade at dusk and saw local fishermen pulling in their nets.",
+                    "sentence_parts": [
+                        "Caminamos",
+                        "por",
+                        "el",
+                        "malecón",
+                        "al",
+                        "anochecer",
+                        "y",
+                        "vimos",
+                        "a",
+                        "pescadores",
+                        "locales",
+                        "recoger",
+                        "las",
+                        "redes."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "el malecón",
+                "el muelle",
+                "el puente",
+                "el carril bici"
+            ],
+            "correct_answer": "el malecón"
+        },
+        {
+            "word": "el recorrido gastronómico",
+            "translation_english": "food tour / gastronomic tour",
+            "translation_native": "food tour / gastronomic tour",
+            "pronunciation": "",
+            "examples": [
+                {
+                    "sentence": "El recorrido gastronómico nos llevó a diez puestos distintos donde probamos ceviches, anticuchos y chicha.",
+                    "translation_english": "The food tour took us to ten different stalls where we tried ceviches, anticuchos, and chicha.",
+                    "translation_native": "The food tour took us to ten different stalls where we tried ceviches, anticuchos, and chicha.",
+                    "sentence_parts": [
+                        "El",
+                        "recorrido",
+                        "gastronómico",
+                        "nos",
+                        "llevó",
+                        "a",
+                        "diez",
+                        "puestos",
+                        "distintos",
+                        "donde",
+                        "probamos",
+                        "ceviches,",
+                        "anticuchos",
+                        "y",
+                        "chicha."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "el recorrido gastronómico",
+                "el tour nocturno",
+                "el paseo cultural",
+                "la excursión rural"
+            ],
+            "correct_answer": "el recorrido gastronómico"
+        },
+        {
+            "word": "el vuelo nocturno",
+            "translation_english": "overnight flight / red-eye flight",
+            "translation_native": "overnight flight / red-eye flight",
+            "pronunciation": "",
+            "examples": [
+                {
+                    "sentence": "Tomé el vuelo nocturno para ahorrar una noche de hotel y despertar ya en el destino.",
+                    "translation_english": "I took the overnight flight to save one hotel night and wake up already at the destination.",
+                    "translation_native": "I took the overnight flight to save one hotel night and wake up already at the destination.",
+                    "sentence_parts": [
+                        "Tomé",
+                        "el",
+                        "vuelo",
+                        "nocturno",
+                        "para",
+                        "ahorrar",
+                        "una",
+                        "noche",
+                        "de",
+                        "hotel",
+                        "y",
+                        "despertar",
+                        "ya",
+                        "en",
+                        "el",
+                        "destino."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "el vuelo nocturno",
+                "el vuelo directo",
+                "el vuelo de bajo costo",
+                "el vuelo con escala"
+            ],
+            "correct_answer": "el vuelo nocturno"
+        },
+        {
+            "word": "el equipaje facturado",
+            "translation_english": "checked luggage",
+            "translation_native": "checked luggage",
+            "pronunciation": "",
+            "examples": [
+                {
+                    "sentence": "El equipaje facturado llegó con una hora de retraso en la cinta transportadora del aeropuerto.",
+                    "translation_english": "The checked luggage arrived one hour late on the airport baggage carousel.",
+                    "translation_native": "The checked luggage arrived one hour late on the airport baggage carousel.",
+                    "sentence_parts": [
+                        "El",
+                        "equipaje",
+                        "facturado",
+                        "llegó",
+                        "con",
+                        "una",
+                        "hora",
+                        "de",
+                        "retraso",
+                        "en",
+                        "la",
+                        "cinta",
+                        "transportadora",
+                        "del",
+                        "aeropuerto."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "el equipaje facturado",
+                "el equipaje de mano",
+                "la mochila",
+                "el paquete"
+            ],
+            "correct_answer": "el equipaje facturado"
+        },
+        {
+            "word": "la cinta transportadora",
+            "translation_english": "baggage carousel / conveyor belt",
+            "translation_native": "baggage carousel / conveyor belt",
+            "pronunciation": "",
+            "examples": [
+                {
+                    "sentence": "Esperamos media hora frente a la cinta transportadora hasta que apareció nuestra maleta roja.",
+                    "translation_english": "We waited half an hour in front of the baggage carousel until our red suitcase appeared.",
+                    "translation_native": "We waited half an hour in front of the baggage carousel until our red suitcase appeared.",
+                    "sentence_parts": [
+                        "Esperamos",
+                        "media",
+                        "hora",
+                        "frente",
+                        "a",
+                        "la",
+                        "cinta",
+                        "transportadora",
+                        "hasta",
+                        "que",
+                        "apareció",
+                        "nuestra",
+                        "maleta",
+                        "roja."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "la cinta transportadora",
+                "la puerta de llegadas",
+                "la aduana",
+                "la ventanilla"
+            ],
+            "correct_answer": "la cinta transportadora"
+        },
+        {
+            "word": "el asiento de ventanilla",
+            "translation_english": "window seat",
+            "translation_native": "window seat",
+            "pronunciation": "",
+            "examples": [
+                {
+                    "sentence": "Pedí el asiento de ventanilla para fotografiar los Andes nevados desde el avión.",
+                    "translation_english": "I requested the window seat to photograph the snowy Andes from the plane.",
+                    "translation_native": "I requested the window seat to photograph the snowy Andes from the plane.",
+                    "sentence_parts": [
+                        "Pedí",
+                        "el",
+                        "asiento",
+                        "de",
+                        "ventanilla",
+                        "para",
+                        "fotografiar",
+                        "los",
+                        "Andes",
+                        "nevados",
+                        "desde",
+                        "el",
+                        "avión."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "el asiento de ventanilla",
+                "el asiento de pasillo",
+                "el asiento delantero",
+                "el asiento de emergencia"
+            ],
+            "correct_answer": "el asiento de ventanilla"
+        },
+        {
+            "word": "la temporada alta",
+            "translation_english": "peak season / high season",
+            "translation_native": "peak season / high season",
+            "pronunciation": "",
+            "examples": [
+                {
+                    "sentence": "Los precios se disparan en la temporada alta de verano, así que viajamos en otoño.",
+                    "translation_english": "Prices skyrocket during the summer peak season, so we traveled in autumn.",
+                    "translation_native": "Prices skyrocket during the summer peak season, so we traveled in autumn.",
+                    "sentence_parts": [
+                        "Los",
+                        "precios",
+                        "se",
+                        "disparan",
+                        "en",
+                        "la",
+                        "temporada",
+                        "alta",
+                        "de",
+                        "verano,",
+                        "así",
+                        "que",
+                        "viajamos",
+                        "en",
+                        "otoño."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "la temporada alta",
+                "la temporada baja",
+                "la quincena",
+                "la promoción"
+            ],
+            "correct_answer": "la temporada alta"
+        },
+        {
+            "word": "el presupuesto",
+            "translation_english": "budget",
+            "translation_native": "budget",
+            "pronunciation": "",
+            "examples": [
+                {
+                    "sentence": "Ajusté el presupuesto del viaje después de que el vuelo resultó más caro de lo esperado.",
+                    "translation_english": "I adjusted the travel budget after the flight turned out to be more expensive than expected.",
+                    "translation_native": "I adjusted the travel budget after the flight turned out to be more expensive than expected.",
+                    "sentence_parts": [
+                        "Ajusté",
+                        "el",
+                        "presupuesto",
+                        "del",
+                        "viaje",
+                        "después",
+                        "de",
+                        "que",
+                        "el",
+                        "vuelo",
+                        "resultó",
+                        "más",
+                        "caro",
+                        "de",
+                        "lo",
+                        "esperado."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "el presupuesto",
+                "el horario",
+                "el equipaje",
+                "el seguro"
+            ],
+            "correct_answer": "el presupuesto"
+        },
+        {
+            "word": "el mochilero",
+            "translation_english": "backpacker",
+            "translation_native": "backpacker",
+            "pronunciation": "",
+            "examples": [
+                {
+                    "sentence": "El mochilero recorrió doce países en seis meses con solo mil dólares y un blog de viajes.",
+                    "translation_english": "The backpacker traveled through twelve countries in six months with just a thousand dollars and a travel blog.",
+                    "translation_native": "The backpacker traveled through twelve countries in six months with just a thousand dollars and a travel blog.",
+                    "sentence_parts": [
+                        "El",
+                        "mochilero",
+                        "recorrió",
+                        "doce",
+                        "países",
+                        "en",
+                        "seis",
+                        "meses",
+                        "con",
+                        "solo",
+                        "mil",
+                        "dólares",
+                        "y",
+                        "un",
+                        "blog",
+                        "de",
+                        "viajes."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "el mochilero",
+                "el turista",
+                "el viajero de negocios",
+                "el excursionista"
+            ],
+            "correct_answer": "el mochilero"
+        },
+        {
+            "word": "la frontera",
+            "translation_english": "border",
+            "translation_native": "border",
+            "pronunciation": "",
+            "examples": [
+                {
+                    "sentence": "Cruzamos la frontera en autobús y el trámite migratorio tardó casi tres horas.",
+                    "translation_english": "We crossed the border by bus and the immigration process took almost three hours.",
+                    "translation_native": "We crossed the border by bus and the immigration process took almost three hours.",
+                    "sentence_parts": [
+                        "Cruzamos",
+                        "la",
+                        "frontera",
+                        "en",
+                        "autobús",
+                        "y",
+                        "el",
+                        "trámite",
+                        "migratorio",
+                        "tardó",
+                        "casi",
+                        "tres",
+                        "horas."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "la frontera",
+                "la aduana",
+                "la terminal",
+                "la carretera"
+            ],
+            "correct_answer": "la frontera"
+        },
+        {
+            "word": "el guía de audio",
+            "translation_english": "audio guide",
+            "translation_native": "audio guide",
+            "pronunciation": "",
+            "examples": [
+                {
+                    "sentence": "Alquilé el guía de audio en inglés y español para explorar el museo a mi propio ritmo.",
+                    "translation_english": "I rented the audio guide in English and Spanish to explore the museum at my own pace.",
+                    "translation_native": "I rented the audio guide in English and Spanish to explore the museum at my own pace.",
+                    "sentence_parts": [
+                        "Alquilé",
+                        "el",
+                        "guía",
+                        "de",
+                        "audio",
+                        "en",
+                        "inglés",
+                        "y",
+                        "español",
+                        "para",
+                        "explorar",
+                        "el",
+                        "museo",
+                        "a",
+                        "mi",
+                        "propio",
+                        "ritmo."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "el guía de audio",
+                "el folleto",
+                "el mapa del museo",
+                "el catálogo"
+            ],
+            "correct_answer": "el guía de audio"
+        },
+        {
+            "word": "el trasbordo",
+            "translation_english": "connection / transit (between transport)",
+            "translation_native": "connection / transit (between transport)",
+            "pronunciation": "",
+            "examples": [
+                {
+                    "sentence": "El trasbordo entre el tren y el autobús tomaba quince minutos andando entre terminales.",
+                    "translation_english": "The connection between the train and bus took fifteen minutes walking between terminals.",
+                    "translation_native": "The connection between the train and bus took fifteen minutes walking between terminals.",
+                    "sentence_parts": [
+                        "El",
+                        "trasbordo",
+                        "entre",
+                        "el",
+                        "tren",
+                        "y",
+                        "el",
+                        "autobús",
+                        "tomaba",
+                        "quince",
+                        "minutos",
+                        "andando",
+                        "entre",
+                        "terminales."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "el trasbordo",
+                "el retraso",
+                "el recorrido",
+                "el abordaje"
+            ],
+            "correct_answer": "el trasbordo"
+        },
+        {
+            "word": "el saco de dormir",
+            "translation_english": "sleeping bag",
+            "translation_native": "sleeping bag",
+            "pronunciation": "",
+            "examples": [
+                {
+                    "sentence": "El saco de dormir de plumas me mantuvo abrigado en las noches frías de la cordillera.",
+                    "translation_english": "The down sleeping bag kept me warm during the cold nights in the mountain range.",
+                    "translation_native": "The down sleeping bag kept me warm during the cold nights in the mountain range.",
+                    "sentence_parts": [
+                        "El",
+                        "saco",
+                        "de",
+                        "dormir",
+                        "de",
+                        "plumas",
+                        "me",
+                        "mantuvo",
+                        "abrigado",
+                        "en",
+                        "las",
+                        "noches",
+                        "frías",
+                        "de",
+                        "la",
+                        "cordillera."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "el saco de dormir",
+                "el abrigo",
+                "la manta",
+                "el pijama"
+            ],
+            "correct_answer": "el saco de dormir"
+        },
+        {
+            "word": "el permiso de conducir internacional",
+            "translation_english": "international driving license",
+            "translation_native": "international driving license",
+            "pronunciation": "",
+            "examples": [
+                {
+                    "sentence": "Tramité el permiso de conducir internacional para alquilar una moto y recorrer la costa pacífica.",
+                    "translation_english": "I got the international driving license to rent a motorcycle and travel the Pacific coast.",
+                    "translation_native": "I got the international driving license to rent a motorcycle and travel the Pacific coast.",
+                    "sentence_parts": [
+                        "Tramité",
+                        "el",
+                        "permiso",
+                        "de",
+                        "conducir",
+                        "internacional",
+                        "para",
+                        "alquilar",
+                        "una",
+                        "moto",
+                        "y",
+                        "recorrer",
+                        "la",
+                        "costa",
+                        "pacífica."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "el permiso de conducir internacional",
+                "el visado",
+                "el pasaporte",
+                "el seguro de auto"
+            ],
+            "correct_answer": "el permiso de conducir internacional"
+        },
+        {
+            "word": "la calle peatonal",
+            "translation_english": "pedestrian street",
+            "translation_native": "pedestrian street",
+            "pronunciation": "",
+            "examples": [
+                {
+                    "sentence": "Compramos ropa de diseñadores locales en los puestos de la calle peatonal del barrio artístico.",
+                    "translation_english": "We bought clothes from local designers at the stalls on the pedestrian street in the arts district.",
+                    "translation_native": "We bought clothes from local designers at the stalls on the pedestrian street in the arts district.",
+                    "sentence_parts": [
+                        "Compramos",
+                        "ropa",
+                        "de",
+                        "diseñadores",
+                        "locales",
+                        "en",
+                        "los",
+                        "puestos",
+                        "de",
+                        "la",
+                        "calle",
+                        "peatonal",
+                        "del",
+                        "barrio",
+                        "artístico."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "la calle peatonal",
+                "la avenida principal",
+                "la autopista",
+                "la carretera costera"
+            ],
+            "correct_answer": "la calle peatonal"
+        },
+        {
+            "word": "el fondo de emergencia",
+            "translation_english": "emergency fund",
+            "translation_native": "emergency fund",
+            "pronunciation": "",
+            "examples": [
+                {
+                    "sentence": "Usé el fondo de emergencia para pagar el hospital cuando el seguro tardó en reembolsar.",
+                    "translation_english": "I used the emergency fund to pay the hospital when the insurance was slow to reimburse.",
+                    "translation_native": "I used the emergency fund to pay the hospital when the insurance was slow to reimburse.",
+                    "sentence_parts": [
+                        "Usé",
+                        "el",
+                        "fondo",
+                        "de",
+                        "emergencia",
+                        "para",
+                        "pagar",
+                        "el",
+                        "hospital",
+                        "cuando",
+                        "el",
+                        "seguro",
+                        "tardó",
+                        "en",
+                        "reembolsar."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "el fondo de emergencia",
+                "el presupuesto diario",
+                "el crédito bancario",
+                "el anticipo"
+            ],
+            "correct_answer": "el fondo de emergencia"
+        },
+        {
+            "word": "el alquiler de tablas de surf",
+            "translation_english": "surfboard rental",
+            "translation_native": "surfboard rental",
+            "pronunciation": "",
+            "examples": [
+                {
+                    "sentence": "El alquiler de tablas de surf en la playa incluía una lección básica de una hora.",
+                    "translation_english": "The surfboard rental at the beach included a one-hour beginner lesson.",
+                    "translation_native": "The surfboard rental at the beach included a one-hour beginner lesson.",
+                    "sentence_parts": [
+                        "El",
+                        "alquiler",
+                        "de",
+                        "tablas",
+                        "de",
+                        "surf",
+                        "en",
+                        "la",
+                        "playa",
+                        "incluía",
+                        "una",
+                        "lección",
+                        "básica",
+                        "de",
+                        "una",
+                        "hora."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "el alquiler de tablas de surf",
+                "el alquiler de motos acuáticas",
+                "el alquiler de kayaks",
+                "el club de buceo"
+            ],
+            "correct_answer": "el alquiler de tablas de surf"
+        },
+        {
+            "word": "el pasaporte caducado",
+            "translation_english": "expired passport",
+            "translation_native": "expired passport",
+            "pronunciation": "",
+            "examples": [
+                {
+                    "sentence": "Me rechazaron en el aeropuerto por presentar el pasaporte caducado sin haberlo renovado.",
+                    "translation_english": "I was turned away at the airport for presenting the expired passport without having renewed it.",
+                    "translation_native": "I was turned away at the airport for presenting the expired passport without having renewed it.",
+                    "sentence_parts": [
+                        "Me",
+                        "rechazaron",
+                        "en",
+                        "el",
+                        "aeropuerto",
+                        "por",
+                        "presentar",
+                        "el",
+                        "pasaporte",
+                        "caducado",
+                        "sin",
+                        "haberlo",
+                        "renovado."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "el pasaporte caducado",
+                "el visado vencido",
+                "el boleto incorrecto",
+                "el seguro expirado"
+            ],
+            "correct_answer": "el pasaporte caducado"
+        },
+        {
+            "word": "la inflación",
+            "translation_english": "inflation",
+            "translation_native": "inflation",
+            "pronunciation": "",
+            "examples": [
+                {
+                    "sentence": "La inflación local encareció tanto los restaurantes que optamos por cocinar en el hostal.",
+                    "translation_english": "Local inflation made restaurants so expensive that we chose to cook at the hostel.",
+                    "translation_native": "Local inflation made restaurants so expensive that we chose to cook at the hostel.",
+                    "sentence_parts": [
+                        "La",
+                        "inflación",
+                        "local",
+                        "encareció",
+                        "tanto",
+                        "los",
+                        "restaurantes",
+                        "que",
+                        "optamos",
+                        "por",
+                        "cocinar",
+                        "en",
+                        "el",
+                        "hostal."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "la inflación",
+                "la temporada",
+                "la competencia",
+                "la oferta"
+            ],
+            "correct_answer": "la inflación"
+        },
+        {
+            "word": "el trasatlántico",
+            "translation_english": "ocean liner / transatlantic ship",
+            "translation_native": "ocean liner / transatlantic ship",
+            "pronunciation": "",
+            "examples": [
+                {
+                    "sentence": "El trasatlántico tardó siete días en cruzar desde Europa hasta el puerto de Buenos Aires.",
+                    "translation_english": "The ocean liner took seven days to cross from Europe to the port of Buenos Aires.",
+                    "translation_native": "The ocean liner took seven days to cross from Europe to the port of Buenos Aires.",
+                    "sentence_parts": [
+                        "El",
+                        "trasatlántico",
+                        "tardó",
+                        "siete",
+                        "días",
+                        "en",
+                        "cruzar",
+                        "desde",
+                        "Europa",
+                        "hasta",
+                        "el",
+                        "puerto",
+                        "de",
+                        "Buenos",
+                        "Aires."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "el trasatlántico",
+                "el crucero",
+                "el yate",
+                "el ferry"
+            ],
+            "correct_answer": "el trasatlántico"
+        },
+        {
+            "word": "el letrero",
+            "translation_english": "sign / signboard",
+            "translation_native": "sign / signboard",
+            "pronunciation": "",
+            "examples": [
+                {
+                    "sentence": "El letrero de salida de emergencia era el único indicador visible en el pasillo oscuro.",
+                    "translation_english": "The emergency exit sign was the only visible indicator in the dark corridor.",
+                    "translation_native": "The emergency exit sign was the only visible indicator in the dark corridor.",
+                    "sentence_parts": [
+                        "El",
+                        "letrero",
+                        "de",
+                        "salida",
+                        "de",
+                        "emergencia",
+                        "era",
+                        "el",
+                        "único",
+                        "indicador",
+                        "visible",
+                        "en",
+                        "el",
+                        "pasillo",
+                        "oscuro."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "el letrero",
+                "el semáforo",
+                "el mapa",
+                "el cartel publicitario"
+            ],
+            "correct_answer": "el letrero"
+        },
+        {
+            "word": "la zona franca",
+            "translation_english": "free trade zone",
+            "translation_native": "free trade zone",
+            "pronunciation": "",
+            "examples": [
+                {
+                    "sentence": "Compramos electrónicos a precios increíbles en la zona franca antes de embarcarnos de regreso.",
+                    "translation_english": "We bought electronics at amazing prices in the free trade zone before boarding our return journey.",
+                    "translation_native": "We bought electronics at amazing prices in the free trade zone before boarding our return journey.",
+                    "sentence_parts": [
+                        "Compramos",
+                        "electrónicos",
+                        "a",
+                        "precios",
+                        "increíbles",
+                        "en",
+                        "la",
+                        "zona",
+                        "franca",
+                        "antes",
+                        "de",
+                        "embarcarnos",
+                        "de",
+                        "regreso."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "la zona franca",
+                "la tienda duty-free",
+                "la feria comercial",
+                "la subasta"
+            ],
+            "correct_answer": "la zona franca"
+        },
+        {
+            "word": "el desayuno incluido",
+            "translation_english": "breakfast included",
+            "translation_native": "breakfast included",
+            "pronunciation": "",
+            "examples": [
+                {
+                    "sentence": "Elegimos el hotel que ofrecía desayuno incluido para no gastar extra en la primera comida.",
+                    "translation_english": "We chose the hotel that offered breakfast included so we wouldn't spend extra on the first meal.",
+                    "translation_native": "We chose the hotel that offered breakfast included so we wouldn't spend extra on the first meal.",
+                    "sentence_parts": [
+                        "Elegimos",
+                        "el",
+                        "hotel",
+                        "que",
+                        "ofrecía",
+                        "desayuno",
+                        "incluido",
+                        "para",
+                        "no",
+                        "gastar",
+                        "extra",
+                        "en",
+                        "la",
+                        "primera",
+                        "comida."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "el desayuno incluido",
+                "la media pensión",
+                "la pensión completa",
+                "el todo incluido"
+            ],
+            "correct_answer": "el desayuno incluido"
+        },
+        {
+            "word": "la ruta de senderismo",
+            "translation_english": "hiking trail / trekking route",
+            "translation_native": "hiking trail / trekking route",
+            "pronunciation": "",
+            "examples": [
+                {
+                    "sentence": "La ruta de senderismo hasta la laguna azul tomaba cinco horas de subida continua.",
+                    "translation_english": "The hiking trail to the blue lagoon took five hours of continuous climbing.",
+                    "translation_native": "The hiking trail to the blue lagoon took five hours of continuous climbing.",
+                    "sentence_parts": [
+                        "La",
+                        "ruta",
+                        "de",
+                        "senderismo",
+                        "hasta",
+                        "la",
+                        "laguna",
+                        "azul",
+                        "tomaba",
+                        "cinco",
+                        "horas",
+                        "de",
+                        "subida",
+                        "continua."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "la ruta de senderismo",
+                "la carretera de montaña",
+                "la pista forestal",
+                "la vía ferroviaria"
+            ],
+            "correct_answer": "la ruta de senderismo"
+        },
+        {
+            "word": "el punto de encuentro",
+            "translation_english": "meeting point",
+            "translation_native": "meeting point",
+            "pronunciation": "",
+            "examples": [
+                {
+                    "sentence": "Acordamos reunirnos en el punto de encuentro frente a la fuente si alguien se perdía.",
+                    "translation_english": "We agreed to meet at the meeting point in front of the fountain if anyone got lost.",
+                    "translation_native": "We agreed to meet at the meeting point in front of the fountain if anyone got lost.",
+                    "sentence_parts": [
+                        "Acordamos",
+                        "reunirnos",
+                        "en",
+                        "el",
+                        "punto",
+                        "de",
+                        "encuentro",
+                        "frente",
+                        "a",
+                        "la",
+                        "fuente",
+                        "si",
+                        "alguien",
+                        "se",
+                        "perdía."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "el punto de encuentro",
+                "el punto de información",
+                "el quiosco",
+                "el semáforo"
+            ],
+            "correct_answer": "el punto de encuentro"
+        },
+        {
+            "word": "la demora",
+            "translation_english": "delay / hold-up",
+            "translation_native": "delay / hold-up",
+            "pronunciation": "",
+            "examples": [
+                {
+                    "sentence": "La demora en la frontera nos obligó a cancelar la reserva del primer hotel de la ruta.",
+                    "translation_english": "The delay at the border forced us to cancel the reservation at the first hotel on the route.",
+                    "translation_native": "The delay at the border forced us to cancel the reservation at the first hotel on the route.",
+                    "sentence_parts": [
+                        "La",
+                        "demora",
+                        "en",
+                        "la",
+                        "frontera",
+                        "nos",
+                        "obligó",
+                        "a",
+                        "cancelar",
+                        "la",
+                        "reserva",
+                        "del",
+                        "primer",
+                        "hotel",
+                        "de",
+                        "la",
+                        "ruta."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "la demora",
+                "la inspección",
+                "la espera",
+                "la cancelación"
+            ],
+            "correct_answer": "la demora"
+        },
+        {
+            "word": "el alojamiento alternativo",
+            "translation_english": "alternative accommodation",
+            "translation_native": "alternative accommodation",
+            "pronunciation": "",
+            "examples": [
+                {
+                    "sentence": "Buscamos un alojamiento alternativo en Airbnb después de que el hotel canceló la reserva sin previo aviso.",
+                    "translation_english": "We looked for alternative accommodation on Airbnb after the hotel cancelled the reservation without notice.",
+                    "translation_native": "We looked for alternative accommodation on Airbnb after the hotel cancelled the reservation without notice.",
+                    "sentence_parts": [
+                        "Buscamos",
+                        "un",
+                        "alojamiento",
+                        "alternativo",
+                        "en",
+                        "Airbnb",
+                        "después",
+                        "de",
+                        "que",
+                        "el",
+                        "hotel",
+                        "canceló",
+                        "la",
+                        "reserva",
+                        "sin",
+                        "previo",
+                        "aviso."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "el alojamiento alternativo",
+                "el albergue juvenil",
+                "el hotel de lujo",
+                "el camping"
+            ],
+            "correct_answer": "el alojamiento alternativo"
+        }
+    ]
+}

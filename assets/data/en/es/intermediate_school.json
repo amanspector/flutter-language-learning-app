@@ -1,0 +1,2918 @@
+{
+    "metadata": {
+        "language": "Spanish",
+        "native_language": "English",
+        "level": "Intermediate",
+        "category": "school",
+        "total_words": 100
+    },
+    "words": [
+        {
+            "word": "asignatura",
+            "translation_english": "subject",
+            "translation_native": "asignatura",
+            "pronunciation": "ah-seeg-nah-TOO-rah",
+            "examples": [
+                {
+                    "sentence": "Mi asignatura favorita es la historia.",
+                    "translation_english": "My favorite subject is history.",
+                    "translation_native": "Mi asignatura favorita es la historia.",
+                    "sentence_parts": [
+                        "Mi",
+                        "asignatura",
+                        "favorita",
+                        "es",
+                        "la",
+                        "historia."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "asignatura",
+                "borrador",
+                "pupitre",
+                "estudiante"
+            ],
+            "correct_answer": "asignatura"
+        },
+        {
+            "word": "calificación",
+            "translation_english": "grade",
+            "translation_native": "calificación",
+            "pronunciation": "kah-lee-fee-kah-SYOHN",
+            "examples": [
+                {
+                    "sentence": "Obtuve una buena calificación en el examen.",
+                    "translation_english": "I got a good grade on the exam.",
+                    "translation_native": "Obtuve una buena calificación en el examen.",
+                    "sentence_parts": [
+                        "Obtuve",
+                        "una",
+                        "buena",
+                        "calificación",
+                        "en",
+                        "el",
+                        "examen."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "calificación",
+                "tarea",
+                "libro",
+                "recreo"
+            ],
+            "correct_answer": "calificación"
+        },
+        {
+            "word": "bolígrafo",
+            "translation_english": "pen",
+            "translation_native": "bolígrafo",
+            "pronunciation": "boh-LEE-grah-foh",
+            "examples": [
+                {
+                    "sentence": "Necesito un bolígrafo para escribir los apuntes.",
+                    "translation_english": "I need a pen to write the notes.",
+                    "translation_native": "Necesito un bolígrafo para escribir los apuntes.",
+                    "sentence_parts": [
+                        "Necesito",
+                        "un",
+                        "bolígrafo",
+                        "para",
+                        "escribir",
+                        "los",
+                        "apuntes."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "bolígrafo",
+                "regla",
+                "mochila",
+                "escuela"
+            ],
+            "correct_answer": "bolígrafo"
+        },
+        {
+            "word": "apuntes",
+            "translation_english": "notes",
+            "translation_native": "apuntes",
+            "pronunciation": "ah-POON-tess",
+            "examples": [
+                {
+                    "sentence": "Tomo apuntes durante toda la clase.",
+                    "translation_english": "I take notes during the whole class.",
+                    "translation_native": "Tomo apuntes durante toda la clase.",
+                    "sentence_parts": [
+                        "Tomo",
+                        "apuntes",
+                        "durante",
+                        "toda",
+                        "la",
+                        "clase."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "apuntes",
+                "examen",
+                "repaso",
+                "profesor"
+            ],
+            "correct_answer": "apuntes"
+        },
+        {
+            "word": "biblioteca",
+            "translation_english": "library",
+            "translation_native": "biblioteca",
+            "pronunciation": "bee-blee-oh-TEH-kah",
+            "examples": [
+                {
+                    "sentence": "Estudio en la biblioteca después de clase.",
+                    "translation_english": "I study in the library after class.",
+                    "translation_native": "Estudio en la biblioteca después de clase.",
+                    "sentence_parts": [
+                        "Estudio",
+                        "en",
+                        "la",
+                        "biblioteca",
+                        "después",
+                        "de",
+                        "clase."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "biblioteca",
+                "cafetería",
+                "gimnasio",
+                "aula"
+            ],
+            "correct_answer": "biblioteca"
+        },
+        {
+            "word": "recreo",
+            "translation_english": "recess / break",
+            "translation_native": "recreo",
+            "pronunciation": "rreh-KREH-oh",
+            "examples": [
+                {
+                    "sentence": "Los niños juegan durante el recreo.",
+                    "translation_english": "The children play during recess.",
+                    "translation_native": "Los niños juegan durante el recreo.",
+                    "sentence_parts": [
+                        "Los",
+                        "niños",
+                        "juegan",
+                        "durante",
+                        "el",
+                        "recreo."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "recreo",
+                "clase",
+                "lección",
+                "universidad"
+            ],
+            "correct_answer": "recreo"
+        },
+        {
+            "word": "matrícula",
+            "translation_english": "enrollment / tuition",
+            "translation_native": "matrícula",
+            "pronunciation": "mah-TREE-koo-lah",
+            "examples": [
+                {
+                    "sentence": "Pagué la matrícula de la universidad ayer.",
+                    "translation_english": "I paid the university tuition yesterday.",
+                    "translation_native": "Pagué la matrícula de la universidad ayer.",
+                    "sentence_parts": [
+                        "Pagué",
+                        "la",
+                        "matrícula",
+                        "de",
+                        "la",
+                        "universidad",
+                        "ayer."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "matrícula",
+                "diploma",
+                "horario",
+                "maestro"
+            ],
+            "correct_answer": "matrícula"
+        },
+        {
+            "word": "borrador",
+            "translation_english": "eraser",
+            "translation_native": "borrador",
+            "pronunciation": "boh-rrah-DOHR",
+            "examples": [
+                {
+                    "sentence": "Usa el borrador para limpiar la pizarra.",
+                    "translation_english": "Use the eraser to clean the board.",
+                    "translation_native": "Usa el borrador para limpiar la pizarra.",
+                    "sentence_parts": [
+                        "Usa",
+                        "el",
+                        "borrador",
+                        "para",
+                        "limpiar",
+                        "la",
+                        "pizarra."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "borrador",
+                "lapicero",
+                "estuche",
+                "regla"
+            ],
+            "correct_answer": "borrador"
+        },
+        {
+            "word": "profesorado",
+            "translation_english": "faculty / teaching staff",
+            "translation_native": "profesorado",
+            "pronunciation": "proh-feh-soh-RAH-doh",
+            "examples": [
+                {
+                    "sentence": "El profesorado está muy bien preparado.",
+                    "translation_english": "The faculty is very well prepared.",
+                    "translation_native": "El profesorado está muy bien preparado.",
+                    "sentence_parts": [
+                        "El",
+                        "profesorado",
+                        "está",
+                        "muy",
+                        "bien",
+                        "preparado."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "profesorado",
+                "estudiante",
+                "colegio",
+                "tarea"
+            ],
+            "correct_answer": "profesorado"
+        },
+        {
+            "word": "horario",
+            "translation_english": "schedule",
+            "translation_native": "horario",
+            "pronunciation": "oh-RAH-ryoh",
+            "examples": [
+                {
+                    "sentence": "Necesito revisar mi horario de clases.",
+                    "translation_english": "I need to check my class schedule.",
+                    "translation_native": "Necesito revisar mi horario de clases.",
+                    "sentence_parts": [
+                        "Necesito",
+                        "revisar",
+                        "mi",
+                        "horario",
+                        "de",
+                        "clases."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "horario",
+                "examen",
+                "libro",
+                "aula"
+            ],
+            "correct_answer": "horario"
+        },
+        {
+            "word": "aprobado",
+            "translation_english": "pass",
+            "translation_native": "aprobado",
+            "pronunciation": "ah-proh-BAH-doh",
+            "examples": [
+                {
+                    "sentence": "He aprobado todas mis asignaturas este semestre.",
+                    "translation_english": "I have passed all my subjects this semester.",
+                    "translation_native": "He aprobado todas mis asignaturas este semestre.",
+                    "sentence_parts": [
+                        "He",
+                        "aprobado",
+                        "todas",
+                        "mis",
+                        "asignaturas",
+                        "este",
+                        "semestre."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "aprobado",
+                "reprobado",
+                "estudio",
+                "tarea"
+            ],
+            "correct_answer": "aprobado"
+        },
+        {
+            "word": "examen",
+            "translation_english": "exam",
+            "translation_native": "examen",
+            "pronunciation": "ehk-SAH-men",
+            "examples": [
+                {
+                    "sentence": "Mañana tenemos un examen de matemáticas.",
+                    "translation_english": "Tomorrow we have a math exam.",
+                    "translation_native": "Mañana tenemos un examen de matemáticas.",
+                    "sentence_parts": [
+                        "Mañana",
+                        "tenemos",
+                        "un",
+                        "examen",
+                        "de",
+                        "matemáticas."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "examen",
+                "repaso",
+                "libro",
+                "clase"
+            ],
+            "correct_answer": "examen"
+        },
+        {
+            "word": "repaso",
+            "translation_english": "review",
+            "translation_native": "repaso",
+            "pronunciation": "rreh-PAH-soh",
+            "examples": [
+                {
+                    "sentence": "Hacemos un repaso antes del examen final.",
+                    "translation_english": "We do a review before the final exam.",
+                    "translation_native": "Hacemos un repaso antes del examen final.",
+                    "sentence_parts": [
+                        "Hacemos",
+                        "un",
+                        "repaso",
+                        "antes",
+                        "del",
+                        "examen",
+                        "final."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "repaso",
+                "estudio",
+                "tarea",
+                "lección"
+            ],
+            "correct_answer": "repaso"
+        },
+        {
+            "word": "estuche",
+            "translation_english": "pencil case",
+            "translation_native": "estuche",
+            "pronunciation": "ehs-TOO-cheh",
+            "examples": [
+                {
+                    "sentence": "He olvidado mi estuche en casa.",
+                    "translation_english": "I forgot my pencil case at home.",
+                    "translation_native": "He olvidado mi estuche en casa.",
+                    "sentence_parts": [
+                        "He",
+                        "olvidado",
+                        "mi",
+                        "estuche",
+                        "en",
+                        "casa."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "estuche",
+                "mochila",
+                "regla",
+                "bolígrafo"
+            ],
+            "correct_answer": "estuche"
+        },
+        {
+            "word": "tiza",
+            "translation_english": "chalk",
+            "translation_native": "tiza",
+            "pronunciation": "TEE-sah",
+            "examples": [
+                {
+                    "sentence": "El profesor escribe en la pizarra con tiza.",
+                    "translation_english": "The teacher writes on the board with chalk.",
+                    "translation_native": "El profesor escribe en la pizarra con tiza.",
+                    "sentence_parts": [
+                        "El",
+                        "profesor",
+                        "escribe",
+                        "en",
+                        "la",
+                        "pizarra",
+                        "con",
+                        "tiza."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "tiza",
+                "borrador",
+                "lapicero",
+                "papel"
+            ],
+            "correct_answer": "tiza"
+        },
+        {
+            "word": "aula",
+            "translation_english": "classroom",
+            "translation_native": "aula",
+            "pronunciation": "OW-lah",
+            "examples": [
+                {
+                    "sentence": "El aula está en el segundo piso.",
+                    "translation_english": "The classroom is on the second floor.",
+                    "translation_native": "El aula está en el segundo piso.",
+                    "sentence_parts": [
+                        "El",
+                        "aula",
+                        "está",
+                        "en",
+                        "el",
+                        "segundo",
+                        "piso."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "aula",
+                "biblioteca",
+                "oficina",
+                "escuela"
+            ],
+            "correct_answer": "aula"
+        },
+        {
+            "word": "curso",
+            "translation_english": "course / grade level",
+            "translation_native": "curso",
+            "pronunciation": "KOOR-soh",
+            "examples": [
+                {
+                    "sentence": "Este curso es muy interesante.",
+                    "translation_english": "This course is very interesting.",
+                    "translation_native": "Este curso es muy interesante.",
+                    "sentence_parts": [
+                        "Este",
+                        "curso",
+                        "es",
+                        "muy",
+                        "interesante."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "curso",
+                "asignatura",
+                "lección",
+                "universidad"
+            ],
+            "correct_answer": "curso"
+        },
+        {
+            "word": "aprender",
+            "translation_english": "to learn",
+            "translation_native": "aprender",
+            "pronunciation": "ah-pren-DEHR",
+            "examples": [
+                {
+                    "sentence": "Quiero aprender español en la escuela.",
+                    "translation_english": "I want to learn Spanish at school.",
+                    "translation_native": "Quiero aprender español en la escuela.",
+                    "sentence_parts": [
+                        "Quiero",
+                        "aprender",
+                        "español",
+                        "en",
+                        "la",
+                        "escuela."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "aprender",
+                "estudiar",
+                "enseñar",
+                "leer"
+            ],
+            "correct_answer": "aprender"
+        },
+        {
+            "word": "enseñanza",
+            "translation_english": "teaching / education",
+            "translation_native": "enseñanza",
+            "pronunciation": "en-sen-YAN-sah",
+            "examples": [
+                {
+                    "sentence": "La enseñanza es mi vocación.",
+                    "translation_english": "Teaching is my vocation.",
+                    "translation_native": "La ense��anza es mi vocación.",
+                    "sentence_parts": [
+                        "La",
+                        "enseñanza",
+                        "es",
+                        "mi",
+                        "vocación."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "enseñanza",
+                "aprendizaje",
+                "escuela",
+                "colegio"
+            ],
+            "correct_answer": "enseñanza"
+        },
+        {
+            "word": "maestro",
+            "translation_english": "teacher",
+            "translation_native": "maestro",
+            "pronunciation": "mah-EHS-troh",
+            "examples": [
+                {
+                    "sentence": "Mi maestro explica muy bien la lección.",
+                    "translation_english": "My teacher explains the lesson very well.",
+                    "translation_native": "Mi maestro explica muy bien la lección.",
+                    "sentence_parts": [
+                        "Mi",
+                        "maestro",
+                        "explica",
+                        "muy",
+                        "bien",
+                        "la",
+                        "lección."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "maestro",
+                "estudiante",
+                "profesor",
+                "director"
+            ],
+            "correct_answer": "maestro"
+        },
+        {
+            "word": "colegio",
+            "translation_english": "school",
+            "translation_native": "colegio",
+            "pronunciation": "koh-LEH-hyoh",
+            "examples": [
+                {
+                    "sentence": "Voy al colegio todos los días.",
+                    "translation_english": "I go to school every day.",
+                    "translation_native": "Voy al colegio todos los días.",
+                    "sentence_parts": [
+                        "Voy",
+                        "al",
+                        "colegio",
+                        "todos",
+                        "los",
+                        "días."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "colegio",
+                "instituto",
+                "universidad",
+                "clase"
+            ],
+            "correct_answer": "colegio"
+        },
+        {
+            "word": "tarea",
+            "translation_english": "homework",
+            "translation_native": "tarea",
+            "pronunciation": "tah-REH-ah",
+            "examples": [
+                {
+                    "sentence": "Tengo mucha tarea esta noche.",
+                    "translation_english": "I have a lot of homework tonight.",
+                    "translation_native": "Tengo mucha tarea esta noche.",
+                    "sentence_parts": [
+                        "Tengo",
+                        "mucha",
+                        "tarea",
+                        "esta",
+                        "noche."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "tarea",
+                "lección",
+                "repaso",
+                "examen"
+            ],
+            "correct_answer": "tarea"
+        },
+        {
+            "word": "pupitre",
+            "translation_english": "desk",
+            "translation_native": "pupitre",
+            "pronunciation": "poo-PEE-treh",
+            "examples": [
+                {
+                    "sentence": "Deja tu mochila sobre el pupitre.",
+                    "translation_english": "Leave your backpack on the desk.",
+                    "translation_native": "Deja tu mochila sobre el pupitre.",
+                    "sentence_parts": [
+                        "Deja",
+                        "tu",
+                        "mochila",
+                        "sobre",
+                        "el",
+                        "pupitre."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "pupitre",
+                "silla",
+                "mesa",
+                "estuche"
+            ],
+            "correct_answer": "pupitre"
+        },
+        {
+            "word": "diploma",
+            "translation_english": "diploma / degree",
+            "translation_native": "diploma",
+            "pronunciation": "dee-PLOH-mah",
+            "examples": [
+                {
+                    "sentence": "Recibí mi diploma de graduación hoy.",
+                    "translation_english": "I received my graduation diploma today.",
+                    "translation_native": "Recibí mi diploma de graduación hoy.",
+                    "sentence_parts": [
+                        "Recibí",
+                        "mi",
+                        "diploma",
+                        "de",
+                        "graduación",
+                        "hoy."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "diploma",
+                "certificado",
+                "título",
+                "nota"
+            ],
+            "correct_answer": "diploma"
+        },
+        {
+            "word": "lección",
+            "translation_english": "lesson",
+            "translation_native": "lección",
+            "pronunciation": "lek-SYOHN",
+            "examples": [
+                {
+                    "sentence": "La lección de hoy fue muy corta.",
+                    "translation_english": "Today's lesson was very short.",
+                    "translation_native": "La lección de hoy fue muy corta.",
+                    "sentence_parts": [
+                        "La",
+                        "lección",
+                        "de",
+                        "hoy",
+                        "fue",
+                        "muy",
+                        "corta."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "lección",
+                "clase",
+                "tarea",
+                "curso"
+            ],
+            "correct_answer": "lección"
+        },
+        {
+            "word": "investigación",
+            "translation_english": "research",
+            "translation_native": "investigación",
+            "pronunciation": "in-ves-ti-ga-thyon",
+            "examples": [
+                {
+                    "sentence": "La investigación escolar requiere tiempo.",
+                    "translation_english": "The school research requires time.",
+                    "translation_native": "La investigación escolar requiere tiempo.",
+                    "sentence_parts": [
+                        "La",
+                        "investigación",
+                        "escolar",
+                        "requiere",
+                        "tiempo"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "investigación",
+                "dibujo",
+                "cálculo",
+                "lectura"
+            ],
+            "correct_answer": "investigación"
+        },
+        {
+            "word": "compañero",
+            "translation_english": "classmate",
+            "translation_native": "compañero",
+            "pronunciation": "kom-pa-nyeh-ro",
+            "examples": [
+                {
+                    "sentence": "Mi compañero ayuda con la tarea.",
+                    "translation_english": "My classmate helps with the homework.",
+                    "translation_native": "Mi compañero ayuda con la tarea.",
+                    "sentence_parts": [
+                        "Mi",
+                        "compañero",
+                        "ayuda",
+                        "con",
+                        "la",
+                        "tarea"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "compañero",
+                "director",
+                "bedel",
+                "conserje"
+            ],
+            "correct_answer": "compañero"
+        },
+        {
+            "word": "criterio",
+            "translation_english": "criterion",
+            "translation_native": "criterio",
+            "pronunciation": "kri-teh-ryo",
+            "examples": [
+                {
+                    "sentence": "Ese es el criterio de evaluación.",
+                    "translation_english": "That is the evaluation criterion.",
+                    "translation_native": "Ese es el criterio de evaluación.",
+                    "sentence_parts": [
+                        "Ese",
+                        "es",
+                        "el",
+                        "criterio",
+                        "de",
+                        "evaluación"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "criterio",
+                "folleto",
+                "idioma",
+                "deber"
+            ],
+            "correct_answer": "criterio"
+        },
+        {
+            "word": "laboratorio",
+            "translation_english": "laboratory",
+            "translation_native": "laboratorio",
+            "pronunciation": "la-bo-ra-to-ryo",
+            "examples": [
+                {
+                    "sentence": "Vamos al laboratorio de ciencias.",
+                    "translation_english": "We go to the science laboratory.",
+                    "translation_native": "Vamos al laboratorio de ciencias.",
+                    "sentence_parts": [
+                        "Vamos",
+                        "al",
+                        "laboratorio",
+                        "de",
+                        "ciencias"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "laboratorio",
+                "pasillo",
+                "comedor",
+                "gimnasio"
+            ],
+            "correct_answer": "laboratorio"
+        },
+        {
+            "word": "taller",
+            "translation_english": "workshop",
+            "translation_native": "taller",
+            "pronunciation": "ta-yer",
+            "examples": [
+                {
+                    "sentence": "Tenemos un taller de teatro hoy.",
+                    "translation_english": "We have a theater workshop today.",
+                    "translation_native": "Tenemos un taller de teatro hoy.",
+                    "sentence_parts": [
+                        "Tenemos",
+                        "un",
+                        "taller",
+                        "de",
+                        "teatro",
+                        "hoy"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "taller",
+                "bloque",
+                "archivo",
+                "cuaderno"
+            ],
+            "correct_answer": "taller"
+        },
+        {
+            "word": "beca",
+            "translation_english": "scholarship",
+            "translation_native": "beca",
+            "pronunciation": "beh-ka",
+            "examples": [
+                {
+                    "sentence": "Ella recibió una beca completa.",
+                    "translation_english": "She received a full scholarship.",
+                    "translation_native": "Ella recibió una beca completa.",
+                    "sentence_parts": [
+                        "Ella",
+                        "recibió",
+                        "una",
+                        "beca",
+                        "completa"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "beca",
+                "cuota",
+                "multa",
+                "gasto"
+            ],
+            "correct_answer": "beca"
+        },
+        {
+            "word": "rector",
+            "translation_english": "dean / principal",
+            "translation_native": "rector",
+            "pronunciation": "rek-tor",
+            "examples": [
+                {
+                    "sentence": "El rector habla en el auditorio.",
+                    "translation_english": "The principal speaks in the auditorium.",
+                    "translation_native": "El rector habla en el auditorio.",
+                    "sentence_parts": [
+                        "El",
+                        "rector",
+                        "habla",
+                        "en",
+                        "el",
+                        "auditorio"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "rector",
+                "tutor",
+                "estudiante",
+                "secretario"
+            ],
+            "correct_answer": "rector"
+        },
+        {
+            "word": "carpeta",
+            "translation_english": "folder / binder",
+            "translation_native": "carpeta",
+            "pronunciation": "kar-peh-ta",
+            "examples": [
+                {
+                    "sentence": "Guarda los papeles en la carpeta.",
+                    "translation_english": "Keep the papers in the folder.",
+                    "translation_native": "Guarda los papeles en la carpeta.",
+                    "sentence_parts": [
+                        "Guarda",
+                        "los",
+                        "papeles",
+                        "en",
+                        "la",
+                        "carpeta"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "carpeta",
+                "regla",
+                "mochila",
+                "goma"
+            ],
+            "correct_answer": "carpeta"
+        },
+        {
+            "word": "especialización",
+            "translation_english": "specialization",
+            "translation_native": "especialización",
+            "pronunciation": "es-pe-sya-li-tha-thyon",
+            "examples": [
+                {
+                    "sentence": "Elijo mi especialización en historia.",
+                    "translation_english": "I choose my specialization in history.",
+                    "translation_native": "Elijo mi especialización en historia.",
+                    "sentence_parts": [
+                        "Elijo",
+                        "mi",
+                        "especialización",
+                        "en",
+                        "historia"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "especialización",
+                "evaluación",
+                "promoción",
+                "educación"
+            ],
+            "correct_answer": "especialización"
+        },
+        {
+            "word": "bibliografía",
+            "translation_english": "bibliography",
+            "translation_native": "bibliografía",
+            "pronunciation": "bi-blio-gra-fya",
+            "examples": [
+                {
+                    "sentence": "Debes añadir la bibliografía al final.",
+                    "translation_english": "You must add the bibliography at the end.",
+                    "translation_native": "Debes añadir la bibliografía al final.",
+                    "sentence_parts": [
+                        "Debes",
+                        "añadir",
+                        "la",
+                        "bibliografía",
+                        "al",
+                        "final"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "bibliografía",
+                "enciclopedia",
+                "diccionario",
+                "temario"
+            ],
+            "correct_answer": "bibliografía"
+        },
+        {
+            "word": "cuota",
+            "translation_english": "fee / tuition installment",
+            "translation_native": "cuota",
+            "pronunciation": "kwo-ta",
+            "examples": [
+                {
+                    "sentence": "Pagué la cuota mensual del colegio.",
+                    "translation_english": "I paid the monthly school fee.",
+                    "translation_native": "Pagué la cuota mensual del colegio.",
+                    "sentence_parts": [
+                        "Pagué",
+                        "la",
+                        "cuota",
+                        "mensual",
+                        "del",
+                        "colegio"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "cuota",
+                "beca",
+                "precio",
+                "pago"
+            ],
+            "correct_answer": "cuota"
+        },
+        {
+            "word": "tutoría",
+            "translation_english": "tutoring / office hours",
+            "translation_native": "tutoría",
+            "pronunciation": "tu-to-rya",
+            "examples": [
+                {
+                    "sentence": "Tengo una tutoría con el profesor.",
+                    "translation_english": "I have tutoring with the teacher.",
+                    "translation_native": "Tengo una tutoría con el profesor.",
+                    "sentence_parts": [
+                        "Tengo",
+                        "una",
+                        "tutoría",
+                        "con",
+                        "el",
+                        "profesor"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "tutoría",
+                "charla",
+                "debate",
+                "reunión"
+            ],
+            "correct_answer": "tutoría"
+        },
+        {
+            "word": "resumen",
+            "translation_english": "summary",
+            "translation_native": "resumen",
+            "pronunciation": "re-su-men",
+            "examples": [
+                {
+                    "sentence": "Escribe un resumen del libro.",
+                    "translation_english": "Write a summary of the book.",
+                    "translation_native": "Escribe un resumen del libro.",
+                    "sentence_parts": [
+                        "Escribe",
+                        "un",
+                        "resumen",
+                        "del",
+                        "libro"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "resumen",
+                "ensayo",
+                "artículo",
+                "informe"
+            ],
+            "correct_answer": "resumen"
+        },
+        {
+            "word": "folleto",
+            "translation_english": "brochure / pamphlet",
+            "translation_native": "folleto",
+            "pronunciation": "fo-yeh-to",
+            "examples": [
+                {
+                    "sentence": "Leí el folleto informativo del curso.",
+                    "translation_english": "I read the course information brochure.",
+                    "translation_native": "Leí el folleto informativo del curso.",
+                    "sentence_parts": [
+                        "Leí",
+                        "el",
+                        "folleto",
+                        "informativo",
+                        "del",
+                        "curso"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "folleto",
+                "libro",
+                "mapa",
+                "diario"
+            ],
+            "correct_answer": "folleto"
+        },
+        {
+            "word": "caligrafía",
+            "translation_english": "calligraphy / handwriting",
+            "translation_native": "caligrafía",
+            "pronunciation": "ka-li-gra-fya",
+            "examples": [
+                {
+                    "sentence": "Él practica mucho su caligrafía.",
+                    "translation_english": "He practices his handwriting a lot.",
+                    "translation_native": "Él practica mucho su caligrafía.",
+                    "sentence_parts": [
+                        "Él",
+                        "practica",
+                        "mucho",
+                        "su",
+                        "caligrafía"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "caligrafía",
+                "ortografía",
+                "gramática",
+                "lectura"
+            ],
+            "correct_answer": "caligrafía"
+        },
+        {
+            "word": "conserje",
+            "translation_english": "janitor",
+            "translation_native": "conserje",
+            "pronunciation": "kon-ser-he",
+            "examples": [
+                {
+                    "sentence": "El conserje abrió la puerta principal.",
+                    "translation_english": "The janitor opened the main door.",
+                    "translation_native": "El conserje abrió la puerta principal.",
+                    "sentence_parts": [
+                        "El",
+                        "conserje",
+                        "abrió",
+                        "la",
+                        "puerta",
+                        "principal"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "conserje",
+                "alumno",
+                "director",
+                "bedel"
+            ],
+            "correct_answer": "conserje"
+        },
+        {
+            "word": "ensayo",
+            "translation_english": "essay",
+            "translation_native": "ensayo",
+            "pronunciation": "en-sa-yo",
+            "examples": [
+                {
+                    "sentence": "Tengo que terminar mi ensayo hoy.",
+                    "translation_english": "I have to finish my essay today.",
+                    "translation_native": "Tengo que terminar mi ensayo hoy.",
+                    "sentence_parts": [
+                        "Tengo",
+                        "que",
+                        "terminar",
+                        "mi",
+                        "ensayo",
+                        "hoy"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "ensayo",
+                "resumen",
+                "cuestionario",
+                "ejercicio"
+            ],
+            "correct_answer": "ensayo"
+        },
+        {
+            "word": "temario",
+            "translation_english": "syllabus",
+            "translation_native": "temario",
+            "pronunciation": "te-ma-ryo",
+            "examples": [
+                {
+                    "sentence": "El temario es muy largo este año.",
+                    "translation_english": "The syllabus is very long this year.",
+                    "translation_native": "El temario es muy largo este año.",
+                    "sentence_parts": [
+                        "El",
+                        "temario",
+                        "es",
+                        "muy",
+                        "largo",
+                        "este",
+                        "año"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "temario",
+                "horario",
+                "calendario",
+                "programa"
+            ],
+            "correct_answer": "temario"
+        },
+        {
+            "word": "regla",
+            "translation_english": "ruler",
+            "translation_native": "regla",
+            "pronunciation": "reh-gla",
+            "examples": [
+                {
+                    "sentence": "Usa la regla para dibujar líneas.",
+                    "translation_english": "Use the ruler to draw lines.",
+                    "translation_native": "Usa la regla para dibujar líneas.",
+                    "sentence_parts": [
+                        "Usa",
+                        "la",
+                        "regla",
+                        "para",
+                        "dibujar",
+                        "líneas"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "regla",
+                "goma",
+                "lápiz",
+                "carpeta"
+            ],
+            "correct_answer": "regla"
+        },
+        {
+            "word": "reunión",
+            "translation_english": "meeting",
+            "translation_native": "reunión",
+            "pronunciation": "reu-nyon",
+            "examples": [
+                {
+                    "sentence": "Hay una reunión de padres mañana.",
+                    "translation_english": "There is a parents meeting tomorrow.",
+                    "translation_native": "Hay una reunión de padres mañana.",
+                    "sentence_parts": [
+                        "Hay",
+                        "una",
+                        "reunión",
+                        "de",
+                        "padres",
+                        "mañana"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "reunión",
+                "clase",
+                "conferencia",
+                "charla"
+            ],
+            "correct_answer": "reunión"
+        },
+        {
+            "word": "goma",
+            "translation_english": "eraser",
+            "translation_native": "goma",
+            "pronunciation": "go-ma",
+            "examples": [
+                {
+                    "sentence": "Necesito una goma para borrar esto.",
+                    "translation_english": "I need an eraser to erase this.",
+                    "translation_native": "Necesito una goma para borrar esto.",
+                    "sentence_parts": [
+                        "Necesito",
+                        "una",
+                        "goma",
+                        "para",
+                        "borrar",
+                        "esto"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "goma",
+                "regla",
+                "sacapuntas",
+                "libro"
+            ],
+            "correct_answer": "goma"
+        },
+        {
+            "word": "informe",
+            "translation_english": "report",
+            "translation_native": "informe",
+            "pronunciation": "in-for-meh",
+            "examples": [
+                {
+                    "sentence": "Entregué mi informe de laboratorio.",
+                    "translation_english": "I submitted my laboratory report.",
+                    "translation_native": "Entregué mi informe de laboratorio.",
+                    "sentence_parts": [
+                        "Entregué",
+                        "mi",
+                        "informe",
+                        "de",
+                        "laboratorio"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "informe",
+                "trabajo",
+                "examen",
+                "ensayo"
+            ],
+            "correct_answer": "informe"
+        },
+        {
+            "word": "promoción",
+            "translation_english": "class of (graduation year)",
+            "translation_native": "promoción",
+            "pronunciation": "pro-mo-thyon",
+            "examples": [
+                {
+                    "sentence": "Él es de la promoción del 2024.",
+                    "translation_english": "He is from the class of 2024.",
+                    "translation_native": "Él es de la promoción del 2024.",
+                    "sentence_parts": [
+                        "Él",
+                        "es",
+                        "de",
+                        "la",
+                        "promoción",
+                        "del",
+                        "2024"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "promoción",
+                "graduación",
+                "curso",
+                "título"
+            ],
+            "correct_answer": "promoción"
+        },
+        {
+            "word": "cuestionario",
+            "translation_english": "questionnaire",
+            "translation_native": "cuestionario",
+            "pronunciation": "kwes-tyo-na-ryo",
+            "examples": [
+                {
+                    "sentence": "Completa este cuestionario sobre historia.",
+                    "translation_english": "Complete this questionnaire about history.",
+                    "translation_native": "Completa este cuestionario sobre historia.",
+                    "sentence_parts": [
+                        "Completa",
+                        "este",
+                        "cuestionario",
+                        "sobre",
+                        "historia"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "cuestionario",
+                "formulario",
+                "examen",
+                "estudio"
+            ],
+            "correct_answer": "cuestionario"
+        },
+        {
+            "word": "sacapuntas",
+            "translation_english": "pencil sharpener",
+            "translation_native": "sacapuntas",
+            "pronunciation": "sa-ka-pun-tas",
+            "examples": [
+                {
+                    "sentence": "¿Tienes un sacapuntas para mí?",
+                    "translation_english": "Do you have a pencil sharpener for me?",
+                    "translation_native": "¿Tienes un sacapuntas para mí?",
+                    "sentence_parts": [
+                        "¿Tienes",
+                        "un",
+                        "sacapuntas",
+                        "para",
+                        "mí?"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "sacapuntas",
+                "regla",
+                "goma",
+                "estante"
+            ],
+            "correct_answer": "sacapuntas"
+        },
+        {
+            "word": "facultad",
+            "translation_english": "faculty / school (university department)",
+            "translation_native": "facultad",
+            "pronunciation": "fa-kul-tad",
+            "examples": [
+                {
+                    "sentence": "Ella estudia en la facultad de derecho.",
+                    "translation_english": "She studies at the law school.",
+                    "translation_native": "Ella estudia en la facultad de derecho.",
+                    "sentence_parts": [
+                        "Ella",
+                        "estudia",
+                        "en",
+                        "la",
+                        "facultad",
+                        "de",
+                        "derecho"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "facultad",
+                "universidad",
+                "estudiante",
+                "instituto"
+            ],
+            "correct_answer": "facultad"
+        },
+        {
+            "word": "evaluación",
+            "translation_english": "evaluation / assessment",
+            "translation_native": "evaluación",
+            "pronunciation": "eh-va-lwa-syohn",
+            "examples": [
+                {
+                    "sentence": "La evaluación será el próximo viernes.",
+                    "translation_english": "The assessment will be next Friday.",
+                    "translation_native": "La evaluación será el próximo viernes.",
+                    "sentence_parts": [
+                        "La",
+                        "evaluación",
+                        "será",
+                        "el",
+                        "próximo",
+                        "viernes"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "evaluación",
+                "prueba",
+                "lección",
+                "revisión"
+            ],
+            "correct_answer": "evaluación"
+        },
+        {
+            "word": "campus",
+            "translation_english": "campus",
+            "translation_native": "campus",
+            "pronunciation": "kam-pus",
+            "examples": [
+                {
+                    "sentence": "El campus es muy grande y hermoso.",
+                    "translation_english": "The campus is very large and beautiful.",
+                    "translation_native": "El campus es muy grande y hermoso.",
+                    "sentence_parts": [
+                        "El",
+                        "campus",
+                        "es",
+                        "muy",
+                        "grande",
+                        "y",
+                        "hermoso"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "campus",
+                "edificio",
+                "terreno",
+                "jardín"
+            ],
+            "correct_answer": "campus"
+        },
+        {
+            "word": "docente",
+            "translation_english": "teaching staff / teacher",
+            "translation_native": "docente",
+            "pronunciation": "doh-sen-teh",
+            "examples": [
+                {
+                    "sentence": "El personal docente está en reunión.",
+                    "translation_english": "The teaching staff is in a meeting.",
+                    "translation_native": "El personal docente está en reunión.",
+                    "sentence_parts": [
+                        "El",
+                        "personal",
+                        "docente",
+                        "está",
+                        "en",
+                        "reunión"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "docente",
+                "estudiante",
+                "directivo",
+                "personal"
+            ],
+            "correct_answer": "docente"
+        },
+        {
+            "word": "conferencia",
+            "translation_english": "lecture / conference",
+            "translation_native": "conferencia",
+            "pronunciation": "kon-fe-ren-sya",
+            "examples": [
+                {
+                    "sentence": "Hoy asistiré a una conferencia interesante.",
+                    "translation_english": "Today I will attend an interesting lecture.",
+                    "translation_native": "Hoy asistiré a una conferencia interesante.",
+                    "sentence_parts": [
+                        "Hoy",
+                        "asistiré",
+                        "a",
+                        "una",
+                        "conferencia",
+                        "interesante"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "conferencia",
+                "charla",
+                "clase",
+                "discusión"
+            ],
+            "correct_answer": "conferencia"
+        },
+        {
+            "word": "bibliotecario",
+            "translation_english": "librarian",
+            "translation_native": "bibliotecario",
+            "pronunciation": "bi-blio-te-ka-ryo",
+            "examples": [
+                {
+                    "sentence": "El bibliotecario me ayudó con la búsqueda.",
+                    "translation_english": "The librarian helped me with the search.",
+                    "translation_native": "El bibliotecario me ayudó con la búsqueda.",
+                    "sentence_parts": [
+                        "El",
+                        "bibliotecario",
+                        "me",
+                        "ayudó",
+                        "con",
+                        "la",
+                        "búsqueda"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "bibliotecario",
+                "secretario",
+                "estudiante",
+                "profesor"
+            ],
+            "correct_answer": "bibliotecario"
+        },
+        {
+            "word": "matricularse",
+            "translation_english": "to enroll / to register",
+            "translation_native": "matricularse",
+            "pronunciation": "ma-tri-ku-lar-seh",
+            "examples": [
+                {
+                    "sentence": "Debes matricularse antes de enero.",
+                    "translation_english": "You must enroll before January.",
+                    "translation_native": "Debes matricularse antes de enero.",
+                    "sentence_parts": [
+                        "Debes",
+                        "matricularse",
+                        "antes",
+                        "de",
+                        "enero"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "matricularse",
+                "inscribirse",
+                "estudiar",
+                "graduarse"
+            ],
+            "correct_answer": "matricularse"
+        },
+        {
+            "word": "cursar",
+            "translation_english": "to take a course",
+            "translation_native": "cursar",
+            "pronunciation": "kur-sar",
+            "examples": [
+                {
+                    "sentence": "Voy a cursar historia este semestre.",
+                    "translation_english": "I am going to take history this semester.",
+                    "translation_native": "Voy a cursar historia este semestre.",
+                    "sentence_parts": [
+                        "Voy",
+                        "a",
+                        "cursar",
+                        "historia",
+                        "este",
+                        "semestre"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "cursar",
+                "estudiar",
+                "enseñar",
+                "aprender"
+            ],
+            "correct_answer": "cursar"
+        },
+        {
+            "word": "semestre",
+            "translation_english": "semester",
+            "translation_native": "semestre",
+            "pronunciation": "se-mes-tre",
+            "examples": [
+                {
+                    "sentence": "Este semestre tengo muchas clases.",
+                    "translation_english": "This semester I have many classes.",
+                    "translation_native": "Este semestre tengo muchas clases.",
+                    "sentence_parts": [
+                        "Este",
+                        "semestre",
+                        "tengo",
+                        "muchas",
+                        "clases"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "semestre",
+                "trimestre",
+                "año",
+                "ciclo"
+            ],
+            "correct_answer": "semestre"
+        },
+        {
+            "word": "título",
+            "translation_english": "degree / diploma title",
+            "translation_native": "título",
+            "pronunciation": "tee-tu-lo",
+            "examples": [
+                {
+                    "sentence": "Obtendré mi título universitario pronto.",
+                    "translation_english": "I will obtain my university degree soon.",
+                    "translation_native": "Obtendré mi título universitario pronto.",
+                    "sentence_parts": [
+                        "Obtendré",
+                        "mi",
+                        "título",
+                        "universitario",
+                        "pronto"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "título",
+                "grado",
+                "certificado",
+                "licencia"
+            ],
+            "correct_answer": "título"
+        },
+        {
+            "word": "graduación",
+            "translation_english": "graduation",
+            "translation_native": "graduación",
+            "pronunciation": "gra-dwa-syohn",
+            "examples": [
+                {
+                    "sentence": "Mi graduación será en el auditorio.",
+                    "translation_english": "My graduation will be in the auditorium.",
+                    "translation_native": "Mi graduación será en el auditorio.",
+                    "sentence_parts": [
+                        "Mi",
+                        "graduación",
+                        "será",
+                        "en",
+                        "el",
+                        "auditorio"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "graduación",
+                "ceremonia",
+                "fiesta",
+                "acto"
+            ],
+            "correct_answer": "graduación"
+        },
+        {
+            "word": "auditorio",
+            "translation_english": "auditorium",
+            "translation_native": "auditorio",
+            "pronunciation": "au-di-to-ryo",
+            "examples": [
+                {
+                    "sentence": "Todos entramos en el auditorio.",
+                    "translation_english": "We all entered the auditorium.",
+                    "translation_native": "Todos entramos en el auditorio.",
+                    "sentence_parts": [
+                        "Todos",
+                        "entramos",
+                        "en",
+                        "el",
+                        "auditorio"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "auditorio",
+                "sala",
+                "teatro",
+                "clase"
+            ],
+            "correct_answer": "auditorio"
+        },
+        {
+            "word": "expositor",
+            "translation_english": "presenter / speaker",
+            "translation_native": "expositor",
+            "pronunciation": "eks-po-si-tor",
+            "examples": [
+                {
+                    "sentence": "El expositor explicó muy bien el tema.",
+                    "translation_english": "The presenter explained the topic very well.",
+                    "translation_native": "El expositor explicó muy bien el tema.",
+                    "sentence_parts": [
+                        "El",
+                        "expositor",
+                        "explicó",
+                        "muy",
+                        "bien",
+                        "el",
+                        "tema"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "expositor",
+                "orador",
+                "estudiante",
+                "profesor"
+            ],
+            "correct_answer": "expositor"
+        },
+        {
+            "word": "matemáticas",
+            "translation_english": "mathematics",
+            "translation_native": "matemáticas",
+            "pronunciation": "ma-te-ma-ti-kas",
+            "examples": [
+                {
+                    "sentence": "Las matemáticas son importantes para todos.",
+                    "translation_english": "Mathematics are important for everyone.",
+                    "translation_native": "Las matemáticas son importantes para todos.",
+                    "sentence_parts": [
+                        "Las",
+                        "matemáticas",
+                        "son",
+                        "importantes",
+                        "para",
+                        "todos"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "matemáticas",
+                "cálculo",
+                "ciencia",
+                "historia"
+            ],
+            "correct_answer": "matemáticas"
+        },
+        {
+            "word": "investigar",
+            "translation_english": "to research / investigate",
+            "translation_native": "investigar",
+            "pronunciation": "in-ves-ti-gar",
+            "examples": [
+                {
+                    "sentence": "Necesito investigar para mi ensayo.",
+                    "translation_english": "I need to research for my essay.",
+                    "translation_native": "Necesito investigar para mi ensayo.",
+                    "sentence_parts": [
+                        "Necesito",
+                        "investigar",
+                        "para",
+                        "mi",
+                        "ensayo"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "investigar",
+                "estudiar",
+                "analizar",
+                "leer"
+            ],
+            "correct_answer": "investigar"
+        },
+        {
+            "word": "inscripción",
+            "translation_english": "registration / enrollment",
+            "translation_native": "inscripción",
+            "pronunciation": "ins-krip-syohn",
+            "examples": [
+                {
+                    "sentence": "La inscripción empieza la otra semana.",
+                    "translation_english": "Registration starts next week.",
+                    "translation_native": "La inscripción empieza la otra semana.",
+                    "sentence_parts": [
+                        "La",
+                        "inscripción",
+                        "empieza",
+                        "la",
+                        "otra",
+                        "semana"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "inscripción",
+                "registro",
+                "ingreso",
+                "alta"
+            ],
+            "correct_answer": "inscripción"
+        },
+        {
+            "word": "decano",
+            "translation_english": "dean",
+            "translation_native": "decano",
+            "pronunciation": "de-ka-no",
+            "examples": [
+                {
+                    "sentence": "El decano habló en la ceremonia.",
+                    "translation_english": "The dean spoke at the ceremony.",
+                    "translation_native": "El decano habló en la ceremonia.",
+                    "sentence_parts": [
+                        "El",
+                        "decano",
+                        "habló",
+                        "en",
+                        "la",
+                        "ceremonia"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "decano",
+                "director",
+                "rector",
+                "profesor"
+            ],
+            "correct_answer": "decano"
+        },
+        {
+            "word": "práctica",
+            "translation_english": "internship / practice",
+            "translation_native": "práctica",
+            "pronunciation": "prak-ti-ka",
+            "examples": [
+                {
+                    "sentence": "Hago mi práctica en una empresa.",
+                    "translation_english": "I am doing my internship at a company.",
+                    "translation_native": "Hago mi práctica en una empresa.",
+                    "sentence_parts": [
+                        "Hago",
+                        "mi",
+                        "práctica",
+                        "en",
+                        "una",
+                        "empresa"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "práctica",
+                "trabajo",
+                "estudio",
+                "ejercicio"
+            ],
+            "correct_answer": "práctica"
+        },
+        {
+            "word": "universitario",
+            "translation_english": "university student / university-related",
+            "translation_native": "universitario",
+            "pronunciation": "u-ni-ver-si-ta-ryo",
+            "examples": [
+                {
+                    "sentence": "Él es un buen estudiante universitario.",
+                    "translation_english": "He is a good university student.",
+                    "translation_native": "Él es un buen estudiante universitario.",
+                    "sentence_parts": [
+                        "Él",
+                        "es",
+                        "un",
+                        "buen",
+                        "estudiante",
+                        "universitario"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "universitario",
+                "alumno",
+                "estudiante",
+                "académico"
+            ],
+            "correct_answer": "universitario"
+        },
+        {
+            "word": "tutor",
+            "translation_english": "tutor / mentor",
+            "translation_native": "tutor",
+            "pronunciation": "tu-tor",
+            "examples": [
+                {
+                    "sentence": "Mi tutor me ayudó con el proyecto.",
+                    "translation_english": "My tutor helped me with the project.",
+                    "translation_native": "Mi tutor me ayudó con el proyecto.",
+                    "sentence_parts": [
+                        "Mi",
+                        "tutor",
+                        "me",
+                        "ayudó",
+                        "con",
+                        "el",
+                        "proyecto"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "tutor",
+                "profesor",
+                "maestro",
+                "guía"
+            ],
+            "correct_answer": "tutor"
+        },
+        {
+            "word": "disciplina",
+            "translation_english": "discipline / subject area",
+            "translation_native": "disciplina",
+            "pronunciation": "dis-si-pli-na",
+            "examples": [
+                {
+                    "sentence": "La biología es una disciplina fascinante.",
+                    "translation_english": "Biology is a fascinating discipline.",
+                    "translation_native": "La biología es una disciplina fascinante.",
+                    "sentence_parts": [
+                        "La",
+                        "biología",
+                        "es",
+                        "una",
+                        "disciplina",
+                        "fascinante"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "disciplina",
+                "materia",
+                "ciencia",
+                "estudio"
+            ],
+            "correct_answer": "disciplina"
+        },
+        {
+            "word": "académico",
+            "translation_english": "academic",
+            "translation_native": "académico",
+            "pronunciation": "a-ka-de-mi-ko",
+            "examples": [
+                {
+                    "sentence": "El nivel académico es muy alto.",
+                    "translation_english": "The academic level is very high.",
+                    "translation_native": "El nivel académico es muy alto.",
+                    "sentence_parts": [
+                        "El",
+                        "nivel",
+                        "académico",
+                        "es",
+                        "muy",
+                        "alto"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "académico",
+                "estudioso",
+                "escolar",
+                "universitario"
+            ],
+            "correct_answer": "académico"
+        },
+        {
+            "word": "aprovechar",
+            "translation_english": "to make the most of / take advantage of",
+            "translation_native": "aprovechar",
+            "pronunciation": "a-pro-ve-char",
+            "examples": [
+                {
+                    "sentence": "Debes aprovechar tus años de estudio.",
+                    "translation_english": "You must make the most of your years of study.",
+                    "translation_native": "Debes aprovechar tus años de estudio.",
+                    "sentence_parts": [
+                        "Debes",
+                        "aprovechar",
+                        "tus",
+                        "años",
+                        "de",
+                        "estudio"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "aprovechar",
+                "usar",
+                "disfrutar",
+                "estudiar"
+            ],
+            "correct_answer": "aprovechar"
+        },
+        {
+            "word": "instrucción",
+            "translation_english": "instruction",
+            "translation_native": "instrucción",
+            "pronunciation": "ins-truhk-SYOHN",
+            "examples": [
+                {
+                    "sentence": "La instrucción fue muy clara.",
+                    "translation_english": "The instruction was very clear.",
+                    "translation_native": "La instrucción fue muy clara.",
+                    "sentence_parts": [
+                        "La",
+                        "instrucción",
+                        "fue",
+                        "muy",
+                        "clara"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "instrucción",
+                "lección",
+                "tarea",
+                "criterio"
+            ],
+            "correct_answer": "instrucción"
+        },
+        {
+            "word": "rectorado",
+            "translation_english": "rector's office",
+            "translation_native": "rectorado",
+            "pronunciation": "rek-toh-RAH-doh",
+            "examples": [
+                {
+                    "sentence": "El rectorado está en el edificio principal.",
+                    "translation_english": "The rector's office is in the main building.",
+                    "translation_native": "El rectorado está en el edificio principal.",
+                    "sentence_parts": [
+                        "El",
+                        "rectorado",
+                        "está",
+                        "en",
+                        "el",
+                        "edificio",
+                        "principal"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "rectorado",
+                "aula",
+                "biblioteca",
+                "campus"
+            ],
+            "correct_answer": "rectorado"
+        },
+        {
+            "word": "postgrado",
+            "translation_english": "postgraduate degree",
+            "translation_native": "postgrado",
+            "pronunciation": "pohst-GRAH-doh",
+            "examples": [
+                {
+                    "sentence": "Ella estudia un postgrado en España.",
+                    "translation_english": "She is studying a postgraduate degree in Spain.",
+                    "translation_native": "Ella estudia un postgrado en España.",
+                    "sentence_parts": [
+                        "Ella",
+                        "estudia",
+                        "un",
+                        "postgrado",
+                        "en",
+                        "España"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "postgrado",
+                "curso",
+                "título",
+                "facultad"
+            ],
+            "correct_answer": "postgrado"
+        },
+        {
+            "word": "colegiatura",
+            "translation_english": "tuition fee",
+            "translation_native": "colegiatura",
+            "pronunciation": "koh-leh-hyah-TOO-rah",
+            "examples": [
+                {
+                    "sentence": "Debo pagar mi colegiatura pronto.",
+                    "translation_english": "I must pay my tuition fee soon.",
+                    "translation_native": "Debo pagar mi colegiatura pronto.",
+                    "sentence_parts": [
+                        "Debo",
+                        "pagar",
+                        "mi",
+                        "colegiatura",
+                        "pronto"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "colegiatura",
+                "cuota",
+                "beca",
+                "inscripción"
+            ],
+            "correct_answer": "colegiatura"
+        },
+        {
+            "word": "reprobado",
+            "translation_english": "failed",
+            "translation_native": "reprobado",
+            "pronunciation": "reh-proh-BAH-doh",
+            "examples": [
+                {
+                    "sentence": "Él ha reprobado ese examen difícil.",
+                    "translation_english": "He has failed that difficult exam.",
+                    "translation_native": "Él ha reprobado ese examen difícil.",
+                    "sentence_parts": [
+                        "Él",
+                        "ha",
+                        "reprobado",
+                        "ese",
+                        "examen",
+                        "difícil"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "reprobado",
+                "aprobado",
+                "estudiado",
+                "enseñado"
+            ],
+            "correct_answer": "reprobado"
+        },
+        {
+            "word": "claustro",
+            "translation_english": "faculty body",
+            "translation_native": "claustro",
+            "pronunciation": "KLAU-stroh",
+            "examples": [
+                {
+                    "sentence": "El claustro de profesores se reunió hoy.",
+                    "translation_english": "The faculty body met today.",
+                    "translation_native": "El claustro de profesores se reunió hoy.",
+                    "sentence_parts": [
+                        "El",
+                        "claustro",
+                        "de",
+                        "profesores",
+                        "se",
+                        "reunió",
+                        "hoy"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "claustro",
+                "docente",
+                "profesorado",
+                "colegio"
+            ],
+            "correct_answer": "claustro"
+        },
+        {
+            "word": "optativa",
+            "translation_english": "elective subject",
+            "translation_native": "optativa",
+            "pronunciation": "ohp-tah-TEE-vah",
+            "examples": [
+                {
+                    "sentence": "Elegí una optativa de arte.",
+                    "translation_english": "I chose an art elective.",
+                    "translation_native": "Elegí una optativa de arte.",
+                    "sentence_parts": [
+                        "Elegí",
+                        "una",
+                        "optativa",
+                        "de",
+                        "arte"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "optativa",
+                "asignatura",
+                "temario",
+                "lección"
+            ],
+            "correct_answer": "optativa"
+        },
+        {
+            "word": "matriculación",
+            "translation_english": "enrollment",
+            "translation_native": "matriculación",
+            "pronunciation": "mah-tree-koo-lah-SYOHN",
+            "examples": [
+                {
+                    "sentence": "El periodo de matriculación ha terminado.",
+                    "translation_english": "The enrollment period has ended.",
+                    "translation_native": "El periodo de matriculación ha terminado.",
+                    "sentence_parts": [
+                        "El",
+                        "periodo",
+                        "de",
+                        "matriculación",
+                        "ha",
+                        "terminado"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "matriculación",
+                "inscripción",
+                "beca",
+                "tutoría"
+            ],
+            "correct_answer": "matriculación"
+        },
+        {
+            "word": "becario",
+            "translation_english": "scholarship holder",
+            "translation_native": "becario",
+            "pronunciation": "beh-KAH-ryoh",
+            "examples": [
+                {
+                    "sentence": "Él es un becario muy trabajador.",
+                    "translation_english": "He is a very hardworking scholarship holder.",
+                    "translation_native": "Él es un becario muy trabajador.",
+                    "sentence_parts": [
+                        "Él",
+                        "es",
+                        "un",
+                        "becario",
+                        "muy",
+                        "trabajador"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "becario",
+                "estudiante",
+                "compañero",
+                "docente"
+            ],
+            "correct_answer": "becario"
+        },
+        {
+            "word": "aulario",
+            "translation_english": "building with many classrooms",
+            "translation_native": "aulario",
+            "pronunciation": "au-LAH-ryoh",
+            "examples": [
+                {
+                    "sentence": "La clase es en el aulario B.",
+                    "translation_english": "The class is in building B.",
+                    "translation_native": "La clase es en el aulario B.",
+                    "sentence_parts": [
+                        "La",
+                        "clase",
+                        "es",
+                        "en",
+                        "el",
+                        "aulario",
+                        "B"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "aulario",
+                "aula",
+                "campus",
+                "laboratorio"
+            ],
+            "correct_answer": "aulario"
+        },
+        {
+            "word": "preparatoria",
+            "translation_english": "high school",
+            "translation_native": "preparatoria",
+            "pronunciation": "preh-pah-rah-TOH-ryah",
+            "examples": [
+                {
+                    "sentence": "Ella terminó la preparatoria el año pasado.",
+                    "translation_english": "She finished high school last year.",
+                    "translation_native": "Ella terminó la preparatoria el año pasado.",
+                    "sentence_parts": [
+                        "Ella",
+                        "terminó",
+                        "la",
+                        "preparatoria",
+                        "el",
+                        "año",
+                        "pasado"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "preparatoria",
+                "colegio",
+                "escuela",
+                "facultad"
+            ],
+            "correct_answer": "preparatoria"
+        },
+        {
+            "word": "evaluar",
+            "translation_english": "to evaluate/assess",
+            "translation_native": "evaluar",
+            "pronunciation": "eh-vah-LWAHR",
+            "examples": [
+                {
+                    "sentence": "El profesor va a evaluar nuestro trabajo.",
+                    "translation_english": "The teacher is going to evaluate our work.",
+                    "translation_native": "El profesor va a evaluar nuestro trabajo.",
+                    "sentence_parts": [
+                        "El",
+                        "profesor",
+                        "va",
+                        "a",
+                        "evaluar",
+                        "nuestro",
+                        "trabajo"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "evaluar",
+                "repasar",
+                "investigar",
+                "aprender"
+            ],
+            "correct_answer": "evaluar"
+        },
+        {
+            "word": "tesis",
+            "translation_english": "thesis",
+            "translation_native": "tesis",
+            "pronunciation": "TEH-sees",
+            "examples": [
+                {
+                    "sentence": "Estoy escribiendo mi tesis doctoral.",
+                    "translation_english": "I am writing my doctoral thesis.",
+                    "translation_native": "Estoy escribiendo mi tesis doctoral.",
+                    "sentence_parts": [
+                        "Estoy",
+                        "escribiendo",
+                        "mi",
+                        "tesis",
+                        "doctoral"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "tesis",
+                "ensayo",
+                "informe",
+                "resumen"
+            ],
+            "correct_answer": "tesis"
+        },
+        {
+            "word": "anotaciones",
+            "translation_english": "annotations/notes",
+            "translation_native": "anotaciones",
+            "pronunciation": "ah-noh-tah-SYOH-nehs",
+            "examples": [
+                {
+                    "sentence": "Hice muchas anotaciones en el margen.",
+                    "translation_english": "I made many annotations in the margin.",
+                    "translation_native": "Hice muchas anotaciones en el margen.",
+                    "sentence_parts": [
+                        "Hice",
+                        "muchas",
+                        "anotaciones",
+                        "en",
+                        "el",
+                        "margen"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "anotaciones",
+                "apuntes",
+                "resumen",
+                "informe"
+            ],
+            "correct_answer": "anotaciones"
+        },
+        {
+            "word": "catedrático",
+            "translation_english": "professor (university chair)",
+            "translation_native": "catedrático",
+            "pronunciation": "kah-teh-DRAH-tee-koh",
+            "examples": [
+                {
+                    "sentence": "El catedrático dio una charla magistral.",
+                    "translation_english": "The professor gave a master class.",
+                    "translation_native": "El catedrático dio una charla magistral.",
+                    "sentence_parts": [
+                        "El",
+                        "catedrático",
+                        "dio",
+                        "una",
+                        "charla",
+                        "magistral"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "catedrático",
+                "maestro",
+                "tutor",
+                "profesor"
+            ],
+            "correct_answer": "catedrático"
+        },
+        {
+            "word": "convocatoria",
+            "translation_english": "call for applications/exam date",
+            "translation_native": "convocatoria",
+            "pronunciation": "kohn-voh-kah-TOH-ryah",
+            "examples": [
+                {
+                    "sentence": "La convocatoria de becas está abierta.",
+                    "translation_english": "The call for scholarships is open.",
+                    "translation_native": "La convocatoria de becas está abierta.",
+                    "sentence_parts": [
+                        "La",
+                        "convocatoria",
+                        "de",
+                        "becas",
+                        "está",
+                        "abierta"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "convocatoria",
+                "reunión",
+                "inscripción",
+                "evaluación"
+            ],
+            "correct_answer": "convocatoria"
+        },
+        {
+            "word": "escolar",
+            "translation_english": "school-related",
+            "translation_native": "escolar",
+            "pronunciation": "ehs-koh-LAHR",
+            "examples": [
+                {
+                    "sentence": "Necesito comprar material escolar.",
+                    "translation_english": "I need to buy school supplies.",
+                    "translation_native": "Necesito comprar material escolar.",
+                    "sentence_parts": [
+                        "Necesito",
+                        "comprar",
+                        "material",
+                        "escolar"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "escolar",
+                "académico",
+                "universitario",
+                "docente"
+            ],
+            "correct_answer": "escolar"
+        },
+        {
+            "word": "seminario",
+            "translation_english": "seminar",
+            "translation_native": "seminario",
+            "pronunciation": "seh-mee-NAH-ryoh",
+            "examples": [
+                {
+                    "sentence": "El seminario fue muy interesante.",
+                    "translation_english": "The seminar was very interesting.",
+                    "translation_native": "El seminario fue muy interesante.",
+                    "sentence_parts": [
+                        "El",
+                        "seminario",
+                        "fue",
+                        "muy",
+                        "interesante"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "seminario",
+                "conferencia",
+                "taller",
+                "lección"
+            ],
+            "correct_answer": "seminario"
+        },
+        {
+            "word": "evaluador",
+            "translation_english": "evaluator",
+            "translation_native": "evaluador",
+            "pronunciation": "eh-vah-LWAH-dohr",
+            "examples": [
+                {
+                    "sentence": "El evaluador revisó todo el informe.",
+                    "translation_english": "The evaluator reviewed the whole report.",
+                    "translation_native": "El evaluador revisó todo el informe.",
+                    "sentence_parts": [
+                        "El",
+                        "evaluador",
+                        "revisó",
+                        "todo",
+                        "el",
+                        "informe"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "evaluador",
+                "profesor",
+                "tutor",
+                "docente"
+            ],
+            "correct_answer": "evaluador"
+        },
+        {
+            "word": "crédito",
+            "translation_english": "credit (academic)",
+            "translation_native": "crédito",
+            "pronunciation": "KREH-dee-toh",
+            "examples": [
+                {
+                    "sentence": "Necesito un crédito más para graduarme.",
+                    "translation_english": "I need one more credit to graduate.",
+                    "translation_native": "Necesito un crédito más para graduarme.",
+                    "sentence_parts": [
+                        "Necesito",
+                        "un",
+                        "crédito",
+                        "más",
+                        "para",
+                        "graduarme"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "crédito",
+                "curso",
+                "título",
+                "disciplina"
+            ],
+            "correct_answer": "crédito"
+        },
+        {
+            "word": "intercambio",
+            "translation_english": "exchange (program)",
+            "translation_native": "intercambio",
+            "pronunciation": "een-tehr-KAHM-byoh",
+            "examples": [
+                {
+                    "sentence": "Fui a un intercambio estudiantil.",
+                    "translation_english": "I went on a student exchange.",
+                    "translation_native": "Fui a un intercambio estudiantil.",
+                    "sentence_parts": [
+                        "Fui",
+                        "a",
+                        "un",
+                        "intercambio",
+                        "estudiantil"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "intercambio",
+                "beca",
+                "promoción",
+                "cursar"
+            ],
+            "correct_answer": "intercambio"
+        },
+        {
+            "word": "revisión",
+            "translation_english": "revision/review",
+            "translation_native": "revisión",
+            "pronunciation": "reh-vee-SYOHN",
+            "examples": [
+                {
+                    "sentence": "Hice una revisión de mis notas.",
+                    "translation_english": "I did a review of my notes.",
+                    "translation_native": "Hice una revisión de mis notas.",
+                    "sentence_parts": [
+                        "Hice",
+                        "una",
+                        "revisión",
+                        "de",
+                        "mis",
+                        "notas"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "revisión",
+                "repaso",
+                "informe",
+                "cuestionario"
+            ],
+            "correct_answer": "revisión"
+        },
+        {
+            "word": "clausura",
+            "translation_english": "closing ceremony",
+            "translation_native": "clausura",
+            "pronunciation": "klau-SOO-rah",
+            "examples": [
+                {
+                    "sentence": "La clausura del curso será mañana.",
+                    "translation_english": "The closing ceremony of the course will be tomorrow.",
+                    "translation_native": "La clausura del curso será mañana.",
+                    "sentence_parts": [
+                        "La",
+                        "clausura",
+                        "del",
+                        "curso",
+                        "será",
+                        "mañana"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "clausura",
+                "graduación",
+                "reunión",
+                "título"
+            ],
+            "correct_answer": "clausura"
+        },
+        {
+            "word": "expediente",
+            "translation_english": "academic record",
+            "translation_native": "expediente académico",
+            "pronunciation": "eks-pe-DYEN-te",
+            "examples": [
+                {
+                    "sentence": "Necesito revisar mi expediente antes de graduarme.",
+                    "translation_english": "I need to check my academic record before graduating.",
+                    "translation_native": "Necesito revisar mi expediente antes de graduarme.",
+                    "sentence_parts": [
+                        "Necesito",
+                        "revisar",
+                        "mi",
+                        "expediente",
+                        "antes",
+                        "de",
+                        "graduarme"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "expediente",
+                "asistencia",
+                "clausura",
+                "proceso"
+            ],
+            "correct_answer": "expediente"
+        },
+        {
+            "word": "asistencia",
+            "translation_english": "attendance",
+            "translation_native": "asistencia",
+            "pronunciation": "a-sis-TEN-thya",
+            "examples": [
+                {
+                    "sentence": "La asistencia es obligatoria en todas las clases.",
+                    "translation_english": "Attendance is mandatory in all classes.",
+                    "translation_native": "La asistencia es obligatoria en todas las clases.",
+                    "sentence_parts": [
+                        "La",
+                        "asistencia",
+                        "es",
+                        "obligatoria",
+                        "en",
+                        "todas",
+                        "las",
+                        "clases"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "asistencia",
+                "expediente",
+                "solicitud",
+                "omisión"
+            ],
+            "correct_answer": "asistencia"
+        },
+        {
+            "word": "solicitud",
+            "translation_english": "application",
+            "translation_native": "solicitud",
+            "pronunciation": "so-li-thi-TUD",
+            "examples": [
+                {
+                    "sentence": "Envié mi solicitud para ingresar a la facultad.",
+                    "translation_english": "I sent my application to enter the school.",
+                    "translation_native": "Envié mi solicitud para ingresar a la facultad.",
+                    "sentence_parts": [
+                        "Envié",
+                        "mi",
+                        "solicitud",
+                        "para",
+                        "ingresar",
+                        "a",
+                        "la",
+                        "facultad"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "solicitud",
+                "asistencia",
+                "consigna",
+                "lectura"
+            ],
+            "correct_answer": "solicitud"
+        },
+        {
+            "word": "consigna",
+            "translation_english": "instruction / assignment brief",
+            "translation_native": "consigna",
+            "pronunciation": "kon-SIG-na",
+            "examples": [
+                {
+                    "sentence": "Debes seguir la consigna del profesor paso a paso.",
+                    "translation_english": "You must follow the teacher's instruction step by step.",
+                    "translation_native": "Debes seguir la consigna del profesor paso a paso.",
+                    "sentence_parts": [
+                        "Debes",
+                        "seguir",
+                        "la",
+                        "consigna",
+                        "del",
+                        "profesor",
+                        "paso",
+                        "a",
+                        "paso"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "consigna",
+                "estudio",
+                "revisión",
+                "solicitud"
+            ],
+            "correct_answer": "consigna"
+        }
+    ]
+}

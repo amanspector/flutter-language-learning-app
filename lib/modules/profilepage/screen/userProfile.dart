@@ -41,6 +41,14 @@ class Userprofile extends StatelessWidget {
       (provider) => provider.selectedDailyGoal ?? context.l10n.notFound,
     );
 
+    String selectedLevel = context.select<OnboardProvider, String>(
+      (provider) => provider.selectedExperienceLevel ?? context.l10n.notFound,
+    );
+
+    String selectedGoal = context.select<OnboardProvider, String>(
+      (provider) => provider.selectedgoal ?? context.l10n.notFound,
+    );
+
     String? selectedGender = context.select<OnboardProvider, String?>(
       (provider) => provider.gender,
     );
@@ -162,6 +170,53 @@ class Userprofile extends StatelessWidget {
                         textColor: context.theme.colorScheme.onSurface,
                         showArrow: true,
                         onTap: () => _showLanguagePicker(context),
+                      ),
+                      Padding(
+                        padding: EdgeInsets.symmetric(horizontal: 16.w),
+                        child: Divider(
+                          color: context.colors.outline.withValues(alpha: 0.15),
+                        ),
+                      ),
+                      _buildSettingTile(
+                        context,
+                        icon: Icons.flag_outlined,
+                        iconColor: Colors.purple,
+                        iconBgColor: Colors.purple.withValues(alpha: 0.12),
+                        title: 'Learning Goal',
+                        subtitle: selectedGoal == 'travel'
+                            ? context.l10n.travel
+                            : selectedGoal == 'career'
+                            ? context.l10n.career
+                            : selectedGoal == 'school'
+                            ? context.l10n.school
+                            : selectedGoal,
+                        textColor: context.theme.colorScheme.onSurface,
+                        showArrow: true,
+                        onTap: () => _showCategoryPicker(context, selectedGoal),
+                      ),
+                      Padding(
+                        padding: EdgeInsets.symmetric(horizontal: 16.w),
+                        child: Divider(
+                          color: context.colors.outline.withValues(alpha: 0.15),
+                        ),
+                      ),
+                      _buildSettingTile(
+                        context,
+                        icon: Icons.bar_chart_outlined,
+                        iconColor: Colors.teal,
+                        iconBgColor: Colors.teal.withValues(alpha: 0.12),
+                        title: 'Experience Level',
+                        subtitle: selectedLevel == 'Beginner'
+                            ? context.l10n.beginner
+                            : selectedLevel == 'Intermediate'
+                            ? context.l10n.intermediate
+                            : selectedLevel == 'Advanced'
+                            ? context.l10n.advanced
+                            : selectedLevel,
+                        textColor: context.theme.colorScheme.onSurface,
+                        showArrow: true,
+                        onTap: () =>
+                            _showExperienceLevelPicker(context, selectedLevel),
                       ),
                       Padding(
                         padding: EdgeInsets.symmetric(horizontal: 16.w),
@@ -657,6 +712,146 @@ class Userprofile extends StatelessWidget {
           parentContext.read<VocabProvider>().reset();
           parentContext.read<LessonProvider>().resetLesson();
         }
+      },
+    );
+  }
+
+  void _showCategoryPicker(BuildContext context, String currentCategory) {
+    final onboard = context.read<OnboardProvider>();
+    final scheme = context.theme.colorScheme;
+
+    final categories = [
+      {
+        'code': 'travel',
+        'label': context.l10n.travel,
+        'subtitle': context.l10n.navigateNewCitiesAndConnectWithLocals,
+        'emoji': '✈️',
+      },
+      {
+        'code': 'career',
+        'label': context.l10n.career,
+        'subtitle': context.l10n.boostYourResumeAndUnlockGlobalOpportunities,
+        'emoji': '💼',
+      },
+      {
+        'code': 'school',
+        'label': context.l10n.school,
+        'subtitle': context.l10n.excelInYourStudiesAndMasterExams,
+        'emoji': '🎓',
+      },
+    ];
+
+    AppSelectionBottomSheet.show<Map<String, dynamic>>(
+      context: context,
+      title: 'Learning Goal',
+      subtitle: 'Select your learning focus category',
+      items: categories,
+      isSelected: (cat) => cat['code'] == currentCategory,
+      leadingBuilder: (context, cat, isActive) {
+        final emoji = cat['emoji'] ?? '🎯';
+        return Container(
+          width: 46.r,
+          height: 46.r,
+          decoration: BoxDecoration(
+            color: isActive
+                ? scheme.primary.withValues(alpha: 0.12)
+                : scheme.onSurface.withValues(alpha: 0.06),
+            shape: BoxShape.circle,
+          ),
+          child: Center(
+            child: Text(emoji, style: TextStyle(fontSize: 22.sp)),
+          ),
+        );
+      },
+      titleBuilder: (context, cat) => cat['label'] as String,
+      subtitleBuilder: (context, cat) => cat['subtitle'] as String,
+      activeBadgeText: 'Selected',
+      onItemTap: (sheetContext, cat) async {
+        Navigator.pop(sheetContext);
+        final code = cat['code'] as String;
+        if (code == currentCategory) return;
+
+        final parentContext = context;
+        await onboard.updateCategory(code);
+
+        if (!parentContext.mounted) return;
+        parentContext.read<VocabProvider>().reset();
+        parentContext.read<LessonProvider>().resetLesson();
+
+        await parentContext.read<HomescreenProvider>().initSession(
+          onboardprovider: onboard,
+          vocabprovider: parentContext.read<VocabProvider>(),
+        );
+      },
+    );
+  }
+
+  void _showExperienceLevelPicker(BuildContext context, String currentLevel) {
+    final onboard = context.read<OnboardProvider>();
+    final scheme = context.theme.colorScheme;
+
+    final levels = [
+      {
+        'code': 'Beginner',
+        'label': context.l10n.beginner,
+        'subtitle': context.l10n.newToThisTopicStartingFromScratch,
+        'emoji': '🌱',
+      },
+      {
+        'code': 'Intermediate',
+        'label': context.l10n.intermediate,
+        'subtitle': context.l10n.comfortableWithBasicsSeekingDeeperMastery,
+        'emoji': '⚡',
+      },
+      {
+        'code': 'Advanced',
+        'label': context.l10n.advanced,
+        'subtitle': context.l10n.expertKnowledgeLookingForAdvancedNuances,
+        'emoji': '🔥',
+      },
+    ];
+
+    AppSelectionBottomSheet.show<Map<String, dynamic>>(
+      context: context,
+      title: 'Experience Level',
+      subtitle: 'Select your current language proficiency',
+      items: levels,
+      isSelected: (lvl) => lvl['code'] == currentLevel,
+      leadingBuilder: (context, lvl, isActive) {
+        final emoji = lvl['emoji'] ?? '🎯';
+        return Container(
+          width: 46.r,
+          height: 46.r,
+          decoration: BoxDecoration(
+            color: isActive
+                ? scheme.primary.withValues(alpha: 0.12)
+                : scheme.onSurface.withValues(alpha: 0.06),
+            shape: BoxShape.circle,
+          ),
+          child: Center(
+            child: Text(emoji, style: TextStyle(fontSize: 22.sp)),
+          ),
+        );
+      },
+      titleBuilder: (context, lvl) => lvl['label'] as String,
+      subtitleBuilder: (context, lvl) => lvl['subtitle'] as String,
+      activeBadgeText: 'Selected',
+      onItemTap: (sheetContext, lvl) async {
+        Navigator.pop(sheetContext);
+        final code = lvl['code'] as String;
+        if (code == currentLevel) return;
+
+        final parentContext = context;
+        await onboard.updateExperienceLevel(code);
+
+        if (!parentContext.mounted) return;
+        parentContext.read<VocabProvider>().reset();
+        parentContext.read<LessonProvider>().resetLesson();
+
+        await parentContext.read<HomescreenProvider>().initSession(
+          onboardprovider: onboard,
+          vocabprovider: parentContext.read<VocabProvider>(),
+        );
       },
     );
   }

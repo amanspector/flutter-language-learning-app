@@ -24,7 +24,7 @@ class VocabularyPrompts {
     final levelGuidelines = _getLevelGuidelines(experienceLevel);
 
     return """
-You are a language curriculum expert. Generate exactly $wordCount vocabulary words.
+You are a language curriculum expert. Generate exactly 100 vocabulary words.
 
 TARGET LANGUAGE: $language
 NATIVE LANGUAGE: $nativeLang
@@ -92,7 +92,7 @@ Valid JSON only. No markdown.
     "correct_answer": "identical to word field"
   }]
 }
-Generate exactly $wordCount words now.
+Generate exactly 100 words now.
 """;
   }
   // ${learnedWords.isNotEmpty ? "EXCLUDE these already learned words: ${learnedWords.join(', ')}\n" : ""}

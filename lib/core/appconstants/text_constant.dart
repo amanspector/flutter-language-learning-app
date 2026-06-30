@@ -25,6 +25,11 @@ class Textconstant {
       'label': 'Spanish',
       'img': 'assets/icon/icon_spain_flag.png',
     },
+    {
+      'code': 'fr',
+      'label': 'French',
+      'img': 'assets/icon/icon_france_flag.png',
+    },
   ];
 
   static const List<Map<String, String>> languages = [
@@ -33,6 +38,7 @@ class Textconstant {
     {'code': 'gu', 'label': 'ગુજરાતી - Gujarati'},
     {'code': 'ar', 'label': 'عربي - Arabic'},
     {'code': 'es', 'label': 'Spanish - española'},
+    {'code': 'fr', 'label': 'French - français'},
   ];
 
   static const languageNames = {
@@ -41,6 +47,7 @@ class Textconstant {
     'gu': 'ગુજરાતી - Gujarati',
     'ar': 'عربي - Arabic',
     'es': 'Spanish - española',
+    'fr': 'French - français',
   };
 
   static const List<Map<String, dynamic>> genders = [

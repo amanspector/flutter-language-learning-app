@@ -1,0 +1,2716 @@
+{
+    "metadata": {
+        "language": "Arabic",
+        "native_language": "English",
+        "level": "Beginner",
+        "category": "school",
+        "total_words": 100
+    },
+    "words": [
+        {
+            "word": "مَدْرَسَة",
+            "translation_english": "school",
+            "translation_native": "school",
+            "pronunciation": "madrasa",
+            "examples": [
+                {
+                    "sentence": "أَدْرُسُ فِي هَذِهِ المَدْرَسَة",
+                    "translation_english": "I study in this school",
+                    "translation_native": "I study in this school",
+                    "sentence_parts": [
+                        "أَدْرُسُ",
+                        "فِي",
+                        "هَذِهِ",
+                        "المَدْرَسَة"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "مَدْرَسَة",
+                "مُسْتَشْفَى",
+                "مَطْعَم",
+                "مَطَار"
+            ],
+            "correct_answer": "مَدْرَسَة"
+        },
+        {
+            "word": "قَلَم",
+            "translation_english": "pen",
+            "translation_native": "pen",
+            "pronunciation": "qalam",
+            "examples": [
+                {
+                    "sentence": "أَكْتُبُ بِهَذَا القَلَم الأَزْرَق",
+                    "translation_english": "I write with this pen",
+                    "translation_native": "I write with this pen",
+                    "sentence_parts": [
+                        "أَكْتُبُ",
+                        "بِهَذَا",
+                        "القَلَم",
+                        "الأَزْرَق"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "قَلَم",
+                "مِمْحَاة",
+                "مِسْطَرَة",
+                "مِبْرَاة"
+            ],
+            "correct_answer": "قَلَم"
+        },
+        {
+            "word": "كِتَاب",
+            "translation_english": "book",
+            "translation_native": "book",
+            "pronunciation": "kitab",
+            "examples": [
+                {
+                    "sentence": "أَقْرَأُ كِتَابَ العُلُومِ اليَوْم",
+                    "translation_english": "I read the science book",
+                    "translation_native": "I read the science book",
+                    "sentence_parts": [
+                        "أَقْرَأُ",
+                        "كِتَابَ",
+                        "العُلُومِ",
+                        "اليَوْم"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "كِتَاب",
+                "دَفْتَر",
+                "مِفَكَّة",
+                "مِحْفَظَة"
+            ],
+            "correct_answer": "كِتَاب"
+        },
+        {
+            "word": "دَفْتَر",
+            "translation_english": "notebook",
+            "translation_native": "notebook",
+            "pronunciation": "daftar",
+            "examples": [
+                {
+                    "sentence": "أَكْتُبُ فِي دَفْتَرِ الرِّيَاضِيَّات",
+                    "translation_english": "I write in the math notebook",
+                    "translation_native": "I write in the math notebook",
+                    "sentence_parts": [
+                        "أَكْتُبُ",
+                        "فِي",
+                        "دَفْتَرِ",
+                        "الرِّيَاضِيَّات"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "دَفْتَر",
+                "كِتَاب",
+                "قَلَم",
+                "مِسْطَرَة"
+            ],
+            "correct_answer": "دَفْتَر"
+        },
+        {
+            "word": "مِسْطَرَة",
+            "translation_english": "ruler",
+            "translation_native": "ruler",
+            "pronunciation": "mistara",
+            "examples": [
+                {
+                    "sentence": "أَرْسُمُ خَطّاً بِالمِسْطَرَة",
+                    "translation_english": "I draw a line with the ruler",
+                    "translation_native": "I draw a line with the ruler",
+                    "sentence_parts": [
+                        "أَرْسُمُ",
+                        "خَطّاً",
+                        "بِالمِسْطَرَة"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "مِسْطَرَة",
+                "مِمْحَاة",
+                "مِبْرَاة",
+                "مِقَصّ"
+            ],
+            "correct_answer": "مِسْطَرَة"
+        },
+        {
+            "word": "مِمْحَاة",
+            "translation_english": "eraser",
+            "translation_native": "eraser",
+            "pronunciation": "mimhat",
+            "examples": [
+                {
+                    "sentence": "أَمْسَحُ الخَطَأَ بِالمِمْحَاة",
+                    "translation_english": "I erase the mistake with the eraser",
+                    "translation_native": "I erase the mistake with the eraser",
+                    "sentence_parts": [
+                        "أَمْسَحُ",
+                        "الخَطَأَ",
+                        "بِالمِمْحَاة"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "مِمْحَاة",
+                "مِسْطَرَة",
+                "مِبْرَاة",
+                "قَلَم"
+            ],
+            "correct_answer": "مِمْحَاة"
+        },
+        {
+            "word": "مِبْرَاة",
+            "translation_english": "sharpener",
+            "translation_native": "sharpener",
+            "pronunciation": "mibra",
+            "examples": [
+                {
+                    "sentence": "أَبْرِي القَلَمَ بِالمِبْرَاة",
+                    "translation_english": "I sharpen the pencil with the sharpener",
+                    "translation_native": "I sharpen the pencil with the sharpener",
+                    "sentence_parts": [
+                        "أَبْرِي",
+                        "القَلَمَ",
+                        "بِالمِبْرَاة"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "مِبْرَاة",
+                "مِمْحَاة",
+                "مِسْطَرَة",
+                "مِقَصّ"
+            ],
+            "correct_answer": "مِبْرَاة"
+        },
+        {
+            "word": "مِقَصّ",
+            "translation_english": "scissors",
+            "translation_native": "scissors",
+            "pronunciation": "miqass",
+            "examples": [
+                {
+                    "sentence": "أَقُصُّ الوَرَقَ بِالمِقَصّ",
+                    "translation_english": "I cut the paper with scissors",
+                    "translation_native": "I cut the paper with scissors",
+                    "sentence_parts": [
+                        "أَقُصُّ",
+                        "الوَرَقَ",
+                        "بِالمِقَصّ"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "مِقَصّ",
+                "مِبْرَاة",
+                "مِمْحَاة",
+                "مِسْطَرَة"
+            ],
+            "correct_answer": "مِقَصّ"
+        },
+        {
+            "word": "حَقِيبَة",
+            "translation_english": "backpack",
+            "translation_native": "backpack",
+            "pronunciation": "haqiba",
+            "examples": [
+                {
+                    "sentence": "أَضَعُ كُتُبِي فِي الحَقِيبَة",
+                    "translation_english": "I put my books in the backpack",
+                    "translation_native": "I put my books in the backpack",
+                    "sentence_parts": [
+                        "أَضَعُ",
+                        "كُتُبِي",
+                        "فِي",
+                        "الحَقِيبَة"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "حَقِيبَة",
+                "مَحْفَظَة",
+                "مِظَلَّة",
+                "مِرْآة"
+            ],
+            "correct_answer": "حَقِيبَة"
+        },
+        {
+            "word": "مُعَلِّم",
+            "translation_english": "teacher",
+            "translation_native": "teacher",
+            "pronunciation": "mu'allim",
+            "examples": [
+                {
+                    "sentence": "يَشْرَحُ المُعَلِّمُ الدَّرْسَ جَيِّداً",
+                    "translation_english": "The teacher explains the lesson well",
+                    "translation_native": "The teacher explains the lesson well",
+                    "sentence_parts": [
+                        "يَشْرَحُ",
+                        "المُعَلِّمُ",
+                        "الدَّرْسَ",
+                        "جَيِّداً"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "مُعَلِّم",
+                "طَبِيب",
+                "مُهَنْدِس",
+                "مُمَرِّض"
+            ],
+            "correct_answer": "مُعَلِّم"
+        },
+        {
+            "word": "طَالِب",
+            "translation_english": "student",
+            "translation_native": "student",
+            "pronunciation": "talib",
+            "examples": [
+                {
+                    "sentence": "أَنَا طَالِبٌ فِي هَذِهِ الصَّفّ",
+                    "translation_english": "I am a student in this class",
+                    "translation_native": "I am a student in this class",
+                    "sentence_parts": [
+                        "أَنَا",
+                        "طَالِبٌ",
+                        "فِي",
+                        "هَذِهِ",
+                        "الصَّفّ"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "طَالِب",
+                "مُدِير",
+                "عَامِل",
+                "كَاتِب"
+            ],
+            "correct_answer": "طَالِب"
+        },
+        {
+            "word": "صَفّ",
+            "translation_english": "classroom",
+            "translation_native": "classroom",
+            "pronunciation": "saff",
+            "examples": [
+                {
+                    "sentence": "أَدْخُلُ إِلَى الصَّفِّ بَعْدَ قَلِيل",
+                    "translation_english": "I enter the classroom after a while",
+                    "translation_native": "I enter the classroom after a while",
+                    "sentence_parts": [
+                        "أَدْخُلُ",
+                        "إِلَى",
+                        "الصَّفِّ",
+                        "بَعْدَ",
+                        "قَلِيل"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "صَفّ",
+                "مَلْعَب",
+                "مَكْتَبَة",
+                "مُخْتَبَر"
+            ],
+            "correct_answer": "صَفّ"
+        },
+        {
+            "word": "مَكْتَبَة",
+            "translation_english": "library",
+            "translation_native": "library",
+            "pronunciation": "maktaba",
+            "examples": [
+                {
+                    "sentence": "أَقْرَأُ القِصَصَ فِي المَكْتَبَة",
+                    "translation_english": "I read stories in the library",
+                    "translation_native": "I read stories in the library",
+                    "sentence_parts": [
+                        "أَقْرَأُ",
+                        "القِصَصَ",
+                        "فِي",
+                        "المَكْتَبَة"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "مَكْتَبَة",
+                "مَلْعَب",
+                "صَفّ",
+                "مُخْتَبَر"
+            ],
+            "correct_answer": "مَكْتَبَة"
+        },
+        {
+            "word": "مَلْعَب",
+            "translation_english": "playground",
+            "translation_native": "playground",
+            "pronunciation": "mal'ab",
+            "examples": [
+                {
+                    "sentence": "نَلْعَبُ كُرَةَ القَدَمِ بِالمَلْعَب",
+                    "translation_english": "We play football in the playground",
+                    "translation_native": "We play football in the playground",
+                    "sentence_parts": [
+                        "نَلْعَبُ",
+                        "كُرَةَ",
+                        "القَدَمِ",
+                        "بِالمَلْعَب"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "مَلْعَب",
+                "مَكْتَبَة",
+                "صَفّ",
+                "مُخْتَبَر"
+            ],
+            "correct_answer": "مَلْعَب"
+        },
+        {
+            "word": "مُخْتَبَر",
+            "translation_english": "laboratory",
+            "translation_native": "laboratory",
+            "pronunciation": "mukhtabar",
+            "examples": [
+                {
+                    "sentence": "نُجَرِّبُ العُلُومَ فِي المُخْتَبَر",
+                    "translation_english": "We test science in the laboratory",
+                    "translation_native": "We test science in the laboratory",
+                    "sentence_parts": [
+                        "نُجَرِّبُ",
+                        "العُلُومَ",
+                        "فِي",
+                        "المُخْتَبَر"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "مُخْتَبَر",
+                "مَلْعَب",
+                "مَكْتَبَة",
+                "صَفّ"
+            ],
+            "correct_answer": "مُخْتَبَر"
+        },
+        {
+            "word": "رِيَاضِيَّات",
+            "translation_english": "mathematics",
+            "translation_native": "mathematics",
+            "pronunciation": "riyadiyyat",
+            "examples": [
+                {
+                    "sentence": "أَحُلُّ مَسَائِلَ الرِّيَاضِيَّاتِ الآن",
+                    "translation_english": "I solve math problems now",
+                    "translation_native": "I solve math problems now",
+                    "sentence_parts": [
+                        "أَحُلُّ",
+                        "مَسَائِلَ",
+                        "الرِّيَاضِيَّاتِ",
+                        "الآن"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "رِيَاضِيَّات",
+                "تَارِيخ",
+                "عُلُوم",
+                "فُنُون"
+            ],
+            "correct_answer": "رِيَاضِيَّات"
+        },
+        {
+            "word": "عُلُوم",
+            "translation_english": "science",
+            "translation_native": "science",
+            "pronunciation": "ulum",
+            "examples": [
+                {
+                    "sentence": "أَدْرُسُ مَادَّةَ العُلُومِ غَداً",
+                    "translation_english": "I study the science subject tomorrow",
+                    "translation_native": "I study the science subject tomorrow",
+                    "sentence_parts": [
+                        "أَدْرُسُ",
+                        "مَادَّةَ",
+                        "العُلُومِ",
+                        "غَداً"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "عُلُوم",
+                "تَارِيخ",
+                "رِيَاضِيَّات",
+                "فُنُون"
+            ],
+            "correct_answer": "عُلُوم"
+        },
+        {
+            "word": "تَارِيخ",
+            "translation_english": "history",
+            "translation_native": "history",
+            "pronunciation": "tarikh",
+            "examples": [
+                {
+                    "sentence": "أَقْرَأُ عَنْ التَّارِيخِ القَدِيم",
+                    "translation_english": "I read about ancient history",
+                    "translation_native": "I read about ancient history",
+                    "sentence_parts": [
+                        "أَقْرَأُ",
+                        "عَنْ",
+                        "التَّارِيخِ",
+                        "القَدِيم"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "تَارِيخ",
+                "عُلُوم",
+                "رِيَاضِيَّات",
+                "فُنُون"
+            ],
+            "correct_answer": "تَارِيخ"
+        },
+        {
+            "word": "فُنُون",
+            "translation_english": "arts",
+            "translation_native": "arts",
+            "pronunciation": "funun",
+            "examples": [
+                {
+                    "sentence": "أَرْسُمُ لَوْحَةً فِي الفُنُون",
+                    "translation_english": "I draw a painting in arts",
+                    "translation_native": "I draw a painting in arts",
+                    "sentence_parts": [
+                        "أَرْسُمُ",
+                        "لَوْحَةً",
+                        "فِي",
+                        "الفُنُون"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "فُنُون",
+                "تَارِيخ",
+                "عُلُوم",
+                "رِيَاضِيَّات"
+            ],
+            "correct_answer": "فُنُون"
+        },
+        {
+            "word": "امْتِحَان",
+            "translation_english": "exam",
+            "translation_native": "exam",
+            "pronunciation": "imtihaan",
+            "examples": [
+                {
+                    "sentence": "أَكْتُبُ الامْتِحَانَ بِهُدُوءٍ تَامّ",
+                    "translation_english": "I write the exam in total silence",
+                    "translation_native": "I write the exam in total silence",
+                    "sentence_parts": [
+                        "أَكْتُبُ",
+                        "الامْتِحَانَ",
+                        "بِهُدُوءٍ",
+                        "تَامّ"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "امْتِحَان",
+                "وَاجِب",
+                "دَرْس",
+                "بَحْث"
+            ],
+            "correct_answer": "امْتِحَان"
+        },
+        {
+            "word": "وَاجِب",
+            "translation_english": "homework",
+            "translation_native": "homework",
+            "pronunciation": "wajib",
+            "examples": [
+                {
+                    "sentence": "أَحُلُّ الوَاجِبَ بَعْدَ المَدْرَسَة",
+                    "translation_english": "I solve the homework after school",
+                    "translation_native": "I solve the homework after school",
+                    "sentence_parts": [
+                        "أَحُلُّ",
+                        "الوَاجِبَ",
+                        "بَعْدَ",
+                        "المَدْرَسَة"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "وَاجِب",
+                "امْتِحَان",
+                "دَرْس",
+                "بَحْث"
+            ],
+            "correct_answer": "وَاجِب"
+        },
+        {
+            "word": "دَرْس",
+            "translation_english": "lesson",
+            "translation_native": "lesson",
+            "pronunciation": "dars",
+            "examples": [
+                {
+                    "sentence": "أَفْهَمُ الدَّرْسَ بِشَكْلٍ كَامِل",
+                    "translation_english": "I understand the lesson completely",
+                    "translation_native": "I understand the lesson completely",
+                    "sentence_parts": [
+                        "أَفْهَمُ",
+                        "الدَّرْسَ",
+                        "بِشَكْلٍ",
+                        "كَامِل"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "دَرْس",
+                "امْتِحَان",
+                "وَاجِب",
+                "بَحْث"
+            ],
+            "correct_answer": "دَرْس"
+        },
+        {
+            "word": "بَحْث",
+            "translation_english": "research",
+            "translation_native": "research",
+            "pronunciation": "bahth",
+            "examples": [
+                {
+                    "sentence": "أَكْتُبُ بَحْثاً عَنْ الفَضَاء",
+                    "translation_english": "I write research about space",
+                    "translation_native": "I write research about space",
+                    "sentence_parts": [
+                        "أَكْتُبُ",
+                        "بَحْثاً",
+                        "عَنْ",
+                        "الفَضَاء"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "بَحْث",
+                "امْتِحَان",
+                "وَاجِب",
+                "دَرْس"
+            ],
+            "correct_answer": "بَحْث"
+        },
+        {
+            "word": "حَاسُوب",
+            "translation_english": "computer",
+            "translation_native": "computer",
+            "pronunciation": "hasub",
+            "examples": [
+                {
+                    "sentence": "أَسْتَخْدِمُ الحَاسُوبَ لِلدِّرَاسَة",
+                    "translation_english": "I use the computer for study",
+                    "translation_native": "I use the computer for study",
+                    "sentence_parts": [
+                        "أَسْتَخْدِمُ",
+                        "الحَاسُوبَ",
+                        "لِلدِّرَاسَة"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "حَاسُوب",
+                "هَاتِف",
+                "جِهَاز",
+                "مِذْيَاع"
+            ],
+            "correct_answer": "حَاسُوب"
+        },
+        {
+            "word": "هَاتِف",
+            "translation_english": "phone",
+            "translation_native": "phone",
+            "pronunciation": "hatif",
+            "examples": [
+                {
+                    "sentence": "أَتَصِلُ بِصَدِيقِي بِالهَاتِف",
+                    "translation_english": "I call my friend on the phone",
+                    "translation_native": "I call my friend on the phone",
+                    "sentence_parts": [
+                        "أَتَصِلُ",
+                        "بِصَدِيقِي",
+                        "بِالهَاتِف"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "هَاتِف",
+                "حَاسُوب",
+                "جِهَاز",
+                "مِذْيَاع"
+            ],
+            "correct_answer": "هَاتِف"
+        },
+        {
+            "word": "جِهَاز",
+            "translation_english": "device",
+            "translation_native": "device",
+            "pronunciation": "jihaz",
+            "examples": [
+                {
+                    "sentence": "أَشْحَنُ الجِهَازَ فِي الصَّفّ",
+                    "translation_english": "I charge the device in class",
+                    "translation_native": "I charge the device in class",
+                    "sentence_parts": [
+                        "أَشْحَنُ",
+                        "الجِهَازَ",
+                        "فِي",
+                        "الصَّفّ"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "جِهَاز",
+                "حَاسُوب",
+                "هَاتِف",
+                "مِذْيَاع"
+            ],
+            "correct_answer": "جِهَاز"
+        },
+        {
+            "word": "مِذْيَاع",
+            "translation_english": "radio",
+            "translation_native": "radio",
+            "pronunciation": "midhya'",
+            "examples": [
+                {
+                    "sentence": "أَسْمَعُ الأَخْبَارَ بِالمِذْيَاع",
+                    "translation_english": "I listen to news on the radio",
+                    "translation_native": "I listen to news on the radio",
+                    "sentence_parts": [
+                        "أَسْمَعُ",
+                        "الأَخْبَارَ",
+                        "بِالمِذْيَاع"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "مِذْيَاع",
+                "حَاسُوب",
+                "هَاتِف",
+                "جِهَاز"
+            ],
+            "correct_answer": "مِذْيَاع"
+        },
+        {
+            "word": "كُرَة",
+            "translation_english": "ball",
+            "translation_native": "ball",
+            "pronunciation": "kura",
+            "examples": [
+                {
+                    "sentence": "أَرْمِي الكُرَةَ فِي المَلْعَب",
+                    "translation_english": "I throw the ball in the playground",
+                    "translation_native": "I throw the ball in the playground",
+                    "sentence_parts": [
+                        "أَرْمِي",
+                        "الكُرَةَ",
+                        "فِي",
+                        "المَلْعَب"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "كُرَة",
+                "مِضْرَب",
+                "حِذَاء",
+                "قُبَّعَة"
+            ],
+            "correct_answer": "كُرَة"
+        },
+        {
+            "word": "مِضْرَب",
+            "translation_english": "racket",
+            "translation_native": "racket",
+            "pronunciation": "midrab",
+            "examples": [
+                {
+                    "sentence": "أَلْعَبُ التِّنِسَ بِالمِضْرَب",
+                    "translation_english": "I play tennis with the racket",
+                    "translation_native": "I play tennis with the racket",
+                    "sentence_parts": [
+                        "أَلْعَبُ",
+                        "التِّنِسَ",
+                        "بِالمِضْرَب"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "مِضْرَب",
+                "كُرَة",
+                "حِذَاء",
+                "قُبَّعَة"
+            ],
+            "correct_answer": "مِضْرَب"
+        },
+        {
+            "word": "حِذَاء",
+            "translation_english": "shoe",
+            "translation_native": "shoe",
+            "pronunciation": "hitha'",
+            "examples": [
+                {
+                    "sentence": "أَلْبَسُ حِذَاءَ الرِّيَاضَةِ اليَوْم",
+                    "translation_english": "I wear sports shoes today",
+                    "translation_native": "I wear sports shoes today",
+                    "sentence_parts": [
+                        "أَلْبَسُ",
+                        "حِذَاءَ",
+                        "الرِّيَاضَةِ",
+                        "اليَوْم"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "حِذَاء",
+                "كُرَة",
+                "مِضْرَب",
+                "قُبَّعَة"
+            ],
+            "correct_answer": "حِذَاء"
+        },
+        {
+            "word": "قُبَّعَة",
+            "translation_english": "hat",
+            "translation_native": "hat",
+            "pronunciation": "qubba'a",
+            "examples": [
+                {
+                    "sentence": "أَلْبَسُ قُبَّعَةً فِي الشَّمْس",
+                    "translation_english": "I wear a hat in the sun",
+                    "translation_native": "I wear a hat in the sun",
+                    "sentence_parts": [
+                        "أَلْبَسُ",
+                        "قُبَّعَةً",
+                        "فِي",
+                        "الشَّمْس"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "قُبَّعَة",
+                "كُرَة",
+                "مِضْرَب",
+                "حِذَاء"
+            ],
+            "correct_answer": "قُبَّعَة"
+        },
+        {
+            "word": "طَاوِلَة",
+            "translation_english": "table",
+            "translation_native": "table",
+            "pronunciation": "tawila",
+            "examples": [
+                {
+                    "sentence": "أَضَعُ كِتَابِي عَلَى الطَّاوِلَة",
+                    "translation_english": "I put my book on the table",
+                    "translation_native": "I put my book on the table",
+                    "sentence_parts": [
+                        "أَضَعُ",
+                        "كِتَابِي",
+                        "عَلَى",
+                        "الطَّاوِلَة"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "طَاوِلَة",
+                "كُرْسِي",
+                "خِزَانَة",
+                "سَرِير"
+            ],
+            "correct_answer": "طَاوِلَة"
+        },
+        {
+            "word": "كُرْسِي",
+            "translation_english": "chair",
+            "translation_native": "chair",
+            "pronunciation": "kursi",
+            "examples": [
+                {
+                    "sentence": "أَجْلِسُ عَلَى كُرْسِيِّ الصَّفّ",
+                    "translation_english": "I sit on the classroom chair",
+                    "translation_native": "I sit on the classroom chair",
+                    "sentence_parts": [
+                        "أَجْلِسُ",
+                        "عَلَى",
+                        "كُرْسِيِّ",
+                        "الصَّفّ"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "كُرْسِي",
+                "طَاوِلَة",
+                "خِزَانَة",
+                "سَرِير"
+            ],
+            "correct_answer": "كُرْسِي"
+        },
+        {
+            "word": "خِزَانَة",
+            "translation_english": "locker",
+            "translation_native": "locker",
+            "pronunciation": "khizana",
+            "examples": [
+                {
+                    "sentence": "أَفْتَحُ خِزَانَةَ المَدْرَسَةِ الآن",
+                    "translation_english": "I open the school locker now",
+                    "translation_native": "I open the school locker now",
+                    "sentence_parts": [
+                        "أَفْتَحُ",
+                        "خِزَانَةَ",
+                        "المَدْرَسَةِ",
+                        "الآن"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "خِزَانَة",
+                "طَاوِلَة",
+                "كُرْسِي",
+                "سَرِير"
+            ],
+            "correct_answer": "خِزَانَة"
+        },
+        {
+            "word": "سَرِير",
+            "translation_english": "bed",
+            "translation_native": "bed",
+            "pronunciation": "sarir",
+            "examples": [
+                {
+                    "sentence": "أَنَامُ عَلَى سَرِيرِي لَيْلاً",
+                    "translation_english": "I sleep on my bed at night",
+                    "translation_native": "I sleep on my bed at night",
+                    "sentence_parts": [
+                        "أَنَامُ",
+                        "عَلَى",
+                        "سَرِيرِي",
+                        "لَيْلاً"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "سَرِير",
+                "طَاوِلَة",
+                "كُرْسِي",
+                "خِزَانَة"
+            ],
+            "correct_answer": "سَرِير"
+        },
+        {
+            "word": "سَعِيد",
+            "translation_english": "happy",
+            "translation_native": "happy",
+            "pronunciation": "sa'id",
+            "examples": [
+                {
+                    "sentence": "أَنَا سَعِيدٌ فِي المَدْرَسَة",
+                    "translation_english": "I am happy in school",
+                    "translation_native": "I am happy in school",
+                    "sentence_parts": [
+                        "أَنَا",
+                        "سَعِيدٌ",
+                        "فِي",
+                        "المَدْرَسَة"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "سَعِيد",
+                "حَزِين",
+                "غَاضِب",
+                "خَائِف"
+            ],
+            "correct_answer": "سَعِيد"
+        },
+        {
+            "word": "حَزِين",
+            "translation_english": "sad",
+            "translation_native": "sad",
+            "pronunciation": "hazin",
+            "examples": [
+                {
+                    "sentence": "لَسْتُ حَزِيناً فِي الصَّفّ",
+                    "translation_english": "I am not sad in class",
+                    "translation_native": "I am not sad in class",
+                    "sentence_parts": [
+                        "لَسْتُ",
+                        "حَزِيناً",
+                        "فِي",
+                        "الصَّفّ"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "حَزِين",
+                "سَعِيد",
+                "غَاضِب",
+                "خَائِف"
+            ],
+            "correct_answer": "حَزِين"
+        },
+        {
+            "word": "غَاضِب",
+            "translation_english": "angry",
+            "translation_native": "angry",
+            "pronunciation": "ghadib",
+            "examples": [
+                {
+                    "sentence": "أَنَا لَسْتُ غَاضِباً اليَوْم",
+                    "translation_english": "I am not angry today",
+                    "translation_native": "I am not angry today",
+                    "sentence_parts": [
+                        "أَنَا",
+                        "لَسْتُ",
+                        "غَاضِباً",
+                        "اليَوْم"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "غَاضِب",
+                "سَعِيد",
+                "حَزِين",
+                "خَائِف"
+            ],
+            "correct_answer": "غَاضِب"
+        },
+        {
+            "word": "خَائِف",
+            "translation_english": "scared",
+            "translation_native": "scared",
+            "pronunciation": "kha'if",
+            "examples": [
+                {
+                    "sentence": "أَنَا لَسْتُ خَائِفاً مِنَ الامْتِحَان",
+                    "translation_english": "I am not scared of the exam",
+                    "translation_native": "I am not scared of the exam",
+                    "sentence_parts": [
+                        "أَنَا",
+                        "لَسْتُ",
+                        "خَائِفاً",
+                        "مِنَ",
+                        "الامْتِحَان"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "خَائِف",
+                "سَعِيد",
+                "حَزِين",
+                "غَاضِب"
+            ],
+            "correct_answer": "خَائِف"
+        },
+        {
+            "word": "أَب",
+            "translation_english": "father",
+            "translation_native": "father",
+            "pronunciation": "ab",
+            "examples": [
+                {
+                    "sentence": "أَبِي يَزُورُ المَدْرَسَةَ اليَوْم",
+                    "translation_english": "My father visits the school today",
+                    "translation_native": "My father visits the school today",
+                    "sentence_parts": [
+                        "أَبِي",
+                        "يَزُورُ",
+                        "المَدْرَسَةَ",
+                        "اليَوْم"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "أَب",
+                "أُمّ",
+                "أَخ",
+                "أُخْت"
+            ],
+            "correct_answer": "أَب"
+        },
+        {
+            "word": "أُمّ",
+            "translation_english": "mother",
+            "translation_native": "mother",
+            "pronunciation": "umm",
+            "examples": [
+                {
+                    "sentence": "أُمِّي تُسَاعِدُنِي فِي الوَاجِب",
+                    "translation_english": "My mother helps me with homework",
+                    "translation_native": "My mother helps me with homework",
+                    "sentence_parts": [
+                        "أُمِّي",
+                        "تُسَاعِدُنِي",
+                        "فِي",
+                        "الوَاجِب"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "أُمّ",
+                "أَب",
+                "أَخ",
+                "أُخْت"
+            ],
+            "correct_answer": "أُمّ"
+        },
+        {
+            "word": "أَخ",
+            "translation_english": "brother",
+            "translation_native": "brother",
+            "pronunciation": "akh",
+            "examples": [
+                {
+                    "sentence": "أَخِي يَدْرُسُ فِي المَدْرَسَة",
+                    "translation_english": "My brother studies in school",
+                    "translation_native": "My brother studies in school",
+                    "sentence_parts": [
+                        "أَخِي",
+                        "يَدْرُسُ",
+                        "فِي",
+                        "المَدْرَسَة"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "أَخ",
+                "أَب",
+                "أُمّ",
+                "أُخْت"
+            ],
+            "correct_answer": "أَخ"
+        },
+        {
+            "word": "أُخْت",
+            "translation_english": "sister",
+            "translation_native": "sister",
+            "pronunciation": "ukht",
+            "examples": [
+                {
+                    "sentence": "أُخْتِي تَلْعَبُ فِي المَلْعَب",
+                    "translation_english": "My sister plays in the playground",
+                    "translation_native": "My sister plays in the playground",
+                    "sentence_parts": [
+                        "أُخْتِي",
+                        "تَلْعَبُ",
+                        "فِي",
+                        "المَلْعَب"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "أُخْت",
+                "أَب",
+                "أُمّ",
+                "أَخ"
+            ],
+            "correct_answer": "أُخْت"
+        },
+        {
+            "word": "تُفَّاح",
+            "translation_english": "apple",
+            "translation_native": "apple",
+            "pronunciation": "tuffah",
+            "examples": [
+                {
+                    "sentence": "آكُلُ تُفَّاحَةً فِي الاسْتِرَاحَة",
+                    "translation_english": "I eat an apple in the break",
+                    "translation_native": "I eat an apple in the break",
+                    "sentence_parts": [
+                        "آكُلُ",
+                        "تُفَّاحَةً",
+                        "فِي",
+                        "الاسْتِرَاحَة"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "تُفَّاح",
+                "مَوْز",
+                "عِنَب",
+                "بُرْتُقَال"
+            ],
+            "correct_answer": "تُفَّاح"
+        },
+        {
+            "word": "مَوْز",
+            "translation_english": "banana",
+            "translation_native": "banana",
+            "pronunciation": "mawz",
+            "examples": [
+                {
+                    "sentence": "أَحْمِلُ مَوْزَةً فِي حَقِيبَتِي",
+                    "translation_english": "I carry a banana in my bag",
+                    "translation_native": "I carry a banana in my bag",
+                    "sentence_parts": [
+                        "أَحْمِلُ",
+                        "مَوْزَةً",
+                        "فِي",
+                        "حَقِيبَتِي"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "مَوْز",
+                "تُفَّاح",
+                "عِنَب",
+                "بُرْتُقَال"
+            ],
+            "correct_answer": "مَوْز"
+        },
+        {
+            "word": "عِنَب",
+            "translation_english": "grapes",
+            "translation_native": "grapes",
+            "pronunciation": "inab",
+            "examples": [
+                {
+                    "sentence": "أَشْتَرِي عِنَباً مِنَ المَقْصَف",
+                    "translation_english": "I buy grapes from the canteen",
+                    "translation_native": "I buy grapes from the canteen",
+                    "sentence_parts": [
+                        "أَشْتَرِي",
+                        "عِنَباً",
+                        "مِنَ",
+                        "المَقْصَف"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "عِنَب",
+                "تُفَّاح",
+                "مَوْز",
+                "بُرْتُقَال"
+            ],
+            "correct_answer": "عِنَب"
+        },
+        {
+            "word": "بُرْتُقَال",
+            "translation_english": "orange",
+            "translation_native": "orange",
+            "pronunciation": "burtuqal",
+            "examples": [
+                {
+                    "sentence": "أَعْصِرُ بُرْتُقَالَةً فِي المَنْزِل",
+                    "translation_english": "I juice an orange at home",
+                    "translation_native": "I juice an orange at home",
+                    "sentence_parts": [
+                        "أَعْصِرُ",
+                        "بُرْتُقَالَةً",
+                        "فِي",
+                        "المَنْزِل"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "بُرْتُقَال",
+                "تُفَّاح",
+                "مَوْز",
+                "عِنَب"
+            ],
+            "correct_answer": "بُرْتُقَال"
+        },
+        {
+            "word": "قَمِيص",
+            "translation_english": "shirt",
+            "translation_native": "shirt",
+            "pronunciation": "qamis",
+            "examples": [
+                {
+                    "sentence": "أَلْبَسُ قَمِيصَ المَدْرَسَةِ اليَوْم",
+                    "translation_english": "I wear the school shirt today",
+                    "translation_native": "I wear the school shirt today",
+                    "sentence_parts": [
+                        "أَلْبَسُ",
+                        "قَمِيصَ",
+                        "المَدْرَسَةِ",
+                        "اليَوْم"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "قَمِيص",
+                "سِرْوَال",
+                "حِذَاء",
+                "جَوْرَب"
+            ],
+            "correct_answer": "قَمِيص"
+        },
+        {
+            "word": "سِرْوَال",
+            "translation_english": "pants",
+            "translation_native": "pants",
+            "pronunciation": "sirwal",
+            "examples": [
+                {
+                    "sentence": "أَلْبَسُ سِرْوَالاً أَزْرَقَ جَدِيداً",
+                    "translation_english": "I wear new blue pants",
+                    "translation_native": "I wear new blue pants",
+                    "sentence_parts": [
+                        "أَلْبَسُ",
+                        "سِرْوَالاً",
+                        "أَزْرَقَ",
+                        "جَدِيداً"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "سِرْوَال",
+                "قَمِيص",
+                "حِذَاء",
+                "جَوْرَب"
+            ],
+            "correct_answer": "سِرْوَال"
+        },
+        {
+            "word": "جَوْرَب",
+            "translation_english": "sock",
+            "translation_native": "sock",
+            "pronunciation": "jawrab",
+            "examples": [
+                {
+                    "sentence": "أَلْبَسُ جَوْرَباً أَبْيَضَ لِلرِّيَاضَة",
+                    "translation_english": "I wear a white sock for sports",
+                    "translation_native": "I wear a white sock for sports",
+                    "sentence_parts": [
+                        "أَلْبَسُ",
+                        "جَوْرَباً",
+                        "أَبْيَضَ",
+                        "لِلرِّيَاضَة"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "جَوْرَب",
+                "قَمِيص",
+                "سِرْوَال",
+                "حِذَاء"
+            ],
+            "correct_answer": "جَوْرَب"
+        },
+        {
+            "word": "يَد",
+            "translation_english": "hand",
+            "translation_native": "hand",
+            "pronunciation": "yad",
+            "examples": [
+                {
+                    "sentence": "أَرْفَعُ يَدِي فِي الصَّفِّ الآن",
+                    "translation_english": "I raise my hand in class now",
+                    "translation_native": "I raise my hand in class now",
+                    "sentence_parts": [
+                        "أَرْفَعُ",
+                        "يَدِي",
+                        "فِي",
+                        "الصَّفِّ",
+                        "الآن"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "يَد",
+                "رَأْس",
+                "عَيْن",
+                "قَدَم"
+            ],
+            "correct_answer": "يَد"
+        },
+        {
+            "word": "رَأْس",
+            "translation_english": "head",
+            "translation_native": "head",
+            "pronunciation": "ra's",
+            "examples": [
+                {
+                    "sentence": "أُحَرِّكُ رَأْسِي لِأَقُولَ نَعَم",
+                    "translation_english": "I move my head to say yes",
+                    "translation_native": "I move my head to say yes",
+                    "sentence_parts": [
+                        "أُحَرِّكُ",
+                        "رَأْسِي",
+                        "لِأَقُولَ",
+                        "نَعَم"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "رَأْس",
+                "يَد",
+                "عَيْن",
+                "قَدَم"
+            ],
+            "correct_answer": "رَأْس"
+        },
+        {
+            "word": "عَيْن",
+            "translation_english": "eye",
+            "translation_native": "eye",
+            "pronunciation": "ayn",
+            "examples": [
+                {
+                    "sentence": "أَفْتَحُ عَيْنِي لِأَرَى السَّبُّورَة",
+                    "translation_english": "I open my eye to see the board",
+                    "translation_native": "I open my eye to see the board",
+                    "sentence_parts": [
+                        "أَفْتَحُ",
+                        "عَيْنِي",
+                        "لِأَرَى",
+                        "السَّبُّورَة"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "عَيْن",
+                "يَد",
+                "رَأْس",
+                "قَدَم"
+            ],
+            "correct_answer": "عَيْن"
+        },
+        {
+            "word": "قَدَم",
+            "translation_english": "foot",
+            "translation_native": "foot",
+            "pronunciation": "qadam",
+            "examples": [
+                {
+                    "sentence": "أَمْشِي عَلَى قَدَمِي لِلمَدْرَسَة",
+                    "translation_english": "I walk on my foot to school",
+                    "translation_native": "I walk on my foot to school",
+                    "sentence_parts": [
+                        "أَمْشِي",
+                        "عَلَى",
+                        "قَدَمِي",
+                        "لِلمَدْرَسَة"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "قَدَم",
+                "يَد",
+                "رَأْس",
+                "عَيْن"
+            ],
+            "correct_answer": "قَدَم"
+        },
+        {
+            "word": "طَبِيب",
+            "translation_english": "doctor",
+            "translation_native": "doctor",
+            "pronunciation": "tabib",
+            "examples": [
+                {
+                    "sentence": "يَفْحَصُ الطَّبِيبُ الطَّالِبَ المَرِيض",
+                    "translation_english": "The doctor examines the sick student",
+                    "translation_native": "The doctor examines the sick student",
+                    "sentence_parts": [
+                        "يَفْحَصُ",
+                        "الطَّبِيبُ",
+                        "الطَّالِبَ",
+                        "المَرِيض"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "طَبِيب",
+                "مُهَنْدِس",
+                "مُعَلِّم",
+                "شُرْطِيّ"
+            ],
+            "correct_answer": "طَبِيب"
+        },
+        {
+            "word": "مُهَنْدِس",
+            "translation_english": "engineer",
+            "translation_native": "engineer",
+            "pronunciation": "muhandis",
+            "examples": [
+                {
+                    "sentence": "يَبْنِي المُهَنْدِسُ مَبْنَى المَدْرَسَة",
+                    "translation_english": "The engineer builds the school building",
+                    "translation_native": "The engineer builds the school building",
+                    "sentence_parts": [
+                        "يَبْنِي",
+                        "المُهَنْدِسُ",
+                        "مَبْنَى",
+                        "المَدْرَسَة"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "مُهَنْدِس",
+                "طَبِيب",
+                "مُعَلِّم",
+                "شُرْطِيّ"
+            ],
+            "correct_answer": "مُهَنْدِس"
+        },
+        {
+            "word": "شُرْطِيّ",
+            "translation_english": "policeman",
+            "translation_native": "policeman",
+            "pronunciation": "shurti",
+            "examples": [
+                {
+                    "sentence": "يُنَظِّمُ الشُّرْطِيُّ حَرَكَةَ المُرُور",
+                    "translation_english": "The policeman organizes traffic movement",
+                    "translation_native": "The policeman organizes traffic movement",
+                    "sentence_parts": [
+                        "يُنَظِّمُ",
+                        "الشُّرْطِيُّ",
+                        "حَرَكَةَ",
+                        "المُرُور"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "شُرْطِيّ",
+                "طَبِيب",
+                "مُهَنْدِس",
+                "مُعَلِّم"
+            ],
+            "correct_answer": "شُرْطِيّ"
+        },
+        {
+            "word": "أَحْمَر",
+            "translation_english": "red",
+            "translation_native": "red",
+            "pronunciation": "ahmar",
+            "examples": [
+                {
+                    "sentence": "أَكْتُبُ بِالقَلَمِ الأَحْمَرِ الآن",
+                    "translation_english": "I write with the red pen now",
+                    "translation_native": "I write with the red pen now",
+                    "sentence_parts": [
+                        "أَكْتُبُ",
+                        "بِالقَلَمِ",
+                        "الأَحْمَرِ",
+                        "الآن"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "أَحْمَر",
+                "أَزْرَق",
+                "أَخْضَر",
+                "أَصْفَر"
+            ],
+            "correct_answer": "أَحْمَر"
+        },
+        {
+            "word": "أَزْرَق",
+            "translation_english": "blue",
+            "translation_native": "blue",
+            "pronunciation": "azraq",
+            "examples": [
+                {
+                    "sentence": "أَرْتَدِي القَمِيصَ الأَزْرَقَ اليَوْم",
+                    "translation_english": "I wear the blue shirt today",
+                    "translation_native": "I wear the blue shirt today",
+                    "sentence_parts": [
+                        "أَرْتَدِي",
+                        "القَمِيصَ",
+                        "الأَزْرَقَ",
+                        "اليَوْم"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "أَزْرَق",
+                "أَحْمَر",
+                "أَخْضَر",
+                "أَصْفَر"
+            ],
+            "correct_answer": "أَزْرَق"
+        },
+        {
+            "word": "أَخْضَر",
+            "translation_english": "green",
+            "translation_native": "green",
+            "pronunciation": "akhdar",
+            "examples": [
+                {
+                    "sentence": "أَلْعَبُ فِي المَلْعَبِ الأَخْضَر",
+                    "translation_english": "I play in the green playground",
+                    "translation_native": "I play in the green playground",
+                    "sentence_parts": [
+                        "أَلْعَبُ",
+                        "فِي",
+                        "المَلْعَبِ",
+                        "الأَخْضَر"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "أَخْضَر",
+                "أَحْمَر",
+                "أَزْرَق",
+                "أَصْفَر"
+            ],
+            "correct_answer": "أَخْضَر"
+        },
+        {
+            "word": "أَصْفَر",
+            "translation_english": "yellow",
+            "translation_native": "yellow",
+            "pronunciation": "asfar",
+            "examples": [
+                {
+                    "sentence": "أَسْتَخْدِمُ القَلَمَ الأَصْفَرَ لِلرَّسْم",
+                    "translation_english": "I use the yellow pen for drawing",
+                    "translation_native": "I use the yellow pen for drawing",
+                    "sentence_parts": [
+                        "أَسْتَخْدِمُ",
+                        "القَلَمَ",
+                        "الأَصْفَرَ",
+                        "لِلرَّسْم"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "أَصْفَر",
+                "أَحْمَر",
+                "أَزْرَق",
+                "أَخْضَر"
+            ],
+            "correct_answer": "أَصْفَر"
+        },
+        {
+            "word": "سَيَّارَة",
+            "translation_english": "car",
+            "translation_native": "car",
+            "pronunciation": "sayyara",
+            "examples": [
+                {
+                    "sentence": "أَرْكَبُ السَّيَّارَةَ لِلْمَدْرَسَةِ صَبَاحاً",
+                    "translation_english": "I ride the car to school in the morning",
+                    "translation_native": "I ride the car to school in the morning",
+                    "sentence_parts": [
+                        "أَرْكَبُ",
+                        "السَّيَّارَةَ",
+                        "لِلْمَدْرَسَةِ",
+                        "صَبَاحاً"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "سَيَّارَة",
+                "حَافِلَة",
+                "دَرَّاجَة",
+                "قِطَار"
+            ],
+            "correct_answer": "سَيَّارَة"
+        },
+        {
+            "word": "حَافِلَة",
+            "translation_english": "bus",
+            "translation_native": "bus",
+            "pronunciation": "hafila",
+            "examples": [
+                {
+                    "sentence": "أَرْكَبُ حَافِلَةَ المَدْرَسَةِ يَوْمِيّاً",
+                    "translation_english": "I ride the school bus daily",
+                    "translation_native": "I ride the school bus daily",
+                    "sentence_parts": [
+                        "أَرْكَبُ",
+                        "حَافِلَةَ",
+                        "المَدْرَسَةِ",
+                        "يَوْمِيّاً"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "حَافِلَة",
+                "سَيَّارَة",
+                "دَرَّاجَة",
+                "قِطَار"
+            ],
+            "correct_answer": "حَافِلَة"
+        },
+        {
+            "word": "دَرَّاجَة",
+            "translation_english": "bicycle",
+            "translation_native": "bicycle",
+            "pronunciation": "darraja",
+            "examples": [
+                {
+                    "sentence": "أَقُودُ الدَّرَّاجَةَ فِي المَلْعَب",
+                    "translation_english": "I ride the bicycle in the playground",
+                    "translation_native": "I ride the bicycle in the playground",
+                    "sentence_parts": [
+                        "أَقُودُ",
+                        "الدَّرَّاجَةَ",
+                        "فِي",
+                        "المَلْعَب"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "دَرَّاجَة",
+                "سَيَّارَة",
+                "حَافِلَة",
+                "قِطَار"
+            ],
+            "correct_answer": "دَرَّاجَة"
+        },
+        {
+            "word": "قِطَار",
+            "translation_english": "train",
+            "translation_native": "train",
+            "pronunciation": "qitar",
+            "examples": [
+                {
+                    "sentence": "أَسَافِرُ بِالقِطَارِ لِزِيَارَةِ جَدِّي",
+                    "translation_english": "I travel by train to visit my grandfather",
+                    "translation_native": "I travel by train to visit my grandfather",
+                    "sentence_parts": [
+                        "أَسَافِرُ",
+                        "بِالقِطَارِ",
+                        "لِزِيَارَةِ",
+                        "جَدِّي"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "قِطَار",
+                "سَيَّارَة",
+                "حَافِلَة",
+                "دَرَّاجَة"
+            ],
+            "correct_answer": "قِطَار"
+        },
+        {
+            "word": "قِطَّة",
+            "translation_english": "cat",
+            "translation_native": "cat",
+            "pronunciation": "qitta",
+            "examples": [
+                {
+                    "sentence": "أَرَى قِطَّةً فِي حَدِيقَةِ المَدْرَسَة",
+                    "translation_english": "I see a cat in the school garden",
+                    "translation_native": "I see a cat in the school garden",
+                    "sentence_parts": [
+                        "أَرَى",
+                        "قِطَّةً",
+                        "فِي",
+                        "حَدِيقَةِ",
+                        "المَدْرَسَة"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "قِطَّة",
+                "كَلْب",
+                "عُصْفُور",
+                "أَرْنَب"
+            ],
+            "correct_answer": "قِطَّة"
+        },
+        {
+            "word": "كَلْب",
+            "translation_english": "dog",
+            "translation_native": "dog",
+            "pronunciation": "kalb",
+            "examples": [
+                {
+                    "sentence": "يَلْعَبُ الكَلْبُ فِي المَلْعَب",
+                    "translation_english": "The dog plays in the playground",
+                    "translation_native": "The dog plays in the playground",
+                    "sentence_parts": [
+                        "يَلْعَبُ",
+                        "الكَلْبُ",
+                        "فِي",
+                        "المَلْعَب"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "كَلْب",
+                "قِطَّة",
+                "عُصْفُور",
+                "أَرْنَب"
+            ],
+            "correct_answer": "كَلْب"
+        },
+        {
+            "word": "عُصْفُور",
+            "translation_english": "bird",
+            "translation_native": "bird",
+            "pronunciation": "usfur",
+            "examples": [
+                {
+                    "sentence": "يَطِيرُ العُصْفُورُ فَوْقَ المَدْرَسَة",
+                    "translation_english": "The bird flies above the school",
+                    "translation_native": "The bird flies above the school",
+                    "sentence_parts": [
+                        "يَطِيرُ",
+                        "العُصْفُورُ",
+                        "فَوْقَ",
+                        "المَدْرَسَة"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "عُصْفُور",
+                "قِطَّة",
+                "كَلْب",
+                "أَرْنَب"
+            ],
+            "correct_answer": "عُصْفُور"
+        },
+        {
+            "word": "أَرْنَب",
+            "translation_english": "rabbit",
+            "translation_native": "rabbit",
+            "pronunciation": "arnab",
+            "examples": [
+                {
+                    "sentence": "يَأْكُلُ الأَرْنَبُ الجَزَرَ فِي الحَدِيقَة",
+                    "translation_english": "The rabbit eats carrots in the garden",
+                    "translation_native": "The rabbit eats carrots in the garden",
+                    "sentence_parts": [
+                        "يَأْكُلُ",
+                        "الأَرْنَبُ",
+                        "الجَزَرَ",
+                        "فِي",
+                        "الحَدِيقَة"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "أَرْنَب",
+                "قِطَّة",
+                "كَلْب",
+                "عُصْفُور"
+            ],
+            "correct_answer": "أَرْنَب"
+        },
+        {
+            "word": "مِكْنَسَة",
+            "translation_english": "broom",
+            "translation_native": "broom",
+            "pronunciation": "miknasa",
+            "examples": [
+                {
+                    "sentence": "أُنَظِّفُ الصَّفَّ بِالمِكْنَسَةِ اليَوْم",
+                    "translation_english": "I clean the class with the broom today",
+                    "translation_native": "I clean the class with the broom today",
+                    "sentence_parts": [
+                        "أُنَظِّفُ",
+                        "الصَّفَّ",
+                        "بِالمِكْنَسَةِ",
+                        "اليَوْم"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "مِكْنَسَة",
+                "مِصْبَاح",
+                "سَاعَة",
+                "مِرْوَحَة"
+            ],
+            "correct_answer": "مِكْنَسَة"
+        },
+        {
+            "word": "مِصْبَاح",
+            "translation_english": "lamp",
+            "translation_native": "lamp",
+            "pronunciation": "misbah",
+            "examples": [
+                {
+                    "sentence": "أُشْعِلُ المِصْبَاحَ لِأَقْرَأَ كِتَابِي",
+                    "translation_english": "I turn on the lamp to read my book",
+                    "translation_native": "I turn on the lamp to read my book",
+                    "sentence_parts": [
+                        "أُشْعِلُ",
+                        "المِصْبَاحَ",
+                        "لِأَقْرَأَ",
+                        "كِتَابِي"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "مِصْبَاح",
+                "مِكْنَسَة",
+                "سَاعَة",
+                "مِرْوَحَة"
+            ],
+            "correct_answer": "مِصْبَاح"
+        },
+        {
+            "word": "سَاعَة",
+            "translation_english": "clock",
+            "translation_native": "clock",
+            "pronunciation": "sa'a",
+            "examples": [
+                {
+                    "sentence": "أَنْظُرُ إِلَى السَّاعَةِ فِي الصَّفّ",
+                    "translation_english": "I look at the clock in class",
+                    "translation_native": "I look at the clock in class",
+                    "sentence_parts": [
+                        "أَنْظُرُ",
+                        "إِلَى",
+                        "السَّاعَةِ",
+                        "فِي",
+                        "الصَّفّ"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "سَاعَة",
+                "مِكْنَسَة",
+                "مِصْبَاح",
+                "مِرْوَحَة"
+            ],
+            "correct_answer": "سَاعَة"
+        },
+        {
+            "word": "مِرْوَحَة",
+            "translation_english": "fan",
+            "translation_native": "fan",
+            "pronunciation": "mirwaha",
+            "examples": [
+                {
+                    "sentence": "أُشَغِّلُ المِرْوَحَةَ فِي الصَّفِّ حَارّ",
+                    "translation_english": "I turn on the fan in the hot class",
+                    "translation_native": "I turn on the fan in the hot class",
+                    "sentence_parts": [
+                        "أُشَغِّلُ",
+                        "المِرْوَحَةَ",
+                        "فِي",
+                        "الصَّفِّ",
+                        "حَارّ"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "مِرْوَحَة",
+                "مِكْنَسَة",
+                "مِصْبَاح",
+                "سَاعَة"
+            ],
+            "correct_answer": "مِرْوَحَة"
+        },
+        {
+            "word": "مُدِير",
+            "translation_english": "principal",
+            "translation_native": "principal",
+            "pronunciation": "mudir",
+            "examples": [
+                {
+                    "sentence": "يُقَابِلُ المُدِيرُ الطَّالِبَ فِي مَكْتَبِهِ",
+                    "translation_english": "The principal meets the student in his office",
+                    "translation_native": "The principal meets the student in his office",
+                    "sentence_parts": [
+                        "يُقَابِلُ",
+                        "المُدِيرُ",
+                        "الطَّالِبَ",
+                        "فِي",
+                        "مَكْتَبِهِ"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "مُدِير",
+                "مُعَلِّم",
+                "طَبِيب",
+                "عَامِل"
+            ],
+            "correct_answer": "مُدِير"
+        },
+        {
+            "word": "مَكْتَب",
+            "translation_english": "office",
+            "translation_native": "office",
+            "pronunciation": "maktab",
+            "examples": [
+                {
+                    "sentence": "أَدْخُلُ مَكْتَبَ المُدِيرِ لِأَتَحَدَّث",
+                    "translation_english": "I enter the principal's office to talk",
+                    "translation_native": "I enter the principal's office to talk",
+                    "sentence_parts": [
+                        "أَدْخُلُ",
+                        "مَكْتَبَ",
+                        "المُدِيرِ",
+                        "لِأَتَحَدَّث"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "مَكْتَب",
+                "صَفّ",
+                "مَلْعَب",
+                "مُخْتَبَر"
+            ],
+            "correct_answer": "مَكْتَب"
+        },
+        {
+            "word": "سَبُّورَة",
+            "translation_english": "whiteboard",
+            "translation_native": "whiteboard",
+            "pronunciation": "sabbura",
+            "examples": [
+                {
+                    "sentence": "أَكْتُبُ عَلَى السَّبُّورَةِ بِالقَلَم",
+                    "translation_english": "I write on the whiteboard with the pen",
+                    "translation_native": "I write on the whiteboard with the pen",
+                    "sentence_parts": [
+                        "أَكْتُبُ",
+                        "عَلَى",
+                        "السَّبُّورَةِ",
+                        "بِالقَلَم"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "سَبُّورَة",
+                "طَاوِلَة",
+                "كُرْسِي",
+                "خِزَانَة"
+            ],
+            "correct_answer": "سَبُّورَة"
+        },
+        {
+            "word": "طَبَاشِير",
+            "translation_english": "chalk",
+            "translation_native": "chalk",
+            "pronunciation": "tabashir",
+            "examples": [
+                {
+                    "sentence": "أَكْتُبُ بِالطَّبَاشِيرِ عَلَى السَّبُّورَة",
+                    "translation_english": "I write with chalk on the whiteboard",
+                    "translation_native": "I write with chalk on the whiteboard",
+                    "sentence_parts": [
+                        "أَكْتُبُ",
+                        "بِالطَّبَاشِيرِ",
+                        "عَلَى",
+                        "السَّبُّورَة"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "طَبَاشِير",
+                "قَلَم",
+                "مِسْطَرَة",
+                "مِمْحَاة"
+            ],
+            "correct_answer": "طَبَاشِير"
+        },
+        {
+            "word": "وَرَقَة",
+            "translation_english": "paper",
+            "translation_native": "paper",
+            "pronunciation": "waraqa",
+            "examples": [
+                {
+                    "sentence": "أَكْتُبُ عَلَى الوَرَقَةِ بِقَلَمِي",
+                    "translation_english": "I write on the paper with my pen",
+                    "translation_native": "I write on the paper with my pen",
+                    "sentence_parts": [
+                        "أَكْتُبُ",
+                        "عَلَى",
+                        "الوَرَقَةِ",
+                        "بِقَلَمِي"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "وَرَقَة",
+                "كِتَاب",
+                "دَفْتَر",
+                "مِفَكَّة"
+            ],
+            "correct_answer": "وَرَقَة"
+        },
+        {
+            "word": "مِقْلَمَة",
+            "translation_english": "pencil case",
+            "translation_native": "pencil case",
+            "pronunciation": "miqlama",
+            "examples": [
+                {
+                    "sentence": "أَضَعُ أَقْلَامِي فِي المِقْلَمَة",
+                    "translation_english": "I put my pens in the pencil case",
+                    "translation_native": "I put my pens in the pencil case",
+                    "sentence_parts": [
+                        "أَضَعُ",
+                        "أَقْلَامِي",
+                        "فِي",
+                        "المِقْلَمَة"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "مِقْلَمَة",
+                "حَقِيبَة",
+                "مَحْفَظَة",
+                "مِظَلَّة"
+            ],
+            "correct_answer": "مِقْلَمَة"
+        },
+        {
+            "word": "مُعْجَم",
+            "translation_english": "dictionary",
+            "translation_native": "dictionary",
+            "pronunciation": "mu'jam",
+            "examples": [
+                {
+                    "sentence": "أَفْتَحُ المُعْجَمَ لِأَعْرِفَ الكَلِمَة",
+                    "translation_english": "I open the dictionary to know the word",
+                    "translation_native": "I open the dictionary to know the word",
+                    "sentence_parts": [
+                        "أَفْتَحُ",
+                        "المُعْجَمَ",
+                        "لِأَعْرِفَ",
+                        "الكَلِمَة"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "مُعْجَم",
+                "كِتَاب",
+                "دَفْتَر",
+                "بَحْث"
+            ],
+            "correct_answer": "مُعْجَم"
+        },
+        {
+            "word": "خَرِيطَة",
+            "translation_english": "map",
+            "translation_native": "map",
+            "pronunciation": "kharita",
+            "examples": [
+                {
+                    "sentence": "أَنْظُرُ إِلَى الخَرِيطَةِ فِي الجُغْرَافِيَا",
+                    "translation_english": "I look at the map in geography",
+                    "translation_native": "I look at the map in geography",
+                    "sentence_parts": [
+                        "أَنْظُرُ",
+                        "إِلَى",
+                        "الخَرِيطَةِ",
+                        "فِي",
+                        "الجُغْرَافِيَا"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "خَرِيطَة",
+                "كِتَاب",
+                "دَفْتَر",
+                "وَرَقَة"
+            ],
+            "correct_answer": "خَرِيطَة"
+        },
+        {
+            "word": "جُغْرَافِيَا",
+            "translation_english": "geography",
+            "translation_native": "geography",
+            "pronunciation": "jughrafiya",
+            "examples": [
+                {
+                    "sentence": "أَدْرُسُ الجُغْرَافِيَا فِي الصَّفّ",
+                    "translation_english": "I study geography in class",
+                    "translation_native": "I study geography in class",
+                    "sentence_parts": [
+                        "أَدْرُسُ",
+                        "الجُغْرَافِيَا",
+                        "فِي",
+                        "الصَّفّ"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "جُغْرَافِيَا",
+                "تَارِيخ",
+                "عُلُوم",
+                "رِيَاضِيَّات"
+            ],
+            "correct_answer": "جُغْرَافِيَا"
+        },
+        {
+            "word": "مُوسِيقَى",
+            "translation_english": "music",
+            "translation_native": "music",
+            "pronunciation": "musiqa",
+            "examples": [
+                {
+                    "sentence": "أَسْمَعُ المُوسِيقَى بَعْدَ المَدْرَسَة",
+                    "translation_english": "I listen to music after school",
+                    "translation_native": "I listen to music after school",
+                    "sentence_parts": [
+                        "أَسْمَعُ",
+                        "المُوسِيقَى",
+                        "بَعْدَ",
+                        "المَدْرَسَة"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "مُوسِيقَى",
+                "فُنُون",
+                "تَارِيخ",
+                "عُلُوم"
+            ],
+            "correct_answer": "مُوسِيقَى"
+        },
+        {
+            "word": "رِيَاضَة",
+            "translation_english": "sports",
+            "translation_native": "sports",
+            "pronunciation": "riyada",
+            "examples": [
+                {
+                    "sentence": "أُحِبُّ حِصَّةَ الرِّيَاضَةِ كَثِيراً",
+                    "translation_english": "I love the sports class a lot",
+                    "translation_native": "I love the sports class a lot",
+                    "sentence_parts": [
+                        "أُحِبُّ",
+                        "حِصَّةَ",
+                        "الرِّيَاضَةِ",
+                        "كَثِيراً"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "رِيَاضَة",
+                "فُنُون",
+                "مُوسِيقَى",
+                "عُلُوم"
+            ],
+            "correct_answer": "رِيَاضَة"
+        },
+        {
+            "word": "حِصَّة",
+            "translation_english": "period/class",
+            "translation_native": "period/class",
+            "pronunciation": "hissa",
+            "examples": [
+                {
+                    "sentence": "تَبْدَأُ حِصَّةُ العُلُومِ الآن",
+                    "translation_english": "The science class starts now",
+                    "translation_native": "The science class starts now",
+                    "sentence_parts": [
+                        "تَبْدَأُ",
+                        "حِصَّةُ",
+                        "العُلُومِ",
+                        "الآن"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "حِصَّة",
+                "يَوْم",
+                "وَقْت",
+                "دَرْس"
+            ],
+            "correct_answer": "حِصَّة"
+        },
+        {
+            "word": "اسْتِرَاحَة",
+            "translation_english": "break",
+            "translation_native": "break",
+            "pronunciation": "istiraha",
+            "examples": [
+                {
+                    "sentence": "أَخْرُجُ لِلاسْتِرَاحَةِ بَعْدَ قَلِيل",
+                    "translation_english": "I go out for the break after a while",
+                    "translation_native": "I go out for the break after a while",
+                    "sentence_parts": [
+                        "أَخْرُجُ",
+                        "لِلاسْتِرَاحَةِ",
+                        "بَعْدَ",
+                        "قَلِيل"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "اسْتِرَاحَة",
+                "حِصَّة",
+                "دَرْس",
+                "يَوْم"
+            ],
+            "correct_answer": "اسْتِرَاحَة"
+        },
+        {
+            "word": "مَقْصَف",
+            "translation_english": "canteen",
+            "translation_native": "canteen",
+            "pronunciation": "maqsaf",
+            "examples": [
+                {
+                    "sentence": "أَشْتَرِي طَعَاماً مِنَ المَقْصَف",
+                    "translation_english": "I buy food from the canteen",
+                    "translation_native": "I buy food from the canteen",
+                    "sentence_parts": [
+                        "أَشْتَرِي",
+                        "طَعَاماً",
+                        "مِنَ",
+                        "المَقْصَف"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "مَقْصَف",
+                "مَكْتَبَة",
+                "مَلْعَب",
+                "مُخْتَبَر"
+            ],
+            "correct_answer": "مَقْصَف"
+        },
+        {
+            "word": "جَائِزَة",
+            "translation_english": "prize",
+            "translation_native": "prize",
+            "pronunciation": "ja'iza",
+            "examples": [
+                {
+                    "sentence": "أَحْصُلُ عَلَى جَائِزَةٍ فِي المَدْرَسَة",
+                    "translation_english": "I get a prize in school",
+                    "translation_native": "I get a prize in school",
+                    "sentence_parts": [
+                        "أَحْصُلُ",
+                        "عَلَى",
+                        "جَائِزَةٍ",
+                        "فِي",
+                        "المَدْرَسَة"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "جَائِزَة",
+                "هَدِيَّة",
+                "شَهَادَة",
+                "مُكَافَأَة"
+            ],
+            "correct_answer": "جَائِزَة"
+        },
+        {
+            "word": "شَهَادَة",
+            "translation_english": "certificate",
+            "translation_native": "certificate",
+            "pronunciation": "shahada",
+            "examples": [
+                {
+                    "sentence": "أَسْتَلِمُ شَهَادَةَ النَّجَاحِ اليَوْم",
+                    "translation_english": "I receive the success certificate today",
+                    "translation_native": "I receive the success certificate today",
+                    "sentence_parts": [
+                        "أَسْتَلِمُ",
+                        "شَهَادَةَ",
+                        "النَّجَاحِ",
+                        "اليَوْم"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "شَهَادَة",
+                "جَائِزَة",
+                "هَدِيَّة",
+                "مُكَافَأَة"
+            ],
+            "correct_answer": "شَهَادَة"
+        },
+        {
+            "word": "نَجَاح",
+            "translation_english": "success",
+            "translation_native": "success",
+            "pronunciation": "najah",
+            "examples": [
+                {
+                    "sentence": "أَحْتَفِلُ بِنَجَاحِي فِي الامْتِحَان",
+                    "translation_english": "I celebrate my success in the exam",
+                    "translation_native": "I celebrate my success in the exam",
+                    "sentence_parts": [
+                        "أَحْتَفِلُ",
+                        "بِنَجَاحِي",
+                        "فِي",
+                        "الامْتِحَان"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "نَجَاح",
+                "تَفَوُّق",
+                "تَقَدُّم",
+                "إِنْجَاز"
+            ],
+            "correct_answer": "نَجَاح"
+        },
+        {
+            "word": "مُشْكِلَة",
+            "translation_english": "problem",
+            "translation_native": "problem",
+            "pronunciation": "mushkila",
+            "examples": [
+                {
+                    "sentence": "أَحُلُّ المُشْكِلَةَ فِي الرِّيَاضِيَّات",
+                    "translation_english": "I solve the problem in math",
+                    "translation_native": "I solve the problem in math",
+                    "sentence_parts": [
+                        "أَحُلُّ",
+                        "المُشْكِلَةَ",
+                        "فِي",
+                        "الرِّيَاضِيَّات"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "مُشْكِلَة",
+                "سُؤَال",
+                "تَمْرِين",
+                "مَسْأَلَة"
+            ],
+            "correct_answer": "مُشْكِلَة"
+        },
+        {
+            "word": "سُؤَال",
+            "translation_english": "question",
+            "translation_native": "question",
+            "pronunciation": "su'al",
+            "examples": [
+                {
+                    "sentence": "أَطْرَحُ سُؤَالاً عَلَى المُعَلِّم",
+                    "translation_english": "I ask a question to the teacher",
+                    "translation_native": "I ask a question to the teacher",
+                    "sentence_parts": [
+                        "أَطْرَحُ",
+                        "سُؤَالاً",
+                        "عَلَى",
+                        "المُعَلِّم"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "سُؤَال",
+                "مُشْكِلَة",
+                "تَمْرِين",
+                "مَسْأَلَة"
+            ],
+            "correct_answer": "سُؤَال"
+        },
+        {
+            "word": "جَوَاب",
+            "translation_english": "answer",
+            "translation_native": "answer",
+            "pronunciation": "jawab",
+            "examples": [
+                {
+                    "sentence": "أَكْتُبُ الجَوَابَ الصَّحِيحَ الآن",
+                    "translation_english": "I write the correct answer now",
+                    "translation_native": "I write the correct answer now",
+                    "sentence_parts": [
+                        "أَكْتُبُ",
+                        "الجَوَابَ",
+                        "الصَّحِيحَ",
+                        "الآن"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "جَوَاب",
+                "سُؤَال",
+                "مُشْكِلَة",
+                "تَمْرِين"
+            ],
+            "correct_answer": "جَوَاب"
+        },
+        {
+            "word": "تَمْرِين",
+            "translation_english": "exercise",
+            "translation_native": "exercise",
+            "pronunciation": "tamrin",
+            "examples": [
+                {
+                    "sentence": "أَحُلُّ التَّمْرِينَ فِي الدَّفْتَر",
+                    "translation_english": "I solve the exercise in the notebook",
+                    "translation_native": "I solve the exercise in the notebook",
+                    "sentence_parts": [
+                        "أَحُلُّ",
+                        "التَّمْرِينَ",
+                        "فِي",
+                        "الدَّفْتَر"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "تَمْرِين",
+                "سُؤَال",
+                "مُشْكِلَة",
+                "مَسْأَلَة"
+            ],
+            "correct_answer": "تَمْرِين"
+        },
+        {
+            "word": "صَدِيق",
+            "translation_english": "friend",
+            "translation_native": "friend",
+            "pronunciation": "sadiq",
+            "examples": [
+                {
+                    "sentence": "أَلْعَبُ مَعَ صَدِيقِي فِي المَلْعَب",
+                    "translation_english": "I play with my friend in the playground",
+                    "translation_native": "I play with my friend in the playground",
+                    "sentence_parts": [
+                        "أَلْعَبُ",
+                        "مَعَ",
+                        "صَدِيقِي",
+                        "فِي",
+                        "المَلْعَب"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "صَدِيق",
+                "زَمِيل",
+                "قَرِيب",
+                "جَار"
+            ],
+            "correct_answer": "صَدِيق"
+        },
+        {
+            "word": "زَمِيل",
+            "translation_english": "classmate",
+            "translation_native": "classmate",
+            "pronunciation": "zamil",
+            "examples": [
+                {
+                    "sentence": "أَدْرُسُ مَعَ زَمِيلِي فِي الصَّفّ",
+                    "translation_english": "I study with my classmate in class",
+                    "translation_native": "I study with my classmate in class",
+                    "sentence_parts": [
+                        "أَدْرُسُ",
+                        "مَعَ",
+                        "زَمِيلِي",
+                        "فِي",
+                        "الصَّفّ"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "زَمِيل",
+                "صَدِيق",
+                "قَرِيب",
+                "جَار"
+            ],
+            "correct_answer": "زَمِيل"
+        },
+        {
+            "word": "مُسَاعَدَة",
+            "translation_english": "help",
+            "translation_native": "help",
+            "pronunciation": "musa'ada",
+            "examples": [
+                {
+                    "sentence": "أَطْلُبُ المُسَاعَدَةَ مِنَ المُعَلِّم",
+                    "translation_english": "I ask for help from the teacher",
+                    "translation_native": "I ask for help from the teacher",
+                    "sentence_parts": [
+                        "أَطْلُبُ",
+                        "المُسَاعَدَةَ",
+                        "مِنَ",
+                        "المُعَلِّم"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "مُسَاعَدَة",
+                "دَعْم",
+                "تَأْيِيد",
+                "عَوْن"
+            ],
+            "correct_answer": "مُسَاعَدَة"
+        },
+        {
+            "word": "فَهْم",
+            "translation_english": "understanding",
+            "translation_native": "understanding",
+            "pronunciation": "fahm",
+            "examples": [
+                {
+                    "sentence": "أَعْبِّرُ عَنْ فَهْمِي لِلدَّرْس",
+                    "translation_english": "I express my understanding of the lesson",
+                    "translation_native": "I express my understanding of the lesson",
+                    "sentence_parts": [
+                        "أَعْبِّرُ",
+                        "عَنْ",
+                        "فَهْمِي",
+                        "لِلدَّرْس"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "فَهْم",
+                "إِدْرَاك",
+                "وَعْي",
+                "تَفْكِير"
+            ],
+            "correct_answer": "فَهْم"
+        },
+        {
+            "word": "حِفْظ",
+            "translation_english": "memorization",
+            "translation_native": "memorization",
+            "pronunciation": "hifz",
+            "examples": [
+                {
+                    "sentence": "أُكْمِلُ حِفْظَ الدَّرْسِ اليَوْم",
+                    "translation_english": "I complete memorizing the lesson today",
+                    "translation_native": "I complete memorizing the lesson today",
+                    "sentence_parts": [
+                        "أُكْمِلُ",
+                        "حِفْظَ",
+                        "الدَّرْسِ",
+                        "اليَوْم"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "حِفْظ",
+                "تَذَكُّر",
+                "تَعَلُّم",
+                "دِرَاسَة"
+            ],
+            "correct_answer": "حِفْظ"
+        },
+        {
+            "word": "تَعَلُّم",
+            "translation_english": "learning",
+            "translation_native": "learning",
+            "pronunciation": "ta'allum",
+            "examples": [
+                {
+                    "sentence": "أُحِبُّ تَعَلُّمَ اللُّغَاتِ جَدِيداً",
+                    "translation_english": "I love learning new languages",
+                    "translation_native": "I love learning new languages",
+                    "sentence_parts": [
+                        "أُحِبُّ",
+                        "تَعَلُّمَ",
+                        "اللُّغَاتِ",
+                        "جَدِيداً"
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "تَعَلُّم",
+                "دِرَاسَة",
+                "تَدْرِيب",
+                "قِرَاءَة"
+            ],
+            "correct_answer": "تَعَلُّم"
+        }
+    ]
+}

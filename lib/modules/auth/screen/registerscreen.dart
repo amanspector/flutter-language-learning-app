@@ -541,7 +541,7 @@ class AgeSelector extends StatelessWidget {
                                   decoration: BoxDecoration(
                                     color: isSelected
                                         ? context.colors.primary
-                                        : Colors.transparent,
+                                        : ColorConstant.colorTransparent,
                                     shape: BoxShape.circle,
                                     boxShadow: isSelected
                                         ? [

@@ -155,6 +155,35 @@ class OnboardProvider extends ChangeNotifier {
     notifyListeners();
   }
 
+  Future<void> updateExperienceLevel(String level) async {
+    selectedExperienceLevel = level;
+    if (activeLanguageCode != null) {
+      await FirebaseOnboardingService.setExperienceLevel(level, languageCode: activeLanguageCode!);
+      final index = myLanguages.indexWhere((l) => l['code'] == activeLanguageCode);
+      if (index != -1) {
+        myLanguages[index]['level'] = level;
+      }
+    } else {
+      await FirebaseOnboardingService.setExperienceLevel(level);
+    }
+    notifyListeners();
+  }
+
+  Future<void> updateCategory(String category) async {
+    selectedgoal = category;
+    if (activeLanguageCode != null) {
+      await FirebaseOnboardingService.setCategory(category, languageCode: activeLanguageCode!);
+      final index = myLanguages.indexWhere((l) => l['code'] == activeLanguageCode);
+      if (index != -1) {
+        myLanguages[index]['category'] = category;
+      }
+    } else {
+      await FirebaseOnboardingService.setCategory(category);
+    }
+    notifyListeners();
+  }
+
+
   void setGender(String value) {
     gender = value;
     notifyListeners();

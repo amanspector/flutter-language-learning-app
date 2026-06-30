@@ -1,0 +1,1271 @@
+{
+    "metadata": {
+        "language": "Spanish",
+        "native_language": "English",
+        "level": "Beginner",
+        "category": "school",
+        "total_words": 45
+    },
+    "words": [
+        {
+            "word": "el cuaderno",
+            "translation_english": "the notebook",
+            "translation_native": "the notebook",
+            "pronunciation": "el kwa-DER-no",
+            "examples": [
+                {
+                    "sentence": "Escribo notas en el cuaderno.",
+                    "translation_english": "I write notes in the notebook.",
+                    "translation_native": "I write notes in the notebook.",
+                    "sentence_parts": [
+                        "Escribo",
+                        "notas",
+                        "en",
+                        "el",
+                        "cuaderno."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "el cuaderno",
+                "el escritorio",
+                "el lápiz",
+                "la mochila"
+            ],
+            "correct_answer": "el cuaderno"
+        },
+        {
+            "word": "el examen",
+            "translation_english": "the exam",
+            "translation_native": "the exam",
+            "pronunciation": "el ek-SA-men",
+            "examples": [
+                {
+                    "sentence": "Contesto preguntas en el examen.",
+                    "translation_english": "I answer questions on the exam.",
+                    "translation_native": "I answer questions on the exam.",
+                    "sentence_parts": [
+                        "Contesto",
+                        "preguntas",
+                        "en",
+                        "el",
+                        "examen."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "el examen",
+                "el recreo",
+                "el horario",
+                "el proyecto"
+            ],
+            "correct_answer": "el examen"
+        },
+        {
+            "word": "la calculadora",
+            "translation_english": "the calculator",
+            "translation_native": "the calculator",
+            "pronunciation": "la kal-ku-la-DO-ra",
+            "examples": [
+                {
+                    "sentence": "Sumo números con la calculadora.",
+                    "translation_english": "I add numbers with the calculator.",
+                    "translation_native": "I add numbers with the calculator.",
+                    "sentence_parts": [
+                        "Sumo",
+                        "números",
+                        "con",
+                        "la",
+                        "calculadora."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "la calculadora",
+                "la regla",
+                "la mochila",
+                "la carpeta"
+            ],
+            "correct_answer": "la calculadora"
+        },
+        {
+            "word": "el profesor",
+            "translation_english": "the teacher",
+            "translation_native": "the teacher",
+            "pronunciation": "el pro-fe-SOR",
+            "examples": [
+                {
+                    "sentence": "Escucho atento al profesor hoy.",
+                    "translation_english": "I listen attentively to the teacher today.",
+                    "translation_native": "I listen attentively to the teacher today.",
+                    "sentence_parts": [
+                        "Escucho",
+                        "atento",
+                        "al",
+                        "profesor",
+                        "hoy."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "el profesor",
+                "el alumno",
+                "el director",
+                "el conserje"
+            ],
+            "correct_answer": "el profesor"
+        },
+        {
+            "word": "la biblioteca",
+            "translation_english": "the library",
+            "translation_native": "the library",
+            "pronunciation": "la bi-bli-o-TE-ka",
+            "examples": [
+                {
+                    "sentence": "Leo libros en la biblioteca.",
+                    "translation_english": "I read books in the library.",
+                    "translation_native": "I read books in the library.",
+                    "sentence_parts": [
+                        "Leo",
+                        "libros",
+                        "en",
+                        "la",
+                        "biblioteca."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "la biblioteca",
+                "la cafetería",
+                "la oficina",
+                "la cancha"
+            ],
+            "correct_answer": "la biblioteca"
+        },
+        {
+            "word": "la mochila",
+            "translation_english": "the backpack",
+            "translation_native": "the backpack",
+            "pronunciation": "la mo-CHI-la",
+            "examples": [
+                {
+                    "sentence": "Guardo libros en la mochila.",
+                    "translation_english": "I keep books in the backpack.",
+                    "translation_native": "I keep books in the backpack.",
+                    "sentence_parts": [
+                        "Guardo",
+                        "libros",
+                        "en",
+                        "la",
+                        "mochila."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "la mochila",
+                "la carpeta",
+                "la cartuchera",
+                "la calculadora"
+            ],
+            "correct_answer": "la mochila"
+        },
+        {
+            "word": "el recreo",
+            "translation_english": "the break",
+            "translation_native": "the break",
+            "pronunciation": "el re-KRE-o",
+            "examples": [
+                {
+                    "sentence": "Juego fútbol durante el recreo.",
+                    "translation_english": "I play soccer during the break.",
+                    "translation_native": "I play soccer during the break.",
+                    "sentence_parts": [
+                        "Juego",
+                        "fútbol",
+                        "durante",
+                        "el",
+                        "recreo."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "el recreo",
+                "el horario",
+                "el examen",
+                "el proyecto"
+            ],
+            "correct_answer": "el recreo"
+        },
+        {
+            "word": "la cafetería",
+            "translation_english": "the cafeteria",
+            "translation_native": "the cafeteria",
+            "pronunciation": "la ka-fe-te-RI-a",
+            "examples": [
+                {
+                    "sentence": "Como pizza en la cafetería.",
+                    "translation_english": "I eat pizza in the cafeteria.",
+                    "translation_native": "I eat pizza in the cafeteria.",
+                    "sentence_parts": [
+                        "Como",
+                        "pizza",
+                        "en",
+                        "la",
+                        "cafetería."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "la cafetería",
+                "la biblioteca",
+                "la cancha",
+                "la oficina"
+            ],
+            "correct_answer": "la cafetería"
+        },
+        {
+            "word": "el lápiz",
+            "translation_english": "the pencil",
+            "translation_native": "the pencil",
+            "pronunciation": "el LA-pis",
+            "examples": [
+                {
+                    "sentence": "Uso el lápiz para dibujar.",
+                    "translation_english": "I use the pencil to draw.",
+                    "translation_native": "I use the pencil to draw.",
+                    "sentence_parts": [
+                        "Uso",
+                        "el",
+                        "lápiz",
+                        "para",
+                        "dibujar."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "el lápiz",
+                "el bolígrafo",
+                "el marcador",
+                "el borrador"
+            ],
+            "correct_answer": "el lápiz"
+        },
+        {
+            "word": "la tarea",
+            "translation_english": "the homework",
+            "translation_native": "the homework",
+            "pronunciation": "la ta-RE-a",
+            "examples": [
+                {
+                    "sentence": "Hago toda la tarea hoy.",
+                    "translation_english": "I do all the homework today.",
+                    "translation_native": "I do all the homework today.",
+                    "sentence_parts": [
+                        "Hago",
+                        "toda",
+                        "la",
+                        "tarea",
+                        "hoy."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "la tarea",
+                "el examen",
+                "el proyecto",
+                "la lección"
+            ],
+            "correct_answer": "la tarea"
+        },
+        {
+            "word": "la clase",
+            "translation_english": "the class",
+            "translation_native": "the class",
+            "pronunciation": "la KLA-se",
+            "examples": [
+                {
+                    "sentence": "Entro rápido a la clase.",
+                    "translation_english": "I enter quickly to the class.",
+                    "translation_native": "I enter quickly to the class.",
+                    "sentence_parts": [
+                        "Entro",
+                        "rápido",
+                        "a",
+                        "la",
+                        "clase."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "la clase",
+                "la escuela",
+                "la lección",
+                "la materia"
+            ],
+            "correct_answer": "la clase"
+        },
+        {
+            "word": "el bolígrafo",
+            "translation_english": "the pen",
+            "translation_native": "the pen",
+            "pronunciation": "el bo-LI-gra-fo",
+            "examples": [
+                {
+                    "sentence": "Escribo ensayos con el bolígrafo.",
+                    "translation_english": "I write essays with the pen.",
+                    "translation_native": "I write essays with the pen.",
+                    "sentence_parts": [
+                        "Escribo",
+                        "ensayos",
+                        "con",
+                        "el",
+                        "bolígrafo."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "el bolígrafo",
+                "el lápiz",
+                "el marcador",
+                "el pincel"
+            ],
+            "correct_answer": "el bolígrafo"
+        },
+        {
+            "word": "la escuela",
+            "translation_english": "the school",
+            "translation_native": "the school",
+            "pronunciation": "la es-KWE-la",
+            "examples": [
+                {
+                    "sentence": "Camino temprano a la escuela.",
+                    "translation_english": "I walk early to the school.",
+                    "translation_native": "I walk early to the school.",
+                    "sentence_parts": [
+                        "Camino",
+                        "temprano",
+                        "a",
+                        "la",
+                        "escuela."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "la escuela",
+                "la clase",
+                "la biblioteca",
+                "la universidad"
+            ],
+            "correct_answer": "la escuela"
+        },
+        {
+            "word": "el borrador",
+            "translation_english": "the eraser",
+            "translation_native": "the eraser",
+            "pronunciation": "el bo-rra-DOR",
+            "examples": [
+                {
+                    "sentence": "Limpio errores con el borrador.",
+                    "translation_english": "I clean errors with the eraser.",
+                    "translation_native": "I clean errors with the eraser.",
+                    "sentence_parts": [
+                        "Limpio",
+                        "errores",
+                        "con",
+                        "el",
+                        "borrador."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "el borrador",
+                "el lápiz",
+                "el sacapuntas",
+                "el marcador"
+            ],
+            "correct_answer": "el borrador"
+        },
+        {
+            "word": "la lección",
+            "translation_english": "the lesson",
+            "translation_native": "the lesson",
+            "pronunciation": "la le-SI-on",
+            "examples": [
+                {
+                    "sentence": "Estudio mucho la lección nueva.",
+                    "translation_english": "I study the new lesson a lot.",
+                    "translation_native": "I study the new lesson a lot.",
+                    "sentence_parts": [
+                        "Estudio",
+                        "mucho",
+                        "la",
+                        "lección",
+                        "nueva."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "la lección",
+                "la clase",
+                "la tarea",
+                "el examen"
+            ],
+            "correct_answer": "la lección"
+        },
+        {
+            "word": "el escritorio",
+            "translation_english": "the desk",
+            "translation_native": "the desk",
+            "pronunciation": "el es-kri-TO-ri-o",
+            "examples": [
+                {
+                    "sentence": "Pongo libros sobre el escritorio.",
+                    "translation_english": "I put books on the desk.",
+                    "translation_native": "I put books on the desk.",
+                    "sentence_parts": [
+                        "Pongo",
+                        "libros",
+                        "sobre",
+                        "el",
+                        "escritorio."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "el escritorio",
+                "la mesa",
+                "la silla",
+                "el estante"
+            ],
+            "correct_answer": "el escritorio"
+        },
+        {
+            "word": "la materia",
+            "translation_english": "the subject",
+            "translation_native": "the subject",
+            "pronunciation": "la ma-TE-ri-a",
+            "examples": [
+                {
+                    "sentence": "Prefiero mucho la materia historia.",
+                    "translation_english": "I prefer the history subject a lot.",
+                    "translation_native": "I prefer the history subject a lot.",
+                    "sentence_parts": [
+                        "Prefiero",
+                        "mucho",
+                        "la",
+                        "materia",
+                        "historia."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "la materia",
+                "la clase",
+                "la lección",
+                "la carrera"
+            ],
+            "correct_answer": "la materia"
+        },
+        {
+            "word": "el alumno",
+            "translation_english": "the student",
+            "translation_native": "the student",
+            "pronunciation": "el a-LUM-no",
+            "examples": [
+                {
+                    "sentence": "Escucha atento el buen alumno.",
+                    "translation_english": "The good student listens attentively.",
+                    "translation_native": "The good student listens attentively.",
+                    "sentence_parts": [
+                        "Escucha",
+                        "atento",
+                        "el",
+                        "buen",
+                        "alumno."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "el alumno",
+                "el profesor",
+                "el director",
+                "el conserje"
+            ],
+            "correct_answer": "el alumno"
+        },
+        {
+            "word": "la carpeta",
+            "translation_english": "the folder",
+            "translation_native": "the folder",
+            "pronunciation": "la kar-PE-ta",
+            "examples": [
+                {
+                    "sentence": "Organizo papeles en la carpeta.",
+                    "translation_english": "I organize papers in the folder.",
+                    "translation_native": "I organize papers in the folder.",
+                    "sentence_parts": [
+                        "Organizo",
+                        "papeles",
+                        "en",
+                        "la",
+                        "carpeta."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "la carpeta",
+                "la mochila",
+                "la cartuchera",
+                "el cuaderno"
+            ],
+            "correct_answer": "la carpeta"
+        },
+        {
+            "word": "el horario",
+            "translation_english": "the schedule",
+            "translation_native": "the schedule",
+            "pronunciation": "el o-RA-ri-o",
+            "examples": [
+                {
+                    "sentence": "Reviso siempre el horario escolar.",
+                    "translation_english": "I always check the school schedule.",
+                    "translation_native": "I always check the school schedule.",
+                    "sentence_parts": [
+                        "Reviso",
+                        "siempre",
+                        "el",
+                        "horario",
+                        "escolar."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "el horario",
+                "el recreo",
+                "el examen",
+                "el proyecto"
+            ],
+            "correct_answer": "el horario"
+        },
+        {
+            "word": "el marcador",
+            "translation_english": "the marker",
+            "translation_native": "the marker",
+            "pronunciation": "el mar-ka-DOR",
+            "examples": [
+                {
+                    "sentence": "Escribo títulos con el marcador.",
+                    "translation_english": "I write titles with the marker.",
+                    "translation_native": "I write titles with the marker.",
+                    "sentence_parts": [
+                        "Escribo",
+                        "títulos",
+                        "con",
+                        "el",
+                        "marcador."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "el marcador",
+                "el bolígrafo",
+                "el lápiz",
+                "el pincel"
+            ],
+            "correct_answer": "el marcador"
+        },
+        {
+            "word": "el proyecto",
+            "translation_english": "the project",
+            "translation_native": "the project",
+            "pronunciation": "el pro-YEK-to",
+            "examples": [
+                {
+                    "sentence": "Termino pronto el proyecto grupal.",
+                    "translation_english": "I finish the group project soon.",
+                    "translation_native": "I finish the group project soon.",
+                    "sentence_parts": [
+                        "Termino",
+                        "pronto",
+                        "el",
+                        "proyecto",
+                        "grupal."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "el proyecto",
+                "el examen",
+                "la tarea",
+                "la lección"
+            ],
+            "correct_answer": "el proyecto"
+        },
+        {
+            "word": "la cartuchera",
+            "translation_english": "the pencil case",
+            "translation_native": "the pencil case",
+            "pronunciation": "la kar-tu-CHE-ra",
+            "examples": [
+                {
+                    "sentence": "Guardo lápices en la cartuchera.",
+                    "translation_english": "I keep pencils in the pencil case.",
+                    "translation_native": "I keep pencils in the pencil case.",
+                    "sentence_parts": [
+                        "Guardo",
+                        "lápices",
+                        "en",
+                        "la",
+                        "cartuchera."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "la cartuchera",
+                "la mochila",
+                "la carpeta",
+                "la calculadora"
+            ],
+            "correct_answer": "la cartuchera"
+        },
+        {
+            "word": "la cancha",
+            "translation_english": "the court/field",
+            "translation_native": "the court/field",
+            "pronunciation": "la KAN-cha",
+            "examples": [
+                {
+                    "sentence": "Corro rápido en la cancha.",
+                    "translation_english": "I run fast in the court.",
+                    "translation_native": "I run fast in the court.",
+                    "sentence_parts": [
+                        "Corro",
+                        "rápido",
+                        "en",
+                        "la",
+                        "cancha."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "la cancha",
+                "la biblioteca",
+                "la cafetería",
+                "la oficina"
+            ],
+            "correct_answer": "la cancha"
+        },
+        {
+            "word": "el sacapuntas",
+            "translation_english": "the sharpener",
+            "translation_native": "the sharpener",
+            "pronunciation": "el sa-ka-PUN-tas",
+            "examples": [
+                {
+                    "sentence": "Uso mucho el sacapuntas hoy.",
+                    "translation_english": "I use the sharpener a lot today.",
+                    "translation_native": "I use the sharpener a lot today.",
+                    "sentence_parts": [
+                        "Uso",
+                        "mucho",
+                        "el",
+                        "sacapuntas",
+                        "hoy."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "el sacapuntas",
+                "el borrador",
+                "el marcador",
+                "el lápiz"
+            ],
+            "correct_answer": "el sacapuntas"
+        },
+        {
+            "word": "el director",
+            "translation_english": "the principal",
+            "translation_native": "the principal",
+            "pronunciation": "el di-rek-TOR",
+            "examples": [
+                {
+                    "sentence": "Habla serio el director hoy.",
+                    "translation_english": "The principal speaks seriously today.",
+                    "translation_native": "The principal speaks seriously today.",
+                    "sentence_parts": [
+                        "Habla",
+                        "serio",
+                        "el",
+                        "director",
+                        "hoy."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "el director",
+                "el profesor",
+                "el alumno",
+                "el conserje"
+            ],
+            "correct_answer": "el director"
+        },
+        {
+            "word": "la oficina",
+            "translation_english": "the office",
+            "translation_native": "the office",
+            "pronunciation": "la o-fi-SI-na",
+            "examples": [
+                {
+                    "sentence": "Entro directo a la oficina.",
+                    "translation_english": "I enter directly to the office.",
+                    "translation_native": "I enter directly to the office.",
+                    "sentence_parts": [
+                        "Entro",
+                        "directo",
+                        "a",
+                        "la",
+                        "oficina."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "la oficina",
+                "la biblioteca",
+                "la cafetería",
+                "la cancha"
+            ],
+            "correct_answer": "la oficina"
+        },
+        {
+            "word": "el libro",
+            "translation_english": "the book",
+            "translation_native": "the book",
+            "pronunciation": "el LI-bro",
+            "examples": [
+                {
+                    "sentence": "Leo mucho el libro escolar.",
+                    "translation_english": "I read the school book a lot.",
+                    "translation_native": "I read the school book a lot.",
+                    "sentence_parts": [
+                        "Leo",
+                        "mucho",
+                        "el",
+                        "libro",
+                        "escolar."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "el libro",
+                "el cuaderno",
+                "el examen",
+                "el horario"
+            ],
+            "correct_answer": "el libro"
+        },
+        {
+            "word": "la regla",
+            "translation_english": "the ruler",
+            "translation_native": "the ruler",
+            "pronunciation": "la RE-gla",
+            "examples": [
+                {
+                    "sentence": "Mido líneas con la regla.",
+                    "translation_english": "I measure lines with the ruler.",
+                    "translation_native": "I measure lines with the ruler.",
+                    "sentence_parts": [
+                        "Mido",
+                        "líneas",
+                        "con",
+                        "la",
+                        "regla."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "la regla",
+                "la calculadora",
+                "la mochila",
+                "la carpeta"
+            ],
+            "correct_answer": "la regla"
+        },
+        {
+            "word": "el conserje",
+            "translation_english": "the janitor",
+            "translation_native": "the janitor",
+            "pronunciation": "el kon-SER-he",
+            "examples": [
+                {
+                    "sentence": "Limpia todo el conserje hoy.",
+                    "translation_english": "The janitor cleans everything today.",
+                    "translation_native": "The janitor cleans everything today.",
+                    "sentence_parts": [
+                        "Limpia",
+                        "todo",
+                        "el",
+                        "conserje",
+                        "hoy."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "el conserje",
+                "el profesor",
+                "el alumno",
+                "el director"
+            ],
+            "correct_answer": "el conserje"
+        },
+        {
+            "word": "la universidad",
+            "translation_english": "the university",
+            "translation_native": "the university",
+            "pronunciation": "la u-ni-ver-si-DAD",
+            "examples": [
+                {
+                    "sentence": "Estudio mucho en la universidad.",
+                    "translation_english": "I study a lot at the university.",
+                    "translation_native": "I study a lot at the university.",
+                    "sentence_parts": [
+                        "Estudio",
+                        "mucho",
+                        "en",
+                        "la",
+                        "universidad."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "la universidad",
+                "la escuela",
+                "la biblioteca",
+                "la clase"
+            ],
+            "correct_answer": "la universidad"
+        },
+        {
+            "word": "el papel",
+            "translation_english": "the paper",
+            "translation_native": "the paper",
+            "pronunciation": "el pa-PEL",
+            "examples": [
+                {
+                    "sentence": "Escribo ideas en el papel.",
+                    "translation_english": "I write ideas on the paper.",
+                    "translation_native": "I write ideas on the paper.",
+                    "sentence_parts": [
+                        "Escribo",
+                        "ideas",
+                        "en",
+                        "el",
+                        "papel."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "el papel",
+                "el cuaderno",
+                "el libro",
+                "el examen"
+            ],
+            "correct_answer": "el papel"
+        },
+        {
+            "word": "la pizarra",
+            "translation_english": "the whiteboard",
+            "translation_native": "the whiteboard",
+            "pronunciation": "la pi-SA-rra",
+            "examples": [
+                {
+                    "sentence": "Miro atento a la pizarra.",
+                    "translation_english": "I look attentively at the whiteboard.",
+                    "translation_native": "I look attentively at the whiteboard.",
+                    "sentence_parts": [
+                        "Miro",
+                        "atento",
+                        "a",
+                        "la",
+                        "pizarra."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "la pizarra",
+                "la mesa",
+                "la silla",
+                "el escritorio"
+            ],
+            "correct_answer": "la pizarra"
+        },
+        {
+            "word": "el grupo",
+            "translation_english": "the group",
+            "translation_native": "the group",
+            "pronunciation": "el GRU-po",
+            "examples": [
+                {
+                    "sentence": "Trabajo bien en el grupo.",
+                    "translation_english": "I work well in the group.",
+                    "translation_native": "I work well in the group.",
+                    "sentence_parts": [
+                        "Trabajo",
+                        "bien",
+                        "en",
+                        "el",
+                        "grupo."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "el grupo",
+                "el proyecto",
+                "el examen",
+                "la clase"
+            ],
+            "correct_answer": "el grupo"
+        },
+        {
+            "word": "la nota",
+            "translation_english": "the grade",
+            "translation_native": "the grade",
+            "pronunciation": "la NO-ta",
+            "examples": [
+                {
+                    "sentence": "Obtengo buena nota este examen.",
+                    "translation_english": "I get a good grade this exam.",
+                    "translation_native": "I get a good grade this exam.",
+                    "sentence_parts": [
+                        "Obtengo",
+                        "buena",
+                        "nota",
+                        "este",
+                        "examen."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "la nota",
+                "la lección",
+                "la tarea",
+                "el proyecto"
+            ],
+            "correct_answer": "la nota"
+        },
+        {
+            "word": "la silla",
+            "translation_english": "the chair",
+            "translation_native": "the chair",
+            "pronunciation": "la SI-ya",
+            "examples": [
+                {
+                    "sentence": "Me siento en la silla.",
+                    "translation_english": "I sit in the chair.",
+                    "translation_native": "I sit in the chair.",
+                    "sentence_parts": [
+                        "Me",
+                        "siento",
+                        "en",
+                        "la",
+                        "silla."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "la silla",
+                "la mesa",
+                "el escritorio",
+                "el estante"
+            ],
+            "correct_answer": "la silla"
+        },
+        {
+            "word": "la mesa",
+            "translation_english": "the table",
+            "translation_native": "the table",
+            "pronunciation": "la ME-sa",
+            "examples": [
+                {
+                    "sentence": "Pongo comida sobre la mesa.",
+                    "translation_english": "I put food on the table.",
+                    "translation_native": "I put food on the table.",
+                    "sentence_parts": [
+                        "Pongo",
+                        "comida",
+                        "sobre",
+                        "la",
+                        "mesa."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "la mesa",
+                "la silla",
+                "el escritorio",
+                "el estante"
+            ],
+            "correct_answer": "la mesa"
+        },
+        {
+            "word": "el estante",
+            "translation_english": "the shelf",
+            "translation_native": "the shelf",
+            "pronunciation": "el es-TAN-te",
+            "examples": [
+                {
+                    "sentence": "Guardo libros en el estante.",
+                    "translation_english": "I keep books on the shelf.",
+                    "translation_native": "I keep books on the shelf.",
+                    "sentence_parts": [
+                        "Guardo",
+                        "libros",
+                        "en",
+                        "el",
+                        "estante."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "el estante",
+                "la mesa",
+                "la silla",
+                "el escritorio"
+            ],
+            "correct_answer": "el estante"
+        },
+        {
+            "word": "la computadora",
+            "translation_english": "the computer",
+            "translation_native": "the computer",
+            "pronunciation": "la kom-pu-ta-DO-ra",
+            "examples": [
+                {
+                    "sentence": "Uso mucho la computadora hoy.",
+                    "translation_english": "I use the computer a lot today.",
+                    "translation_native": "I use the computer a lot today.",
+                    "sentence_parts": [
+                        "Uso",
+                        "mucho",
+                        "la",
+                        "computadora",
+                        "hoy."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "la computadora",
+                "la calculadora",
+                "la mochila",
+                "la carpeta"
+            ],
+            "correct_answer": "la computadora"
+        },
+        {
+            "word": "el teclado",
+            "translation_english": "the keyboard",
+            "translation_native": "the keyboard",
+            "pronunciation": "el te-KLA-do",
+            "examples": [
+                {
+                    "sentence": "Escribo rápido en el teclado.",
+                    "translation_english": "I write fast on the keyboard.",
+                    "translation_native": "I write fast on the keyboard.",
+                    "sentence_parts": [
+                        "Escribo",
+                        "rápido",
+                        "en",
+                        "el",
+                        "teclado."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "el teclado",
+                "el monitor",
+                "el mouse",
+                "el cable"
+            ],
+            "correct_answer": "el teclado"
+        },
+        {
+            "word": "el monitor",
+            "translation_english": "the monitor",
+            "translation_native": "the monitor",
+            "pronunciation": "el mo-ni-TOR",
+            "examples": [
+                {
+                    "sentence": "Miro fijo el monitor hoy.",
+                    "translation_english": "I look fixedly at the monitor today.",
+                    "translation_native": "I look fixedly at the monitor today.",
+                    "sentence_parts": [
+                        "Miro",
+                        "fijo",
+                        "el",
+                        "monitor",
+                        "hoy."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "el monitor",
+                "el teclado",
+                "el mouse",
+                "el cable"
+            ],
+            "correct_answer": "el monitor"
+        },
+        {
+            "word": "el mouse",
+            "translation_english": "the mouse",
+            "translation_native": "the mouse",
+            "pronunciation": "el MAUS",
+            "examples": [
+                {
+                    "sentence": "Muevo bien el mouse hoy.",
+                    "translation_english": "I move the mouse well today.",
+                    "translation_native": "I move the mouse well today.",
+                    "sentence_parts": [
+                        "Muevo",
+                        "bien",
+                        "el",
+                        "mouse",
+                        "hoy."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "el mouse",
+                "el teclado",
+                "el monitor",
+                "el cable"
+            ],
+            "correct_answer": "el mouse"
+        },
+        {
+            "word": "el cable",
+            "translation_english": "the cable",
+            "translation_native": "the cable",
+            "pronunciation": "el KA-ble",
+            "examples": [
+                {
+                    "sentence": "Conecto bien el cable hoy.",
+                    "translation_english": "I connect the cable well today.",
+                    "translation_native": "I connect the cable well today.",
+                    "sentence_parts": [
+                        "Conecto",
+                        "bien",
+                        "el",
+                        "cable",
+                        "hoy."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "el cable",
+                "el teclado",
+                "el monitor",
+                "el mouse"
+            ],
+            "correct_answer": "el cable"
+        },
+        {
+            "word": "la impresora",
+            "translation_english": "the printer",
+            "translation_native": "the printer",
+            "pronunciation": "la im-pre-SO-ra",
+            "examples": [
+                {
+                    "sentence": "Imprimo todo en la impresora.",
+                    "translation_english": "I print everything on the printer.",
+                    "translation_native": "I print everything on the printer.",
+                    "sentence_parts": [
+                        "Imprimo",
+                        "todo",
+                        "en",
+                        "la",
+                        "impresora."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "la impresora",
+                "la computadora",
+                "la calculadora",
+                "la carpeta"
+            ],
+            "correct_answer": "la impresora"
+        },
+        {
+            "word": "el pincel",
+            "translation_english": "the paintbrush",
+            "translation_native": "the paintbrush",
+            "pronunciation": "el pin-SEL",
+            "examples": [
+                {
+                    "sentence": "Limpio hoy el pincel usado.",
+                    "translation_english": "I clean the used paintbrush today.",
+                    "translation_native": "I clean the used paintbrush today.",
+                    "sentence_parts": [
+                        "Limpio",
+                        "hoy",
+                        "el",
+                        "pincel",
+                        "usado."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "el pincel",
+                "el marcador",
+                "el bolígrafo",
+                "el lápiz"
+            ],
+            "correct_answer": "el pincel"
+        }
+    ]
+}

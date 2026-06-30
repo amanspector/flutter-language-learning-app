@@ -1,0 +1,3401 @@
+{
+    "metadata": {
+        "language": "Spanish",
+        "native_language": "English",
+        "level": "Intermediate",
+        "category": "travel",
+        "total_words": 108
+    },
+    "words": [
+        {
+            "word": "el hostal",
+            "translation_english": "the hostel",
+            "translation_native": "the hostel",
+            "pronunciation": "",
+            "examples": [
+                {
+                    "sentence": "Reservamos el hostal mochilero para conocer jóvenes viajeros.",
+                    "translation_english": "We booked the backpacker hostel to meet young travelers.",
+                    "translation_native": "We booked the backpacker hostel to meet young travelers.",
+                    "sentence_parts": [
+                        "Reservamos",
+                        "el",
+                        "hostal",
+                        "mochilero",
+                        "para",
+                        "conocer",
+                        "jóvenes",
+                        "viajeros."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "el hostal",
+                "el avión",
+                "el museo",
+                "el restaurante"
+            ],
+            "correct_answer": "el hostal"
+        },
+        {
+            "word": "el transbordo",
+            "translation_english": "the transfer / connection",
+            "translation_native": "the transfer / connection",
+            "pronunciation": "",
+            "examples": [
+                {
+                    "sentence": "Perdí el transbordo del metro por mirar TikTok.",
+                    "translation_english": "I missed the metro transfer from watching TikTok.",
+                    "translation_native": "I missed the metro transfer from watching TikTok.",
+                    "sentence_parts": [
+                        "Perdí",
+                        "el",
+                        "transbordo",
+                        "del",
+                        "metro",
+                        "por",
+                        "mirar",
+                        "TikTok."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "el transbordo",
+                "el equipaje",
+                "el boleto",
+                "el pasaporte"
+            ],
+            "correct_answer": "el transbordo"
+        },
+        {
+            "word": "la propina",
+            "translation_english": "the tip",
+            "translation_native": "the tip",
+            "pronunciation": "",
+            "examples": [
+                {
+                    "sentence": "Dejamos la propina al mesero usando nuestra aplicación.",
+                    "translation_english": "We left the tip to the waiter using our app.",
+                    "translation_native": "We left the tip to the waiter using our app.",
+                    "sentence_parts": [
+                        "Dejamos",
+                        "la",
+                        "propina",
+                        "al",
+                        "mesero",
+                        "usando",
+                        "nuestra",
+                        "aplicación."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "la propina",
+                "la comida",
+                "la maleta",
+                "la tarjeta"
+            ],
+            "correct_answer": "la propina"
+        },
+        {
+            "word": "regatear",
+            "translation_english": "to bargain / haggle",
+            "translation_native": "to bargain / haggle",
+            "pronunciation": "",
+            "examples": [
+                {
+                    "sentence": "Intenté regatear el precio de los recuerdos artesanales.",
+                    "translation_english": "I tried to bargain the price of artisan souvenirs.",
+                    "translation_native": "I tried to bargain the price of artisan souvenirs.",
+                    "sentence_parts": [
+                        "Intenté",
+                        "regatear",
+                        "el",
+                        "precio",
+                        "de",
+                        "los",
+                        "recuerdos",
+                        "artesanales."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "regatear",
+                "almorzar",
+                "facturar",
+                "abordar"
+            ],
+            "correct_answer": "regatear"
+        },
+        {
+            "word": "el equipaje de mano",
+            "translation_english": "the carry-on luggage",
+            "translation_native": "the carry-on luggage",
+            "pronunciation": "",
+            "examples": [
+                {
+                    "sentence": "Pesaron el equipaje de mano antes de abordar.",
+                    "translation_english": "They weighed the carry-on luggage before boarding.",
+                    "translation_native": "They weighed the carry-on luggage before boarding.",
+                    "sentence_parts": [
+                        "Pesaron",
+                        "el",
+                        "equipaje",
+                        "de",
+                        "mano",
+                        "antes",
+                        "de",
+                        "abordar."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "el equipaje de mano",
+                "el descuento de estudiante",
+                "el menú del día",
+                "el mapa turístico"
+            ],
+            "correct_answer": "el equipaje de mano"
+        },
+        {
+            "word": "la red wifi",
+            "translation_english": "the Wi-Fi network",
+            "translation_native": "the Wi-Fi network",
+            "pronunciation": "",
+            "examples": [
+                {
+                    "sentence": "Necesito la red wifi para subir mis vlogs.",
+                    "translation_english": "I need the Wi-Fi network to upload my vlogs.",
+                    "translation_native": "I need the Wi-Fi network to upload my vlogs.",
+                    "sentence_parts": [
+                        "Necesito",
+                        "la",
+                        "red",
+                        "wifi",
+                        "para",
+                        "subir",
+                        "mis",
+                        "vlogs."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "la red wifi",
+                "la llave electrónica",
+                "la tarjeta postal",
+                "la comida rápida"
+            ],
+            "correct_answer": "la red wifi"
+        },
+        {
+            "word": "el cargador portátil",
+            "translation_english": "the portable charger",
+            "translation_native": "the portable charger",
+            "pronunciation": "",
+            "examples": [
+                {
+                    "sentence": "Usa mi cargador portátil si tu celular murió.",
+                    "translation_english": "Use my portable charger if your phone died.",
+                    "translation_native": "Use my portable charger if your phone died.",
+                    "sentence_parts": [
+                        "Usa",
+                        "mi",
+                        "cargador",
+                        "portátil",
+                        "si",
+                        "tu",
+                        "celular",
+                        "murió."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "cargador portátil",
+                "boleto de ida",
+                "folleto informativo",
+                "guía de viaje"
+            ],
+            "correct_answer": "cargador portátil"
+        },
+        {
+            "word": "el boleto estudiantil",
+            "translation_english": "the student ticket",
+            "translation_native": "the student ticket",
+            "pronunciation": "",
+            "examples": [
+                {
+                    "sentence": "Compré el boleto estudiantil mostrando mi credencial escolar.",
+                    "translation_english": "I bought the student ticket by showing my school ID.",
+                    "translation_native": "I bought the student ticket by showing my school ID.",
+                    "sentence_parts": [
+                        "Compré",
+                        "el",
+                        "boleto",
+                        "estudiantil",
+                        "mostrando",
+                        "mi",
+                        "credencial",
+                        "escolar."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "el boleto estudiantil",
+                "el menú ejecutivo",
+                "el seguro médico",
+                "el mapa impreso"
+            ],
+            "correct_answer": "el boleto estudiantil"
+        },
+        {
+            "word": "mochilear",
+            "translation_english": "to backpack",
+            "translation_native": "to backpack",
+            "pronunciation": "",
+            "examples": [
+                {
+                    "sentence": "Queremos mochilear por Sudamérica durante el verano.",
+                    "translation_english": "We want to backpack through South America during the summer.",
+                    "translation_native": "We want to backpack through South America during the summer.",
+                    "sentence_parts": [
+                        "Queremos",
+                        "mochilear",
+                        "por",
+                        "Sudamérica",
+                        "durante",
+                        "el",
+                        "verano."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "mochilear",
+                "almorzar",
+                "facturar",
+                "despegar"
+            ],
+            "correct_answer": "mochilear"
+        },
+        {
+            "word": "el viaje de egresados",
+            "translation_english": "the graduation trip",
+            "translation_native": "the graduation trip",
+            "pronunciation": "",
+            "examples": [
+                {
+                    "sentence": "Planeamos el viaje de egresados con mis compañeros.",
+                    "translation_english": "We planned the graduation trip with my classmates.",
+                    "translation_native": "We planned the graduation trip with my classmates.",
+                    "sentence_parts": [
+                        "Planeamos",
+                        "el",
+                        "viaje",
+                        "de",
+                        "egresados",
+                        "con",
+                        "mis",
+                        "compañeros."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "viaje de egresados",
+                "vuelo de escala",
+                "plato de entrada",
+                "seguro de equipaje"
+            ],
+            "correct_answer": "viaje de egresados"
+        },
+        {
+            "word": "la carpa",
+            "translation_english": "the tent",
+            "translation_native": "the tent",
+            "pronunciation": "",
+            "examples": [
+                {
+                    "sentence": "Armamos la carpa cerca del lago para acampar.",
+                    "translation_english": "We set up the tent near the lake to camp.",
+                    "translation_native": "We set up the tent near the lake to camp.",
+                    "sentence_parts": [
+                        "Armamos",
+                        "la",
+                        "carpa",
+                        "cerca",
+                        "del",
+                        "lago",
+                        "para",
+                        "acampar."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "la carpa",
+                "la cocina",
+                "la maleta",
+                "la tarjeta"
+            ],
+            "correct_answer": "la carpa"
+        },
+        {
+            "word": "el selfi",
+            "translation_english": "the selfie",
+            "translation_native": "the selfie",
+            "pronunciation": "",
+            "examples": [
+                {
+                    "sentence": "Nos tomamos un selfi frente al monumento famoso.",
+                    "translation_english": "We took a selfie in front of the famous monument.",
+                    "translation_native": "We took a selfie in front of the famous monument.",
+                    "sentence_parts": [
+                        "Nos",
+                        "tomamos",
+                        "un",
+                        "selfi",
+                        "frente",
+                        "al",
+                        "monumento",
+                        "famoso."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "selfi",
+                "avión",
+                "hostal",
+                "itinerario"
+            ],
+            "correct_answer": "selfi"
+        },
+        {
+            "word": "la comida callejera",
+            "translation_english": "the street food",
+            "translation_native": "the street food",
+            "pronunciation": "",
+            "examples": [
+                {
+                    "sentence": "Probamos comida callejera barata en el mercado nocturno.",
+                    "translation_english": "We tried cheap street food at the night market.",
+                    "translation_native": "We tried cheap street food at the night market.",
+                    "sentence_parts": [
+                        "Probamos",
+                        "comida",
+                        "callejera",
+                        "barata",
+                        "en",
+                        "el",
+                        "mercado",
+                        "nocturno."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "comida callejera",
+                "ropa deportiva",
+                "tecnología moderna",
+                "música electrónica"
+            ],
+            "correct_answer": "comida callejera"
+        },
+        {
+            "word": "el transbordo gratuito",
+            "translation_english": "the free transfer",
+            "translation_native": "the free transfer",
+            "pronunciation": "",
+            "examples": [
+                {
+                    "sentence": "Usa la tarjeta para obtener un transbordo gratuito.",
+                    "translation_english": "Use the card to get a free transfer.",
+                    "translation_native": "Use the card to get a free transfer.",
+                    "sentence_parts": [
+                        "Usa",
+                        "la",
+                        "tarjeta",
+                        "para",
+                        "obtener",
+                        "un",
+                        "transbordo",
+                        "gratuito."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "transbordo gratuito",
+                "vuelo internacional",
+                "descuento militar",
+                "plato principal"
+            ],
+            "correct_answer": "transbordo gratuito"
+        },
+        {
+            "word": "el mapa interactivo",
+            "translation_english": "the interactive map",
+            "translation_native": "the interactive map",
+            "pronunciation": "",
+            "examples": [
+                {
+                    "sentence": "Revisé el mapa interactivo en mi celular para guiarme.",
+                    "translation_english": "I checked the interactive map on my phone to guide myself.",
+                    "translation_native": "I checked the interactive map on my phone to guide myself.",
+                    "sentence_parts": [
+                        "Revisé",
+                        "el",
+                        "mapa",
+                        "interactivo",
+                        "en",
+                        "mi",
+                        "celular",
+                        "para",
+                        "guiarme."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "mapa interactivo",
+                "menú impreso",
+                "boleto físico",
+                "pasaporte antiguo"
+            ],
+            "correct_answer": "mapa interactivo"
+        },
+        {
+            "word": "hacer un directo",
+            "translation_english": "to livestream",
+            "translation_native": "to livestream",
+            "pronunciation": "",
+            "examples": [
+                {
+                    "sentence": "Quiero hacer un directo mostrando este festival de música.",
+                    "translation_english": "I want to livestream showing this music festival.",
+                    "translation_native": "I want to livestream showing this music festival.",
+                    "sentence_parts": [
+                        "Quiero",
+                        "hacer",
+                        "un",
+                        "directo",
+                        "mostrando",
+                        "este",
+                        "festival",
+                        "de",
+                        "música."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "hacer un directo",
+                "comprar un pasaje",
+                "reservar un cuarto",
+                "facturar equipaje"
+            ],
+            "correct_answer": "hacer un directo"
+        },
+        {
+            "word": "el parque de diversiones",
+            "translation_english": "the amusement park",
+            "translation_native": "the amusement park",
+            "pronunciation": "",
+            "examples": [
+                {
+                    "sentence": "Fuimos al parque de diversiones para subirnos a montañas rusas.",
+                    "translation_english": "We went to the amusement park to ride roller coasters.",
+                    "translation_native": "We went to the amusement park to ride roller coasters.",
+                    "sentence_parts": [
+                        "Fuimos",
+                        "al",
+                        "parque",
+                        "de",
+                        "diversiones",
+                        "para",
+                        "subirnos",
+                        "a",
+                        "montañas",
+                        "rusas."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "parque de diversiones",
+                "aeropuerto internacional",
+                "restaurante vegetariano",
+                "hotel ejecutivo"
+            ],
+            "correct_answer": "parque de diversiones"
+        },
+        {
+            "word": "el festival de música",
+            "translation_english": "the music festival",
+            "translation_native": "the music festival",
+            "pronunciation": "",
+            "examples": [
+                {
+                    "sentence": "Viajamos al festival de música para ver bandas famosas.",
+                    "translation_english": "We traveled to the music festival to see famous bands.",
+                    "translation_native": "We traveled to the music festival to see famous bands.",
+                    "sentence_parts": [
+                        "Viajamos",
+                        "al",
+                        "festival",
+                        "de",
+                        "música",
+                        "para",
+                        "ver",
+                        "bandas",
+                        "famosas."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "festival de música",
+                "vuelo de conexión",
+                "mercado de artesanías",
+                "centro de auxilio"
+            ],
+            "correct_answer": "festival de música"
+        },
+        {
+            "word": "el código QR",
+            "translation_english": "the QR code",
+            "translation_native": "the QR code",
+            "pronunciation": "",
+            "examples": [
+                {
+                    "sentence": "Escanea el código QR para ingresar al concierto.",
+                    "translation_english": "Scan the QR code to enter the concert.",
+                    "translation_native": "Scan the QR code to enter the concert.",
+                    "sentence_parts": [
+                        "Escanea",
+                        "el",
+                        "código",
+                        "QR",
+                        "para",
+                        "ingresar",
+                        "al",
+                        "concierto."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "código QR",
+                "boleto físico",
+                "pasaporte viejo",
+                "mapa turístico"
+            ],
+            "correct_answer": "código QR"
+        },
+        {
+            "word": "el guía local",
+            "translation_english": "the local guide",
+            "translation_native": "the local guide",
+            "pronunciation": "",
+            "examples": [
+                {
+                    "sentence": "Contratamos un guía local joven para recorrer la ciudad.",
+                    "translation_english": "We hired a young local guide to tour the city.",
+                    "translation_native": "We hired a young local guide to tour the city.",
+                    "sentence_parts": [
+                        "Contratamos",
+                        "un",
+                        "guía",
+                        "local",
+                        "joven",
+                        "para",
+                        "recorrer",
+                        "la",
+                        "ciudad."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "guía local",
+                "menú diario",
+                "avión comercial",
+                "hotel lujoso"
+            ],
+            "correct_answer": "guía local"
+        },
+        {
+            "word": "el viaje de estudios",
+            "translation_english": "the study trip",
+            "translation_native": "the study trip",
+            "pronunciation": "",
+            "examples": [
+                {
+                    "sentence": "Haremos un viaje de estudios para practicar nuestro español.",
+                    "translation_english": "We will do a study trip to practice our Spanish.",
+                    "translation_native": "We will do a study trip to practice our Spanish.",
+                    "sentence_parts": [
+                        "Haremos",
+                        "un",
+                        "viaje",
+                        "de",
+                        "estudios",
+                        "para",
+                        "practicar",
+                        "nuestro",
+                        "español."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "viaje de estudios",
+                "almuerzo ejecutivo",
+                "vuelo cancelado",
+                "seguro contra accidentes"
+            ],
+            "correct_answer": "viaje de estudios"
+        },
+        {
+            "word": "el pase de transporte",
+            "translation_english": "the transit pass",
+            "translation_native": "the transit pass",
+            "pronunciation": "",
+            "examples": [
+                {
+                    "sentence": "Compré el pase de transporte ilimitado para estudiantes.",
+                    "translation_english": "I bought the unlimited transit pass for students.",
+                    "translation_native": "I bought the unlimited transit pass for students.",
+                    "sentence_parts": [
+                        "Compré",
+                        "el",
+                        "pase",
+                        "de",
+                        "transporte",
+                        "ilimitado",
+                        "para",
+                        "estudiantes."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "pase de transporte",
+                "menú de degustación",
+                "equipaje adicional",
+                "seguro de viaje"
+            ],
+            "correct_answer": "pase de transporte"
+        },
+        {
+            "word": "la tarjeta sim",
+            "translation_english": "the SIM card",
+            "translation_native": "the SIM card",
+            "pronunciation": "",
+            "examples": [
+                {
+                    "sentence": "Compré una tarjeta sim local para tener datos.",
+                    "translation_english": "I bought a local SIM card to have data.",
+                    "translation_native": "I bought a local SIM card to have data.",
+                    "sentence_parts": [
+                        "Compré",
+                        "una",
+                        "tarjeta",
+                        "sim",
+                        "local",
+                        "para",
+                        "tener",
+                        "datos."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "tarjeta sim",
+                "maleta grande",
+                "mochila pesada",
+                "habitación doble"
+            ],
+            "correct_answer": "la tarjeta sim"
+        },
+        {
+            "word": "el hostal estudiantil",
+            "translation_english": "the student hostel",
+            "translation_native": "the student hostel",
+            "pronunciation": "",
+            "examples": [
+                {
+                    "sentence": "Elegimos el hostal estudiantil para ahorrar dinero compartiendo.",
+                    "translation_english": "We chose the student hostel to save money by sharing.",
+                    "translation_native": "We chose the student hostel to save money by sharing.",
+                    "sentence_parts": [
+                        "Elegimos",
+                        "el",
+                        "hostal",
+                        "estudiantil",
+                        "para",
+                        "ahorrar",
+                        "dinero",
+                        "compartiendo."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "hostal estudiantil",
+                "vuelo de primera",
+                "restaurante de lujo",
+                "hotel de playa"
+            ],
+            "correct_answer": "hostal estudiantil"
+        },
+        {
+            "word": "el punto de encuentro",
+            "translation_english": "the meeting point",
+            "translation_native": "the meeting point",
+            "pronunciation": "",
+            "examples": [
+                {
+                    "sentence": "Fijamos el punto de encuentro mediante nuestro chat grupal.",
+                    "translation_english": "We set the meeting point using our group chat.",
+                    "translation_native": "We set the meeting point using our group chat.",
+                    "sentence_parts": [
+                        "Fijamos",
+                        "el",
+                        "punto",
+                        "de",
+                        "encuentro",
+                        "mediante",
+                        "nuestro",
+                        "chat",
+                        "grupal."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "punto de encuentro",
+                "menú de almuerzo",
+                "equipaje extraviado",
+                "pasaporte electrónico"
+            ],
+            "correct_answer": "punto de encuentro"
+        },
+        {
+            "word": "la aplicación de mapas",
+            "translation_english": "the map app",
+            "translation_native": "the map app",
+            "pronunciation": "",
+            "examples": [
+                {
+                    "sentence": "Descargué la aplicación de mapas para no perderme.",
+                    "translation_english": "I downloaded the map app so I wouldn't get lost.",
+                    "translation_native": "I downloaded the map app so I wouldn't get lost.",
+                    "sentence_parts": [
+                        "Descargué",
+                        "la",
+                        "aplicación",
+                        "de",
+                        "mapas",
+                        "para",
+                        "no",
+                        "perderme."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "aplicación de mapas",
+                "maleta de viaje",
+                "tarjeta de embarque",
+                "guía de restaurantes"
+            ],
+            "correct_answer": "aplicación de mapas"
+        },
+        {
+            "word": "el menú económico",
+            "translation_english": "the budget menu",
+            "translation_native": "the budget menu",
+            "pronunciation": "",
+            "examples": [
+                {
+                    "sentence": "Pedimos el menú económico para estudiantes universitarios.",
+                    "translation_english": "We ordered the budget menu for university students.",
+                    "translation_native": "We ordered the budget menu for university students.",
+                    "sentence_parts": [
+                        "Pedimos",
+                        "el",
+                        "menú",
+                        "económico",
+                        "para",
+                        "estudiantes",
+                        "universitarios."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "menú económico",
+                "vuelo directo",
+                "hotel de lujo",
+                "pase de abordar"
+            ],
+            "correct_answer": "menú económico"
+        },
+        {
+            "word": "el viaje compartido",
+            "translation_english": "the rideshare",
+            "translation_native": "the rideshare",
+            "pronunciation": "",
+            "examples": [
+                {
+                    "sentence": "Solicité un viaje compartido para ir al concierto.",
+                    "translation_english": "I requested a rideshare to go to the concert.",
+                    "translation_native": "I requested a rideshare to go to the concert.",
+                    "sentence_parts": [
+                        "Solicité",
+                        "un",
+                        "viaje",
+                        "compartido",
+                        "para",
+                        "ir",
+                        "al",
+                        "concierto."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "viaje compartido",
+                "descuento de grupo",
+                "plato de comida",
+                "itinerario de vuelo"
+            ],
+            "correct_answer": "viaje compartido"
+        },
+        {
+            "word": "compartir la ubicación",
+            "translation_english": "to share the location",
+            "translation_native": "to share the location",
+            "pronunciation": "",
+            "examples": [
+                {
+                    "sentence": "Debes compartir la ubicación para encontrarnos en el festival.",
+                    "translation_english": "You must share the location to find us at the festival.",
+                    "translation_native": "You must share the location to find us at the festival.",
+                    "sentence_parts": [
+                        "Debes",
+                        "compartir",
+                        "la",
+                        "ubicación",
+                        "para",
+                        "encontrarnos",
+                        "en",
+                        "el",
+                        "festival."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "compartir la ubicación",
+                "comprar los recuerdos",
+                "pagar el boleto",
+                "reservar la habitación"
+            ],
+            "correct_answer": "compartir la ubicación"
+        },
+        {
+            "word": "el adaptador de enchufe",
+            "translation_english": "the plug adapter",
+            "translation_native": "the plug adapter",
+            "pronunciation": "",
+            "examples": [
+                {
+                    "sentence": "Compré un adaptador de enchufe para cargar mi laptop.",
+                    "translation_english": "I bought a plug adapter to charge my laptop.",
+                    "translation_native": "I bought a plug adapter to charge my laptop.",
+                    "sentence_parts": [
+                        "Compré",
+                        "un",
+                        "adaptador",
+                        "de",
+                        "enchufe",
+                        "para",
+                        "cargar",
+                        "mi",
+                        "laptop."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "adaptador de enchufe",
+                "boleto de tren",
+                "menú de almuerzo",
+                "mapa de calles"
+            ],
+            "correct_answer": "adaptador de enchufe"
+        },
+        {
+            "word": "el combo de comida",
+            "translation_english": "the value meal / combo",
+            "translation_native": "the value meal / combo",
+            "pronunciation": "",
+            "examples": [
+                {
+                    "sentence": "Pedimos el combo de comida rápida tras el concierto.",
+                    "translation_english": "We ordered the fast food value meal after the concert.",
+                    "translation_native": "We ordered the fast food value meal after the concert.",
+                    "sentence_parts": [
+                        "Pedimos",
+                        "el",
+                        "combo",
+                        "de",
+                        "comida",
+                        "rápida",
+                        "tras",
+                        "el",
+                        "concierto."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "combo de comida",
+                "pase de transporte",
+                "mapa de turismo",
+                "equipo de campamento"
+            ],
+            "correct_answer": "combo de comida"
+        },
+        {
+            "word": "la zona de carpas",
+            "translation_english": "the tent area / campsite",
+            "translation_native": "the tent area / campsite",
+            "pronunciation": "",
+            "examples": [
+                {
+                    "sentence": "Buscamos la zona de carpas dentro del festival.",
+                    "translation_english": "We looked for the tent area inside the festival.",
+                    "translation_native": "We looked for the tent area inside the festival.",
+                    "sentence_parts": [
+                        "Buscamos",
+                        "la",
+                        "zona",
+                        "de",
+                        "carpas",
+                        "dentro",
+                        "del",
+                        "festival."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "zona de carpas",
+                "estación de metro",
+                "parada de autobús",
+                "oficina de turismo"
+            ],
+            "correct_answer": "zona de carpas"
+        },
+        {
+            "word": "la tarifa estudiantil",
+            "translation_english": "the student fare / rate",
+            "translation_native": "the student fare / rate",
+            "pronunciation": "",
+            "examples": [
+                {
+                    "sentence": "Pregunté por la tarifa estudiantil mostrando mi identificación.",
+                    "translation_english": "I asked for the student fare by showing my ID.",
+                    "translation_native": "I asked for the student fare by showing my ID.",
+                    "sentence_parts": [
+                        "Pregunté",
+                        "por",
+                        "la",
+                        "tarifa",
+                        "estudiantil",
+                        "mostrando",
+                        "mi",
+                        "identificación."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "tarifa estudiantil",
+                "comida típica",
+                "maleta perdida",
+                "habitación disponible"
+            ],
+            "correct_answer": "tarifa estudiantil"
+        },
+        {
+            "word": "el mirador",
+            "translation_english": "the viewpoint / lookout",
+            "translation_native": "the viewpoint / lookout",
+            "pronunciation": "",
+            "examples": [
+                {
+                    "sentence": "Subimos al mirador para grabar videos bonitos.",
+                    "translation_english": "We went up to the viewpoint to shoot pretty videos.",
+                    "translation_native": "We went up to the viewpoint to shoot pretty videos.",
+                    "sentence_parts": [
+                        "Subimos",
+                        "al",
+                        "mirador",
+                        "para",
+                        "grabar",
+                        "videos",
+                        "bonitos."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "mirador",
+                "avión",
+                "restaurante",
+                "metro"
+            ],
+            "correct_answer": "mirador"
+        },
+        {
+            "word": "la bicicleta de alquiler",
+            "translation_english": "the rental bike",
+            "translation_native": "the rental bike",
+            "pronunciation": "",
+            "examples": [
+                {
+                    "sentence": "Usé una bicicleta de alquiler usando la aplicación.",
+                    "translation_english": "I used a rental bike using the app.",
+                    "translation_native": "I used a rental bike using the app.",
+                    "sentence_parts": [
+                        "Usé",
+                        "una",
+                        "bicicleta",
+                        "de",
+                        "alquiler",
+                        "usando",
+                        "la",
+                        "aplicación."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "bicicleta de alquiler",
+                "habitación de hotel",
+                "comida para llevar",
+                "maleta de viaje"
+            ],
+            "correct_answer": "bicicleta de alquiler"
+        },
+        {
+            "word": "la mochila de viaje",
+            "translation_english": "the travel backpack",
+            "translation_native": "the travel backpack",
+            "pronunciation": "",
+            "examples": [
+                {
+                    "sentence": "Empaqué mi mochila de viaje para el campamento.",
+                    "translation_english": "I packed my travel backpack for the camp.",
+                    "translation_native": "I packed my travel backpack for the camp.",
+                    "sentence_parts": [
+                        "Empaqué",
+                        "mi",
+                        "mochila",
+                        "de",
+                        "viaje",
+                        "para",
+                        "el",
+                        "campamento."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "mochila de viaje",
+                "boleto de entrada",
+                "menú de comida",
+                "pasaporte digital"
+            ],
+            "correct_answer": "mochila de viaje"
+        },
+        {
+            "word": "el audífono inalámbrico",
+            "translation_english": "the wireless headphone",
+            "translation_native": "the wireless headphone",
+            "pronunciation": "",
+            "examples": [
+                {
+                    "sentence": "Perdí un audífono inalámbrico durante el trayecto.",
+                    "translation_english": "I lost a wireless headphone during the commute.",
+                    "translation_native": "I lost a wireless headphone during the commute.",
+                    "sentence_parts": [
+                        "Perdí",
+                        "un",
+                        "audífono",
+                        "inalámbrico",
+                        "durante",
+                        "el",
+                        "trayecto."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "audífono inalámbrico",
+                "boleto estudiantil",
+                "mapa turístico",
+                "pasaporte oficial"
+            ],
+            "correct_answer": "audífono inalámbrico"
+        },
+        {
+            "word": "el concierto en vivo",
+            "translation_english": "the live concert",
+            "translation_native": "the live concert",
+            "pronunciation": "",
+            "examples": [
+                {
+                    "sentence": "Fuimos al concierto en vivo de nuestra banda.",
+                    "translation_english": "We went to the live concert of our band.",
+                    "translation_native": "We went to the live concert of our band.",
+                    "sentence_parts": [
+                        "Fuimos",
+                        "al",
+                        "concierto",
+                        "en",
+                        "vivo",
+                        "de",
+                        "nuestra",
+                        "banda."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "concierto en vivo",
+                "vuelo de escala",
+                "hotel mochilero",
+                "menú turístico"
+            ],
+            "correct_answer": "concierto en vivo"
+        },
+        {
+            "word": "el centro de deportes",
+            "translation_english": "the sports center",
+            "translation_native": "the sports center",
+            "pronunciation": "",
+            "examples": [
+                {
+                    "sentence": "Visitamos el centro de deportes para ver torneos.",
+                    "translation_english": "We visited the sports center to watch tournaments.",
+                    "translation_native": "We visited the sports center to watch tournaments.",
+                    "sentence_parts": [
+                        "Visitamos",
+                        "el",
+                        "centro",
+                        "de",
+                        "deportes",
+                        "para",
+                        "ver",
+                        "torneos."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "centro de deportes",
+                "vuelo comercial",
+                "menú del día",
+                "mapa de carreteras"
+            ],
+            "correct_answer": "centro de deportes"
+        },
+        {
+            "word": "el monopatín eléctrico",
+            "translation_english": "the electric scooter",
+            "translation_native": "the electric scooter",
+            "pronunciation": "",
+            "examples": [
+                {
+                    "sentence": "Alquilé un monopatín eléctrico usando una aplicación.",
+                    "translation_english": "I rented an electric scooter using an app.",
+                    "translation_native": "I rented an electric scooter using an app.",
+                    "sentence_parts": [
+                        "Alquilé",
+                        "un",
+                        "monopatín",
+                        "eléctrico",
+                        "usando",
+                        "una",
+                        "aplicación."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "monopatín eléctrico",
+                "menú vegetariano",
+                "boleto físico",
+                "mapa antiguo"
+            ],
+            "correct_answer": "monopatín eléctrico"
+        },
+        {
+            "word": "la entrada digital",
+            "translation_english": "the digital ticket / entry",
+            "translation_native": "the digital ticket / entry",
+            "pronunciation": "",
+            "examples": [
+                {
+                    "sentence": "Mostré mi entrada digital en las puertas del festival.",
+                    "translation_english": "I showed my digital ticket at the festival gates.",
+                    "translation_native": "I showed my digital ticket at the festival gates.",
+                    "sentence_parts": [
+                        "Mostré",
+                        "mi",
+                        "entrada",
+                        "digital",
+                        "en",
+                        "las",
+                        "puertas",
+                        "del",
+                        "festival."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "entrada digital",
+                "mochila pesada",
+                "comida caliente",
+                "maleta grande"
+            ],
+            "correct_answer": "entrada digital"
+        },
+        {
+            "word": "el torneo juvenil",
+            "translation_english": "the youth tournament",
+            "translation_native": "the youth tournament",
+            "pronunciation": "",
+            "examples": [
+                {
+                    "sentence": "Viajamos para competir en el torneo juvenil de fútbol.",
+                    "translation_english": "We traveled to compete in the youth soccer tournament.",
+                    "translation_native": "We traveled to compete in the youth soccer tournament.",
+                    "sentence_parts": [
+                        "Viajamos",
+                        "para",
+                        "competir",
+                        "en",
+                        "el",
+                        "torneo",
+                        "juvenil",
+                        "de",
+                        "fútbol."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "torneo juvenil",
+                "vuelo cancelado",
+                "menú del día",
+                "hotel céntrico"
+            ],
+            "correct_answer": "torneo juvenil"
+        },
+        {
+            "word": "el parque de skate",
+            "translation_english": "the skatepark",
+            "translation_native": "the skatepark",
+            "pronunciation": "",
+            "examples": [
+                {
+                    "sentence": "Buscamos un parque de skate para practicar trucos.",
+                    "translation_english": "We looked for a skatepark to practice tricks.",
+                    "translation_native": "We looked for a skatepark to practice tricks.",
+                    "sentence_parts": [
+                        "Buscamos",
+                        "un",
+                        "parque",
+                        "de",
+                        "skate",
+                        "para",
+                        "practicar",
+                        "trucos."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "parque de skate",
+                "avión de pasajeros",
+                "restaurante elegante",
+                "hotel de negocios"
+            ],
+            "correct_answer": "parque de skate"
+        },
+        {
+            "word": "el descuento joven",
+            "translation_english": "the youth discount",
+            "translation_native": "the youth discount",
+            "pronunciation": "",
+            "examples": [
+                {
+                    "sentence": "Solicité el descuento joven en la ventanilla del tren.",
+                    "translation_english": "I requested the youth discount at the train window.",
+                    "translation_native": "I requested the youth discount at the train window.",
+                    "sentence_parts": [
+                        "Solicité",
+                        "el",
+                        "descuento",
+                        "joven",
+                        "en",
+                        "la",
+                        "ventanilla",
+                        "del",
+                        "tren."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "descuento joven",
+                "menú ejecutivo",
+                "equipaje extraviado",
+                "pasaporte oficial"
+            ],
+            "correct_answer": "descuento joven"
+        },
+        {
+            "word": "la tienda de cómics",
+            "translation_english": "the comic book store",
+            "translation_native": "the comic book store",
+            "pronunciation": "",
+            "examples": [
+                {
+                    "sentence": "Visitamos una tienda de cómics durante el recorrido.",
+                    "translation_english": "We visited a comic book store during the tour.",
+                    "translation_native": "We visited a comic book store during the tour.",
+                    "sentence_parts": [
+                        "Visitamos",
+                        "una",
+                        "tienda",
+                        "de",
+                        "cómics",
+                        "durante",
+                        "el",
+                        "recorrido."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "tienda de cómics",
+                "parada de metro",
+                "habitación de hotel",
+                "tarjeta de embarque"
+            ],
+            "correct_answer": "tienda de cómics"
+        },
+        {
+            "word": "el canal de vlogs",
+            "translation_english": "the vlog channel",
+            "translation_native": "the vlog channel",
+            "pronunciation": "",
+            "examples": [
+                {
+                    "sentence": "Grabé videos para mi canal de vlogs turísticos.",
+                    "translation_english": "I recorded videos for my tourist vlog channel.",
+                    "translation_native": "I recorded videos for my tourist vlog channel.",
+                    "sentence_parts": [
+                        "Grabé",
+                        "videos",
+                        "para",
+                        "mi",
+                        "canal",
+                        "de",
+                        "vlogs",
+                        "turísticos."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "canal de vlogs",
+                "boleto de ida",
+                "menú de platos",
+                "itinerario de trenes"
+            ],
+            "correct_answer": "canal de vlogs"
+        },
+        {
+            "word": "la zona gamer",
+            "translation_english": "the gaming zone",
+            "translation_native": "the gaming zone",
+            "pronunciation": "",
+            "examples": [
+                {
+                    "sentence": "Buscamos la zona gamer dentro de la convención.",
+                    "translation_english": "We looked for the gaming zone inside the convention.",
+                    "translation_native": "We looked for the gaming zone inside the convention.",
+                    "sentence_parts": [
+                        "Buscamos",
+                        "la",
+                        "zona",
+                        "gamer",
+                        "dentro",
+                        "de",
+                        "la",
+                        "convención."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "zona gamer",
+                "estación de metro",
+                "maleta perdida",
+                "parada de autobús"
+            ],
+            "correct_answer": "zona gamer"
+        },
+        {
+            "word": "el centro estudiantil",
+            "translation_english": "the student center",
+            "translation_native": "the student center",
+            "pronunciation": "",
+            "examples": [
+                {
+                    "sentence": "Nos reunimos en el centro estudiantil del campus.",
+                    "translation_english": "We gathered at the campus student center.",
+                    "translation_native": "We gathered at the campus student center.",
+                    "sentence_parts": [
+                        "Nos",
+                        "reunimos",
+                        "en",
+                        "el",
+                        "centro",
+                        "estudiantil",
+                        "del",
+                        "campus."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "centro estudiantil",
+                "vuelo internacional",
+                "restaurante elegante",
+                "menú ejecutivo"
+            ],
+            "correct_answer": "centro estudiantil"
+        },
+        {
+            "word": "la comida al paso",
+            "translation_english": "the grab-and-go food",
+            "translation_native": "the grab-and-go food",
+            "pronunciation": "",
+            "examples": [
+                {
+                    "sentence": "Compramos comida al paso para comer en el tren.",
+                    "translation_english": "We bought grab-and-go food to eat on the train.",
+                    "translation_native": "We bought grab-and-go food to eat on the train.",
+                    "sentence_parts": [
+                        "Compramos",
+                        "comida",
+                        "al",
+                        "paso",
+                        "para",
+                        "comer",
+                        "en",
+                        "el",
+                        "tren."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "comida al paso",
+                "ropa de abrigo",
+                "maletas de viaje",
+                "tarjetas digitales"
+            ],
+            "correct_answer": "comida al paso"
+        },
+        {
+            "word": "el hostelero",
+            "translation_english": "the hostel worker / innkeeper",
+            "translation_native": "the hostel worker / innkeeper",
+            "pronunciation": "",
+            "examples": [
+                {
+                    "sentence": "El hostelero joven nos recomendó los mejores bares.",
+                    "translation_english": "The young hostel worker recommended the best bars to us.",
+                    "translation_native": "The young hostel worker recommended the best bars to us.",
+                    "sentence_parts": [
+                        "El",
+                        "hostelero",
+                        "joven",
+                        "nos",
+                        "recomendó",
+                        "los",
+                        "mejores",
+                        "bares."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "hostelero",
+                "menú",
+                "avión",
+                "mapa"
+            ],
+            "correct_answer": "hostelero"
+        },
+        {
+            "word": "la cancha de fútbol",
+            "translation_english": "the soccer field",
+            "translation_native": "the soccer field",
+            "pronunciation": "",
+            "examples": [
+                {
+                    "sentence": "Buscamos una cancha de fútbol cerca del hostal.",
+                    "translation_english": "We looked for a soccer field near the hostel.",
+                    "translation_native": "We looked for a soccer field near the hostel.",
+                    "sentence_parts": [
+                        "Buscamos",
+                        "una",
+                        "cancha",
+                        "de",
+                        "fútbol",
+                        "cerca",
+                        "del",
+                        "hostal."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "cancha de fútbol",
+                "estación de metro",
+                "tarjeta de embarque",
+                "maleta de mano"
+            ],
+            "correct_answer": "cancha de fútbol"
+        },
+        {
+            "word": "el festival de cine",
+            "translation_english": "the film festival",
+            "translation_native": "the film festival",
+            "pronunciation": "",
+            "examples": [
+                {
+                    "sentence": "Compramos entradas para el festival de cine juvenil.",
+                    "translation_english": "We bought tickets for the youth film festival.",
+                    "translation_native": "We bought tickets for the youth film festival.",
+                    "sentence_parts": [
+                        "Compramos",
+                        "entradas",
+                        "para",
+                        "el",
+                        "festival",
+                        "de",
+                        "cine",
+                        "juvenil."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "festival de cine",
+                "vuelo de escala",
+                "menú de degustación",
+                "pase de autobús"
+            ],
+            "correct_answer": "festival de cine"
+        },
+        {
+            "word": "el código de barra",
+            "translation_english": "the barcode",
+            "translation_native": "the barcode",
+            "pronunciation": "",
+            "examples": [
+                {
+                    "sentence": "Escaneé el código de barra de mi entrada escolar.",
+                    "translation_english": "I scanned the barcode of my school ticket.",
+                    "translation_native": "I scanned the barcode of my school ticket.",
+                    "sentence_parts": [
+                        "Escaneé",
+                        "el",
+                        "código",
+                        "de",
+                        "barra",
+                        "de",
+                        "mi",
+                        "entrada",
+                        "escolar."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "código de barra",
+                "folleto turístico",
+                "pasaporte antiguo",
+                "mapa de transporte"
+            ],
+            "correct_answer": "código de barra"
+        },
+        {
+            "word": "el punto wifi",
+            "translation_english": "the Wi-Fi hotspot",
+            "translation_native": "the Wi-Fi hotspot",
+            "pronunciation": "",
+            "examples": [
+                {
+                    "sentence": "Buscamos un punto wifi público para revisar mapas.",
+                    "translation_english": "We looked for a public Wi-Fi hotspot to check maps.",
+                    "translation_native": "We looked for a public Wi-Fi hotspot to check maps.",
+                    "sentence_parts": [
+                        "Buscamos",
+                        "un",
+                        "punto",
+                        "wifi",
+                        "público",
+                        "para",
+                        "revisar",
+                        "mapas."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "punto wifi",
+                "vuelo chárter",
+                "menú diario",
+                "hotel lujoso"
+            ],
+            "correct_answer": "punto wifi"
+        },
+        {
+            "word": "la batería externa",
+            "translation_english": "the power bank / external battery",
+            "translation_native": "the power bank / external battery",
+            "pronunciation": "",
+            "examples": [
+                {
+                    "sentence": "Conecté mi celular a la batería externa tuya.",
+                    "translation_english": "I connected my phone to your external battery.",
+                    "translation_native": "I connected my phone to your external battery.",
+                    "sentence_parts": [
+                        "Conecté",
+                        "mi",
+                        "celular",
+                        "a",
+                        "la",
+                        "batería",
+                        "externa",
+                        "tuya."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "batería externa",
+                "mochila escolar",
+                "comida rápida",
+                "habitación compartida"
+            ],
+            "correct_answer": "batería externa"
+        },
+        {
+            "word": "el descuento escolar",
+            "translation_english": "the school discount",
+            "translation_native": "the school discount",
+            "pronunciation": "",
+            "examples": [
+                {
+                    "sentence": "Aproveché el descuento escolar en el museo tecnológico.",
+                    "translation_english": "I took advantage of the school discount at the tech museum.",
+                    "translation_native": "I took advantage of the school discount at the tech museum.",
+                    "sentence_parts": [
+                        "Aproveché",
+                        "el",
+                        "descuento",
+                        "escolar",
+                        "en",
+                        "el",
+                        "museo",
+                        "tecnológico."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "descuento escolar",
+                "menú de lujo",
+                "vuelo de conexión",
+                "seguro de equipaje"
+            ],
+            "correct_answer": "descuento escolar"
+        },
+        {
+            "word": "la app de transporte",
+            "translation_english": "the transit app",
+            "translation_native": "the transit app",
+            "pronunciation": "",
+            "examples": [
+                {
+                    "sentence": "Instalé la app de transporte para pedir autos.",
+                    "translation_english": "I installed the transit app to order cars.",
+                    "translation_native": "I installed the transit app to order cars.",
+                    "sentence_parts": [
+                        "Instalé",
+                        "la",
+                        "app",
+                        "de",
+                        "transporte",
+                        "para",
+                        "pedir",
+                        "autos."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "app de transporte",
+                "maleta de mano",
+                "guía de museos",
+                "comida callejera"
+            ],
+            "correct_answer": "la app de transporte"
+        },
+        {
+            "word": "el campamento juvenil",
+            "translation_english": "the youth camp",
+            "translation_native": "the youth camp",
+            "pronunciation": "",
+            "examples": [
+                {
+                    "sentence": "Nos inscribimos en el campamento juvenil de verano.",
+                    "translation_english": "We signed up for the youth summer camp.",
+                    "translation_native": "We signed up for the youth summer camp.",
+                    "sentence_parts": [
+                        "Nos",
+                        "inscribimos",
+                        "en",
+                        "el",
+                        "campamento",
+                        "juvenil",
+                        "de",
+                        "verano."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "campamento juvenil",
+                "vuelo internacional",
+                "restaurante gourmet",
+                "menú ejecutivo"
+            ],
+            "correct_answer": "campamento juvenil"
+        },
+        {
+            "word": "el free walking tour",
+            "translation_english": "the free walking tour",
+            "translation_native": "the free walking tour",
+            "pronunciation": "",
+            "examples": [
+                {
+                    "sentence": "Hicimos un free walking tour con estudiantes locales.",
+                    "translation_english": "We did a free walking tour with local students.",
+                    "translation_native": "We did a free walking tour with local students.",
+                    "sentence_parts": [
+                        "Hicimos",
+                        "un",
+                        "free",
+                        "walking",
+                        "tour",
+                        "con",
+                        "estudiantes",
+                        "locales."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "free walking tour",
+                "almuerzo de negocios",
+                "vuelo transatlántico",
+                "seguro médico privado"
+            ],
+            "correct_answer": "free walking tour"
+        },
+        {
+            "word": "el viaje gasolero",
+            "translation_english": "the budget trip / low-cost travel",
+            "translation_native": "the budget trip / low-cost travel",
+            "pronunciation": "",
+            "examples": [
+                {
+                    "sentence": "Planeamos un viaje gasolero durmiendo en hostales baratos.",
+                    "translation_english": "We planned a budget trip sleeping in cheap hostels.",
+                    "translation_native": "We planned a budget trip sleeping in cheap hostels.",
+                    "sentence_parts": [
+                        "Planeamos",
+                        "un",
+                        "viaje",
+                        "gasolero",
+                        "durmiendo",
+                        "en",
+                        "hostales",
+                        "baratos."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "viaje gasolero",
+                "menú de gala",
+                "vuelo de negocios",
+                "itinerario costoso"
+            ],
+            "correct_answer": "viaje gasolero"
+        },
+        {
+            "word": "la playlist de viaje",
+            "translation_english": "the travel playlist",
+            "translation_native": "the travel playlist",
+            "pronunciation": "",
+            "examples": [
+                {
+                    "sentence": "Creamos una playlist de viaje para el trayecto.",
+                    "translation_english": "We created a travel playlist for the journey.",
+                    "translation_native": "We created a travel playlist for the journey.",
+                    "sentence_parts": [
+                        "Creamos",
+                        "una",
+                        "playlist",
+                        "de",
+                        "viaje",
+                        "para",
+                        "el",
+                        "trayecto."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "playlist de viaje",
+                "maleta de mano",
+                "habitación de hotel",
+                "comida rápida"
+            ],
+            "correct_answer": "la playlist de viaje"
+        },
+        {
+            "word": "hacer dedo",
+            "translation_english": "to hitchhike",
+            "translation_native": "to hitchhike",
+            "pronunciation": "",
+            "examples": [
+                {
+                    "sentence": "Decidimos hacer dedo para llegar al campamento mochilero.",
+                    "translation_english": "We decided to hitchhike to reach the backpacker camp.",
+                    "translation_native": "We decided to hitchhike to reach the backpacker camp.",
+                    "sentence_parts": [
+                        "Decidimos",
+                        "hacer",
+                        "dedo",
+                        "para",
+                        "llegar",
+                        "al",
+                        "campamento",
+                        "mochilero."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "hacer dedo",
+                "pagar boleto",
+                "comprar recuerdos",
+                "reservar cuartos"
+            ],
+            "correct_answer": "hacer dedo"
+        },
+        {
+            "word": "la carpa de playa",
+            "translation_english": "the beach tent / canopy",
+            "translation_native": "the beach tent / canopy",
+            "pronunciation": "",
+            "examples": [
+                {
+                    "sentence": "Alquilamos una carpa de playa con mis amigos.",
+                    "translation_english": "We rented a beach tent with my friends.",
+                    "translation_native": "We rented a beach tent with my friends.",
+                    "sentence_parts": [
+                        "Alquilamos",
+                        "una",
+                        "carpa",
+                        "de",
+                        "playa",
+                        "con",
+                        "mis",
+                        "amigos."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "carpa de playa",
+                "tarjeta sim",
+                "mochila pesada",
+                "guía turística"
+            ],
+            "correct_answer": "carpa de playa"
+        },
+        {
+            "word": "la gaseosa",
+            "translation_english": "the soda / soft drink",
+            "translation_native": "the soda / soft drink",
+            "pronunciation": "",
+            "examples": [
+                {
+                    "sentence": "Pedí una gaseosa grande con mi combo escolar.",
+                    "translation_english": "I ordered a large soda with my school combo.",
+                    "translation_native": "I ordered a large soda with my school combo.",
+                    "sentence_parts": [
+                        "Pedí",
+                        "una",
+                        "gaseosa",
+                        "grande",
+                        "con",
+                        "mi",
+                        "combo",
+                        "escolar."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "gaseosa",
+                "maleta",
+                "habitación",
+                "mochila"
+            ],
+            "correct_answer": "gaseosa"
+        },
+        {
+            "word": "el hostelero amable",
+            "translation_english": "the friendly hostel worker",
+            "translation_native": "the friendly hostel worker",
+            "pronunciation": "",
+            "examples": [
+                {
+                    "sentence": "El hostelero amable nos prestó cargadores de celular.",
+                    "translation_english": "The friendly hostel worker lent us cell phone chargers.",
+                    "translation_native": "The friendly hostel worker lent us cell phone chargers.",
+                    "sentence_parts": [
+                        "El",
+                        "hostelero",
+                        "amable",
+                        "nos",
+                        "prestó",
+                        "cargadores",
+                        "de",
+                        "celular."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "hostelero amable",
+                "menú diario",
+                "vuelo regular",
+                "mapa viejo"
+            ],
+            "correct_answer": "hostelero amable"
+        },
+        {
+            "word": "el voluntariado",
+            "translation_english": "the volunteering / volunteer work",
+            "translation_native": "the volunteering / volunteer work",
+            "pronunciation": "",
+            "examples": [
+                {
+                    "sentence": "Hice un voluntariado en el hostal para ahorrar.",
+                    "translation_english": "I did volunteer work at the hostel to save.",
+                    "translation_native": "I did volunteer work at the hostel to save.",
+                    "sentence_parts": [
+                        "Hice",
+                        "un",
+                        "voluntariado",
+                        "en",
+                        "el",
+                        "hostal",
+                        "para",
+                        "ahorrar."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "voluntariado",
+                "vuelo de ida",
+                "almuerzo costoso",
+                "paseo en taxi"
+            ],
+            "correct_answer": "voluntariado"
+        },
+        {
+            "word": "la merienda al paso",
+            "translation_english": "the snack to go",
+            "translation_native": "the snack to go",
+            "pronunciation": "",
+            "examples": [
+                {
+                    "sentence": "Compramos una merienda al paso antes de surfear.",
+                    "translation_english": "We bought a snack to go before surfing.",
+                    "translation_native": "We bought a snack to go before surfing.",
+                    "sentence_parts": [
+                        "Compramos",
+                        "una",
+                        "merienda",
+                        "al",
+                        "paso",
+                        "antes",
+                        "de",
+                        "surfear."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "merienda al paso",
+                "tarjeta de embarque",
+                "maleta de mano",
+                "habitación de hotel"
+            ],
+            "correct_answer": "merienda al paso"
+        },
+        {
+            "word": "la aplicación de citas",
+            "translation_english": "the dating app",
+            "translation_native": "the dating app",
+            "pronunciation": "",
+            "examples": [
+                {
+                    "sentence": "Usé la aplicación de citas para conocer locales.",
+                    "translation_english": "I used the dating app to meet local people.",
+                    "translation_native": "I used the dating app to meet local people.",
+                    "sentence_parts": [
+                        "Usé",
+                        "la",
+                        "aplicación",
+                        "de",
+                        "citas",
+                        "para",
+                        "conocer",
+                        "locales."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "aplicación de citas",
+                "mochila de montaña",
+                "tarjeta de crédito",
+                "guía de museos"
+            ],
+            "correct_answer": "aplicación de citas"
+        },
+        {
+            "word": "la sala de juegos",
+            "translation_english": "the arcade / game room",
+            "translation_native": "the arcade / game room",
+            "pronunciation": "",
+            "examples": [
+                {
+                    "sentence": "Nos divertimos en la sala de juegos del hostal.",
+                    "translation_english": "We had fun in the hostel game room.",
+                    "translation_native": "We had fun in the hostel game room.",
+                    "sentence_parts": [
+                        "Nos",
+                        "divertimos",
+                        "en",
+                        "la",
+                        "sala",
+                        "de",
+                        "juegos",
+                        "del",
+                        "hostal."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "sala de juegos",
+                "pista de aterrizaje",
+                "cocina del restaurante",
+                "oficina de aduanas"
+            ],
+            "correct_answer": "sala de juegos"
+        },
+        {
+            "word": "el boliche",
+            "translation_english": "the nightclub / club",
+            "translation_native": "the nightclub / club",
+            "pronunciation": "",
+            "examples": [
+                {
+                    "sentence": "Fuimos al boliche local para bailar música urbana.",
+                    "translation_english": "We went to the local club to dance urban music.",
+                    "translation_native": "We went to the local club to dance urban music.",
+                    "sentence_parts": [
+                        "Fuimos",
+                        "al",
+                        "boliche",
+                        "local",
+                        "para",
+                        "bailar",
+                        "música",
+                        "urbana."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "boliche",
+                "aeropuerto",
+                "museo",
+                "hotel"
+            ],
+            "correct_answer": "boliche"
+        },
+        {
+            "word": "la fiesta de espuma",
+            "translation_english": "the foam party",
+            "translation_native": "the foam party",
+            "pronunciation": "",
+            "examples": [
+                {
+                    "sentence": "Asistimos a la fiesta de espuma en la playa.",
+                    "translation_english": "We attended the foam party on the beach.",
+                    "translation_native": "We attended the foam party on the beach.",
+                    "sentence_parts": [
+                        "Asistimos",
+                        "a",
+                        "la",
+                        "fiesta",
+                        "de",
+                        "espuma",
+                        "en",
+                        "la",
+                        "playa."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "fiesta de espuma",
+                "escala de vuelo",
+                "reserva de hotel",
+                "clase de historia"
+            ],
+            "correct_answer": "fiesta de espuma"
+        },
+        {
+            "word": "la ropa de playa",
+            "translation_english": "the beachwear",
+            "translation_native": "the beachwear",
+            "pronunciation": "",
+            "examples": [
+                {
+                    "sentence": "Compramos ropa de playa barata en el paseo.",
+                    "translation_english": "We bought cheap beachwear at the boardwalk.",
+                    "translation_native": "We bought cheap beachwear at the boardwalk.",
+                    "sentence_parts": [
+                        "Compramos",
+                        "ropa",
+                        "de",
+                        "playa",
+                        "barata",
+                        "en",
+                        "el",
+                        "paseo."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "ropa de playa",
+                "tecnología avanzada",
+                "comida gourmet",
+                "muebles antiguos"
+            ],
+            "correct_answer": "ropa de playa"
+        },
+        {
+            "word": "el torneo de playstation",
+            "translation_english": "the PlayStation tournament",
+            "translation_native": "the PlayStation tournament",
+            "pronunciation": "",
+            "examples": [
+                {
+                    "sentence": "Organizamos un torneo de playstation en la sala común.",
+                    "translation_english": "We organized a PlayStation tournament in the common room.",
+                    "translation_native": "We organized a PlayStation tournament in the common room.",
+                    "sentence_parts": [
+                        "Organizamos",
+                        "un",
+                        "torneo",
+                        "de",
+                        "playstation",
+                        "en",
+                        "la",
+                        "sala",
+                        "común."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "torneo de playstation",
+                "vuelo de conexión",
+                "almuerzo de negocios",
+                "itinerario de trenes"
+            ],
+            "correct_answer": "torneo de playstation"
+        },
+        {
+            "word": "la zapatilla urbana",
+            "translation_english": "the urban sneaker",
+            "translation_native": "the urban sneaker",
+            "pronunciation": "",
+            "examples": [
+                {
+                    "sentence": "Compré una zapatilla urbana en la feria de diseño.",
+                    "translation_english": "I bought an urban sneaker at the design fair.",
+                    "translation_native": "I bought an urban sneaker at the design fair.",
+                    "sentence_parts": [
+                        "Compré",
+                        "una",
+                        "zapatilla",
+                        "urbana",
+                        "en",
+                        "la",
+                        "feria",
+                        "de",
+                        "diseño."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "zapatilla urbana",
+                "maleta de viaje",
+                "tarjeta sim",
+                "habitación compartida"
+            ],
+            "correct_answer": "zapatilla urbana"
+        },
+        {
+            "word": "el hostelero buena onda",
+            "translation_english": "the cool hostel worker",
+            "translation_native": "the cool hostel worker",
+            "pronunciation": "",
+            "examples": [
+                {
+                    "sentence": "El hostelero buena onda nos llevó a una fiesta.",
+                    "translation_english": "The cool hostel worker took us to a party.",
+                    "translation_native": "The cool hostel worker took us to a party.",
+                    "sentence_parts": [
+                        "El",
+                        "hostelero",
+                        "buena",
+                        "onda",
+                        "nos",
+                        "llevó",
+                        "a",
+                        "una",
+                        "fiesta."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "hostelero buena onda",
+                "menú del día",
+                "avión de línea",
+                "pasaporte digital"
+            ],
+            "correct_answer": "hostelero buena onda"
+        },
+        {
+            "word": "la gorra de visera",
+            "translation_english": "the cap / snapback",
+            "translation_native": "the cap / snapback",
+            "pronunciation": "",
+            "examples": [
+                {
+                    "sentence": "Compré una gorra de visera en la playa.",
+                    "translation_english": "I bought a cap on the beach.",
+                    "translation_native": "I bought a cap on the beach.",
+                    "sentence_parts": [
+                        "Compré",
+                        "una",
+                        "gorra",
+                        "de",
+                        "visera",
+                        "en",
+                        "la",
+                        "playa."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "gorra de visera",
+                "habitación privada",
+                "maleta grande",
+                "tarjeta postal"
+            ],
+            "correct_answer": "gorra de visera"
+        },
+        {
+            "word": "el inflable",
+            "translation_english": "the pool float / inflatable",
+            "translation_native": "the pool float / inflatable",
+            "pronunciation": "",
+            "examples": [
+                {
+                    "sentence": "Compramos un inflable gigante para usar en la piscina.",
+                    "translation_english": "We bought a giant pool float to use in the pool.",
+                    "translation_native": "We bought a giant pool float to use in the pool.",
+                    "sentence_parts": [
+                        "Compramos",
+                        "un",
+                        "inflable",
+                        "gigante",
+                        "para",
+                        "usar",
+                        "en",
+                        "la",
+                        "piscina."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "inflable",
+                "boleto",
+                "restaurante",
+                "itinerario"
+            ],
+            "correct_answer": "inflable"
+        },
+        {
+            "word": "la gorra urbana",
+            "translation_english": "the urban cap",
+            "translation_native": "the urban cap",
+            "pronunciation": "",
+            "examples": [
+                {
+                    "sentence": "Uso mi gorra urbana para taparme del sol.",
+                    "translation_english": "I use my urban cap to cover myself from the sun.",
+                    "translation_native": "I use my urban cap to cover myself from the sun.",
+                    "sentence_parts": [
+                        "Uso",
+                        "mi",
+                        "gorra",
+                        "urbana",
+                        "para",
+                        "taparme",
+                        "del",
+                        "sol."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "gorra urbana",
+                "mochila pesada",
+                "menú impreso",
+                "maleta grande"
+            ],
+            "correct_answer": "gorra urbana"
+        },
+        {
+            "word": "el boliche de moda",
+            "translation_english": "the trendy club",
+            "translation_native": "the trendy club",
+            "pronunciation": "",
+            "examples": [
+                {
+                    "sentence": "Hicimos fila en el boliche de moda del centro.",
+                    "translation_english": "We lined up at the trendy club downtown.",
+                    "translation_native": "We lined up at the trendy club downtown.",
+                    "sentence_parts": [
+                        "Hicimos",
+                        "fila",
+                        "en",
+                        "el",
+                        "boliche",
+                        "de",
+                        "moda",
+                        "del",
+                        "centro."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "boliche de moda",
+                "aeropuerto comercial",
+                "restaurante vegetariano",
+                "vuelo internacional"
+            ],
+            "correct_answer": "boliche de moda"
+        },
+        {
+            "word": "el torneo de surf",
+            "translation_english": "the surf tournament",
+            "translation_native": "the surf tournament",
+            "pronunciation": "",
+            "examples": [
+                {
+                    "sentence": "Viajamos a la costa para ver el torneo de surf.",
+                    "translation_english": "We traveled to the coast to watch the surf tournament.",
+                    "translation_native": "We traveled to the coast to watch the surf tournament.",
+                    "sentence_parts": [
+                        "Viajamos",
+                        "a",
+                        "la",
+                        "costa",
+                        "para",
+                        "ver",
+                        "el",
+                        "torneo",
+                        "de",
+                        "surf."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "torneo de surf",
+                "vuelo de escala",
+                "menú de comida",
+                "hotel mochilero"
+            ],
+            "correct_answer": "torneo de surf"
+        },
+        {
+            "word": "la clase de skate",
+            "translation_english": "the skate class",
+            "translation_native": "the skate class",
+            "pronunciation": "",
+            "examples": [
+                {
+                    "sentence": "Tomé una clase de skate en la pista local.",
+                    "translation_english": "I took a skate class at the local rink.",
+                    "translation_native": "I took a skate class at the local rink.",
+                    "sentence_parts": [
+                        "Tomé",
+                        "una",
+                        "clase",
+                        "de",
+                        "skate",
+                        "en",
+                        "la",
+                        "pista",
+                        "local."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "clase de skate",
+                "tarjeta sim",
+                "maleta de mano",
+                "habitación doble"
+            ],
+            "correct_answer": "clase de skate"
+        },
+        {
+            "word": "el recital",
+            "translation_english": "the concert / gig",
+            "translation_native": "the concert / gig",
+            "pronunciation": "",
+            "examples": [
+                {
+                    "sentence": "Compramos boletos para el recital de trap de mañana.",
+                    "translation_english": "We bought tickets for tomorrow's trap concert.",
+                    "translation_native": "We bought tickets for tomorrow's trap concert.",
+                    "sentence_parts": [
+                        "Compramos",
+                        "boletos",
+                        "para",
+                        "el",
+                        "recital",
+                        "de",
+                        "trap",
+                        "de",
+                        "mañana."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "recital",
+                "avión",
+                "hotel",
+                "menú"
+            ],
+            "correct_answer": "recital"
+        },
+        {
+            "word": "la feria de diseño",
+            "translation_english": "the design fair / indie market",
+            "translation_native": "the design fair / indie market",
+            "pronunciation": "",
+            "examples": [
+                {
+                    "sentence": "Buscamos stickers geniales en la feria de diseño local.",
+                    "translation_english": "We looked for cool stickers at the local design fair.",
+                    "translation_native": "We looked for cool stickers at the local design fair.",
+                    "sentence_parts": [
+                        "Buscamos",
+                        "stickers",
+                        "geniales",
+                        "en",
+                        "la",
+                        "feria",
+                        "de",
+                        "diseño",
+                        "local."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "feria de diseño",
+                "pista de aterrizaje",
+                "parada de autobús",
+                "estación de metro"
+            ],
+            "correct_answer": "feria de diseño"
+        },
+        {
+            "word": "el torneo de básquet",
+            "translation_english": "the basketball tournament",
+            "translation_native": "the basketball tournament",
+            "pronunciation": "",
+            "examples": [
+                {
+                    "sentence": "Fuimos a ver el torneo de básquet del barrio.",
+                    "translation_english": "We went to see the neighborhood basketball tournament.",
+                    "translation_native": "We went to see the neighborhood basketball tournament.",
+                    "sentence_parts": [
+                        "Fuimos",
+                        "a",
+                        "ver",
+                        "el",
+                        "torneo",
+                        "de",
+                        "básquet",
+                        "del",
+                        "barrio."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "torneo de básquet",
+                "vuelo internacional",
+                "restaurante lujoso",
+                "menú ejecutivo"
+            ],
+            "correct_answer": "torneo de básquet"
+        },
+        {
+            "word": "la hamburguesería",
+            "translation_english": "the burger joint",
+            "translation_native": "the burger joint",
+            "pronunciation": "",
+            "examples": [
+                {
+                    "sentence": "Cenamos papas fritas en la hamburguesería de moda.",
+                    "translation_english": "We had French fries at the trendy burger joint.",
+                    "translation_native": "We had French fries at the trendy burger joint.",
+                    "sentence_parts": [
+                        "Cenamos",
+                        "papas",
+                        "fritas",
+                        "en",
+                        "la",
+                        "hamburguesería",
+                        "de",
+                        "moda."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "hamburguesería",
+                "estación de tren",
+                "tarjeta de embarque",
+                "maleta de mano"
+            ],
+            "correct_answer": "hamburguesería"
+        },
+        {
+            "word": "el skatepark público",
+            "translation_english": "the public skatepark",
+            "translation_native": "the public skatepark",
+            "pronunciation": "",
+            "examples": [
+                {
+                    "sentence": "Llevamos las tablas al skatepark público de la ciudad.",
+                    "translation_english": "We took the boards to the city's public skatepark.",
+                    "translation_native": "We took the boards to the city's public skatepark.",
+                    "sentence_parts": [
+                        "Llevamos",
+                        "las",
+                        "tablas",
+                        "al",
+                        "skatepark",
+                        "público",
+                        "de",
+                        "la",
+                        "ciudad."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "skatepark público",
+                "vuelo de escala",
+                "menú de almuerzo",
+                "hotel mochilero"
+            ],
+            "correct_answer": "skatepark público"
+        },
+        {
+            "word": "la entrada general",
+            "translation_english": "the general admission ticket",
+            "translation_native": "the general admission ticket",
+            "pronunciation": "",
+            "examples": [
+                {
+                    "sentence": "Compramos la entrada general porque era la más económica.",
+                    "translation_english": "We bought the general admission ticket because it was the cheapest.",
+                    "translation_native": "We bought the general admission ticket because it was the cheapest.",
+                    "sentence_parts": [
+                        "Compramos",
+                        "la",
+                        "entrada",
+                        "general",
+                        "porque",
+                        "era",
+                        "la",
+                        "más",
+                        "económica."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "entrada general",
+                "mochila pesada",
+                "comida caliente",
+                "maleta grande"
+            ],
+            "correct_answer": "entrada general"
+        },
+        {
+            "word": "la calcomanía",
+            "translation_english": "the sticker / decal",
+            "translation_native": "the sticker / decal",
+            "pronunciation": "",
+            "examples": [
+                {
+                    "sentence": "Compré una calcomanía para pegar en mi patineta.",
+                    "translation_english": "I bought a sticker to stick on my skateboard.",
+                    "translation_native": "I bought a sticker to stick on my skateboard.",
+                    "sentence_parts": [
+                        "Compré",
+                        "una",
+                        "calcomanía",
+                        "para",
+                        "pegar",
+                        "en",
+                        "mi",
+                        "patineta."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "calcomanía",
+                "habitación",
+                "maleta",
+                "tarjeta"
+            ],
+            "correct_answer": "calcomanía"
+        },
+        {
+            "word": "la remera urbana",
+            "translation_english": "the streetwear t-shirt",
+            "translation_native": "the streetwear t-shirt",
+            "pronunciation": "",
+            "examples": [
+                {
+                    "sentence": "Compré una remera urbana de una marca local.",
+                    "translation_english": "I bought a streetwear t-shirt from a local brand.",
+                    "translation_native": "I bought a streetwear t-shirt from a local brand.",
+                    "sentence_parts": [
+                        "Compré",
+                        "una",
+                        "remera",
+                        "urbana",
+                        "de",
+                        "una",
+                        "marca",
+                        "local."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "remera urbana",
+                "maleta de mano",
+                "tarjeta de embarque",
+                "guía de museos"
+            ],
+            "correct_answer": "remera urbana"
+        },
+        {
+            "word": "el festival de rock",
+            "translation_english": "the rock festival",
+            "translation_native": "the rock festival",
+            "pronunciation": "",
+            "examples": [
+                {
+                    "sentence": "Viajamos juntos para acampar en el festival de rock.",
+                    "translation_english": "We traveled together to camp at the rock festival.",
+                    "translation_native": "We traveled together to camp at the rock festival.",
+                    "sentence_parts": [
+                        "Viajamos",
+                        "juntos",
+                        "para",
+                        "acampar",
+                        "en",
+                        "el",
+                        "festival",
+                        "de",
+                        "rock."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "festival de rock",
+                "vuelo internacional",
+                "restaurante lujoso",
+                "menú ejecutivo"
+            ],
+            "correct_answer": "festival de rock"
+        },
+        {
+            "word": "la pizzería al paso",
+            "translation_english": "the grab-and-go pizzeria",
+            "translation_native": "the grab-and-go pizzeria",
+            "pronunciation": "",
+            "examples": [
+                {
+                    "sentence": "Compramos porciones en la pizzería al paso del centro.",
+                    "translation_english": "We bought slices at the grab-and-go pizzeria downtown.",
+                    "translation_native": "We bought slices at the grab-and-go pizzeria downtown.",
+                    "sentence_parts": [
+                        "Compramos",
+                        "porciones",
+                        "en",
+                        "la",
+                        "pizzería",
+                        "al",
+                        "paso",
+                        "del",
+                        "centro."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "pizzería al paso",
+                "estación de subte",
+                "tarjeta de abordar",
+                "oficina de aduanas"
+            ],
+            "correct_answer": "pizzería al paso"
+        },
+        {
+            "word": "la carpa mochilera",
+            "translation_english": "the backpacking tent",
+            "translation_native": "the backpacking tent",
+            "pronunciation": "",
+            "examples": [
+                {
+                    "sentence": "Metí la carpa mochilera liviana dentro de mi bolso.",
+                    "translation_english": "I put the light backpacking tent inside my bag.",
+                    "translation_native": "I put the light backpacking tent inside my bag.",
+                    "sentence_parts": [
+                        "Metí",
+                        "la",
+                        "carpa",
+                        "mochilera",
+                        "liviana",
+                        "dentro",
+                        "de",
+                        "mi",
+                        "bolso."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "carpa mochilera",
+                "tarjeta de embarque",
+                "comida caliente",
+                "guía de turismo"
+            ],
+            "correct_answer": "carpa mochilera"
+        },
+        {
+            "word": "el torneo de videojuegos",
+            "translation_english": "the gaming tournament",
+            "translation_native": "the gaming tournament",
+            "pronunciation": "",
+            "examples": [
+                {
+                    "sentence": "Viajamos a la convención para el torneo de videojuegos.",
+                    "translation_english": "We traveled to the convention for the gaming tournament.",
+                    "translation_native": "We traveled to the convention for the gaming tournament.",
+                    "sentence_parts": [
+                        "Viajamos",
+                        "a",
+                        "la",
+                        "convención",
+                        "para",
+                        "el",
+                        "torneo",
+                        "de",
+                        "videojuegos."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "torneo de videojuegos",
+                "vuelo de conexión",
+                "almuerzo ejecutivo",
+                "itinerario turísticos"
+            ],
+            "correct_answer": "torneo de videojuegos"
+        },
+        {
+            "word": "el audífono bluetooth",
+            "translation_english": "the Bluetooth headphone",
+            "translation_native": "the Bluetooth headphone",
+            "pronunciation": "",
+            "examples": [
+                {
+                    "sentence": "Conecté mi audífono bluetooth para escuchar música urbana.",
+                    "translation_english": "I connected my Bluetooth headphone to listen to urban music.",
+                    "translation_native": "I connected my Bluetooth headphone to listen to urban music.",
+                    "sentence_parts": [
+                        "Conecté",
+                        "mi",
+                        "audífono",
+                        "bluetooth",
+                        "para",
+                        "escuchar",
+                        "música",
+                        "urbana."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "audífono bluetooth",
+                "pase de autobús",
+                "menú de almuerzo",
+                "mapa de rutas"
+            ],
+            "correct_answer": "audífono bluetooth"
+        },
+        {
+            "word": "la tienda de ropa",
+            "translation_english": "the clothing store",
+            "translation_native": "the clothing store",
+            "pronunciation": "",
+            "examples": [
+                {
+                    "sentence": "Buscamos ofertas en una tienda de ropa juvenil.",
+                    "translation_english": "We looked for sales in a youth clothing store.",
+                    "translation_native": "We looked for sales in a youth clothing store.",
+                    "sentence_parts": [
+                        "Buscamos",
+                        "ofertas",
+                        "en",
+                        "una",
+                        "tienda",
+                        "de",
+                        "ropa",
+                        "juvenil."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "tienda de ropa",
+                "estación de metro",
+                "maleta de mano",
+                "habitación de hotel"
+            ],
+            "correct_answer": "tienda de ropa"
+        },
+        {
+            "word": "el buzo urbano",
+            "translation_english": "the streetwear hoodie",
+            "translation_native": "the streetwear hoodie",
+            "pronunciation": "",
+            "examples": [
+                {
+                    "sentence": "Me puse un buzo urbano porque hacía frío.",
+                    "translation_english": "I put on a streetwear hoodie because it was cold.",
+                    "translation_native": "I put on a streetwear hoodie because it was cold.",
+                    "sentence_parts": [
+                        "Me",
+                        "puse",
+                        "un",
+                        "buzo",
+                        "urbano",
+                        "porque",
+                        "hacía",
+                        "frío."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "buzo urbano",
+                "boleto de tren",
+                "menú impreso",
+                "pasaporte viejo"
+            ],
+            "correct_answer": "buzo urbano"
+        },
+        {
+            "word": "el concierto gratuito",
+            "translation_english": "the free concert",
+            "translation_native": "the free concert",
+            "pronunciation": "",
+            "examples": [
+                {
+                    "sentence": "Fuimos a la plaza para ver el concierto gratuito.",
+                    "translation_english": "We went to the square to see the free concert.",
+                    "translation_native": "We went to the square to see the free concert.",
+                    "sentence_parts": [
+                        "Fuimos",
+                        "a",
+                        "la",
+                        "plaza",
+                        "para",
+                        "ver",
+                        "el",
+                        "concierto",
+                        "gratuito."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "concierto gratuito",
+                "vuelo de negocios",
+                "hotel de lujo",
+                "menú ejecutivo"
+            ],
+            "correct_answer": "concierto gratuito"
+        },
+        {
+            "word": "la aplicación de streaming",
+            "translation_english": "the streaming app",
+            "translation_native": "the streaming app",
+            "pronunciation": "",
+            "examples": [
+                {
+                    "sentence": "Usé la aplicación de streaming durante el vuelo largo.",
+                    "translation_english": "I used the streaming app during the long flight.",
+                    "translation_native": "I used the streaming app during the long flight.",
+                    "sentence_parts": [
+                        "Usé",
+                        "la",
+                        "aplicación",
+                        "de",
+                        "streaming",
+                        "durante",
+                        "el",
+                        "vuelo",
+                        "largo."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "aplicación de streaming",
+                "maleta de equipaje",
+                "habitación compartida",
+                "guía de restaurantes"
+            ],
+            "correct_answer": "aplicación de streaming"
+        },
+        {
+            "word": "el short de baño",
+            "translation_english": "the swim trunks",
+            "translation_native": "the swim trunks",
+            "pronunciation": "",
+            "examples": [
+                {
+                    "sentence": "Compré un short de baño nuevo para ir a surfear.",
+                    "translation_english": "I bought new swim trunks to go surfing.",
+                    "translation_native": "I bought new swim trunks to go surfing.",
+                    "sentence_parts": [
+                        "Compré",
+                        "un",
+                        "short",
+                        "de",
+                        "baño",
+                        "nuevo",
+                        "para",
+                        "ir",
+                        "a",
+                        "surfear."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "short de baño",
+                "boleto de tren",
+                "menú del día",
+                "mapa turístico"
+            ],
+            "correct_answer": "short de baño"
+        },
+        {
+            "word": "el torneo escolar",
+            "translation_english": "the school tournament",
+            "translation_native": "the school tournament",
+            "pronunciation": "",
+            "examples": [
+                {
+                    "sentence": "Viajamos con el equipo para jugar el torneo escolar.",
+                    "translation_english": "We traveled with the team to play the school tournament.",
+                    "translation_native": "We traveled with the team to play the school tournament.",
+                    "sentence_parts": [
+                        "Viajamos",
+                        "con",
+                        "el",
+                        "equipo",
+                        "para",
+                        "jugar",
+                        "el",
+                        "torneo",
+                        "escolar."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "torneo escolar",
+                "vuelo comercial",
+                "hotel lujoso",
+                "menú de degustación"
+            ],
+            "correct_answer": "torneo escolar"
+        },
+        {
+            "word": "la tienda de skate",
+            "translation_english": "the skateshop",
+            "translation_native": "the skateshop",
+            "pronunciation": "",
+            "examples": [
+                {
+                    "sentence": "Compré ruedas nuevas en la tienda de skate céntrica.",
+                    "translation_english": "I bought new wheels at the downtown skateshop.",
+                    "translation_native": "I bought new wheels at the downtown skateshop.",
+                    "sentence_parts": [
+                        "Compré",
+                        "ruedas",
+                        "nuevas",
+                        "en",
+                        "la",
+                        "tienda",
+                        "de",
+                        "skate",
+                        "céntrica."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "tienda de skate",
+                "parada de metro",
+                "maleta de viaje",
+                "tarjeta de abordar"
+            ],
+            "correct_answer": "tienda de skate"
+        },
+        {
+            "word": "la bebida energética",
+            "translation_english": "the energy drink",
+            "translation_native": "the energy drink",
+            "pronunciation": "",
+            "examples": [
+                {
+                    "sentence": "Compré una bebida energética para aguantar todo el concierto.",
+                    "translation_english": "I bought an energy drink to make it through the whole concert.",
+                    "translation_native": "I bought an energy drink to make it through the whole concert.",
+                    "sentence_parts": [
+                        "Comprá",
+                        "una",
+                        "bebida",
+                        "energética",
+                        "para",
+                        "aguantar",
+                        "todo",
+                        "el",
+                        "concierto."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "bebida energética",
+                "mochila pesada",
+                "habitación doble",
+                "tarjeta de crédito"
+            ],
+            "correct_answer": "bebida energética"
+        },
+        {
+            "word": "el concierto nocturno",
+            "translation_english": "the night concert",
+            "translation_native": "the night concert",
+            "pronunciation": "",
+            "examples": [
+                {
+                    "sentence": "Compramos entradas para el concierto nocturno en la playa.",
+                    "translation_english": "We bought tickets for the night concert on the beach.",
+                    "translation_native": "We bought tickets for the night concert on the beach.",
+                    "sentence_parts": [
+                        "Compramos",
+                        "entradas",
+                        "para",
+                        "el",
+                        "concierto",
+                        "nocturno",
+                        "en",
+                        "la",
+                        "playa."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "concierto nocturno",
+                "vuelo regular",
+                "menú de mediodía",
+                "hotel de negocios"
+            ],
+            "correct_answer": "concierto nocturno"
+        },
+        {
+            "word": "la aplicación de música",
+            "translation_english": "the music app",
+            "translation_native": "the music app",
+            "pronunciation": "",
+            "examples": [
+                {
+                    "sentence": "Abrí la aplicación de música para reproducir mis canciones.",
+                    "translation_english": "I opened the music app to play my songs.",
+                    "translation_native": "I opened the music app to play my songs.",
+                    "sentence_parts": [
+                        "Abrí",
+                        "la",
+                        "aplicación",
+                        "de",
+                        "música",
+                        "para",
+                        "reproducir",
+                        "mis",
+                        "canciones."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "aplicación de música",
+                "maleta de mano",
+                "habitación de hostal",
+                "guía de museos"
+            ],
+            "correct_answer": "aplicación de música"
+        },
+        {
+            "word": "el torneo deportivo",
+            "translation_english": "the sports tournament",
+            "translation_native": "the sports tournament",
+            "pronunciation": "",
+            "examples": [
+                {
+                    "sentence": "Viajamos en bus para competir en el torneo deportivo.",
+                    "translation_english": "We traveled by bus to compete in the sports tournament.",
+                    "translation_native": "We traveled by bus to compete in the sports tournament.",
+                    "sentence_parts": [
+                        "Viajamos",
+                        "en",
+                        "bus",
+                        "para",
+                        "competir",
+                        "en",
+                        "el",
+                        "torneo",
+                        "deportivo."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "torneo deportivo",
+                "vuelo internacional",
+                "menú del día",
+                "hotel céntrico"
+            ],
+            "correct_answer": "torneo deportivo"
+        },
+        {
+            "word": "el gorro urbano",
+            "translation_english": "the streetwear beanie / hat",
+            "translation_native": "the streetwear beanie / hat",
+            "pronunciation": "",
+            "examples": [
+                {
+                    "sentence": "Me compré un gorro urbano negro en la tienda.",
+                    "translation_english": "I bought myself a black streetwear hat at the store.",
+                    "translation_native": "I bought myself a black streetwear hat at the store.",
+                    "sentence_parts": [
+                        "Me",
+                        "compré",
+                        "un",
+                        "gorro",
+                        "urbano",
+                        "negro",
+                        "en",
+                        "la",
+                        "tienda."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "gorro urbano",
+                "boleto físico",
+                "menú turístico",
+                "pasaporte digital"
+            ],
+            "correct_answer": "gorro urbano"
+        },
+        {
+            "word": "el festival juvenil",
+            "translation_english": "the youth festival",
+            "translation_native": "the youth festival",
+            "pronunciation": "",
+            "examples": [
+                {
+                    "sentence": "Fuimos al festival juvenil para escuchar bandas de trap.",
+                    "translation_english": "We went to the youth festival to listen to trap bands.",
+                    "translation_native": "We went to the youth festival to listen to trap bands.",
+                    "sentence_parts": [
+                        "Fuimos",
+                        "al",
+                        "festival",
+                        "juvenil",
+                        "para",
+                        "escuchar",
+                        "bandas",
+                        "de",
+                        "trap."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "festival juvenil",
+                "vuelo chárter",
+                "hotel ejecutivo",
+                "menú gourmet"
+            ],
+            "correct_answer": "festival juvenil"
+        },
+        {
+            "word": "la gorra de lana",
+            "translation_english": "the beanie / winter hat",
+            "translation_native": "the beanie / winter hat",
+            "pronunciation": "",
+            "examples": [
+                {
+                    "sentence": "Compré una gorra de lana porque nevaba mucho.",
+                    "translation_english": "I bought a beanie because it was snowing a lot.",
+                    "translation_native": "I bought a beanie because it was snowing a lot.",
+                    "sentence_parts": [
+                        "Compré",
+                        "una",
+                        "gorra",
+                        "de",
+                        "lana",
+                        "porque",
+                        "nevaba",
+                        "mucho."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "gorra de lana",
+                "maleta de mano",
+                "tarjeta sim",
+                "habitación doble"
+            ],
+            "correct_answer": "gorra de lana"
+        }
+    ]
+}

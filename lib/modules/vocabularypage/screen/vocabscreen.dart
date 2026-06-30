@@ -82,8 +82,8 @@ class VocabScreen extends StatelessWidget {
         mainAxisAlignment: MainAxisAlignment.spaceEvenly,
         crossAxisAlignment: CrossAxisAlignment.stretch,
         children: [
-          Flexible(
-            flex: 1,
+          SizedBox(height: 20.h),
+          SafeArea(
             child: Row(
               mainAxisAlignment: MainAxisAlignment.start,
               children: [
@@ -115,10 +115,11 @@ class VocabScreen extends StatelessWidget {
             ),
           ),
 
-          Flexible(
-            flex: 3,
-            child: Padding(
-              padding: EdgeInsets.symmetric(vertical: 10.r, horizontal: 18.r),
+          Spacer(),
+
+          Padding(
+            padding: EdgeInsets.symmetric(horizontal: 10.r),
+            child: IntrinsicHeight(
               child:
                   CustomPaint(
                     painter: TicketPainter(
@@ -127,350 +128,369 @@ class VocabScreen extends StatelessWidget {
                       ),
                       glowColor: context.theme.colorScheme.primary,
                     ),
-                    child: Center(
+                    child: Padding(
+                      padding: EdgeInsets.all(20.0),
                       child: GestureDetector(
                         behavior: HitTestBehavior.opaque,
                         onTap: provider.toggleMeaning,
-                        child: Column(
-                          mainAxisAlignment: MainAxisAlignment.center,
-                          crossAxisAlignment: CrossAxisAlignment.center,
-                          children: [
-                            if (word.partOfSpeech.isNotEmpty) ...[
-                              Container(
-                                padding: EdgeInsets.symmetric(
-                                  horizontal: 12.w,
-                                  vertical: 4.h,
-                                ),
-                                decoration: BoxDecoration(
-                                  color: context.theme.colorScheme.primary
-                                      .withValues(alpha: 0.1),
-                                  borderRadius: BorderRadius.circular(12.r),
-                                ),
-                                child: Text(
-                                  word.partOfSpeech.toUpperCase(),
-                                  style: context.text.labelSmall?.copyWith(
-                                    color: context.theme.colorScheme.primary,
-                                    fontWeight: FontWeight.bold,
-                                    letterSpacing: 1.2,
+                        child: Padding(
+                          padding: EdgeInsets.symmetric(vertical: 10.0),
+                          child: Column(
+                            mainAxisSize: MainAxisSize.min,
+                            crossAxisAlignment: CrossAxisAlignment.center,
+                            children: [
+                              if (word.partOfSpeech.isNotEmpty) ...[
+                                Container(
+                                  padding: EdgeInsets.symmetric(
+                                    horizontal: 12.w,
+                                    vertical: 4.h,
                                   ),
-                                ),
-                              ).fadeInScale,
-                              SizedBox(height: 10.h),
-                            ],
-
-                            Selector<VocabProvider, String?>(
-                              selector: (_, provider) => provider.speakingKey,
-                              builder: (context, speakingkey, child) {
-                                return GestureDetector(
-                                  onTap: () {
-                                    provider.speak(
-                                      speaker: speaker,
-                                      text: word.word,
-                                      language: language,
-                                      type: "word",
-                                    );
-                                  },
-                                  child: AppContainer(
-                                    backgroundColor: context
-                                        .theme
-                                        .colorScheme
-                                        .primary
-                                        .withValues(alpha: 0.15),
-                                    height: 64.h,
-                                    width: 64.w,
-                                    borderRadius: 32.r,
-                                    widget: AnimatedSwitcher(
-                                      duration: const Duration(
-                                        milliseconds: 200,
-                                      ),
-                                      child: speakingkey == keyWord
-                                          ? Center(
-                                              key: ValueKey("loading_$keyWord"),
-                                              child: SizedBox(
-                                                width: 24.w,
-                                                height: 24.h,
-                                                child:
-                                                    CircularProgressIndicator(
-                                                      strokeWidth: 2.w,
-                                                    ),
-                                              ),
-                                            )
-                                          : Padding(
-                                              key: ValueKey("icon_$keyWord"),
-                                              padding: EdgeInsets.all(15.r),
-                                              child: SvgPicture.asset(
-                                                'assets/icon/svg/speaker.svg',
-                                              ),
-                                            ),
+                                  decoration: BoxDecoration(
+                                    color: context.theme.colorScheme.primary
+                                        .withValues(alpha: 0.1),
+                                    borderRadius: BorderRadius.circular(12.r),
+                                  ),
+                                  child: Text(
+                                    word.partOfSpeech.toUpperCase(),
+                                    style: context.text.labelSmall?.copyWith(
+                                      color: context.theme.colorScheme.primary,
+                                      fontWeight: FontWeight.bold,
+                                      letterSpacing: 1.2,
                                     ),
-                                  ).shimmerLoading(context),
-                                );
-                              },
-                            ),
-                            SizedBox(height: 8.h),
-                            Text(
-                              word.word,
-                              style: TextStyle(
-                                fontSize: 38.sp,
-                                fontWeight: FontWeight.bold,
-                              ),
-                              textAlign: TextAlign.center,
-                            ).fadeInSlideUp,
+                                  ),
+                                ).fadeInScale,
+                                SizedBox(height: 10.h),
+                              ],
 
-                            if (word.pronunciation.isNotEmpty) ...[
-                              SizedBox(height: 4.h),
+                              Selector<VocabProvider, String?>(
+                                selector: (_, provider) => provider.speakingKey,
+                                builder: (context, speakingkey, child) {
+                                  return GestureDetector(
+                                    onTap: () {
+                                      provider.speak(
+                                        speaker: speaker,
+                                        text: word.word,
+                                        language: language,
+                                        type: "word",
+                                      );
+                                    },
+                                    child: AppContainer(
+                                      backgroundColor: context
+                                          .theme
+                                          .colorScheme
+                                          .primary
+                                          .withValues(alpha: 0.15),
+                                      height: 64.h,
+                                      width: 64.w,
+                                      borderRadius: 32.r,
+                                      widget: AnimatedSwitcher(
+                                        duration: const Duration(
+                                          milliseconds: 200,
+                                        ),
+                                        child: speakingkey == keyWord
+                                            ? Center(
+                                                key: ValueKey(
+                                                  "loading_$keyWord",
+                                                ),
+                                                child: SizedBox(
+                                                  width: 24.w,
+                                                  height: 24.h,
+                                                  child:
+                                                      CircularProgressIndicator(
+                                                        strokeWidth: 2.w,
+                                                      ),
+                                                ),
+                                              )
+                                            : Padding(
+                                                key: ValueKey("icon_$keyWord"),
+                                                padding: EdgeInsets.all(15.r),
+                                                child: SvgPicture.asset(
+                                                  'assets/icon/svg/speaker.svg',
+                                                ),
+                                              ),
+                                      ),
+                                    ).shimmerLoading(context),
+                                  );
+                                },
+                              ),
+                              SizedBox(height: 8.h),
                               Text(
-                                "[${word.pronunciation}]",
-                                style: context.text.bodyLarge?.copyWith(
-                                  color: context.theme.colorScheme.outline,
-                                  fontStyle: FontStyle.italic,
+                                word.word,
+                                style: TextStyle(
+                                  fontSize: 38.sp,
+                                  fontWeight: FontWeight.bold,
                                 ),
                                 textAlign: TextAlign.center,
+                                maxLines: 2,
+                                overflow: TextOverflow.ellipsis,
                               ).fadeInSlideUp,
-                            ],
-                            SizedBox(height: 15.h),
 
-                            AnimatedSwitcher(
-                              duration: const Duration(milliseconds: 300),
-                              transitionBuilder: (child, animation) {
-                                return FadeTransition(
-                                  opacity: animation,
-                                  child: SizeTransition(
-                                    sizeFactor: animation,
-                                    child: child,
+                              if (word.pronunciation.isNotEmpty) ...[
+                                SizedBox(height: 4.h),
+                                Text(
+                                  "[${word.pronunciation}]",
+                                  style: context.text.bodyLarge?.copyWith(
+                                    color: context.theme.colorScheme.outline,
+                                    fontStyle: FontStyle.italic,
                                   ),
-                                );
-                              },
-                              child: provider.showMeaning
-                                  ? Container(
-                                      key: const ValueKey("meaning_revealed"),
-                                      width: double.infinity,
-                                      padding: EdgeInsets.symmetric(
-                                        horizontal: 20.r,
-                                        vertical: 10.r,
-                                      ),
-                                      child: Column(
-                                        mainAxisAlignment:
-                                            MainAxisAlignment.center,
-                                        crossAxisAlignment:
-                                            CrossAxisAlignment.center,
-                                        children: [
-                                          Text(
-                                            word.translationNative,
-                                            style: Theme.of(context)
-                                                .textTheme
-                                                .headlineSmall
-                                                ?.copyWith(
-                                                  fontWeight: FontWeight.bold,
-                                                ),
-                                            textAlign: TextAlign.center,
-                                          ).fadeInSlideUp,
-                                          SizedBox(height: 15.h),
-                                          AppContainer(
-                                            padding: EdgeInsets.all(16.r),
-                                            borderColor: context
-                                                .theme
-                                                .colorScheme
-                                                .outline
-                                                .withValues(alpha: 0.15),
-                                            backgroundColor: context
-                                                .theme
-                                                .colorScheme
-                                                .surface
-                                                .withValues(alpha: 0.5),
-                                            widget: Column(
-                                              crossAxisAlignment:
-                                                  CrossAxisAlignment.stretch,
-                                              children: [
-                                                Row(
-                                                  mainAxisAlignment:
-                                                      MainAxisAlignment
-                                                          .spaceBetween,
-                                                  children: [
-                                                    Text(
-                                                      context.l10n.example
-                                                          .toUpperCase(),
-                                                      style: context
-                                                          .text
-                                                          .labelSmall
-                                                          ?.copyWith(
-                                                            color: context
-                                                                .theme
-                                                                .colorScheme
-                                                                .outline,
-                                                            fontWeight:
-                                                                FontWeight.bold,
-                                                            letterSpacing: 1.1,
-                                                          ),
-                                                    ),
-                                                    GestureDetector(
-                                                      onTap: () {
-                                                        provider.speak(
-                                                          speaker: speaker,
-                                                          text:
-                                                              word
-                                                                  .exampleForRep(
-                                                                    word.srsRepetitions,
-                                                                  )
-                                                                  ?.sentence ??
-                                                              word.example,
-                                                          language: language,
-                                                          type: "example",
-                                                        );
-                                                      },
-                                                      child: Selector<VocabProvider, String?>(
-                                                        selector:
-                                                            (
-                                                              _,
-                                                              provider,
-                                                            ) => provider
-                                                                .speakingKey,
-                                                        builder:
-                                                            (
-                                                              context,
-                                                              speakingkey,
-                                                              child,
-                                                            ) {
-                                                              return AppContainer(
-                                                                backgroundColor: context
-                                                                    .theme
-                                                                    .colorScheme
-                                                                    .primary
-                                                                    .withValues(
-                                                                      alpha:
-                                                                          0.15,
-                                                                    ),
-                                                                height: 36.h,
-                                                                width: 36.w,
-                                                                borderRadius:
-                                                                    18.r,
-                                                                borderColor: Colors
-                                                                    .transparent,
-                                                                widget: AnimatedSwitcher(
-                                                                  duration:
-                                                                      const Duration(
-                                                                        milliseconds:
-                                                                            150,
+                                  textAlign: TextAlign.center,
+                                ).fadeInSlideUp,
+                              ],
+                              SizedBox(height: 15.h),
+
+                              AnimatedSwitcher(
+                                duration: Duration(milliseconds: 250),
+                                transitionBuilder: (child, animation) {
+                                  return FadeTransition(
+                                    opacity: animation,
+                                    child: SizeTransition(
+                                      sizeFactor: animation,
+                                      child: child,
+                                    ),
+                                  );
+                                },
+                                child: provider.showMeaning
+                                    ? Container(
+                                        key: const ValueKey("meaning_revealed"),
+                                        padding: EdgeInsets.symmetric(
+                                          // horizontal: 20.r,
+                                          vertical: 10.r,
+                                        ),
+                                        child: Column(
+                                          // mainAxisSize: MainAxisSize.min,
+                                          crossAxisAlignment:
+                                              CrossAxisAlignment.center,
+                                          children: [
+                                            Text(
+                                              word.translationNative,
+                                              style: Theme.of(context)
+                                                  .textTheme
+                                                  .headlineSmall
+                                                  ?.copyWith(
+                                                    fontWeight: FontWeight.bold,
+                                                  ),
+                                              textAlign: TextAlign.center,
+                                              maxLines: 2,
+                                              overflow: TextOverflow.ellipsis,
+                                            ).fadeInSlideUp,
+                                            SizedBox(height: 4.h),
+                                            AppContainer(
+                                              padding: EdgeInsets.all(16.r),
+                                              borderColor: context
+                                                  .theme
+                                                  .colorScheme
+                                                  .outline
+                                                  .withValues(alpha: 0.15),
+                                              backgroundColor: context
+                                                  .theme
+                                                  .colorScheme
+                                                  .surface
+                                                  .withValues(alpha: 0.5),
+                                              widget: Column(
+                                                crossAxisAlignment:
+                                                    CrossAxisAlignment.stretch,
+                                                children: [
+                                                  Row(
+                                                    mainAxisAlignment:
+                                                        MainAxisAlignment
+                                                            .spaceBetween,
+                                                    children: [
+                                                      Text(
+                                                        context.l10n.example
+                                                            .toUpperCase(),
+                                                        style: context
+                                                            .text
+                                                            .labelSmall
+                                                            ?.copyWith(
+                                                              color: context
+                                                                  .theme
+                                                                  .colorScheme
+                                                                  .outline,
+                                                              fontWeight:
+                                                                  FontWeight
+                                                                      .bold,
+                                                              letterSpacing:
+                                                                  1.1,
+                                                            ),
+                                                      ),
+                                                      GestureDetector(
+                                                        onTap: () {
+                                                          provider.speak(
+                                                            speaker: speaker,
+                                                            text:
+                                                                word
+                                                                    .exampleForRep(
+                                                                      word.srsRepetitions,
+                                                                    )
+                                                                    ?.sentence ??
+                                                                word.example,
+                                                            language: language,
+                                                            type: "example",
+                                                          );
+                                                        },
+                                                        child: Selector<VocabProvider, String?>(
+                                                          selector:
+                                                              (
+                                                                _,
+                                                                provider,
+                                                              ) => provider
+                                                                  .speakingKey,
+                                                          builder:
+                                                              (
+                                                                context,
+                                                                speakingkey,
+                                                                child,
+                                                              ) {
+                                                                return AppContainer(
+                                                                  backgroundColor: context
+                                                                      .theme
+                                                                      .colorScheme
+                                                                      .primary
+                                                                      .withValues(
+                                                                        alpha:
+                                                                            0.15,
                                                                       ),
-                                                                  child:
-                                                                      speakingkey ==
-                                                                          keyExample
-                                                                      ? Center(
-                                                                          key: ValueKey(
-                                                                            "loading_ex_$keyExample",
-                                                                          ),
-                                                                          child: SizedBox(
-                                                                            width:
-                                                                                14.w,
-                                                                            height:
-                                                                                14.h,
-                                                                            child: CircularProgressIndicator(
-                                                                              strokeWidth: 1.5.w,
+                                                                  height: 36.h,
+                                                                  width: 36.w,
+                                                                  borderRadius:
+                                                                      18.r,
+                                                                  borderColor:
+                                                                      Colors
+                                                                          .transparent,
+                                                                  widget: AnimatedSwitcher(
+                                                                    duration: const Duration(
+                                                                      milliseconds:
+                                                                          150,
+                                                                    ),
+                                                                    child:
+                                                                        speakingkey ==
+                                                                            keyExample
+                                                                        ? Center(
+                                                                            key: ValueKey(
+                                                                              "loading_ex_$keyExample",
+                                                                            ),
+                                                                            child: SizedBox(
+                                                                              width: 14.w,
+                                                                              height: 14.h,
+                                                                              child: CircularProgressIndicator(
+                                                                                strokeWidth: 1.5.w,
+                                                                              ),
+                                                                            ),
+                                                                          )
+                                                                        : Padding(
+                                                                            key: ValueKey(
+                                                                              "icon_ex_$keyExample",
+                                                                            ),
+                                                                            padding: EdgeInsets.all(
+                                                                              8.r,
+                                                                            ),
+                                                                            child: SvgPicture.asset(
+                                                                              'assets/icon/svg/speaker.svg',
                                                                             ),
                                                                           ),
-                                                                        )
-                                                                      : Padding(
-                                                                          key: ValueKey(
-                                                                            "icon_ex_$keyExample",
-                                                                          ),
-                                                                          padding: EdgeInsets.all(
-                                                                            8.r,
-                                                                          ),
-                                                                          child: SvgPicture.asset(
-                                                                            'assets/icon/svg/speaker.svg',
-                                                                          ),
-                                                                        ),
-                                                                ),
-                                                              );
-                                                            },
+                                                                  ),
+                                                                );
+                                                              },
+                                                        ),
                                                       ),
+                                                    ],
+                                                  ),
+                                                  SizedBox(height: 8.h),
+                                                  Directionality(
+                                                    textDirection: context
+                                                        .read<OnboardProvider>()
+                                                        .learningTextDirection,
+                                                    child: Text(
+                                                      word
+                                                              .exampleForRep(
+                                                                word.srsRepetitions,
+                                                              )
+                                                              ?.sentence ??
+                                                          word.example,
+                                                      style: context
+                                                          .text
+                                                          .titleMedium
+                                                          ?.copyWith(
+                                                            fontWeight:
+                                                                FontWeight.w600,
+                                                          ),
+                                                      textAlign:
+                                                          TextAlign.center,
                                                     ),
-                                                  ],
-                                                ),
-                                                SizedBox(height: 8.h),
-                                                Directionality(
-                                                  textDirection: context
-                                                      .read<OnboardProvider>()
-                                                      .learningTextDirection,
-                                                  child: Text(
+                                                  ),
+                                                  Padding(
+                                                    padding:
+                                                        EdgeInsets.symmetric(
+                                                          vertical: 8.h,
+                                                        ),
+                                                    child: Divider(
+                                                      color: context
+                                                          .theme
+                                                          .colorScheme
+                                                          .outline
+                                                          .withValues(
+                                                            alpha: 0.1,
+                                                          ),
+                                                      thickness: 1,
+                                                    ),
+                                                  ),
+                                                  Text(
                                                     word
                                                             .exampleForRep(
                                                               word.srsRepetitions,
                                                             )
-                                                            ?.sentence ??
-                                                        word.example,
+                                                            ?.translationNative ??
+                                                        word.exampleTranslation,
                                                     style: context
                                                         .text
-                                                        .titleMedium
+                                                        .bodyMedium
                                                         ?.copyWith(
-                                                          fontWeight:
-                                                              FontWeight.w600,
+                                                          color: context
+                                                              .theme
+                                                              .colorScheme
+                                                              .onSurfaceVariant,
                                                         ),
                                                     textAlign: TextAlign.center,
                                                   ),
-                                                ),
-                                                Padding(
-                                                  padding: EdgeInsets.symmetric(
-                                                    vertical: 8.h,
-                                                  ),
-                                                  child: Divider(
-                                                    color: context
-                                                        .theme
-                                                        .colorScheme
-                                                        .outline
-                                                        .withValues(alpha: 0.1),
-                                                    thickness: 1,
-                                                  ),
-                                                ),
-                                                Text(
-                                                  word
-                                                          .exampleForRep(
-                                                            word.srsRepetitions,
-                                                          )
-                                                          ?.translationNative ??
-                                                      word.exampleTranslation,
-                                                  style: context.text.bodyMedium
-                                                      ?.copyWith(
-                                                        color: context
-                                                            .theme
-                                                            .colorScheme
-                                                            .onSurfaceVariant,
-                                                      ),
-                                                  textAlign: TextAlign.center,
-                                                ),
-                                              ],
-                                            ),
-                                          ).fadeInSlideUp,
-                                        ],
-                                      ),
-                                    )
-                                  : Container(
-                                      key: const ValueKey("tap_to_reveal"),
-                                      width: double.infinity,
-                                      padding: EdgeInsets.symmetric(
-                                        horizontal: 20.r,
-                                        vertical: 20.r,
-                                      ),
-                                      child: Column(
-                                        mainAxisAlignment:
-                                            MainAxisAlignment.center,
-                                        crossAxisAlignment:
-                                            CrossAxisAlignment.center,
-                                        children: [
-                                          Lottie.asset(
-                                            height: 70,
-                                            'assets/lottie/tap1.json',
+                                                ],
+                                              ),
+                                            ).fadeInSlideUp,
+                                          ],
+                                        ),
+                                      )
+                                    : Padding(
+                                        padding: const EdgeInsets.symmetric(
+                                          vertical: 24.0,
+                                        ),
+                                        child: SizedBox(
+                                          key: const ValueKey("tap_to_reveal"),
+                                          width: double.infinity,
+                                          // padding: EdgeInsets.symmetric(
+                                          //   horizontal: 20.r,
+                                          //   vertical: 20.r,
+                                          // ),
+                                          child: Column(
+                                            mainAxisAlignment:
+                                                MainAxisAlignment.center,
+                                            crossAxisAlignment:
+                                                CrossAxisAlignment.center,
+                                            children: [
+                                              Lottie.asset(
+                                                height: 70,
+                                                'assets/lottie/tap1.json',
+                                              ),
+                                              Text(
+                                                context.l10n.tapToRevealMeaning,
+                                                style: context.text.bodyMedium,
+                                                textAlign: TextAlign.center,
+                                              ),
+                                            ],
                                           ),
-                                          Text(
-                                            context.l10n.tapToRevealMeaning,
-                                            style: context.text.bodyMedium,
-                                            textAlign: TextAlign.center,
-                                          ),
-                                        ],
+                                        ),
                                       ),
-                                    ),
-                            ),
-                          ],
+                              ),
+                            ],
+                          ),
                         ),
                       ),
                     ),
@@ -481,78 +501,58 @@ class VocabScreen extends StatelessWidget {
             ),
           ),
 
-          Flexible(
-            flex: 2,
-            child: Padding(
-              padding: EdgeInsets.symmetric(horizontal: 18.r),
-              child: Row(
-                mainAxisAlignment: MainAxisAlignment.center,
-                crossAxisAlignment: CrossAxisAlignment.center,
-                children: [
-                  Expanded(
-                    child: AppButton(
-                      buttonColor: isFirstWord
-                          ? context.theme.colorScheme.outline
-                          : null,
-                      borderColor: isFirstWord
-                          ? context.theme.colorScheme.outline
-                          : null,
-                      backgroundColor: context.theme.colorScheme.surface,
+          Spacer(),
+          Padding(
+            padding: EdgeInsets.symmetric(horizontal: 18.r, vertical: 30.r),
+            child: Row(
+              mainAxisAlignment: MainAxisAlignment.center,
+              crossAxisAlignment: CrossAxisAlignment.center,
+              children: [
+                Expanded(
+                  child: AppButton(
+                    buttonColor: isFirstWord
+                        ? context.theme.colorScheme.outline
+                        : null,
+                    borderColor: isFirstWord
+                        ? context.theme.colorScheme.outline
+                        : null,
+                    backgroundColor: context.theme.colorScheme.surface,
 
-                      buttonFunc: () {
-                        if (isFirstWord) {
-                          log("First word, cannot go back");
-                          null;
-                        } else {
-                          provider.previousWord(speaker);
-                        }
-                      },
-                      childWidget: Text(
-                        context.l10n.previousWord,
-                        style: context.text.labelMedium?.copyWith(
-                          color: isFirstWord
-                              ? context.theme.colorScheme.outline
-                              : context.theme.primaryColor,
-                        ),
+                    buttonFunc: () {
+                      if (isFirstWord) {
+                        log("First word, cannot go back");
+                        null;
+                      } else {
+                        provider.previousWord(speaker);
+                      }
+                    },
+                    childWidget: Text(
+                      context.l10n.previousWord,
+                      style: context.text.labelMedium?.copyWith(
+                        color: isFirstWord
+                            ? context.theme.colorScheme.outline
+                            : context.theme.primaryColor,
                       ),
-                    ).fadeInScaleDelayed(300),
-                  ),
-                  SizedBox(width: 10.w),
-                  Expanded(
-                    child: AppButton(
-                      buttonFunc: () {
-                        provider.nextWord(speaker, context);
-                      },
-                      childWidget: Text(
-                        isLastWord
-                            ? context.l10n.finish
-                            : context.l10n.nextWord,
-                        style: context.text.labelMedium,
-                      ),
-                    ).fadeInScaleDelayed(300),
-                  ),
-                ],
-              ),
+                    ),
+                  ).fadeInScaleDelayed(300),
+                ),
+                SizedBox(width: 10.w),
+                Expanded(
+                  child: AppButton(
+                    buttonFunc: () {
+                      provider.nextWord(speaker, context);
+                    },
+                    childWidget: Text(
+                      isLastWord ? context.l10n.finish : context.l10n.nextWord,
+                      style: context.text.labelMedium,
+                    ),
+                  ).fadeInScaleDelayed(300),
+                ),
+              ],
             ),
           ),
         ],
       ),
     );
   }
-
-  // void _showMutedSnackbar(BuildContext context) {
-  //   ScaffoldMessenger.of(context)
-  //     ..clearSnackBars()
-  //     ..showSnackBar(
-  //       SnackBar(
-  //         behavior: SnackBarBehavior.floating,
-  //         content: const Text(
-  //           "Sounds are off. Turn them on in the profile to listen.",
-  //         ),
-  //         shape: RoundedRectangleBorder(
-  //           borderRadius: BorderRadius.circular(10.r),
-  //         ),
-  //       ),
-  //     );
-  // }
 }

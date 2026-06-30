@@ -1,0 +1,2643 @@
+{
+    "metadata": {
+        "language": "Spanish",
+        "native_language": "English",
+        "level": "Beginner",
+        "category": "travel",
+        "total_words": 94
+    },
+    "words": [
+        {
+            "word": "aeropuerto",
+            "translation_english": "airport",
+            "translation_native": "airport",
+            "pronunciation": "ah-eh-ro-pwer-to",
+            "examples": [
+                {
+                    "sentence": "El vuelo despega del aeropuerto.",
+                    "translation_english": "The flight takes off from the airport.",
+                    "translation_native": "The flight takes off from the airport.",
+                    "sentence_parts": [
+                        "El",
+                        "vuelo",
+                        "despega",
+                        "del",
+                        "aeropuerto."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "aeropuerto",
+                "estación",
+                "puerto",
+                "parada"
+            ],
+            "correct_answer": "aeropuerto"
+        },
+        {
+            "word": "maleta",
+            "translation_english": "suitcase",
+            "translation_native": "suitcase",
+            "pronunciation": "mah-leh-tah",
+            "examples": [
+                {
+                    "sentence": "Guarda ropa en la maleta.",
+                    "translation_english": "Pack clothes in the suitcase.",
+                    "translation_native": "Pack clothes in the suitcase.",
+                    "sentence_parts": [
+                        "Guarda",
+                        "ropa",
+                        "en",
+                        "la",
+                        "maleta."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "maleta",
+                "mochila",
+                "cartera",
+                "bolsa"
+            ],
+            "correct_answer": "maleta"
+        },
+        {
+            "word": "pasaporte",
+            "translation_english": "passport",
+            "translation_native": "passport",
+            "pronunciation": "pah-sah-por-teh",
+            "examples": [
+                {
+                    "sentence": "Muestra tu pasaporte al oficial.",
+                    "translation_english": "Show your passport to the officer.",
+                    "translation_native": "Show your passport to the officer.",
+                    "sentence_parts": [
+                        "Muestra",
+                        "tu",
+                        "pasaporte",
+                        "al",
+                        "oficial."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "pasaporte",
+                "boleto",
+                "mapa",
+                "dinero"
+            ],
+            "correct_answer": "pasaporte"
+        },
+        {
+            "word": "hotel",
+            "translation_english": "hotel",
+            "translation_native": "hotel",
+            "pronunciation": "o-tel",
+            "examples": [
+                {
+                    "sentence": "Dormimos en el hotel hoy.",
+                    "translation_english": "We sleep in the hotel today.",
+                    "translation_native": "We sleep in the hotel today.",
+                    "sentence_parts": [
+                        "Dormimos",
+                        "en",
+                        "el",
+                        "hotel",
+                        "hoy."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "hotel",
+                "hostal",
+                "museo",
+                "parque"
+            ],
+            "correct_answer": "hotel"
+        },
+        {
+            "word": "tren",
+            "translation_english": "train",
+            "translation_native": "train",
+            "pronunciation": "tren",
+            "examples": [
+                {
+                    "sentence": "El tren viaja muy rápido.",
+                    "translation_english": "The train travels very fast.",
+                    "translation_native": "The train travels very fast.",
+                    "sentence_parts": [
+                        "El",
+                        "tren",
+                        "viaja",
+                        "muy",
+                        "rápido."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "tren",
+                "barco",
+                "avión",
+                "coche"
+            ],
+            "correct_answer": "tren"
+        },
+        {
+            "word": "boleto",
+            "translation_english": "ticket",
+            "translation_native": "ticket",
+            "pronunciation": "bo-leh-to",
+            "examples": [
+                {
+                    "sentence": "Compra el boleto de entrada.",
+                    "translation_english": "Buy the entry ticket.",
+                    "translation_native": "Buy the entry ticket.",
+                    "sentence_parts": [
+                        "Compra",
+                        "el",
+                        "boleto",
+                        "de",
+                        "entrada."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "boleto",
+                "mapa",
+                "libro",
+                "diario"
+            ],
+            "correct_answer": "boleto"
+        },
+        {
+            "word": "restaurante",
+            "translation_english": "restaurant",
+            "translation_native": "restaurant",
+            "pronunciation": "res-tau-ran-te",
+            "examples": [
+                {
+                    "sentence": "Comemos en el restaurante mexicano.",
+                    "translation_english": "We eat at the Mexican restaurant.",
+                    "translation_native": "We eat at the Mexican restaurant.",
+                    "sentence_parts": [
+                        "Comemos",
+                        "en",
+                        "el",
+                        "restaurante",
+                        "mexicano."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "restaurante",
+                "mercado",
+                "escuela",
+                "banco"
+            ],
+            "correct_answer": "restaurante"
+        },
+        {
+            "word": "mapa",
+            "translation_english": "map",
+            "translation_native": "map",
+            "pronunciation": "mah-pah",
+            "examples": [
+                {
+                    "sentence": "Mira el mapa de calles.",
+                    "translation_english": "Look at the street map.",
+                    "translation_native": "Look at the street map.",
+                    "sentence_parts": [
+                        "Mira",
+                        "el",
+                        "mapa",
+                        "de",
+                        "calles."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "mapa",
+                "libro",
+                "plano",
+                "folleto"
+            ],
+            "correct_answer": "mapa"
+        },
+        {
+            "word": "taxi",
+            "translation_english": "taxi",
+            "translation_native": "taxi",
+            "pronunciation": "tak-see",
+            "examples": [
+                {
+                    "sentence": "Llama un taxi al hotel.",
+                    "translation_english": "Call a taxi to the hotel.",
+                    "translation_native": "Call a taxi to the hotel.",
+                    "sentence_parts": [
+                        "Llama",
+                        "un",
+                        "taxi",
+                        "al",
+                        "hotel."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "taxi",
+                "metro",
+                "bus",
+                "barco"
+            ],
+            "correct_answer": "taxi"
+        },
+        {
+            "word": "museo",
+            "translation_english": "museum",
+            "translation_native": "museum",
+            "pronunciation": "moo-seh-o",
+            "examples": [
+                {
+                    "sentence": "Visita el museo de arte.",
+                    "translation_english": "Visit the art museum.",
+                    "translation_native": "Visit the art museum.",
+                    "sentence_parts": [
+                        "Visita",
+                        "el",
+                        "museo",
+                        "de",
+                        "arte."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "museo",
+                "teatro",
+                "cine",
+                "parque"
+            ],
+            "correct_answer": "museo"
+        },
+        {
+            "word": "playa",
+            "translation_english": "beach",
+            "translation_native": "beach",
+            "pronunciation": "plah-yah",
+            "examples": [
+                {
+                    "sentence": "Nadamos en la playa hoy.",
+                    "translation_english": "We swim at the beach today.",
+                    "translation_native": "We swim at the beach today.",
+                    "sentence_parts": [
+                        "Nadamos",
+                        "en",
+                        "la",
+                        "playa",
+                        "hoy."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "playa",
+                "montaña",
+                "bosque",
+                "ciudad"
+            ],
+            "correct_answer": "playa"
+        },
+        {
+            "word": "dinero",
+            "translation_english": "money",
+            "translation_native": "money",
+            "pronunciation": "dee-neh-ro",
+            "examples": [
+                {
+                    "sentence": "Usa dinero para pagar comida.",
+                    "translation_english": "Use money to pay food.",
+                    "translation_native": "Use money to pay food.",
+                    "sentence_parts": [
+                        "Usa",
+                        "dinero",
+                        "para",
+                        "pagar",
+                        "comida."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "dinero",
+                "tarjeta",
+                "cheque",
+                "moneda"
+            ],
+            "correct_answer": "dinero"
+        },
+        {
+            "word": "coche",
+            "translation_english": "car",
+            "translation_native": "car",
+            "pronunciation": "ko-che",
+            "examples": [
+                {
+                    "sentence": "Alquila un coche muy rápido.",
+                    "translation_english": "Rent a very fast car.",
+                    "translation_native": "Rent a very fast car.",
+                    "sentence_parts": [
+                        "Alquila",
+                        "un",
+                        "coche",
+                        "muy",
+                        "rápido."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "coche",
+                "camión",
+                "moto",
+                "barco"
+            ],
+            "correct_answer": "coche"
+        },
+        {
+            "word": "mochila",
+            "translation_english": "backpack",
+            "translation_native": "backpack",
+            "pronunciation": "mo-chee-lah",
+            "examples": [
+                {
+                    "sentence": "Lleva la mochila al viaje.",
+                    "translation_english": "Take the backpack on the trip.",
+                    "translation_native": "Take the backpack on the trip.",
+                    "sentence_parts": [
+                        "Lleva",
+                        "la",
+                        "mochila",
+                        "al",
+                        "viaje."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "mochila",
+                "maleta",
+                "bolsa",
+                "cartera"
+            ],
+            "correct_answer": "mochila"
+        },
+        {
+            "word": "agua",
+            "translation_english": "water",
+            "translation_native": "water",
+            "pronunciation": "ah-gwah",
+            "examples": [
+                {
+                    "sentence": "Bebe agua en el viaje.",
+                    "translation_english": "Drink water on the trip.",
+                    "translation_native": "Drink water on the trip.",
+                    "sentence_parts": [
+                        "Bebe",
+                        "agua",
+                        "en",
+                        "el",
+                        "viaje."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "agua",
+                "jugo",
+                "leche",
+                "café"
+            ],
+            "correct_answer": "agua"
+        },
+        {
+            "word": "calle",
+            "translation_english": "street",
+            "translation_native": "street",
+            "pronunciation": "kah-yeh",
+            "examples": [
+                {
+                    "sentence": "Cruza la calle con cuidado.",
+                    "translation_english": "Cross the street with care.",
+                    "translation_native": "Cross the street with care.",
+                    "sentence_parts": [
+                        "Cruza",
+                        "la",
+                        "calle",
+                        "con",
+                        "cuidado."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "calle",
+                "avenida",
+                "plaza",
+                "parque"
+            ],
+            "correct_answer": "calle"
+        },
+        {
+            "word": "tienda",
+            "translation_english": "store",
+            "translation_native": "store",
+            "pronunciation": "tyen-dah",
+            "examples": [
+                {
+                    "sentence": "Compra ropa en la tienda.",
+                    "translation_english": "Buy clothes at the store.",
+                    "translation_native": "Buy clothes at the store.",
+                    "sentence_parts": [
+                        "Compra",
+                        "ropa",
+                        "en",
+                        "la",
+                        "tienda."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "tienda",
+                "mercado",
+                "banco",
+                "oficina"
+            ],
+            "correct_answer": "tienda"
+        },
+        {
+            "word": "amigo",
+            "translation_english": "friend",
+            "translation_native": "friend",
+            "pronunciation": "ah-mee-go",
+            "examples": [
+                {
+                    "sentence": "Viaja con tu mejor amigo.",
+                    "translation_english": "Travel with your best friend.",
+                    "translation_native": "Travel with your best friend.",
+                    "sentence_parts": [
+                        "Viaja",
+                        "con",
+                        "tu",
+                        "mejor",
+                        "amigo."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "amigo",
+                "primo",
+                "vecino",
+                "hermano"
+            ],
+            "correct_answer": "amigo"
+        },
+        {
+            "word": "teléfono",
+            "translation_english": "phone",
+            "translation_native": "phone",
+            "pronunciation": "te-leh-fo-no",
+            "examples": [
+                {
+                    "sentence": "Usa el teléfono para llamar.",
+                    "translation_english": "Use the phone to call.",
+                    "translation_native": "Use the phone to call.",
+                    "sentence_parts": [
+                        "Usa",
+                        "el",
+                        "teléfono",
+                        "para",
+                        "llamar."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "teléfono",
+                "cámara",
+                "radio",
+                "reloj"
+            ],
+            "correct_answer": "teléfono"
+        },
+        {
+            "word": "idioma",
+            "translation_english": "language",
+            "translation_native": "language",
+            "pronunciation": "ee-dyo-mah",
+            "examples": [
+                {
+                    "sentence": "Aprende un idioma nuevo hoy.",
+                    "translation_english": "Learn a new language today.",
+                    "translation_native": "Learn a new language today.",
+                    "sentence_parts": [
+                        "Aprende",
+                        "un",
+                        "idioma",
+                        "nuevo",
+                        "hoy."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "idioma",
+                "palabra",
+                "frase",
+                "lección"
+            ],
+            "correct_answer": "idioma"
+        },
+        {
+            "word": "desayuno",
+            "translation_english": "breakfast",
+            "translation_native": "breakfast",
+            "pronunciation": "deh-sah-yoo-no",
+            "examples": [
+                {
+                    "sentence": "Come el desayuno muy temprano.",
+                    "translation_english": "Eat breakfast very early.",
+                    "translation_native": "Eat breakfast very early.",
+                    "sentence_parts": [
+                        "Come",
+                        "el",
+                        "desayuno",
+                        "muy",
+                        "temprano."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "desayuno",
+                "almuerzo",
+                "cena",
+                "merienda"
+            ],
+            "correct_answer": "desayuno"
+        },
+        {
+            "word": "cámara",
+            "translation_english": "camera",
+            "translation_native": "camera",
+            "pronunciation": "kah-mah-rah",
+            "examples": [
+                {
+                    "sentence": "Toma fotos con la cámara.",
+                    "translation_english": "Take photos with the camera.",
+                    "translation_native": "Take photos with the camera.",
+                    "sentence_parts": [
+                        "Toma",
+                        "fotos",
+                        "con",
+                        "la",
+                        "cámara."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "cámara",
+                "teléfono",
+                "radio",
+                "reloj"
+            ],
+            "correct_answer": "cámara"
+        },
+        {
+            "word": "noche",
+            "translation_english": "night",
+            "translation_native": "night",
+            "pronunciation": "no-che",
+            "examples": [
+                {
+                    "sentence": "Duerme bien por la noche.",
+                    "translation_english": "Sleep well at night.",
+                    "translation_native": "Sleep well at night.",
+                    "sentence_parts": [
+                        "Duerme",
+                        "bien",
+                        "por",
+                        "la",
+                        "noche."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "noche",
+                "tarde",
+                "mañana",
+                "día"
+            ],
+            "correct_answer": "noche"
+        },
+        {
+            "word": "ciudad",
+            "translation_english": "city",
+            "translation_native": "city",
+            "pronunciation": "syoo-dad",
+            "examples": [
+                {
+                    "sentence": "Explora la ciudad muy grande.",
+                    "translation_english": "Explore the very big city.",
+                    "translation_native": "Explore the very big city.",
+                    "sentence_parts": [
+                        "Explora",
+                        "la",
+                        "ciudad",
+                        "muy",
+                        "grande."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "ciudad",
+                "pueblo",
+                "país",
+                "estado"
+            ],
+            "correct_answer": "ciudad"
+        },
+        {
+            "word": "puerta",
+            "translation_english": "door",
+            "translation_native": "door",
+            "pronunciation": "pwer-tah",
+            "examples": [
+                {
+                    "sentence": "Cierra la puerta del hotel.",
+                    "translation_english": "Close the hotel door.",
+                    "translation_native": "Close the hotel door.",
+                    "sentence_parts": [
+                        "Cierra",
+                        "la",
+                        "puerta",
+                        "del",
+                        "hotel."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "puerta",
+                "ventana",
+                "pared",
+                "techo"
+            ],
+            "correct_answer": "puerta"
+        },
+        {
+            "word": "libro",
+            "translation_english": "book",
+            "translation_native": "book",
+            "pronunciation": "lee-bro",
+            "examples": [
+                {
+                    "sentence": "Lee un libro en avión.",
+                    "translation_english": "Read a book on plane.",
+                    "translation_native": "Read a book on plane.",
+                    "sentence_parts": [
+                        "Lee",
+                        "un",
+                        "libro",
+                        "en",
+                        "avión."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "libro",
+                "revista",
+                "diario",
+                "mapa"
+            ],
+            "correct_answer": "libro"
+        },
+        {
+            "word": "comida",
+            "translation_english": "food",
+            "translation_native": "food",
+            "pronunciation": "ko-mee-dah",
+            "examples": [
+                {
+                    "sentence": "Compra comida en el mercado.",
+                    "translation_english": "Buy food at the market.",
+                    "translation_native": "Buy food at the market.",
+                    "sentence_parts": [
+                        "Compra",
+                        "comida",
+                        "en",
+                        "el",
+                        "mercado."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "comida",
+                "fruta",
+                "carne",
+                "pan"
+            ],
+            "correct_answer": "comida"
+        },
+        {
+            "word": "avión",
+            "translation_english": "airplane",
+            "translation_native": "airplane",
+            "pronunciation": "ah-vyon",
+            "examples": [
+                {
+                    "sentence": "Sube al avión muy rápido.",
+                    "translation_english": "Get on the plane very fast.",
+                    "translation_native": "Get on the plane very fast.",
+                    "sentence_parts": [
+                        "Sube",
+                        "al",
+                        "avión",
+                        "muy",
+                        "rápido."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "avión",
+                "barco",
+                "tren",
+                "coche"
+            ],
+            "correct_answer": "avión"
+        },
+        {
+            "word": "llave",
+            "translation_english": "key",
+            "translation_native": "key",
+            "pronunciation": "ya-veh",
+            "examples": [
+                {
+                    "sentence": "Usa la llave del cuarto.",
+                    "translation_english": "Use the room key.",
+                    "translation_native": "Use the room key.",
+                    "sentence_parts": [
+                        "Usa",
+                        "la",
+                        "llave",
+                        "del",
+                        "cuarto."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "llave",
+                "tarjeta",
+                "código",
+                "bolso"
+            ],
+            "correct_answer": "llave"
+        },
+        {
+            "word": "parque",
+            "translation_english": "park",
+            "translation_native": "park",
+            "pronunciation": "par-keh",
+            "examples": [
+                {
+                    "sentence": "Camina por el parque hoy.",
+                    "translation_english": "Walk through the park today.",
+                    "translation_native": "Walk through the park today.",
+                    "sentence_parts": [
+                        "Camina",
+                        "por",
+                        "el",
+                        "parque",
+                        "hoy."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "parque",
+                "plaza",
+                "museo",
+                "teatro"
+            ],
+            "correct_answer": "parque"
+        },
+        {
+            "word": "precio",
+            "translation_english": "price",
+            "translation_native": "price",
+            "pronunciation": "preh-syo",
+            "examples": [
+                {
+                    "sentence": "Pregunta el precio del boleto.",
+                    "translation_english": "Ask the ticket price.",
+                    "translation_native": "Ask the ticket price.",
+                    "sentence_parts": [
+                        "Pregunta",
+                        "el",
+                        "precio",
+                        "del",
+                        "boleto."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "precio",
+                "costo",
+                "valor",
+                "dinero"
+            ],
+            "correct_answer": "precio"
+        },
+        {
+            "word": "baño",
+            "translation_english": "bathroom",
+            "translation_native": "bathroom",
+            "pronunciation": "bah-nyo",
+            "examples": [
+                {
+                    "sentence": "Busca el baño del hotel.",
+                    "translation_english": "Look for the hotel bathroom.",
+                    "translation_native": "Look for the hotel bathroom.",
+                    "sentence_parts": [
+                        "Busca",
+                        "el",
+                        "baño",
+                        "del",
+                        "hotel."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "baño",
+                "cuarto",
+                "cocina",
+                "sala"
+            ],
+            "correct_answer": "baño"
+        },
+        {
+            "word": "estación",
+            "translation_english": "station",
+            "translation_native": "station",
+            "pronunciation": "es-tah-syon",
+            "examples": [
+                {
+                    "sentence": "Espera en la estación central.",
+                    "translation_english": "Wait at the central station.",
+                    "translation_native": "Wait at the central station.",
+                    "sentence_parts": [
+                        "Espera",
+                        "en",
+                        "la",
+                        "estación",
+                        "central."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "estación",
+                "parada",
+                "aeropuerto",
+                "puerto"
+            ],
+            "correct_answer": "estación"
+        },
+        {
+            "word": "camisa",
+            "translation_english": "shirt",
+            "translation_native": "shirt",
+            "pronunciation": "kah-mee-sah",
+            "examples": [
+                {
+                    "sentence": "Compra una camisa muy bonita.",
+                    "translation_english": "Buy a very pretty shirt.",
+                    "translation_native": "Buy a very pretty shirt.",
+                    "sentence_parts": [
+                        "Compra",
+                        "una",
+                        "camisa",
+                        "muy",
+                        "bonita."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "camisa",
+                "pantalón",
+                "falda",
+                "vestido"
+            ],
+            "correct_answer": "camisa"
+        },
+        {
+            "word": "zapatos",
+            "translation_english": "shoes",
+            "translation_native": "shoes",
+            "pronunciation": "sah-pah-tos",
+            "examples": [
+                {
+                    "sentence": "Lleva zapatos para caminar mucho.",
+                    "translation_english": "Wear shoes to walk a lot.",
+                    "translation_native": "Wear shoes to walk a lot.",
+                    "sentence_parts": [
+                        "Lleva",
+                        "zapatos",
+                        "para",
+                        "caminar",
+                        "mucho."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "zapatos",
+                "botas",
+                "tenis",
+                "sandalias"
+            ],
+            "correct_answer": "zapatos"
+        },
+        {
+            "word": "fruta",
+            "translation_english": "fruit",
+            "translation_native": "fruit",
+            "pronunciation": "froo-tah",
+            "examples": [
+                {
+                    "sentence": "Compra fruta en el mercado.",
+                    "translation_english": "Buy fruit at the market.",
+                    "translation_native": "Buy fruit at the market.",
+                    "sentence_parts": [
+                        "Compra",
+                        "fruta",
+                        "en",
+                        "el",
+                        "mercado."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "fruta",
+                "verdura",
+                "carne",
+                "pan"
+            ],
+            "correct_answer": "fruta"
+        },
+        {
+            "word": "pan",
+            "translation_english": "bread",
+            "translation_native": "bread",
+            "pronunciation": "pan",
+            "examples": [
+                {
+                    "sentence": "Come pan en el desayuno.",
+                    "translation_english": "Eat bread at breakfast.",
+                    "translation_native": "Eat bread at breakfast.",
+                    "sentence_parts": [
+                        "Come",
+                        "pan",
+                        "en",
+                        "el",
+                        "desayuno."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "pan",
+                "fruta",
+                "carne",
+                "leche"
+            ],
+            "correct_answer": "pan"
+        },
+        {
+            "word": "reloj",
+            "translation_english": "watch",
+            "translation_native": "watch",
+            "pronunciation": "reh-lo",
+            "examples": [
+                {
+                    "sentence": "Mira el reloj del hotel.",
+                    "translation_english": "Look at the hotel watch.",
+                    "translation_native": "Look at the hotel watch.",
+                    "sentence_parts": [
+                        "Mira",
+                        "el",
+                        "reloj",
+                        "del",
+                        "hotel."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "reloj",
+                "teléfono",
+                "cámara",
+                "radio"
+            ],
+            "correct_answer": "reloj"
+        },
+        {
+            "word": "hermano",
+            "translation_english": "brother",
+            "translation_native": "brother",
+            "pronunciation": "er-mah-no",
+            "examples": [
+                {
+                    "sentence": "Viaja con tu hermano hoy.",
+                    "translation_english": "Travel with your brother today.",
+                    "translation_native": "Travel with your brother today.",
+                    "sentence_parts": [
+                        "Viaja",
+                        "con",
+                        "tu",
+                        "hermano",
+                        "hoy."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "hermano",
+                "amigo",
+                "primo",
+                "padre"
+            ],
+            "correct_answer": "hermano"
+        },
+        {
+            "word": "cabeza",
+            "translation_english": "head",
+            "translation_native": "head",
+            "pronunciation": "kah-beh-sah",
+            "examples": [
+                {
+                    "sentence": "Me duele la cabeza hoy.",
+                    "translation_english": "My head hurts today.",
+                    "translation_native": "My head hurts today.",
+                    "sentence_parts": [
+                        "Me",
+                        "duele",
+                        "la",
+                        "cabeza",
+                        "hoy."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "cabeza",
+                "mano",
+                "pie",
+                "brazo"
+            ],
+            "correct_answer": "cabeza"
+        },
+        {
+            "word": "médico",
+            "translation_english": "doctor",
+            "translation_native": "doctor",
+            "pronunciation": "meh-dee-ko",
+            "examples": [
+                {
+                    "sentence": "Busca al médico con urgencia.",
+                    "translation_english": "Look for the doctor urgently.",
+                    "translation_native": "Look for the doctor urgently.",
+                    "sentence_parts": [
+                        "Busca",
+                        "al",
+                        "médico",
+                        "con",
+                        "urgencia."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "médico",
+                "policía",
+                "profesor",
+                "chofer"
+            ],
+            "correct_answer": "médico"
+        },
+        {
+            "word": "teatro",
+            "translation_english": "theater",
+            "translation_native": "theater",
+            "pronunciation": "teh-ah-tro",
+            "examples": [
+                {
+                    "sentence": "Mira la obra en teatro.",
+                    "translation_english": "Watch the play in theater.",
+                    "translation_native": "Watch the play in theater.",
+                    "sentence_parts": [
+                        "Mira",
+                        "la",
+                        "obra",
+                        "en",
+                        "teatro."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "teatro",
+                "cine",
+                "museo",
+                "parque"
+            ],
+            "correct_answer": "teatro"
+        },
+        {
+            "word": "televisión",
+            "translation_english": "television",
+            "translation_native": "television",
+            "pronunciation": "te-leh-vee-syon",
+            "examples": [
+                {
+                    "sentence": "Mira la televisión en hotel.",
+                    "translation_english": "Watch the television in hotel.",
+                    "translation_native": "Watch the television in hotel.",
+                    "sentence_parts": [
+                        "Mira",
+                        "la",
+                        "televisión",
+                        "en",
+                        "hotel."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "televisión",
+                "radio",
+                "teléfono",
+                "computadora"
+            ],
+            "correct_answer": "televisión"
+        },
+        {
+            "word": "fútbol",
+            "translation_english": "soccer",
+            "translation_native": "soccer",
+            "pronunciation": "foot-bol",
+            "examples": [
+                {
+                    "sentence": "Juega fútbol en el parque.",
+                    "translation_english": "Play soccer in the park.",
+                    "translation_native": "Play soccer in the park.",
+                    "sentence_parts": [
+                        "Juega",
+                        "fútbol",
+                        "en",
+                        "el",
+                        "parque."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "fútbol",
+                "tenis",
+                "baloncesto",
+                "béisbol"
+            ],
+            "correct_answer": "fútbol"
+        },
+        {
+            "word": "oficina",
+            "translation_english": "office",
+            "translation_native": "office",
+            "pronunciation": "o-fee-see-nah",
+            "examples": [
+                {
+                    "sentence": "Trabaja en la oficina hoy.",
+                    "translation_english": "Work in the office today.",
+                    "translation_native": "Work in the office today.",
+                    "sentence_parts": [
+                        "Trabaja",
+                        "en",
+                        "la",
+                        "oficina",
+                        "hoy."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "oficina",
+                "escuela",
+                "banco",
+                "tienda"
+            ],
+            "correct_answer": "oficina"
+        },
+        {
+            "word": "perro",
+            "translation_english": "dog",
+            "translation_native": "dog",
+            "pronunciation": "peh-ro",
+            "examples": [
+                {
+                    "sentence": "Camina con el perro hoy.",
+                    "translation_english": "Walk with the dog today.",
+                    "translation_native": "Walk with the dog today.",
+                    "sentence_parts": [
+                        "Camina",
+                        "con",
+                        "el",
+                        "perro",
+                        "hoy."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "perro",
+                "gato",
+                "pájaro",
+                "pez"
+            ],
+            "correct_answer": "perro"
+        },
+        {
+            "word": "azul",
+            "translation_english": "blue",
+            "translation_native": "blue",
+            "pronunciation": "ah-sool",
+            "examples": [
+                {
+                    "sentence": "Compra la maleta azul hoy.",
+                    "translation_english": "Buy the blue suitcase today.",
+                    "translation_native": "Buy the blue suitcase today.",
+                    "sentence_parts": [
+                        "Compra",
+                        "la",
+                        "maleta",
+                        "azul",
+                        "hoy."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "azul",
+                "rojo",
+                "verde",
+                "blanco"
+            ],
+            "correct_answer": "azul"
+        },
+        {
+            "word": "triste",
+            "translation_english": "sad",
+            "translation_native": "sad",
+            "pronunciation": "trees-teh",
+            "examples": [
+                {
+                    "sentence": "No estés triste en viaje.",
+                    "translation_english": "Do not be sad on trip.",
+                    "translation_native": "Do not be sad on trip.",
+                    "sentence_parts": [
+                        "No",
+                        "estés",
+                        "triste",
+                        "en",
+                        "viaje."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "triste",
+                "feliz",
+                "cansado",
+                "enojado"
+            ],
+            "correct_answer": "triste"
+        },
+        {
+            "word": "mesa",
+            "translation_english": "table",
+            "translation_native": "table",
+            "pronunciation": "meh-sah",
+            "examples": [
+                {
+                    "sentence": "Limpia la mesa del restaurante.",
+                    "translation_english": "Clean the restaurant table.",
+                    "translation_native": "Clean the restaurant table.",
+                    "sentence_parts": [
+                        "Limpia",
+                        "la",
+                        "mesa",
+                        "del",
+                        "restaurante."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "mesa",
+                "silla",
+                "cama",
+                "sofá"
+            ],
+            "correct_answer": "mesa"
+        },
+        {
+            "word": "refrigerador",
+            "translation_english": "refrigerator",
+            "translation_native": "refrigerator",
+            "pronunciation": "reh-free-heh-rah-dor",
+            "examples": [
+                {
+                    "sentence": "Guarda comida en el refrigerador.",
+                    "translation_english": "Keep food in the refrigerator.",
+                    "translation_native": "Keep food in the refrigerator.",
+                    "sentence_parts": [
+                        "Guarda",
+                        "comida",
+                        "en",
+                        "el",
+                        "refrigerador."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "refrigerador",
+                "horno",
+                "microondas",
+                "lavadora"
+            ],
+            "correct_answer": "refrigerador"
+        },
+        {
+            "word": "rojo",
+            "translation_english": "red",
+            "translation_native": "red",
+            "pronunciation": "ro-ho",
+            "examples": [
+                {
+                    "sentence": "Usa el vestido rojo hoy.",
+                    "translation_english": "Wear the red dress today.",
+                    "translation_native": "Wear the red dress today.",
+                    "sentence_parts": [
+                        "Usa",
+                        "el",
+                        "vestido",
+                        "rojo",
+                        "hoy."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "rojo",
+                "azul",
+                "verde",
+                "amarillo"
+            ],
+            "correct_answer": "rojo"
+        },
+        {
+            "word": "gato",
+            "translation_english": "cat",
+            "translation_native": "cat",
+            "pronunciation": "gah-to",
+            "examples": [
+                {
+                    "sentence": "Alimenta al gato con leche.",
+                    "translation_english": "Feed the cat with milk.",
+                    "translation_native": "Feed the cat with milk.",
+                    "sentence_parts": [
+                        "Alimenta",
+                        "al",
+                        "gato",
+                        "con",
+                        "leche."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "gato",
+                "perro",
+                "pájaro",
+                "pez"
+            ],
+            "correct_answer": "gato"
+        },
+        {
+            "word": "manzana",
+            "translation_english": "apple",
+            "translation_native": "apple",
+            "pronunciation": "man-sah-nah",
+            "examples": [
+                {
+                    "sentence": "Come una manzana muy fresca.",
+                    "translation_english": "Eat a very fresh apple.",
+                    "translation_native": "Eat a very fresh apple.",
+                    "sentence_parts": [
+                        "Come",
+                        "una",
+                        "manzana",
+                        "muy",
+                        "fresca."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "manzana",
+                "pera",
+                "uva",
+                "plátano"
+            ],
+            "correct_answer": "manzana"
+        },
+        {
+            "word": "pantalón",
+            "translation_english": "pants",
+            "translation_native": "pants",
+            "pronunciation": "pan-tah-lon",
+            "examples": [
+                {
+                    "sentence": "Limpia el pantalón muy sucio.",
+                    "translation_english": "Clean the very dirty pants.",
+                    "translation_native": "Clean the very dirty pants.",
+                    "sentence_parts": [
+                        "Limpia",
+                        "el",
+                        "pantalón",
+                        "muy",
+                        "sucio."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "pantalón",
+                "camisa",
+                "falda",
+                "vestido"
+            ],
+            "correct_answer": "pantalón"
+        },
+        {
+            "word": "silla",
+            "translation_english": "chair",
+            "translation_native": "chair",
+            "pronunciation": "see-yah",
+            "examples": [
+                {
+                    "sentence": "Mueve la silla del cuarto.",
+                    "translation_english": "Move the room chair.",
+                    "translation_native": "Move the room chair.",
+                    "sentence_parts": [
+                        "Mueve",
+                        "la",
+                        "silla",
+                        "del",
+                        "cuarto."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "silla",
+                "mesa",
+                "cama",
+                "sofá"
+            ],
+            "correct_answer": "silla"
+        },
+        {
+            "word": "feliz",
+            "translation_english": "happy",
+            "translation_native": "happy",
+            "pronunciation": "feh-lees",
+            "examples": [
+                {
+                    "sentence": "Sé feliz en el viaje.",
+                    "translation_english": "Be happy on the trip.",
+                    "translation_native": "Be happy on the trip.",
+                    "sentence_parts": [
+                        "Sé",
+                        "feliz",
+                        "en",
+                        "el",
+                        "viaje."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "feliz",
+                "triste",
+                "cansado",
+                "enojado"
+            ],
+            "correct_answer": "feliz"
+        },
+        {
+            "word": "madre",
+            "translation_english": "mother",
+            "translation_native": "mother",
+            "pronunciation": "mah-dreh",
+            "examples": [
+                {
+                    "sentence": "Llama a tu madre hoy.",
+                    "translation_english": "Call your mother today.",
+                    "translation_native": "Call your mother today.",
+                    "sentence_parts": [
+                        "Llama",
+                        "a",
+                        "tu",
+                        "madre",
+                        "hoy."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "madre",
+                "padre",
+                "hermano",
+                "abuela"
+            ],
+            "correct_answer": "madre"
+        },
+        {
+            "word": "carne",
+            "translation_english": "meat",
+            "translation_native": "meat",
+            "pronunciation": "kar-neh",
+            "examples": [
+                {
+                    "sentence": "Cocina la carne con sal.",
+                    "translation_english": "Cook the meat with salt.",
+                    "translation_native": "Cook the meat with salt.",
+                    "sentence_parts": [
+                        "Cocina",
+                        "la",
+                        "carne",
+                        "con",
+                        "sal."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "carne",
+                "pollo",
+                "pescado",
+                "pan"
+            ],
+            "correct_answer": "carne"
+        },
+        {
+            "word": "mano",
+            "translation_english": "hand",
+            "translation_native": "hand",
+            "pronunciation": "mah-no",
+            "examples": [
+                {
+                    "sentence": "Lava la mano con jabón.",
+                    "translation_english": "Wash the hand with soap.",
+                    "translation_native": "Wash the hand with soap.",
+                    "sentence_parts": [
+                        "Lava",
+                        "la",
+                        "mano",
+                        "con",
+                        "jabón."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "mano",
+                "pie",
+                "brazo",
+                "cabeza"
+            ],
+            "correct_answer": "mano"
+        },
+        {
+            "word": "policía",
+            "translation_english": "police",
+            "translation_native": "police",
+            "pronunciation": "po-lee-see-ah",
+            "examples": [
+                {
+                    "sentence": "Llama al policía con urgencia.",
+                    "translation_english": "Call the police urgently.",
+                    "translation_native": "Call the police urgently.",
+                    "sentence_parts": [
+                        "Llama",
+                        "al",
+                        "policía",
+                        "con",
+                        "urgencia."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "policía",
+                "médico",
+                "profesor",
+                "chofer"
+            ],
+            "correct_answer": "policía"
+        },
+        {
+            "word": "cine",
+            "translation_english": "cinema",
+            "translation_native": "cinema",
+            "pronunciation": "see-neh",
+            "examples": [
+                {
+                    "sentence": "Mira la película en cine.",
+                    "translation_english": "Watch the movie in cinema.",
+                    "translation_native": "Watch the movie in cinema.",
+                    "sentence_parts": [
+                        "Mira",
+                        "la",
+                        "película",
+                        "en",
+                        "cine."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "cine",
+                "teatro",
+                "museo",
+                "parque"
+            ],
+            "correct_answer": "cine"
+        },
+        {
+            "word": "radio",
+            "translation_english": "radio",
+            "translation_native": "radio",
+            "pronunciation": "rah-dyo",
+            "examples": [
+                {
+                    "sentence": "Escucha la radio del coche.",
+                    "translation_english": "Listen to the car radio.",
+                    "translation_native": "Listen to the car radio.",
+                    "sentence_parts": [
+                        "Escucha",
+                        "la",
+                        "radio",
+                        "del",
+                        "coche."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "radio",
+                "televisión",
+                "teléfono",
+                "computadora"
+            ],
+            "correct_answer": "radio"
+        },
+        {
+            "word": "tenis",
+            "translation_english": "tennis",
+            "translation_native": "tennis",
+            "pronunciation": "teh-nees",
+            "examples": [
+                {
+                    "sentence": "Juega tenis en el club.",
+                    "translation_english": "Play tennis at the club.",
+                    "translation_native": "Play tennis at the club.",
+                    "sentence_parts": [
+                        "Juega",
+                        "tenis",
+                        "en",
+                        "el",
+                        "club."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "tenis",
+                "fútbol",
+                "baloncesto",
+                "béisbol"
+            ],
+            "correct_answer": "tenis"
+        },
+        {
+            "word": "escuela",
+            "translation_english": "school",
+            "translation_native": "school",
+            "pronunciation": "es-kweh-lah",
+            "examples": [
+                {
+                    "sentence": "Estudia en la escuela hoy.",
+                    "translation_english": "Study in the school today.",
+                    "translation_native": "Study in the school today.",
+                    "sentence_parts": [
+                        "Estudia",
+                        "en",
+                        "la",
+                        "escuela",
+                        "hoy."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "escuela",
+                "oficina",
+                "banco",
+                "tienda"
+            ],
+            "correct_answer": "escuela"
+        },
+        {
+            "word": "pájaro",
+            "translation_english": "bird",
+            "translation_native": "bird",
+            "pronunciation": "pah-hah-ro",
+            "examples": [
+                {
+                    "sentence": "Mira al pájaro muy alto.",
+                    "translation_english": "Look at the bird very high.",
+                    "translation_native": "Look at the bird very high.",
+                    "sentence_parts": [
+                        "Mira",
+                        "al",
+                        "pájaro",
+                        "muy",
+                        "alto."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "pájaro",
+                "perro",
+                "gato",
+                "pez"
+            ],
+            "correct_answer": "pájaro"
+        },
+        {
+            "word": "verde",
+            "translation_english": "green",
+            "translation_native": "green",
+            "pronunciation": "ber-deh",
+            "examples": [
+                {
+                    "sentence": "Compra la manzana verde hoy.",
+                    "translation_english": "Buy the green apple today.",
+                    "translation_native": "Buy the green apple today.",
+                    "sentence_parts": [
+                        "Compra",
+                        "la",
+                        "manzana",
+                        "verde",
+                        "hoy."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "verde",
+                "rojo",
+                "azul",
+                "amarillo"
+            ],
+            "correct_answer": "verde"
+        },
+        {
+            "word": "cansado",
+            "translation_english": "tired",
+            "translation_native": "tired",
+            "pronunciation": "kan-sah-do",
+            "examples": [
+                {
+                    "sentence": "Estoy muy cansado del viaje.",
+                    "translation_english": "I am very tired from trip.",
+                    "translation_native": "I am very tired from trip.",
+                    "sentence_parts": [
+                        "Estoy",
+                        "muy",
+                        "cansado",
+                        "del",
+                        "viaje."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "cansado",
+                "feliz",
+                "triste",
+                "enojado"
+            ],
+            "correct_answer": "cansado"
+        },
+        {
+            "word": "cama",
+            "translation_english": "bed",
+            "translation_native": "bed",
+            "pronunciation": "kah-mah",
+            "examples": [
+                {
+                    "sentence": "Duerme en la cama hoy.",
+                    "translation_english": "Sleep in the bed today.",
+                    "translation_native": "Sleep in the bed today.",
+                    "sentence_parts": [
+                        "Duerme",
+                        "en",
+                        "la",
+                        "cama",
+                        "hoy."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "cama",
+                "silla",
+                "mesa",
+                "sofá"
+            ],
+            "correct_answer": "cama"
+        },
+        {
+            "word": "horno",
+            "translation_english": "oven",
+            "translation_native": "oven",
+            "pronunciation": "or-no",
+            "examples": [
+                {
+                    "sentence": "Usa el horno para cocinar.",
+                    "translation_english": "Use the oven to cook.",
+                    "translation_native": "Use the oven to cook.",
+                    "sentence_parts": [
+                        "Usa",
+                        "el",
+                        "horno",
+                        "para",
+                        "cocinar."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "horno",
+                "refrigerador",
+                "microondas",
+                "lavadora"
+            ],
+            "correct_answer": "horno"
+        },
+        {
+            "word": "autobús",
+            "translation_english": "bus",
+            "translation_native": "bus",
+            "pronunciation": "au-to-boos",
+            "examples": [
+                {
+                    "sentence": "Toma el autobús muy lento.",
+                    "translation_english": "Take the very slow bus.",
+                    "translation_native": "Take the very slow bus.",
+                    "sentence_parts": [
+                        "Toma",
+                        "el",
+                        "autobús",
+                        "muy",
+                        "lento."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "autobús",
+                "coche",
+                "camión",
+                "taxi"
+            ],
+            "correct_answer": "autobús"
+        },
+        {
+            "word": "amarillo",
+            "translation_english": "yellow",
+            "translation_native": "yellow",
+            "pronunciation": "ah-mah-ree-yo",
+            "examples": [
+                {
+                    "sentence": "Busca el taxi amarillo hoy.",
+                    "translation_english": "Look for the yellow taxi today.",
+                    "translation_native": "Look for the yellow taxi today.",
+                    "sentence_parts": [
+                        "Busca",
+                        "el",
+                        "taxi",
+                        "amarillo",
+                        "hoy."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "amarillo",
+                "rojo",
+                "azul",
+                "verde"
+            ],
+            "correct_answer": "amarillo"
+        },
+        {
+            "word": "pez",
+            "translation_english": "fish",
+            "translation_native": "fish",
+            "pronunciation": "pes",
+            "examples": [
+                {
+                    "sentence": "Mira al pez en agua.",
+                    "translation_english": "Look at the fish in water.",
+                    "translation_native": "Look at the fish in water.",
+                    "sentence_parts": [
+                        "Mira",
+                        "al",
+                        "pez",
+                        "en",
+                        "agua."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "pez",
+                "perro",
+                "gato",
+                "pájaro"
+            ],
+            "correct_answer": "pez"
+        },
+        {
+            "word": "pera",
+            "translation_english": "pear",
+            "translation_native": "pear",
+            "pronunciation": "peh-rah",
+            "examples": [
+                {
+                    "sentence": "Come una pera muy dulce.",
+                    "translation_english": "Eat a very sweet pear.",
+                    "translation_native": "Eat a very sweet pear.",
+                    "sentence_parts": [
+                        "Come",
+                        "una",
+                        "pera",
+                        "muy",
+                        "dulce."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "pera",
+                "manzana",
+                "uva",
+                "plátano"
+            ],
+            "correct_answer": "pera"
+        },
+        {
+            "word": "falda",
+            "translation_english": "skirt",
+            "translation_native": "skirt",
+            "pronunciation": "fal-dah",
+            "examples": [
+                {
+                    "sentence": "Compra la falda muy bonita.",
+                    "translation_english": "Buy the very pretty skirt.",
+                    "translation_native": "Buy the very pretty skirt.",
+                    "sentence_parts": [
+                        "Compra",
+                        "la",
+                        "falda",
+                        "muy",
+                        "bonita."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "falda",
+                "camisa",
+                "pantalón",
+                "vestido"
+            ],
+            "correct_answer": "falda"
+        },
+        {
+            "word": "sofá",
+            "translation_english": "sofa",
+            "translation_native": "sofa",
+            "pronunciation": "so-fah",
+            "examples": [
+                {
+                    "sentence": "Siéntate en el sofá hoy.",
+                    "translation_english": "Sit on the sofa today.",
+                    "translation_native": "Sit on the sofa today.",
+                    "sentence_parts": [
+                        "Siéntate",
+                        "en",
+                        "el",
+                        "sofá",
+                        "hoy."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "sofá",
+                "silla",
+                "mesa",
+                "cama"
+            ],
+            "correct_answer": "sofá"
+        },
+        {
+            "word": "enojado",
+            "translation_english": "angry",
+            "translation_native": "angry",
+            "pronunciation": "eh-no-ha-do",
+            "examples": [
+                {
+                    "sentence": "No estés enojado por nada.",
+                    "translation_english": "Do not be angry for nothing.",
+                    "translation_native": "Do not be angry for nothing.",
+                    "sentence_parts": [
+                        "No",
+                        "estés",
+                        "enojado",
+                        "por",
+                        "nada."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "enojado",
+                "feliz",
+                "triste",
+                "cansado"
+            ],
+            "correct_answer": "enojado"
+        },
+        {
+            "word": "padre",
+            "translation_english": "father",
+            "translation_native": "father",
+            "pronunciation": "pah-dreh",
+            "examples": [
+                {
+                    "sentence": "Habla con tu padre hoy.",
+                    "translation_english": "Talk with your father today.",
+                    "translation_native": "Talk with your father today.",
+                    "sentence_parts": [
+                        "Habla",
+                        "con",
+                        "tu",
+                        "padre",
+                        "hoy."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "padre",
+                "madre",
+                "hermano",
+                "abuelo"
+            ],
+            "correct_answer": "padre"
+        },
+        {
+            "word": "pollo",
+            "translation_english": "chicken",
+            "translation_native": "chicken",
+            "pronunciation": "po-yo",
+            "examples": [
+                {
+                    "sentence": "Come el pollo con arroz.",
+                    "translation_english": "Eat the chicken with rice.",
+                    "translation_native": "Eat the chicken with rice.",
+                    "sentence_parts": [
+                        "Come",
+                        "el",
+                        "pollo",
+                        "con",
+                        "arroz."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "pollo",
+                "carne",
+                "pescado",
+                "pan"
+            ],
+            "correct_answer": "pollo"
+        },
+        {
+            "word": "pie",
+            "translation_english": "foot",
+            "translation_native": "foot",
+            "pronunciation": "pyeh",
+            "examples": [
+                {
+                    "sentence": "Lava el pie con agua.",
+                    "translation_english": "Wash the foot with water.",
+                    "translation_native": "Wash the foot with water.",
+                    "sentence_parts": [
+                        "Lava",
+                        "el",
+                        "pie",
+                        "con",
+                        "agua."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "pie",
+                "mano",
+                "brazo",
+                "cabeza"
+            ],
+            "correct_answer": "pie"
+        },
+        {
+            "word": "profesor",
+            "translation_english": "teacher",
+            "translation_native": "teacher",
+            "pronunciation": "pro-fe-sor",
+            "examples": [
+                {
+                    "sentence": "Escucha al profesor con atención.",
+                    "translation_english": "Listen to the teacher with attention.",
+                    "translation_native": "Listen to the teacher with attention.",
+                    "sentence_parts": [
+                        "Escucha",
+                        "al",
+                        "profesor",
+                        "con",
+                        "atención."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "profesor",
+                "médico",
+                "policía",
+                "chofer"
+            ],
+            "correct_answer": "profesor"
+        },
+        {
+            "word": "baloncesto",
+            "translation_english": "basketball",
+            "translation_native": "basketball",
+            "pronunciation": "bah-lon-ses-to",
+            "examples": [
+                {
+                    "sentence": "Juega baloncesto en el patio.",
+                    "translation_english": "Play basketball in the patio.",
+                    "translation_native": "Play basketball in the patio.",
+                    "sentence_parts": [
+                        "Juega",
+                        "baloncesto",
+                        "en",
+                        "el",
+                        "patio."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "baloncesto",
+                "fútbol",
+                "tenis",
+                "béisbol"
+            ],
+            "correct_answer": "baloncesto"
+        },
+        {
+            "word": "computadora",
+            "translation_english": "computer",
+            "translation_native": "computer",
+            "pronunciation": "kom-poo-tah-do-rah",
+            "examples": [
+                {
+                    "sentence": "Usa la computadora para trabajar.",
+                    "translation_english": "Use the computer to work.",
+                    "translation_native": "Use the computer to work.",
+                    "sentence_parts": [
+                        "Usa",
+                        "la",
+                        "computadora",
+                        "para",
+                        "trabajar."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "computadora",
+                "televisión",
+                "radio",
+                "teléfono"
+            ],
+            "correct_answer": "computadora"
+        },
+        {
+            "word": "uva",
+            "translation_english": "grape",
+            "translation_native": "grape",
+            "pronunciation": "oo-vah",
+            "examples": [
+                {
+                    "sentence": "Come una uva muy pequeña.",
+                    "translation_english": "Eat a very small grape.",
+                    "translation_native": "Eat a very small grape.",
+                    "sentence_parts": [
+                        "Come",
+                        "una",
+                        "uva",
+                        "muy",
+                        "pequeña."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "uva",
+                "manzana",
+                "pera",
+                "plátano"
+            ],
+            "correct_answer": "uva"
+        },
+        {
+            "word": "vestido",
+            "translation_english": "dress",
+            "translation_native": "dress",
+            "pronunciation": "ves-tee-do",
+            "examples": [
+                {
+                    "sentence": "Compra el vestido muy largo.",
+                    "translation_english": "Buy the very long dress.",
+                    "translation_native": "Buy the very long dress.",
+                    "sentence_parts": [
+                        "Compra",
+                        "el",
+                        "vestido",
+                        "muy",
+                        "largo."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "vestido",
+                "camisa",
+                "pantalón",
+                "falda"
+            ],
+            "correct_answer": "vestido"
+        },
+        {
+            "word": "microondas",
+            "translation_english": "microwave",
+            "translation_native": "microwave",
+            "pronunciation": "mee-kro-on-das",
+            "examples": [
+                {
+                    "sentence": "Usa el microondas para calentar.",
+                    "translation_english": "Use the microwave to heat.",
+                    "translation_native": "Use the microwave to heat.",
+                    "sentence_parts": [
+                        "Usa",
+                        "el",
+                        "microondas",
+                        "para",
+                        "calentar."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "microondas",
+                "horno",
+                "refrigerador",
+                "lavadora"
+            ],
+            "correct_answer": "microondas"
+        },
+        {
+            "word": "camión",
+            "translation_english": "truck",
+            "translation_native": "truck",
+            "pronunciation": "kah-myon",
+            "examples": [
+                {
+                    "sentence": "Maneja el camión muy grande.",
+                    "translation_english": "Drive the very big truck.",
+                    "translation_native": "Drive the very big truck.",
+                    "sentence_parts": [
+                        "Maneja",
+                        "el",
+                        "camión",
+                        "muy",
+                        "grande."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "camión",
+                "coche",
+                "autobús",
+                "taxi"
+            ],
+            "correct_answer": "camión"
+        },
+        {
+            "word": "béisbol",
+            "translation_english": "baseball",
+            "translation_native": "baseball",
+            "pronunciation": "beh-is-bol",
+            "examples": [
+                {
+                    "sentence": "Juega béisbol en el campo.",
+                    "translation_english": "Play baseball in the field.",
+                    "translation_native": "Play baseball in the field.",
+                    "sentence_parts": [
+                        "Juega",
+                        "béisbol",
+                        "en",
+                        "el",
+                        "campo."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "béisbol",
+                "fútbol",
+                "tenis",
+                "baloncesto"
+            ],
+            "correct_answer": "béisbol"
+        },
+        {
+            "word": "abuela",
+            "translation_english": "grandmother",
+            "translation_native": "grandmother",
+            "pronunciation": "ah-bweh-lah",
+            "examples": [
+                {
+                    "sentence": "Visita a tu abuela hoy.",
+                    "translation_english": "Visit your grandmother today.",
+                    "translation_native": "Visit your grandmother today.",
+                    "sentence_parts": [
+                        "Visita",
+                        "a",
+                        "tu",
+                        "abuela",
+                        "hoy."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "abuela",
+                "madre",
+                "padre",
+                "hermano"
+            ],
+            "correct_answer": "abuela"
+        },
+        {
+            "word": "pescado",
+            "translation_english": "fish",
+            "translation_native": "fish",
+            "pronunciation": "pes-kah-do",
+            "examples": [
+                {
+                    "sentence": "Cocina el pescado con limón.",
+                    "translation_english": "Cook the fish with lemon.",
+                    "translation_native": "Cook the fish with lemon.",
+                    "sentence_parts": [
+                        "Cocina",
+                        "el",
+                        "pescado",
+                        "con",
+                        "limón."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "pescado",
+                "carne",
+                "pollo",
+                "pan"
+            ],
+            "correct_answer": "pescado"
+        },
+        {
+            "word": "brazo",
+            "translation_english": "arm",
+            "translation_native": "arm",
+            "pronunciation": "brah-so",
+            "examples": [
+                {
+                    "sentence": "Limpia el brazo con agua.",
+                    "translation_english": "Clean the arm with water.",
+                    "translation_native": "Clean the arm with water.",
+                    "sentence_parts": [
+                        "Limpia",
+                        "el",
+                        "brazo",
+                        "con",
+                        "agua."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "brazo",
+                "mano",
+                "pie",
+                "cabeza"
+            ],
+            "correct_answer": "brazo"
+        },
+        {
+            "word": "chofer",
+            "translation_english": "driver",
+            "translation_native": "driver",
+            "pronunciation": "cho-fer",
+            "examples": [
+                {
+                    "sentence": "Paga al chofer del taxi.",
+                    "translation_english": "Pay the taxi driver.",
+                    "translation_native": "Pay the taxi driver.",
+                    "sentence_parts": [
+                        "Paga",
+                        "al",
+                        "chofer",
+                        "del",
+                        "taxi."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "chofer",
+                "médico",
+                "policía",
+                "profesor"
+            ],
+            "correct_answer": "chofer"
+        },
+        {
+            "word": "plátano",
+            "translation_english": "banana",
+            "translation_native": "banana",
+            "pronunciation": "plah-tah-no",
+            "examples": [
+                {
+                    "sentence": "Come un plátano muy maduro.",
+                    "translation_english": "Eat a very ripe banana.",
+                    "translation_native": "Eat a very ripe banana.",
+                    "sentence_parts": [
+                        "Come",
+                        "un",
+                        "plátano",
+                        "muy",
+                        "maduro."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "plátano",
+                "manzana",
+                "pera",
+                "uva"
+            ],
+            "correct_answer": "plátano"
+        },
+        {
+            "word": "lavadora",
+            "translation_english": "washing machine",
+            "translation_native": "washing machine",
+            "pronunciation": "lah-vah-do-rah",
+            "examples": [
+                {
+                    "sentence": "Usa la lavadora para ropa.",
+                    "translation_english": "Use the washing machine for clothes.",
+                    "translation_native": "Use the washing machine for clothes.",
+                    "sentence_parts": [
+                        "Usa",
+                        "la",
+                        "lavadora",
+                        "para",
+                        "ropa."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "lavadora",
+                "horno",
+                "refrigerador",
+                "microondas"
+            ],
+            "correct_answer": "lavadora"
+        },
+        {
+            "word": "abuelo",
+            "translation_english": "grandfather",
+            "translation_native": "grandfather",
+            "pronunciation": "ah-bweh-lo",
+            "examples": [
+                {
+                    "sentence": "Llama a tu abuelo hoy.",
+                    "translation_english": "Call your grandfather today.",
+                    "translation_native": "Call your grandfather today.",
+                    "sentence_parts": [
+                        "Llama",
+                        "a",
+                        "tu",
+                        "abuelo",
+                        "hoy."
+                    ],
+                    "level": "easy"
+                }
+            ],
+            "options": [
+                "abuelo",
+                "padre",
+                "madre",
+                "hermano"
+            ],
+            "correct_answer": "abuelo"
+        }
+    ]
+}
